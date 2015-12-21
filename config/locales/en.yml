@@ -20,4 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  series: WGBH Series
+  exhibits: Scholar Exhibits
+  collections: Special Collections
