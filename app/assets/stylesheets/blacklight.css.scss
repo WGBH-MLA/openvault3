@@ -1,12 +1,12 @@
 // Bootstrap config:
 
-$grid-gutter-width: 30px;
-$container-large-desktop: (1200px + $grid-gutter-width);
-$screen-lg: $container-large-desktop; // Default is just 1200px, so our wide graphic was being chomped.
+//$grid-gutter-width: 30px;
+//$container-large-desktop: (1200px + $grid-gutter-width);
+//$screen-lg: $container-large-desktop; // Default is just 1200px, so our wide graphic was being chomped.
 
 // Local variables:
 
-$well-padding: 19px; // hardcoded internally.
+//$well-padding: 19px; // hardcoded internally.
 
 
 // Imports:
@@ -18,109 +18,6 @@ $well-padding: 19px; // hardcoded internally.
 
 // CSS overrides:
 
-.container {
-    background: $light-blue;
-    padding-bottom: 25px;
-}
-
-#main-container {
-    // so that sub-containers can be separated by background-blue.
-    background: $body-bg;
-}
-
-.navbar .head {
-   text-transform: uppercase; 
-}
-
-div.head {
-    text-align: center;
-    padding: 13px;
-    text-transform: uppercase;
-    margin-bottom: $well-padding;
-}
-
-.body {
-    margin-top: $well-padding * 2;
-}
-
-.btn {
-    // TODO: This is stylish, but should buttons be more obvious?
-    text-transform: uppercase;
-    border-radius: 0px;
-    border: none;
-}
-
-.btn-primary {
-    background: #EA6014;
-}
-
-#grid .head {
-    background: #F3AC32;
-    color: #FFF
-}
-
-#home-right .head {
-    background: #BDBA21;
-    color: #FFF
-}
-
-.well, .constraints-container {
-    border: none;
-    box-shadow: none;
-    border-radius: 0px;
-}
-
-nav, nav a {
-    color: #8FA6CF;
-}
-
-a {
-    color: $dark-blue;
-    &.thumb {
-        color: #000;
-    }
-}
-
-.top {
-    &.container {
-        background: $med-blue;
-        padding: $grid-gutter-width/2 $grid-gutter-width;
-    }
-    h1 {
-        color: #fff;
-    }
-    p {
-        color: $body-bg;
-    }
-}
-
-img {
-    // Shrinks proportionally as div shrinks
-    max-width: 100%;
-}
-
-input {
-    background: #939598;
-    color: #fff;
-}
-
-.inline-icon {
-    height: 1em;
-}
-
-p {
-    margin: 1em 0em 1em; // Blacklight sets a default with no padding above?
-}
-
-.thumb p {
-    margin: 0; // no margin below thumbs.
-}
-
-.col-md-12 {
-  // Default gives us gutters at the edges which are
-  // half the gutters in between the cells. We actually
-  // want the edge gutters just as wide.
-  // TODO: find a way to do this that doesn't affect *all* grids so we don't
-  //  have to reset it in other places, e.g. field_list.scss
-  padding: 0 $grid-gutter-width;
+body {
+    background: #FFF !important;
 }
