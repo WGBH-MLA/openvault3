@@ -11,11 +11,14 @@
       <div>
         <%= @collection.head_html.html_safe %>
       </div>
-      <% @tabs.keys.each do |tab| %>
+      <% (@tabs.keys - ['extra', 'credits']).each do |tab| %>
         <h2 class="tab"><%= link_to_unless(tab == params[:tab], tab.titlecase, tab) %></h2>
       <% end %>
       <div>
         <%= @collection.tabs[params[:tab]].html_safe %>
+      </div>
+      <div>
+        <%= @collection.tabs['extra'].html_safe %>
       </div>
     </div>
   </div>

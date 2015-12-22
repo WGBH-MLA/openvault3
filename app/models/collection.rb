@@ -3,7 +3,10 @@ class Collection < Cmless
   attr_reader :title_html
   attr_reader :head_html
   attr_reader :body_html
-
+  
+  attr_reader :extra
+  attr_reader :credits
+  
   def img_src()
     Nokogiri::HTML(head_html).xpath("//img/@src").first.tap do |src|
       return src.text
