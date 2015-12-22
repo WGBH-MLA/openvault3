@@ -14,17 +14,21 @@ class Collection < Cmless
     @tabs ||= begin
       doc = Nokogiri::HTML(body_html)
       Hash[
-        doc.xpath("//h2").map do |h2_el|
-          h2_text = h2_el.text
-          [self.class.norm(h2_text), Cmless.extract_html(doc, h2_text)]
+        doc.xpath("//h2").map do |tab_el|
+          tab_text = tab_el.text
+          [self.class.norm(tab_text), Cmless.extract_html(doc, tab_text)]
         end
       ]
     end
   end
   
+  def tab_path()
+    path + '/' + tabs.first.first
+  end
+  
   class << self
     def norm(s)
-      s.downcase.gsub(/\s/, '-')
+      s.downcase.gsub(/\W+/, '-')
     end
   end
   

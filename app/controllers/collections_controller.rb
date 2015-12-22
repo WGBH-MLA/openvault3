@@ -1,6 +1,6 @@
 class CollectionsController < ApplicationController
   def index
-    
+    @collections = Collection.objects_by_path
   end
   
   def show

@@ -7,6 +7,9 @@
     <div class="col-md-12">
       <h1><%= t('collections') %></h1>
       
+      <% @collections.each do |path, collection| %>
+        <h2><%= link_to(collection.title, '/collections/' + collection.tab_path) %></h2>
+      <% end %>
       
     </div>
   </div>
