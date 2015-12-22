@@ -1,0 +1,14 @@
+<% # container for all documents in index list view -%>
+<div id="documents" class="documents-<%= document_index_view_type %>">
+  <% documents.in_groups_of(4, false) do |document_group| %>
+    <div class="row">
+      <% document_group.each_with_index do |document, i| %>
+        <div class="col-md-3">
+          <div class="document <%= render_document_class document %>" itemscope itemtype="<%= document.itemtype %>">
+            <%= render_document_partials document, blacklight_config.view_config(document_index_view_type).partials, document_counter: i %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
