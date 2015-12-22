@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   get 'collections', to: 'collections#index'
   get 'collections/:id/:tab', to: 'collections#show'
   
-  resources :exhibits,
-    only: [:index, :show]
+  get 'exhibits', to: 'exhibits#index'
+  get 'exhibits/:id/:tab', to: 'exhibits#show'
   
   resources :series,
     only: [:index]
