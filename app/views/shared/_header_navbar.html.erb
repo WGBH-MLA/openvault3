@@ -1,18 +1,20 @@
 <div id="header" class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-      <a href="/"><img src="ov-logo.png"/></a>
-      <br/><br/>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="/"><img src="ov-logo.png"/></a>
+        <br/><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <form action="/catalog">
+          <input name="q" onchange="this.form.submit()"/>
+        </form>
+      </div>
+      <div class="col-md-2"><%= link_to(t('series'), '/series') %></div>
+      <div class="col-md-2"><%= link_to(t('exhibits'), '/exhibits') %></div>
+      <div class="col-md-2"><%= link_to(t('collections'), '/collections') %></div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6">
-      <form action="/catalog">
-        <input name="q" onchange="this.form.submit()"/>
-      </form>
-    </div>
-    <div class="col-md-2"><%= link_to(t('series'), '/series') %></div>
-    <div class="col-md-2"><%= link_to(t('exhibits'), '/exhibits') %></div>
-    <div class="col-md-2"><%= link_to(t('collections'), '/collections') %></div>
-  </div>
-</div> 
+</div>
