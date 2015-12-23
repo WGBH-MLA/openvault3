@@ -1,5 +1,5 @@
 <% content_for(:page_title) do %>
-  <%= t('exhbits') + ' - ' + t('blacklight.application_name') %>
+  <%= t('exhibits') + ' - ' + t('blacklight.application_name') %>
 <% end %>
 
 <div class="container-fluid">
@@ -11,14 +11,19 @@
       <div>
         <%= @exhibit.head_html.html_safe %>
       </div>
-      <% (@tabs.keys).each do |tab| %>
-        <h2 class="tab"><%= link_to_unless(tab == params[:tab], tab.titlecase, tab) %></h2>
-      <% end %>
-      <div>
-        <%= @exhibit.tabs[params[:tab]].html_safe %>
+    </div>
+  </div>
+  <div class="row">
+    <% (@tabs.keys).each do |tab| %>
+      <% is_current = tab == params[:tab] %>
+      <div class="tab col-md-2 <%= 'tab-current' if is_current %>">
+        <%= link_to_unless(is_current, tab.titlecase, tab) %>
       </div>
+    <% end %>
+  </div>
+  <div class="row">
+    <div>
+      <%= @exhibit.tabs[params[:tab]].html_safe %>
     </div>
   </div>
 </div>
-
-
