@@ -5,12 +5,12 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      <p><%= t('exhibits') %></p>
+      <a href="/exhibits"><%= t('exhibits') %></a>
       <h1>
         <%= @exhibit.title_html %>
       </h1>
       <h2>
-        By <%= @exhibit.author %>
+        By <a href="authors"><%= @exhibit.author %></a>
       </h2>
     </div>
   </div>
