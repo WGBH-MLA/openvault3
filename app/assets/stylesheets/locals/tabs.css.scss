@@ -3,7 +3,9 @@
     padding: 1em;
     margin: 1em;
     background: $yellow;
+    color: $dark-blue;
     &.tab-current {
         background: $light-blue;
+        color: #FFF;
     }
 }

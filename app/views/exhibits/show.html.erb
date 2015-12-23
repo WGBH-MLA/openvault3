@@ -5,12 +5,13 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
+      <p><%= t('exhibits') %></p>
       <h1>
         <%= @exhibit.title_html %>
       </h1>
-      <div>
-        <%= @exhibit.head_html.html_safe %>
-      </div>
+      <h2>
+        By <%= @exhibit.author %>
+      </h2>
     </div>
   </div>
   <div class="row">
@@ -22,7 +23,7 @@
     <% end %>
   </div>
   <div class="row">
-    <div>
+    <div class="col-md-12">
       <%= @exhibit.tabs[params[:tab]].html_safe %>
     </div>
   </div>
