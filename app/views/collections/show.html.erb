@@ -13,14 +13,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <% (@tabs.keys - ['extra', 'credits']).each do |tab| %>
-      <% is_current = tab == params[:tab] %>
-      <div class="tab col-md-2 <%= 'tab-current' if is_current %>">
-        <%= link_to_unless(is_current, tab.titlecase, tab) %>
-      </div>
-    <% end %>
-  </div>
+  <%= render partial: 'shared/tab_row' %>
   <div class="row">
     <div class="col-md-12">
       <%= @collection.tabs[params[:tab]].html_safe %>
