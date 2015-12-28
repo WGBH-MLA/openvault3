@@ -17,8 +17,7 @@ Most programs are no longer available for distribution. Please refer to
 [shop.wgbh.org](http://shop.wgbh.org) and [www.shoppbs.org](http://www.shoppbs.org)
 for the latest catalog of programs available for distribution.
 
-##  Can I buy copies of source materials (interviews, news footage, b-roll, 
-etc)?
+##  Can I buy copies of source materials (interviews, news footage, b-roll, etc)?
 
 For professional licensing requests, please contact WGBH Stock Sales at 
 617-300-3939 or <a href="mailto:stock_sales@wgbh.org">stock_sales@wgbh.org</a>.
@@ -28,8 +27,7 @@ For professional licensing requests, please contact WGBH Stock Sales at
 Individuals wishing to visit the Archives should be engaged in educational 
 research. Please see [Visit the Archive](/visiting-the-archives) for further information.
 
-##  Can you provide me with contact information for any of the people in the 
-clips?
+##  Can you provide me with contact information for any of the people in the clips?
 
 WGBH Educational Foundation cannot provide the names, addresses, telephone 
 numbers, or e-mail addresses of individuals, next of kin, estates, or related 
