@@ -1,0 +1,18 @@
+#header {
+    background: $dark-blue;
+    img,input {
+        width: 250px;
+    }
+    input {
+        color: #000;
+    }
+}
+
+#footer {
+    background: $grey;
+}
+
+#header,#footer {
+    padding: 2em;
+    &, a { color: #FFF; }
+}

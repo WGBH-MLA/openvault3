@@ -21,6 +21,6 @@
 
 @import 'blacklight'; // Before locals so it can be over-ridden; after globals so it has variables.
 
-@import "locals/footer";
-@import "locals/header";
-@import "locals/home-index.css.scss"
+@import "locals/header-footer";
+@import "locals/home-index";
+@import "locals/tabs";

@@ -1,0 +1,23 @@
+<% content_for(:page_title) do %>
+  <%= t('exhibits') + ' - ' + t('blacklight.application_name') %>
+<% end %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="/exhibits"><%= t('exhibits') %></a>
+      <h1>
+        <%= @exhibit.title_html %>
+      </h1>
+      <h2>
+        By <a href="authors"><%= @exhibit.author %></a>
+      </h2>
+    </div>
+  </div>
+  <%= render partial: 'shared/tab_row' %>
+  <div class="row">
+    <div class="col-md-12">
+      <%= @exhibit.tabs[params[:tab]].html_safe %>
+    </div>
+  </div>
+</div>
