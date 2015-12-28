@@ -1,5 +1,7 @@
 # The Advocates
 
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/advocates/advocates-400.jpg' class='pull-left'/>
+
 A series of debates with a moderator facilitating the discussion of national 
 and international issues – using advocates who would introduce witnesses to 
 support their point of view. Debates recorded at Boston’s Faneuil Hall. 
@@ -14,7 +16,3 @@ TODO
 ## Extra
 
 TODO Extra
-
-## Credits
-
-TODO Credits

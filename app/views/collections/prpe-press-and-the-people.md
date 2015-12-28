@@ -1,5 +1,7 @@
 # Press and the People
 
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/press/press-400.jpg' class='pull-left'/>
+
 Groundbreaking in concept, Press and the People was one of the first series to 
 explore how newspaper and television reporters covered key events in the 1950s, 
 and how that shaped public opinion and knowledge on issues such as the nuclear 
@@ -18,7 +20,3 @@ TODO program
 ## Extra
 
 TODO Extra
-
-## Credits
-
-TODO Credits

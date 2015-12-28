@@ -1,0 +1,24 @@
+.blacklight-collections-index {
+    #main-container {
+        img {
+            width: ($container-md - 2*$grid-gutter-width) / 3; // ie, the width of col-md-4
+            height: 200px; // TODO: What we need are appropriately cropped images.
+            margin-bottom: $grid-gutter-width;
+        }
+        h2 {
+           position: absolute;
+           bottom: 0px;
+           left: 0px;
+           margin: $grid-gutter-width $grid-gutter-width/2;
+           background-color: $grey;
+           padding: $grid-gutter-width/4;
+        }
+    }
+}
+
+.blacklight-collections-show {
+    img.pull-left {
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+}

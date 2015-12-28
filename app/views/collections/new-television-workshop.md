@@ -1,5 +1,7 @@
 # New Television Workshop
 
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/ntw/ntw-400.jpg' class='pull-left'/>
+
 The New Television Workshop at WGBH supported the creation and broadcast of 
 experimental works by artists from 1974 to 1993. The New Television Workshop 
 Collection was preserved, arranged, and described by the WGBH Media Library and 
@@ -27,7 +29,3 @@ TODO frames
 ## Extra
 
 TODO Extra
-
-## Credits
-
-TODO Credits
