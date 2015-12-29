@@ -1,5 +1,9 @@
 # Say Brother
 
+005
+
+## intro
+
 <img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/say-brother/say-brother-400x225.jpg' class='pull-left'/>
 
 Say Brother is WGBH’s longest-running public affairs television program by, for 
@@ -23,8 +27,6 @@ TODO Rights
 
 TODO Performances
 
-
-
-## Extra
+## extra
 
 TODO Extra

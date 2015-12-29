@@ -1,5 +1,5 @@
 <div class="row">
-  <% (@tabs.keys).each do |tab| %>
+  <% (@tabs.keys).reject(skip).each do |tab| %>
     <% is_current = tab == params[:tab] %>
     <div class="tab col-md-2 <%= 'tab-current' if is_current %>">
       <%= link_to_unless(is_current, tab.titlecase, tab) %>

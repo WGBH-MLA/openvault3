@@ -1,6 +1,6 @@
 class ExhibitsController < ApplicationController
   def index
-    @exhibits = Exhibit.objects_by_path
+    @exhibits = Exhibit.all
   end
   
   def show

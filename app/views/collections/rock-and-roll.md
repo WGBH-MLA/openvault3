@@ -1,5 +1,9 @@
 # Rock and Roll
 
+007
+
+## intro
+
 <img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/rock-and-roll/rock-and-roll-400x225.jpg' class='pull-left'/>
 
 This ten-part series explores the musical styles, influences, and complex 
@@ -19,8 +23,6 @@ TODO Interviews
 
 TODO Programs
 
-
-
-## Extra
+## extra
 
 TODO Extra

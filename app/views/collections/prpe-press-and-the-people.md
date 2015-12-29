@@ -1,5 +1,9 @@
 # Press and the People
 
+006
+
+## intro
+
 <img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/press/press-400x225.jpg' class='pull-left'/>
 
 Groundbreaking in concept, Press and the People was one of the first series to 
@@ -15,8 +19,6 @@ current events.
 
 TODO program
 
-
-
-## Extra
+## extra
 
 TODO Extra

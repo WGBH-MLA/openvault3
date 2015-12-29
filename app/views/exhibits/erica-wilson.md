@@ -1,5 +1,11 @@
 # The Julia Child of Needlework: Erica Wilson’s Legacy in Stitches and on Television
 
+001
+
+## intro
+
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jpg' class='pull-left'/>
+
 ## Abstract
 
 Erica Moira Susan Wilson (1928-2011) has been called the “Julia Child of Needlework,” and her impact on the field of sewing and craft-related television has arguably been as great as that of Julia Child on the TV cooking program genre. Like Child, who made archaic aspects of French cookery accessible to a popular audience, Wilson revived and modernized old-fashioned needlework techniques with boundless enthusiasm. In Wilson’s obituary in The Guardian, Veronica Horwell wrote, “Wilson shared some of Child's enthusiastic style and all of her ambition to demystify and democratize what had become arcane skills.” This essay explores Erica Wilson’s work and her tremendous impacts both on needlework and on public television, as evidenced through the lens of Erica, a program produced by WGBH in 1971-72 and 1975-6 and broadcast on PBS stations nationally. 
@@ -33,3 +39,5 @@ TODO
 Dr. Amanda Grace Sikarskie is Adjunct Assistant Professor in the Department of History at Western Michigan University and Adjunct Assistant Professor in the Museum Studies Program at Michigan State University. She is also a Research Associate with the Quilt Index, an online archive providing preservation and access for images and metadata of over 60,000 quilts held in collections across the United States and around the world. Dr. Sikarskie’s research examines the history of quilts and quiltmaking, as well as the role of digital tools in bringing quilt history to the public, and she has published and presented extensively on American quilts and needlework. 
 
 Additional Credits: Adviser Consulted During the Creation of this Collection: Marsha MacDowell, Ph.D. Marsha is Curator, Michigan State University Museum, and Professor, Department of Art, Art History, and Design, Michigan State University. Her research foci includes traditional material culture (especially quilts), folk arts and education, and museum theory and practice. 
+
+## extra

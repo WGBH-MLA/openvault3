@@ -1,5 +1,9 @@
 # War and Peace in the Nuclear Age
 
+003
+
+## intro
+
 <img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jpg' class='pull-left'/>
 
 War and Peace in the Nuclear Age, first broadcast in 1989, is a thirteen-part 
@@ -28,6 +32,6 @@ TODO Programs
 
 TODO Stock
 
-## Extra
+## extra
 
 TODO Extra

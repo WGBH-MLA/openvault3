@@ -10,11 +10,11 @@
         <%= @exhibit.title_html %>
       </h1>
       <h2>
-        By <a href="authors"><%= @exhibit.author %></a>
+        By <a href="authors">TODO</a>
       </h2>
     </div>
   </div>
-  <%= render partial: 'shared/tab_row' %>
+  <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
       <%= @exhibit.tabs[params[:tab]].html_safe %>

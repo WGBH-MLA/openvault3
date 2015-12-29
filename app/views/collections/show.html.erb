@@ -10,11 +10,11 @@
         <%= @collection.title_html %>
       </h1>
       <div>
-        <%= @collection.head_html.html_safe %>
+        <%= @collection.tabs['intro'].html_safe %>
       </div>
     </div>
   </div>
-  <%= render partial: 'shared/tab_row' %>
+  <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
       <%= @collection.tabs[params[:tab]].html_safe %>
