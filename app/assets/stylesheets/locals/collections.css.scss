@@ -1,17 +1,19 @@
 .blacklight-collections-index {
     #main-container {
         img {
-            width: ($container-md - 2*$grid-gutter-width) / 3; // ie, the width of col-md-4
+            width: $container-md/3 - $grid-gutter-width; // ie, the width of col-md-4
             height: 200px; // TODO: What we need are appropriately cropped images.
-            margin-bottom: $grid-gutter-width;
+            margin-bottom: 0;
         }
         h2 {
-           position: absolute;
-           bottom: 0px;
-           left: 0px;
-           margin: $grid-gutter-width $grid-gutter-width/2;
-           background-color: $grey;
-           padding: $grid-gutter-width/4;
+           background-color: $yellow;
+           color: $dark-blue;
+           padding: $grid-gutter-width*0.5 $grid-gutter-width;
+           text-transform: uppercase;
+           font-size: 20px;
+           margin-top: 0;
+           margin-bottom: $grid-gutter-width;
+           height: 75px;
         }
     }
 }

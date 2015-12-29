@@ -4,4 +4,20 @@
         a { color: $dark-blue; }
         padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
     }
+ 
+    // Text with transparent background
+/*        img {
+            width: ($container-md - 2*$grid-gutter-width) / 3; // ie, the width of col-md-4
+            height: 200px; // TODO: What we need are appropriately cropped images.
+            margin-bottom: $grid-gutter-width;
+        }
+        h2 {
+           position: absolute;
+           bottom: 0px;
+           left: 0px;
+           margin: $grid-gutter-width $grid-gutter-width/2;
+           background-color: $transparent;
+           color: #FFF;
+           padding: $grid-gutter-width/4;
+        }*/
 }
