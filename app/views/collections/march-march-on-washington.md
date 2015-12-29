@@ -1,6 +1,6 @@
 # March on Washington
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/march/march-400.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/march/march-400x225.jpg' class='pull-left'/>
 
 The 1963 March on Washington for Jobs and Freedom featured an estimated 250,000 
 peaceful demonstrators walking from the Washington Monument to the Lincoln 

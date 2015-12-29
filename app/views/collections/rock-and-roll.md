@@ -1,6 +1,6 @@
 # Rock and Roll
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/rock-and-roll/rock-and-roll-400.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/rock-and-roll/rock-and-roll-400x225.jpg' class='pull-left'/>
 
 This ten-part series explores the musical styles, influences, and complex 
 creative processes that have allowed rock to endure, from its renegade 

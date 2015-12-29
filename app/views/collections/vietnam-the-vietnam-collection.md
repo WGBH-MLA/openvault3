@@ -1,6 +1,6 @@
 # The Vietnam Collection
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/vietnam/vietnam-400.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/vietnam/vietnam-400x225.jpg' class='pull-left'/>
 
 Vietnam: A Television History was a landmark documentary series produced by 
 WGBH. This collection contains most of the materials gathered and created for 

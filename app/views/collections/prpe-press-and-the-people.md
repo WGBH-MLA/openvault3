@@ -1,6 +1,6 @@
 # Press and the People
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/press/press-400.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/press/press-400x225.jpg' class='pull-left'/>
 
 Groundbreaking in concept, Press and the People was one of the first series to 
 explore how newspaper and television reporters covered key events in the 1950s, 

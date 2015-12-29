@@ -1,6 +1,6 @@
 # War and Peace in the Nuclear Age
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jpg' class='pull-left'/>
 
 War and Peace in the Nuclear Age, first broadcast in 1989, is a thirteen-part 
 PBS series on the origins and evolution of nuclear competition between the 

@@ -1,8 +1,8 @@
 .blacklight-collections-index {
     #main-container {
         img {
-            width: $container-md/3 - $grid-gutter-width; // ie, the width of col-md-4
-            height: 200px; // TODO: What we need are appropriately cropped images.
+            width: 100%;
+            //height: 100%;
             margin-bottom: 0;
         }
         h2 {
