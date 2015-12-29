@@ -1,0 +1,8 @@
+<% sets.each do |set| %>
+  <div class="col-md-4 col-sm-6">
+    <a href="<%= '/' + path + '/' + set.tab_path %>">
+      <img src="<%= set.img_src %>"/>
+      <h2><%= set.title %></h2>
+    </a>
+  </div>
+<% end %>

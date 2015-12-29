@@ -9,15 +9,8 @@
     </div>
   </div>
   <div class="row">
-      
-    <% @collections.each do |path, collection| %>
-      <div class="col-md-4 col-sm-6">
-        <a href="<%= '/collections/' + collection.tab_path %>">
-          <img src="<%= collection.img_src %>"/>
-          <h2><%= collection.title %></h2>
-        </a>
-      </div>
-    <% end %>
+    
+  <%= render partial: 'shared/grid', locals: {sets: @collections.values, path: 'collections'} %>
       
   </div>
 </div>
