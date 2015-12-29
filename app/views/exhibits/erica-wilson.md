@@ -6,6 +6,10 @@
 
 <img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jpg' class='pull-left'/>
 
+## author
+
+Dr. Amanda Grace Sikarskie
+
 ## Abstract
 
 Erica Moira Susan Wilson (1928-2011) has been called the “Julia Child of Needlework,” and her impact on the field of sewing and craft-related television has arguably been as great as that of Julia Child on the TV cooking program genre. Like Child, who made archaic aspects of French cookery accessible to a popular audience, Wilson revived and modernized old-fashioned needlework techniques with boundless enthusiasm. In Wilson’s obituary in The Guardian, Veronica Horwell wrote, “Wilson shared some of Child's enthusiastic style and all of her ambition to demystify and democratize what had become arcane skills.” This essay explores Erica Wilson’s work and her tremendous impacts both on needlework and on public television, as evidenced through the lens of Erica, a program produced by WGBH in 1971-72 and 1975-6 and broadcast on PBS stations nationally. 

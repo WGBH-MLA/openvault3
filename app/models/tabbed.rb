@@ -24,7 +24,8 @@ class Tabbed < Cmless
   end
   
   def tab_path()
-    path + '/' + tabs.first.first
+    path + '/' + tabs.keys.reject { |k| k == 'intro' || k == 'author' }.first
+    # TODO: This is fragile, but I don't want to make the configuration more complicated.
   end
   
   class << self

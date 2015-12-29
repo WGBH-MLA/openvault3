@@ -3,7 +3,12 @@
     <a href="<%= '/' + path + '/' + set.tab_path %>">
       <!-- Sort order: <%= set.head_html.gsub('<p>', '').to_f %> -->
       <img src="<%= set.img_src %>"/>
-      <h2><%= set.title %></h2>
+      <div class="info">
+        <h2><%= set.title %></h2>
+        <% if set.respond_to? :author %>
+          <%= set.author %>
+        <% end %>
+      </div>
     </a>
   </div>
 <% end %>

@@ -4,15 +4,36 @@
             width: 100%;
             margin-bottom: 0;
         }
-        h2 {
+        .info {
            background-color: $yellow;
            color: $dark-blue;
            padding: $grid-gutter-width*0.5 $grid-gutter-width;
-           text-transform: uppercase;
-           font-size: 20px;
            margin-top: 0;
            margin-bottom: $grid-gutter-width;
-           height: 75px;
+           h2 {
+               margin: 0;
+           }
+        }
+    }
+}
+
+.blacklight-exhibits-index {
+    #main-container {
+        .info {
+            h2 { font-size: 18px; } // Smaller font
+            height: 120px; // Needs more space
+        }
+    }
+}
+
+.blacklight-collections-index {
+    #main-container {
+        .info {
+            h2 {
+              font-size: 20px; // Bigger font
+              text-transform: uppercase; // Scholar exhibits have longer titles: less readable in all caps.
+            }
+            height: 75px; // Don't need as much space.
         }
     }
 }
