@@ -17,10 +17,10 @@
   <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
-      <%= @collection.tabs[params[:tab]].html_safe %>
+      <%= @collection.tabs[params[:tab]].html_safe if @collection.tabs[params[:tab]]%>
     </div>
     <div class="col-md-12">
-      <%= @collection.tabs['extra'].html_safe %>
+      <%= @collection.tabs['extra'].html_safe if @collection.tabs['extra']%>
     </div>
   </div>
 </div>
