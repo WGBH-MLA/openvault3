@@ -4,7 +4,7 @@
 
 ## intro
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/collections/advocates/advocates-400x225.jpg' class='pull-left'/>
+<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/advocates/advocates.png' class='pull-left'/>
 
 A series of debates with a moderator facilitating the discussion of national 
 and international issues – using advocates who would introduce witnesses to 
