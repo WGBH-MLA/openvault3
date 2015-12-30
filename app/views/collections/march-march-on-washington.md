@@ -1,5 +1,11 @@
 # March on Washington
 
+6
+
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/march_washington/march_washington.png)
+
+## intro
+
 The 1963 March on Washington for Jobs and Freedom featured an estimated 250,000 
 peaceful demonstrators walking from the Washington Monument to the Lincoln 
 Memorial to hear a political call to arms for economic equality and civil 
@@ -19,12 +25,6 @@ TODO Revisit
 
 TODO Photographs
 
-
-
-## Extra
+## extra
 
 TODO Extra
-
-## Credits
-
-TODO Credits

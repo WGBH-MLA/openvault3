@@ -1,5 +1,11 @@
 # Say Brother
 
+3
+
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/say_brother/say_brother.png)
+
+## intro
+
 Say Brother is WGBH’s longest-running public affairs television program by, for 
 and about African Americans, now known as Basic Black. In April 2000, the WGBH 
 Media Library and Archives in Boston was awarded a National Endowment for the 
@@ -21,12 +27,6 @@ TODO Rights
 
 TODO Performances
 
-
-
-## Extra
+## extra
 
 TODO Extra
-
-## Credits
-
-TODO Credits

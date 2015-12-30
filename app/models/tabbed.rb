@@ -7,6 +7,8 @@ class Tabbed < Cmless
     Nokogiri::HTML(head_html).xpath("//img/@src").first.tap do |src|
       return src.text
     end
+  rescue
+    raise "Problem with #{title}: #{$!}"
   end
   
   def tabs()
@@ -22,7 +24,13 @@ class Tabbed < Cmless
   end
   
   def tab_path()
-    path + '/' + tabs.first.first
+    first_tab = tabs.keys.reject { |k| k == 'intro' || k == 'author' }.first
+    # TODO: This is fragile, but I don't want to make the configuration more complicated.
+    if first_tab
+      path + '/' + first_tab
+    else
+      path
+    end
   end
   
   class << self

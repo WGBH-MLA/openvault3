@@ -6,21 +6,16 @@
   <div class="row">
     <div class="col-md-12">
       <a href="/collections"><%= t('collections') %></a>
-      <h1>
-        <%= @collection.title_html %>
-      </h1>
-      <div>
-        <%= @collection.head_html.html_safe %>
-      </div>
+      <%= render partial: 'shared/above_tabs', locals: {set: @collection} %>
     </div>
   </div>
-  <%= render partial: 'shared/tab_row' %>
+  <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
-      <%= @collection.tabs[params[:tab]].html_safe %>
+      <%= @collection.tabs[params[:tab]].html_safe if @collection.tabs[params[:tab]]%>
     </div>
     <div class="col-md-12">
-      <%= @collection.tabs['extra'].html_safe %>
+      <%= @collection.tabs['extra'].html_safe if @collection.tabs['extra']%>
     </div>
   </div>
 </div>

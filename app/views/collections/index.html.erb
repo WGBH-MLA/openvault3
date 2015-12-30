@@ -6,11 +6,9 @@
   <div class="row">
     <div class="col-md-12">
       <h1><%= t('collections') %></h1>
-      
-      <% @collections.each do |path, collection| %>
-        <h2><%= link_to(collection.title, '/collections/' + collection.tab_path) %></h2>
-      <% end %>
-      
     </div>
+  </div>
+  <div class="row">
+    <%= render partial: 'shared/grid', locals: {sets: @collections, path: 'collections'} %>  
   </div>
 </div>
