@@ -2,9 +2,9 @@
 
 3
 
-## intro
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/say_brother/say_brother.png)
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/say_brother/say_brother.png' class='pull-left'/>
+## intro
 
 Say Brother is WGBH’s longest-running public affairs television program by, for 
 and about African Americans, now known as Basic Black. In April 2000, the WGBH 

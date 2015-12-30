@@ -40,8 +40,11 @@
 }
 
 .blacklight-collections-show {
-    img.pull-left {
-        margin-right: 1em;
-        margin-bottom: 1em;
+    div.pull-left img {
+        // This is very ad hoc.
+        margin-left: -$grid-gutter-width/2;
+        margin-right: $grid-gutter-width/2;
+        margin-bottom: $grid-gutter-width;
+        width: 100%;
     }
 }

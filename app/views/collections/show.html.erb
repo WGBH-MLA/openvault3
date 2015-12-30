@@ -6,12 +6,7 @@
   <div class="row">
     <div class="col-md-12">
       <a href="/collections"><%= t('collections') %></a>
-      <h1>
-        <%= @collection.title_html %>
-      </h1>
-      <div>
-        <%= @collection.tabs['intro'].html_safe %>
-      </div>
+      <%= render partial: 'shared/above_tabs', locals: {set: @collection} %>
     </div>
   </div>
   <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'extra']}%>

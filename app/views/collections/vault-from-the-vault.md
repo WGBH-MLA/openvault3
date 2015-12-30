@@ -2,9 +2,9 @@
 
 7
 
-## intro
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/from_the_vault/from_the_vault.png)
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/from_the_vault/from_the_vault.png' class='pull-left'/>
+## intro
 
 The steel shelves of the WGBH vault hold six decades of radio and television programs, 
 an exuberant collection of finished shows and outtakes, successes and missteps, all 

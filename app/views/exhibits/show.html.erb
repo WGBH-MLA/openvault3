@@ -6,12 +6,7 @@
   <div class="row">
     <div class="col-md-12">
       <a href="/exhibits"><%= t('exhibits') %></a>
-      <h1>
-        <%= @exhibit.title_html %>
-      </h1>
-      <h2>
-        By <%= @exhibit.author.html_safe %>
-      </h2>
+      <%= render partial: 'shared/above_tabs', locals: {set: @exhibit} %>
     </div>
   </div>
   <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'author', 'extra']}%>

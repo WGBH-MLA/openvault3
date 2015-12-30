@@ -4,7 +4,7 @@ class Tabbed < Cmless
   attr_reader :body_html
   
   def img_src()
-    Nokogiri::HTML(body_html).xpath("//img/@src").first.tap do |src|
+    Nokogiri::HTML(head_html).xpath("//img/@src").first.tap do |src|
       return src.text
     end
   rescue

@@ -2,9 +2,9 @@
 
 4
 
-## intro
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/rock_roll/rock_roll.png)
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/rock_roll/rock_roll.png' class='pull-left'/>
+## intro
 
 This ten-part series explores the musical styles, influences, and complex 
 creative processes that have allowed rock to endure, from its renegade 

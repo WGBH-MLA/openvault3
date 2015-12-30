@@ -2,9 +2,9 @@
 
 8
 
-## intro
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/ntw/ntw.png)
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/ntw/ntw.png' class='pull-left'/>
+## intro
 
 The New Television Workshop at WGBH supported the creation and broadcast of 
 experimental works by artists from 1974 to 1993. The New Television Workshop 

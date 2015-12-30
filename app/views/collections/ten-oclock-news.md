@@ -2,9 +2,9 @@
 
 10
 
-## intro
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/tocn.png)
 
-<img src='https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/tocn.png' class='pull-left'/>
+## intro
 
 The Ten O'Clock News was a nightly news program produced and broadcast by WGBH. 
 A local program aimed at the Boston audience, The Ten O'Clock News debuted on 
