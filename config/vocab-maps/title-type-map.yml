@@ -1,0 +1,27 @@
+# Case-insensitive substring on the left,
+# replacement on the right.
+#
+# Order on the right dictates preference for main title.
+#
+# Final line is a fall-through.
+
+!omap
+  label: Label
+  collection: Collection
+  series: Series
+  program: Program
+  segment: Segment
+  number: Episode Number
+  epospde: Episode
+  episode: Episode
+  clip: Clip
+  advertis: Promo
+  trailer: Promo
+  promo: Promo
+  raw: Raw Footage
+  field tape: Raw Footage
+  element: Raw Footage
+  b-roll: Raw Footage
+  b roll: Raw Footage
+  album: Album
+  '': Title

@@ -1,7 +1,16 @@
-# A secret token used to encrypt user_id's in the Bookmarks#export callback URL
-# functionality, for example in Refworks export of Bookmarks. In Rails 4, Blacklight
-# will use the application's secret key base instead.
-#
+module LoadXML
+  def method_missing(method, *args, &block)
+    if PBCore.instance_methods(false).include?(method)
+      # TODO: PBCore was not defined soon enough. Must be a better way?
+      @pbcore = Object.const_get('PBCore').new(self['xml_ssm']) unless @pbcore
+      @pbcore.send(method)
+    else
+      super
+    end
+  end
+end
 
-Blacklight.secret_key = 'f2ab3bbb189e33b2a0dc019673c534c0c48cc6e205f76d322f85f21c19e8bfebaf5d8033130c21bffef2aaad8bf02ab9edc3272f1e5a3a0c3c6058151f52a167'
+SolrDocument.use_extension(LoadXML) { true }
+# TODO: should we just be able to redefine SolrDocument the normal way?
 
+Blacklight.secret_key = ENV['BLACKLIGHT_SECRET_KEY'] || 'not a secure key, please change'
