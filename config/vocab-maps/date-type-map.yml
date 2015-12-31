@@ -1,0 +1,16 @@
+# Case-insensitive substring on the left,
+# replacement on the right.
+# Final line is a fall-through.
+
+!omap
+  broadcast: Broadcast
+  air: Broadcast
+  issue: Broadcast
+  published: Broadcast
+  release: Broadcast
+  created: Created
+  recorded: Created
+  performance: Created
+  revised: Revised
+  copyright: Copyright
+  '': Date
