@@ -12,7 +12,7 @@
         // The flash div takes up one vertical pixel. This hides it.
         // Not convinced this is the best approach.
         margin-top: -1px;
-        
+                
         .panel-group {
             .panel-heading {
                 background: #FFF;
@@ -21,14 +21,20 @@
             .panel-collapse {
                 background: #FFF;
                 .panel-body {
-                    background: #FFF;
+                    background: $light-grey;
+                    font-weight: bold;
+                    a { color: #000; }
                 }
             }
         }
-        
-        .facet-content .panel-body {
-            position: absolute;
-            // So unfolding the facet won't bump the screen. 
+
+        @media (min-width: $screen-md-min) {
+            .facet-content .panel-body {
+                position: absolute;
+                // So unfolding the facet won't bump the screen.
+                // (but in xs and sm controls are stacked, and they need to bump.)
+            }
         }
+        
     }
 }
