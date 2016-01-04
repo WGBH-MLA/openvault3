@@ -1,0 +1,34 @@
+.blacklight-catalog-index {
+    #sidebar {
+        background: $light-blue;
+        
+        // Trick to get background full window width.
+        // "Right" way might be to change the DOM structure to un-nest this.
+        margin-left: -10*$grid-gutter-width;
+        margin-right: -10*$grid-gutter-width;
+        padding-left: 10*$grid-gutter-width;
+        padding-right: 10*$grid-gutter-width;
+        
+        // The flash div takes up one vertical pixel. This hides it.
+        // Not convinced this is the best approach.
+        margin-top: -1px;
+        
+        .panel-group {
+            .panel-heading {
+                background: #FFF;
+                border-radius: 0px;
+            }
+            .panel-collapse {
+                background: #FFF;
+                .panel-body {
+                    background: #FFF;
+                }
+            }
+        }
+        
+        .facet-content .panel-body {
+            position: absolute;
+            // So unfolding the facet won't bump the screen. 
+        }
+    }
+}
