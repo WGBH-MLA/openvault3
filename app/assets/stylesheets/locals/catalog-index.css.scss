@@ -23,6 +23,16 @@
                 .panel-body {
                     background: $light-grey;
                     font-weight: bold;
+                    // So the pull-down is the same width as the button above.
+                    // TODO: find something better?
+                    //@media (min-width: $screen-md-min) { width: 131.667px; }
+                    //@media (min-width: $screen-lg-min) { width: 165px; }
+                    @media (min-width: $screen-md-min) { width: ($screen-md-min) * 2/$grid-columns - $grid-gutter-width - 4px; }
+                    @media (min-width: $screen-lg-min) { width: ($screen-lg-min) * 2/$grid-columns - $grid-gutter-width - 5px; }
+                    // This comes from the bootstrap definition: ($screen-__-min) * 2/$grid-columns
+                    // ("2" because this is col-md-2.)
+                    // Make up for gutter: $grid-gutter-width
+                    // Fudge: I'm not sure why this is necessary: 4/5px;
                     a { color: #000; }
                 }
             }
