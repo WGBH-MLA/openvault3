@@ -1,4 +1,7 @@
 .blacklight-catalog-index {
+    #facets .top-panel-heading {
+        border: none; // Only matters on xs screen width.
+    }
     #appliedParams {
         border: none;
         background: none;
