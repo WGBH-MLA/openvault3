@@ -16,6 +16,7 @@
         .panel-group {
             .panel-heading {
                 background: #FFF;
+                color: #000 !important; // Ignore facet_limit-active
                 border-radius: 0px;
             }
             .panel-collapse .panel-body {
@@ -43,12 +44,23 @@
                                 background: $light-blue;
                             }
                         }
+                        
+                        
+                    }
+                    .selected, .remove {
+                        // Hide selected facets. The idea is that facets are either in the menu,
+                        // or in the list: not both. Motivated by the trouble I had adding CSS on
+                        // top of selected facets to make them look right.
+                        display: none !important;
                     }
                     
                     .facet-count {
                         // If we changed the DOM structure so the count is inside the link,
-                        // this wouldn't be necessary
+                        // this wouldn't be necessary. This approach also puts a non-<a>
+                        // on top of the <a>, which could be confusing. TODO.
                         position: absolute;
+                        right: $grid-gutter-width/2;
+                        bottom: $grid-gutter-width * .6; // hack to get alignment
                     }
                 }
             }
