@@ -1,4 +1,7 @@
 .blacklight-catalog-index {
+    .btn {
+        border-radius: 0px; // TODO: Perhaps move up?
+    }
     #facets .top-panel-heading {
         border: none; // Only matters on xs screen width.
     }
@@ -10,23 +13,21 @@
         #startOverLink {
             display: none;
         }
-        .btn {
-            border-radius: 0px;
-        }
+    }
+    #per_page-dropdown {
+        display: none; // Not in spec.
+    }
+    #content {
+        padding-top: 4*$grid-gutter-width; // But what should we do for sm and xs? TODO.
     }
     #sidebar {
         background: $medium-blue;
         
         // Trick to get background full window width.
         // "Right" way might be to change the DOM structure to un-nest this.
-        margin-left: -10*$grid-gutter-width;
-        margin-right: -10*$grid-gutter-width;
-        padding-left: 10*$grid-gutter-width;
-        padding-right: 10*$grid-gutter-width;
-        
-        // The flash div takes up one vertical pixel. This hides it.
-        // Not convinced this is the best approach.
-        margin-top: -1px;
+        position: absolute;
+        left: 0;
+        right: 0;
                 
         .panel-group {
             .panel-heading {
