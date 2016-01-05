@@ -1,6 +1,6 @@
 .blacklight-catalog-index {
     #sidebar {
-        background: $light-blue;
+        background: $medium-blue;
         
         // Trick to get background full window width.
         // "Right" way might be to change the DOM structure to un-nest this.
@@ -18,9 +18,9 @@
                 background: #FFF;
                 border-radius: 0px;
             }
-            .panel-collapse {
-                background: #FFF;
-                .panel-body {
+            .panel-collapse .panel-body {
+                padding: 0px;
+                .facet-values {
                     background: $light-grey;
                     font-weight: bold;
                     // So the pull-down is the same width as the button above.
@@ -33,7 +33,23 @@
                     // ("2" because this is col-md-2.)
                     // Make up for gutter: $grid-gutter-width
                     // Fudge: I'm not sure why this is necessary: 4/5px;
-                    a { color: #000; }
+                    .facet-label {
+                        padding: 0px;
+                        a { 
+                            color: #000;
+                            display: block;
+                            padding: $grid-gutter-width/4 $grid-gutter-width;
+                            &:hover {
+                                background: $light-blue;
+                            }
+                        }
+                    }
+                    
+                    .facet-count {
+                        // If we changed the DOM structure so the count is inside the link,
+                        // this wouldn't be necessary
+                        position: absolute;
+                    }
                 }
             }
         }
