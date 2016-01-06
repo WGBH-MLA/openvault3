@@ -16,6 +16,14 @@
     }
     #sortAndPerPage {
         border: none; // Default has line at bottom.
+        .page_links {
+            // This is cleaner than the spec, but we can revisit.
+            .arrow { display: none; }
+            a {
+                &:hover { text-decoration: none; }
+                .arrow { display: inline; }
+            }
+        }
     }
     #per_page-dropdown {
         display: none; // Not in spec.
