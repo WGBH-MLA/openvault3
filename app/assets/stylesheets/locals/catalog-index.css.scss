@@ -14,6 +14,9 @@
             display: none;
         }
     }
+    #sortAndPerPage {
+        border: none; // Default has line at bottom.
+    }
     #per_page-dropdown {
         display: none; // Not in spec.
     }
