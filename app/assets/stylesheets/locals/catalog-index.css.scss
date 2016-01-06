@@ -14,23 +14,21 @@
             display: none;
         }
     }
-    #sortAndPerPage {
-        border: none; // Default has line at bottom.
-        padding: 0px;
-        margin: 0px;
-        .page_links {
-            // This is cleaner than the spec, but we can revisit.
-            .arrow { display: none; }
-            a {
-                &:hover { text-decoration: none; }
-                .arrow { display: inline; }
-            }
-        }
-    }
-    #per_page-dropdown {
-        display: none; // Not in spec.
-    }
     #content {
+        #sortAndPerPage {
+            border: none; // Default has line at bottom.
+            padding: 0px;
+            margin: 0px;
+            .page_links {
+                // This is cleaner than the spec, but we can revisit.
+                .arrow { display: none; }
+                a {
+                    &:hover { text-decoration: none; }
+                    .arrow { display: inline; }
+                }
+            }
+            #per_page-dropdown { display: none; } // Not in spec.
+        }
         padding-top: 4*$grid-gutter-width; // But what should we do for sm and xs? TODO.
         .document {
             display: inline;
@@ -45,6 +43,9 @@
                margin-bottom: $grid-gutter-width;
                height: $grid-gutter-width;
             }
+        }
+        .record-padding {
+            display: none; // Hide pager at bottom.
         }
     }
     #sidebar {
