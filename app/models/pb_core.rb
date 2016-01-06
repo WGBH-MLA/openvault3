@@ -21,6 +21,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def item_title
     @item_title ||= 'item_title' # TODO ("Open Vault Title"?)
   end
+  def title
+    @title ||= 'title' # TODO
+  end
   def episode_title
     @episode_title ||= 'episode_title' # TODO
   end

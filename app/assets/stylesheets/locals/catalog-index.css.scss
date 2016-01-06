@@ -26,19 +26,17 @@
                 position: absolute; // So the div doesn't expand when the menu drops.
             }
         }
-        #content { padding-top: 4*$grid-gutter-width; } // Only if we need it.
+        #content { padding-top: 4*$grid-gutter-width; } // Space for absolutely positioned #sidebar
+    }
+    @media (max-width: $screen-xs-max) {
+        .facets-toggle { margin-top: -50px; }
+        // Move it up to a more natural location, and then kill the space it would have used.
+        .top-panel-heading.panel-heading {
+            margin: 0px; padding: 0px; height: 0px;
+        }
     }
     
-    #sidebar {
-        // Hack to get background full window width.
-        // "Right" way might be to change the DOM structure to un-nest this.
-        @media (min-width: $screen-md-min) {
-            position: absolute;
-            left: 0;
-            right: 0;
-            background: $medium-blue;
-        }
-                
+    #sidebar {  
         .panel-group {
             .panel-heading {
                 background: #FFF;
