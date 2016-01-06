@@ -16,6 +16,8 @@
     }
     #sortAndPerPage {
         border: none; // Default has line at bottom.
+        padding: 0px;
+        margin: 0px;
         .page_links {
             // This is cleaner than the spec, but we can revisit.
             .arrow { display: none; }
@@ -30,6 +32,20 @@
     }
     #content {
         padding-top: 4*$grid-gutter-width; // But what should we do for sm and xs? TODO.
+        .document {
+            display: inline;
+            border: none;
+            img {
+                width: 100%;
+                margin-bottom: 0;
+            }
+            .info {
+               color: $dark-blue;
+               padding: $grid-gutter-width*0.5 0;
+               margin-bottom: $grid-gutter-width;
+               height: $grid-gutter-width;
+            }
+        }
     }
     #sidebar {
         background: $medium-blue;
