@@ -14,48 +14,30 @@
             display: none;
         }
     }
-    #content {
-        #sortAndPerPage {
-            border: none; // Default has line at bottom.
-            padding: 0px;
-            margin: 0px;
-            .page_links {
-                // This is cleaner than the spec, but we can revisit.
-                .arrow { display: none; }
-                a {
-                    &:hover { text-decoration: none; }
-                    .arrow { display: inline; }
-                }
-            }
-            #per_page-dropdown { display: none; } // Not in spec.
-        }
-        padding-top: 4*$grid-gutter-width; // But what should we do for sm and xs? TODO.
-        .document {
-            display: inline;
-            border: none;
-            img {
-                width: 100%;
-                margin-bottom: 0;
-            }
-            .info {
-               color: $dark-blue;
-               padding: $grid-gutter-width*0.5 0;
-               margin-bottom: $grid-gutter-width;
-               height: $grid-gutter-width;
+    @media (min-width: $screen-md-min) {
+        #sidebar {
+            // Hack to get background full window width.
+            // "Right" way might be to change the DOM structure to un-nest this.
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: $medium-blue;
+            .facet-content .panel-body {
+                position: absolute; // So the div doesn't expand when the menu drops.
             }
         }
-        .record-padding {
-            display: none; // Hide pager at bottom.
-        }
+        #content { padding-top: 4*$grid-gutter-width; } // Only if we need it.
     }
+    
     #sidebar {
-        background: $medium-blue;
-        
-        // Trick to get background full window width.
+        // Hack to get background full window width.
         // "Right" way might be to change the DOM structure to un-nest this.
-        position: absolute;
-        left: 0;
-        right: 0;
+        @media (min-width: $screen-md-min) {
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: $medium-blue;
+        }
                 
         .panel-group {
             .panel-heading {
@@ -109,14 +91,41 @@
                 }
             }
         }
-
-        @media (min-width: $screen-md-min) {
-            .facet-content .panel-body {
-                position: absolute;
-                // So unfolding the facet won't bump the screen.
-                // (but in xs and sm controls are stacked, and they need to bump.)
+    }
+    
+    #content {
+        #sortAndPerPage {
+            border: none; // Default has line at bottom.
+            padding: 0px;
+            margin: 0px;
+            .page_links {
+                // This is cleaner than the spec, but we can revisit.
+                .arrow { display: none; }
+                a {
+                    &:hover { text-decoration: none; }
+                    .arrow { display: inline; }
+                }
+            }
+            #per_page-dropdown { display: none; } // Not in spec.
+        }
+         // But what should we do for sm and xs? TODO.
+        .document {
+            display: inline;
+            border: none;
+            img {
+                width: 100%;
+                margin-bottom: 0;
+            }
+            .info {
+               color: $dark-blue;
+               padding: $grid-gutter-width*0.5 0;
+               margin-bottom: $grid-gutter-width;
+               height: $grid-gutter-width;
             }
         }
-        
+        .record-padding {
+            display: none; // Hide pager at bottom.
+        }
     }
+
 }
