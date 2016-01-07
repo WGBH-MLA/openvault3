@@ -18,47 +18,72 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def program_title
     @program_title ||= 'program_title' # TODO
   end
+  def program_number
+    @program_number ||= 'program_number' # TODO
+  end
   def item_title
-    @item_title ||= 'item_title' # TODO ("Open Vault Title"?)
+    @item_title ||= 'item_title' # TODO
   end
+  
+  def date
+    @date ||= 'date' # TODO
+  end
+  
   def title
-    @title ||= 'title' # TODO
+    @title ||= [series_title, program_title, item_title].select{|x| x}.join('; ')
   end
-  def episode_title
-    @episode_title ||= 'episode_title' # TODO
+  
+  def duration
+    @duration ||= 'duration' # TODO
   end
-  def episode_number
-    @episode_number ||= 'episode_number' # TODO
+  def asset_type
+    @asset_type ||= 'asset_type' # TODO
+  end
+  def item_type
+    @item_type ||= 'item_type' # TODO
   end
   def series_description
     @series_description ||= 'series_description' # TODO
   end
-  def series_date
-    @series_date ||= 'series_date' # TODO
-  end
+#  def series_date
+#    @series_date ||= 'series_date' # TODO
+#  end
   def program_description
     @program_description ||= 'program_description' # TODO
   end
+  def item_description
+    @item_description ||= 'item_description' # TODO
+  end
   def creators
-    @creators ||= [] # TODO
+    @creators ||= [
+      PBCoreNameRoleAffiliation.new(nil, 'creator_1_name', 'creator_1_role'),
+      PBCoreNameRoleAffiliation.new(nil, 'creator_2_name', 'creator_2_role')
+    ] # TODO
   end
   def contributors
-    @contributors ||= [] # TODO
+    @contributors ||= [
+      PBCoreNameRoleAffiliation.new(nil, 'contrib_1_name', 'contrib_1_role'),
+      PBCoreNameRoleAffiliation.new(nil, 'contrib_2_name', 'contrib_2_role')
+    ] # TODO
   end
   def publishers
-    @publishers ||= [] # TODO
+    @publishers ||= ['publisher_1', 'publisher_2'] # TODO
   end
   def subjects
-    @subject ||= ['subject'] # TODO
+    @subject ||= ['subject_1', 'subject_2'] # TODO
   end
   def locations
-    @location ||= ['location'] # TODO
+    @location ||= ['location_1', 'location_2'] # TODO
   end
   def genres
-    @genre ||= ['genre'] # TODO
+    @genre ||= ['genre_1', 'genre_2'] # TODO
   end
   def topics
-    @topic ||= ['topic'] # TODO
+    @topic ||= ['topic_1', 'topic_2'] # TODO
+  end
+  
+  def rights_summary
+    @rights_summary ||= "#{rights_holder}; #{rights_credit}"
   end
   def rights_holder
     @rights_holder ||= 'rights_holder' # TODO
