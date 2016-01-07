@@ -1,0 +1,20 @@
+<div id="player">
+  <% if  @pbcore.image? %>
+    <%= tag('img', src: @pbcore.proxy_src) %>
+  <% else %>
+    <% if  @pbcore.audio? %>
+      <%= tag('img', src: @pbcore.thumbnail_src) %>
+      <br/>
+    <% end %>
+    <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                  controls: true,
+                  oncontextmenu: 'return false;', 
+                  width: 400, height: 300,
+                  poster: @pbcore.thumbnail_src) do %>
+      <%= tag('source', src: @pbcore.proxy_src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+      <!-- We have transcripts, but not SRT caption files:
+        <track kind="captions" src="..."/>
+      -->
+    <% end %>
+  <% end %>
+</div>

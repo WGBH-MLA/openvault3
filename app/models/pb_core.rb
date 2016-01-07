@@ -93,31 +93,47 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def id
-    @id ||= 'id' # TODO
+    @id ||= 'A_00B0C50853C64A71935737EF7A4DA66C' # TODO
   end
-  def img_src
-    @img_src ||= 'img_src' # TODO
-#      case media_type
-#      when MOVING_IMAGE
-#        "#{OpenVault::S3_BASE}/thumbnail/TODO"
-#      when SOUND
-#        '/thumbs/audio-digitized.jpg'
-#      when OTHER
-#        '/thumbs/other.jpg'
-#      end
+  URL_BASE = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
+  def thumbnail_src
+    @thumb_src ||= "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
+    # TODO: some have defaults?
   end
-  MOVING_IMAGE = 'Moving Image'
-  SOUND = 'Sound'
-  OTHER = 'other'
+  def proxy_src
+    @media_src ||= "#{URL_BASE}/asset_proxies/#{id}.#{extension}" # TODO
+  end
+  def extension
+    case media_type
+    when VIDEO
+      'mp4'
+    when AUDIO
+      'mp3'
+    when IMAGE
+      'jpg'
+    end
+  end
+  def transcript_src
+    @transcript_src ||= "#{URL_BASE}/asset_transcripts/#{id}.xml"
+  end
+  def captions_src
+    nil # TODO
+  end
+  VIDEO = 'Video'
+  AUDIO = 'Audio'
+  IMAGE = 'Image'
   def media_type
-    @media_type ||= 'media_type' # TODO
+    @media_type ||= AUDIO # TODO
   end
-#  def video?
-#    media_type == MOVING_IMAGE
-#  end
-#  def audio?
-#    media_type == SOUND
-#  end
+  def video?
+    media_type == VIDEO
+  end
+  def audio?
+    media_type == AUDIO
+  end
+  def image?
+    media_type == IMAGE
+  end
 
   # rubocop:enable Style/EmptyLineBetweenDefs
 
@@ -154,14 +170,21 @@ class PBCore # rubocop:disable Metrics/ClassLength
       'id' => id,
       'xml' => '<xml/>', # TODO; Formatter.instance.format(doc_with_caption_flag),
 
-      # constrained searches:
+      # indexed:
       'text' => text, # TODO + [caption_body].select { |optional| optional },
 
       # facets:
+      'series_title' => series_title,
+      'program_title' => program_title,
+      
+      'genres' => genres,
+      'topics' => topics,
+      
+      'subjects' => subjects,
+      'locations' => locations,
+      
       'asset_type' => asset_type,
       'media_type' => media_type,
-      'genres' => genres,
-      'topics' => topics
     }
   end
 

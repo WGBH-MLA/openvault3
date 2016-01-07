@@ -5,9 +5,7 @@
       <h1><%= @pbcore.title %></h1>
       <%= content_tag('p', @pbcore.date) if @pbcore.date %>
       
-      <div id="player">
-        TODO: player
-      </div>
+      <%= render partial: 'player' %>
       
       <dl>
         <% [
