@@ -9,6 +9,6 @@ class SeriesController < ApplicationController
                'f.series_title.facet.limit' => -1
              }
            )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
-    @series_by_first_letter = series.each_pair.group_by{|pair| pair.first[0]}
+    @series_by_first_letter = series.each_pair.group_by{|pair| pair.first[0].upcase }
   end
 end

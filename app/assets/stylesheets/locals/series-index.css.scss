@@ -1,0 +1,13 @@
+.blacklight-series-index {
+    .letters {
+        padding: $grid-gutter-width/2;
+        background: $medium-blue;
+        font-weight: bold;
+        color: #FFF;
+        a { 
+            font-weight: normal; 
+            color: #FFF;
+        }
+        
+    }
+}
