@@ -132,6 +132,40 @@ class PBCore # rubocop:disable Metrics/ClassLength
     media_type == IMAGE
   end
 
+  def us_only?
+    # TODO
+  end
+  def password_required?
+    # TODO
+  end
+  
+  def aapb_url
+    @aapb_url ||= 'aapb_url' # TODO
+  end
+  def boston_tv_news_url
+    @boston_tv_news_url ||= 'boston_tv_news_url' # TODO
+  end
+  
+  def special_collection_tab
+    # TODO
+  end
+  def scholar_exhibit
+    # TODO
+  end
+  
+  def playlist
+    # TODO
+  end
+  def playlist_order
+    # TODO
+  end
+  def playlist_next_id
+    # TODO
+  end
+  def playlist_prev_id
+    # TODO
+  end
+  
   # rubocop:enable Style/EmptyLineBetweenDefs
 
   def to_solr

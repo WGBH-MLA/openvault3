@@ -542,6 +542,16 @@
           type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="subjects" 
           type="string" indexed="true" stored="true" multiValued="true"/>
+   
+   <field name="scholar_exhibit" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="special_collection_tab" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   
+   <field name="playlist" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="playlist_order" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
 
    <!-- supports series list -->
    <field name="series_title" 
