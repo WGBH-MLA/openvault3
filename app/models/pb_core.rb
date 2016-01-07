@@ -39,9 +39,6 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def asset_type
     @asset_type ||= 'asset_type' # TODO
   end
-  def item_type
-    @item_type ||= 'item_type' # TODO
-  end
   def series_description
     @series_description ||= 'series_description' # TODO
   end

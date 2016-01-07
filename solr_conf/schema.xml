@@ -512,33 +512,40 @@
    <field name="xml" 
           type="string" indexed="false" stored="true" multiValued="false"/>
    
+   <!-- For the search results page. -->
+   <field name="title"
+          type="sort" indexed="false" stored="true" multiValued="false"/>
+   <field name="thumbnail_src"
+          type="string" indexed="false" stored="true" multiValued="false"/>
+      
    <!-- Nothing below needs to be stored. -->
    
    <!-- default, catch all search field -->
    <field name="text" 
           type="text" indexed="true" stored="false" multiValued="true"/>
    
-   <!-- sorting --><!-- TODO: stored=true only for debugging. -->
-   <field name="title" 
-          type="sort" indexed="true" stored="true" multiValued="false"/>
-   
-   <!-- sorting and facet -->
-   <field name="year" 
-          type="string" indexed="true" stored="false" multiValued="false"/>
-   
    <!-- facet -->
-   <field name="media_type" 
-          type="string" indexed="true" stored="false" multiValued="false"/>
-   <field name="asset_type" 
-          type="string" indexed="true" stored="false" multiValued="false"/>
-   <field name="genres" 
-          type="string" indexed="true" stored="false" multiValued="true"/>
-   <field name="topics" 
-          type="string" indexed="true" stored="false" multiValued="true"/>
+   <field name="year" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
    
-   <!-- format is used for facet, display, and choosing which partial to use for the show view, so it must be stored and indexed -->
-   <!-- Not used by OpenVault -->
-   <!--<field name="format" type="string" indexed="true" stored="true"/>-->
+   <field name="media_type" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="asset_type" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
+   
+   <field name="genres" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="topics" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   
+   <field name="locations" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="subjects" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+
+   <!-- supports series list -->
+   <field name="series_title" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
    
  </fields>
 

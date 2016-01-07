@@ -6,6 +6,23 @@
   <div class="row">
     <div class="col-md-12">
       <h1><%= t('series') %></h1>
+      <% @series_by_first_letter.each do |the_letter,group| %>
+        <a name="<%= the_letter %>"></a>
+        <div class="letters">
+          <% @series_by_first_letter.keys.each do |a_letter| %>
+            <%= link_to_unless(a_letter == the_letter, a_letter, "##{a_letter}") %>
+          <% end %>
+        </div>
+        <ul>
+          <% group.each do |pair| %>
+            <li>
+              <a href="/catalog?series_title=<%= CGI.escape(pair.first) %>">
+                <%= pair.first %> (<%= pair.second %>)
+              </a>
+            </li>
+          <% end %>
+        </ul>
+      <% end %>
     </div>
   </div>
 </div>
