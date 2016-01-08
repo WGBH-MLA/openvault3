@@ -9,11 +9,25 @@ class SeriesList
                'f.series_title.facet.limit' => -1
              }
            )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
-    pairs.each_pair.group_by{ |pair| pair.first[0].upcase }.tap do |grouped|
+         
+    pairs.each_pair.group_by do |pair| 
+      SeriesList.strip_article(pair.first)[0].upcase
+    end.tap do |grouped|
       @by_first_letter = grouped.keys.sort.map do |letter| 
-        [letter, grouped[letter].sort_by { |pair| pair.first.downcase }]
+        [
+          letter, 
+          grouped[letter].sort_by do |pair|
+            SeriesList.strip_article(pair.first.downcase)
+          end
+        ]
       end
     end
   end
   attr_reader :by_first_letter
+  
+  class << self
+    def strip_article(s)
+      s.match(/^((a|an|the)\s+)?(.*)/im)[3]
+    end
+  end
 end
