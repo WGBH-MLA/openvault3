@@ -9,7 +9,7 @@
       <% @series_by_first_letter.each do |the_letter,group| %>
         <a name="<%= the_letter %>"></a>
         <div class="letters">
-          <% @series_by_first_letter.keys.each do |a_letter| %>
+          <% @series_by_first_letter.map { |pair| pair.first }.each do |a_letter| %>
             <%= link_to_unless(a_letter == the_letter, a_letter, "##{a_letter}") %>
           <% end %>
         </div>
