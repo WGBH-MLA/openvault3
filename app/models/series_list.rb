@@ -10,8 +10,16 @@ class SeriesList
              }
            )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
          
-    pairs.each_pair.group_by do |pair| 
-      SeriesList.strip_article(pair.first)[0].upcase
+    pairs.each_pair.group_by do |pair|
+      char = SeriesList.strip_article(pair.first)[0].upcase
+      case char
+      when /[XYZ]/
+        'XYZ'
+      when /[A-Z]/
+        char
+      else
+        'other'
+      end
     end.tap do |grouped|
       @by_first_letter = grouped.keys.sort.map do |letter| 
         [
@@ -27,7 +35,7 @@ class SeriesList
   
   class << self
     def strip_article(s)
-      s.match(/^((a|an|the)\s+)?(.*)/im)[3]
+      s.match(/^\s*((a|an|the)\s+)?(.*)/im)[3]
     end
   end
 end

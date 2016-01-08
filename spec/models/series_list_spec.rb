@@ -37,4 +37,22 @@ describe SeriesList do
       ['E', [['THE E', 5],['easy', 5]]]
     ])
   end
+  
+  it 'handles for digits and other' do
+    grouped = SeriesList.new({
+        '¿Que pasa?' => 1,
+        '3-2-1 Contact' => 2,
+        ' evil whitespace' => 3,
+        'wimpy' => 0,
+        'xerox' => 1,
+        'a yuppie' => 2,
+        'the zebra' => 3,
+      }).by_first_letter
+    expect(grouped).to eq([
+      ["E", [[" evil whitespace", 3]]], 
+      ["W", [["wimpy", 0]]], 
+      ["XYZ", [["xerox", 1], ["a yuppie", 2], ["the zebra", 3]]], 
+      ["other", [["3-2-1 Contact", 2], ["¿Que pasa?", 1]]]
+    ])
+  end
 end
