@@ -2,8 +2,8 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jp
-g)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/new_critical_television/new_critical_television_554x340.png)
+
 
 ## intro
 

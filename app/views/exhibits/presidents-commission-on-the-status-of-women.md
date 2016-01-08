@@ -3,8 +3,8 @@ during the Kennedy Administration, 1961-63
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jp
-g)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/showing_status/showing_status_554x340.png)
+
 
 ## intro
 

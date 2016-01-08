@@ -2,8 +2,8 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jp
-g)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/eric_jackson/eric_jackson_554x340.png)
+
 
 ## intro
 
