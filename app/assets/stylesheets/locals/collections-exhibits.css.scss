@@ -39,7 +39,7 @@
     }
 }
 
-.blacklight-collections-show {
+.blacklight-collections-show,.blacklight-exhibits-show {
     div.pull-left img {
         // This is very ad hoc.
         margin-left: -$grid-gutter-width/2;
