@@ -10,7 +10,9 @@ class SeriesList
              }
            )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
     pairs.each_pair.group_by{ |pair| pair.first[0].upcase }.tap do |grouped|
-      @by_first_letter = grouped.keys.sort.map { |letter| [letter, grouped[letter]] }
+      @by_first_letter = grouped.keys.sort.map do |letter| 
+        [letter, grouped[letter].sort_by { |pair| pair.first.downcase }]
+      end
     end
   end
   attr_reader :by_first_letter
