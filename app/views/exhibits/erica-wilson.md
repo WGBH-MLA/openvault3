@@ -3,8 +3,7 @@ Television
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/collections/wpna/wpna-400x225.jp
-g)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/needlework/needlework_554x340.png)
 
 ## intro
 
@@ -65,8 +64,8 @@ Great and Small” to depictions of animals in needlework. All of these quilts
 feature animals, mostly in appliqué designs.
 
 - [English Template 
-Piecing](http://www.quiltindex.org/search_results.php?sortby=ID+Number%28first-l
-ast%29&keywords=stuffed+work&search=go): Erica Wilson demonstrates a paper 
+Piecing](http://www.quiltindex.org/search_results.php?sortby=ID+Number%28first-last%29&keywords=stuffed+work&search=go): 
+Erica Wilson demonstrates a paper 
 piecing method for making even patchwork in the “Patchwork” episode of Erica. 
 All of these quilts on the Quilt Index used paper piecing, often called 
 “English template piecing” in the United States, in their construction.

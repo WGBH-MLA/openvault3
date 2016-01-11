@@ -1,8 +1,9 @@
-<div class="row">
+<% anchor = 'tabs' %>
+<div class="row" id="<%= anchor %>">
   <% (@tabs.keys).reject { |x| skip.include?(x) }.each do |tab| %>
     <% is_current = tab == params[:tab] %>
     <div class="tab col-md-2 <%= 'tab-current' if is_current %>">
-      <%= link_to_unless(is_current, tab.titlecase, tab) %>
+      <%= link_to_unless(is_current, tab.titlecase, "#{tab}##{anchor}") %>
     </div>
   <% end %>
 </div>
