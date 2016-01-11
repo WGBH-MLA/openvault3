@@ -1,0 +1,11 @@
+.blacklight-catalog-show {
+    dl * {
+        margin: $grid-gutter-width/4 0;
+    }
+    dt {
+        font-weight: bold;
+    }
+    dd {
+        padding-left: $grid-gutter-width;
+    }
+}

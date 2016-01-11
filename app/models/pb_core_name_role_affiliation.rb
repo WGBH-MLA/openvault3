@@ -43,4 +43,8 @@ class PBCoreNameRoleAffiliation
   def to_a
     [name, role, affiliation].select { |x| x }
   end
+  
+  def to_s
+    "#{name} (#{role})"
+  end
 end

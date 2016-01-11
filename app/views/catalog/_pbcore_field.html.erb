@@ -1,0 +1,15 @@
+<% link ||= false %>
+<% label ||= field.gsub('_', ' ').titlecase %>
+<% values = [@pbcore.send(field)].flatten.select {|x| x} %>
+<% if !values.empty? %>
+  <dt><%= label %></dt>
+  <% values.each do |value| %>
+    <dd><%= 
+      link_to_if(
+        link, 
+        value, 
+        "/catalog?#{field}=#{CGI.escape(value.to_s)}"
+      ) 
+    %></dd>
+  <% end %>
+<% end %>

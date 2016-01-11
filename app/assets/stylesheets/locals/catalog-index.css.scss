@@ -1,0 +1,129 @@
+.blacklight-catalog-index {
+    .btn,.dropdown-menu {
+        border-radius: 0px; // TODO: Perhaps move up?
+    }
+    #facets .top-panel-heading {
+        border: none; // Only matters on xs screen width.
+    }
+    #appliedParams {
+        border: none;
+        background: none;
+        padding: $grid-gutter-width/2;
+        margin: 0px;
+        #startOverLink {
+            display: none;
+        }
+    }
+    @media (min-width: $screen-md-min) {
+        #sidebar {
+            // Hack to get background full window width.
+            // "Right" way might be to change the DOM structure to un-nest this.
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: $medium-blue;
+            .facet-content .panel-body {
+                position: absolute; // So the div doesn't expand when the menu drops.
+            }
+        }
+        #content { padding-top: 4*$grid-gutter-width; } // Space for absolutely positioned #sidebar
+    }
+    @media (max-width: $screen-xs-max) {
+        .facets-toggle { margin-top: -50px; }
+        // Move it up to a more natural location, and then kill the space it would have used.
+        .top-panel-heading.panel-heading {
+            margin: 0px; padding: 0px; height: 0px;
+        }
+    }
+    
+    #sidebar {  
+        .panel-group {
+            .panel-heading {
+                background: #FFF;
+                color: #000 !important; // Ignore facet_limit-active
+                border-radius: 0px;
+            }
+            .panel-collapse .panel-body {
+                padding: 0px;
+                .facet-values {
+                    background: $light-grey;
+                    font-weight: bold;
+                    // So the pull-down is the same width as the button above.
+                    // TODO: find something better?
+                    //@media (min-width: $screen-md-min) { width: 131.667px; }
+                    //@media (min-width: $screen-lg-min) { width: 165px; }
+                    @media (min-width: $screen-md-min) { width: ($screen-md-min) * 2/$grid-columns - $grid-gutter-width - 4px; }
+                    @media (min-width: $screen-lg-min) { width: ($screen-lg-min) * 2/$grid-columns - $grid-gutter-width - 5px; }
+                    // This comes from the bootstrap definition: ($screen-__-min) * 2/$grid-columns
+                    // ("2" because this is col-md-2.)
+                    // Make up for gutter: $grid-gutter-width
+                    // Fudge: I'm not sure why this is necessary: 4/5px;
+                    .facet-label {
+                        padding: 0px;
+                        a { 
+                            color: #000;
+                            display: block;
+                            padding: $grid-gutter-width/4 $grid-gutter-width;
+                            &:hover {
+                                background: $light-blue;
+                            }
+                        }
+                        
+                        
+                    }
+                    .selected, .remove {
+                        // Hide selected facets. The idea is that facets are either in the menu,
+                        // or in the list: not both. Motivated by the trouble I had adding CSS on
+                        // top of selected facets to make them look right.
+                        display: none !important;
+                    }
+                    
+                    .facet-count {
+                        // If we changed the DOM structure so the count is inside the link,
+                        // this wouldn't be necessary. This approach also puts a non-<a>
+                        // on top of the <a>, which could be confusing. TODO.
+                        position: absolute;
+                        right: $grid-gutter-width/2;
+                        bottom: $grid-gutter-width * .6; // hack to get alignment
+                    }
+                }
+            }
+        }
+    }
+    
+    #content {
+        #sortAndPerPage {
+            border: none; // Default has line at bottom.
+            padding: 0px;
+            margin: 0px;
+            .page_links {
+                // This is cleaner than the spec, but we can revisit.
+                .arrow { display: none; }
+                a {
+                    &:hover { text-decoration: none; }
+                    .arrow { display: inline; }
+                }
+            }
+            #per_page-dropdown { display: none; } // Not in spec.
+        }
+         // But what should we do for sm and xs? TODO.
+        .document {
+            display: inline;
+            border: none;
+            img {
+                width: 100%;
+                margin-bottom: 0;
+            }
+            .info {
+               color: $dark-blue;
+               padding: $grid-gutter-width*0.5 0;
+               margin-bottom: $grid-gutter-width;
+               height: $grid-gutter-width;
+            }
+        }
+        .record-padding {
+            display: none; // Hide pager at bottom.
+        }
+    }
+
+}

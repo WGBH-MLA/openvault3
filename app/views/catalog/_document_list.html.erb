@@ -1,0 +1,5 @@
+<% # container for all documents in index list view -%>
+<% # WGBH added .row to get padding right. %>
+<div id="documents" class="row documents-<%= document_index_view_type %>">
+  <%= render documents, :as => :document %>
+</div>
