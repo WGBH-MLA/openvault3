@@ -17,7 +17,7 @@ class Tabbed < Cmless
       Hash[
         doc.xpath("//h2").map do |tab_el|
           tab_text = tab_el.text
-          [self.class.norm(tab_text), Cmless.extract_html(doc, tab_text)]
+          [self.class.norm(tab_text), Tabbed.expand_html(Cmless.extract_html(doc, tab_text))]
         end
       ]
     end
@@ -36,6 +36,16 @@ class Tabbed < Cmless
   class << self
     def norm(s)
       s.downcase.gsub(/\W+/, '-')
+    end
+    
+    def expand_html(html)
+      doc = Nokogiri::HTML(html)
+      doc.xpath('//a').each do |a|
+        if (a['href'].match(/\/catalog\?/))
+          a.add_next_sibling("TODO: insert results of searching #{a['href']}")
+        end
+      end
+      doc.to_html
     end
   end
   
