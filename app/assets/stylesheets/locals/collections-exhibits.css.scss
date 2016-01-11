@@ -47,4 +47,21 @@
         margin-bottom: $grid-gutter-width;
         width: 100%;
     }
+    #main-container {
+        img {
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .info {
+           background-color: $medium-blue;
+           color: #FFF;
+           padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
+           // Left-right padding chosen such that AAPB fits in two lines.
+           margin-top: 0;
+           margin-bottom: $grid-gutter-width;
+           h2 {
+               margin: 0;
+           }
+        }
+    }
 }

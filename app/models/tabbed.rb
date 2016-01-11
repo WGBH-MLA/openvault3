@@ -62,7 +62,7 @@ class Tabbed < Cmless
               <<END
               <div class="document col-md-4 col-sm-6">
                 <a href="/catalog/#{doc['id']}">
-                    <img src="#{doc['img_src']}">
+                    <img src="#{doc['thumbnail_src']}">
                     <div class="info">#{doc['title']}</div>
                   </a>
               </div>
