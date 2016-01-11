@@ -52,17 +52,30 @@ class Tabbed < Cmless
           
           # TODO: figure out how to reuse the blacklight, instead of wrapping our own.
           docs = RSolr.connect(url: 'http://localhost:8983/solr/')
-           .get('select', params: {
-               'q' => "#{q_key}:#{q_val}",
-               'fl' => 'id,title',
-               'rows' => '1000'
-             })['response']['docs']
-          docs.in_groups(3, false).each do |group|
-            div = a.add_previous_sibling('<div class="col-md-3"></div>')[0]
-            group.each do |doc|
-              div.add_child("<a href='/catalog/#{doc['id']}'>#{doc['title']}</a><br/>")
-            end
+            .get('select', params: {
+              'q' => "#{q_key}:#{q_val}",
+              'fl' => 'id,title,thumbnail_src',
+              'rows' => '1000'
+            })['response']['docs']
+          docs.each do |doc|
+            a.add_next_sibling( # TODO: this is really view code...
+              <<END
+              <div class="document col-md-4 col-sm-6">
+                <a href="/catalog/#{doc['id']}">
+                    <img src="#{doc['img_src']}">
+                    <div class="info">#{doc['title']}</div>
+                  </a>
+              </div>
+END
+            )
           end
+# Or if we want three text lists:
+#          docs.in_groups(3, false).each do |group|
+#            div = a.add_previous_sibling('<div class="col-md-3"></div>')[0]
+#            group.each do |doc|
+#              div.add_child("<a href='/catalog/#{doc['id']}'>#{doc['title']}</a><br/>")
+#            end
+#          end
           a.remove
         end
       end
