@@ -39,10 +39,28 @@ class Tabbed < Cmless
     end
     
     def expand_html(html)
-      doc = Nokogiri::HTML(html)
-      doc.xpath('//a').each do |a|
+      doc = Nokogiri::HTML::DocumentFragment.parse(html)
+      doc.css('a').each do |a|
         if (a['href'].match(/\/catalog\?/))
-          a.add_next_sibling("TODO: insert results of searching #{a['href']}")
+          query = CGI.parse(URI(a['href']).query)
+          fail("Expected only one search param, not #{query}") unless query.count == 1
+          match = query.keys.first.match(/^f\[(\w+)\]\[\]$/)
+          fail("Expected f[something][], not #{query.keys.first}") unless match
+          q_key = match[1]
+          fail("Expected one search, not #{query}") unless query.values.first.count == 1
+          q_val = query.values.first[0]
+          
+          # TODO: figure out how to reuse the blacklight, instead of wrapping our own.
+          docs = RSolr.connect(url: 'http://localhost:8983/solr/')
+           .get('select', params: {
+               'q' => "#{q_key}:#{q_val}",
+               'fl' => 'id,title',
+               'rows' => '1000'
+             })['response']['docs']
+          docs.each do |doc|
+            a.add_next_sibling("<a href='/catalog/#{doc['id']}'>#{doc['title']}</a><br/>")
+          end
+          a.remove
         end
       end
       doc.to_html
