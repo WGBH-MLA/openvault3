@@ -57,8 +57,11 @@ class Tabbed < Cmless
                'fl' => 'id,title',
                'rows' => '1000'
              })['response']['docs']
-          docs.each do |doc|
-            a.add_next_sibling("<a href='/catalog/#{doc['id']}'>#{doc['title']}</a><br/>")
+          docs.in_groups(3, false).each do |group|
+            div = a.add_previous_sibling('<div class="col-md-3"></div>')[0]
+            group.each do |doc|
+              div.add_child("<a href='/catalog/#{doc['id']}'>#{doc['title']}</a><br/>")
+            end
           end
           a.remove
         end
