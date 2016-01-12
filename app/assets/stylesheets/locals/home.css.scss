@@ -40,5 +40,7 @@
         color: $grey;
         b a { color: #A00; }
         a { color: $grey; }
+        .not-home { display: none; }
+        .only-home { display: inline; }
     }
 }
