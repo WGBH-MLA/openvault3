@@ -33,6 +33,13 @@
         background: $grey;
         color: #FFF;
         a { color: $yellow; }
+        a.btn {
+            color: $dark-blue; 
+            background: $light-grey;
+            width: 95%;
+            height: 50px;
+            img { height: 100%}
+        }
     }
     
     #footer {
