@@ -10,19 +10,42 @@
   </div>
 
   <div class="row">
-    <div class="col-md-4">
-      <h2 class="text-center"><%= link_to(t('series'), '/series') %></h2>
-      <div>Browse titles in the WGBH Media Library and Archives collection.</div>
+    <% {
+        series: 'Browse titles in the WGBH Media Library and Archives collection.',
+        exhibits: 'Explore selected topics and digitized programs of historical significance curated by WGBH Mellon Scholars',
+        collections: 'Check out collections of significant WGBH productions, including unique full-length interviews.'
+      }.each do |key,description| %>
+      <div class="col-md-4">
+        <a href="/<%= key %>"><h2 class="text-center"><%= t(key) %></h2></a>
+        <div><%= description %></div>
+      </div>
+    <% end %>
+  </div>
+  
+  <div class="row" id="about">
+    <div class="col-sm-6">
+      <h3>What is Open Vault?</h3>
+      <p>We provide online access to unique and historically important content
+        produced by the public television and radio station WGBH.</p>
+      <p><b><a href="/about">About Us</a></b></p>
     </div>
-
-    <div class="col-md-4">
-      <h2 class="text-center"><%= link_to(t('exhibits'), '/exhibits') %></h2>
-      <div>Explore selected topics and digitized programs of historical significance curated by WGBH Mellon Scholars.</div>
+    <div class="col-sm-6 text-center">
+      <h3>Follow Us!</h3>
     </div>
-
-    <div class="col-md-4">
-      <h2 class="text-center"><%= link_to(t('collections'), '/collections') %></h2>
-      <div>Check out collections of significant WGBH productions, including unique full-length interviews.</div>
+    <div class="col-sm-2 text-center">
+      <a href="https://www.facebook.com/wgbharchives" target="_blank" class="btn btn-lg">
+        <img src="/images/facebook_logo.png"/>
+      </a>
+    </div>
+    <div class="col-sm-2 text-center">
+      <a href="https://twitter.com/wgbharchives" target="_blank" class="btn btn-lg">
+        <img src="/images/twitter_logo.png"/>
+      </a>
+    </div>
+    <div class="col-sm-2 text-center">
+      <a href="http://blog.openvault.wgbh.org/" target="_blank" class="btn btn-lg">
+        <b>Blog</b>
+      </a>
     </div>
   </div>
 </div>

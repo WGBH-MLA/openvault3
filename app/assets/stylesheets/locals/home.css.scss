@@ -1,7 +1,7 @@
 .blacklight-home-index {
-    h2 {
+    a h2 {
+        color: $dark-blue;
         background: #F4BA54;
-        a { color: $dark-blue; }
         padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
     }
     
@@ -25,5 +25,30 @@
             text-align: left;
             padding: $grid-gutter-width/4 $grid-gutter-width;
         }
+    }
+    
+    #about {
+        margin: $grid-gutter-width/2 0;
+        padding: $grid-gutter-width/2;
+        background: $grey;
+        color: #FFF;
+        a { color: $yellow; }
+        a.btn {
+            color: $dark-blue; 
+            background: $light-grey;
+            width: 95%;
+            height: 50px;
+            img { height: 100%}
+            margin-bottom: 4px; // Just for mobile, really.
+        }
+    }
+    
+    #footer {
+        background: #FFF;
+        color: $grey;
+        b a { color: #A00; }
+        a { color: $grey; }
+        .not-home { display: none; }
+        .only-home { display: inline; }
     }
 }
