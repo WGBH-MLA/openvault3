@@ -10,20 +10,16 @@
   </div>
 
   <div class="row">
-    <div class="col-md-4">
-      <a href="/series"><h2 class="text-center"><%= t('series') %></h2></a>
-      <div>Browse titles in the WGBH Media Library and Archives collection.</div>
-    </div>
-
-    <div class="col-md-4">
-      <a href="/exhibits"><h2 class="text-center"><%= t('exhibits') %></h2></a>
-      <div>Explore selected topics and digitized programs of historical significance curated by WGBH Mellon Scholars.</div>
-    </div>
-
-    <div class="col-md-4">
-      <a href="/collections"><h2 class="text-center"><%= t('collections') %></h2></a>
-      <div>Check out collections of significant WGBH productions, including unique full-length interviews.</div>
-    </div>
+    <% {
+        series: 'Browse titles in the WGBH Media Library and Archives collection.',
+        exhibits: 'Explore selected topics and digitized programs of historical significance curated by WGBH Mellon Scholars',
+        collections: 'Check out collections of significant WGBH productions, including unique full-length interviews.'
+      }.each do |key,description| %>
+      <div class="col-md-4">
+        <a href="/<%= key %>"><h2 class="text-center"><%= t(key) %></h2></a>
+        <div><%= description %></div>
+      </div>
+    <% end %>
   </div>
   
   <div class="row" id="about">
