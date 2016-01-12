@@ -1,17 +1,17 @@
 <h1>
-  <%= set.title_html %>
+  <%= item.title_html %>
 </h1>
 
-<% if set.respond_to?(:author) %>
+<% if item.respond_to?(:author) %>
   <h2>
-    By <%= set.author.html_safe %>
+    By <%= item.author.html_safe %>
   </h2>
 <% end %>
 
 <div class="pull-left col-sm-4" >
-  <img src="<%= set.img_src %>"/>
+  <img src="<%= item.img_src %>"/>
 </div>
 
 <div>
-  <%= set.tabs['intro'].html_safe %>
+  <%= item.tabs['intro'].html_safe %>
 </div>
