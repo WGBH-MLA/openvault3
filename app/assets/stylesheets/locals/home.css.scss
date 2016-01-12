@@ -26,4 +26,19 @@
             padding: $grid-gutter-width/4 $grid-gutter-width;
         }
     }
+    
+    #about {
+        margin: $grid-gutter-width/2 0;
+        padding: $grid-gutter-width/2;
+        background: $grey;
+        color: #FFF;
+        a { color: $yellow; }
+    }
+    
+    #footer {
+        background: #FFF;
+        color: $grey;
+        b a { color: #A00; }
+        a { color: $grey; }
+    }
 }
