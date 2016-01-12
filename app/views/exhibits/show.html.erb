@@ -6,13 +6,13 @@
   <div class="row">
     <div class="col-md-12">
       <a href="/exhibits"><%= t('exhibits') %></a>
-      <%= render partial: 'shared/above_tabs', locals: {set: @exhibit} %>
+      <%= render partial: 'shared/above_tabs', locals: {item: @item} %>
     </div>
   </div>
-  <%= render partial: 'shared/tab_row', locals: {skip: ['intro', 'author', 'extra']}%>
+  <%= render partial: 'shared/tab_row', locals: {item: @item, skip: ['intro', 'author', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
-      <%= @exhibit.tabs[params[:tab]].html_safe %>
+      <%= @item.tabs[params[:tab]].html_safe %>
     </div>
   </div>
 </div>
