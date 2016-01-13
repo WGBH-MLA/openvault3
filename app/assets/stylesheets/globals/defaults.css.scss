@@ -3,4 +3,7 @@ html > body {
     font-family: sans-serif;
     font-size: 18px; // Best guess
     a:hover { text-decoration: none; } // No examples in specs of underline.
+    h1 {
+        font-size: 48px;
+    }
 }
