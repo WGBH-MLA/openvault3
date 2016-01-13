@@ -1,7 +1,10 @@
 # Contact Us
 
-TODO: This is pointing to the Stock Sales form. 
-Someone who will be responding to requests should 
-create a new google form and put the URL here.
+We would love to hear from you! If you have general questions or comments about the website and collection, want to share information on the stories you find in the collection, or would like to support the archive being a digitization sponsor, you can reach us at [archive_requests@wgbh.org](archive_requests@wgbh.org) or by mail.
 
-<iframe src="https://docs.google.com/forms/d/1Zw4Ypf5YU-qDZIVpUmrP9loB1Ix7V2cfvb3TQXhUU9M/viewform?embedded=true" marginheight="0" marginwidth="0" frameborder="0" height="750" width="660"></iframe>
+### Mailing Address:
+Karen Cariani</br>
+WGBH Media Library and Archives</br>
+WGBH Educational Foundation</br>
+One Guest Street</br>
+Boston, MA 02135
