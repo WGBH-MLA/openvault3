@@ -5,7 +5,8 @@
             margin-bottom: 0;
         }
         .info {
-           background-color: $yellow;
+           background: $yellow;
+           &:hover { background: $pale-yellow;}
            color: $dark-blue;
            padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
            // Left-right padding chosen such that AAPB fits in two lines.
