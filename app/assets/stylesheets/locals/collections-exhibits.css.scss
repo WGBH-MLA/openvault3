@@ -25,7 +25,7 @@
         .info {
             font-size: 24px;
             h2 { 
-                font-weight: bold; // Smaller font
+                font-weight: bold;
                 font-size: 24px;
             }
         }
@@ -34,12 +34,13 @@
 
 .blacklight-collections-index {
     #main-container {
+        .wrap { height: 140px; }
         .info {
             h2 {
-              font-size: 20px; // Bigger font
-              text-transform: uppercase; // Scholar exhibits have longer titles: less readable in all caps.
+              font-size: 30px; // Bigger font
+              font-weight: bold;
+              text-transform: uppercase;
             }
-            height: 75px; // Don't need as much space.
         }
     }
 }
