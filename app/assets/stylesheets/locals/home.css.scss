@@ -1,4 +1,6 @@
 .blacklight-home-index {
+    font-size: 18px; // Best guess
+    
     .carousel {
         margin-top: -1px; // Flash div above inserts a gap.
         .carousel-control {
@@ -51,6 +53,7 @@
     }
     
     #footer {
+        font-size: 22px;
         background: #FFF;
         color: $light-grey;
         b a { color: $red; }
