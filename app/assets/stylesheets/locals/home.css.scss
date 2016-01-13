@@ -34,12 +34,17 @@
         padding: $grid-gutter-width/2;
         background: $light-grey;
         color: #FFF;
-        a { color: $yellow; }
+        a { 
+            color: $yellow;
+            font-size: 20px;
+            &:hover { color: $pale-yellow; }
+        }
         a.btn {
             color: $dark-blue; 
-            background: $pale-grey;
+            background: $pale-blue;
             width: 95%;
             height: 50px;
+            font-size: 24px;
             img { height: 100%}
             margin-bottom: 4px; // Just for mobile, really.
         }
