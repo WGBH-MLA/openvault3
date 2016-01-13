@@ -4,6 +4,7 @@ $light-blue: #BFA6CF;
 $pale-blue: #DEE4F0; // TODO: unused?
 
 $yellow: #F4BA54; // Spec is wrong: my best guess.
+$pale-yellow: #FDD88B; // Not in spec.
 $red: #840E24;
 
 $dark-grey: #414042; // TODO: unused?
@@ -11,4 +12,4 @@ $medium-grey: #6E6F71; // TODO: unused?
 $light-grey: #949599;
 $pale-grey: #F1F2F2;
 
-$transparent: rgba(0, 0, 0, 0.4);
+$transparent: rgba(0, 0, 0, 0.6); // TODO: not sure about spec.

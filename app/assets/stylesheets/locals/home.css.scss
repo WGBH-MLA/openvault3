@@ -1,10 +1,4 @@
 .blacklight-home-index {
-    a h2 {
-        color: $dark-blue;
-        background: $yellow;
-        padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
-    }
-    
     .carousel {
         margin-top: -1px; // Flash div above inserts a gap.
         .carousel-control {
@@ -19,12 +13,20 @@
             bottom: 0px;
             left: 0px;
             right: auto;
-            font-size: 300%;
+            font-size: 48px;
             background-color: $transparent;
             color: #FFF;
             text-align: left;
             padding: $grid-gutter-width/4 $grid-gutter-width;
         }
+    }
+    
+    a h2 {
+        color: $dark-blue;
+        font-size: 36px; // TODO: This causes line wrapping in md.
+        background: $yellow;
+        &:hover { background: $pale-yellow; }
+        padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
     }
     
     #about {
