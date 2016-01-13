@@ -1,5 +1,4 @@
-# Showing Status: WGBH and the President’s Commission on the Status of Women 
-during the Kennedy Administration, 1961-63
+# Showing Status: WGBH and the President’s Commission on the Status of Women during the Kennedy Administration, 1961-63
 
 1
 

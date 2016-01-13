@@ -3,11 +3,13 @@
     <a href="<%= '/' + path + '/' + item.tab_path %>">
       <!-- Sort order: <%= item.head_html.gsub('<p>', '').to_f %> -->
       <img src="<%= item.img_src %>"/>
-      <div class="info">
-        <h2><%= item.title %></h2>
-        <% if item.respond_to? :author %>
-          <%= item.author %>
-        <% end %>
+      <div class="wrap">
+        <div class="info">
+          <h2><%= item.title %></h2>
+          <% if item.respond_to? :author %>
+            by <%= item.author %>
+          <% end %>
+        </div>
       </div>
     </a>
   </div>
