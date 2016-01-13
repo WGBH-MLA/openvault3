@@ -1,7 +1,7 @@
 .blacklight-home-index {
     a h2 {
         color: $dark-blue;
-        background: #F4BA54;
+        background: $yellow;
         padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
     }
     
@@ -30,12 +30,12 @@
     #about {
         margin: $grid-gutter-width/2 0;
         padding: $grid-gutter-width/2;
-        background: $grey;
+        background: $light-grey;
         color: #FFF;
         a { color: $yellow; }
         a.btn {
             color: $dark-blue; 
-            background: $light-grey;
+            background: $pale-grey;
             width: 95%;
             height: 50px;
             img { height: 100%}
@@ -45,9 +45,9 @@
     
     #footer {
         background: #FFF;
-        color: $grey;
-        b a { color: #A00; }
-        a { color: $grey; }
+        color: $light-grey;
+        b a { color: $red; }
+        a { color: $light-grey; }
         .not-home { display: none; }
         .only-home { display: inline; }
     }
