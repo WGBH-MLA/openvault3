@@ -12,7 +12,7 @@
   <%= render partial: 'shared/tab_row', locals: {item: @item, skip: ['intro', 'extra']}%>
   <div class="row">
     <div class="col-md-12">
-      <%= @item.tabs[params[:tab]].html_safe if @item.tabs[params[:tab]]%>
+      <%= @item.tabs[params[:tab]].html_safe %>
     </div>
     <div class="col-md-12">
       <%= @item.tabs['extra'].html_safe if @item.tabs['extra']%>
