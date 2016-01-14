@@ -1,5 +1,4 @@
-# The Julia Child of Needlework: Erica Wilson’s Legacy in Stitches and on 
-Television
+# The Julia Child of Needlework: Erica Wilson’s Legacy in Stitches and on Television
 
 1
 

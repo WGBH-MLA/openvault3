@@ -5,7 +5,8 @@
             margin-bottom: 0;
         }
         .info {
-           background-color: $yellow;
+           background: $yellow;
+           &:hover { background: $pale-yellow;}
            color: $dark-blue;
            padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
            // Left-right padding chosen such that AAPB fits in two lines.
@@ -20,34 +21,46 @@
 
 .blacklight-exhibits-index {
     #main-container {
+        .wrap { height: 215px; }
         .info {
-            h2 { font-size: 18px; } // Smaller font
-            height: 120px; // Needs more space
+            font-size: 24px;
+            h2 { 
+                font-weight: bold;
+                font-size: 24px;
+            }
         }
     }
 }
 
 .blacklight-collections-index {
     #main-container {
+        .wrap { height: 140px; }
         .info {
             h2 {
-              font-size: 20px; // Bigger font
-              text-transform: uppercase; // Scholar exhibits have longer titles: less readable in all caps.
+              font-size: 30px; // Bigger font
+              font-weight: bold;
+              text-transform: uppercase;
             }
-            height: 75px; // Don't need as much space.
         }
     }
 }
 
 .blacklight-collections-show,.blacklight-exhibits-show {
-    div.pull-left img {
-        // This is very ad hoc.
-        margin-left: -$grid-gutter-width/2;
-        margin-right: $grid-gutter-width/2;
-        margin-bottom: $grid-gutter-width;
-        width: 100%;
-    }
     #main-container {
+        a.back {
+           font-size: 24px;
+        }
+        .byline {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        div.pull-left img {
+            // This is very ad hoc.
+            margin-left: -$grid-gutter-width/2;
+            margin-right: $grid-gutter-width/2;
+            margin-bottom: $grid-gutter-width;
+            width: 100%;
+        }
         img {
             width: 100%;
             margin-bottom: 0;

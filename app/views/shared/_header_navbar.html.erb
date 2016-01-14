@@ -1,21 +1,23 @@
 <div id="header" class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-3">
         <a href="/"><img src="/ov-logo.png"/></a>
         <br/><br/>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-3">
         <form action="/catalog">
           <input name="q" onchange="this.form.submit()"/>
           <span class="glyphicon glyphicon-search"></span>
         </form>
       </div>
-      <div class="col-sm-2 hidden-xs"><%= link_to(t('series'), '/series') %></div>
-      <div class="col-sm-2 hidden-xs"><%= link_to(t('exhibits'), '/exhibits') %></div>
-      <div class="col-sm-2 hidden-xs"><%= link_to(t('collections'), '/collections') %></div>
+      <div class="col-md-9 hidden-sm nav">
+        <%= link_to(t('series'), '/series') %>
+        <%= link_to(t('exhibits'), '/exhibits') %>
+        <%= link_to(t('collections'), '/collections') %>
+      </div>
     </div>
   </div>
 </div>

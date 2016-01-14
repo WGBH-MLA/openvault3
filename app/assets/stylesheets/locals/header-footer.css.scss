@@ -12,10 +12,16 @@
         left: 240px;
         top: 7px;
     }
+    .nav a {
+        margin-left: 2em;
+        font-size: 22px;
+        font-weight: 600;
+        &:hover { color: $yellow; }
+    }
 }
 
 #footer {
-    background: $grey;
+    background: $light-grey;
     .only-home { display: none; }
 }
 

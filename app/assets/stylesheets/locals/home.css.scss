@@ -1,9 +1,4 @@
 .blacklight-home-index {
-    a h2 {
-        color: $dark-blue;
-        background: #F4BA54;
-        padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
-    }
     
     .carousel {
         margin-top: -1px; // Flash div above inserts a gap.
@@ -19,7 +14,7 @@
             bottom: 0px;
             left: 0px;
             right: auto;
-            font-size: 300%;
+            font-size: 48px;
             background-color: $transparent;
             color: #FFF;
             text-align: left;
@@ -27,27 +22,41 @@
         }
     }
     
+    a h2 {
+        color: $dark-blue;
+        font-size: 36px; // TODO: This causes line wrapping in md.
+        background: $yellow;
+        &:hover { background: $pale-yellow; }
+        padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
+    }
+    
     #about {
         margin: $grid-gutter-width/2 0;
         padding: $grid-gutter-width/2;
-        background: $grey;
+        background: $light-grey;
         color: #FFF;
-        a { color: $yellow; }
+        a { 
+            color: $yellow;
+            font-size: 20px;
+            &:hover { color: $pale-yellow; }
+        }
         a.btn {
             color: $dark-blue; 
-            background: $light-grey;
+            background: $pale-blue;
             width: 95%;
             height: 50px;
+            font-size: 24px;
             img { height: 100%}
             margin-bottom: 4px; // Just for mobile, really.
         }
     }
     
     #footer {
+        font-size: 22px;
         background: #FFF;
-        color: $grey;
-        b a { color: #A00; }
-        a { color: $grey; }
+        color: $light-grey;
+        b a { color: $red; }
+        a { color: $light-grey; }
         .not-home { display: none; }
         .only-home { display: inline; }
     }
