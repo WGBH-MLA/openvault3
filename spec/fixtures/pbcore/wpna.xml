@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pbcoreDescriptionDocument>
+<pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
   <pbcoreAssetType>Original footage</pbcoreAssetType>
   <pbcoreAssetDate dateType="Item Date">06/28/1986</pbcoreAssetDate>
   <pbcoreIdentifier source="Open Vault UID">V_5FDB1545443B427888C90E7B15F3783A</pbcoreIdentifier>
@@ -69,9 +69,8 @@
   <pbcoreRightsSummary>
     <rightsSummary>Rights Holder:  WGBH Educational Foundation</rightsSummary>
   </pbcoreRightsSummary>
-    <instantiationMediaType>Video</instantiationMediaType>
-    <instantiationDuration>00:21:27:04</instantiationDuration>
-  </pbcoreInstantiation>
+  <pbcoreAnnotation annotationType="Duration">00:21:27:04</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection">war_peace</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection Tag">war_interview</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Scholar Exhibit"/>
@@ -79,8 +78,6 @@
   <pbcoreAnnotation annotationType="Playlist Order"/>
   <pbcoreAnnotation annotationType="Geoblock"/>
   <pbcoreAnnotation annotationType="Password Restriction"/>
-  <pbcoreAnnotation annotationType="TODO: media type">VIDEO</pbcoreAnnotation>
-  <pbcoreAnnotation annotationType="TODO: duration">00:21:27:04</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Thumbnail">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Transcript">YES</pbcoreAnnotation>

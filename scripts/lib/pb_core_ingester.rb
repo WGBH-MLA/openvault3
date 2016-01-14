@@ -38,48 +38,15 @@ class PBCoreIngester
   def ingest(opts)
     path = opts[:path]
     is_batch_commit = opts[:is_batch_commit]
-    cleaner = Cleaner.instance
+    xml = File.read(path)
 
     begin
-      xml = Zipper.read(path)
+      ingest_xml_no_commit(xml)
+      @success_count += 1
     rescue => e
       record_error(e, path)
-      return
     end
-
-    @md5s_seen = Set.new
-
-    xml_top = xml[0..100] # just look at the start of the file.
-    case xml_top
-    when /<pbcoreCollection/
-      $LOG.info("Read pbcoreCollection from #{path}")
-      Uncollector.uncollect_string(xml).each do |document|
-        md5 = Digest::MD5.hexdigest(document)
-        if @md5s_seen.include?(md5)
-          # Documents are often repeated in AMS exports.
-          $LOG.info("Skipping already seen md5 #{md5}")
-        else
-          @md5s_seen.add(md5)
-          begin
-            ingest_xml_no_commit(cleaner.clean(document))
-            @success_count += 1
-          rescue => e
-            id_extracts = document.scan(/<pbcoreIdentifier[^>]*>[^<]*<[^>]*>/)
-            record_error(e, path, id_extracts)
-          end
-        end
-      end
-    when /<pbcoreDescriptionDocument/
-      begin
-        ingest_xml_no_commit(cleaner.clean(xml))
-        @success_count += 1
-      rescue => e
-        record_error(e, path)
-      end
-    else
-      e = ValidationError.new("Neither pbcoreCollection nor pbcoreDocument. #{xml_top}")
-      record_error(e, path)
-    end
+    
     commit unless is_batch_commit
   end
 
