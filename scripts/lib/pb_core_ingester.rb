@@ -2,11 +2,8 @@ require 'rsolr'
 require 'date' # NameError deep in Solrizer without this.
 require 'logger'
 require_relative '../../app/models/validated_pb_core'
-require_relative 'uncollector'
-require_relative 'cleaner'
 require_relative 'null_logger'
 require_relative 'mount_validator'
-require_relative 'zipper'
 require_relative '../../lib/solr'
 
 class PBCoreIngester

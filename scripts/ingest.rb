@@ -1,6 +1,4 @@
 require_relative '../lib/rails_stub'
-require_relative 'lib/downloader'
-require_relative 'lib/cleaner'
 require_relative 'lib/pb_core_ingester'
 require 'logger'
 require 'rake'
@@ -14,28 +12,22 @@ end
 class ParamsError < StandardError
 end
 
-class DownloadCleanIngest
+class Ingest
   def const_init(name)
     const_name = name.upcase.tr('-', '_')
     flag_name = "--#{name}"
     begin
       # to avoid "warning: already initialized constant" in tests.
-      DownloadCleanIngest.const_get(const_name)
+      Ingest.const_get(const_name)
     rescue NameError
-      DownloadCleanIngest.const_set(const_name, flag_name)
+      Ingest.const_set(const_name, flag_name)
     end
-  end
-
-  def download(opts)
-    [Downloader.download_to_directory_and_link(
-      { is_same_mount: @is_same_mount, is_just_reindex: @is_just_reindex }.merge(opts)
-    )]
   end
 
   def initialize(argv)
     orig = argv.clone
 
-    %w(files).each do |name|
+    %w(files dirs).each do |name|
       const_init(name)
     end
 
@@ -57,39 +49,13 @@ class DownloadCleanIngest
     begin
       case mode
 
-#      when ALL
-#        fail ParamsError.new unless args.count < 2 && (!args.first || args.first.to_i > 0)
-#        target_dirs = download(page: args.first.to_i)
-#
-#      when BACK
-#        fail ParamsError.new unless args.count == 1 && args.first.to_i > 0
-#        target_dirs = download(days: args.first.to_i)
-#
-#      when QUERY
-#        fail ParamsError.new unless args.count == 1
-#        target_dirs = download(query: args.first)
-#
-#      when IDS
-#        fail ParamsError.new unless args.count >= 1
-#        target_dirs = download(ids: args)
-#
-#      when ID_FILES
-#        fail ParamsError.new unless args.count >= 1
-#        ids = args.map { |id_file| File.readlines(id_file) }.flatten
-#        target_dirs = download(ids: ids)
-#
-#      when DIRS
-#        fail ParamsError.new if args.empty? || args.map { |dir| !File.directory?(dir) }.any?
-#        target_dirs = args
+      when DIRS
+        fail ParamsError.new if args.empty? || args.map { |dir| !File.directory?(dir) }.any?
+        target_dirs = args
 
       when FILES
         fail ParamsError.new if args.empty?
         @files = args
-
-#      when EXHIBITS
-#        fail ParamsError.new unless args.count >= 1
-#        ids = args.map { |exhibit_path| Exhibit.find_by_path(exhibit_path).ids }.flatten
-#        target_dirs = download(ids: ids)
 
       else
         fail ParamsError.new
@@ -134,6 +100,7 @@ class DownloadCleanIngest
         #{STDOUT_LOG}: Optionally, log to stdout, rather than a log file.
 
       mutually exclusive modes:
+        #{DIRS}: Clean and ingest the given files.
         #{FILES}: Clean and ingest the given files.
       EOF
   end
@@ -189,4 +156,4 @@ class DownloadCleanIngest
   end
 end
 
-DownloadCleanIngest.new(ARGV).process if __FILE__ == $PROGRAM_NAME
+Ingest.new(ARGV).process if __FILE__ == $PROGRAM_NAME
