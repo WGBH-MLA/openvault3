@@ -2,8 +2,9 @@
     .btn,.dropdown-menu {
         border-radius: 0px; // TODO: Perhaps move up?
     }
-    #facets .top-panel-heading {
-        border: none; // Only matters on xs screen width.
+    #facets {
+        .top-panel-heading { border: none; } // Only matters on xs screen width.
+        padding: 0px;
     }
     #appliedParams {
         border: none;
@@ -16,17 +17,11 @@
     }
     @media (min-width: $screen-md-min) {
         #sidebar {
-            // Hack to get background full window width.
-            // "Right" way might be to change the DOM structure to un-nest this.
-            position: absolute;
-            left: 0;
-            right: 0;
             background: $medium-blue;
             .facet-content .panel-body {
                 position: absolute; // So the div doesn't expand when the menu drops.
             }
         }
-        #content { padding-top: 4*$grid-gutter-width; } // Space for absolutely positioned #sidebar
     }
     @media (max-width: $screen-xs-max) {
         .facets-toggle { margin-top: -50px; }
@@ -36,7 +31,9 @@
         }
     }
     
-    #sidebar {  
+    #sidebar {
+        padding: 0px;
+        margin: 0px $grid-gutter-width/2; // Make edges flush
         .panel-group {
             .panel-heading {
                 background: #FFF;
@@ -92,6 +89,7 @@
     }
     
     #content {
+        padding-top: $grid-gutter-width/2;
         #sortAndPerPage {
             border: none; // Default has line at bottom.
             padding: 0px;
