@@ -12,6 +12,18 @@
   <pbcoreDescription descriptionType="Asset Description">ASSET-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Series Description">SERIES-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Program Description">PROGRAM-DESCRIPTION</pbcoreDescription>
+  <pbcoreGenre source="Series Genre">GENRE-1</pbcoreGenre>
+  <pbcoreGenre source="Series Genre">GENRE-2</pbcoreGenre>
+  <pbcoreGenre source="Series Topic">TOPIC-1</pbcoreGenre>
+  <pbcoreGenre source="Series Topic">TOPIC-2</pbcoreGenre>
+  <pbcoreCoverage>
+    <coverage>LOCATION-1</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage>LOCATION-2</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
   <pbcoreCreator>
     <creator>CREATOR-NAME-1</creator>
     <creatorRole>CREATOR-ROLE-1</creatorRole>

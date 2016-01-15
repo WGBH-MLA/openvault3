@@ -65,16 +65,16 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @publishers ||= xpaths('/*/pbcorePublisher/publisher')
   end
   def subjects
-    @subject ||= ['subject_1', 'subject_2'] # TODO
+    @subjects ||= xpaths('/*/pbcoreSubject')
   end
   def locations
-    @location ||= ['location_1', 'location_2'] # TODO
+    @locations ||= xpaths('/*/pbcoreCoverage[coverageType="Spatial"]/coverage')
   end
   def genres
-    @genre ||= ['genre_1', 'genre_2'] # TODO
+    @genre ||= xpaths('/*/pbcoreGenre[@source="Series Genre"]')
   end
   def topics
-    @topic ||= ['topic_1', 'topic_2'] # TODO
+    @topic ||= xpaths('/*/pbcoreGenre[@source="Series Topic"]')
   end
   
   def rights_summary
