@@ -107,9 +107,6 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def transcript_src
     @transcript_src ||= "#{URL_BASE}/asset_transcripts/#{id}.xml"
   end
-  def captions_src
-    nil # TODO
-  end
   VIDEO = 'Video'
   AUDIO = 'Audio'
   IMAGE = 'Image'
