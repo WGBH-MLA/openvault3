@@ -90,7 +90,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def id
-    @id ||= 'A_00B0C50853C64A71935737EF7A4DA66C' # TODO
+    @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
   end
   URL_BASE = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
   def thumbnail_src

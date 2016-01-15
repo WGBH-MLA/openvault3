@@ -78,6 +78,8 @@ describe 'Validated and plain PBCore' do
   describe PBCore do
     
     describe 'full' do
+      id = 'V_5FDB1545443B427888C90E7B15F3783A'
+      base = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
       assertions = {
         series_title: 'SERIES',
         program_title: 'PROGRAM',
@@ -91,6 +93,8 @@ describe 'Validated and plain PBCore' do
         series_description: 'SERIES-DESCRIPTION',
         program_description: 'PROGRAM-DESCRIPTION',
         asset_description: 'ASSET-DESCRIPTION',
+        id: 'V_5FDB1545443B427888C90E7B15F3783A',
+        thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg"
       }
 
       pbc = PBCore.new(pbc_xml)
