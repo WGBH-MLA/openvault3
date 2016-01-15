@@ -17,6 +17,16 @@ module XmlBacked
   def xpaths(xpath)
     REXML::XPath.match(@doc, xpath).map { |node| XmlBacked.text_from(node) }
   end
+  
+  def xpath_boolean(xpath)
+    case xpaths(xpath)
+    when ['YES']
+      true
+    when []
+      false
+    else throw "Expected #{xpath} if present to be 'YES'"
+    end
+  end
 
   def self.text_from(node)
     ((node.respond_to?('text') ? node.text : node.value) || '').strip

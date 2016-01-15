@@ -56,8 +56,8 @@
   <pbcoreAnnotation annotationType="Scholar Exhibit"/>
   <pbcoreAnnotation annotationType="Playlist Group"/>
   <pbcoreAnnotation annotationType="Playlist Order"/>
-  <pbcoreAnnotation annotationType="Geoblock"/>
-  <pbcoreAnnotation annotationType="Password Restriction"/>
+  <pbcoreAnnotation annotationType="Geoblock">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Password">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Thumbnail">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Transcript">YES</pbcoreAnnotation>

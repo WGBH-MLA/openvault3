@@ -111,7 +111,9 @@ describe 'Validated and plain PBCore' do
         subjects: ['SUBJECT-1', 'SUBJECT-2'],
         genres: ['GENRE-1', 'GENRE-2'],
         topics: ['TOPIC-1', 'TOPIC-2'],
-        locations: ['LOCATION-1', 'LOCATION-2']
+        locations: ['LOCATION-1', 'LOCATION-2'],
+        us_only?: true,
+        password_required?: true,
       }
 
       pbc = PBCore.new(pbc_xml)

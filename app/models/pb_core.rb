@@ -127,10 +127,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def us_only?
-    # TODO
+    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
   end
   def password_required?
-    # TODO
+    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password"]')
   end
   
   def aapb_url
