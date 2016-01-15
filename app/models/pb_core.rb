@@ -20,8 +20,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def program_number
     @program_number ||= xpath('/*/pbcoreTitle[@titleType="Program Number"]')
   end
-  def item_title
-    @item_title ||= xpath('/*/pbcoreTitle[@titleType="Open Vault Title"]')
+  def asset_title
+    @asset_title ||= xpath('/*/pbcoreTitle[@titleType="Open Vault Title"]')
   end
   
   def date
@@ -32,7 +32,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def title
-    @title ||= [series_title, program_title, item_title].select{|x| x}.join('; ')
+    @title ||= [series_title, program_title, asset_title].select{|x| x}.join('; ')
   end
   
   def duration
@@ -40,19 +40,16 @@ class PBCore # rubocop:disable Metrics/ClassLength
       .gsub(/(\d\d:\d\d:\d\d):\d\d/, '\1')
   end
   def asset_type
-    @asset_type ||= 'asset_type' # TODO
+    @asset_type ||= xpath('/*/pbcoreAssetType')
   end
   def series_description
-    @series_description ||= 'series_description' # TODO
+    @series_description ||= xpath('/*/pbcoreDescription[@descriptionType="Series Description"]')
   end
-#  def series_date
-#    @series_date ||= 'series_date' # TODO
-#  end
   def program_description
-    @program_description ||= 'program_description' # TODO
+    @program_description ||= xpath('/*/pbcoreDescription[@descriptionType="Program Description"]')
   end
-  def item_description
-    @item_description ||= 'item_description' # TODO
+  def asset_description
+    @asset_description ||= xpath('/*/pbcoreDescription[@descriptionType="Asset Description"]')
   end
   def creators
     @creators ||= [

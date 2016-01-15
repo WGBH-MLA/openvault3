@@ -82,11 +82,15 @@ describe 'Validated and plain PBCore' do
         series_title: 'SERIES',
         program_title: 'PROGRAM',
         program_number: 'PROGRAM-NUMBER',
-        item_title: 'ITEM',
+        asset_title: 'ASSET',
         date: '12/31/1999',
         year: '1999',
-        title: 'SERIES; PROGRAM; ITEM',
-        duration: '01:23:45'
+        title: 'SERIES; PROGRAM; ASSET',
+        duration: '01:23:45',
+        asset_type: 'Original footage',
+        series_description: 'SERIES-DESCRIPTION',
+        program_description: 'PROGRAM-DESCRIPTION',
+        asset_description: 'ASSET-DESCRIPTION',
       }
 
       pbc = PBCore.new(pbc_xml)

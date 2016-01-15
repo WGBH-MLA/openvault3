@@ -6,7 +6,7 @@
   <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>
   <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
   <pbcoreTitle titleType="Series">SERIES</pbcoreTitle>
-  <pbcoreTitle titleType="Open Vault Title">ITEM</pbcoreTitle>
+  <pbcoreTitle titleType="Open Vault Title">ASSET</pbcoreTitle>
   <pbcoreSubject>United States. Air Force</pbcoreSubject>
   <pbcoreSubject>United States. Congress. House. Committee on Armed Services</pbcoreSubject>
   <pbcoreSubject>Cuban Missile Crisis, 1962</pbcoreSubject>
@@ -17,47 +17,9 @@
   <pbcoreSubject>Mutual assured destruction</pbcoreSubject>
   <pbcoreSubject>Kennedy, John F. (John Fitzgerald), 1917-1963</pbcoreSubject>
   <pbcoreSubject>United States. Air Force. Strategic Air Command</pbcoreSubject>
-  <pbcoreDescription descriptionType="Asset Description">David Jones was a general in the U.S. Air Force, who served in the Strategic
-                    Air Command as an operations planner, then as General Curtis LeMay?s aide. He
-                    went on to become Chairman of the Joint Chiefs of Staff (1978-1982). In this
-                    interview he discusses the Air Force?s policies and attitudes during the Kennedy
-                    administration in the early 1960s. He explains the USAF?s unease with the young
-                    civilian defense analysts, or ?whiz kids,? brought into the Pentagon at that
-                    time. Of all of the changes made by Secretary of Defense McNamara, the
-                    cancellation of the B-70 was what most upset SAC and the Air Force. He vouches
-                    for the versatility and accuracy of the Air Force?s bombers, and reacts to the
-                    cancellation of various bomber programs. He describes the change in strategic
-                    doctrine away from mutually assured destruction and towards targeting Soviet
-                    military sites. He argues that to support this doctrine the Air Force required
-                    all of the missile capability it had requested, and calls the compromise of
-                    1,000 Minuteman missiles rather than 3,000, a mistake. He believes that it was
-                    the credible threat that the U.S. could destroy substantial Soviet military
-                    capabilities, rather than the notion of mutually assured destruction, that gave
-                    weight to Kennedy?s position during the Cuban Missile Crisis.</pbcoreDescription>
-  <pbcoreDescription descriptionType="Series Description">The first atomic explosion in the New Mexico desert on July 16, 1945, changed
-                    the world forever. This series chronicles these changes and the history of a new
-                    era. It traces the development of nuclear weapons, the evolution of nuclear
-                    strategy, and the politics of a world with the power to destroy itself. In
-                    thirteen one-hour programs that combine historic footage and recent interviews
-                    with key American, Soviet, and European participants, the nuclear age unfolds:
-                    the origin and evolution of nuclear weapons; the people of the past who have
-                    shaped the events of the present; the ideas and issues that political leaders,
-                    scientists, and the public at large must confront, and the prospects for the
-                    future. Nuclear Age highlights the profound changes in contemporary thinking
-                    imposed by the advent of nuclear weapons. Series release date: 1/1989</pbcoreDescription>
-  <pbcoreDescription descriptionType="Program Description">For the destructive power they deliver, nuclear weapons are cheap and
-                    efficient. In the 1950’s the United States begins to rely on nuclear, rather
-                    than conventional, weapons for its defense. As nuclear policy evolved during the
-                    Eisenhower Administration, three factors combined to produce a new American
-                    reliance on nuclear weapons: pressure to control the federal budget (the “bigger
-                    bang” argument); competition as each branch of the American military adapted
-                    nuclear weapons to its mission; and Soviet bluffs that fueled American fears
-                    about a “bomber gap” and later a “missile gap.” On October 4, 1957, Sputnik, the
-                    Soviet satellite that was the first to orbit Earth, shocked Americans and
-                    delighted the Soviets. A month later, the Soviets launched Sputnik 2 with a dog
-                    on board. Both the Soviets and the Americans knew that a booster capable of
-                    carrying a dog into space could also deliver a nuclear warhead across a
-                    continent in 30 minutes.</pbcoreDescription>
+  <pbcoreDescription descriptionType="Asset Description">ASSET-DESCRIPTION</pbcoreDescription>
+  <pbcoreDescription descriptionType="Series Description">SERIES-DESCRIPTION</pbcoreDescription>
+  <pbcoreDescription descriptionType="Program Description">PROGRAM-DESCRIPTION</pbcoreDescription>
   <pbcoreContributor>
     <contributor>Jones, David C., 1921-</contributor>
     <contributorRole>Interviewee</contributorRole>
