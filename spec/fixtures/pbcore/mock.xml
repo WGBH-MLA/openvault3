@@ -7,26 +7,32 @@
   <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
   <pbcoreTitle titleType="Series">SERIES</pbcoreTitle>
   <pbcoreTitle titleType="Open Vault Title">ASSET</pbcoreTitle>
-  <pbcoreSubject>United States. Air Force</pbcoreSubject>
-  <pbcoreSubject>United States. Congress. House. Committee on Armed Services</pbcoreSubject>
-  <pbcoreSubject>Cuban Missile Crisis, 1962</pbcoreSubject>
-  <pbcoreSubject>Nuclear weapons</pbcoreSubject>
-  <pbcoreSubject>United States</pbcoreSubject>
-  <pbcoreSubject>Soviet Union</pbcoreSubject>
-  <pbcoreSubject>McNamara, Robert S., 1916-2009</pbcoreSubject>
-  <pbcoreSubject>Mutual assured destruction</pbcoreSubject>
-  <pbcoreSubject>Kennedy, John F. (John Fitzgerald), 1917-1963</pbcoreSubject>
-  <pbcoreSubject>United States. Air Force. Strategic Air Command</pbcoreSubject>
+  <pbcoreSubject>SUBJECT-1</pbcoreSubject>
+  <pbcoreSubject>SUBJECT-2</pbcoreSubject>
   <pbcoreDescription descriptionType="Asset Description">ASSET-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Series Description">SERIES-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Program Description">PROGRAM-DESCRIPTION</pbcoreDescription>
+  <pbcoreCreator>
+    <creator>CREATOR-NAME-1</creator>
+    <creatorRole>CREATOR-ROLE-1</creatorRole>
+  </pbcoreCreator>
+  <pbcoreCreator>
+    <creator>CREATOR-NAME-2</creator>
+    <creatorRole>CREATOR-ROLE-2</creatorRole>
+  </pbcoreCreator>
   <pbcoreContributor>
-    <contributor>Jones, David C., 1921-</contributor>
-    <contributorRole>Interviewee</contributorRole>
+    <contributor>CONTRIBUTOR-NAME-1</contributor>
+    <contributorRole>CONTRIBUTOR-ROLE-1</contributorRole>
+  </pbcoreContributor>
+  <pbcoreContributor>
+    <contributor>CONTRIBUTOR-NAME-2</contributor>
+    <contributorRole>CONTRIBUTOR-ROLE-2</contributorRole>
   </pbcoreContributor>
   <pbcorePublisher>
-    <publisher>WGBH Educational Foundation</publisher>
-    <publisherRole/>
+    <publisher>PUBLISHER-1</publisher>
+  </pbcorePublisher>
+  <pbcorePublisher>
+    <publisher>PUBLISHER-2</publisher>
   </pbcorePublisher>
   <pbcoreRightsSummary>
     <rightsSummary>RIGHTS-SUMMARY</rightsSummary>

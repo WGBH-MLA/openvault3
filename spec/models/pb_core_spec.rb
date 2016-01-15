@@ -97,6 +97,13 @@ describe 'Validated and plain PBCore' do
         thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg",
         proxy_srcs: ['mp4', 'webm'].map{|ext| "#{base}/asset_proxies/#{id}.#{ext}"},
         rights_summary: 'RIGHTS-SUMMARY',
+        contributors: [
+          PBCoreNameRole.new('contributor', 'CONTRIBUTOR-NAME-1', 'CONTRIBUTOR-ROLE-1'),
+          PBCoreNameRole.new('contributor', 'CONTRIBUTOR-NAME-2', 'CONTRIBUTOR-ROLE-2')],
+        creators: [
+          PBCoreNameRole.new('creator', 'CREATOR-NAME-1', 'CREATOR-ROLE-1'),
+          PBCoreNameRole.new('creator', 'CREATOR-NAME-2', 'CREATOR-ROLE-2')],
+        publishers: ['PUBLISHER-1', 'PUBLISHER-2']
       }
 
       pbc = PBCore.new(pbc_xml)

@@ -51,20 +51,18 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def asset_description
     @asset_description ||= xpath('/*/pbcoreDescription[@descriptionType="Asset Description"]')
   end
-  def creators
-    @creators ||= [
-      PBCoreNameRole.new(nil, 'creator_1_name', 'creator_1_role'),
-      PBCoreNameRole.new(nil, 'creator_2_name', 'creator_2_role')
-    ] # TODO
-  end
   def contributors
-    @contributors ||= [
-      PBCoreNameRole.new(nil, 'contrib_1_name', 'contrib_1_role'),
-      PBCoreNameRole.new(nil, 'contrib_2_name', 'contrib_2_role')
-    ] # TODO
+    @contributors ||= REXML::XPath.match(@doc, '/*/pbcoreContributor').map do|rexml|
+      PBCoreNameRole.new(rexml)
+    end
+  end
+  def creators
+    @creators ||= REXML::XPath.match(@doc, '/*/pbcoreCreator').map do|rexml|
+      PBCoreNameRole.new(rexml)
+    end
   end
   def publishers
-    @publishers ||= ['publisher_1', 'publisher_2'] # TODO
+    @publishers ||= xpaths('/*/pbcorePublisher/publisher')
   end
   def subjects
     @subject ||= ['subject_1', 'subject_2'] # TODO
