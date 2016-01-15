@@ -1,4 +1,5 @@
 require_relative '../../app/models/validated_pb_core'
+require 'active_support'
 
 describe 'Validated and plain PBCore' do
   pbc_xml = File.read('spec/fixtures/pbcore/mock.xml')
@@ -116,8 +117,21 @@ describe 'Validated and plain PBCore' do
         password_required?: true,
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],
-        scholar_exhibits: ['needlework']
-      }
+        scholar_exhibits: ['needlework']}
+      assertions[:to_solr] = assertions.slice(
+        :id, :title, :thumbnail_src, :year, :series_title, :program_title,
+        :subjects, :locations, :genres, :topics, :asset_type, :media_type, 
+        :scholar_exhibits, :special_collections, :special_collection_tags)
+      .merge({
+          xml: pbc_xml,
+          text: ["SERIES", "PROGRAM", "PROGRAM-NUMBER", "ASSET", "12/31/1999", 
+            "1999", "SERIES; PROGRAM; ASSET", "SERIES-DESCRIPTION", 
+            "PROGRAM-DESCRIPTION", "ASSET-DESCRIPTION", "CONTRIBUTOR-NAME-1", 
+            "CONTRIBUTOR-ROLE-1", "CONTRIBUTOR-NAME-2", "CONTRIBUTOR-ROLE-2", 
+            "CREATOR-NAME-1", "CREATOR-ROLE-1", "CREATOR-NAME-2", "CREATOR-ROLE-2", 
+            "PUBLISHER-1", "PUBLISHER-2", "SUBJECT-1", "SUBJECT-2", "LOCATION-1", 
+            "LOCATION-2", "GENRE-1", "GENRE-2", "TOPIC-1", "TOPIC-2", "RIGHTS-SUMMARY"]
+        })
 
       pbc = PBCore.new(pbc_xml)
 

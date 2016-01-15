@@ -150,18 +150,18 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @scholar_exhibits ||= xpaths('/*/pbcoreAnnotation[@annotationType="Scholar Exhibit"]')
   end
   
-  def playlist
-    # TODO
-  end
-  def playlist_order
-    # TODO
-  end
-  def playlist_next_id
-    # TODO
-  end
-  def playlist_prev_id
-    # TODO
-  end
+#  def playlist
+#    # TODO
+#  end
+#  def playlist_order
+#    # TODO
+#  end
+#  def playlist_next_id
+#    # TODO
+#  end
+#  def playlist_prev_id
+#    # TODO
+#  end
   
   # rubocop:enable Style/EmptyLineBetweenDefs
 
@@ -195,42 +195,42 @@ class PBCore # rubocop:disable Metrics/ClassLength
 #    end
     
     {
-      'id' => id,
-      'xml' => '<xml/>', # TODO; Formatter.instance.format(doc_with_caption_flag),
+      id: id,
+      xml: @xml,
 
       # indexed:
-      'text' => text, # TODO + [caption_body].select { |optional| optional },
+      text: text, # TODO + [caption_body].select { |optional| optional },
 
       # *************************************
       #     Keep in sync with schema.xml
       # *************************************
       
-      'title' => title,
-      'thumbnail_src' => thumbnail_src,
+      title: title,
+      thumbnail_src: thumbnail_src,
       
-      'year' => year,
+      year: year,
       
       # links from details and series pages:
-      'series_title' => series_title,
-      'program_title' => program_title,
+      series_title: series_title,
+      program_title: program_title,
       
-      'subjects' => subjects,
-      'locations' => locations,
+      subjects: subjects,
+      locations: locations,
       
       # UI facets
-      'genres' => genres,
-      'topics' => topics,
+      genres: genres,
+      topics: topics,
       
-      'asset_type' => asset_type,
-      'media_type' => media_type,
+      asset_type: asset_type,
+      media_type: media_type,
       
       # exhibit/collection support
-      'scholar_exhibits' => scholar_exhibits,
-      'special_collections' => special_collections,
-      'special_collection_tabs' => special_collection_tabs,
+      scholar_exhibits: scholar_exhibits,
+      special_collections: special_collections,
+      special_collection_tags: special_collection_tags,
       
-      'playlist' => playlist,
-      'playlist_order' => playlist_order
+#      playlist: playlist,
+#      playlist_order: playlist_order
     }
   end
 
@@ -239,19 +239,19 @@ class PBCore # rubocop:disable Metrics/ClassLength
   # These methods are only used by to_solr.
 
   def text
-    @text ||= 'text' # TODO
-#    ignores = [:text, :to_solr, :contribs, :img_src, :media_srcs, :captions_src,
-#               :rights_code, :access_level, :access_types,
-#               :organization_pbcore_name, # internal string; not in UI
-#               :title, :ci_ids, :instantiations, 
-#               :outside_url, :reference_urls, :exhibits]
-#    @text ||= (PBCore.instance_methods(false) - ignores)
-#              .reject { |method| method =~ /\?$/ } # skip booleans
-#              .map { |method| send(method) } # method -> value
-#              .select { |x| x } # skip nils
-#              .flatten # flattens list accessors
-#              .map { |x| x.respond_to?(:to_a) ? x.to_a : x } # get elements of compounds
-#              .flatten.uniq
+    @text = begin
+      ignores = [
+        :text, :to_solr, :id, :duration, :media_type, :asset_type, :extensions,
+        :scholar_exhibits, :special_collections, :special_collection_tags
+      ]
+      (PBCore.instance_methods(false) - ignores)
+              .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls
+              .map { |method| send(method) } # method -> value
+              .select { |x| x } # skip nils
+              .flatten # flattens list accessors
+              .map { |x| x.respond_to?(:to_a) ? x.to_a : x } # get elements of compounds
+              .flatten.uniq
+    end
   end
 
 end
