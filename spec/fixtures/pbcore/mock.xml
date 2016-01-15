@@ -53,7 +53,7 @@
   <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection">war_peace</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection Tag">war_interview</pbcoreAnnotation>
-  <pbcoreAnnotation annotationType="Scholar Exhibit"/>
+  <pbcoreAnnotation annotationType="Scholar Exhibit">needlework</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Playlist Group"/>
   <pbcoreAnnotation annotationType="Playlist Order"/>
   <pbcoreAnnotation annotationType="Geoblock">YES</pbcoreAnnotation>

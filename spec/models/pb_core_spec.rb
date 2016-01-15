@@ -114,6 +114,9 @@ describe 'Validated and plain PBCore' do
         locations: ['LOCATION-1', 'LOCATION-2'],
         us_only?: true,
         password_required?: true,
+        special_collections: ['war_peace'],
+        special_collection_tags: ['war_interview'],
+        scholar_exhibits: ['needlework']
       }
 
       pbc = PBCore.new(pbc_xml)

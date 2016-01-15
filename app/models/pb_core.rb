@@ -141,13 +141,13 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def special_collections
-    # TODO
+    @special_collections ||= xpaths('/*/pbcoreAnnotation[@annotationType="Special Collection"]')
   end  
-  def special_collection_tabs
-    # TODO
+  def special_collection_tags
+    @special_collection_tags ||= xpaths('/*/pbcoreAnnotation[@annotationType="Special Collection Tag"]')
   end
   def scholar_exhibits
-    # TODO
+    @scholar_exhibits ||= xpaths('/*/pbcoreAnnotation[@annotationType="Scholar Exhibit"]')
   end
   
   def playlist
