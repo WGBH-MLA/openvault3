@@ -3,25 +3,25 @@ require 'rexml/xpath'
 require 'solrizer'
 require_relative '../../lib/html_scrubber'
 require_relative '../../lib/open_vault'
-require_relative 'empty_element_xml_backed'
+require_relative 'xml_backed'
 require_relative 'pb_core_name_role'
 require_relative '../../lib/formatter'
 
 class PBCore # rubocop:disable Metrics/ClassLength
   # rubocop:disable Style/EmptyLineBetweenDefs
-  include EmptyElementXmlBacked
+  include XmlBacked
   
   def series_title
-    @series_title ||= xpath('pbcoreTitle[@titleType="Series"]')
+    @series_title ||= xpath('/*/pbcoreTitle[@titleType="Series"]')
   end
   def program_title
-    @program_title ||= xpath('pbcoreTitle[@titleType="Program"]')
+    @program_title ||= xpath('/*/pbcoreTitle[@titleType="Program"]')
   end
   def program_number
-    @program_number ||= xpath('pbcoreTitle[@titleType="Program Number"]')
+    @program_number ||= xpath('/*/pbcoreTitle[@titleType="Program Number"]')
   end
   def item_title
-    @item_title ||= xpath('pbcoreTitle[@titleType="Open Vault Title"]')
+    @item_title ||= xpath('/*/pbcoreTitle[@titleType="Open Vault Title"]')
   end
   
   def date
@@ -55,14 +55,14 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   def creators
     @creators ||= [
-      PBCoreNameRoleAffiliation.new(nil, 'creator_1_name', 'creator_1_role'),
-      PBCoreNameRoleAffiliation.new(nil, 'creator_2_name', 'creator_2_role')
+      PBCoreNameRole.new(nil, 'creator_1_name', 'creator_1_role'),
+      PBCoreNameRole.new(nil, 'creator_2_name', 'creator_2_role')
     ] # TODO
   end
   def contributors
     @contributors ||= [
-      PBCoreNameRoleAffiliation.new(nil, 'contrib_1_name', 'contrib_1_role'),
-      PBCoreNameRoleAffiliation.new(nil, 'contrib_2_name', 'contrib_2_role')
+      PBCoreNameRole.new(nil, 'contrib_1_name', 'contrib_1_role'),
+      PBCoreNameRole.new(nil, 'contrib_2_name', 'contrib_2_role')
     ] # TODO
   end
   def publishers

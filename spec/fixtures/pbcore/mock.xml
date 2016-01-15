@@ -3,10 +3,10 @@
   <pbcoreAssetType>Original footage</pbcoreAssetType>
   <pbcoreAssetDate dateType="Item Date">06/28/1986</pbcoreAssetDate>
   <pbcoreIdentifier source="Open Vault UID">V_5FDB1545443B427888C90E7B15F3783A</pbcoreIdentifier>
-  <pbcoreTitle titleType="Program Number">103</pbcoreTitle>
-  <pbcoreTitle titleType="Program">Bigger Bang for the Buck, A</pbcoreTitle>
-  <pbcoreTitle titleType="Series">War and Peace in the Nuclear Age</pbcoreTitle>
-  <pbcoreTitle titleType="Open Vault Title">Interview with David Jones, 1986 [2]</pbcoreTitle>
+  <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>
+  <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
+  <pbcoreTitle titleType="Series">SERIES</pbcoreTitle>
+  <pbcoreTitle titleType="Open Vault Title">ITEM</pbcoreTitle>
   <pbcoreSubject>United States. Air Force</pbcoreSubject>
   <pbcoreSubject>United States. Congress. House. Committee on Armed Services</pbcoreSubject>
   <pbcoreSubject>Cuban Missile Crisis, 1962</pbcoreSubject>
