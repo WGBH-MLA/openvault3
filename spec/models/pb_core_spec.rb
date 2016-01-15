@@ -94,7 +94,9 @@ describe 'Validated and plain PBCore' do
         program_description: 'PROGRAM-DESCRIPTION',
         asset_description: 'ASSET-DESCRIPTION',
         id: 'V_5FDB1545443B427888C90E7B15F3783A',
-        thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg"
+        thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg",
+        proxy_srcs: ['mp4', 'webm'].map{|ext| "#{base}/asset_proxies/#{id}.#{ext}"},
+        rights_summary: 'RIGHTS-SUMMARY',
       }
 
       pbc = PBCore.new(pbc_xml)

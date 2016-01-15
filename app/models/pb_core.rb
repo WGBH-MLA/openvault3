@@ -80,13 +80,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def rights_summary
-    @rights_summary ||= "#{rights_holder}; #{rights_credit}"
-  end
-  def rights_holder
-    @rights_holder ||= 'rights_holder' # TODO
-  end
-  def rights_credit
-    @rights_credit ||= 'rights_credit' # TODO
+    @rights_summary ||= xpath('/*/pbcoreRightsSummary/rightsSummary')
   end
   
   def id
@@ -97,17 +91,19 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @thumb_src ||= "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
     # TODO: some have defaults?
   end
-  def proxy_src
-    @media_src ||= "#{URL_BASE}/asset_proxies/#{id}.#{extension}" # TODO
+  def proxy_srcs
+    @media_src ||= extensions.map do |ext|
+      "#{URL_BASE}/asset_proxies/#{id}.#{ext}"
+    end
   end
-  def extension
+  def extensions
     case media_type
     when VIDEO
-      'mp4'
+      ['mp4', 'webm']
     when AUDIO
-      'mp3'
+      ['mp3']
     when IMAGE
-      'jpg'
+      ['jpg']
     end
   end
   def transcript_src
@@ -120,7 +116,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   AUDIO = 'Audio'
   IMAGE = 'Image'
   def media_type
-    @media_type ||= AUDIO # TODO
+    @media_type ||= xpath('/*/pbcoreAnnotation[@annotationType="Media Type"]')
   end
   def video?
     media_type == VIDEO
