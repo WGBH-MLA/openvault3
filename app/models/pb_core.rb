@@ -28,6 +28,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def date
     @date ||= 'date' # TODO
   end
+  def year
+    @year ||= 'year' # TODO
+  end
   
   def title
     @title ||= [series_title, program_title, item_title].select{|x| x}.join('; ')
@@ -145,11 +148,14 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def boston_tv_news_url
     @boston_tv_news_url ||= 'boston_tv_news_url' # TODO
   end
-  
-  def special_collection_tab
+
+  def special_collections
+    # TODO
+  end  
+  def special_collection_tabs
     # TODO
   end
-  def scholar_exhibit
+  def scholar_exhibits
     # TODO
   end
   
@@ -204,18 +210,36 @@ class PBCore # rubocop:disable Metrics/ClassLength
       # indexed:
       'text' => text, # TODO + [caption_body].select { |optional| optional },
 
-      # facets:
+      # *************************************
+      #     Keep in sync with schema.xml
+      # *************************************
+      
+      'title' => title,
+      'thumbnail_src' => thumbnail_src,
+      
+      'year' => year,
+      
+      # links from details and series pages:
       'series_title' => series_title,
       'program_title' => program_title,
-      
-      'genres' => genres,
-      'topics' => topics,
       
       'subjects' => subjects,
       'locations' => locations,
       
+      # UI facets
+      'genres' => genres,
+      'topics' => topics,
+      
       'asset_type' => asset_type,
       'media_type' => media_type,
+      
+      # exhibit/collection support
+      'scholar_exhibits' => scholar_exhibits,
+      'special_collections' => special_collections,
+      'special_collection_tabs' => special_collection_tabs,
+      
+      'playlist' => playlist,
+      'playlist_order' => playlist_order
     }
   end
 
