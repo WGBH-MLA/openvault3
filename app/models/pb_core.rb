@@ -25,10 +25,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def date
-    @date ||= 'date' # TODO
+    @date ||= xpath('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
   def year
-    @year ||= 'year' # TODO
+    @year ||= date.match(/(\d{4})/)[1]
   end
   
   def title
@@ -36,7 +36,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def duration
-    @duration ||= 'duration' # TODO
+    @duration ||= xpath('/*/pbcoreAnnotation[@annotationType="Duration"]')
+      .gsub(/(\d\d:\d\d:\d\d):\d\d/, '\1')
   end
   def asset_type
     @asset_type ||= 'asset_type' # TODO

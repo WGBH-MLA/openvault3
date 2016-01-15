@@ -83,6 +83,10 @@ describe 'Validated and plain PBCore' do
         program_title: 'PROGRAM',
         program_number: 'PROGRAM-NUMBER',
         item_title: 'ITEM',
+        date: '12/31/1999',
+        year: '1999',
+        title: 'SERIES; PROGRAM; ITEM',
+        duration: '01:23:45'
       }
 
       pbc = PBCore.new(pbc_xml)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
   <pbcoreAssetType>Original footage</pbcoreAssetType>
-  <pbcoreAssetDate dateType="Item Date">06/28/1986</pbcoreAssetDate>
+  <pbcoreAssetDate dateType="Item Date">12/31/1999</pbcoreAssetDate>
   <pbcoreIdentifier source="Open Vault UID">V_5FDB1545443B427888C90E7B15F3783A</pbcoreIdentifier>
   <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>
   <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
@@ -69,7 +69,7 @@
   <pbcoreRightsSummary>
     <rightsSummary>Rights Holder:  WGBH Educational Foundation</rightsSummary>
   </pbcoreRightsSummary>
-  <pbcoreAnnotation annotationType="Duration">00:21:27:04</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Duration">01:23:45:01</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection">war_peace</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Special Collection Tag">war_interview</pbcoreAnnotation>
