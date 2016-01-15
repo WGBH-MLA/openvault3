@@ -3,25 +3,25 @@ require 'rexml/xpath'
 require 'solrizer'
 require_relative '../../lib/html_scrubber'
 require_relative '../../lib/open_vault'
-require_relative 'xml_backed'
+require_relative 'empty_element_xml_backed'
 require_relative 'pb_core_name_role'
 require_relative '../../lib/formatter'
 
 class PBCore # rubocop:disable Metrics/ClassLength
   # rubocop:disable Style/EmptyLineBetweenDefs
-  include XmlBacked
+  include EmptyElementXmlBacked
   
   def series_title
-    @series_title ||= 'series_title' # TODO
+    @series_title ||= xpath('pbcoreTitle[@titleType="Series"]')
   end
   def program_title
-    @program_title ||= 'program_title' # TODO
+    @program_title ||= xpath('pbcoreTitle[@titleType="Program"]')
   end
   def program_number
-    @program_number ||= 'program_number' # TODO
+    @program_number ||= xpath('pbcoreTitle[@titleType="Program Number"]')
   end
   def item_title
-    @item_title ||= 'item_title' # TODO
+    @item_title ||= xpath('pbcoreTitle[@titleType="Open Vault Title"]')
   end
   
   def date

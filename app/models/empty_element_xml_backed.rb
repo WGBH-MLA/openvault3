@@ -1,4 +1,8 @@
-module XmlBacked
+module EmptyElementXmlBacked
+  
+  # NOTE: In contrast to AAPB's XmlBacked, we expect elements to be present here,
+  # but return nil if we get the empty string
+  
   def initialize(xml)
     @xml = xml
     @doc = REXML::Document.new xml
@@ -19,7 +23,12 @@ module XmlBacked
   end
 
   def self.text_from(node)
-    ((node.respond_to?('text') ? node.text : node.value) || '').strip
+    text = ((node.respond_to?('text') ? node.text : node.value) || '').strip
+    if text == ''
+      nil
+    else
+      text
+    end
   end
 
   def pairs_by_type(element_xpath, attribute_xpath)
