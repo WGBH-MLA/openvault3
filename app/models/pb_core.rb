@@ -11,6 +11,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
   # rubocop:disable Style/EmptyLineBetweenDefs
   include XmlBacked
   
+  def id
+    @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
+  end
+  
   def series_title
     @series_title ||= xpath('/*/pbcoreTitle[@titleType="Series"]')
   end
@@ -81,32 +85,6 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @rights_summary ||= xpath('/*/pbcoreRightsSummary/rightsSummary')
   end
   
-  def id
-    @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
-  end
-  URL_BASE = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
-  def thumbnail_src
-    @thumb_src ||= "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
-    # TODO: some have defaults?
-  end
-  def proxy_srcs
-    @media_src ||= extensions.map do |ext|
-      "#{URL_BASE}/asset_proxies/#{id}.#{ext}"
-    end
-  end
-  def extensions
-    case media_type
-    when VIDEO
-      ['mp4', 'webm']
-    when AUDIO
-      ['mp3']
-    when IMAGE
-      ['jpg']
-    end
-  end
-  def transcript_src
-    @transcript_src ||= "#{URL_BASE}/asset_transcripts/#{id}.xml"
-  end
   VIDEO = 'Video'
   AUDIO = 'Audio'
   IMAGE = 'Image'
@@ -121,6 +99,31 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   def image?
     media_type == IMAGE
+  end
+  def extensions
+    case media_type
+    when VIDEO
+      ['mp4', 'webm']
+    when AUDIO
+      ['mp3']
+    when IMAGE
+      ['jpg']
+    end
+  end
+  
+  URL_BASE = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
+  def thumbnail_src
+    @thumb_src ||= "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
+    # TODO: some have defaults?
+  end
+  def proxy_srcs
+    @media_src ||= extensions.map do |ext|
+      "#{URL_BASE}/asset_proxies/#{id}.#{ext}"
+    end
+  end
+  
+  def transcript_src
+    @transcript_src ||= "#{URL_BASE}/asset_transcripts/#{id}.xml"
   end
 
   def us_only?
