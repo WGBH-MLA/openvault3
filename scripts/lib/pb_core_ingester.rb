@@ -25,7 +25,7 @@ class PBCoreIngester
     # This is a test in its own right elsewhere.
     ingester = PBCoreIngester.new(is_same_mount: true)
     ingester.delete_all
-    Dir['spec/fixtures/pbcore/clean-*.xml'].each do |pbcore|
+    Dir['spec/fixtures/pbcore/*.xml'].each do |pbcore|
       ingester.ingest(path: pbcore)
     end
   end
