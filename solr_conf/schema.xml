@@ -561,7 +561,7 @@
           type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="special_collections" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="special_collection_tabs" 
+   <field name="special_collection_tags" 
           type="string" indexed="true" stored="true" multiValued="true"/>
    
    <field name="playlist" 
