@@ -83,6 +83,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
   
   def rights_summary
     @rights_summary ||= xpath('/*/pbcoreRightsSummary/rightsSummary')
+  rescue NoMatchError
+    nil
   end
   
   VIDEO = 'Video'
