@@ -2,7 +2,7 @@ require 'nokogiri'
 require_relative 'pb_core'
 
 class ValidatedPBCore < PBCore
-  SCHEMA = Nokogiri::XML::Schema(File.read('lib/pbcore-2.0.xsd'))
+  SCHEMA = Nokogiri::XML::Schema(File.read('lib/pbcore-2.1.xsd'))
 
   def initialize(xml)
     super(xml)
