@@ -136,13 +136,21 @@ class PBCore # rubocop:disable Metrics/ClassLength
     # TODO: some have defaults?
   end
   def proxy_srcs
-    @media_src ||= extensions.map do |ext|
-      "#{URL_BASE}/asset_proxies/#{id}.#{ext}"
-    end
+    @proxy_srcs ||= 
+      if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
+        extensions.map { |ext| "#{URL_BASE}/asset_proxies/#{id}.#{ext}" }
+      else
+        []
+      end
   end
   
-  def transcript_src
-    @transcript_src ||= "#{URL_BASE}/asset_transcripts/#{id}.xml"
+  def transcript_srcs
+    @transcript_srcs ||= 
+      if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Transcript"]')
+        ["#{URL_BASE}/asset_transcripts/#{id}.xml"]
+      else
+        []
+      end
   end
 
   def us_only?
