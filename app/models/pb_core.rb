@@ -1,7 +1,6 @@
 require 'rexml/document'
 require 'rexml/xpath'
 require 'solrizer'
-require_relative '../../lib/html_scrubber'
 require_relative '../../lib/open_vault'
 require_relative 'xml_backed'
 require_relative 'pb_core_name_role'
