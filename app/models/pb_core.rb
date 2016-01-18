@@ -110,12 +110,29 @@ class PBCore # rubocop:disable Metrics/ClassLength
       ['mp3']
     when IMAGE
       ['jpg']
+    else 
+      fail("Unrecognized media_type: #{media_type}")
     end
   end
   
   URL_BASE = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
   def thumbnail_src
-    @thumb_src ||= "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
+    @thumb_src ||= begin
+      if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Thumbnail"]')
+        "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
+      else 
+        case media_type
+        when VIDEO
+          '/images/video_icon.png'
+        when AUDIO
+          '/images/audio_icon.png'
+        when IMAGE
+          '/images/image_icon.png'
+        else
+          fail("Unrecognized media_type: #{media_type}")
+        end
+      end
+    end
     # TODO: some have defaults?
   end
   def proxy_srcs
