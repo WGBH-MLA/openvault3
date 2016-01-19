@@ -8,6 +8,7 @@ class ValidatedPBCore < PBCore
     super(xml)
     schema_validate(xml)
     method_validate
+    url_validate
   end
 
   private
@@ -27,6 +28,27 @@ class ValidatedPBCore < PBCore
         send(method)
       rescue => e
         errors << (["'##{method}' failed: #{e.message}"] + e.backtrace[0..2]).join("\n")
+      end
+    end
+    return if errors.empty?
+    fail 'Method validation errors: ' + errors.join("\n")
+  end
+  
+  def url_validate
+    errors = []
+    PBCore.instance_methods(false).grep(/(src|url)s?/).each do |method|
+      urls = [send(method)].select {|u| u}.flatten
+      urls.each do |url|
+        begin
+          Curl::Easy.new(url).tap do |curl|
+            curl.http_head
+            unless curl.response_code == 200
+              errors << "HEAD #{url} (from ##{method}) not 200: #{curl.status}"
+            end
+          end
+        rescue => e
+          errors << (["'##{method}' failed: #{e.message}"] + e.backtrace[0..2]).join("\n")
+        end 
       end
     end
     return if errors.empty?

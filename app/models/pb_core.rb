@@ -159,11 +159,32 @@ class PBCore # rubocop:disable Metrics/ClassLength
     xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password"]')
   end
   
+  AAPB_RE = /^http:\/\/americanarchive.org\//
+  NEWS_RE = /^http:\/\/bostonlocaltv.org\//
+  def outside_url
+    @outside_url ||= begin
+      xpath('/*/pbcoreAnnotation[@annotationType="Outside URL"]').tap do |url|
+        unless url.match(AAPB_RE) || url.match(NEWS_RE)
+          fail("'#{url}' matches neither #{AAPB_RE} nor #{NEWS_RE}")
+        end
+      end
+    rescue NoMatchError
+      nil
+    end
+  end
   def aapb_url
-    @aapb_url ||= 'aapb_url' # TODO
+    @aapb_url ||= begin
+      if outside_url && outside_url.match(AAPB_RE)
+        outside_url
+      end
+    end
   end
   def boston_tv_news_url
-    @boston_tv_news_url ||= 'boston_tv_news_url' # TODO
+    @boston_tv_news_url ||= begin
+      if outside_url && outside_url.match(NEWS_RE)
+        outside_url
+      end
+    end 
   end
 
   def special_collections

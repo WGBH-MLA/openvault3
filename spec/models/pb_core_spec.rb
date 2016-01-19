@@ -117,7 +117,12 @@ describe 'Validated and plain PBCore' do
         password_required?: true,
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],
-        scholar_exhibits: ['needlework']}
+        scholar_exhibits: ['needlework'],
+        aapb_url: 'http://americanarchive.org/',
+        boston_tv_news_url: nil,
+        extensions: ["mp4", "webm"],
+        outside_url: 'http://americanarchive.org/',
+        transcript_srcs: ['https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/V_5FDB1545443B427888C90E7B15F3783A.xml']}
       assertions[:to_solr] = assertions.slice(
         :id, :title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :genres, :topics, :asset_type, :media_type, 
@@ -141,9 +146,9 @@ describe 'Validated and plain PBCore' do
         end
       end
 
-#      it 'tests everthing' do
-#        expect(assertions.keys.sort).to eq(PBCore.instance_methods(false).sort)
-#      end
+      it 'tests everthing' do
+        expect(assertions.keys.sort).to eq(PBCore.instance_methods(false).sort)
+      end
     end
   end
 end
