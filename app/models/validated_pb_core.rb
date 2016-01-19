@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'curl'
 require_relative 'pb_core'
 
 class ValidatedPBCore < PBCore
@@ -36,7 +37,11 @@ class ValidatedPBCore < PBCore
   
   def url_validate
     errors = []
-    PBCore.instance_methods(false).grep(/(src|url)s?/).each do |method|
+
+    url_methods = [:thumbnail_src, :proxy_srcs, :transcript_srcs, :outside_url,
+                   :aapb_url, :boston_tv_news_url]
+
+    url_methods.each do |method|
       urls = [send(method)].select {|u| u}.flatten
       urls.each do |url|
         begin
