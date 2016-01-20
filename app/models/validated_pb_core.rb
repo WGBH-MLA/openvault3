@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'curl'
 require_relative 'pb_core'
 
 class ValidatedPBCore < PBCore
