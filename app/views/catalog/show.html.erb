@@ -7,6 +7,16 @@
       
       <%= render partial: 'player' %>
       
+      <p>
+        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+        <% if @pbcore.aapb_url %>
+          <%= verb %> online at the <a href="<%= @pbcore.aapb_url %>">American Archive of Public Broadcasting</a>
+        <% end %>
+        <% if @pbcore.boston_tv_news_url %>
+          <%= verb %> online at the <a href="<%= @pbcore.boston_tv_news_url %>">Boston TV News Digital Library</a>
+        <% end %>
+      </p>
+      
       <dl>
         <% [
               {field: 'series_title', label: 'Series', link: true},
