@@ -31,6 +31,12 @@ describe 'Validated and plain PBCore' do
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Element 'pbcoreDescriptionDocument': No matching global declaration/))
       end
+      
+      it 'rejects empty element' do
+        invalid_pbcore = pbc_xml.sub(/<pbcoreSubject>[^<]+</, '<pbcoreSubject><')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Empty element in XML: <pbcoreSubject\/>/))
+      end
 
 #      it 'rejects unknown media types at creation' do
 #        invalid_pbcore = pbc_xml.gsub(
