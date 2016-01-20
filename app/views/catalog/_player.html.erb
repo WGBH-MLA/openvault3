@@ -11,7 +11,10 @@
                   oncontextmenu: 'return false;', 
                   width: 400, height: 300,
                   poster: @pbcore.thumbnail_src) do %>
-      <%= tag('source', src: @pbcore.proxy_src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+      <% @pbcore.proxy_srcs.each do |src| %>
+        <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+      <% end %>
+      
       <!-- We have transcripts, but not SRT caption files:
         <track kind="captions" src="..."/>
       -->

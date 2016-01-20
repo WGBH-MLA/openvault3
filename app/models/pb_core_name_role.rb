@@ -1,11 +1,10 @@
-class PBCoreNameRoleAffiliation
+class PBCoreNameRole
   def initialize(rexml_or_stem, name=nil, role=nil, affiliation=nil)
     if name
       # for testing only
       @stem = rexml_or_stem
       @name = name
       @role = role
-      @affiliation = affiliation
     else
       @rexml = rexml_or_stem
       @stem = @rexml.name.gsub('pbcore', '').downcase
@@ -16,8 +15,7 @@ class PBCoreNameRoleAffiliation
     self.class == other.class &&
       stem == other.stem &&
       name == other.name &&
-      role == other.role &&
-      affiliation == other.affiliation
+      role == other.role
   end
 
   attr_reader :stem
@@ -33,15 +31,8 @@ class PBCoreNameRoleAffiliation
     end
   end
 
-  def affiliation
-    @affiliation ||= begin
-      node = REXML::XPath.match(@rexml, "#{@stem}/@affiliation").first
-      node ? node.value : nil
-    end
-  end
-
   def to_a
-    [name, role, affiliation].select { |x| x }
+    [name, role].select { |x| x }
   end
   
   def to_s

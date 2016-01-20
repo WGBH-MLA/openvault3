@@ -512,51 +512,62 @@
    <field name="xml" 
           type="string" indexed="false" stored="true" multiValued="false"/>
    
+   <!-- default, catch all search field -->
+   <field name="text" 
+          type="text" indexed="true" stored="false" multiValued="true"/>
+   
+      
+   <!--
+   *****************************************
+        Keep in sync with PbCore#to_solr
+   ***************************************** 
+   -->
+   
    <!-- For the search results page. -->
    <field name="title"
           type="sort" indexed="false" stored="true" multiValued="false"/>
    <field name="thumbnail_src"
           type="string" indexed="false" stored="true" multiValued="false"/>
       
-   <!-- Nothing below needs to be stored. -->
+   <!-- Nothing below needs to be stored, but helps with debugging. -->
    
-   <!-- default, catch all search field -->
-   <field name="text" 
-          type="text" indexed="true" stored="false" multiValued="true"/>
-   
-   <!-- facet -->
    <field name="year" 
           type="string" indexed="true" stored="true" multiValued="false"/>
    
-   <field name="media_type" 
+   <!-- links from details and series pages: -->
+   <field name="series_title" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="asset_type" 
+   <field name="program_title" 
           type="string" indexed="true" stored="true" multiValued="false"/>
    
+   <field name="subjects" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="locations" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   
+   <!-- UI facets -->
    <field name="genres" 
           type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="topics" 
           type="string" indexed="true" stored="true" multiValued="true"/>
    
-   <field name="locations" 
-          type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="subjects" 
-          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="asset_type" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="media_type" 
+          type="string" indexed="true" stored="true" multiValued="false"/>
    
-   <field name="scholar_exhibit" 
+   <!-- exhibit/collection support -->
+   <field name="scholar_exhibits" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="special_collection_tab" 
+   <field name="special_collections" 
+          type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="special_collection_tags" 
           type="string" indexed="true" stored="true" multiValued="true"/>
    
    <field name="playlist" 
           type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="playlist_order" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-
-   <!-- supports series list -->
-   <field name="series_title" 
-          type="string" indexed="true" stored="true" multiValued="false"/>
-   
  </fields>
 
  <!-- Field to use to determine and enforce document uniqueness. 

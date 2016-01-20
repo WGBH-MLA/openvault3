@@ -8,7 +8,7 @@
       link_to_if(
         link, 
         value, 
-        "/catalog?#{field}=#{CGI.escape(value.to_s)}"
+        "/catalog?f[#{field}][]=#{CGI.escape(value.to_s)}"
       ) 
     %></dd>
   <% end %>

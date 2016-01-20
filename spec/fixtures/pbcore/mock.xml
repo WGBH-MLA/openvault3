@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
+  <pbcoreAssetType>Original footage</pbcoreAssetType>
+  <pbcoreAssetDate dateType="Item Date">12/31/1999</pbcoreAssetDate>
+  <pbcoreIdentifier source="Open Vault UID">V_5FDB1545443B427888C90E7B15F3783A</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>
+  <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
+  <pbcoreTitle titleType="Series">SERIES</pbcoreTitle>
+  <pbcoreTitle titleType="Open Vault Title">ASSET</pbcoreTitle>
+  <pbcoreSubject>SUBJECT-1</pbcoreSubject>
+  <pbcoreSubject>SUBJECT-2</pbcoreSubject>
+  <pbcoreDescription descriptionType="Asset Description">ASSET-DESCRIPTION</pbcoreDescription>
+  <pbcoreDescription descriptionType="Series Description">SERIES-DESCRIPTION</pbcoreDescription>
+  <pbcoreDescription descriptionType="Program Description">PROGRAM-DESCRIPTION</pbcoreDescription>
+  <pbcoreGenre source="Series Genre">GENRE-1</pbcoreGenre>
+  <pbcoreGenre source="Series Genre">GENRE-2</pbcoreGenre>
+  <pbcoreGenre source="Series Topic">TOPIC-1</pbcoreGenre>
+  <pbcoreGenre source="Series Topic">TOPIC-2</pbcoreGenre>
+  <pbcoreCoverage>
+    <coverage>LOCATION-1</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCoverage>
+    <coverage>LOCATION-2</coverage>
+    <coverageType>Spatial</coverageType>
+  </pbcoreCoverage>
+  <pbcoreCreator>
+    <creator>CREATOR-NAME-1</creator>
+    <creatorRole>CREATOR-ROLE-1</creatorRole>
+  </pbcoreCreator>
+  <pbcoreCreator>
+    <creator>CREATOR-NAME-2</creator>
+    <creatorRole>CREATOR-ROLE-2</creatorRole>
+  </pbcoreCreator>
+  <pbcoreContributor>
+    <contributor>CONTRIBUTOR-NAME-1</contributor>
+    <contributorRole>CONTRIBUTOR-ROLE-1</contributorRole>
+  </pbcoreContributor>
+  <pbcoreContributor>
+    <contributor>CONTRIBUTOR-NAME-2</contributor>
+    <contributorRole>CONTRIBUTOR-ROLE-2</contributorRole>
+  </pbcoreContributor>
+  <pbcorePublisher>
+    <publisher>PUBLISHER-1</publisher>
+  </pbcorePublisher>
+  <pbcorePublisher>
+    <publisher>PUBLISHER-2</publisher>
+  </pbcorePublisher>
+  <pbcoreRightsSummary>
+    <rightsSummary>RIGHTS-SUMMARY</rightsSummary>
+  </pbcoreRightsSummary>
+  <pbcoreAnnotation annotationType="Duration">01:23:45:01</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Special Collection">war_peace</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Special Collection Tag">war_interview</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Scholar Exhibit">needlework</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Outside URL">http://americanarchive.org/</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Playlist Group"/>
+  <pbcoreAnnotation annotationType="Playlist Order"/>
+  <pbcoreAnnotation annotationType="Geoblock">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Password">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Thumbnail">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Transcript">YES</pbcoreAnnotation>
+</pbcoreDescriptionDocument>
