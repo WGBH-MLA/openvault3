@@ -1,25 +1,19 @@
 <div id="documents" class="row">
   <%
-    cols = 12
-    lg_cols = 4
-    md_cols = 3
-    sm_cols = 2
-    xs_cols = 1
+    grid = 12
+    cols = {
+      lg: 4,
+      md: 3,
+      sm: 2,
+      xs: 1 }
+    col_classes = cols.map { |k,v| "col-#{k}-#{grid / v}"}.join(' ')
   %>
   <% documents.each_with_index do |document, i| %>
-    <div class="clearfix
-               <%= 'hidden-lg' unless i % lg_cols == 0 %>
-               <%= 'hidden-md' unless i % md_cols == 0 %>
-               <%= 'hidden-sm' unless i % sm_cols == 0 %>
-               <%= 'hidden-xs' unless i % xs_cols == 0 %>
-               "></div>
-    <div class="document 
-                col-lg-<%= cols / lg_cols %>
-                col-md-<%= cols / md_cols %>
-                col-sm-<%= cols / sm_cols %>
-                col-xs-<%= cols / xs_cols %>
-         ">
-      <%= render document, as: :document %>
+    <div class="clearfix <%= 
+      cols.map { |k,v| "hidden-#{k}" unless i % v == 0 }.join(' ')  
+    %>"></div>
+    <div class="document <%= col_classes %>">
+      <%= render document %>
     </div>
   <% end %>
 </div>
