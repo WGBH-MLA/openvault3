@@ -143,12 +143,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
       end
   end
   
-  def transcript_srcs
-    @transcript_srcs ||= 
+  def transcript_src
+    @transcript_src ||= 
       if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Transcript"]')
-        ["#{URL_BASE}/asset_transcripts/#{id}.xml"]
+        "#{URL_BASE}/asset_transcripts/#{id}.xml"
       else
-        []
+        nil
       end
   end
 
