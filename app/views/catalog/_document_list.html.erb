@@ -1,5 +1,25 @@
-<% # container for all documents in index list view -%>
-<% # WGBH added .row to get padding right. %>
-<div id="documents" class="row documents-<%= document_index_view_type %>">
-  <%= render documents, :as => :document %>
+<div id="documents" class="row">
+  <%
+    cols = 12
+    lg_cols = 4
+    md_cols = 3
+    sm_cols = 2
+    xs_cols = 1
+  %>
+  <% documents.each_with_index do |document, i| %>
+    <div class="clearfix
+               <%= 'hidden-lg' unless i % lg_cols == 0 %>
+               <%= 'hidden-md' unless i % md_cols == 0 %>
+               <%= 'hidden-sm' unless i % sm_cols == 0 %>
+               <%= 'hidden-xs' unless i % xs_cols == 0 %>
+               "></div>
+    <div class="document 
+                col-lg-<%= cols / lg_cols %>
+                col-md-<%= cols / md_cols %>
+                col-sm-<%= cols / sm_cols %>
+                col-xs-<%= cols / xs_cols %>
+         ">
+      <%= render document, as: :document %>
+    </div>
+  <% end %>
 </div>
