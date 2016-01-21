@@ -1,6 +1,7 @@
 require 'rsolr'
 require 'date' # NameError deep in Solrizer without this.
 require 'logger'
+require 'zip'
 require_relative '../../app/models/validated_pb_core'
 require_relative 'null_logger'
 require_relative 'mount_validator'
@@ -38,15 +39,28 @@ class PBCoreIngester
   def ingest(opts)
     path = opts[:path]
     is_batch_commit = opts[:is_batch_commit]
-    xml = File.read(path)
-
-    begin
-      ingest_xml_no_commit(xml)
-      @success_count += 1
-    rescue => e
-      record_error(e, path)
-    end
     
+    begin
+      Zip::File.open(path) do |zip_file|
+        zip_file.each do |entry|
+          begin
+            ingest_xml_no_commit(entry.get_input_stream.read)
+            commit unless is_batch_commit
+            @success_count += 1
+          rescue => e
+            record_error(e, "#{path} :: #{entry.name}")
+          end
+        end
+      end
+    rescue Zip::Error
+      begin
+        ingest_xml_no_commit(File.read(path))
+        @success_count += 1
+      rescue => e
+        record_error(e, path)
+      end
+    end
+        
     commit unless is_batch_commit
   end
 
