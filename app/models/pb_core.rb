@@ -154,9 +154,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
       end
   end
 
-  def us_only?
-    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
+  def blocked_country_codes
+    xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
   end
+  
   def password_required?
     xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password"]')
   end
@@ -283,7 +284,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def text
     @text = begin
       ignores = [
-        :text, :to_solr, :id, :duration, :media_type, :asset_type, :extensions,
+        :text, :to_solr, :id, :duration, 
+        :media_type, :asset_type, 
+        :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags
       ]
       (PBCore.instance_methods(false) - ignores)

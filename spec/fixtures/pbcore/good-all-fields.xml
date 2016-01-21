@@ -57,7 +57,7 @@
   <pbcoreAnnotation annotationType="Outside URL">http://americanarchive.org/</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Playlist Group"/>
   <pbcoreAnnotation annotationType="Playlist Order"/>
-  <pbcoreAnnotation annotationType="Geoblock">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Geoblock">GB</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Password">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Thumbnail">YES</pbcoreAnnotation>
