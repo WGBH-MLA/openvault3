@@ -1,11 +1,6 @@
-<div class="document col-md-4 col-sm-6">
-  <a href="/catalog/<%= document.id %>">
-      <!-- Sort order: 2.0 -->
-      <img src="<%= document[:thumbnail_src] %>">
-      <div class="info">
-        <%= document[:title] %>
-      </div>
-    </a>
-  
-  
-</div>
+<a href="/catalog/<%= document.id %>">
+  <img src="<%= document[:thumbnail_src] %>">
+  <div class="info">
+    <%= document[:title] %>
+  </div>
+</a>
