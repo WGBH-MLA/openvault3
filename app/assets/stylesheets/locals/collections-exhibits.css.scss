@@ -47,13 +47,16 @@
 
 .blacklight-collections-show,.blacklight-exhibits-show {
     #main-container {
+      
         a.back {
            font-size: 24px;
         }
+
         .byline {
             margin-top: 0px;
             margin-bottom: 30px;
         }
+
         div.pull-left img {
             // This is very ad hoc.
             margin-left: -$grid-gutter-width/2;
@@ -61,6 +64,12 @@
             margin-bottom: $grid-gutter-width;
             width: 100%;
         }
+
+        #tabs {
+            margin-top: $grid-gutter-width/2;
+            // Needed particularly if there are no tabs.
+        }
+
         img {
             width: 100%;
             margin-bottom: 0;
