@@ -40,48 +40,52 @@
                 color: #000 !important; // Ignore facet_limit-active
                 border-radius: 0px;
             }
-            .panel-collapse .panel-body {
-                padding: 0px;
-                .facet-values {
-                    background: $pale-grey;
-                    font-weight: bold;
-                    // So the pull-down is the same width as the button above.
-                    // TODO: find something better?
-                    //@media (min-width: $screen-md-min) { width: 131.667px; }
-                    //@media (min-width: $screen-lg-min) { width: 165px; }
-                    @media (min-width: $screen-md-min) { width: ($screen-md-min) * 2/$grid-columns - $grid-gutter-width - 4px; }
-                    @media (min-width: $screen-lg-min) { width: ($screen-lg-min) * 2/$grid-columns - $grid-gutter-width - 5px; }
-                    // This comes from the bootstrap definition: ($screen-__-min) * 2/$grid-columns
-                    // ("2" because this is col-md-2.)
-                    // Make up for gutter: $grid-gutter-width
-                    // Fudge: I'm not sure why this is necessary: 4/5px;
-                    .facet-label {
-                        padding: 0px;
-                        a { 
-                            color: #000;
-                            display: block;
-                            padding: $grid-gutter-width/4 $grid-gutter-width;
-                            &:hover {
-                                background: $light-blue;
+            .panel-collapse {
+                position: relative; // Explicit position necessary for z-index to work
+                z-index: 1000;
+                .panel-body {
+                    padding: 0px;
+                    .facet-values {
+                        background: $pale-grey;
+                        font-weight: bold;
+                        // So the pull-down is the same width as the button above.
+                        // TODO: find something better?
+                        //@media (min-width: $screen-md-min) { width: 131.667px; }
+                        //@media (min-width: $screen-lg-min) { width: 165px; }
+                        @media (min-width: $screen-md-min) { width: ($screen-md-min) * 2/$grid-columns - $grid-gutter-width - 4px; }
+                        @media (min-width: $screen-lg-min) { width: ($screen-lg-min) * 2/$grid-columns - $grid-gutter-width - 5px; }
+                        // This comes from the bootstrap definition: ($screen-__-min) * 2/$grid-columns
+                        // ("2" because this is col-md-2.)
+                        // Make up for gutter: $grid-gutter-width
+                        // Fudge: I'm not sure why this is necessary: 4/5px;
+                        .facet-label {
+                            padding: 0px;
+                            a { 
+                                color: #000;
+                                display: block;
+                                padding: $grid-gutter-width/4 $grid-gutter-width;
+                                &:hover {
+                                    background: $light-blue;
+                                }
                             }
+
+
                         }
-                        
-                        
-                    }
-                    .selected, .remove {
-                        // Hide selected facets. The idea is that facets are either in the menu,
-                        // or in the list: not both. Motivated by the trouble I had adding CSS on
-                        // top of selected facets to make them look right.
-                        display: none !important;
-                    }
-                    
-                    .facet-count {
-                        // If we changed the DOM structure so the count is inside the link,
-                        // this wouldn't be necessary. This approach also puts a non-<a>
-                        // on top of the <a>, which could be confusing. TODO.
-                        position: absolute;
-                        right: $grid-gutter-width/2;
-                        bottom: $grid-gutter-width * .6; // hack to get alignment
+                        .selected, .remove {
+                            // Hide selected facets. The idea is that facets are either in the menu,
+                            // or in the list: not both. Motivated by the trouble I had adding CSS on
+                            // top of selected facets to make them look right.
+                            display: none !important;
+                        }
+
+                        .facet-count {
+                            // If we changed the DOM structure so the count is inside the link,
+                            // this wouldn't be necessary. This approach also puts a non-<a>
+                            // on top of the <a>, which could be confusing. TODO.
+                            position: absolute;
+                            right: $grid-gutter-width/2;
+                            bottom: $grid-gutter-width * .6; // hack to get alignment
+                        }
                     }
                 }
             }
