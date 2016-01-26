@@ -46,6 +46,8 @@ class Tabbed < Cmless
       s.downcase.gsub(/\W+/, '-')
     end
     
+    TabbedCell = Struct.new(:id, :title, :thumbnail_src)
+    
     def expand_links(html)
       doc = Nokogiri::HTML::DocumentFragment.parse(html)
       a_tags = doc.css('a')
@@ -68,15 +70,7 @@ class Tabbed < Cmless
             'rows' => '1000'
           })['response']['docs']
         docs.map do |doc|
-          # TODO: this is really view code...
-          <<END
-          <div class="document col-md-4 col-sm-6">
-            <a href="/catalog/#{doc['id']}">
-                <img src="#{doc['thumbnail_src']}">
-                <div class="info">#{doc['title']} TESTING 123</div>
-              </a>
-          </div>
-END
+          TabbedCell.new(doc['id'], doc['title'], doc['thumbnail_src'])
         end
       end.flatten
     end

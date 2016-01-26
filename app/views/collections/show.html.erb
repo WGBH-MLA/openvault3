@@ -15,7 +15,12 @@
       <% @item.tabs[params[:tab]].tap do |current_tab| %>
         <% if current_tab.respond_to?(:each) %>
           <% current_tab.each do |current_tab_cell| %>
-            <%= current_tab_cell.html_safe %>
+            <div class="document col-md-4 col-sm-6">
+              <a href="/catalog/<%= current_tab_cell.id %>">
+                <img src="<%= current_tab_cell.thumbnail_src %>">
+                <div class="info"><%= current_tab_cell.title %></div>
+              </a>
+            </div>
           <% end %>
         <% else %>
           <%= current_tab.html_safe %>
