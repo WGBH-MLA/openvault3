@@ -117,9 +117,37 @@ module Blacklight::FacetsHelperBehavior
       params[:f][field].any? { |field| field.split(OpenVault::QUERY_OR).include?(value) }
       # END patch
   end
-end
-
-module Blacklight::FacetsHelperBehavior
+  
+  # TODO: I don't redefine this method, but for some reason my custom render_facet_value
+  # fails with "undefined method" unless I provide the def here.
+  def path_for_facet(facet_field, item)
+    facet_config = facet_configuration_for_field(facet_field)
+    if facet_config.url_method
+      path = send(facet_config.url_method, facet_field, item)
+    else
+      path = search_action_path(add_facet_params_and_redirect(facet_field, item))
+    end
+  end
+  
+  def render_facet_value(facet_field, item, options ={})
+    path = path_for_facet(facet_field, item)
+    # Before:
+    #content_tag(:span, :class => "facet-label") do
+    #  link_to_unless(options[:suppress_link], facet_display_value(facet_field, item), path, :class=>"facet_select")
+    #end + render_facet_count(item.hits)
+    content_tag(:span, :class => "facet-label") do
+      link_to_unless(
+        options[:suppress_link], 
+        raw(
+          # facet count INSIDE link
+          escape_once(facet_display_value(facet_field, item)) + 
+            '<span class="pull-right">' + item.hits.to_s + '</span>'),
+        path, 
+        :class=>"facet_select"
+      )
+    end
+  end
+  
   def should_collapse_facet? facet_field
     # Before:
     #   !facet_field_in_params?(facet_field.field) && facet_field.collapse
