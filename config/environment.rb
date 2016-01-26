@@ -124,9 +124,7 @@ module Blacklight::FacetsHelperBehavior
     # Before:
     #   !facet_field_in_params?(facet_field.field) && facet_field.collapse
     # BEGIN patch
-    facet_field.collapse == :force || (
-      !facet_field_in_params?(facet_field.field) && facet_field.collapse
-    )
+    true # We never expand facets on load.
     # END patch
   end
 end
