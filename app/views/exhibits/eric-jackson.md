@@ -92,7 +92,26 @@ TODO
 
 ## Related Content
 
-TODO
+* [Ahmad Jamal: Official website](http://ahmadjamal.net/): discography, biography, itinerary, photos, schedule and awards for this great master artist
+* [Ahmad Jamal: Wikipedia entry](http://en.wikipedia.org/wiki/Ahmad_Jamal)
+* [NPR Ahmad Jamal artist page](http://www.npr.org/artists/15404388/ahmad-jamal): interviews, features and performances
+* [NEA Jazz Masters page for Ahmad Jamal](http://arts.gov/honors/jazz/ahmad-jamal) -- bio, audio and video
+* [Alan Dawson: Wikipedia entry](http://en.wikipedia.org/wiki/Alan_Dawson)
+* [Drummerworld entry on Alan Dawson](http://www.drummerworld.com/drummers/Alan_Dawson.html)
+* [Online archive of drum lessons](http://alandawson.org/) that have been passed on by the legendary master drummer/instructor, Alan Dawson
+* [Biographical sketch of Dawson as master drummer and master teacher](http://www.drummercafe.com/featured-musician/drummer-percussionist/alan-dawson-1929-1996.html#performer)
+* [Drummerworld entry on Art Taylor](http://www.drummerworld.com/drummers/Art Taylor.html)
+* [Art Taylor: Wikipedia entry](http://en.wikipedia.org/wiki/Art_Taylor)
+* [Art Taylor demonstrates his unique cymbal beat](http://www.youtube.com/watch?v=Qd8H3BjABpY)
+* [Art Taylor](http://hardbop.tripod.com/taylor.html)
+* [Roy Haynes: Wikipedia entry](http://en.wikipedia.org/wiki/Roy_Haynes)
+* [Drummerworld entry on Roy Haynes](http://www.drummerworld.com/drummers/Roy_Haynes.html)
+* [NEA Jazz Masters Page for Roy Haynes](http://arts.gov/honors/jazz/roy-haynes) -- bio, audio and video
+* [NPR Roy Haynes artist page](http://www.npr.org/artists/15670893/roy-haynes): interviews, features and performances
+* [Sheila Jordan website](http://www.sheilajordanjazz.com)
+* [NEA Jazz Masters page for Sheila Jordan](http://arts.gov/honors/jazz/sheila-jordan): bio, audio and video
+* [NPR Sheila Jordan artist page](http://www.npr.org/artists/96317818/sheila-jordan): interviews, features and/or performances
+* [Sheila Jordan: Wikipedia entry](http://en.wikipedia.org/wiki/Sheila_Jordan)
 
 ## Authors
 
