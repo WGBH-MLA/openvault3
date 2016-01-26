@@ -60,10 +60,12 @@
                         // Fudge: I'm not sure why this is necessary: 4/5px;
                         .facet-label {
                             padding: 0px;
+                            text-indent: 0px;
+                            word-break: normal; // I have never liked BL's default.
                             a { 
                                 color: #000;
                                 display: block;
-                                padding: $grid-gutter-width/4 $grid-gutter-width;
+                                padding: $grid-gutter-width/8 $grid-gutter-width/2; // To match menu header
                                 &:hover {
                                     background: $light-blue;
                                 }
