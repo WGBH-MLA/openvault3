@@ -14,6 +14,18 @@ module XmlBacked
     end
   end
 
+  def xpath_optional(xpath)
+    REXML::XPath.match(@doc, xpath).tap do |matches|
+      if matches.length > 1
+        fail NoMatchError, "Expected at most 1 match for '#{xpath}'; got #{matches.length}"
+      elsif matches.first
+        return XmlBacked.text_from(matches.first)
+      else
+        return nil
+      end
+    end
+  end
+  
   def xpaths(xpath)
     REXML::XPath.match(@doc, xpath).map { |node| XmlBacked.text_from(node) }
   end
@@ -29,7 +41,9 @@ module XmlBacked
   end
 
   def self.text_from(node)
-    ((node.respond_to?('text') ? node.text : node.value) || '').strip
+    ((node.respond_to?('text') ? node.text : node.value) || '').strip.tap do |s|
+      fail("Empty element in XML: #{node}") if s == ''
+    end
   end
 
   def pairs_by_type(element_xpath, attribute_xpath)

@@ -20,11 +20,12 @@ gem 'therubyracer', :platforms => :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
 
+# jQuery document ready was still not working for me, even with this.
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+#gem 'turbolinks'
 # A package that helps fix jquery code that breaks due to turbolinks.
-gem 'jquery-turbolinks'
+#gem 'jquery-turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'

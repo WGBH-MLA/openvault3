@@ -15,23 +15,25 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def series_title
-    @series_title ||= xpath('/*/pbcoreTitle[@titleType="Series"]')
+    @series_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Series"]')
   end
   def program_title
-    @program_title ||= xpath('/*/pbcoreTitle[@titleType="Program"]')
+    @program_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Program"]')
   end
   def program_number
-    @program_number ||= xpath('/*/pbcoreTitle[@titleType="Program Number"]')
+    @program_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Program Number"]')
   end
   def asset_title
-    @asset_title ||= xpath('/*/pbcoreTitle[@titleType="Open Vault Title"]')
+    @asset_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Open Vault Title"]')
   end
   
   def date
-    @date ||= xpath('/*/pbcoreAssetDate[@dateType="Item Date"]')
+    @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
   def year
-    @year ||= date.match(/(\d{4})/)[1]
+    @year ||= if date
+      date.match(/(\d{4})/)[1]
+    end
   end
   
   def title
@@ -39,20 +41,22 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def duration
-    @duration ||= xpath('/*/pbcoreAnnotation[@annotationType="Duration"]')
-      .gsub(/(\d\d:\d\d:\d\d):\d\d/, '\1')
+    @duration ||= begin
+      full = xpath_optional('/*/pbcoreAnnotation[@annotationType="Duration"]')
+      full.gsub(/(\d\d:\d\d:\d\d):\d\d/, '\1') if full
+    end
   end
   def asset_type
     @asset_type ||= xpath('/*/pbcoreAssetType')
   end
   def series_description
-    @series_description ||= xpath('/*/pbcoreDescription[@descriptionType="Series Description"]')
+    @series_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Series Description"]')
   end
   def program_description
-    @program_description ||= xpath('/*/pbcoreDescription[@descriptionType="Program Description"]')
+    @program_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Program Description"]')
   end
   def asset_description
-    @asset_description ||= xpath('/*/pbcoreDescription[@descriptionType="Asset Description"]')
+    @asset_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Asset Description"]')
   end
   def contributors
     @contributors ||= REXML::XPath.match(@doc, '/*/pbcoreContributor').map do|rexml|
@@ -81,9 +85,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   
   def rights_summary
-    @rights_summary ||= xpath('/*/pbcoreRightsSummary/rightsSummary')
-  rescue NoMatchError
-    nil
+    @rights_summary ||= xpath_optional('/*/pbcoreRightsSummary/rightsSummary')
   end
   
   VIDEO = 'Video'
@@ -152,9 +154,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
       end
   end
 
-  def us_only?
-    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
+  def blocked_country_codes
+    xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
   end
+  
   def password_required?
     xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password"]')
   end
@@ -162,28 +165,21 @@ class PBCore # rubocop:disable Metrics/ClassLength
   AAPB_RE = /^http:\/\/americanarchive.org\//
   NEWS_RE = /^http:\/\/bostonlocaltv.org\//
   def outside_url
-    @outside_url ||= begin
-      xpath('/*/pbcoreAnnotation[@annotationType="Outside URL"]').tap do |url|
-        unless url.match(AAPB_RE) || url.match(NEWS_RE)
+    @outside_url ||=
+      xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]').tap do |url|
+        if url && !url.match(AAPB_RE) && !url.match(NEWS_RE)
           fail("'#{url}' matches neither #{AAPB_RE} nor #{NEWS_RE}")
         end
       end
-    rescue NoMatchError
-      nil
-    end
   end
   def aapb_url
     @aapb_url ||= begin
-      if outside_url && outside_url.match(AAPB_RE)
-        outside_url
-      end
+      outside_url if outside_url && outside_url.match(AAPB_RE)
     end
   end
   def boston_tv_news_url
     @boston_tv_news_url ||= begin
-      if outside_url && outside_url.match(NEWS_RE)
-        outside_url
-      end
+      outside_url if outside_url && outside_url.match(NEWS_RE)
     end 
   end
 
@@ -288,7 +284,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def text
     @text = begin
       ignores = [
-        :text, :to_solr, :id, :duration, :media_type, :asset_type, :extensions,
+        :text, :to_solr, :id, :duration, 
+        :media_type, :asset_type, 
+        :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags
       ]
       (PBCore.instance_methods(false) - ignores)

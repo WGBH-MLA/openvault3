@@ -2,10 +2,24 @@
   <div class="row">
     <div class="col-xs-12">
       
+      <% if @pbcore.password_required? %>
+        <%= render partial: 'password_modal' %>
+      <% end %>
+      
       <h1><%= @pbcore.title %></h1>
       <%= content_tag('p', @pbcore.date) if @pbcore.date %>
       
       <%= render partial: 'player' %>
+      
+      <p>
+        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+        <% if @pbcore.aapb_url %>
+          <%= verb %> online at the <a href="<%= @pbcore.aapb_url %>">American Archive of Public Broadcasting</a>
+        <% end %>
+        <% if @pbcore.boston_tv_news_url %>
+          <%= verb %> online at the <a href="<%= @pbcore.boston_tv_news_url %>">Boston TV News Digital Library</a>
+        <% end %>
+      </p>
       
       <dl>
         <% [

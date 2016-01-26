@@ -46,10 +46,17 @@ class ValidatedPBCore < PBCore
       urls = [send(method)].select {|u| u}.flatten
       urls.each do |url|
         begin
-          Curl::Easy.new(url).tap do |curl|
-            curl.http_head
-            unless curl.response_code == 200
-              errors << "HEAD #{url} (from ##{method}) not 200: #{curl.status}"
+          if url.match(/^\//)
+            path = __dir__+'/../../public'+url
+            unless File.exists?(path)
+              errors << "No file at #{path}"
+            end
+          else
+            Curl::Easy.new(url).tap do |curl|
+              curl.http_head
+              unless curl.response_code == 200
+                errors << "HEAD #{url} (from ##{method}) not 200: #{curl.status}"
+              end
             end
           end
         rescue => e

@@ -2,11 +2,11 @@ require_relative '../../app/models/validated_pb_core'
 require 'active_support'
 
 describe 'Validated and plain PBCore' do
-  pbc_xml = File.read('spec/fixtures/pbcore/mock.xml')
+  pbc_xml = File.read('spec/fixtures/pbcore/good-all-fields.xml')
 
   describe ValidatedPBCore do
     describe 'valid docs' do
-      Dir['spec/fixtures/pbcore/*.xml'].each do |path|
+      Dir['spec/fixtures/pbcore/good-*.xml'].each do |path|
         it "accepts #{File.basename(path)}" do
           expect { ValidatedPBCore.new(File.read(path)) }.not_to raise_error
         end
@@ -30,6 +30,12 @@ describe 'Validated and plain PBCore' do
         invalid_pbcore = pbc_xml.sub(/xmlns=['"][^'"]+['"]/, '')
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Element 'pbcoreDescriptionDocument': No matching global declaration/))
+      end
+      
+      it 'rejects empty element' do
+        invalid_pbcore = pbc_xml.sub(/<pbcoreSubject>[^<]+</, '<pbcoreSubject><')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Empty element in XML: <pbcoreSubject\/>/))
       end
 
 #      it 'rejects unknown media types at creation' do
@@ -113,7 +119,7 @@ describe 'Validated and plain PBCore' do
         genres: ['GENRE-1', 'GENRE-2'],
         topics: ['TOPIC-1', 'TOPIC-2'],
         locations: ['LOCATION-1', 'LOCATION-2'],
-        us_only?: true,
+        blocked_country_codes: ['GB'],
         password_required?: true,
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],

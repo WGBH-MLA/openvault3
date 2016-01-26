@@ -12,14 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// DISABLE = require turbolinks
 //
 // Required by Blacklight
 //= require blacklight/blacklight
 //= require_tree .
 
 // http://stackoverflow.com/a/30008017
-$(function() {$.support.transition = false;})  
+$(function() {$.support.transition = false;});
 // When facet selectors expand, they were bumping the reset of the window.
 // "position: absolute" isn't a good fix, because the animation is all about
 // repositioning: "absolute" just hides it for the length of the animation.
