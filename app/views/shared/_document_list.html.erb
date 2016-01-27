@@ -1,0 +1,19 @@
+<div id="documents" class="row">
+  <%
+    grid = 12 # Needs to match bootstrap's $grid-columns
+    cols = {
+      lg: 4,
+      md: 3,
+      sm: 2,
+      xs: 1 }
+    col_classes = cols.map { |k,v| "col-#{k}-#{grid / v}"}.join(' ')
+  %>
+  <% documents.each_with_index do |document, i| %>
+    <div class="clearfix <%= 
+      cols.map { |k,v| "hidden-#{k}" unless i % v == 0 }.join(' ')  
+    %>"></div>
+    <div class="document <%= col_classes %>">
+      <%= render partial: 'shared/document', locals: {document: document} %>
+    </div>
+  <% end %>
+</div>
