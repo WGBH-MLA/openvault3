@@ -51,7 +51,7 @@ class Tabbed < Cmless
     def expand_links(html)
       doc = Nokogiri::HTML::DocumentFragment.parse(html)
       a_tags = doc.css('a')
-      raise NotACatalogLink.new if a_tags.empty? || a_tags.none? { |a| a['href'].match(/\/catalog\?/) } 
+      raise NotACatalogLink.new if a_tags.empty? || a_tags.none? { |a| a['href'] && a['href'].match(/\/catalog\?/) } 
       a_tags.map do |a|
         fail("Expected catalog url, not #{a['href']}") unless (a['href'].match(/\/catalog\?/))
         query = CGI.parse(URI(a['href']).query)

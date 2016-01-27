@@ -44,7 +44,9 @@ Viennese who were more interested in literature & the arts than in practicing la
 the year of his graduation, Sachs read Freud's *Interpretation of Dreams* (1900), 
 which had a profound effect on his intellectual development & his future career. He 
 soon joined Freud's inner circle & attended the Wednesday evening meetings that 
-became the Viennese Psychoanalytic Society. He was a close friend of Otto Rank, with a degree in jurisprudence, a common practice among cultivated young Viennese who were more interested in literature & the arts than in practicing law. In  
+became the Viennese Psychoanalytic Society. He was a close friend of Otto Rank, 
+with a degree in jurisprudence, a common practice among cultivated young Viennese 
+who were more interested in literature & the arts than in practicing law. In 
 the year of his graduation, Sachs read Freud's *Interpretation of Dreams* (1900), 
 which had a profound effect on his intellectual development & his future career. He 
 soon joined Freud's inner circle & attended the Wednesday evening meetings that 
@@ -54,7 +56,7 @@ psychoanalysis. Shortly after, Sachs published a translation of Kipling's *Barra
 Room Ballads* (1910), which he showed Freud & their mutual enthusiasm greatly 
 enhanced their friendship. What attracted Sachs & Freud to Kipling's thumping 
 rhythms & imperialistic sentiments may baffle the present-day reader, but Sachs's 
-introduction suggests it was the appeal of his rough soldiers' slang, the melting-pot  
+introduction suggests it was the appeal of his rough soldiers' slang, the melting-pot 
 of a conscript army & the ballad-like romantic tone. Thes rough elements may have 
 appealed to Sachs, in contrast to his comfortable middle-class family-life, as well as 
 the exotic background of the Far East. In his version of *The Road to Mandalay*, 
@@ -63,7 +65,9 @@ Sachs succeeds in recreated its galloping beat with great skill.
 At the first postwar meeting of the International Psychoanalytic Congress, at 
 Budapest in 1918, Sachs had a hemoptysis that interrupted his analytic career. But 
 after rwo years in a Swiss tuberculosis sanitorium, Sachs was ready to resume work. 
-The newly founded Berlin Psychoanalytic Institute happened to be looking for its first training analyst at that time. Freud suggested Sachs, & by coincidence Sach's first candidate was Franz Alexander, his later predecessor in Boston! In Berlin Sachs 
+The newly founded Berlin Psychoanalytic Institute happened to be looking for its 
+first training analyst at that time. Freud suggested Sachs, & by coincidence Sach's 
+first candidate was Franz Alexander, his later predecessor in Boston! In Berlin Sachs 
 was admired as a brilliant teacher & clinician, known for his interest in technique & 
 training as "the analyst's analyst," according to his analysand & biographer, Fritz 
 Moellenhoff (1966). According to the 10th Annual Report of the Berlin Institute 
@@ -82,8 +86,10 @@ which Moellenhoff suggests was prompted by Hitler's conspiratorial activities. H
 also wrote a pamphlet, published in Switzerland (1930), condemning capital 
 punishment. In later years he wrote several papers cautioning against excessive 
 optimism & therapeutic zeal, urging the training analyst to "resist optimistic 
-illusions about his success... since he is the extremely shortsighted leader of the blind." In the same vein he wrote: "We must never forget that we meet our patient's real ultimate wishes empty-handed; with great luck we can set his feet on the right  
-way" (1941).
+illusions about his success... since he is the extremely shortsighted leader of 
+the blind." In the same vein he wrote: "We must never forget that we meet our 
+patient's real ultimate wishes empty-handed; with great luck we can set his feet 
+on the right way" (1941).
 
 One of Sachs's best-known papers was "The Delay of the Machine Age" 
 (1933). This elaborate essay addressed the historical question of why the Greeks & 
@@ -95,14 +101,16 @@ theatre. Sachs related these features of Graeco-Roman culture their love of sens
 beauty, their idealization of the human body & their unrepressed attitude toward the 
 erotic. Sachs's arguments are unconvincing to the present reader, & his concepts & 
 some classical examples can be found in Neuburger's history of Hellenistic science 
-(1920). The Indian reader may also question Sachs's theory, being familiar with the  
-undeniable idealization of female beauty in Hindu art & the pioneering use of steel  
+(1920). The Indian reader may also question Sachs's theory, being familiar with the 
+undeniable idealization of female beauty in Hindu art & the pioneering use of steel 
 beams at the sun-temple of Konarak in the 13th century.
 
 In recalling Sachs's European life, we must remind ourselves that Berlin 
 during the 1920s was the center of what came to be called "Weimar Culture," a 
 convergence of revolutionary political & artistic events that emerged from the ruins 
-of the Great War. In contrast, Vienna, no longer the capital of the Habsburg Empire, had become a somewhat provincial backwater, despite the progressive political & educational reforms of its Marxian Social Democrats. Vienna had experienced its 
+of the Great War. In contrast, Vienna, no longer the capital of the Habsburg Empire, 
+had become a somewhat provincial backwater, despite the progressive political & 
+educational reforms of its Marxian Social Democrats. Vienna had experienced its 
 cultural revolutions before the Great War, with the paintings of Klimt & Schiele, the 
 buildings & decorative style of the 1909 *Sezession* movement, & the writings of 
 Schnitzler & Robert Musil. In 1920s Berlin, psychoanalysis flourished, but as one 
@@ -122,12 +130,31 @@ Eitingon & Ernest Jones immediately sided with Freud in condemning the film, as 
 vulgar popularization, even before the film had been produced. (I owe much of what 
 follows to a brilliant article on the "film affair" by Paul Ries (1996.)
 
-In spite of Freud's objections, Abraham & Sachs proceeded cautiously with their film-project, submitting clinical material from an actual case & collaborating with Neumann & his assistant. The project was taken over as a commercial film by  the famous director, G W Pabst, whose recent success, *Street without Joy*, included an early appearance of Greta Garbo. The film about analysis, to be called *Secrets of a Soul* (*Geheimnisse einer Seele*), portrays a young childless couple, in which the husband, a chemist, is suddenly seized, while combing his wife's hair, by an irrational impulse to cut his wife's throat. Horrified by this, he moves to his mother's house & consults a psychoanalyst, whom he had met in a bar the night before. There he had forgotten his housekey & the analyst, observing him, had pointed out his unconscious wish not to go home. After a few months of daily visits to the analyst, the young man is cured of his phobia of knives, through the analysis of a recent nightmare, childhood memories & recent traumatic associations. Once he is able to acknowledge his repressed jealousy of his wife's handsome young cousin, who had come from far-off lands to visit, the young chemist is able to return home. He recovers his potency &, in a dramatic flash-forward , the film ends with the happy couple playing with the child they had always yearned for. (Atwell 1977).
+In spite of Freud's objections, Abraham & Sachs proceeded cautiously with their 
+film-project, submitting clinical material from an actual case & collaborating 
+with Neumann & his assistant. The project was taken over as a commercial film by
+the famous director, G W Pabst, whose recent success, *Street without Joy*, 
+included an early appearance of Greta Garbo. The film about analysis, to be 
+called *Secrets of a Soul* (*Geheimnisse einer Seele*), portrays a young 
+childless couple, in which the husband, a chemist, is suddenly seized, while 
+combing his wife's hair, by an irrational impulse to cut his wife's throat. 
+Horrified by this, he moves to his mother's house & consults a psychoanalyst, 
+whom he had met in a bar the night before. There he had forgotten his housekey & 
+the analyst, observing him, had pointed out his unconscious wish not to go home. 
+After a few months of daily visits to the analyst, the young man is cured of his 
+phobia of knives, through the analysis of a recent nightmare, childhood memories 
+& recent traumatic associations. Once he is able to acknowledge his repressed 
+jealousy of his wife's handsome young cousin, who had come from far-off lands to 
+visit, the young chemist is able to return home. He recovers his potency &, in a 
+dramatic flash-forward , the film ends with the happy couple playing with the 
+child they had always yearned for. (Atwell 1977).
 
 This innocent, somewhat simple-minded, little film was fiercely attacked by 
 Jones, Eitingon & other "loyalists," as if it were a sensational & misleading travesty 
 of psychoanalysis, although none of them, including Freud, had ever seen it. Jones 
-even approached the British Board of Film Censors & asked them, in secret, to suppress the film if it ever reached their hands (Ries 1996). Freud, who had enjoyed a long & trusting friendship with Karl Abraham, wrote him some peevish & 
+even approached the British Board of Film Censors & asked them, in secret, to 
+suppress the film if it ever reached their hands (Ries 1996). Freud, who had 
+enjoyed a long & trusting friendship with Karl Abraham, wrote him some peevish & 
 unfriendly letters about the film controversy. Abraham & Sachs defended their role 
 as consultants to Pabst & the project progressed during the last months of 1925. 
 Then Abraham quite suddenly died, on Christmas Day, of a malignancy that had 
@@ -145,18 +172,19 @@ of Abraham's illness. "Perhaps we are all too conservative in this matter; one r
 ought to have made some concession to the film fever.". In conclusion, the film 
 opened in major movie-houses in Berlin & London, in March 1926, & achieved a 
 substantial , if short-lived, popular success. Pabst continued his career with the 
-better-known films: *Pandora's Box* with the great Louise Brooks (1928), & *The Threepenny Opera* with Lotte Lenya in 1931.
+better-known films: *Pandora's Box* with the great Louise Brooks (1928), & *The 
+Threepenny Opera* with Lotte Lenya in 1931.
 
 Except for his conflict with Freud over the film, Sachs had flourished in 
 Berlin. As a lover of music & the arts, as well as fine wines & beautiful women, 
-Eitingon had wished him "a good long life in the Garden of Epicurus." Moellenhoff  
+Eitingon had wished him "a good long life in the Garden of Epicurus." Moellenhoff 
 had called him "a successful combination of a scholar & a bon vivant, the German 
 *Lebenskuenstler*," or "life-artist," one who knows how to live life to the fullest. 
 Sachs was valued by Freud for his encyclopedic knowledge of Jewish jokes, that 
 were "witty & profound & told with a playful elegance characteristic of his 
 Viennese origin" (Moellenhoff 1966). Freud had teased Sachs about his incurable 
 optimism, as in his joke about the fall of the Habsburg dynasty in 1918: "The 
-Revolution will take place tomorrow at 2:30 PM; in case of unfavorable weather it  
+Revolution will take place tomorrow at 2:30 PM; in case of unfavorable weather it 
 will be held indoors."
 
 Since 1910, Sachs had belonged to the secret "Committee," as one of the six 
@@ -168,7 +196,9 @@ death the Committee ceased being active, & during the 1927 IPA Congress at
 Innsbruck, Sachs was also quietly dropped. This probably took place with Freud's 
 agreement, possibly as a distant effect of the "Film Affair."
 
-Sachs's Epicurean sojourn in Berlin lasted only 13 years, when he welcomed, as we have seen, the invitation to become Boston's second training-analyst & our first permanent one. He arrived in 1933, just as Hitler was assuming power in 
+Sachs's Epicurean sojourn in Berlin lasted only 13 years, when he welcomed, as we 
+have seen, the invitation to become Boston's second training-analyst & our first 
+permanent one. He arrived in 1933, just as Hitler was assuming power in 
 Germany, among the first of an increasing flow of European analysts. On a 
 preliminary visit in 1932, Sachs had requested the services of a young lawyer, not an 
 old one who might disagree with him. His instructions were to buy & furnish a house 
@@ -187,7 +217,9 @@ instructor, a professional cartoonist & author of several humorous books about t
 new craze for skiing. Sachs entertained lavishly & his parties were notable for witty 
 conversation, high spirits & a cosmopolitain knowledge of music & the arts. Boston 
 at that time was a small provincial city, which was being transformed by "the great 
-intellectual migration" from Nazi Europe. In this influx of Austrian & German intelligentsia, psychoanalysts were a prominent element, along with many Bauhaus architects, nuclear physicists , economists & other scholars.
+intellectual migration" from Nazi Europe. In this influx of Austrian & German 
+intelligentsia, psychoanalysts were a prominent element, along with many Bauhaus 
+architects, nuclear physicists , economists & other scholars.
 
 Sachs's professional life was less happy than his social one, arriving, 
 unbeknownst to him, in slightly choppy seas, after a stormy period of constitutional 
@@ -206,7 +238,9 @@ withdrew from committee-work in protest, but he remained a loyal member of the
 BPSI for the rest of his life. He was, of course, indispensable in training, & he 
 continued to analyze, or re-analyzed, many prominent members of the Society
 whose previous analyses had been with Otto Rank, Carl Jung or Paul Schilder. These 
-re-analyses included Martin Peck, an ex-president of the Society, & Prof Stanley Cobb at Harvard Medical School, who established a pioneering analytically-training department of psychiatry at Massachussetts General Hospital in 1935.
+re-analyses included Martin Peck, an ex-president of the Society, & Prof Stanley 
+Cobb at Harvard Medical School, who established a pioneering analytically-training 
+department of psychiatry at Massachussetts General Hospital in 1935.
 
 Sachs taught many seminars & was admired, as in Berlin, for his brilliance as 
 a teacher & supervisor. He was appointed Visiting Lecturer in Psychoanalysis at 
@@ -217,8 +251,10 @@ with Otto Rank on the original Imago of 1909, & again on the new *American Imago
 with George Wilbur as co-editor, from 1939 until his death in 1947.
 
 In the last decade of his life Sachs became somewhat pensive & detached, & 
-these were the years in which he cautioned, like Freud, against excessive *furor sanandi*, or zeal for clinical results. In his loyal & touching biographical notes on Freud, in *Freud, Master & Friend* (1944), Sachs admitted that "Freud did not find in 
-me some of those qualities he valued most highly. In the bond between us, 
+these were the years in which he cautioned, like Freud, against excessive *furor 
+sanandi*, or zeal for clinical results. In his loyal & touching biographical 
+notes on Freud, in *Freud, Master & Friend* (1944), Sachs admitted that "Freud did 
+not find in me some of those qualities he valued most highly. In the bond between us, 
 something was missing." Those missing qualities, we may speculate, seem related to 
 the contrast between Freud's austere, puritanical pessimism about human nature, in 
 contrast to Sachs's eternal optimism & *joie-de-vivre*. Sachs was not an old man, & 
