@@ -40,7 +40,7 @@ Audrea F. Jones Dunham
 
 ## Article
 
-## Boston's 1963 Stay Out for Freedom: Black Revolt in the "Deep North"[<sup>1</sup>](#footnote-1)
+### Boston's 1963 Stay Out for Freedom: Black Revolt in the "Deep North"[<sup>1</sup>](#footnote-1)
 
 >
 *The Bastille of Birmingham was a turning point in the Negro resistance movement. Sparks from the flames of Birmingham leaped from ghetto to ghetto, igniting inflammable material that had been gathering for years, welding Negroes into a great black mass of livid indignation.* --Lerone Bennett, Jr.
