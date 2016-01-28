@@ -151,11 +151,6 @@ class PBCore # rubocop:disable Metrics/ClassLength
         nil
       end
   end
-  def transcript_html_src
-    if transcript_src
-      "/transcripts/#{id}"
-    end
-  end
 
   def us_only?
     xpath_boolean('/*/pbcoreAnnotation[@annotationType="Geoblock"]')

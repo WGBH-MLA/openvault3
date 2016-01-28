@@ -6,7 +6,6 @@ class TranscriptsController < ApplicationController
   XSLT = Nokogiri::XSLT(File.read(__dir__+'/../../lib/xslt/tei_to_html.xsl'))
   
   def show
-    # TODO: do we need more of the behavior from Blacklight::Catalog?
     @response, @document = fetch(params['id'])
     curl = Curl::Easy.http_get(PBCore.new(@document['xml']).transcript_src)
     # S3 might do referer checks in the future
