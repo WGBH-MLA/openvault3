@@ -33,7 +33,10 @@ $(function(){
             var offset_key = greatest_less_than(current);
             var target = offset[offset_key];
             console.log(current, offset_key, target);
-            $('iframe').contents().scrollTop(target);
+            $('iframe').contents().scrollTop(target-30);
+            // "-30" to get the speaker's name at the top;
+            // TODO: tweak xslt to move time attributes
+            // up to the containing element.
         });
 
     });
