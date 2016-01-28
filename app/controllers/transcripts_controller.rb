@@ -16,9 +16,9 @@ class TranscriptsController < ApplicationController
         # curl.headers['Referer'] = 'http://openvault.wgbh.org/'
         curl.perform
         tei_doc = Nokogiri::XML(curl.body_str)
-        render text: XSLT.transform(tei_doc).to_xml
-        # TODO: this is a fragment: not sure whether we want to put it into an iframe,
-        # or inject it into the DOM.
+        render text: '<html><body>' + XSLT.transform(tei_doc).to_xml + '</body></html>'
+        # TODO: Clean this up
+        # TODO: caching?
       end
     end
   end

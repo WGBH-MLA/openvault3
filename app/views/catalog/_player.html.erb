@@ -20,4 +20,7 @@
       -->
     <% end %>
   <% end %>
+  <% if @pbcore.transcript_html_src %>
+      <iframe src="<%= @pbcore.transcript_html_src %>"></iframe>
+  <% end %>
 </div>
