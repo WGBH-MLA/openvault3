@@ -15,9 +15,7 @@ and digitized for preservation and access.
 
 ## Interviews
 
-TODO Interviews
-
-[](http://127.0.0.1:3000/catalog?f[media_type][]=media)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_interview)
 
 ## Archival Footage
 
