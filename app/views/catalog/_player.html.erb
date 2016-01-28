@@ -7,7 +7,7 @@
       <br/>
     <% end %>
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                  controls: true,
+                  controls: true, id: 'player-media',
                   oncontextmenu: 'return false;', 
                   class: 'col-lg-4 col-md-5 col-sm-6 col-xs-12',
                   poster: @pbcore.thumbnail_src) do %>
