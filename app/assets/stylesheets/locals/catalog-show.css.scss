@@ -8,4 +8,8 @@
     dd {
         padding-left: $grid-gutter-width;
     }
+    #player {
+        background-color: $pale-grey;
+        padding: $grid-gutter-width/2 0;
+    }
 }
