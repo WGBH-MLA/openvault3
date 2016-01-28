@@ -9,7 +9,7 @@
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                   controls: true,
                   oncontextmenu: 'return false;', 
-                  width: 400, height: 300,
+                  class: 'col-lg-4 col-md-5 col-sm-6 col-xs-12',
                   poster: @pbcore.thumbnail_src) do %>
       <% @pbcore.proxy_srcs.each do |src| %>
         <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
@@ -21,6 +21,9 @@
     <% end %>
   <% end %>
   <% if @pbcore.transcript_html_src %>
-      <iframe src="<%= @pbcore.transcript_html_src %>"></iframe>
+      <iframe id="transcript" src="<%= @pbcore.transcript_html_src %>" 
+              class="col-lg-8 col-md-7 col-sm-6 col-xs-12" 
+              frameBorder="0" height="400"></iframe>
   <% end %>
 </div>
+<div class="clearfix"></div>
