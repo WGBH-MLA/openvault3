@@ -9,7 +9,7 @@
     <% if is_geoblocked? %>
       <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
         <%# Blacklight alert classes seemed too colorful. %>
-        <strong>Note:</strong> This content is not available in your region.</p>
+        <strong>Note:</strong> This content is not available in your region.
       </div>
     <% else %>
       <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
