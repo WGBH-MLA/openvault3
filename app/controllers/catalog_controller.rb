@@ -134,12 +134,12 @@ class CatalogController < ApplicationController
   #  def index
   #  end
 
-  def is_geoblocked?
+  def geoblocked?
     country_code = GeoIPCountry.instance.country_code(request.remote_ip)
     @pbcore.blocked_country_codes.include?(country_code)
   end
-  helper_method :is_geoblocked?
-  
+  helper_method :geoblocked?
+
   def show
     # TODO: do we need more of the behavior from Blacklight::Catalog?
     @response, @document = fetch(params['id'])

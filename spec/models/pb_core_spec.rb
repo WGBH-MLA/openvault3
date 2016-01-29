@@ -118,7 +118,7 @@ describe 'Validated and plain PBCore' do
         genres: ['GENRE-1', 'GENRE-2'],
         topics: ['TOPIC-1', 'TOPIC-2'],
         locations: ['LOCATION-1', 'LOCATION-2'],
-        blocked_country_codes: ['GB'],
+        blocked_country_codes: ['--'],
         password_required?: true,
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],

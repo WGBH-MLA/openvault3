@@ -6,7 +6,7 @@
       <%= tag('img', src: @pbcore.thumbnail_src) %>
       <br/>
     <% end %>
-    <% if is_geoblocked? %>
+    <% if geoblocked? %>
       <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
         <%# Blacklight alert classes seemed too colorful. %>
         <strong>Note:</strong> This content is not available in your region.
