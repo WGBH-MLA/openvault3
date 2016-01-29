@@ -81,6 +81,11 @@
       <xsl:attribute name="class">para</xsl:attribute>
       <xsl:if test="@smil:begin"><xsl:attribute name="data-timecodebegin"><xsl:value-of select="@smil:begin" /></xsl:attribute></xsl:if>
       <xsl:if test="@smil:end"><xsl:attribute name="data-timecodeend"><xsl:value-of select="@smil:end" /></xsl:attribute></xsl:if>
+      <xsl:if test="@smil:begin">
+        <span class="play-from-here">
+          <xsl:attribute name="data-timecode"><xsl:value-of select="@smil:begin" /></xsl:attribute>
+        </span>
+      </xsl
       <xsl:apply-templates mode="seg" />
       <div class="tei-metadata">
 	<xsl:apply-templates select="tei:name" mode="teimeta" />
