@@ -10,5 +10,11 @@
             display: none;
             // Title at top of transcript isn't necessary: We know what we're looking at.
         }
+        .play-from-here::before {
+            content: '\25B6'; // right-pointing triangle
+            cursor: pointer;
+            color: $dark-blue;
+            padding-right: 0.3em;
+        }
     }
 }
