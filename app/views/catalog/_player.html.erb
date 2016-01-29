@@ -6,18 +6,25 @@
       <%= tag('img', src: @pbcore.thumbnail_src) %>
       <br/>
     <% end %>
-    <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                  controls: true, id: 'player-media',
-                  oncontextmenu: 'return false;', 
-                  class: 'col-lg-4 col-md-5 col-sm-6 col-xs-12',
-                  poster: @pbcore.thumbnail_src) do %>
-      <% @pbcore.proxy_srcs.each do |src| %>
-        <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+    <% if is_geoblocked? %>
+      <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+        <%# Blacklight alert classes seemed too colorful. %>
+        <strong>Note:</strong> This content is not available in your region.</p>
+      </div>
+    <% else %>
+      <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                    controls: true, id: 'player-media',
+                    oncontextmenu: 'return false;', 
+                    class: 'col-lg-4 col-md-5 col-sm-6 col-xs-12',
+                    poster: @pbcore.thumbnail_src) do %>
+        <% @pbcore.proxy_srcs.each do |src| %>
+          <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+        <% end %>
+
+        <!-- We have transcripts, but not SRT caption files:
+          <track kind="captions" src="..."/>
+        -->
       <% end %>
-      
-      <!-- We have transcripts, but not SRT caption files:
-        <track kind="captions" src="..."/>
-      -->
     <% end %>
   <% end %>
   <% if @pbcore.transcript_src %>

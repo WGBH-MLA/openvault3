@@ -1,4 +1,5 @@
 require_relative '../../lib/open_vault'
+require_relative '../../lib/geo_i_p_country'
 
 class CatalogController < ApplicationController
   include Blacklight::Catalog
@@ -133,6 +134,12 @@ class CatalogController < ApplicationController
   #  def index
   #  end
 
+  def is_geoblocked?
+    country_code = GeoIPCountry.instance.country_code(request.remote_ip)
+    @pbcore.blocked_country_codes.include?(country_code)
+  end
+  helper_method :is_geoblocked?
+  
   def show
     # TODO: do we need more of the behavior from Blacklight::Catalog?
     @response, @document = fetch(params['id'])
