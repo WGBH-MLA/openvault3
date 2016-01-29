@@ -38,6 +38,12 @@ $(function(){
             // TODO: tweak xslt to move time attributes
             // up to the containing element.
         });
+        
+        $('#transcript').contents().find('.play-from-here').click(function(){
+            var $player = $('#player-media')[0];
+            $player.currentTime = parse_timecode($(this).data('timecode'));
+            $player.play();
+        });
 
     });
 });
