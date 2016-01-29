@@ -9,6 +9,8 @@
       <h1><%= @pbcore.title %></h1>
       <%= content_tag('p', @pbcore.date) if @pbcore.date %>
       
+      <%= content_tag('p', @pbcore.asset_description) %>
+      
       <%= render partial: 'player' %>
       
       <p>
@@ -29,7 +31,6 @@
               {field: 'asset_title', label: 'Title'},
               {field: 'series_description'},
               {field: 'program_description'},
-              {field: 'asset_description', label: 'Description'},
               {field: 'duration'},
               {field: 'asset_type'},
               {field: 'media_type'},

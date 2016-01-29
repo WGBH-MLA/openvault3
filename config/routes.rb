@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   resources :about,
     only: [:show]
   
+  resources :transcripts,
+    only: [:show]
+  
   override_constraints = lambda do |req|
     path = req.params['path']
     path.match(/^[a-z0-9\/-]+$/) && !path.match(/^rails/)

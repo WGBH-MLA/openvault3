@@ -39,9 +39,10 @@ class ValidatedPBCore < PBCore
     errors = []
     expected_url_methods = Set.new([
       :outside_url, :aapb_url, :boston_tv_news_url,
-      :thumbnail_src, :proxy_srcs, :transcript_srcs])
+      :thumbnail_src, :proxy_srcs, :transcript_src,
+    ])
     url_methods = Set.new(PBCore.instance_methods(false).grep(/(src|url)s?/))
-    fail("Unexpected URL methods: #{url_methods} != #{expected_url_methods}") if url_methods != expected_url_methods
+    fail("Unexpected URL methods: #{url_methods.sort} != #{expected_url_methods.sort}") if url_methods != expected_url_methods
     url_methods.each do |method|
       urls = [send(method)].select {|u| u}.flatten
       urls.each do |url|
