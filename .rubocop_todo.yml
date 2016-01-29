@@ -5,29 +5,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 1
-# Configuration parameters: AllowSafeAssignment.
-Lint/AssignmentInCondition:
-  Enabled: false
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: AlignWith, SupportedStyles, AutoCorrect.
-Lint/EndAlignment:
-  Enabled: false
-
-# Offense count: 2
-Lint/HandleExceptions:
-  Enabled: false
-
-# Offense count: 3
-Lint/ShadowingOuterLocalVariable:
-  Enabled: false
-
-# Offense count: 3
-Lint/UselessAssignment:
-  Enabled: false
-
 # Offense count: 14
 Metrics/AbcSize:
   Max: 49
@@ -61,12 +38,6 @@ Metrics/PerceivedComplexity:
 Style/AndOr:
   Enabled: false
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles, ProceduralMethods, FunctionalMethods, IgnoredMethods.
-Style/BlockDelimiters:
-  Enabled: false
-
 # Offense count: 3
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 Style/ClassAndModuleChildren:
@@ -83,11 +54,6 @@ Style/GlobalVars:
 
 # Offense count: 3
 Style/MultilineBlockChain:
-  Enabled: false
-
-# Offense count: 1
-# Cop supports --auto-correct.
-Style/Not:
   Enabled: false
 
 # Offense count: 7

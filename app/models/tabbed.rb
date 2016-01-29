@@ -63,14 +63,14 @@ class Tabbed < Cmless
         q_val = query.values.first[0]
 
         # TODO: figure out how to reuse the blacklight, instead of wrapping our own.
-        docs = RSolr.connect(url: 'http://localhost:8983/solr/')
-               .get('select', params: {
-                      'q' => "#{q_key}:#{q_val}",
-                      'fl' => 'id,title,thumbnail_src',
-                      'rows' => '1000'
-                    })['response']['docs']
-        docs.map do |doc|
-          TabbedCell.new(doc['id'], doc['title'], doc['thumbnail_src'])
+        solr_docs = RSolr.connect(url: 'http://localhost:8983/solr/')
+                    .get('select', params: {
+                           'q' => "#{q_key}:#{q_val}",
+                           'fl' => 'id,title,thumbnail_src',
+                           'rows' => '1000'
+                         })['response']['docs']
+        solr_docs.map do |solr_doc|
+          TabbedCell.new(solr_doc['id'], doc['title'], doc['thumbnail_src'])
         end
       end.flatten
     end
