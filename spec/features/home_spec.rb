@@ -7,6 +7,6 @@ describe 'Homepage' do
 
     expect(page.status_code).to eq(200)
     expect(page).to have_text('All rights reserved')
-    expect_fuzzy_xml()
+    expect_fuzzy_xml
   end
 end

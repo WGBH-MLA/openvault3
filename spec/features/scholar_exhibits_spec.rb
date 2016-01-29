@@ -6,12 +6,12 @@ describe 'Scholar Exhibits' do
     visit '/exhibits'
     expect(page.status_code).to eq(200)
     expect(page).to have_text('The Julia Child of Needlework')
-    expect_fuzzy_xml()
+    expect_fuzzy_xml
   end
   it 'at least loads a details page' do
     visit '/exhibits/erica-wilson/article'
     expect(page.status_code).to eq(200)
     expect(page).to have_text('The Julia Child of Needlework')
-    expect_fuzzy_xml()
+    expect_fuzzy_xml
   end
 end

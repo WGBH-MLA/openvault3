@@ -19,7 +19,7 @@ END
     (?!=)
   /x
 
-  def expect_fuzzy_xml()
+  def expect_fuzzy_xml
     # Kludge valid HTML5 to make it into valid XML.
     xhtml = page.body
     # self-close tags
@@ -39,7 +39,7 @@ END
 
     fail 'Text should not contain raw <p>' if page.text && page.text.include?('<p>')
 
-    page.all('a').map { |element| element['href'] }.each do |url| 
+    page.all('a').map { |element| element['href'] }.each do |_url|
       # TODO: link checker.
     end
   rescue => e

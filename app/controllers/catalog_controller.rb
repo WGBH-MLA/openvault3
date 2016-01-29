@@ -1,7 +1,6 @@
 require_relative '../../lib/open_vault'
 
 class CatalogController < ApplicationController
-
   include Blacklight::Catalog
 
   configure_blacklight do |config|
@@ -30,10 +29,10 @@ class CatalogController < ApplicationController
     #  # :q => '{!raw f=id v=$id}'
     # }
 
-#    Unused:
-#    # solr field configuration for search results/index views
-#    config.index.title_field = 'title_display'
-#    config.index.display_type_field = 'format'
+    #    Unused:
+    #    # solr field configuration for search results/index views
+    #    config.index.title_field = 'title_display'
+    #    config.index.display_type_field = 'format'
 
     # solr field configuration for document/show views
     # config.show.title_field = 'title_display'
@@ -61,28 +60,28 @@ class CatalogController < ApplicationController
     #
 
     config.add_facet_field 'series_title', label: 'Series', show: false
-    
+
     config.add_facet_field 'media_type'
     config.add_facet_field 'genres', label: 'Genre', solr_params: { 'facet.limit' => -1 }
     config.add_facet_field 'topics', label: 'Topic', solr_params: { 'facet.limit' => -1 }
     config.add_facet_field 'asset_type'
     config.add_facet_field 'year', sort: 'index'
 
-#    config.add_facet_field 'format', :label => 'Format'
-#    config.add_facet_field 'pub_date', :label => 'Publication Year', :single => true
-#    config.add_facet_field 'subject_topic_facet', :label => 'Topic', :limit => 20
-#    config.add_facet_field 'language_facet', :label => 'Language', :limit => true
-#    config.add_facet_field 'lc_1letter_facet', :label => 'Call Number'
-#    config.add_facet_field 'subject_geo_facet', :label => 'Region'
-#    config.add_facet_field 'subject_era_facet', :label => 'Era'
-#
-#    config.add_facet_field 'example_pivot_field', :label => 'Pivot Field', :pivot => ['format', 'language_facet']
-#
-#    config.add_facet_field 'example_query_facet_field', :label => 'Publish Date', :query => {
-#       :years_5 => { :label => 'within 5 Years', :fq => "pub_date:[#{Time.now.year - 5 } TO *]" },
-#       :years_10 => { :label => 'within 10 Years', :fq => "pub_date:[#{Time.now.year - 10 } TO *]" },
-#       :years_25 => { :label => 'within 25 Years', :fq => "pub_date:[#{Time.now.year - 25 } TO *]" }
-#    }
+    #    config.add_facet_field 'format', :label => 'Format'
+    #    config.add_facet_field 'pub_date', :label => 'Publication Year', :single => true
+    #    config.add_facet_field 'subject_topic_facet', :label => 'Topic', :limit => 20
+    #    config.add_facet_field 'language_facet', :label => 'Language', :limit => true
+    #    config.add_facet_field 'lc_1letter_facet', :label => 'Call Number'
+    #    config.add_facet_field 'subject_geo_facet', :label => 'Region'
+    #    config.add_facet_field 'subject_era_facet', :label => 'Era'
+    #
+    #    config.add_facet_field 'example_pivot_field', :label => 'Pivot Field', :pivot => ['format', 'language_facet']
+    #
+    #    config.add_facet_field 'example_query_facet_field', :label => 'Publish Date', :query => {
+    #       :years_5 => { :label => 'within 5 Years', :fq => "pub_date:[#{Time.now.year - 5 } TO *]" },
+    #       :years_10 => { :label => 'within 10 Years', :fq => "pub_date:[#{Time.now.year - 10 } TO *]" },
+    #       :years_25 => { :label => 'within 25 Years', :fq => "pub_date:[#{Time.now.year - 25 } TO *]" }
+    #    }
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
@@ -131,8 +130,8 @@ class CatalogController < ApplicationController
     config.spell_max = 5
   end
 
-#  def index
-#  end
+  #  def index
+  #  end
 
   def show
     # TODO: do we need more of the behavior from Blacklight::Catalog?
@@ -149,5 +148,4 @@ class CatalogController < ApplicationController
       end
     end
   end
-  
 end

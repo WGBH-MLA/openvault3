@@ -132,7 +132,7 @@ class Ingest
     # ingester.optimize
 
     errors = ingester.errors.sort # So related errors are together
-    error_count = errors.map{|pair| pair[1]}.flatten.count
+    error_count = errors.map { |pair| pair[1] }.flatten.count
     success_count = ingester.success_count
     total_count = error_count + success_count
 
@@ -150,7 +150,7 @@ class Ingest
 
     $LOG.info('DONE')
   end
-  
+
   def percent(part, whole)
     (100.0 * part / whole).round(1)
   end

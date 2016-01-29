@@ -34,24 +34,22 @@ class ValidatedPBCore < PBCore
     return if errors.empty?
     fail 'Method validation errors: ' + errors.join("\n")
   end
-  
+
   def url_validate
     errors = []
     expected_url_methods = Set.new([
       :outside_url, :aapb_url, :boston_tv_news_url,
-      :thumbnail_src, :proxy_srcs, :transcript_src,
+      :thumbnail_src, :proxy_srcs, :transcript_src
     ])
     url_methods = Set.new(PBCore.instance_methods(false).grep(/(src|url)s?/))
     fail("Unexpected URL methods: #{url_methods.sort} != #{expected_url_methods.sort}") if url_methods != expected_url_methods
     url_methods.each do |method|
-      urls = [send(method)].select {|u| u}.flatten
+      urls = [send(method)].select { |u| u }.flatten
       urls.each do |url|
         begin
           if url.match(/^\//)
-            path = __dir__+'/../../public'+url
-            unless File.exists?(path)
-              errors << "No file at #{path}"
-            end
+            path = __dir__ + '/../../public' + url
+            errors << "No file at #{path}" unless File.exist?(path)
           else
             Curl::Easy.new(url).tap do |curl|
               curl.http_head
@@ -62,7 +60,7 @@ class ValidatedPBCore < PBCore
           end
         rescue => e
           errors << (["'##{method}' failed: #{e.message}"] + e.backtrace[0..2]).join("\n")
-        end 
+        end
       end
     end
     return if errors.empty?

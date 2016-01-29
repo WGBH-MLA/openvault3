@@ -1,5 +1,5 @@
 class PBCoreNameRole
-  def initialize(rexml_or_stem, name=nil, role=nil, affiliation=nil)
+  def initialize(rexml_or_stem, name = nil, role = nil, _affiliation = nil)
     if name
       # for testing only
       @stem = rexml_or_stem
@@ -34,7 +34,7 @@ class PBCoreNameRole
   def to_a
     [name, role].select { |x| x }
   end
-  
+
   def to_s
     "#{name} (#{role})"
   end

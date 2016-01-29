@@ -23,9 +23,9 @@ gem 'jquery-rails'
 
 # jQuery document ready was still not working for me, even with this.
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-#gem 'turbolinks'
+# gem 'turbolinks'
 # A package that helps fix jquery code that breaks due to turbolinks.
-#gem 'jquery-turbolinks'
+# gem 'jquery-turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -48,7 +48,7 @@ gem 'capistrano-passenger', :group => :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem "bootstrap-sass", "3.3.4.1"
+gem 'bootstrap-sass', '3.3.4.1'
 # TODO: remove when upsteam is fixed.
 # https://github.com/projecthydra/hydra-editor/commit/18737ec2
 gem 'cmless', '0.1.0'
