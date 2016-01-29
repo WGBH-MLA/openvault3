@@ -12,7 +12,7 @@ module QueryMaker
 
     fail("Unrecognized params: #{extras}") unless extras.empty?
     fail("Expected only one 'q'") if q && q.count > 1
-    
+
     pairs = facets.flat_map do|bracket_key, array_value|
       simple = bracket_key.sub(/f\[/, '').sub(/\]\[\]/, '')
       array_value.map { |value| [simple, value] }

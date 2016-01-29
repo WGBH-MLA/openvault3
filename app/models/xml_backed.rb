@@ -25,11 +25,11 @@ module XmlBacked
       end
     end
   end
-  
+
   def xpaths(xpath)
     REXML::XPath.match(@doc, xpath).map { |node| XmlBacked.text_from(node) }
   end
-  
+
   def xpath_boolean(xpath)
     case xpaths(xpath)
     when ['YES']
@@ -60,15 +60,15 @@ module XmlBacked
     Hash[pairs_by_type(element_xpath, attribute_xpath)]
   end
 
-# TODO: If we can just iterate over pairs, we don't need either of these.
-#
-#  def multi_hash_by_type(element_xpath, attribute_xpath) # Not tested
-#    Hash[
-#      pairs_by_type(element_xpath, attribute_xpath).group_by{|(key,value)| key}.map{|key,pair_list|
-#        [key, pair_list.map{|(key,value)| value}]
-#      }
-#    ]
-#  end
+  # TODO: If we can just iterate over pairs, we don't need either of these.
+  #
+  #  def multi_hash_by_type(element_xpath, attribute_xpath) # Not tested
+  #    Hash[
+  #      pairs_by_type(element_xpath, attribute_xpath).group_by{|(key,value)| key}.map{|key,pair_list|
+  #        [key, pair_list.map{|(key,value)| value}]
+  #      }
+  #    ]
+  #  end
 
   class NoMatchError < StandardError
   end

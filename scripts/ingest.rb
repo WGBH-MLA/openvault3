@@ -77,7 +77,7 @@ class Ingest
                       $stdout
                     else
                       Rails.root + "log/ingest-#{sanitized_argv}.log"
-    end
+                    end
     $LOG = Logger.new(log_file_name, 'daily')
     $LOG.formatter = proc do |severity, datetime, _progname, msg|
       "#{severity} [#{datetime.strftime('%Y-%m-%d %H:%M:%S')}]: #{msg}\n"
@@ -132,25 +132,25 @@ class Ingest
     # ingester.optimize
 
     errors = ingester.errors.sort # So related errors are together
-    error_count = errors.map{|pair| pair[1]}.flatten.count
+    error_count = errors.map { |pair| pair[1] }.flatten.count
     success_count = ingester.success_count
     total_count = error_count + success_count
 
     $LOG.info('SUMMARY: DETAIL')
-    errors.each {|type, list|
+    errors.each do |type, list|
       $LOG.warn("#{list.count} #{type} errors:\n#{list.join("\n")}")
-    }
+    end
 
     $LOG.info('SUMMARY: STATS')
     $LOG.info('(Look just above for details on each error.)')
-    errors.each {|type, list|
+    errors.each do |type, list|
       $LOG.warn("#{list.count} (#{percent(list.count, total_count)}%) #{type}")
-    }
+    end
     $LOG.info("#{success_count} (#{percent(success_count, total_count)}%) succeeded")
 
     $LOG.info('DONE')
   end
-  
+
   def percent(part, whole)
     (100.0 * part / whole).round(1)
   end

@@ -14,11 +14,11 @@ describe 'Validated and plain PBCore' do
     end
 
     describe 'invalid docs' do
-#      it 'rejects missing closing brace' do
-#        invalid_pbcore = pbc_xml.sub(/>\s*$/, '')
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/missing tag start/))
-#      end
+      #      it 'rejects missing closing brace' do
+      #        invalid_pbcore = pbc_xml.sub(/>\s*$/, '')
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/missing tag start/))
+      #      end
 
       it 'rejects missing closing tag' do
         invalid_pbcore = pbc_xml.sub(/<\/[^>]+>\s*$/, '')
@@ -31,59 +31,58 @@ describe 'Validated and plain PBCore' do
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Element 'pbcoreDescriptionDocument': No matching global declaration/))
       end
-      
+
       it 'rejects empty element' do
         invalid_pbcore = pbc_xml.sub(/<pbcoreSubject>[^<]+</, '<pbcoreSubject><')
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Empty element in XML: <pbcoreSubject\/>/))
       end
 
-#      it 'rejects unknown media types at creation' do
-#        invalid_pbcore = pbc_xml.gsub(
-#          /<instantiationMediaType>[^<]+<\/instantiationMediaType>/,
-#          '<instantiationMediaType>unexpected</instantiationMediaType>')
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/Unexpected media types: \["unexpected"\]/))
-#      end
+      #      it 'rejects unknown media types at creation' do
+      #        invalid_pbcore = pbc_xml.gsub(
+      #          /<instantiationMediaType>[^<]+<\/instantiationMediaType>/,
+      #          '<instantiationMediaType>unexpected</instantiationMediaType>')
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/Unexpected media types: \["unexpected"\]/))
+      #      end
 
-#      it 'rejects multi "Level of User Access"' do
-#        invalid_pbcore = pbc_xml.sub(
-#          /<pbcoreAnnotation/,
-#          "<pbcoreAnnotation annotationType='Level of User Access'>On Location</pbcoreAnnotation><pbcoreAnnotation")
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/Should have at most 1 "Level of User Access" annotation/))
-#      end
+      #      it 'rejects multi "Level of User Access"' do
+      #        invalid_pbcore = pbc_xml.sub(
+      #          /<pbcoreAnnotation/,
+      #          "<pbcoreAnnotation annotationType='Level of User Access'>On Location</pbcoreAnnotation><pbcoreAnnotation")
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/Should have at most 1 "Level of User Access" annotation/))
+      #      end
 
-#      it 'rejects digitized w/o "Level of User Access"' do
-#        invalid_pbcore = pbc_xml.gsub(
-#          /<pbcoreAnnotation annotationType='Level of User Access'>[^<]+<[^>]+>/,
-#          '')
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/Should have "Level of User Access" annotation if digitized/))
-#      end
+      #      it 'rejects digitized w/o "Level of User Access"' do
+      #        invalid_pbcore = pbc_xml.gsub(
+      #          /<pbcoreAnnotation annotationType='Level of User Access'>[^<]+<[^>]+>/,
+      #          '')
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/Should have "Level of User Access" annotation if digitized/))
+      #      end
 
-#      it 'rejects undigitized w/ "Level of User Access"' do
-#        invalid_pbcore = pbc_xml.gsub(
-#          /<pbcoreIdentifier source='Sony Ci'>[^<]+<[^>]+>/,
-#          '')
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/Should not have "Level of User Access" annotation if not digitized/))
-#      end
+      #      it 'rejects undigitized w/ "Level of User Access"' do
+      #        invalid_pbcore = pbc_xml.gsub(
+      #          /<pbcoreIdentifier source='Sony Ci'>[^<]+<[^>]+>/,
+      #          '')
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/Should not have "Level of User Access" annotation if not digitized/))
+      #      end
 
-#      it 'rejects "Outside URL" if not explicitly ORR' do
-#        invalid_pbcore = pbc_xml.gsub( # First make it un-digitized
-#          /<pbcoreIdentifier source='Sony Ci'>[^<]+<[^>]+>/,
-#          '').gsub( # Then remove access
-#            /<pbcoreAnnotation annotationType='Level of User Access'>[^<]+<[^>]+>/,
-#            '')
-#        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
-#          raise_error(/If there is an Outside URL, the record must be explicitly public/))
-#      end
+      #      it 'rejects "Outside URL" if not explicitly ORR' do
+      #        invalid_pbcore = pbc_xml.gsub( # First make it un-digitized
+      #          /<pbcoreIdentifier source='Sony Ci'>[^<]+<[^>]+>/,
+      #          '').gsub( # Then remove access
+      #            /<pbcoreAnnotation annotationType='Level of User Access'>[^<]+<[^>]+>/,
+      #            '')
+      #        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+      #          raise_error(/If there is an Outside URL, the record must be explicitly public/))
+      #      end
     end
   end
 
   describe PBCore do
-    
     describe 'full' do
       id = 'V_5FDB1545443B427888C90E7B15F3783A'
       base = 'https://s3.amazonaws.com/openvault.wgbh.org/catalog'
@@ -102,7 +101,7 @@ describe 'Validated and plain PBCore' do
         asset_description: 'ASSET-DESCRIPTION',
         id: 'V_5FDB1545443B427888C90E7B15F3783A',
         thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg",
-        proxy_srcs: ['mp4', 'webm'].map{|ext| "#{base}/asset_proxies/#{id}.#{ext}"},
+        proxy_srcs: %w(mp4 webm).map { |ext| "#{base}/asset_proxies/#{id}.#{ext}" },
         rights_summary: 'RIGHTS-SUMMARY',
         contributors: [
           PBCoreNameRole.new('contributor', 'CONTRIBUTOR-NAME-1', 'CONTRIBUTOR-ROLE-1'),
@@ -126,23 +125,21 @@ describe 'Validated and plain PBCore' do
         scholar_exhibits: ['needlework'],
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
-        extensions: ["mp4", "webm"],
+        extensions: %w(mp4 webm),
         outside_url: 'http://americanarchive.org/',
-        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/V_5FDB1545443B427888C90E7B15F3783A.xml'}
+        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/V_5FDB1545443B427888C90E7B15F3783A.xml' }
       assertions[:to_solr] = assertions.slice(
         :id, :title, :thumbnail_src, :year, :series_title, :program_title,
-        :subjects, :locations, :genres, :topics, :asset_type, :media_type, 
+        :subjects, :locations, :genres, :topics, :asset_type, :media_type,
         :scholar_exhibits, :special_collections, :special_collection_tags)
-      .merge({
-          xml: pbc_xml,
-          text: ["SERIES", "PROGRAM", "PROGRAM-NUMBER", "ASSET", "12/31/1999", 
-            "1999", "SERIES; PROGRAM; ASSET", "SERIES-DESCRIPTION", 
-            "PROGRAM-DESCRIPTION", "ASSET-DESCRIPTION", "CONTRIBUTOR-NAME-1", 
-            "CONTRIBUTOR-ROLE-1", "CONTRIBUTOR-NAME-2", "CONTRIBUTOR-ROLE-2", 
-            "CREATOR-NAME-1", "CREATOR-ROLE-1", "CREATOR-NAME-2", "CREATOR-ROLE-2", 
-            "PUBLISHER-1", "PUBLISHER-2", "SUBJECT-1", "SUBJECT-2", "LOCATION-1", 
-            "LOCATION-2", "GENRE-1", "GENRE-2", "TOPIC-1", "TOPIC-2", "RIGHTS-SUMMARY"]
-        })
+                             .merge(xml: pbc_xml,
+                                    text: ['SERIES', 'PROGRAM', 'PROGRAM-NUMBER', 'ASSET', '12/31/1999',
+                                           '1999', 'SERIES; PROGRAM; ASSET', 'SERIES-DESCRIPTION',
+                                           'PROGRAM-DESCRIPTION', 'ASSET-DESCRIPTION', 'CONTRIBUTOR-NAME-1',
+                                           'CONTRIBUTOR-ROLE-1', 'CONTRIBUTOR-NAME-2', 'CONTRIBUTOR-ROLE-2',
+                                           'CREATOR-NAME-1', 'CREATOR-ROLE-1', 'CREATOR-NAME-2', 'CREATOR-ROLE-2',
+                                           'PUBLISHER-1', 'PUBLISHER-2', 'SUBJECT-1', 'SUBJECT-2', 'LOCATION-1',
+                                           'LOCATION-2', 'GENRE-1', 'GENRE-2', 'TOPIC-1', 'TOPIC-2', 'RIGHTS-SUMMARY'])
 
       pbc = PBCore.new(pbc_xml)
 

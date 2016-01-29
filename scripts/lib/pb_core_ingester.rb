@@ -39,7 +39,7 @@ class PBCoreIngester
   def ingest(opts)
     path = opts[:path]
     is_batch_commit = opts[:is_batch_commit]
-    
+
     begin
       Zip::File.open(path) do |zip_file|
         zip_file.each do |entry|
@@ -60,11 +60,11 @@ class PBCoreIngester
         record_error(e, path)
       end
     end
-        
+
     commit unless is_batch_commit
   end
 
-  def record_error(e, path, id_extracts='')
+  def record_error(e, path, id_extracts = '')
     message = "#{path} #{id_extracts}: #{e.message}"
     $LOG.warn(message)
     @errors["#{e.class}: #{e.message.split(/\n/).first}"] += [message]
