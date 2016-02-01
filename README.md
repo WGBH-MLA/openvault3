@@ -42,7 +42,7 @@ The buckets are located under **/catalog/**
 
 Copy Directory of Files to S3:
 ```
-aws s3 cp /local/folder/of/stuff s3://openvault.wgbh.org/bucket-name -- recursive
+aws s3 cp /local/folder/of/stuff s3://openvault.wgbh.org/bucket-name --recursive
 ```
 
 Double Check Files Were Uploaded:
