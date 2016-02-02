@@ -151,4 +151,11 @@ module Blacklight::FacetsHelperBehavior
     true # We never expand facets on load.
     # END patch
   end
+
+  def render_facet_limit_list(paginator, facet_field, wrapping_element=:li)
+    safe_join(paginator.items.
+      map { |item| render_facet_item(facet_field, item) }.compact.
+      map { |item| content_tag(wrapping_element,item)}
+    )
+  end
 end
