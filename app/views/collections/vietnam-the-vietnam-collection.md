@@ -15,7 +15,7 @@ and digitized for preservation and access.
 
 ## Interviews
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_interview)
+[](http://localhost:3000/assets?f[special_collection_tags][]=vietnam_interview)
 
 ## Archival Footage
 
