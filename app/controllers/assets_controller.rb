@@ -153,8 +153,4 @@ class AssetsController < ApplicationController
     @_prefixes ||= super + ['catalog']
   end
   
-  helper_method :opensearch_catalog_url
-  def opensearch_catalog_url(_opts)
-    'TODO'
-  end
 end
