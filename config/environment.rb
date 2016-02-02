@@ -152,8 +152,9 @@ module Blacklight::FacetsHelperBehavior
     # END patch
   end
 
-  def render_facet_limit_list(paginator, facet_field, wrapping_element=:li)
-    safe_join(paginator.items.
+  def render_facet_limit_list(items, facet_field, wrapping_element=:li)
+    # OV: Changed from "paginator.items" to plain "items"
+    safe_join(items.
       map { |item| render_facet_item(facet_field, item) }.compact.
       map { |item| content_tag(wrapping_element,item)}
     )
