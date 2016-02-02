@@ -100,8 +100,8 @@ class Ingest
         #{STDOUT_LOG}: Optionally, log to stdout, rather than a log file.
 
       mutually exclusive modes:
-        #{DIRS}: Clean and ingest the given files.
-        #{FILES}: Clean and ingest the given files.
+        #{DIRS}: Clean and ingest the given directories.
+        #{FILES}: Clean and ingest the given files (either xml or zip).
       EOF
   end
 

@@ -6,6 +6,32 @@ A new version of [Openvault](http://openvault.wgbh.org),
 to replace the [current one](https://github.com/wgbh/openvault).
 Planning documents are available on [the intranet](https://atlas.wgbh.org/confluence/display/OV).
 
+## Ingest PBCore
+
+The authoritative metadata records for the site come from a FileMaker database which exports a zip
+of PBCore xml files, with one description document per file. No further cleaning of the PBCore
+is done as part of ingest, in contrast to the AAPB.
+
+For development the fixtures may be enough:
+
+```
+$ ruby scripts/ingest.rb --stdout-log --same-mount --dirs spec/fixtures/pbcore
+```
+
+The ingester can read the zip export directly: Unzipping is unnecessary.
+
+```
+$ ruby scripts/ingest.rb --stdout-log --same-mount --files ~/Downloads/export.zip
+```
+
+If you want to reingest just a few files from a zip, they should be selectively unzipped first:
+
+```
+$ mkdir ~/unzips
+$ unzip  ~/Downloads/export.zip V_1234.xml V_5678.xml -d ~/unzips
+$ ruby scripts/ingest.rb --stdout-log --same-mount --dirs ~/unzips
+```
+
 ## Asset Proxy, Thumbnail and Transcript Files
 
 Asset records that contain media we're making available on Open Vault should have an asset proxy file.  This will be a lower quality .jpg derivative for an image asset, a .mp3 derivative for an audio asset, or a .mp4 and .webm derivative for a video asset.
@@ -28,7 +54,7 @@ Any asset proxy, asset thumbnail, or asset transcript created relating to that a
 
 **asset_transcript=** V_4D37F2D8E1054BA49999027BF9D18957.xml
 
-## Uploading to Amazon S3
+### Uploading to Amazon S3
 
 You can use the AWS web interface to upload asset proxies, thumbnails, or transcripts for Open Vault but for uploading multiple files you should use the Amazon CLI tool.  The transfer speed is a lot faster and large transfers shouldn't time out.
 
