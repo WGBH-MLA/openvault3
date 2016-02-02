@@ -8,7 +8,7 @@ describe 'Transcripts' do
   end
 
   it 'at least loads a details page' do
-    visit '/transcripts/V_5FDB1545443B427888C90E7B15F3783A'
+    visit '/transcripts/A_00000000_MOCK'
     expect(page.status_code).to eq(200)
     # TODO: figure out how we want to validate.
     # It's just an html fragment, and right now the validator is checking for a title.

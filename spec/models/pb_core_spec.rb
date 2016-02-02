@@ -127,7 +127,7 @@ describe 'Validated and plain PBCore' do
         boston_tv_news_url: nil,
         extensions: %w(mp4 webm),
         outside_url: 'http://americanarchive.org/',
-        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/V_5FDB1545443B427888C90E7B15F3783A.xml' }
+        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
         :id, :title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :genres, :topics, :asset_type, :media_type,
@@ -140,7 +140,7 @@ describe 'Validated and plain PBCore' do
                                            'CREATOR-NAME-1', 'CREATOR-ROLE-1', 'CREATOR-NAME-2', 'CREATOR-ROLE-2',
                                            'PUBLISHER-1', 'PUBLISHER-2', 'SUBJECT-1', 'SUBJECT-2', 'LOCATION-1',
                                            'LOCATION-2', 'GENRE-1', 'GENRE-2', 'TOPIC-1', 'TOPIC-2', 'RIGHTS-SUMMARY',
-                                           'foo foo foo bar bar bar'])
+                                           ' Doctor Evil foo foo foo bar bar bar '])
 
       pbc = PBCore.new(pbc_xml)
 
