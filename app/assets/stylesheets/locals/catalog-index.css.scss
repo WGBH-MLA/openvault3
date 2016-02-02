@@ -62,6 +62,7 @@
                 .panel-body {
                     padding: 0px;
                     .facet-values {
+                        display: table-cell;
                         background: $pale-grey;
                         font-weight: bold;
                         @media (min-width: $screen-md-min) { width: $col-md-12-5 - 32px; }

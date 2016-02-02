@@ -1,6 +1,9 @@
-<ul class="facet-values list-unstyled">
-  <% paginator = facet_paginator(facet_field, display_facet) %>
-  <%# OV: Pass paginator.items rather than just paginator. %>
-  <%= render_facet_limit_list paginator.items, field_name %>
-  <%# OV: Remove more_facets_link. %>
-</ul>
+<% items = facet_paginator(facet_field, display_facet).items %>
+<% cols = 1 + items.count / 8 %>
+<% items.in_groups(cols, false) do |group| %>
+  <ul class="facet-values list-unstyled">
+    <%# OV: Pass items rather than just paginator. %>
+    <%= render_facet_limit_list group, field_name %>
+    <%# OV: Remove more_facets_link. %>
+  </ul>
+<% end %>
