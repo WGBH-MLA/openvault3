@@ -12,6 +12,6 @@ class ApplicationController < ActionController::Base
   
   helper_method :opensearch_catalog_url
   def opensearch_catalog_url(_opts)
-    'TODO'
+    '/assets/opensearch.xml' # TODO: Make this actually work.
   end
 end
