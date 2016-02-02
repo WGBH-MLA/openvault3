@@ -1,6 +1,6 @@
 require_relative '../../lib/open_vault'
 
-class CatalogController < ApplicationController
+class AssetsController < ApplicationController
   include Blacklight::Catalog
 
   configure_blacklight do |config|
@@ -147,5 +147,14 @@ class CatalogController < ApplicationController
         render text: xml
       end
     end
+  end
+  
+  def _prefixes
+    @_prefixes ||= super + ['catalog']
+  end
+  
+  helper_method :opensearch_catalog_url
+  def opensearch_catalog_url(_opts)
+    'TODO'
   end
 end
