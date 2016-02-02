@@ -148,9 +148,8 @@ class AssetsController < ApplicationController
       end
     end
   end
-  
+
   def _prefixes
     @_prefixes ||= super + ['catalog']
   end
-  
 end
