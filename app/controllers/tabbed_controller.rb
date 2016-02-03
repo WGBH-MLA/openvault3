@@ -6,8 +6,6 @@ class TabbedController < ApplicationController
   def show
     @item = tab_class.find_by_path(params[:id])
     @page_title = @item.title
-    unless params[:tab] || @item.tab_path == params[:id]
-      redirect_to('/'+params[:controller]+'/'+@item.tab_path)
-    end
+    redirect_to('/' + params[:controller] + '/' + @item.tab_path) unless params[:tab] || @item.tab_path == params[:id]
   end
 end
