@@ -140,7 +140,7 @@ describe 'Validated and plain PBCore' do
                                            'CREATOR-NAME-1', 'CREATOR-ROLE-1', 'CREATOR-NAME-2', 'CREATOR-ROLE-2',
                                            'PUBLISHER-1', 'PUBLISHER-2', 'SUBJECT-1', 'SUBJECT-2', 'LOCATION-1',
                                            'LOCATION-2', 'GENRE-1', 'GENRE-2', 'TOPIC-1', 'TOPIC-2', 'RIGHTS-SUMMARY',
-                                           ' Doctor Evil foo foo foo bar bar bar '])
+                                           'Doctor Evil foo foo foo bar bar bar'])
 
       pbc = PBCore.new(pbc_xml)
 

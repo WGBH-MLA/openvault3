@@ -210,11 +210,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
     # of a captions/transcript file in solr (much less in the pbcore).
     # --> We only want to say that it exists, and we want to index the words.
 
-    transcript_text = if (transcript_src)
-      xml = Net::HTTP.get_response(URI.parse(transcript_src)).body
-      xml.gsub(/<[^>]*>/, ' ').gsub(/\s+/, ' ')
-      # TODO: Go ahead and parse the XML?
-    end
+    transcript_text = if transcript_src
+                        xml = Net::HTTP.get_response(URI.parse(transcript_src)).body
+                        doc = Nokogiri::XML(xml)
+                        doc.search('//text()').map(&:text).join(' ').gsub(/\s+/, ' ').strip
+                      end
 
     {
       id: id,
