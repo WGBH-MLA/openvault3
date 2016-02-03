@@ -1,22 +1,14 @@
-<%= render layout: 'shared/magic_grid', 
-           locals: { 
-             items: items,
-             cols: {
-                lg: 3,
-                md: 3,
-                sm: 3,
-                xs: 1 }
-           } do |item| %>
-  <a href="<%= '/' + path + '/' + item.tab_path %>">
-    <!-- Sort order: <%= item.head_html.gsub('<p>', '').to_f %> -->
-    <img src="<%= item.img_src %>"/>
-    <div class="wrap">
-      <div class="info">
-        <h2><%= item.title %></h2>
-        <% if item.respond_to? :author %>
-          by <%= item.author %>
-        <% end %>
-      </div>
+<div class="documents row">
+  <%
+    grid = 12 # Needs to match bootstrap's $grid-columns
+    col_classes = cols.map { |k,v| "col-#{k}-#{grid / v}"}.join(' ')
+  %>
+  <% docs.each_with_index do |doc, i| %>
+    <div class="clearfix <%= 
+      cols.map { |k,v| "hidden-#{k}" unless i % v == 0 }.join(' ')  
+    %>"></div>
+    <div class="document <%= col_classes %>">
+      <%= yield(doc) %>
     </div>
-  </a>
-<% end %>
+  <% end %>
+</div>
