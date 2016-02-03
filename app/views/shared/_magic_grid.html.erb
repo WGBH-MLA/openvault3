@@ -1,0 +1,14 @@
+<div class="documents row">
+  <%
+    grid = 12 # Needs to match bootstrap's $grid-columns
+    col_classes = cols.map { |k,v| "col-#{k}-#{grid / v}"}.join(' ')
+  %>
+  <% items.each_with_index do |item, i| %>
+    <div class="clearfix <%= 
+      cols.map { |k,v| "hidden-#{k}" unless i % v == 0 }.join(' ')  
+    %>"></div>
+    <div class="document <%= col_classes %>">
+      <%= yield(item) %>
+    </div>
+  <% end %>
+</div>
