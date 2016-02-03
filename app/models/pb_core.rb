@@ -135,7 +135,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
     # TODO: some have defaults?
   end
   def access
-    @access ||= 
+    @access ||=
       ['All Records'].tap do |access|
         access << 'Online' if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
       end
@@ -247,7 +247,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
 
       # UI facets
       access: access,
-      
+
       genres: genres,
       topics: topics,
 
