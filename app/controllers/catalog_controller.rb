@@ -62,6 +62,7 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'series_title', label: 'Series', show: false
 
+    config.add_facet_field 'access'
     config.add_facet_field 'media_type'
     config.add_facet_field 'genres', label: 'Genre', solr_params: { 'facet.limit' => -1 }
     config.add_facet_field 'topics', label: 'Topic', solr_params: { 'facet.limit' => -1 }

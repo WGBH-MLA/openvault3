@@ -134,6 +134,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
     end
     # TODO: some have defaults?
   end
+  def access
+    @access ||= 
+      ['All Records'].tap do |access|
+        access << 'Online' if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
+      end
+  end
   def proxy_srcs
     @proxy_srcs ||=
       if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
@@ -240,6 +246,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
       locations: locations,
 
       # UI facets
+      access: access,
+      
       genres: genres,
       topics: topics,
 
@@ -264,7 +272,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @text = begin
       ignores = [
         :text, :to_solr, :id, :duration,
-        :media_type, :asset_type,
+        :media_type, :asset_type, :access,
         :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags
       ]
