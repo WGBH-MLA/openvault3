@@ -60,13 +60,15 @@
                 position: relative; // Explicit position necessary for z-index to work
                 z-index: 1000;
                 .panel-body {
+                    overflow: visible;
                     padding: 0px;
+                    border: none; // Default has top border; hide because of width
+                    width: 500px; // Give children plenty of room
                     .facet-values {
                         display: table-cell;
                         background: $pale-grey;
                         font-weight: bold;
-                        @media (min-width: $screen-md-min) { width: $col-md-12-5 - 32px; }
-                        @media (min-width: $screen-lg-min) { width: $col-lg-12-5 - 32px; }
+                        width: auto; // BL defaults to 100%
                         .facet-label {
                             padding: 0px;
                             text-indent: 0px;

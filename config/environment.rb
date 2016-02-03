@@ -134,10 +134,7 @@ module Blacklight::FacetsHelperBehavior
     content_tag(:span, class: 'facet-label') do
       link_to_unless(
         options[:suppress_link],
-        raw(
-          # facet count INSIDE link
-          escape_once(facet_display_value(facet_field, item)) +
-            '<span class="pull-right">' + item.hits.to_s + '</span>'),
+        facet_display_value(facet_field, item),
         path,
         class: 'facet_select'
       )
