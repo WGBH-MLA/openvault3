@@ -32,8 +32,8 @@
     }
     
     #sidebar {
-        padding: 0px;
-        margin: 0px $grid-gutter-width/2; // Make edges flush
+        padding: 0px; // BL default extra space below
+        margin: 0 grid-gutter-width / 2;
         .panel-group {
             .panel-heading {
                 background: #FFF;
