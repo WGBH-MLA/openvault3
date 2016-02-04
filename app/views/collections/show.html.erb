@@ -14,7 +14,7 @@
     <div class="col-md-12">
       <% @item.tabs[params[:tab]].tap do |current_tab| %>
         <% if current_tab.respond_to?(:each) %>
-          <%= render partial: 'shared/document_list', locals: {documents: current_tab} %>
+          <%= render partial: 'shared/document_grid', locals: {documents: current_tab} %>
         <% else %>
           <%= current_tab.html_safe if current_tab %>
         <% end %>

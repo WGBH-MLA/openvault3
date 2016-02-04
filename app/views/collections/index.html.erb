@@ -8,7 +8,5 @@
       <h1><%= t('collections') %></h1>
     </div>
   </div>
-  <div class="row">
-    <%= render partial: 'shared/grid', locals: {items: @all, path: 'collections'} %>  
-  </div>
+  <%= render partial: 'shared/collection_exhibit_grid', locals: {items: @all, path: 'collections'} %>  
 </div>
