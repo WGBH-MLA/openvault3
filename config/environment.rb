@@ -134,10 +134,7 @@ module Blacklight::FacetsHelperBehavior
     content_tag(:span, class: 'facet-label') do
       link_to_unless(
         options[:suppress_link],
-        raw(
-          # facet count INSIDE link
-          escape_once(facet_display_value(facet_field, item)) +
-            '<span class="pull-right">' + item.hits.to_s + '</span>'),
+        facet_display_value(facet_field, item),
         path,
         class: 'facet_select'
       )
@@ -150,5 +147,13 @@ module Blacklight::FacetsHelperBehavior
     # BEGIN patch
     true # We never expand facets on load.
     # END patch
+  end
+
+  def render_facet_limit_list(items, facet_field, wrapping_element = :li)
+    # OV: Changed from "paginator.items" to plain "items"
+    safe_join(items
+      .map { |item| render_facet_item(facet_field, item) }.compact
+      .map { |item| content_tag(wrapping_element, item) }
+             )
   end
 end
