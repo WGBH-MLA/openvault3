@@ -1,0 +1,21 @@
+.img-crop {
+    overflow: hidden;
+}
+
+$aspect: 362 / 229;
+
+@function width($total, $cols) {
+    @return $cols * ( 
+              ( $total - $grid-gutter-width ) 
+              // Because of https://github.com/WGBH/openvault3/issues/41
+              // we don't start off with quite the full width.
+              / $grid-columns 
+            ) - $grid-gutter-width;
+}
+
+@media (min-width: $screen-lg-min) {
+    .col-lg-3 .img-crop {
+        height: width($screen-lg-min, 3) / $aspect;
+    }
+}
+

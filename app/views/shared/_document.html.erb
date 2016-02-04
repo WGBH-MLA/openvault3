@@ -1,5 +1,7 @@
 <a href="/catalog/<%= document.id %>">
-  <img src="<%= document[:thumbnail_src] %>">
+  <div class="img-crop">
+    <img src="<%= document[:thumbnail_src] %>">
+  </div>
   <div class="info">
     <%= document[:title] %>
   </div>
