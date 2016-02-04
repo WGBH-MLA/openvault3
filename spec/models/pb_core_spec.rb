@@ -114,6 +114,7 @@ describe 'Validated and plain PBCore' do
         video?: true,
         audio?: false,
         image?: false,
+        access: ['All Records', 'Online'],
         subjects: ['SUBJECT-1', 'SUBJECT-2'],
         genres: ['GENRE-1', 'GENRE-2'],
         topics: ['TOPIC-1', 'TOPIC-2'],
@@ -130,7 +131,7 @@ describe 'Validated and plain PBCore' do
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
         :id, :title, :thumbnail_src, :year, :series_title, :program_title,
-        :subjects, :locations, :genres, :topics, :asset_type, :media_type,
+        :subjects, :locations, :access, :genres, :topics, :asset_type, :media_type,
         :scholar_exhibits, :special_collections, :special_collection_tags)
                              .merge(xml: pbc_xml,
                                     text: ['SERIES', 'PROGRAM', 'PROGRAM-NUMBER', 'ASSET', '12/31/1999',

@@ -1,20 +1,4 @@
 .blacklight-catalog-index {
-    $col-md-12-5: 188px;
-    $col-lg-12-5: 228px;
-    
-    .col-12-5 {
-        // Hack for 5-across facet buttons, based on the bootstap code.
-        @media (min-width: $screen-md-min) { width: $col-md-12-5; }
-        @media (min-width: $screen-lg-min) { width: $col-lg-12-5; }
-        @media (min-width: $screen-md-min) {
-            width: 19.44%;
-            float: left;
-            position: relative;
-            min-height: 1px;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-    }
     .btn,.dropdown-menu {
         border-radius: 0px; // TODO: Perhaps move up?
     }
