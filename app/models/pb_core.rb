@@ -205,40 +205,23 @@ class PBCore # rubocop:disable Metrics/ClassLength
   # rubocop:enable Style/EmptyLineBetweenDefs
 
   def to_solr
-    # Only just before indexing do we check for the existence of captions:
+    # Only just before indexing do we check for the existence of transcripts:
     # We don't want to ping S3 multiple times, and we don't want to store all
     # of a captions/transcript file in solr (much less in the pbcore).
     # --> We only want to say that it exists, and we want to index the words.
 
-    #    doc_with_caption_flag = @doc.deep_clone
-    #    # perhaps paranoid, but I don't want this method to have side effects.
-    #
-    #    caption_id = id.gsub('_','-')
-    #    caption_base = 'https://s3.amazonaws.com/americanarchive.org/captions'
-    #    caption_url = "#{caption_base}/#{caption_id}/#{caption_id}.srt1.srt"
-    #    caption_response = Net::HTTP.get_response(URI.parse(caption_url))
-    #    if caption_response.code == '200'
-    #      pre_existing = REXML::XPath.match(doc_with_caption_flag, "//pbcoreAnnotation[@annotationType='#{CAPTIONS_ANNOTATION}']").first
-    #      if pre_existing
-    #        pre_existing.parent.elements.delete(pre_existing)
-    #      end
-    #      caption_body = caption_response.body.gsub(/[^[:print:][\n]&&[^ ]]+/, ' ')
-    #      # "\n" is not in the [:print:] class, but it should be preserved.
-    #      # "&&" is intersection: we also want to match " ",
-    #      # so that control-chars + spaces collapse to a single space.
-    #      REXML::XPath.match(doc_with_caption_flag, '/*/pbcoreInstantiation').last.next_sibling.next_sibling =
-    #        REXML::Element.new('pbcoreAnnotation').tap do |el|
-    #          el.add_attribute('annotationType', CAPTIONS_ANNOTATION)
-    #          el.add_text(caption_url)
-    #        end
-    #    end
+    transcript_text = if transcript_src
+                        xml = Net::HTTP.get_response(URI.parse(transcript_src)).body
+                        doc = Nokogiri::XML(xml)
+                        doc.search('//text()').map(&:text).join(' ').gsub(/\s+/, ' ').strip
+                      end
 
     {
       id: id,
       xml: @xml,
 
       # indexed:
-      text: text, # TODO: + [caption_body].select { |optional| optional },
+      text: text + [transcript_text],
 
       # *************************************
       #     Keep in sync with schema.xml

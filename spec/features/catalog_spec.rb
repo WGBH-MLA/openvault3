@@ -13,7 +13,7 @@ describe 'Catalog' do
   end
 
   it 'loads a full details page' do
-    visit '/catalog/V_5FDB1545443B427888C90E7B15F3783A'
+    visit '/catalog/A_00000000_MOCK'
     expect(page.status_code).to eq(200)
     expect_fuzzy_xml
   end
