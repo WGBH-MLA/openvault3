@@ -16,7 +16,7 @@
         <% if current_tab.respond_to?(:each) %>
           <%= render partial: 'shared/document_list', locals: {documents: current_tab} %>
         <% else %>
-          <%= current_tab.html_safe %>
+          <%= current_tab.html_safe if current_tab %>
         <% end %>
       <% end %>
     </div>
