@@ -47,7 +47,12 @@
                     overflow: visible;
                     padding: 0px;
                     border: none; // Default has top border; hide because of width
-                    width: 500px; // Give children plenty of room
+                    @media (min-width: $screen-md-min) {
+                        width: 500px; // Give children plenty of room
+                    }
+                    @media (max-width: $screen-sm-max) {
+                        width: 100%;
+                    }
                     .facet-values {
                         display: table-cell;
                         background: $pale-grey;
@@ -89,10 +94,22 @@
         }
     }
     
-    .limit_content {
-        background: $pale-grey;
-        padding: $grid-gutter-width/2;
+    #facet-year .panel-body {
+        right: 0;
+        .limit_content {
+            background: $pale-grey;
+            padding: $grid-gutter-width/2;
+            .slider-handle {
+                background: $dark-blue;
+                opacity: 1;
+            }
+            .slider-selection {
+                background: $medium-grey;
+            }
+        }
     }
+
+          
     
     #content {
         padding-top: $grid-gutter-width/2;
