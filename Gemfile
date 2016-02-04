@@ -66,6 +66,8 @@ gem 'sys-filesystem' # just for checking mount points at ingest
 
 gem 'rubyzip'
 
+gem 'blacklight_range_limit'
+
 gem 'cancan'
 gem 'geoip'
 
