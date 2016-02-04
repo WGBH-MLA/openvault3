@@ -89,6 +89,11 @@
         }
     }
     
+    .limit_content {
+        background: $pale-grey;
+        padding: $grid-gutter-width/2;
+    }
+    
     #content {
         padding-top: $grid-gutter-width/2;
         #sortAndPerPage {
