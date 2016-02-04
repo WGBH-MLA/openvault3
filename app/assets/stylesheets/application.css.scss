@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_self
+ *= require  'blacklight_range_limit'
  */
 
 @import "globals/defaults";
