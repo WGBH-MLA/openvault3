@@ -13,9 +13,21 @@ $aspect: 362 / 229;
             ) - $grid-gutter-width;
 }
 
+
+@media (min-width: $screen-sm-min) {
+    .col-sm-6 .img-crop {
+        height: width($screen-sm-min, 6) / $aspect;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    .col-md-4 .img-crop {
+        height: width($screen-md-min, 4) / $aspect;
+    }
+}
+
 @media (min-width: $screen-lg-min) {
     .col-lg-3 .img-crop {
         height: width($screen-lg-min, 3) / $aspect;
     }
 }
-
