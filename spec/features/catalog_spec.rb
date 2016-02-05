@@ -12,13 +12,13 @@ describe 'Catalog' do
     expect(page.status_code).to eq(200)
     expect_fuzzy_xml
   end
-  
+
   it 'redirects missing access' do
     visit '/catalog?q='
     expect(page.status_code).to eq(200)
     expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online&q=')
   end
-  
+
   it 'redirects missing everything' do
     visit '/catalog?'
     expect(page.status_code).to eq(200)
