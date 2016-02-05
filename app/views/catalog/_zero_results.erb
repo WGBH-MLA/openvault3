@@ -1,0 +1,17 @@
+<div>
+  <% if params[:f][:access] != [PBCore::ALL] %>
+    Consider using other search terms, removing filters, or
+    <%=
+      link_to(
+        'searching all records',
+        begin
+          params = request.params.except(:action, :controller).clone
+          params[:f][:access] = [PBCore::ALL]
+          '/catalog?' + params.to_query
+        end
+      ) %>,
+    not just those with media.
+  <% else %>
+    Consider using other search terms or removing filters.
+  <% end %>
+</div>

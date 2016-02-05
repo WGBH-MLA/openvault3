@@ -25,6 +25,20 @@ describe 'Catalog' do
     expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online')
   end
 
+  it 'has a helpful no-results' do
+    visit '/catalog?q=asdfasfasdf'
+    expect(page.status_code).to eq(200)
+    expect(page).to have_content 'Consider using other search terms, removing filters, or searching all records, not just those with media.'
+    expect_fuzzy_xml
+  end
+
+  it 'also has an unhelpful no-results' do
+    visit '/catalog?q=asdfasfasdf&f[access][]=All+Records'
+    expect(page.status_code).to eq(200)
+    expect(page).to have_content 'Consider using other search terms or removing filters.'
+    expect_fuzzy_xml
+  end
+
   it 'loads a full details page' do
     visit '/catalog/A_00000000_MOCK'
     expect(page.status_code).to eq(200)
