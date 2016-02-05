@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'pry'
 
 describe ApplicationController, type: :controller do
   describe '.redirect_map' do
