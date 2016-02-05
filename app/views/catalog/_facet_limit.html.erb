@@ -1,5 +1,5 @@
 <% items = facet_paginator(facet_field, display_facet).items %>
-<% cols = 1 + items.count / 8 %>
+<% cols = 1 + items.count / 15 %>
 <% items.in_groups(cols, false) do |group| %>
   <ul class="facet-values list-unstyled">
     <%# OV: Pass items rather than just paginator. %>
