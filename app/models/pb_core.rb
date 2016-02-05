@@ -134,10 +134,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
     end
     # TODO: some have defaults?
   end
+  ONLINE = 'Available Online'
+  ALL = 'All Records'
   def access
     @access ||=
-      ['All Records'].tap do |access|
-        access << 'Online' if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
+      [ALL].tap do |access|
+        access << ONLINE if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
       end
   end
   def proxy_srcs

@@ -1,5 +1,6 @@
 require 'rails_helper'
 require_relative '../support/validation_helper'
+require_relative '../../scripts/lib/pb_core_ingester'
 
 describe 'Catalog' do
   before(:all) do
@@ -10,6 +11,18 @@ describe 'Catalog' do
     visit '/catalog'
     expect(page.status_code).to eq(200)
     expect_fuzzy_xml
+  end
+  
+  it 'redirects missing access' do
+    visit '/catalog?q='
+    expect(page.status_code).to eq(200)
+    expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online&q=')
+  end
+  
+  it 'redirects missing everything' do
+    visit '/catalog?'
+    expect(page.status_code).to eq(200)
+    expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online')
   end
 
   it 'loads a full details page' do
