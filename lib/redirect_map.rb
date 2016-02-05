@@ -2,7 +2,6 @@ require 'yaml'
 require 'singleton'
 
 class RedirectMap
-
   include Singleton
 
   attr_reader :redirects
@@ -13,7 +12,7 @@ class RedirectMap
 
   def load(filename)
     @redirects = YAML.load(File.read(filename))
-    raise InvalidRedirectMapFile, "redirect map file \"#{filename}\" must be a YAML file of key-value pairs" unless @redirects.respond_to?(:key?)
+    fail InvalidRedirectMapFile, "redirect map file \"#{filename}\" must be a YAML file of key-value pairs" unless @redirects.respond_to?(:key?)
   end
 
   def lookup(url)
@@ -21,5 +20,4 @@ class RedirectMap
   end
 
   class InvalidRedirectMapFile < StandardError; end
-
 end

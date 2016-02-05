@@ -9,7 +9,6 @@ describe ApplicationController, type: :controller do
   end
 
   describe ':before_action hook' do
-
     controller(ApplicationController) do
       # mock action for the mock route
       def mock_action; end
@@ -19,12 +18,16 @@ describe ApplicationController, type: :controller do
       # create a mock route
       routes.draw { get 'mock_route' => 'anonymous#mock_action' }
     end
-    
+
     it 'runs RedirectMap#lookup before every action' do
       expect(subject.redirect_map).to receive(:lookup).exactly(1).times
       # Rescue nil here. The lack of a mock_action view template will raise an
       # error, but we don't care. We want to test the :before_action hook.
-      get 'mock_action' rescue nil
+      begin
+        get 'mock_action'
+      rescue
+        nil
+      end
     end
   end
 end
