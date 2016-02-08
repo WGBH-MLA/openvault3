@@ -16,6 +16,7 @@
 //
 // Required by Blacklight
 //= require blacklight/blacklight
+//= require blacklight_range_limit
 //= require_tree .
 
 // http://stackoverflow.com/a/30008017
