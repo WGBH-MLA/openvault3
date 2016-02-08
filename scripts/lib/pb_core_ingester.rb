@@ -77,13 +77,13 @@ class PBCoreIngester
   end
 
   def ingest_xml_no_commit(xml)
-    begin
-      pbcore = ValidatedPBCore.new(xml)
-    rescue => e
-      raise ValidationError.new(e)
-    end
-
     if @re.match(xml)
+      begin
+        pbcore = ValidatedPBCore.new(xml)
+      rescue => e
+        raise ValidationError.new(e)
+      end
+
       begin
         @solr.add(pbcore.to_solr)
       rescue => e
