@@ -141,6 +141,17 @@ class CatalogController < ApplicationController
   end
   helper_method :geoblocked?
 
+  def index
+    if !params[:f] || !params[:f][:access]
+      query = params.except(:action, :controller)
+              .merge(f: { access: [PBCore::ONLINE] })
+              .to_query
+      redirect_to "/catalog?#{query}"
+    else
+      super
+    end
+  end
+
   def show
     # TODO: do we need more of the behavior from Blacklight::Catalog?
     @response, @document = fetch(params['id'])

@@ -114,7 +114,7 @@ describe 'Validated and plain PBCore' do
         video?: true,
         audio?: false,
         image?: false,
-        access: ['All Records', 'Online'],
+        access: ['All Records', 'Available Online'],
         subjects: ['SUBJECT-1', 'SUBJECT-2'],
         genres: ['GENRE-1', 'GENRE-2'],
         topics: ['TOPIC-1', 'TOPIC-2'],
