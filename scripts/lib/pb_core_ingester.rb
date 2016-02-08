@@ -20,6 +20,8 @@ class PBCoreIngester
     $LOG ||= NullLogger.new
     @errors = Hash.new([])
     @success_count = 0
+    
+    @re = Regexp.new(opts[:regex] || '') # Empty RE will match anything. 
   end
 
   def self.load_fixtures
@@ -81,13 +83,16 @@ class PBCoreIngester
       raise ValidationError.new(e)
     end
 
-    begin
-      @solr.add(pbcore.to_solr)
-    rescue => e
-      raise SolrError.new(e)
+    if @re.match(xml)
+      begin
+        @solr.add(pbcore.to_solr)
+      rescue => e
+        raise SolrError.new(e)
+      end
+      $LOG.info("Updated solr record #{pbcore.id}")
+    else
+      $LOG.info("Skip solr record #{pbcore.id}: does not match #{@re}")
     end
-
-    $LOG.info("Updated solr record #{pbcore.id}")
 
     pbcore
   end
