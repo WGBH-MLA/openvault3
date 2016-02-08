@@ -1,5 +1,12 @@
 .plain {
     background: transparent !important;
+    #player {
+        .transcript {
+            // Don't include the transcript when 
+            // the whole player is in an iframe.
+            display: none;
+        }
+    }
     .transcript {
         .speaker { 
             display: table-cell;
