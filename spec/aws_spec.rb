@@ -1,3 +1,4 @@
+require 'rails_helper'
 require 'curl'
 
 describe 'AWS' do
