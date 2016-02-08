@@ -217,7 +217,10 @@ class PBCore # rubocop:disable Metrics/ClassLength
     # --> We only want to say that it exists, and we want to index the words.
 
     transcript_text = if transcript_src
-                        xml = Net::HTTP.get_response(URI.parse(transcript_src)).body
+                        curl = Curl::Easy.http_get(transcript_src)
+                        curl.headers['Referer'] = 'http://openvault.wgbh.org/'
+                        curl.perform
+                        xml = curl.body_str
                         doc = Nokogiri::XML(xml)
                         doc.search('//text()').map(&:text).join(' ').gsub(/\s+/, ' ').strip
                       end

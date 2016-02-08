@@ -52,6 +52,7 @@ class ValidatedPBCore < PBCore
             errors << "No file at #{path}" unless File.exist?(path)
           else
             Curl::Easy.new(url).tap do |curl|
+              curl.headers['Referer'] = 'http://openvault.wgbh.org/'
               curl.http_head
               unless curl.response_code == 200
                 errors << "HEAD #{url} (from ##{method}) not 200: #{curl.status}"
