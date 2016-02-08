@@ -62,7 +62,10 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'series_title', label: 'Series', show: false
 
-    config.add_facet_field 'access'
+    config.add_facet_field 'access', partial: 'access_facet',
+                                     tag: 'access', ex: 'access'
+    # tag-ex: Always show both: even w/o counts displayed, this matters
+    # because the UI will not show facets that have counts of zero.
     config.add_facet_field 'media_type'
     config.add_facet_field 'genres', label: 'Genre', solr_params: { 'facet.limit' => -1 }
     config.add_facet_field 'topics', label: 'Topic', solr_params: { 'facet.limit' => -1 }
