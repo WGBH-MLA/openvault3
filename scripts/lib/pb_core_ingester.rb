@@ -20,8 +20,8 @@ class PBCoreIngester
     $LOG ||= NullLogger.new
     @errors = Hash.new([])
     @success_count = 0
-    
-    @re = Regexp.new(opts[:regex] || '') # Empty RE will match anything. 
+
+    @re = Regexp.new(opts[:regex] || '') # Empty RE will match anything.
   end
 
   def self.load_fixtures

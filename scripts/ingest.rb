@@ -56,7 +56,7 @@ class Ingest
       when FILES
         fail ParamsError.new if args.empty?
         @files = args
-        
+
       when GREP_DIRS
         fail ParamsError.new if args.empty?
         @regex = argv.shift
