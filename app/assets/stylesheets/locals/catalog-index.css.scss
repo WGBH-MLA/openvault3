@@ -73,11 +73,9 @@
 
 
                         }
-                        .selected, .remove {
-                            // Hide selected facets. The idea is that facets are either in the menu,
-                            // or in the list: not both. Motivated by the trouble I had adding CSS on
-                            // top of selected facets to make them look right.
-                            display: none !important;
+                        .selected, {
+                            background: $pale-blue;
+                            a::after { content: ' \2713'; } // Checkmark
                         }
 
                         .facet-count {
