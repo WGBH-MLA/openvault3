@@ -283,7 +283,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   solrizer
-  spring
+  spring (~> 1.6.3)
   sqlite3
   sys-filesystem
   therubyracer
