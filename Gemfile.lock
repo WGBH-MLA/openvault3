@@ -215,7 +215,7 @@ GEM
       nokogiri
       stomp
       xml-simple
-    spring (1.3.3)
+    spring (1.6.3)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -283,7 +283,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   solrizer
-  spring
+  spring (~> 1.6.3)
   sqlite3
   sys-filesystem
   therubyracer
