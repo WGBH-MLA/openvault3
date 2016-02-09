@@ -70,19 +70,21 @@ class Tabbed < Cmless
                     .get('select', params: {
                            'q' => "#{q_key}:#{q_val}",
                            'fl' => 'id,title,thumbnail_src',
-                           'sort' => 'title asc', # Good default for now.
-                           'rows' => '1000'
+                           'rows' => '1000' # Solr default is 10.
                          })['response']['docs']
         solr_docs.reject do |solr_doc|
           solr_doc['title'].match(N_OF_N) && !solr_doc['title'].match(ONE_OF_N)
+          # Details pages will provide navigation between parts.
         end.map do |solr_doc|
           TabbedCell.new(
             solr_doc['id'],
-            solr_doc['title'].gsub(N_OF_N, ''),
+            solr_doc['title']
+              .gsub(N_OF_N, '')
+              .gsub(/^.*(Interview with)/, '\1'),
             solr_doc['thumbnail_src']
           )
         end
-      end.flatten
+      end.flatten.sort_by(&:title)
     end
   end
 
