@@ -24,7 +24,7 @@
           <% other_docs.in_groups(2, false).each do |docs_col| %>
             <div class="col-sm-6">
               <% docs_col.each do |doc| %>
-                <a href="/catalog/<%= doc.id %>"><%= doc.title %><br/>
+                <a href="/catalog/<%= doc.id %>"><%= doc.title %></a><br/>
               <% end %>
             </div>
           <% end %>
