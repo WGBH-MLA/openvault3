@@ -19,7 +19,7 @@ describe ApplicationController, type: :controller do
     end
 
     it 'runs RedirectMap#lookup before every action' do
-      expect(subject.redirect_map).to receive(:lookup).exactly(1).times
+      expect(subject.class.redirect_map).to receive(:lookup).exactly(1).times
       # Rescue nil here. The lack of a mock_action view template will raise an
       # error, but we don't care. We want to test the :before_action hook.
       begin

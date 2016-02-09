@@ -17,18 +17,12 @@ class ApplicationController < ActionController::Base
     @redirect_map ||= RedirectMap.instance
   end
 
-  # Instance accessor for the redirect map. This is used in the :before_action
-  # hook.
-  def redirect_map
-    self.class.redirect_map
-  end
-
   if Rails.env != 'test'
     redirect_map.load Rails.root.join('config', 'redirect_map.yml')
   end
 
   before_action do
-    new_url = redirect_map.lookup(request.fullpath)
+    new_url = self.class.redirect_map.lookup(request.fullpath)
     redirect_to new_url unless new_url.nil?
   end
 end
