@@ -1,0 +1,40 @@
+<% content_for(:page_title) do %>
+  <%= item.title + ' - ' + t('blacklight.application_name') %>
+<% end %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="<%= parent_url %>" class="back"><%= t('collections') %></a>
+      <%= render partial: 'shared/above_tabs', locals: {item: item} %>
+    </div>
+  </div>
+  <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra']}%>
+  <div class="row">
+    <div class="col-md-12">
+      <% item.tabs[params[:tab]].tap do |current_tab| %>
+        <% if current_tab.respond_to?(:each) %>
+          <% top_docs = current_tab[0..11] %>
+          <% other_docs = current_tab[12..-1] %>
+          <%= render partial: 'shared/document_grid', locals: {documents: top_docs} %>
+          <div class="clearfix"/>
+          <% if !other_docs.empty? %>
+            <p>And <%= other_docs.count %> more...</p>
+          <% end %>
+          <% other_docs.in_groups(2, false).each do |docs_col| %>
+            <div class="col-sm-6">
+              <% docs_col.each do |doc| %>
+                <a href="/catalog/<%= doc.id %>"><%= doc.title %><br/>
+              <% end %>
+            </div>
+          <% end %>
+        <% else %>
+          <%= current_tab.html_safe if current_tab %>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="col-md-12">
+      <%= item.tabs['extra'].html_safe if item.tabs['extra']%>
+    </div>
+  </div>
+</div>

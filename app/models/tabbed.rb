@@ -70,7 +70,7 @@ class Tabbed < Cmless
                            'rows' => '1000'
                          })['response']['docs']
         solr_docs.map do |solr_doc|
-          TabbedCell.new(solr_doc['id'], doc['title'], doc['thumbnail_src'])
+          TabbedCell.new(solr_doc['id'], solr_doc['title'], solr_doc['thumbnail_src'])
         end
       end.flatten
     end
