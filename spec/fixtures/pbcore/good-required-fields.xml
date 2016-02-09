@@ -4,5 +4,6 @@
   <pbcoreIdentifier source="Open Vault UID">A_00B0C50853C64A71935737EF7A4DA66C</pbcoreIdentifier>
   <pbcoreTitle titleType="Series">(at least one title required by schema.)</pbcoreTitle>
   <pbcoreDescription descriptionType="Series Description">(at least one description required by schema.)</pbcoreDescription>
-  <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Media Type">Audio</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
 </pbcoreDescriptionDocument>
