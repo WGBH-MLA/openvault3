@@ -48,6 +48,9 @@ class Tabbed < Cmless
 
     TabbedCell = Struct.new(:id, :title, :thumbnail_src)
 
+    ONE_OF_N = /\s*\[Part 1 of \d+\]/i
+    N_OF_N =   /\s*\[Part \d+ of \d+\]/i
+
     def expand_links(html)
       doc = Nokogiri::HTML::DocumentFragment.parse(html)
       a_tags = doc.css('a')
@@ -67,10 +70,17 @@ class Tabbed < Cmless
                     .get('select', params: {
                            'q' => "#{q_key}:#{q_val}",
                            'fl' => 'id,title,thumbnail_src',
+                           'sort' => 'title asc', # Good default for now.
                            'rows' => '1000'
                          })['response']['docs']
-        solr_docs.map do |solr_doc|
-          TabbedCell.new(solr_doc['id'], solr_doc['title'], solr_doc['thumbnail_src'])
+        solr_docs.reject do |solr_doc|
+          solr_doc['title'].match(N_OF_N) && !solr_doc['title'].match(ONE_OF_N)
+        end.map do |solr_doc|
+          TabbedCell.new(
+            solr_doc['id'],
+            solr_doc['title'].gsub(N_OF_N, ''),
+            solr_doc['thumbnail_src']
+          )
         end
       end.flatten
     end
