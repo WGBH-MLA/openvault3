@@ -1,5 +1,9 @@
 <a href="/catalog/<%= document.id %>">
-  <img src="<%= document[:thumbnail_src] %>">
+  <div class="aspect-ratio-16x9">
+    <div class="aspect-ratio-content">
+      <img src="<%= document[:thumbnail_src] %>">
+    </div>
+  </div>
   <div class="info">
     <%= document[:title] %>
   </div>
