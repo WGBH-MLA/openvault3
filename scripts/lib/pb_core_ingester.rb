@@ -48,7 +48,6 @@ class PBCoreIngester
           begin
             ingest_xml_no_commit(entry.get_input_stream.read)
             commit unless is_batch_commit
-            @success_count += 1
           rescue => e
             record_error(e, "#{path} :: #{entry.name}")
           end
@@ -57,7 +56,6 @@ class PBCoreIngester
     rescue Zip::Error
       begin
         ingest_xml_no_commit(File.read(path))
-        @success_count += 1
       rescue => e
         record_error(e, path)
       end
@@ -90,11 +88,8 @@ class PBCoreIngester
         raise SolrError.new(e)
       end
       $LOG.info("Updated solr record #{pbcore.id}")
-    else
-      $LOG.info("Skip solr record #{pbcore.id}: does not match #{@re}")
+      @success_count += 1
     end
-
-    pbcore
   end
 
   class ChainedError < StandardError
