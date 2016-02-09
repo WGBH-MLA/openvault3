@@ -27,7 +27,7 @@ class Ingest
   def initialize(argv)
     orig = argv.clone
 
-    %w(files dirs).each do |name|
+    %w(files dirs grep-files grep-dirs).each do |name|
       const_init(name)
     end
 
@@ -54,6 +54,18 @@ class Ingest
         target_dirs = args
 
       when FILES
+        fail ParamsError.new if args.empty?
+        @files = args
+
+      when GREP_DIRS
+        fail ParamsError.new if args.empty?
+        @regex = argv.shift
+        fail ParamsError.new if args.empty? || args.map { |dir| !File.directory?(dir) }.any?
+        target_dirs = args
+
+      when GREP_FILES
+        fail ParamsError.new if args.empty?
+        @regex = argv.shift
         fail ParamsError.new if args.empty?
         @files = args
 
@@ -89,7 +101,10 @@ class Ingest
     <<-EOF.gsub(/^ {4}/, '')
       USAGE: #{File.basename(__FILE__)}
                [#{BATCH_COMMIT}] [#{SAME_MOUNT}] [#{STDOUT_LOG}]
-               #{FILES} FILE ...
+                #{FILES} FILE ... |
+                #{DIRS} DIR ... |
+                #{GREP_FILES} REGEX FILE ... |
+                #{GREP_DIRS} REGEX DIR ...
 
       boolean flags:
         #{BATCH_COMMIT}: Optionally, make just one commit at the end, rather than
@@ -102,11 +117,13 @@ class Ingest
       mutually exclusive modes:
         #{DIRS}: Clean and ingest the given directories.
         #{FILES}: Clean and ingest the given files (either xml or zip).
+        #{GREP_DIRS} and #{GREP_FILES}: Same as above, except a regex is also provided.
+           Only PBCore which matches the regexp is ingested.
       EOF
   end
 
   def process
-    ingester = PBCoreIngester.new(is_same_mount: @is_same_mount)
+    ingester = PBCoreIngester.new(is_same_mount: @is_same_mount, regex: @regex)
 
     @files.each do |path|
       begin
