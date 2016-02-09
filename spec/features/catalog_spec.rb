@@ -50,4 +50,26 @@ describe 'Catalog' do
     expect(page.status_code).to eq(200)
     expect_fuzzy_xml
   end
+
+  it 'sorts by title ascending, ignoring articles' do
+    visit '/catalog?f[access][]=All+Records&q=sort&sort=title+asc'
+    expect(page.status_code).to eq(200)
+    expect_fuzzy_xml
+    expect(page.all('.info').map(&:text)).to eq([
+      '"The" removed: sort 1',
+      '"An" REMOVED: SORT 2',
+      '"A" removed: sort 3'
+    ])
+  end
+
+  it 'sorts by title descending, ignoring articles' do
+    visit '/catalog?f[access][]=All+Records&q=sort&sort=title+desc'
+    expect(page.status_code).to eq(200)
+    expect_fuzzy_xml
+    expect(page.all('.info').map(&:text)).to eq([
+      '"A" removed: sort 3',
+      '"An" REMOVED: SORT 2',
+      '"The" removed: sort 1'
+    ])
+  end
 end

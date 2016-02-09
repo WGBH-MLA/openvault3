@@ -525,7 +525,7 @@
    
    <!-- For the search results page. -->
    <field name="title"
-          type="sort" indexed="false" stored="true" multiValued="false"/>
+          type="sort" indexed="true" stored="true" multiValued="false"/>
    <field name="thumbnail_src"
           type="string" indexed="false" stored="true" multiValued="false"/>
       
