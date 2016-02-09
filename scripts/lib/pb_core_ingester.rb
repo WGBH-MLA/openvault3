@@ -46,7 +46,8 @@ class PBCoreIngester
       Zip::File.open(path) do |zip_file|
         zip_file.each do |entry|
           begin
-            ingest_xml_no_commit(entry.get_input_stream.read)
+            ingest_xml_no_commit(entry.get_input_stream.read) ||
+              $LOG.warn("No match. Skipping #{path} :: #{entry.name} ")
             commit unless is_batch_commit
           rescue => e
             record_error(e, "#{path} :: #{entry.name}")
@@ -55,7 +56,8 @@ class PBCoreIngester
       end
     rescue Zip::Error
       begin
-        ingest_xml_no_commit(File.read(path))
+        ingest_xml_no_commit(File.read(path)) ||
+          $LOG.warn("No match. Skipping #{path} :: #{entry.name} ")
       rescue => e
         record_error(e, path)
       end
@@ -89,6 +91,8 @@ class PBCoreIngester
       end
       $LOG.info("Updated solr record #{pbcore.id}")
       @success_count += 1
+    else
+      false # Not strictly necessary, but a good reminder that the return value is consumed.
     end
   end
 
