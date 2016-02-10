@@ -29,31 +29,49 @@ $(function(){
         };
         
         var $player = $('#player-media');
+        
+        function set_user_scroll(state) {
+            console.log('scroll was', is_user_scroll());
+            $player.data('user-scroll', state);
+            console.log('scroll should be', state);
+            console.log('scroll is', is_user_scroll());
+        }
+        
+        function is_user_scroll() {
+            return $player.data('user-scroll');
+        }
 
         $player.on('timeupdate', function(){
             var current = $player[0].currentTime;
             var offset_key = greatest_less_than(current);
             var target = offset[offset_key];
-            if (!$player.data('user-scroll')) {
+            if (!is_user_scroll()) {
                 $('iframe').contents().scrollTop(target-30);
                 // "-30" to get the speaker's name at the top;
                 // TODO: tweak xslt to move time attributes
                 // up to the containing element.
+                window.setTimeout(function() {
+                    set_user_scroll(false);
+                }, 1000);
+                // scrollTop also triggers a scroll event,
+                // but asynchronously(?), so give it a second
+                // and then set back to the correct,
+                // ie false, user_scroll state
             }
         });
         
         $player.on('play', function(){
-            $player.data('user-scroll', false);
+            set_user_scroll(false);
         });
         
         $transcript.contents().find('.play-from-here').click(function(){
             $player[0].currentTime = parse_timecode($(this).data('timecode'));
             $player[0].play();
-            $player.data('user-scroll', false);
+            set_user_scroll(false);
         });
         
         $transcript.contents().scroll(function(){
-            $player.data('user-scroll', true);
+            set_user_scroll(true);
         });
 
     });
