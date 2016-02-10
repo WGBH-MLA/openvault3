@@ -15,20 +15,13 @@ Workshop, as well as early video arts works that pre-dated organization of the
 New Television Workshop and ancillary but related video art works produced by 
 WGBH.
 
-## Complete Collection
+## Clip
 
-TODO complete
+[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_clip)
 
-## Artists Showcase
+## Record
 
-TODO: add the apostrophe back in.
-TODO showcase
-
-## Frames of Reference
-
-TODO frames
-
-
+[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_record)
 
 ## extra
 

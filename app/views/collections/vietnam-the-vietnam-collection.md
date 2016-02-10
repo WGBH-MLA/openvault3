@@ -19,15 +19,19 @@ and digitized for preservation and access.
 
 ## Archival Footage
 
-TODO Archival
+[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_archival_footage)
 
 ## Photographs
 
-TODO Photographs
+[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_photographs)
 
 ## Original Footage
 
-TODO Original
+[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_original_footage)
+
+## Programs
+
+[](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_programs)
 
 ## extra
 

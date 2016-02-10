@@ -15,17 +15,13 @@ arrange, describe, and reformat master Say Brother programs dating from 1968 to
 invaluable programming, whether performance, political commentary, or 
 conversations with distinct voices from the African American community.
 
-## Complete Collection
+## Clips
 
-TODO Collection
+[](http://localhost:3000/catalog?f[special_collection_tags][]=sb_clip)
 
-## Civil Rights
+## Records
 
-TODO Rights
-
-## Music Performances
-
-TODO Performances
+[](http://localhost:3000/catalog?f[special_collection_tags][]=sb_record)
 
 ## extra
 
