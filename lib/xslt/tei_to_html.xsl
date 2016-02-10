@@ -87,28 +87,16 @@
         </span>
       </xsl
       <xsl:apply-templates mode="seg" />
-      <div class="tei-metadata">
-	<xsl:apply-templates select="tei:name" mode="teimeta" />
-	<xsl:text>&#xa;</xsl:text>
-      </div>
-      <xsl:text>&#xa;</xsl:text>
-    </div>
-  </xsl:template>
-
-  <xsl:template match="tei:name" mode="teimeta">
-    <div>
-      <xsl:attribute name="id"><xsl:value-of select="substring(@ref, 2)" /></xsl:attribute>
-      <xsl:variable name="ref" select="substring-after(@ref, '#')" />
-      <xsl:value-of select="key('teiRef', $ref)" />
       <xsl:text>&#xa;</xsl:text>
     </div>
   </xsl:template>
 
   <xsl:template match="tei:name" mode="seg">
-    <span>
-      <xsl:attribute name="class">tei-name tei-name-<xsl:value-of select="substring(@ref, 2)" /></xsl:attribute>
+    <a>
+      <xsl:attribute name="href">#</xsl:attribute>
+      <xsl:attribute name="title"><xsl:value-of select="key('teiRef', substring-after(@ref, '#'))" /></xsl:attribute>
       <xsl:apply-templates mode="seg" />
-    </span>
+    </a>
   </xsl:template>
 
   <xsl:template match="tei:date" mode="seg">
