@@ -173,3 +173,24 @@ module Blacklight::FacetsHelperBehavior
              )
   end
 end
+
+module RangeLimitHelper
+  def should_show_limit(_solr_field)
+    true
+
+    # We want the UI to be more consistent, even if it's not more useful.
+    # Originally:
+    # Show the limit area if:
+    # 1) we have a limit already set
+    # OR
+    # 2) stats show max > min, OR
+    # 3) count > 0 if no stats available.
+
+    #    stats = stats_for_field(solr_field)
+    #
+    #    (params["range"] && params["range"][solr_field]) ||
+    #    (  stats &&
+    #      stats["max"] > stats["min"]) ||
+    #    ( !stats  && @response.total > 0 )
+  end
+end
