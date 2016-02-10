@@ -10,7 +10,7 @@ class TranscriptsController < ApplicationController
     curl = Curl::Easy.http_get(PBCore.new(@document['xml']).transcript_src)
     curl.headers['Referer'] = 'http://openvault.wgbh.org/'
     curl.perform
-    
+
     respond_to do |format|
       format.html do
         tei_doc = Nokogiri::XML(curl.body_str)
