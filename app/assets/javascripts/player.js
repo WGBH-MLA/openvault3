@@ -27,22 +27,33 @@ $(function(){
                 }
             }
         };
+        
+        var $player = $('#player-media');
 
-        $('#player-media').on('timeupdate', function(){
-            var current = $('#player-media')[0].currentTime;
+        $player.on('timeupdate', function(){
+            var current = $player[0].currentTime;
             var offset_key = greatest_less_than(current);
             var target = offset[offset_key];
-            console.log(current, offset_key, target);
-            $('iframe').contents().scrollTop(target-30);
-            // "-30" to get the speaker's name at the top;
-            // TODO: tweak xslt to move time attributes
-            // up to the containing element.
+            if (!$player.data('user-scroll')) {
+                $('iframe').contents().scrollTop(target-30);
+                // "-30" to get the speaker's name at the top;
+                // TODO: tweak xslt to move time attributes
+                // up to the containing element.
+            }
         });
         
-        $('#transcript').contents().find('.play-from-here').click(function(){
-            var $player = $('#player-media')[0];
-            $player.currentTime = parse_timecode($(this).data('timecode'));
-            $player.play();
+        $player.on('play', function(){
+            $player.data('user-scroll', false);
+        });
+        
+        $transcript.contents().find('.play-from-here').click(function(){
+            $player[0].currentTime = parse_timecode($(this).data('timecode'));
+            $player[0].play();
+            $player.data('user-scroll', false);
+        });
+        
+        $transcript.contents().scroll(function(){
+            $player.data('user-scroll', true);
         });
 
     });
