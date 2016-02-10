@@ -17,7 +17,7 @@ current events.
 
 ## Full Program Video
 
-TODO program
+[](http://localhost:3000/catalog?f[special_collection_tags][]=press_programs)
 
 ## extra
 
