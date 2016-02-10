@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:smil="http://www.w3.org/2001/SMIL20/Language">
+    <teiHeader>
+        <profileDesc></profileDesc>
+        <fileDesc></fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="a">
+                    <persName xml:lang="eng">Doctor Evil</persName>
+                </person>
+            </listPerson>
+            <div>
+                <div type="qa" xml:id="q0">
+                    <u who="#a">
+                        <seg xml:id="para1" smil:begin="00:00:00" smil:end="00:00:10">foo foo foo</seg>
+                        <seg xml:id="para2" smil:begin="00:00:10" smil:end="00:00:20">bar bar bar</seg>
+                    </u>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
