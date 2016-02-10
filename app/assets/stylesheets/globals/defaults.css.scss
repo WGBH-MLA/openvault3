@@ -1,6 +1,5 @@
 html > body {
-    // TODO: "Whitney SSm A", "Whitney SSm B" ?
-    font-family: sans-serif;
+    font-family: $font-family;
     font-size: 18px; // Best guess
     a:hover { text-decoration: none; } // No examples in specs of underline.
     h1 {
