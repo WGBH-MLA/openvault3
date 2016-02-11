@@ -3,6 +3,6 @@
   <pbcoreAssetType>Original footage</pbcoreAssetType>
   <pbcoreIdentifier source="Open Vault UID">V_BA305A0D0F2141AFB377024EA52DFA56</pbcoreIdentifier>
   <pbcoreTitle titleType="Open Vault Title">"The" removed: sort 1</pbcoreTitle>
-  <pbcoreDescription descriptionType="Open Vault Description">foo</pbcoreDescription>
+  <pbcoreDescription descriptionType="Asset Description">foo</pbcoreDescription>
   <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
 </pbcoreDescriptionDocument>

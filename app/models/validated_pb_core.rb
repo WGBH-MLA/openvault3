@@ -7,20 +7,34 @@ class ValidatedPBCore < PBCore
 
   def initialize(xml)
     super(xml)
-    schema_validate(xml)
+    schema_validate
+    attribute_validate
     method_validate
     url_validate
   end
 
   private
 
-  def schema_validate(xml)
-    document = Nokogiri::XML(xml)
+  def schema_validate
+    document = Nokogiri::XML(@xml)
     errors = SCHEMA.validate(document)
     return if errors.empty?
     fail 'Schema validation errors: ' + errors.join("\n")
   end
-
+  
+  def attribute_validate
+    xpaths('/*/pbcoreTitle/@titleType').tap do |types|
+      unless (types - ['Series', 'Program', 'Program Number', 'Open Vault Title']).empty?
+        fail "Unexpected titleTypes: #{types}" 
+      end
+    end
+    xpaths('/*/pbcoreDescription/@descriptionType').tap do |types|
+      unless (types - ['Series Description', 'Program Description', 'Asset Description']).empty?
+        fail "Unexpected descriptionTypes: #{types}" 
+      end
+    end
+  end
+  
   def method_validate
     # Warm the object and check for missing data, beyond what the schema enforces.
     errors = []
