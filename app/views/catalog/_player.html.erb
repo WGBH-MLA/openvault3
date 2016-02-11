@@ -2,20 +2,32 @@
   <% if  @pbcore.image? %>
     <%= tag('img', src: @pbcore.proxy_src) %>
   <% else %>
+    <% 
+      # These should be complementary. The goal is to keep the 
+      # media at about the same width regardless of screen width.
+      media_col_class = 'col-lg-4 col-md-5 col-sm-6 col-xs-12'
+      transcript_col_class = 'col-lg-8 col-md-7 col-sm-6 col-xs-12'
+    %>
+    
     <% if  @pbcore.audio? %>
       <%= tag('img', src: @pbcore.thumbnail_src) %>
       <br/>
     <% end %>
     <% if geoblocked? %>
-      <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-        <%# Blacklight alert classes seemed too colorful. %>
+      <div class="<%= media_col_class %>">
         <strong>Note:</strong> This content is not available in your region.
+      </div>
+    <% elsif @pbcore.proxy_srcs.empty? %>
+      <div class="<%= media_col_class %>">
+        This item has not been digitized. 
+        <a href="mailto:openvault@wgbh.org">Contact us</a>, 
+        indicating the Open Vault URL, to request digitization.
       </div>
     <% else %>
       <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                     controls: true, id: 'player-media',
                     oncontextmenu: 'return false;', 
-                    class: 'col-lg-4 col-md-5 col-sm-6 col-xs-12',
+                    class: media_col_class,
                     poster: @pbcore.thumbnail_src) do %>
         <% @pbcore.proxy_srcs.each do |src| %>
           <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
@@ -29,9 +41,8 @@
   <% end %>
   <% if @pbcore.transcript_src %>
       <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
-              class="col-lg-8 col-md-7 col-sm-6 col-xs-12" 
+              class="<%= transcript_col_class %>" 
               frameBorder="0" height="400"></iframe>
-  <% end %>
-      
-<div class="clearfix"></div>
+  <% end %>    
+  <div class="clearfix"></div>
 </div>
