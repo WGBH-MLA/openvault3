@@ -54,16 +54,17 @@
         }
     }
     
+    // Override styles for homepage #footer
     #footer {
-        font-size: 22px;
-        background: #FFF;
+        background: $pale-grey;
         color: $light-grey;
-        .footer-link-1 {
-          color: $red;
-          font-weight: $semibold;
+
+        a {
+          color: $light-grey;
         }
-        a { color: $light-grey; }
-        .not-home { display: none; }
-        .only-home { display: inline; }
+
+        .primary-links a {
+          color: $red;
+        }
     }
 }
