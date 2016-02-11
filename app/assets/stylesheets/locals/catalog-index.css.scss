@@ -4,6 +4,7 @@
     }
     #facets {
         .top-panel-heading { border: none; } // Only matters on xs screen width.
+        a { text-decoration: none; } // They were only erratically appearing.
         padding: 0px;
     }
     #appliedParams {
