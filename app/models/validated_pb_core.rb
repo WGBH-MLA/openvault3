@@ -28,27 +28,27 @@ class ValidatedPBCore < PBCore
       fail "Unexpected titleTypes: #{unexpected}" unless unexpected.empty?
     end
   end
-  
+
   def attribute_validate
-    expect_attributes('titleType', 
-      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
-    expect_attributes('descriptionType', 
-      ['Series Description', 'Program Description', 'Asset Description'])
+    expect_attributes('titleType',
+                      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
+    expect_attributes('descriptionType',
+                      ['Series Description', 'Program Description', 'Asset Description'])
     # For reference:
     # grep pbcoreAnnotation app/models/pb_core.rb | ruby -pne '$_.gsub!(/.*@annotationType="/,"");$_.gsub!(/".*/,"");$_="\"#{$_.strip}\",\n"' | sort | uniq
-    expect_attributes('annotationType', 
-      [
-            "Digitized",
-            "Duration",
-            "Geoblock",
-            "Media Type",
-            "Outside URL",
-            "Password",
-            "Scholar Exhibit",
-            "Special Collection Tag",
-            "Special Collection",
-            "Thumbnail",
-            "Transcript"])
+    expect_attributes('annotationType',
+                      [
+                        'Digitized',
+                        'Duration',
+                        'Geoblock',
+                        'Media Type',
+                        'Outside URL',
+                        'Password',
+                        'Scholar Exhibit',
+                        'Special Collection Tag',
+                        'Special Collection',
+                        'Thumbnail',
+                        'Transcript'])
   end
 
   def method_validate
