@@ -25,8 +25,8 @@
       
       <dl>
         <% [
-              {field: 'series_title', label: 'Series', link: true},
-              {field: 'program_title', label: 'Program', link: true},
+              {field: 'series_title', label: 'Series', facet_link: true},
+              {field: 'program_title', label: 'Program', facet_link: true},
               {field: 'program_number'},
               {field: 'asset_title', label: 'Title'},
               {field: 'series_description'},
@@ -34,13 +34,13 @@
               {field: 'duration'},
               {field: 'asset_type'},
               {field: 'media_type'},
-              {field: 'subjects', link: true},
-              {field: 'locations', link: true},
-              {field: 'genres', link: true},
-              {field: 'topics', link: true},
-              {field: 'creators'},
-              {field: 'contributors'},
-              {field: 'publishers', label: 'Publication Information'},
+              {field: 'subjects', facet_link: true},
+              {field: 'locations', facet_link: true},
+              {field: 'genres', facet_link: true},
+              {field: 'topics', facet_link: true},
+              {field: 'creators', search_link: true},
+              {field: 'contributors', search_link: true},
+              {field: 'publishers', label: 'Publication Information', search_link: true},
               {field: 'rights_summary'}
             ].each do |field_def| %>
           <%= render partial: 'pbcore_field', locals: field_def %>
