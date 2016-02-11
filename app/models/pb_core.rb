@@ -104,7 +104,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def extensions
     case media_type
     when VIDEO
-      %w(mp4 webm)
+      %w(webm mp4)
     when AUDIO
       ['mp3']
     when IMAGE
