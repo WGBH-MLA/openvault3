@@ -31,10 +31,7 @@ $(function(){
         var $player = $('#player-media');
         
         function set_user_scroll(state) {
-            console.log('scroll was', is_user_scroll());
             $player.data('user-scroll', state);
-            console.log('scroll should be', state);
-            console.log('scroll is', is_user_scroll());
         }
         
         function is_user_scroll() {

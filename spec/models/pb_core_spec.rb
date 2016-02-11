@@ -101,7 +101,7 @@ describe 'Validated and plain PBCore' do
         asset_description: 'ASSET-DESCRIPTION',
         id: 'A_00000000_MOCK',
         thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg",
-        proxy_srcs: %w(mp4 webm).map { |ext| "#{base}/asset_proxies/#{id}.#{ext}" },
+        proxy_srcs: %w(webm mp4).map { |ext| "#{base}/asset_proxies/#{id}.#{ext}" },
         rights_summary: 'RIGHTS-SUMMARY',
         contributors: [
           PBCoreNameRole.new('contributor', 'CONTRIBUTOR-NAME-1', 'CONTRIBUTOR-ROLE-1'),
@@ -126,7 +126,7 @@ describe 'Validated and plain PBCore' do
         scholar_exhibits: ['needlework'],
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
-        extensions: %w(mp4 webm),
+        extensions: %w(webm mp4),
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
