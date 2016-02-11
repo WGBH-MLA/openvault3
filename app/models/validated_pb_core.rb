@@ -21,20 +21,20 @@ class ValidatedPBCore < PBCore
     return if errors.empty?
     fail 'Schema validation errors: ' + errors.join("\n")
   end
-  
+
   def attribute_validate
     xpaths('/*/pbcoreTitle/@titleType').tap do |types|
       unless (types - ['Series', 'Program', 'Program Number', 'Open Vault Title']).empty?
-        fail "Unexpected titleTypes: #{types}" 
+        fail "Unexpected titleTypes: #{types}"
       end
     end
     xpaths('/*/pbcoreDescription/@descriptionType').tap do |types|
       unless (types - ['Series Description', 'Program Description', 'Asset Description']).empty?
-        fail "Unexpected descriptionTypes: #{types}" 
+        fail "Unexpected descriptionTypes: #{types}"
       end
     end
   end
-  
+
   def method_validate
     # Warm the object and check for missing data, beyond what the schema enforces.
     errors = []
