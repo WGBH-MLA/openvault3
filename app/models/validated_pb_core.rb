@@ -22,17 +22,33 @@ class ValidatedPBCore < PBCore
     fail 'Schema validation errors: ' + errors.join("\n")
   end
 
+  def expect_attributes(attr, expected)
+    xpaths("/*/pbcoreTitle/@#{attr}").tap do |types|
+      unexpected = types - expected
+      fail "Unexpected titleTypes: #{unexpected}" unless unexpected.empty?
+    end
+  end
+  
   def attribute_validate
-    xpaths('/*/pbcoreTitle/@titleType').tap do |types|
-      unless (types - ['Series', 'Program', 'Program Number', 'Open Vault Title']).empty?
-        fail "Unexpected titleTypes: #{types}"
-      end
-    end
-    xpaths('/*/pbcoreDescription/@descriptionType').tap do |types|
-      unless (types - ['Series Description', 'Program Description', 'Asset Description']).empty?
-        fail "Unexpected descriptionTypes: #{types}"
-      end
-    end
+    expect_attributes('titleType', 
+      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
+    expect_attributes('descriptionType', 
+      ['Series Description', 'Program Description', 'Asset Description'])
+    # For reference:
+    # grep pbcoreAnnotation app/models/pb_core.rb | ruby -pne '$_.gsub!(/.*@annotationType="/,"");$_.gsub!(/".*/,"");$_="\"#{$_.strip}\",\n"' | sort | uniq
+    expect_attributes('annotationType', 
+      [
+            "Digitized",
+            "Duration",
+            "Geoblock",
+            "Media Type",
+            "Outside URL",
+            "Password",
+            "Scholar Exhibit",
+            "Special Collection Tag",
+            "Special Collection",
+            "Thumbnail",
+            "Transcript"])
   end
 
   def method_validate
