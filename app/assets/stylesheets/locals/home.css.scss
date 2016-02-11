@@ -28,6 +28,7 @@
         background: $yellow;
         &:hover { background: $pale-yellow; }
         padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
+        font-weight: $semibold;
     }
     
     #about {
@@ -39,6 +40,7 @@
             color: $yellow;
             font-size: 20px;
             &:hover { color: $pale-yellow; }
+            font-weight: $semibold;
         }
         a.btn {
             color: $dark-blue; 
@@ -48,16 +50,21 @@
             font-size: 24px;
             img { height: 100%}
             margin-bottom: 4px; // Just for mobile, really.
+            font-weight: $medium;
         }
     }
     
+    // Override styles for homepage #footer
     #footer {
-        font-size: 22px;
-        background: #FFF;
+        background: $pale-grey;
         color: $light-grey;
-        b a { color: $red; }
-        a { color: $light-grey; }
-        .not-home { display: none; }
-        .only-home { display: inline; }
+
+        a {
+          color: $light-grey;
+        }
+
+        .primary-links a {
+          color: $red;
+        }
     }
 }

@@ -22,7 +22,16 @@
 
 #footer {
     background: $light-grey;
-    .only-home { display: none; }
+    font-size: 22px;
+
+    .primary-links a {
+      font-weight: $semibold;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      font-size: 14px;
+    }
 }
 
 #header,#footer {
