@@ -3,6 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:smil="http://www.w3.org/2001/SMIL20/Language"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
   exclude-result-prefixes="tei smil">
   <xsl:output method="html" encoding="utf-8" indent="yes" />
   <xsl:variable name="persNames" select="//tei:person" />
@@ -87,28 +88,18 @@
         </span>
       </xsl
       <xsl:apply-templates mode="seg" />
-      <div class="tei-metadata">
-	<xsl:apply-templates select="tei:name" mode="teimeta" />
-	<xsl:text>&#xa;</xsl:text>
-      </div>
-      <xsl:text>&#xa;</xsl:text>
-    </div>
-  </xsl:template>
-
-  <xsl:template match="tei:name" mode="teimeta">
-    <div>
-      <xsl:attribute name="id"><xsl:value-of select="substring(@ref, 2)" /></xsl:attribute>
-      <xsl:variable name="ref" select="substring-after(@ref, '#')" />
-      <xsl:value-of select="key('teiRef', $ref)" />
       <xsl:text>&#xa;</xsl:text>
     </div>
   </xsl:template>
 
   <xsl:template match="tei:name" mode="seg">
-    <span>
-      <xsl:attribute name="class">tei-name tei-name-<xsl:value-of select="substring(@ref, 2)" /></xsl:attribute>
+    <xsl:variable name="ref" select="key('teiRef', substring-after(@ref, '#'))"/>
+    <a>
+      <xsl:attribute name="href"><xsl:value-of select="$ref/@xhtml:href" /></xsl:attribute>
+      <xsl:attribute name="title"><xsl:value-of select="$ref" /></xsl:attribute>
+      <xsl:attribute name="target">_blank</xsl:attribute>
       <xsl:apply-templates mode="seg" />
-    </span>
+    </a>
   </xsl:template>
 
   <xsl:template match="tei:date" mode="seg">
