@@ -1,18 +1,2 @@
-<% content_for(:page_title) do %>
-  <%= @item.title + ' - ' + t('blacklight.application_name') %>
-<% end %>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <a href="/exhibits" class="back"><%= t('exhibits') %></a>
-      <%= render partial: 'shared/above_tabs', locals: {item: @item} %>
-    </div>
-  </div>
-  <%= render partial: 'shared/tab_row', locals: {item: @item, skip: ['intro', 'author', 'extra']}%>
-  <div class="row">
-    <div class="col-md-12">
-      <%= @item.tabs[params[:tab]].html_safe %>
-    </div>
-  </div>
-</div>
+<%= render partial: 'shared/collection_exhibit_show',
+           locals: {parent_url: '/exhibits', item: @item} %>
