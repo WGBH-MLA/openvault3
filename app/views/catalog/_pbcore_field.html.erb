@@ -1,15 +1,21 @@
-<% link ||= false %>
-<% label ||= field.gsub('_', ' ').titlecase %>
-<% values = [@pbcore.send(field)].flatten.select {|x| x} %>
+<% 
+  facet_link ||= false
+  search_link ||= false
+  label ||= field.gsub('_', ' ').titlecase
+  values = [@pbcore.send(field)].flatten.select {|x| x}
+%>
 <% if !values.empty? %>
   <dt><%= label %></dt>
   <% values.each do |value| %>
-    <dd><%= 
-      link_to_if(
-        link, 
-        value, 
-        "/catalog?f[#{field}][]=#{CGI.escape(value.to_s)}"
-      ) 
+    <dd><%=
+      if facet_link
+        link_to(value, "/catalog?f[#{field}][]=#{CGI.escape(value.to_s)}")
+      elsif search_link
+        
+        link_to(value, "/catalog?q=#{CGI.escape(value.respond_to?(:name) ? value.name : value)}")
+      else
+        value
+      end
     %></dd>
   <% end %>
 <% end %>
