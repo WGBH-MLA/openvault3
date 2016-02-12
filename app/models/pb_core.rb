@@ -1,6 +1,7 @@
 require 'rexml/document'
 require 'rexml/xpath'
 require 'solrizer'
+require 'rsolr'
 require_relative '../../lib/open_vault'
 require_relative 'xml_backed'
 require_relative 'pb_core_name_role'
@@ -199,17 +200,33 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def playlist_group
-    @playlist ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Group"]')
+    @playlist_group ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Group"]')
   end
   def playlist_order
-    @playlist_order ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Order"]')
+    @playlist_order ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Order"]').to_i
   end
-  #  def playlist_next_id
-  #    # TODO
-  #  end
-  #  def playlist_prev_id
-  #    # TODO
-  #  end
+  def playlist_map
+    @playlist_map ||= begin
+      response = RSolr.connect(url: 'http://localhost:8983/solr/')
+                  .get('select', params: {
+                         'fl' => 'playlist_order,id',
+                         'fq' => "playlist_group:#{playlist_group}",
+                         'rows' => '100',
+                       }
+                      )
+      Hash[response['response']['docs'].map { |doc| [doc['playlist_order'].to_i, doc['id']] }]
+    end if playlist_group
+  end
+  def playlist_next_id
+    @playlist_next_id ||= begin
+      playlist_map[playlist_map.keys.select { |k| k > playlist_order }.min]
+    end if playlist_map
+  end
+  def playlist_prev_id
+    @playlist_prev_id ||= begin
+      playlist_map[playlist_map.keys.select { |k| k < playlist_order }.max]
+    end if playlist_map
+  end
 
   # rubocop:enable Style/EmptyLineBetweenDefs
 
@@ -265,8 +282,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
       special_collections: special_collections,
       special_collection_tags: special_collection_tags,
 
-      #      playlist: playlist,
-      #      playlist_order: playlist_order
+      # playlist
+      playlist_group: playlist_group,
+      playlist_order: playlist_order
     }
   end
 
@@ -281,7 +299,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
         :media_type, :asset_type, :access, :digitized?,
         :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags,
-        :playlist_group, :playlist_order
+        :playlist_group, :playlist_order, :playlist_map,
+        :playlist_next_id, :playlist_prev_is
       ]
       (PBCore.instance_methods(false) - ignores)
       .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls
