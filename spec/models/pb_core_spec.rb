@@ -56,6 +56,12 @@ describe 'Validated and plain PBCore' do
           raise_error(/Attribute validation errors: Annotation: Spanish Inquisition/))
       end
 
+      it 'rejects unexpected outside URL' do
+        invalid_pbcore = pbc_xml.sub(/Outside URL">http:\/\/americanarchive.org/, 'Outside URL">http://inquisition.es')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Outside URL not of expected form/))
+      end
+
       #      it 'rejects unknown media types at creation' do
       #        invalid_pbcore = pbc_xml.gsub(
       #          /<instantiationMediaType>[^<]+<\/instantiationMediaType>/,
