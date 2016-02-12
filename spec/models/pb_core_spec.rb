@@ -153,7 +153,7 @@ describe 'Validated and plain PBCore' do
         boston_tv_news_url: nil,
         playlist_group: 'demo',
         playlist_order: 1,
-        playlist_map: {1=>"A_00000000_MOCK", 2=>"A_00B0C50853C64A71935737EF7A4DA66C"},
+        playlist_map: { 1 => 'A_00000000_MOCK', 2 => 'A_00B0C50853C64A71935737EF7A4DA66C' },
         playlist_next_id: 'A_00B0C50853C64A71935737EF7A4DA66C',
         playlist_prev_id: nil,
         extensions: %w(webm mp4),

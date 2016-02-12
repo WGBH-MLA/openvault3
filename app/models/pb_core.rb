@@ -208,12 +208,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def playlist_map
     @playlist_map ||= begin
       response = RSolr.connect(url: 'http://localhost:8983/solr/')
-                  .get('select', params: {
-                         'fl' => 'playlist_order,id',
-                         'fq' => "playlist_group:#{playlist_group}",
-                         'rows' => '100',
-                       }
-                      )
+                 .get('select', params: {
+                        'fl' => 'playlist_order,id',
+                        'fq' => "playlist_group:#{playlist_group}",
+                        'rows' => '100'
+                      }
+                     )
       Hash[response['response']['docs'].map { |doc| [doc['playlist_order'].to_i, doc['id']] }]
     end if playlist_group
   end
