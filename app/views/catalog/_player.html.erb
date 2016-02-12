@@ -8,41 +8,52 @@
       media_col_class = 'col-lg-4 col-md-5 col-sm-6 col-xs-12'
       transcript_col_class = 'col-lg-8 col-md-7 col-sm-6 col-xs-12'
     %>
-    
-    <% if  @pbcore.audio? %>
-      <%= tag('img', src: @pbcore.thumbnail_src) %>
-      <br/>
-    <% end %>
-    <% if geoblocked? %>
-      <div class="<%= media_col_class %>">
-        <strong>Note:</strong> This content is not available in your region.
-      </div>
-    <% elsif !@pbcore.digitized? %>
-      <div class="<%= media_col_class %>">
-        This item has not been digitized. 
-        If you are interested in sponsoring digitization, 
-        <a href="mailto:openvault@wgbh.org?<%=
-          {
-            subject: 'Digitization request',
-            body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
-          }.to_query
-        %>">contact us</a>.
-      </div>
-    <% else %>
-      <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                    controls: true, id: 'player-media',
-                    oncontextmenu: 'return false;', 
-                    class: media_col_class,
-                    poster: @pbcore.thumbnail_src) do %>
-        <% @pbcore.proxy_srcs.each do |src| %>
-          <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
-        <% end %>
-
-        <!-- We have transcripts, but not SRT caption files:
-          <track kind="captions" src="..."/>
-        -->
+    <div class="<%= media_col_class %>">
+      <% if  @pbcore.audio? %>
+        <%= tag('img', src: @pbcore.thumbnail_src) %>
       <% end %>
-    <% end %>
+      <% if geoblocked? %>
+        <div> 
+          <strong>Note:</strong> This content is not available in your region.
+        </div>
+      <% elsif !@pbcore.digitized? %>
+        <div>
+          This item has not been digitized. 
+          If you are interested in sponsoring digitization, 
+          <a href="mailto:openvault@wgbh.org?<%=
+            {
+              subject: 'Digitization request',
+              body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
+            }.to_query
+          %>">contact us</a>.
+        </div>
+      <% else %>
+        <div>
+          <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                        controls: true, id: 'player-media',
+                        oncontextmenu: 'return false;',
+                        poster: @pbcore.thumbnail_src,
+                        width: '100%') do %>
+            <% @pbcore.proxy_srcs.each do |src| %>
+              <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+            <% end %>
+            <!-- We have transcripts, but not SRT caption files:
+              <track kind="captions" src="..."/>
+            -->
+          <% end %>
+        </div>
+      <% end %>
+      <% if @pbcore.playlist_group %>
+        <div id="playlist" class="<%= media_col_class %>">
+          <% if @pbcore.playlist_prev_id %>
+            <a href="/catalog/<%= @pbcore.playlist_prev_id %>" class="pull-left">&#x25c0; Previous</a>
+          <% end %>
+          <% if @pbcore.playlist_next_id %>
+            <a href="/catalog/<%= @pbcore.playlist_next_id %>" class="pull-right">Next &#x25b6;</a>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
   <% end %>
   <% if @pbcore.transcript_src %>
       <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
