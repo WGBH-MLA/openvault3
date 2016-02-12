@@ -146,10 +146,9 @@ class CatalogController < ApplicationController
 
   def index
     if !params[:f] || !params[:f][:access]
-      query = params.except(:action, :controller)
-              .merge(f: { access: [PBCore::ONLINE] })
-              .to_query
-      redirect_to "/catalog?#{query}"
+      params[:f] ||= {}
+      params[:f].merge!(access: [PBCore::ONLINE])
+      redirect_to "/catalog?#{params.except(:action, :controller).to_query}"
     else
       super
     end
