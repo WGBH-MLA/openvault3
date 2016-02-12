@@ -161,7 +161,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def blocked_country_codes
-    xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
+    @blocked_country_codes ||=
+      xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
   end
 
   def password_required?
