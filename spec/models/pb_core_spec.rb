@@ -151,6 +151,8 @@ describe 'Validated and plain PBCore' do
         scholar_exhibits: ['needlework'],
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
+        playlist_group: 'demo',
+        playlist_order: '1',
         extensions: %w(webm mp4),
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }

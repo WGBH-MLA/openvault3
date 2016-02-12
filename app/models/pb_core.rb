@@ -198,12 +198,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @scholar_exhibits ||= xpaths('/*/pbcoreAnnotation[@annotationType="Scholar Exhibit"]')
   end
 
-  #  def playlist
-  #    # TODO
-  #  end
-  #  def playlist_order
-  #    # TODO
-  #  end
+  def playlist_group
+    @playlist ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Group"]')
+  end
+  def playlist_order
+    @playlist_order ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Order"]')
+  end
   #  def playlist_next_id
   #    # TODO
   #  end
@@ -280,7 +280,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
         :text, :to_solr, :id, :duration,
         :media_type, :asset_type, :access, :digitized?,
         :extensions, :blocked_country_codes,
-        :scholar_exhibits, :special_collections, :special_collection_tags
+        :scholar_exhibits, :special_collections, :special_collection_tags,
+        :playlist_group, :playlist_order
       ]
       (PBCore.instance_methods(false) - ignores)
       .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls

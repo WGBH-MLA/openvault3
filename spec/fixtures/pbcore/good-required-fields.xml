@@ -11,4 +11,6 @@
   </pbcoreDescription>
   <pbcoreAnnotation annotationType="Media Type">Audio</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Playlist Group">demo</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Playlist Order">2</pbcoreAnnotation>
 </pbcoreDescriptionDocument>
