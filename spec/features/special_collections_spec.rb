@@ -1,9 +1,14 @@
 require 'rails_helper'
 require_relative '../support/validation_helper'
+require_relative '../../scripts/lib/pb_core_ingester'
 
 describe 'Special Collections' do
   before(:all) do
     PBCoreIngester.load_fixtures
+    Collection.each do |col|
+      # Clear cached values so that solr will be re-queried to support lists.
+      col.instance_variable_set(:@tabs, nil)
+    end
   end
 
   it 'at least loads the index page' do
