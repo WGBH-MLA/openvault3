@@ -17,11 +17,16 @@
       <div class="<%= media_col_class %>">
         <strong>Note:</strong> This content is not available in your region.
       </div>
-    <% elsif @pbcore.proxy_srcs.empty? %>
+    <% elsif !@pbcore.digitized? %>
       <div class="<%= media_col_class %>">
         This item has not been digitized. 
-        <a href="mailto:openvault@wgbh.org">Contact us</a>, 
-        indicating the Open Vault URL, to request digitization.
+        If you are interested in sponsoring digitization, 
+        <a href="mailto:openvault@wgbh.org?<%=
+          {
+            subject: 'Digitization request',
+            body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
+          }.to_query
+        %>">contact us</a>.
       </div>
     <% else %>
       <%= content_tag(@pbcore.video? ? 'video' : 'audio', 

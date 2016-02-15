@@ -139,10 +139,13 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def access
     @access ||=
       [ALL].tap do |access|
-        if outside_url || xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
+        if digitized?
           access << ONLINE
         end
       end
+  end
+  def digitized?
+    outside_url || xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
   end
   def proxy_srcs
     @proxy_srcs ||=
