@@ -72,10 +72,15 @@ class Tabbed < Cmless
                            'fl' => 'id,title,thumbnail_src',
                            'rows' => '1000' # Solr default is 10.
                          })['response']['docs']
-        solr_docs.reject do |solr_doc|
+        solr_docs.reject! do |solr_doc|
           solr_doc['title'].match(N_OF_N) && !solr_doc['title'].match(ONE_OF_N)
           # Details pages will provide navigation between parts.
-        end.map do |solr_doc|
+        end
+        
+        prefixes = 0.upto(tokens.length - 1).map { |i| tokens[0..i].join }
+        
+        solr_docs.first['title'].split(/\s+/)
+        solr_docs.map do |solr_doc|
           TabbedCell.new(
             solr_doc['id'],
             solr_doc['title']
@@ -85,6 +90,14 @@ class Tabbed < Cmless
           )
         end
       end.flatten.sort_by(&:title)
+    end
+  end
+  
+  def self.shared_prefix(titles)
+    tokens = titles.first.scan(/\S+\s+/)
+    prefixes = 0.upto(tokens.length).map { |i| tokens[0..i].join }.reverse
+    prefixes.find do |prefix|
+      titles.all? { |title| title.match('^'+Regexp.escape(prefix))}
     end
   end
 
