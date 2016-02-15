@@ -2,6 +2,10 @@ require 'rails_helper'
 require_relative '../support/validation_helper'
 
 describe 'Special Collections' do
+  before(:all) do
+    PBCoreIngester.load_fixtures
+  end
+
   it 'at least loads the index page' do
     visit '/collections'
     expect(page.status_code).to eq(200)
@@ -16,7 +20,9 @@ describe 'Special Collections' do
   end
   it 'has short titles' do
     visit '/collections/vietnam-the-vietnam-collection/interviews'
+    # Shared prefix removed:
     expect(page.html).to match(/>\s*same program; different asset title\s*</)
+    # Even more removed if we see "Interview":
     expect(page.html).to match(/>\s*Interview with XYZ is kept\s*/)
   end
 end
