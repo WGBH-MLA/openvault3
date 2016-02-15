@@ -16,7 +16,7 @@ describe 'Special Collections' do
   end
   it 'has short titles' do
     visit '/collections/vietnam-the-vietnam-collection/interviews'
-    expect(page.html).to match />\s*same program; different asset title\s*</
-    expect(page.html).to match />\s*Interview with XYZ is kept\s*/
+    expect(page.html).to match(/>\s*same program; different asset title\s*</)
+    expect(page.html).to match(/>\s*Interview with XYZ is kept\s*/)
   end
 end
