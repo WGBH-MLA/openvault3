@@ -13,7 +13,7 @@
       elsif search_link
         link_to(value, "/catalog?q=#{CGI.escape(value.respond_to?(:name) ? value.name : value)}")
       else
-        value
+        value.split(/[\n\r]\s*[\n\r]/).map { |v| content_tag(:p,html_escape(v.strip)) }.join.html_safe
       end
     %></dd>
   <% end %>
