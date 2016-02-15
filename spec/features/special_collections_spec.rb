@@ -14,4 +14,9 @@ describe 'Special Collections' do
     expect(page).to have_text('The Advocates')
     expect_fuzzy_xml
   end
+  it 'has short titles' do
+    visit '/collections/vietnam-the-vietnam-collection/interviews'
+    expect(page.html).to match />\s*same program; different asset title\s*</
+    expect(page.html).to match />\s*Interview with XYZ is kept\s*/
+  end
 end

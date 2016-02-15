@@ -45,6 +45,14 @@ class Tabbed < Cmless
     def norm(s)
       s.downcase.gsub(/\W+/, '-')
     end
+    
+    def shared_prefix(titles)
+      tokens = titles.first.scan(/\S+\s+/)
+      prefixes = 0.upto(tokens.length).map { |i| tokens[0..i].join }.reverse
+      prefixes.find do |prefix|
+        titles.all? { |title| title.match('^'+Regexp.escape(prefix))}
+      end
+    end
 
     TabbedCell = Struct.new(:id, :title, :thumbnail_src)
 
@@ -77,7 +85,15 @@ class Tabbed < Cmless
           # Details pages will provide navigation between parts.
         end
         
-        prefixes = 0.upto(tokens.length - 1).map { |i| tokens[0..i].join }
+        return unless !solr_docs.empty?
+        # No solr docs corresponding to query in MD.
+        # Should not be encountered on production with a full index.
+        
+        prefix = shared_prefix(solr_docs.map { |d| d['title'] })
+        prefix_re = Regexp.new('^'+Regexp.escape(prefix))
+        solr_docs.each do |solr_doc|
+          solr_doc['title'].sub!(prefix_re, '')
+        end
         
         solr_docs.first['title'].split(/\s+/)
         solr_docs.map do |solr_doc|
@@ -90,14 +106,6 @@ class Tabbed < Cmless
           )
         end
       end.flatten.sort_by(&:title)
-    end
-  end
-  
-  def self.shared_prefix(titles)
-    tokens = titles.first.scan(/\S+\s+/)
-    prefixes = 0.upto(tokens.length).map { |i| tokens[0..i].join }.reverse
-    prefixes.find do |prefix|
-      titles.all? { |title| title.match('^'+Regexp.escape(prefix))}
     end
   end
 

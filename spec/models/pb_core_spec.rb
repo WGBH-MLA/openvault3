@@ -6,7 +6,7 @@ describe 'Validated and plain PBCore' do
 
   describe ValidatedPBCore do
     describe 'valid docs' do
-      Dir['spec/fixtures/pbcore/good-*.xml'].each do |path|
+      Dir['spec/fixtures/pbcore/*.xml'].each do |path|
         it "accepts #{File.basename(path)}" do
           expect { ValidatedPBCore.new(File.read(path)) }.not_to raise_error
         end
