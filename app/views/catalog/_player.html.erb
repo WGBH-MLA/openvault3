@@ -1,6 +1,6 @@
 <div id="player">
   <% if  @pbcore.image? %>
-    <%= tag('img', src: @pbcore.proxy_src) %>
+    <%= tag('img', src: @pbcore.proxy_srcs.first) %>
   <% else %>
     <% 
       # These should be complementary. The goal is to keep the 
