@@ -17,8 +17,6 @@
 @import "globals/fonts";
 @import "globals/defaults";
 @import "globals/colors";
-@import "globals/utility";
-@import "globals/flexbox";
 
 @import 'blacklight'; // Before locals so it can be over-ridden; after globals so it has variables.
 
