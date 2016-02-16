@@ -138,6 +138,7 @@ describe 'Validated and plain PBCore' do
         video?: true,
         audio?: false,
         image?: false,
+        digitized?: true,
         access: ['All Records', 'Available Online'],
         subjects: ['SUBJECT-1', 'SUBJECT-2'],
         genres: ['GENRE-1', 'GENRE-2'],

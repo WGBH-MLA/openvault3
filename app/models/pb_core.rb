@@ -139,10 +139,12 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def access
     @access ||=
       [ALL].tap do |access|
-        if outside_url || xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
-          access << ONLINE
-        end
+        access << ONLINE if digitized?
       end
+  end
+  def digitized?
+    # (Cast to boolean)
+    (outside_url ? true : false) || xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
   end
   def proxy_srcs
     @proxy_srcs ||=
@@ -276,7 +278,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @text = begin
       ignores = [
         :text, :to_solr, :id, :duration,
-        :media_type, :asset_type, :access,
+        :media_type, :asset_type, :access, :digitized?,
         :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags
       ]

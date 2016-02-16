@@ -13,15 +13,13 @@
       
       <%= render partial: 'player' %>
       
-      <p>
-        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-        <% if @pbcore.aapb_url %>
-          <%= verb %> online at the <a href="<%= @pbcore.aapb_url %>">American Archive of Public Broadcasting</a>
-        <% end %>
-        <% if @pbcore.boston_tv_news_url %>
-          <%= verb %> online at the <a href="<%= @pbcore.boston_tv_news_url %>">Boston TV News Digital Library</a>
-        <% end %>
-      </p>
+      <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+      <% if @pbcore.aapb_url %>
+        <p><%= verb %> online at the <a href="<%= @pbcore.aapb_url %>">American Archive of Public Broadcasting</a>.</p>
+      <% end %>
+      <% if @pbcore.boston_tv_news_url %>
+        <p><%= verb %> online at the <a href="<%= @pbcore.boston_tv_news_url %>">Boston TV News Digital Library</a>.</p>
+      <% end %>
       
       <dl>
         <% [
