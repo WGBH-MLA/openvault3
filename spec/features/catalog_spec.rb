@@ -67,7 +67,7 @@ describe 'Catalog' do
     describe 'all fixtures' do
       Dir['spec/fixtures/pbcore/*.xml'].each do |fixture|
         doc = Nokogiri::XML(File.read(fixture))
-        doc.remove_namespaces!()
+        doc.remove_namespaces!
         id = doc.xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]').text
         path = "/catalog/#{id}"
         it "loads #{path}" do
