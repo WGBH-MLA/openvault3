@@ -3,7 +3,12 @@
   <pbcoreAssetType>Original footage</pbcoreAssetType>
   <pbcoreIdentifier source="Open Vault UID">A_00B0C50853C64A71935737EF7A4DA66C</pbcoreIdentifier>
   <pbcoreTitle titleType="Series">(at least one title required by schema.)</pbcoreTitle>
-  <pbcoreDescription descriptionType="Series Description">(at least one description required by schema.)</pbcoreDescription>
+  <pbcoreDescription descriptionType="Series Description">
+      Line breaks
+      do not matter, but
+      
+      empty lines do.
+  </pbcoreDescription>
   <pbcoreAnnotation annotationType="Media Type">Audio</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
 </pbcoreDescriptionDocument>
