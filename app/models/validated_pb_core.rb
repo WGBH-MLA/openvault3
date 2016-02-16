@@ -10,6 +10,7 @@ class ValidatedPBCore < PBCore
     schema_validate
     attribute_validate
     method_validate
+    value_validate
     url_validate
   end
 
@@ -22,33 +23,38 @@ class ValidatedPBCore < PBCore
     fail 'Schema validation errors: ' + errors.join("\n")
   end
 
-  def expect_attributes(attr, expected)
-    xpaths("/*/pbcoreTitle/@#{attr}").tap do |types|
-      unexpected = types - expected
-      fail "Unexpected titleTypes: #{unexpected}" unless unexpected.empty?
-    end
+  def unexpected_attributes(el, expected)
+    (xpaths("/*/pbcore#{el}/@#{el.downcase}Type") - expected).map { |val| "#{el}: #{val}" }
   end
 
   def attribute_validate
-    expect_attributes('titleType',
-                      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
-    expect_attributes('descriptionType',
-                      ['Series Description', 'Program Description', 'Asset Description'])
+    errors = []
+    errors += unexpected_attributes(
+      'Title',
+      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
+    errors += unexpected_attributes(
+      'Description',
+      ['Series Description', 'Program Description', 'Asset Description'])
     # For reference:
     # grep pbcoreAnnotation app/models/pb_core.rb | ruby -pne '$_.gsub!(/.*@annotationType="/,"");$_.gsub!(/".*/,"");$_="\"#{$_.strip}\",\n"' | sort | uniq
-    expect_attributes('annotationType',
-                      [
-                        'Digitized',
-                        'Duration',
-                        'Geoblock',
-                        'Media Type',
-                        'Outside URL',
-                        'Password',
-                        'Scholar Exhibit',
-                        'Special Collection Tag',
-                        'Special Collection',
-                        'Thumbnail',
-                        'Transcript'])
+    errors += unexpected_attributes(
+      'Annotation',
+      [
+        'Digitized',
+        'Duration',
+        'Geoblock',
+        'Media Type',
+        'Outside URL',
+        'Password',
+        'Playlist Group',
+        'Playlist Order',
+        'Scholar Exhibit',
+        'Special Collection Tag',
+        'Special Collection',
+        'Thumbnail',
+        'Transcript'])
+    return if errors.empty?
+    fail 'Attribute validation errors: ' + errors.join("\n")
   end
 
   def method_validate
@@ -63,6 +69,18 @@ class ValidatedPBCore < PBCore
     end
     return if errors.empty?
     fail 'Method validation errors: ' + errors.join("\n")
+  end
+
+  def value_validate
+    errors = []
+    if outside_url && !(aapb_url || boston_tv_news_url)
+      errors << "Outside URL not of expected form: #{outside_url}"
+    end
+    unless blocked_country_codes.all? { |code| code.match(/^[A-Z-]{2}$/) }
+      errors << "Unexpected blocked country codes: #{blocked_country_codes}"
+    end
+    return if errors.empty?
+    fail 'Value validation errors: ' + errors.join("\n")
   end
 
   def url_validate

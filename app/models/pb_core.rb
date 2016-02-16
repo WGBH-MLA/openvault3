@@ -161,7 +161,8 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def blocked_country_codes
-    xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
+    @blocked_country_codes ||=
+      xpaths('/*/pbcoreAnnotation[@annotationType="Geoblock"]')
   end
 
   def password_required?
@@ -172,11 +173,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   NEWS_RE = /^http:\/\/bostonlocaltv.org\//
   def outside_url
     @outside_url ||=
-      xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]').tap do |url|
-        if url && !url.match(AAPB_RE) && !url.match(NEWS_RE)
-          fail("'#{url}' matches neither #{AAPB_RE} nor #{NEWS_RE}")
-        end
-      end
+      xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]')
   end
   def aapb_url
     @aapb_url ||= begin

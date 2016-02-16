@@ -6,7 +6,7 @@ describe 'Validated and plain PBCore' do
 
   describe ValidatedPBCore do
     describe 'valid docs' do
-      Dir['spec/fixtures/pbcore/good-*.xml'].each do |path|
+      Dir['spec/fixtures/pbcore/*.xml'].each do |path|
         it "accepts #{File.basename(path)}" do
           expect { ValidatedPBCore.new(File.read(path)) }.not_to raise_error
         end
@@ -36,6 +36,30 @@ describe 'Validated and plain PBCore' do
         invalid_pbcore = pbc_xml.sub(/<pbcoreSubject>[^<]+</, '<pbcoreSubject><')
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Empty element in XML: <pbcoreSubject\/>/))
+      end
+
+      it 'rejects unexpected title type' do
+        invalid_pbcore = pbc_xml.sub(/titleType="Series"/, 'titleType="Spanish Inquisition"')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Attribute validation errors: Title: Spanish Inquisition/))
+      end
+
+      it 'rejects unexpected description type' do
+        invalid_pbcore = pbc_xml.sub(/descriptionType="Series Description"/, 'descriptionType="Spanish Inquisition"')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Attribute validation errors: Description: Spanish Inquisition/))
+      end
+
+      it 'rejects unexpected annotation type' do
+        invalid_pbcore = pbc_xml.sub(/annotationType="Geoblock"/, 'annotationType="Spanish Inquisition"')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Attribute validation errors: Annotation: Spanish Inquisition/))
+      end
+
+      it 'rejects unexpected outside URL' do
+        invalid_pbcore = pbc_xml.sub(/Outside URL">http:\/\/americanarchive.org/, 'Outside URL">http://inquisition.es')
+        expect { ValidatedPBCore.new(invalid_pbcore) }.to(
+          raise_error(/Outside URL not of expected form/))
       end
 
       #      it 'rejects unknown media types at creation' do
