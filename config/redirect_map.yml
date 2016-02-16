@@ -1,5 +1,4 @@
 ---
-# $ ruby -ne 'fedora,pretty,artsia,ov3=$_.strip.gsub("\"","").split(","); next unless ov3 && ov3 != ""; puts "\"/catalog/#{fedora}\": \"/catalog/#{ov3}\""; puts "\"/catalog/#{pretty}\": \"/catalog/#{ov3}\"" if pretty != ""' ~/Downloads/ov_id_slug_map_2015.csv > config/redirect_map.yml
 "/catalog/openvault:3": "/catalog/I_8B3BAB5CD79649BE867CFE665E69B10B"
 "/catalog/openvault:4": "/catalog/I_4704FDE6CD0D48CB90490088646A47BA"
 "/catalog/openvault:5": "/catalog/V_894B7E1B59CA45FD99C37EC63DD64A46"
