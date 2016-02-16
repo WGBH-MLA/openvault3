@@ -39,8 +39,8 @@ commercial, noncommercial, and community cable TV news heritage to educators
 and the public. The project will publish a combined catalog of the news
 collections from these institutions which include news materials from WGBH,
 WCVB, WHDH, UPN 38, and CCTV in addition to 40 hours of streaming video. The
-project will also work with [Teachers’
-Domain](http://www.teachersdomain.org/) to enable access to the materials in classrooms.
+project will also work with [PBS Learning Media](http://www.pbslearningmedia.org/)
+to enable access to the materials in classrooms.
 
 The second project is an NEH funded project which will digitize and
 stream 254 original interviews (video and transcripts) produced for the
