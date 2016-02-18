@@ -162,6 +162,7 @@ class CatalogController < ApplicationController
     respond_to do |format|
       format.html do
         @pbcore = PBCore.new(xml)
+        @page_title = @pbcore.title
         render
       end
       format.pbcore do
