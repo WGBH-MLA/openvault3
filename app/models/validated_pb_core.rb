@@ -96,6 +96,7 @@ class ValidatedPBCore < PBCore
       urls.each do |url|
         begin
           if url.match(/^\//)
+            # This is to make sure our placeholder icons are in place:
             path = __dir__ + '/../../public' + url
             errors << "No file at #{path}" unless File.exist?(path)
           else
@@ -103,7 +104,7 @@ class ValidatedPBCore < PBCore
               curl.headers['Referer'] = 'http://openvault.wgbh.org/'
               curl.http_head
               unless curl.response_code == 200
-                errors << "HEAD #{url} (from ##{method}) not 200: #{curl.status}"
+                errors << "HTTP HEAD from ##{method} not 200: #{curl.status}"
               end
             end
           end
