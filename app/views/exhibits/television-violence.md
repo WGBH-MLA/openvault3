@@ -58,8 +58,6 @@ Daniella Perry
 
 ## Article
 
-### Television on Television Violence: Perspectives from the 70s and 90s
-
 On January 10, 1995, PBS aired an episode of WGBH Educational Foundation’s *Frontline*, provocatively titled *Does TV Kill?* The show investigated television viewing habits of average families in upstate New York, and promised to “reveal unexpected conclusions about the impact TV has on Americans’ world view.” [<sup>1</sup>](#footnote-1) But if one looks at the history of television discussions about television effects, *Frontline* only reiterated issues that have troubled academics and filled popular opinion since the introduction of television. *Frontline*’s investigation is part of a much longer history of television effects research, and decades-long concern that violent television was to blame for a broad range of social violence. This article takes a historical approach to the topic of how media discusses media violence by considering how certain public television programs have addressed the problem of television violence and discussed available evidence. These programs are often prompted by real-world incidents, resulting in what media scholar Kirsten Drotner calls a “media panic.” [<sup>2</sup>](#footnote-2) Media panics occur each time a medium is implicated in a real-world tragedy and have basic characteristics: 
 
 >
