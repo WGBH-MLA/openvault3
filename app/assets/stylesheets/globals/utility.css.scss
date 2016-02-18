@@ -1,5 +1,0 @@
-// Generic class to strip horizontal from all col-* classes within .row
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
-}
