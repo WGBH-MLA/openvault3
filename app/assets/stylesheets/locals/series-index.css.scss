@@ -1,6 +1,6 @@
 .blacklight-series-index {
     .letters {
-        padding: $grid-gutter-width/2;
+        padding: 0.75 * $grid-gutter-width 1.5 * $grid-gutter-width;
         background: $medium-blue;
         font-size: 24px;
         font-weight: bold;
@@ -10,5 +10,12 @@
             color: #FFF;
         }
         
+    }
+    ul {
+        padding: $grid-gutter-width/2;
+        list-style-type: none;
+        li {
+            padding: $grid-gutter-width/8;
+        }
     }
 }
