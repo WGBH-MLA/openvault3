@@ -64,16 +64,22 @@ describe 'Catalog' do
   end
 
   describe '#show' do
-    it 'loads a full details page' do
-      visit '/catalog/A_00000000_MOCK'
-      expect(page.status_code).to eq(200)
-      expect_fuzzy_xml
+    describe 'all fixtures' do
+      Dir['spec/fixtures/pbcore/*.xml'].each do |fixture|
+        doc = Nokogiri::XML(File.read(fixture))
+        doc.remove_namespaces!
+        id = doc.xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]').text
+        path = "/catalog/#{id}"
+        it "loads #{path}" do
+          visit path
+          expect(page.status_code).to eq(200)
+          expect_fuzzy_xml
+        end
+      end
     end
 
-    it 'loads a minimal details page' do
+    it 'Respects line-breaks in source data' do
       visit '/catalog/A_00B0C50853C64A71935737EF7A4DA66C'
-      expect(page.status_code).to eq(200)
-      expect_fuzzy_xml
       expect(page.html).to match(/<p>Line breaks\s+do not matter, but<\/p><p>empty lines do\.<\/p>/)
     end
   end
