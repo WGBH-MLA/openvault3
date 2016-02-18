@@ -15,7 +15,7 @@
       "Sid": "Explicit deny to ensure requests are allowed only from specific referer.",
       "Effect": "Deny",
       "Principal": "*",
-      "Action": "s3:*",
+      "Action": "s3:GetObject",
       "Resource": "arn:aws:s3:::openvault.wgbh.org/*",
       "Condition": {
         "StringNotLike": {

@@ -74,6 +74,7 @@ gem 'geoip'
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
+gem 'aws-sdk', '~> 2', :group => :development # Unless we want the AWS credentials on Travis for tests...
 
 gem 'rubocop', :group => :development
 gem 'pry', :group => :development

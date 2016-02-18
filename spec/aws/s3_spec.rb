@@ -1,7 +1,7 @@
 require 'aws-sdk'
 require 'json'
 
-describe 'S3' do
+describe 'S3', not_on_travis: true do
   def to_pretty_json(string_io)
     JSON.pretty_generate(JSON.parse(string_io.string))
   end
