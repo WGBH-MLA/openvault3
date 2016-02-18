@@ -197,9 +197,156 @@ Unlike other media panics, *Frontline*’s “Does TV Kill” was not inspired b
 
 ### Endnotes
 
-TODO
+<a name="footnote-1"></a><sup>1</sup>*Frontline*, *Does TV Kill?*, Michael McLeod. (1995; WGBH Educational Foundation).
+
+<a name="footnote-2"></a><sup>2</sup>Drotner, Kirsten. 1999. “Dangerous Media? Panic Discourses and Dilemmas of Modernity.” *Paedagogica Historica* 35 (3) (January): 593–619.
+
+<a name="footnote-3"></a><sup>3</sup>Ibid., 596. It bares emphasis that the designation of a moral or media panic does not imply a rejection of the objective reality of a problem. The designation, moral panic scholar Stanley Cohen writes, “does not question the existence nor dismiss issues of causation, prevention and control. It draws attention to a meta-debate about what sort of acknowledgment the problem receives and merits,” Cohen, Stanley. 2002. *Folk Devils and Moral Panics: the Creation of the Mods and Rockers, 3rd edition.* Routledge, xxxiv.
+
+<a name="footnote-4"></a><sup>4</sup>For in depth discussions of the effects of television, see Boddy, William. 1990. *Fifties television: the industry and its critics.* Urbana: University of Illinois Press; Spigel, Lynn. 1992. *Make room for TV: television and the family ideal in postwar America.* Chicago: University of Chicago Press; Bodroghkozy, Aniko. 2001. *Groove tube: sixties television and the youth* rebellion. Durham: Duke University Press.
+
+<a name="footnote-5"></a><sup>5</sup>United States Surgeon General's Scientific Advisory Committee on Television and Social Behavior. 1972. *Television and Growing Up: the Impact of Television Violence.* United States Public Health Service Office of the Surgeon General.
+
+<a name="footnote-6"></a><sup>6</sup>*A Reporter’s Special on TV Violence*, Charles Stuart. (1973, WGBH); Say Brother, “Television Violence and its Effects on Children,” Barbara Barrow. (1977, WGBH); *The Group*, “TV, Children, and Violence.” (1993, WGBH); *Frontline*
+
+<a name="footnote-7"></a><sup>7</sup>Blumer, Herbert. 1933. *Movies and Conduct*. New York: The Macmillan company.
+
+<a name="footnote-8"></a><sup>8</sup>For discussions on the Payne Fund studies, see Lowery, Shearon, and Melvin L. DeFleur. 1983. *Milestones in mass communication research: media effects*. New York: Longman; Mark Lynn Anderson, “Taking Liberties: The Payne Fund Studies and the Creation of the Media Expert,” (42-43) and Lee Grieveson, “Cinema Studies and the Conduct of Conduct,” (9-10) in Grieveson, Lee, and Haidee Wasson. 2008. *Inventing film studies*. Durham: Duke University Press.
+
+<a name="footnote-9"></a><sup>9</sup>Lange, D L, R K Baker, and Sandra J Ball. 1969. *Mass Media and Violence: a Staff Report to the National Commission on the Causes and Prevention of Violence*. Washington, DC. US Government Printing Office.
+
+<a name="footnote-10"></a><sup>10</sup>Steiner, Gary A. 1963. *The People Look at Television, a Study of Audience Attitudes*. Knopf, 4; *Mass Media and Violence*, 207.
+
+<a name="footnote-11"></a><sup>11</sup>Michael Mandelbaum. 1982. “Vietnam: the Television War,” *Daedalus* 111, no. 4, 157–169.
+
+<a name="footnote-12"></a><sup>12</sup>U.S. Census Bureau, *Statistical Abstract of the United States*: 2003, “No. HS-23. Crimes and Crime Rates by Type of Offense: 1960 to 2002,” http://www.census.gov/statab/hist/HS-23.pdf
+
+<a name="footnote-13"></a><sup>13</sup>Emanuel K Schwartz. 1961. "The Family in an 'Age of Violence'." *New York Times (1923-Current File)*, Jan 22, 1-SM47; David N Daniels, Marshall F Gilula, and Frank M Ochberg, Eds. 1970. *Violence and the Struggle for Existence*. Little Brown GBR. For the foundational work on the concept of the “subculture of violence,” see Wolfgang, M. E., & Ferracuti, F. 1967. *The subculture of violence: Towards an integrated theory in criminology*. London: Tavistock Publications; A year after publication, Marvin Wolfgang (then Professor of Criminology at University of Pennsylvania) became a Co-Director of Research (with James Short Jr., Professor Emeritus of Sociology at Washington State University) for the NCCPV Task Force on Historical and Comparative Perspectives.; Schlesinger, Arthur M. 1968. *Violence: America in the sixties*. New York: New American Library.
+
+<a name="footnote-14"></a><sup>14</sup>National Archives, Lyndon B. Johnson Papers, Collection 283, FG 795 “National Commission on the Causes and Prevention of Violence,” Box 418.
+
+<a name="footnote-15"></a><sup>15</sup>Gould, Jack. 16 June 1968. “Surrender to Television?” *New York Times*, 15; quoted in Cooper, 23.
+
+<a name="footnote-16"></a><sup>16</sup>"Crime Tripled on TV, Senate Probers Told." Jun. 9, 1961.Chicago Daily Tribune (1923-1963), 1-c7. 
+
+<a name="footnote-17"></a><sup>17</sup>Lowry, Cynthia. 1960. "Captain Kangaroo Sounds Off on Television's Baby Sitters." Chicago Daily Tribune (1923-1963), Oct 16, 1-n13. [http://search.proquest.com/docview/182670473?accountid=14512](http://search.proquest.com/docview/182670473?accountid=14512).
+
+<a name="footnote-18"></a><sup>18</sup>Wolters, Larry. 1963. "TV Needs Clean-Up for Young Viewers." Chicago Tribune (1963-Current File), May 12, 1-w10. [http://search.proquest.com/docview/182687565?accountid=14512](http://search.proquest.com/docview/182687565?accountid=14512)
+
+<a name="footnote-19"></a><sup>19</sup>National Association for Better Radio and Television (U.S.). June 1959 and Summer 1960. *NAFBRAT Quarterly*. Los Angeles: National Association for Better Radio and Television
+
+<a name="footnote-20"></a><sup>20</sup>Ibid., 8-9. It should be noted that the comic book version of Superman was indicted along with every other comic book during the 1950s, when the United States Senate held hearings on the comic book industry and its effects on children. For a discussion on these events, see Nyberg, Amy Kiste. 1998. *Seal of Approval: The History of the Comics Code*. Jackson [Miss.]: University Press of Mississippi.
+
+<a name="footnote-21"></a><sup>21</sup>While most critics tended to say that children need to be protected, both children and teenagers were a concern, and there was often no distinction between groups.
+
+<a name="footnote-22"></a><sup>22</sup>"Dodd to Open Drive Against TV 'Crime Diet'." Feb. 10, 1962. *Chicago Daily Tribune*, 1-a12.
+
+<a name="footnote-23"></a><sup>23</sup>Ibid.
+
+<a name="footnote-24"></a><sup>24</sup>Wolters, Larry. 1961. "Westerns Face Stern Revision." Chicago Daily Tribune (1923-1963), Aug 13, 1-s4.
+
+<a name="footnote-25"></a><sup>25</sup>Wolters, Larry. 1960. "Japanese TV to Shun Cowboys and Samurai." Chicago Daily Tribune (1923-1963), Jul 04, 14-14.
+
+<a name="footnote-26"></a><sup>26</sup>Coughlin, Francis. 1961. "Crime on TV Called Harmful Only to TV." Chicago Daily Tribune (1923-1963), Mar 07, 1-a5.
+
+<a name="footnote-27"></a><sup>27</sup>Schumach, Murray. 1961. "NBC Acts to Subdue Violence." Chicago Daily Tribune (1923-1963), Jun 25, 1-n8; Wolters, Larry. 1961. "Westerns Face Stern Revision." Chicago Daily Tribune (1923-1963), Aug 13, 1-s4.
+
+<a name="footnote-28"></a><sup>28</sup>Wolters, 1964.
+
+<a name="footnote-29"></a><sup>29</sup>Schlesinger, Arthur M. 1968. Violence: America in the sixties. [New York]: New American Library; ix.
+
+<a name="footnote-30"></a><sup>30</sup>Ibid., 50
+
+<a name="footnote-31"></a><sup>31</sup>Ibid., 54; McLuhan’s theory was rather different to Schlesinger’s interpretation, however, and Schlesinger acknowledges the difference. It would not matter, for example, if the content were children’s cartoons or overt violence; the effect on society would be identical.
+
+<a name="footnote-32"></a><sup>32</sup>Johnson, Nicholas. “Television and Violence: Perspectives and Proposals,” Statement prepared for the NCCPV, *Mass Media Hearings*, 369. Original italics.
+
+<a name="footnote-33"></a><sup>33</sup>Interoffice memoranda, Nixon Administration. 1969. FG 168 (National Commission on the Causes and Prevention of Violence). Nixon Presidential Library and Museum.
+
+<a name="footnote-34"></a><sup>34</sup>Surgeon General, 1972.
+
+<a name="footnote-35"></a><sup>35</sup>Bogar, Leo. 1972. “Warning: The Surgeon General Has Determined That TV Violence is Moderately Dangerous to Your Child's Mental Health.” *The Public Opinion Quarterly* 36, 4: 491-521.
+
+<a name="footnote-36"></a><sup>36</sup>Surgeon General, 49.
+
+<a name="footnote-37"></a><sup>37</sup>It is worth noting that the introductory montage of this episode was of still images of real-life violence. Images are shown of recent city riots, people running from uniformed officers, windows being broken, individuals being arrested, teenagers yelling, and finally, horrifying lynchings. The suggestion, of course, is the question of whether television images have a role in creating these violent episodes. No single incident stood out as inspiring the conversation.
+
+<a name="footnote-38"></a><sup>38</sup>Bandura, Albert., Ross, Dorothea, & Ross, Sheila. 1961. Transmission of aggression through imitation of aggressive models. *The Journal of Abnormal and Social Psychology*. 63, 3; 575-582; Bandura, A., Ross, D., & Ross, S. A. 1963. Imitation of film-mediated aggressive models. *The Journal of Abnormal and Social Psychology*. 66, 1; 3-11; Bandura, A. 1965. Influence of models' reinforcement contingencies on the acquisition of imitative responses. *Journal of Personality and Social Psychology*, 1, 6; 589-595.
+
+<a name="footnote-39"></a><sup>39</sup>Bandura, Ross, and Ross 1961, 576.
+
+<a name="footnote-40"></a><sup>40</sup>Ibid.
+
+<a name="footnote-41"></a><sup>41</sup> “Mildly annoyed,” meant that the child was told s/he could not play with certain toys they thought they would be able to play with.
+
+<a name="footnote-42"></a><sup>42</sup>Children were not inclined to copy the cartoon cat, however.
+
+<a name="footnote-43"></a><sup>43</sup> “Dodd to Open Drive”
+
+<a name="footnote-44"></a><sup>44</sup>*Look* magazine was a general interest large-format magazine with a distribution second only to *Life* magazine. *Look* had a peak circulation in 1969 with 7.75 million; see "Cowles Closing Look Magazine After 34 Years." Sep. 17 1971. New York Times (1923-Current File), 1-1; "Look Magazine to Halt Publication." Sep. 17, 1971. Chicago Tribune (1963-Current File), 1-1.
+
+<a name="footnote-45"></a><sup>45</sup>Bandura, Albert. October 22, 1963. “What TV Violence Can Do To Your Child.” Look. p. 46-52. Cowles Communications, Inc.
+
+<a name="footnote-46"></a><sup>46</sup>See for example, Feshbach, Seymour. 1964. “The Function of Aggression and the Regulation of Aggressive Drive.” *Psychological Review* 71 (July): 257–272.
+
+<a name="footnote-47"></a><sup>47</sup>Surgeon General, 34.
+
+<a name="footnote-48"></a><sup>48</sup>Leifer, Aimee D, Neal J Gordon, and Sherryl B Graves. 1974. “Children's Television More Than Mere Entertainment.” *Harvard Educational Review* 44, 2; 213–245; citation check via *Web of Science*; it should be noted that a citation check by Google Scholar reports “cited by” numbers of 91 (Leifer et al. 1974) versus 1,698 (Bandura et al. 1961).
+
+<a name="footnote-49"></a><sup>49</sup>Tobia, Jill A. “The Brady Handgun Violence Prevention Act: Does It Have a Shot at Success.” *Seton Hall Legislative Journal* 19 (1994): 894–920, 894.
+
+<a name="footnote-50"></a><sup>50</sup>Zimring, Franklin E. “The Youth Violence Epidemic: Myth or Reality?.” *Wake Forest Law Review* 38 (1998): 727–744, 728.
+
+<a name="footnote-51"></a><sup>51</sup>Zimring, Franklin E. “The Youth Violence Epidemic: Myth or Reality?.” *Wake Forest Law Review* 38 (1998): 727–744, 729. Zimring shows that, compared with homicide and aggravated assault, other violent crimes, such as rape, robbery, and burglary showed varying, but not significantly increased trends since 1980.
+
+<a name="footnote-52"></a><sup>52</sup>Editors. “$30 Million Campaign Underway to Halt Growing Youth Violence.” *Los Angeles Sentinel* (1934-2005), *ProQuest Historical Newspapers: Los Angeles Sentinel (1934-2005)*, August 5, 1993.
+
+<a name="footnote-53"></a><sup>53</sup>Zimring, 1998.
+
+<a name="footnote-54"></a><sup>54</sup>See Hagedorn, John. 2008. *A World of Gangs: Armed Young Men and Gangsta Culture*. Minneapolis: University of Minnesota Press, and Quinn, Eithne. 2010. *Nuthin' but a ""G"" Thang The Culture and Commerce of Gangsta Rap*. New York: Columbia University Press.
+
+<a name="footnote-55"></a><sup>55</sup>Ibid.,note 2.
+
+<a name="footnote-56"></a><sup>56</sup>Berke, Richard. Jan 23, 1994  “Crime is Becoming Nation’s Top Fear.” *ProQuest Historical Newspapers: The New York Times (1851-2009)*. A1.
+
+<a name="footnote-57"></a><sup>57</sup>Ibid.
+
+<a name="footnote-58"></a><sup>58</sup>Cozzolino, Marc Christopher. “Gun Control: the Brady Handgun Violence Prevention Act.” *Seton Hall Legislative Journal *16 (1992): 245–268.
+
+<a name="footnote-59"></a><sup>59</sup>Campbell, James R. “Detroit Street Crime Up: Mayor Imposes Curfew to Curb Teen Crime.” *Afro-American (1893-1988) ProQuest Historical Newspapers: the Baltimore Afro-American (1893-1988)*, December 6, 2013.
+
+<a name="footnote-60"></a><sup>60</sup>Lenett, Michael G. “Taking a Bite Out of Violent Crime.” *University of Dayton Law Review* 20, no. 2 (1994): 573–617, 577.
+
+<a name="footnote-61"></a><sup>61</sup>Ibid., 578 and 583.
+
+<a name="footnote-62"></a><sup>62</sup>Brady Handgun Violence Prevention Act of 1993, Pub. L. No. 103-159 [H.R. 1025], 18 USCS prec § 921 (1993).
+
+<a name="footnote-63"></a><sup>63</sup>Violent Crime Control and Law Enforcement Act of 1994, Pub. L. No. 103-322 [H.R. 3355], 108 Stat. 1796.
+
+<a name="footnote-64"></a><sup>64</sup>Hechinger, Fred M. “About Education: a Haven Amid Rising Urban Crime, a School Where ‘People Do Not Expect Violence’.” *New York Times (1923-Current File) ProQuest Historical Newspapers: The New York Times (1851-2009)*, November 7, 1990.
+
+<a name="footnote-65"></a><sup>65</sup>Editors. “Kids Punished for Plot to Kill Bully.” *Los Angeles Sentinel (1934-2005), ProQuest Historical Newspapers: Los Angeles Sentinel (1934-2005)*, December 26, 1991.
+  Johnson, Bob. May 20, 1992. “TV's 'Normal' Violence.” *ProQuest Historical Newspapers: The New York Times (1851-2009)* A22; original italics
+
+<a name="footnote-66"></a><sup>66</sup>Jehl, Douglas. Dec 6, 1993. “Clinton Gently Chides Hollywood on Violence. *ProQuest Historical Newspapers: The New York Times (1851-2009)* A12. Weintraub, Bernard. Dec. 28, 1993. “Despite Clinton, Hollywood Is Still Trading in Violence.” *ProQuest Historical Newspapers: The New York Times (1851-2009)* A1.
+
+<a name="footnote-67"></a><sup>67</sup>See Hajdu, David. 2008. *The Ten-Cent Plague: The Great Comic-Book Scare and How it Changed America*. New York: Farrar, Straus and Giroux.
+
+<a name="footnote-68"></a><sup>68</sup>Berkowitz, Leonard, and Edna Rawlings. 1963. “Effects of Film Violence on Inhibitions Against Subsequent Aggression.” *Journal of Abnormal Social Psychology* 66, 5; 405–412. Aggression was measured by the application of electric shocks from one participant to another participant.
+
+<a name="footnote-69"></a><sup>69</sup>Eron, Leonard D, L Rowell Huesmann, Monroe M Lefkowitz, and Leopold O Walder. 1972. “Does Television Violence Cause Aggression.” *American Psychologist* 27, 4; 253–263; Huesmann, L Rowell, Leonard D Eron, and E F Dubow. 1985. “Television Viewing Habits in Childhood and Adult Aggression.” *Aggressive Behavior* 11 (2): 160.
+
+<a name="footnote-70"></a><sup>70</sup>Williams, Tannis MacBeth. 1979. “The Impact of Television: a Natural Experiment Involving Three Communities.”
+
+<a name="footnote-71"></a><sup>71</sup>It’s worth noting that Fox Kids Network aired *Mighty Morphin Power Rangers* (MMPR Productions, Inc., Renaissance Atlantic Films, 1993-1996), a show that was banned in Canada at the time.
+
+<a name="footnote-72"></a><sup>72</sup>Gerbner, George, Larry Gross, Michael Morgan, and Nanci Signorielli. 1980. “The ‘Mainstreaming’ of America: Violence Profile No. 11.” *Journal of Communication* 30, 3; 10–29.
 
 ## Media
+
+TO DO
+
+## Related Content
 
 - [1972 Surgeon General Report - “Television and Growing Up: The Impact of Televised Violence. Report to the Surgeon General, United States Public Health Service”](http://profiles.nlm.nih.gov/NN/B/C/G/X/)
 - [Albert Bandura](http://en.wikipedia.org/wiki/Albert_Bandura)
@@ -212,10 +359,6 @@ TODO
 - [History of Federal Lawmakers Considering the Problem of Media Violence](http://www.stanford.edu/class/comm127/history.html)
 - [Impact of Media on Families and Children - President Clinton, 1995](http://www.c-spanvideo.org/program/Mediaon)
 - [Murder of James Bulger](http://en.wikipedia.org/wiki/Murder_of_James_Bulger)
-
-## Related Content
-
-TODO
 
 ## Authors
 
