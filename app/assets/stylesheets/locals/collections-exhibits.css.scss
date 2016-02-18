@@ -48,6 +48,12 @@
     #main-container {
         padding-top: 20px;
 
+        p a {
+            font-weight: bold;
+            // TODO: I am not sure this is what we want,
+            // but if we do, should it be applied to more pages?
+        }
+        
         a.back {
            font-size: 24px;
         }
