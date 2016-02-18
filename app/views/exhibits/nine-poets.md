@@ -139,7 +139,7 @@ Kennedy, X.J., ed. *An Introduction to Poetry.* Boston: Little, Brown and Compan
 
 Levine, George and Owen Thomas, eds. *The Scientist vs. The Humanist.* New York: W.W. Norton, 1963.
 
-Ruppel, Emily. "Opinion: MIT – poetry = a travesty." [*The Tech 130.52 (November 9, 2010).] (http://tech.mit.edu/V130/N52/ruppel.html). Accessed October 17, 2013.
+Ruppel, Emily. "Opinion: MIT – poetry = a travesty." [*The Tech* 130.52 (November 9, 2010).] (http://tech.mit.edu/V130/N52/ruppel.html). Accessed October 17, 2013.
 
 Smith, Dave. *Hunting Men: Reflections on a Life in American Poetry.* Baton Rouge: Louisiana State University Press, 2006.
 
