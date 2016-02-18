@@ -64,7 +64,10 @@ Or so it seemed ...
 The pity of this affectless, open-and-shut life inevitably ends in death, and the poem concludes with a cryptic reflection on the nature of Moody's demise, with Warren asserting that
 
 >
-If God short-changed Mr. Moody, it's time for Him To give up this godding business, and make way For somebody else to try, or an IBM. (*Collected* 170)
+If God short-changed Mr. Moody, it's time for Him<br/>
+To give up this godding business, and make way<br/>
+For somebody else to try, or an IBM.<br/>
+(*Collected* 170)
 
 Well, what *did* Warren say? Was Mr. Moody short-changed? Should God yield to another power, or an IBM? As Warren prefaced the poem to his audience at M.I.T.: "Here's a little poem that has an IBM machine in it; in fact it ends with one. You can take that as a tribute if you like." In combination, Warren's cryptic framing and titular interrogation would seem to puncture any illusion of consensus between humanists and scientists, positing nothing so much as a failure to communicate.
 
@@ -136,7 +139,7 @@ Kennedy, X.J., ed. *An Introduction to Poetry.* Boston: Little, Brown and Compan
 
 Levine, George and Owen Thomas, eds. *The Scientist vs. The Humanist.* New York: W.W. Norton, 1963.
 
-Ruppel, Emily. "Opinion: MIT – poetry = a travesty." [*The Tech 130.52 (November 9, 2010).] (http://tech.mit.edu/V130/N52/ruppel.html). Accessed October 17, 2013.
+Ruppel, Emily. "Opinion: MIT – poetry = a travesty." [*The Tech* 130.52 (November 9, 2010).] (http://tech.mit.edu/V130/N52/ruppel.html). Accessed October 17, 2013.
 
 Smith, Dave. *Hunting Men: Reflections on a Life in American Poetry.* Baton Rouge: Louisiana State University Press, 2006.
 
