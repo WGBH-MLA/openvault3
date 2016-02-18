@@ -14,7 +14,7 @@
 <div id="content" class="container-fluid">
   <%# Added container-fluid for a bit more padding so margins align. %>
   <% unless has_search_parameters? %>
-    <%# if there are no input/search related params, display the "home" partial -%>
+    <%# We should never get here, because we redirect to add the access facet. -%>
     <%= render 'home' %>
   <% else %>
     <%= render 'search_results' %>
