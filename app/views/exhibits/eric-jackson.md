@@ -40,7 +40,9 @@ relationships with the musicians. A key to the importance of what is expressed
 in the interviews has to do with Eric’s strong personal and emotional 
 connection with each artist and their collective appreciation and respect for 
 Jackson’s stature as a programmer, historian of the music, and member of the 
-community. METHOD AND SELECTION 
+community. 
+
+### Method and Selection 
 
 Over a six month period I spent time listening 
 to each interview, taking notes on the various topics and subjects of 
