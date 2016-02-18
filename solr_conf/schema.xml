@@ -566,7 +566,7 @@
    <field name="special_collection_tags" 
           type="string" indexed="true" stored="true" multiValued="true"/>
    
-   <field name="playlist" 
+   <field name="playlist_group" 
           type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="playlist_order" 
           type="string" indexed="true" stored="true" multiValued="false"/>

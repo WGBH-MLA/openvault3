@@ -151,13 +151,19 @@ describe 'Validated and plain PBCore' do
         scholar_exhibits: ['needlework'],
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
+        playlist_group: 'demo',
+        playlist_order: 1,
+        playlist_map: { 1 => 'A_00000000_MOCK', 2 => 'A_00B0C50853C64A71935737EF7A4DA66C' },
+        playlist_next_id: 'A_00B0C50853C64A71935737EF7A4DA66C',
+        playlist_prev_id: nil,
         extensions: %w(webm mp4),
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
         :id, :title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :access, :genres, :topics, :asset_type, :media_type,
-        :scholar_exhibits, :special_collections, :special_collection_tags)
+        :scholar_exhibits, :special_collections, :special_collection_tags,
+        :playlist_group, :playlist_order)
                              .merge(xml: pbc_xml,
                                     text: ['SERIES', 'PROGRAM', 'PROGRAM-NUMBER', 'ASSET', '12/31/1999',
                                            '1999', 'SERIES; PROGRAM; ASSET', 'SERIES-DESCRIPTION',

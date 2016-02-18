@@ -55,8 +55,8 @@
   <pbcoreAnnotation annotationType="Special Collection Tag">war_interview</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Scholar Exhibit">needlework</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Outside URL">http://americanarchive.org/</pbcoreAnnotation>
-  <pbcoreAnnotation annotationType="Playlist Group"/>
-  <pbcoreAnnotation annotationType="Playlist Order"/>
+  <pbcoreAnnotation annotationType="Playlist Group">demo</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Playlist Order">1</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Geoblock">--</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Password">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
