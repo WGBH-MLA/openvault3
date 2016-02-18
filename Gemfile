@@ -52,7 +52,6 @@ gem 'bootstrap-sass', '3.3.4.1'
 # TODO: remove when upsteam is fixed.
 # https://github.com/projecthydra/hydra-editor/commit/18737ec2
 gem 'cmless', '0.1.0'
-gem 'aws-sdk', '~> 2'
 
 gem 'htmlentities', '~> 4.3.2'
 gem 'curb' # curl
@@ -74,6 +73,7 @@ gem 'geoip'
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
+gem 'aws-sdk', '~> 2', :group => :development # Unless we want the AWS credentials on Travis for tests...
 
 gem 'rubocop', :group => :development
 gem 'pry', :group => :development
