@@ -13,8 +13,9 @@
            margin-top: 0;
            margin-bottom: $grid-gutter-width;
            h2 {
-               margin: 0;
+               margin: $grid-gutter-width*0.25 0;
            }
+           line-height: 1.2;
         }
     }
 }
