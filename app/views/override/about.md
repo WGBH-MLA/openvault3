@@ -45,10 +45,7 @@ to enable access to the materials in classrooms.
 The second project is an NEH funded project which will digitize and
 stream 254 original interviews (video and transcripts) produced for the
 broadcast *War and Peace in the Nuclear Age* on Open Vault. We are
-looking for matching support for these two projects. If you are interested in
-donating to the projects we encourage you to [support Open
-Vault](https://secure2.convio.net/wgbh/site/Donation2?idb=60465064&amp;df_id=1160&amp;1160.donation=form1&amp;JServSessionIdr004=rlnx4xvbp2.app13b),
-or [contact us](/contact-us).
+looking for matching support for these two projects.
 
 - Find us on [Facebook](https://www.facebook.com/wgbharchives).
 - Follow us on [Twitter](https://twitter.com/wgbharchives) @wgbharchives.
