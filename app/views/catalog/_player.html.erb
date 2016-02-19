@@ -46,16 +46,17 @@
         </div>
       <% end %>
       
-      <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-      <% if @pbcore.aapb_url %>
-        <%= verb %> online at the 
-          <a href="<%= @pbcore.aapb_url %>" target="_blank">American Archive of Public Broadcasting <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+      
+      <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
+        <% if site_url %>
+          <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+          <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
+          <%= verb %> online at the 
+          <a href="<%= site_url %>" target="_blank"><%= site_name %>
+            <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+        <% end %>
       <% end %>
-      <% if @pbcore.boston_tv_news_url %>
-        <%= verb %> online at the 
-          <a href="<%= @pbcore.boston_tv_news_url %>" target="_blank">Boston TV News Digital Library <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>.
-      <% end %>
-        
+      
       <% if @pbcore.playlist_group %>
         <div id="playlist" class="<%= media_col_class %>">
           <% if @pbcore.playlist_prev_id %>
