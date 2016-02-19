@@ -1,1 +1,12 @@
-<%= render partial: 'catalog/player' %>
+<%# Inline styles for now: we might make them URL params at some point? %>
+<div>
+  <div style="width: 380px; float: left;">
+    <%= render partial: 'catalog/player' %>
+  </div>
+  <h2>
+    <a href="/catalog/<%= @pbcore.id %>"><%= @pbcore.asset_title %></a>
+  </h2>
+  <p>
+    <%= @pbcore.asset_description.html_safe %>
+  </p>
+</div>
