@@ -48,14 +48,12 @@
       
       <% verb = @pbcore.video? ? 'View' : 'Listen' %>
       <% if @pbcore.aapb_url %>
-        <p><%= verb %> online at the 
-          <a href="<%= @pbcore.aapb_url %>" target="_blank">American Archive of Public Broadcasting <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>.
-        </p>
+        <%= verb %> online at the 
+          <a href="<%= @pbcore.aapb_url %>" target="_blank">American Archive of Public Broadcasting <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
       <% end %>
       <% if @pbcore.boston_tv_news_url %>
-        <p><%= verb %> online at the 
+        <%= verb %> online at the 
           <a href="<%= @pbcore.boston_tv_news_url %>" target="_blank">Boston TV News Digital Library <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>.
-        </p>
       <% end %>
         
       <% if @pbcore.playlist_group %>
