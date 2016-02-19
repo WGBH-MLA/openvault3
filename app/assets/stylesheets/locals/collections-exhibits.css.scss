@@ -25,7 +25,7 @@
         .info {
             font-size: 24px;
             h2 { 
-                font-weight: bold;
+                font-weight: $semibold;
                 font-size: 24px;
             }
         }
@@ -37,7 +37,7 @@
         .info {
             h2 {
               font-size: 30px; // Bigger font
-              font-weight: bold;
+              font-weight: $semibold;
               text-transform: uppercase;
             }
         }
@@ -49,7 +49,7 @@
         padding-top: 20px;
 
         p a {
-            font-weight: bold;
+            font-weight: $semibold;
             // TODO: I am not sure this is what we want,
             // but if we do, should it be applied to more pages?
         }

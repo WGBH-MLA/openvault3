@@ -3,13 +3,12 @@
         padding: 0.75 * $grid-gutter-width 1.5 * $grid-gutter-width;
         background: $medium-blue;
         font-size: 24px;
-        font-weight: bold;
+        font-weight: $bold;
         color: #FFF;
         a { 
-            font-weight: normal; 
+            font-weight: $medium;
             color: #FFF;
         }
-        
     }
     ul {
         padding: $grid-gutter-width/2;

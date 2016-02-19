@@ -57,7 +57,7 @@
                     .facet-values {
                         display: table-cell;
                         background: $pale-grey;
-                        font-weight: bold;
+                        font-weight: $medium;
                         width: auto; // BL defaults to 100%
                         .facet-label {
                             padding: 0px;
