@@ -1,9 +1,12 @@
 .tab {
-    display: inline;
+    display: inline-block;
+    width: 10em;
     padding: 1em;
     margin: 1em;
+    text-align: center;
     background: $yellow;
     color: $dark-blue;
+    &:hover { background: $pale-yellow; }
     &.tab-current {
         background: $medium-blue;
         color: #FFF;
