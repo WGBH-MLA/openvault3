@@ -13,14 +13,6 @@
       
       <%= render partial: 'player' %>
       
-      <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-      <% if @pbcore.aapb_url %>
-        <p><%= verb %> online at the <a href="<%= @pbcore.aapb_url %>">American Archive of Public Broadcasting</a>.</p>
-      <% end %>
-      <% if @pbcore.boston_tv_news_url %>
-        <p><%= verb %> online at the <a href="<%= @pbcore.boston_tv_news_url %>">Boston TV News Digital Library</a>.</p>
-      <% end %>
-      
       <dl>
         <% [
               {field: 'series_title', label: 'Series', facet_link: true},
