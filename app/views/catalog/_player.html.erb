@@ -9,9 +9,11 @@
       transcript_col_class = 'col-lg-8 col-md-7 col-sm-6 col-xs-12'
     %>
     <div class="<%= media_col_class %>">
-      <% if  @pbcore.audio? %>
+        
+      <% if @pbcore.audio? || @pbcore.proxy_srcs.empty? %>
         <%= tag('img', src: @pbcore.thumbnail_src) %>
       <% end %>
+      
       <% if geoblocked? %>
         <div> 
           <strong>Note:</strong> This content is not available in your region.
@@ -27,7 +29,7 @@
             }.to_query
           %>">contact us</a>.
         </div>
-      <% else %>
+      <% elsif !@pbcore.proxy_srcs.empty? %>
         <div>
           <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                         controls: true, id: 'player-media',
@@ -43,6 +45,17 @@
           <% end %>
         </div>
       <% end %>
+      
+      <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+      <% if @pbcore.aapb_url %>
+        <%= verb %> online at the 
+          <a href="<%= @pbcore.aapb_url %>" target="_blank">American Archive of Public Broadcasting <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+      <% end %>
+      <% if @pbcore.boston_tv_news_url %>
+        <%= verb %> online at the 
+          <a href="<%= @pbcore.boston_tv_news_url %>" target="_blank">Boston TV News Digital Library <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>.
+      <% end %>
+        
       <% if @pbcore.playlist_group %>
         <div id="playlist" class="<%= media_col_class %>">
           <% if @pbcore.playlist_prev_id %>
@@ -53,12 +66,13 @@
           <% end %>
         </div>
       <% end %>
+        
     </div>
   <% end %>
   <% if @pbcore.transcript_src %>
-      <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
-              class="<%= transcript_col_class %>" 
-              frameBorder="0" height="400"></iframe>
+    <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
+            class="<%= transcript_col_class %>" 
+            frameBorder="0" height="400"></iframe>
   <% end %>    
   <div class="clearfix"></div>
 </div>
