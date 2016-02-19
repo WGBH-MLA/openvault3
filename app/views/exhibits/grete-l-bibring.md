@@ -1462,5 +1462,3 @@ TODO
 #### Olga Umansky, MLS 
 
 Umansky has been an archivist and a head librarian of the Boston Psychoanalytic Society and Institute since 2007. She is in charge of many archival initiatives, including conversion of the society audio archives into a digital format, collection of new oral histories, implementation of XML finding aids, digital imaging, web publishing, online exhibits, and historic research. Most recently, Olga has been leading an effort of several co-authors to publish a new biography of Grete Bibring. In addition to her archivist's duties, Olga manages a busy research library for member psychoanalysts, students, and independent researchers. Graduate of the Simmons College GSLIS of 1997, Olga holds a BA in Philology from the Kharkov State University, and is a member of the New England Archivists (NEA). Her previous careers included library database design at Wolters Kluwer/Ovid Technologies, technical product management at SilverPlatter Information, processing of archival collections at the Boston Public Library, and radio journalism in Ukraine.
-
-## extra

@@ -22,7 +22,3 @@ WGBH.
 ## Record
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_record)
-
-## extra
-
-TODO Extra

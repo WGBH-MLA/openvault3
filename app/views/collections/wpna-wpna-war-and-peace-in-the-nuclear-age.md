@@ -31,7 +31,3 @@ contacting the WGBH Media Library and Archives.
 ## Stock Footage
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=war_stock_footage)
-
-## extra
-
-TODO Extra

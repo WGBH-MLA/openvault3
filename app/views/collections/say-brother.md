@@ -22,7 +22,3 @@ conversations with distinct voices from the African American community.
 ## Records
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=sb_record)
-
-## extra
-
-TODO Extra

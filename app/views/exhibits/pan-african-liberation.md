@@ -141,5 +141,3 @@ Parrott is an International Security Studies Pre-Doctoral Fellow at Yale Univers
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Brenda Gayle Plummer works at the University of Wisconsin-Madison in the departments of History and Afro-American Studies. Plummer is the author of books and essays on race and foreign affairs, and African American and Caribbean history.
-
-## extra

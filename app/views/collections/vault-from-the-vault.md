@@ -27,8 +27,6 @@ and back out into the world.
 
 TODO
 
-## extra
-
 ### Related Links
 
 - [WGBH Alumni](http://wgbhalumni.org)

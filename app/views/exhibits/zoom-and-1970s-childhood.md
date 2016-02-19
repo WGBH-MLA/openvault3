@@ -40,5 +40,3 @@ TODO
 ## Authors
 
 TODO
-
-## extra

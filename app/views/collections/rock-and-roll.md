@@ -22,7 +22,3 @@ contains interviews created for the series.
 ## Programs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=rock_program)
-
-## extra
-
-TODO Extra

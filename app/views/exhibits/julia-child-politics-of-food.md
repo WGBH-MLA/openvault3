@@ -203,5 +203,3 @@ Deutsch is associate professor of history at the University of Minnesota. She te
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Elaine Tyler May, Regents Professor of American Studies and History at the University of Minnesota, writes about 20th-Century United States History. Her books include studies of American families in the Cold War era, marriage and divorce in the Progressive era, childlessness and birth control, and co-edited collections on American popular culture in an international context, and the relationship between memoir and history.
-
-## extra
