@@ -32,8 +32,3 @@ and digitized for preservation and access.
 ## Programs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_programs)
-
-## extra
-
-TODO Extra
-

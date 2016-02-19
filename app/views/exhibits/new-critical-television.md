@@ -141,5 +141,3 @@ Cooper is Professor of Film and Media Studies at the University of South Carolin
 
 ### John Marx
 Marx is Professor of English at the University of California, Davis and an Editor of the journal Contemporary Literature. He is at work on a solo book entitled "Mega: How Mass Media Make Contemporary Cities" and is collaborating with University of South Carolina film scholar and archivist Mark Garrett Cooper on a project called "Mass Media and the Humanities Workforce." He is the author most recently of Geopolitics and the Anglophone Novel, 1890-2011 (Cambridge UP, 2012)
-
-## extra

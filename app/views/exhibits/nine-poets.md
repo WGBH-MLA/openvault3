@@ -335,5 +335,3 @@ Jim Cocola works as an Assistant Professor of Literature, Film, and Media in the
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Alison Hawthorne Deming
-
-## extra

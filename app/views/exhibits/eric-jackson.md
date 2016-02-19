@@ -123,5 +123,3 @@ Brown is a professional musician (saxophonist, composer, & arranger), teacher, e
 
 Brown is also co-founder & producer of Boston’s annual John Coltrane Memorial Concert (friendsofjcmc.org). Established in 1977, this annual performance tribute to John Coltrane’s musical and spiritual legacy is the oldest event of its kind in the world.
 He has received Distinguished Scholar awards from the University of Massachusetts/Boston and the John D. O’Bryant African American Institute at Northeastern University. He is principal contributor to the book Kansas City…And All That’s Jazz, a history of the Kansas City jazz legacy published by Andrews McMeel in 1999. Brown’s recent publications are *John Coltrane and Black America’s Quest for Freedom: Spirituality and the Music*, released by Oxford University Press in August 2010 and *Boston’s Jazz Legend: The Al Vega Story*, a self-published work released in June 2011.
-
-## extra

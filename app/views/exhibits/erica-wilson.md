@@ -301,5 +301,3 @@ Marsha MacDowell, Ph.D. Marsha is Curator, Michigan State University Museum,
 and Professor, Department of Art, Art History, and Design, Michigan State 
 University. Her research foci includes traditional material culture (especially 
 quilts), folk arts and education, and museum theory and practice. 
-
-## extra

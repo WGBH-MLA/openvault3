@@ -15,8 +15,3 @@ Robert Maynard. (Premiered October, 1969; conceived by Prof. Roger Fisher.)
 ## Full Program Video
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=advocates_full_program)
-
-
-## extra
-
-TODO Extra

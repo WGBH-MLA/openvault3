@@ -365,5 +365,3 @@ Perry is a PhD Candidate at UCLA in History, in the field of History of Science,
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Philip Scepanski (PhD, Northwestern University) currently teaches in the Department of Communication and Theatre at Concordia University Chicago. His current research combines media theory and American television history to examine the ways in which comedy engages moments of American "national trauma" like the JFK assassination, the 1992 Los Angeles riots, and 9/11.
-
-## extra

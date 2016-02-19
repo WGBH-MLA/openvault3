@@ -24,7 +24,3 @@ Luther King Jr.’s historic “I have a dream” speech.
 ## Photographs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=mow_photographs)
-
-## extra
-
-TODO Extra

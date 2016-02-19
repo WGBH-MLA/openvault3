@@ -193,5 +193,3 @@ Originally hailing from Rhode Island, John Campopiano studied ethnomusicology at
 
 ### Credits
 Advisers Consulted During the Creation of this Collection were Dr. Ross Harvey, an Adjunct Professor at RMIT University, Melbourne, Australia who was Visiting Professor at GSLIS, Simmons College, from 2008 to 2013; & Matthew Spry.
-
-## extra

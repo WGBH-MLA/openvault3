@@ -199,5 +199,3 @@ Polan is a Professor of Cinema Studies in the Tisch School of the Arts at New Yo
 
 ### Additional Credits
 Adviser Consulted During the Creation of this Collection: William Boddy is a Professor in the Department of Communication Studies at Baruch College of the City University of New York and the author of *Fifties Television: The Industry and Its Critics* and *New Media and Popular Imagination: Launching Radio, Television, and New Media in the United States*.
-
-## extra
