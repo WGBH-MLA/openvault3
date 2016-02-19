@@ -79,11 +79,34 @@ TODO
 
 ## Related Content
 
-TODO
+[The Vanderbilt University Special Collections and University Archives has an extensive collection of documents related to The Advocates, including transcripts of a number of its shows. This link will take you to a list of the available collections.](http://www.library.vanderbilt.edu/speccol/findingaids/advocates.pdf)
+
+[While out of print, John D. May compiled and edited a number of transcripts from The Advocates into a book, AMERICAN PROBLEMS: WHAT SHOULD BE DONE? DEBATES FROM “THE ADVOCATES” (1973). There are transcripts in the book, edited by Mr. May for clarity, on such topics as congressional seniority, public financing of political campaigns, preventative detention, and nuclear power, among others.](http://discoverlibrary.vanderbilt.edu/primo_library/libweb/action/dlDisplay.do?docId=vanunicorn417580&institution=VAN&bulkSize=1&dym=true&highlight=true&lang=eng)
+
+[The Historical and Special Collections of the Harvard Law School Library has an extensive collection of materials about The Advocates from Roger Fisher’s personal papers](http://www.law.harvard.edu/library/)
+
+[Profile of Professor Fisher in Harvard magazine](http://harvardmagazine.com/2004/03/doctor-yes.html)
+
+[Interview with Professor Fisher](http://www.youtube.com/watch?v=OuHjGTVs624)
+
+[Professor Fisher’s obituary in the New York Times](http://www.harvardlawreview.org/media/pdf/vol126_fisher_tribute.pdf)
+
+[Profile of Professor Fisher by his former co-author and colleague, Bruce Patton](http://cognoscenti.wbur.org/2012/09/03/roger-fisher-bruce-patton)
+
+[An article by a former colleague, HBS Professor James Sebenius, What Roger Fisher Got Profoundly Right: Five Enduring Lessons for Negotiators, NEGOTIATION JOURNAL, April, 2013, at 159.](http://onlinelibrary.wiley.com/doi/10.1111/nejo.12014/full)
+
+[Profile of Roger from the Harvard Law School](http://www.law.harvard.edu/news/2012/08/27_roger_fisher_1922_2012.html)
+
+[Symposium, Ideas and Impact; Roger Fisher’s Legacy, including videos of four panels of former colleagues and scholars conducted by the HARVARD NEGOTIATION LAW REVIEW on March 1, 2013](http://www.hnlr.org/symposium-central/symposium2013/)
+
+[Finally, the author, Professor Lisle Baker, has continued to do work in public affairs television in his home community of Newton, Massachusetts while serving as a member of its elected city council, The Board of Aldermen, consisting of a series of interviews with local officials and citizens on Newton Community Television, or NewTV, called “Aldermen at Work.”](http://www.aldermenatwork.org/)
 
 ## Authors
 
 ### R. Lisle Baker 
 Baker is a professor of law at Suffolk University Law School in Boston, where he teaches courses on property, mediation, and planning for law as a career and enterprise. While he was an associate in the Boston firm of Hill & Barlow, he was selected as one of the two regular Boston advocates to appear during 1969-70 in the first season of Professor Roger Fisher’s Peabody Award-winning television show, *The Advocates*. In addition to writing on issues related to psychology and dispute resolution for both the Harvard Negotiation Law Review and The Negotiation Journal, he has written elsewhere on such topics as settling appeals of land use decisions within the framework of the open meeting law, conflicts between beneficial but neighboring uses of land, using betterment assessments to help pay for open space, ethical limits on attorney contact with local zoning officials, and taxing gains from land speculation. He is an honors graduate of Williams College and Harvard Law School. He has also served for almost thirty years as an elected alderman in Newton, Massachusetts, and won an award for his cable TV series of interviews about Newton government, available at [www.aldermanatwork.org](http://www.aldermanatwork.org).
+
+### Credits
+Adviser Consulted During the Creation of this Collection: Gerald Clark
 
 ## extra
