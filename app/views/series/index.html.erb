@@ -15,7 +15,7 @@
         </div>
         <ul>
           <% group.each do |pair| %>
-            <li><a href="/catalog?f[series_title][]=<%= CGI.escape(pair.first) %>">
+            <li><a href="/catalog?<%= {f: {access: [PBCore::ALL], series_title: [pair.first]}}.to_query %>">
               <%= pair.first %> (<%= pair.second %>)
             </a></li>
           <% end %>
