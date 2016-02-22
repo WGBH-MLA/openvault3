@@ -539,13 +539,19 @@ TODO
 
 ## Related Content
 
-* [Northeastern University: Freedom House – Birmingham to Boston](http://www.lib.neu.edu/archives/freedom_house/Birmingham.htm)
-* [Northeastern University: African American Identity & Activism](http://www.lib.neu.edu/archives/voices/aa-political-intro.htm)
-* [Focus Western New England: The Freedom Riders, 50 Years Later, New England Public Radio: WFCR News](http://www.publicbroadcasting.net/wfcr/news.newsmain?action=article&ARTICLE_ID=1786545
-* [WBUR-Boston: Melanie McNair, grand-daughter of Melnea Cass - Boston Voices Remember The March On Washington, by Delores Handy August 27, 2013](http://www.wbur.org/2013/08/27/boston-voices-march-on-washington)
-* [Sarah Ann Shaw Rising Class Story](http://www.youtube.com/watch?v=p3tniv4B998)
-* [Boston Rising Conversation Series, discussion with Mel King and Hubie Jones](http://www.youtube.com/watch?v=2d1-H2CgXuk)
-* [Blacks in Boston: A Fifty Year Retrospective, Hubie Jones assistant to chancellor, Urban Affairs, UMass Boston](http://www.masshist.org/streaming/video-posts/blacks-in-boston%5E2003-02-20)
+[Northeastern University: Freedom House – Birmingham to Boston](http://www.lib.neu.edu/archives/freedom_house/Birmingham.htm)
+
+[Northeastern University: African American Identity & Activism](http://www.lib.neu.edu/archives/voices/aa-political-intro.htm)
+
+[Focus Western New England: The Freedom Riders, 50 Years Later, New England Public Radio: WFCR News](http://www.publicbroadcasting.net/wfcr/news.newsmain?action=article&ARTICLE_ID=1786545)
+
+[WBUR-Boston: Melanie McNair, grand-daughter of Melnea Cass - Boston Voices Remember The March On Washington, by Delores Handy August 27, 2013](http://www.wbur.org/2013/08/27/boston-voices-march-on-washington)
+
+[Sarah Ann Shaw Rising Class Story](http://www.youtube.com/watch?v=p3tniv4B998)
+
+[Boston Rising Conversation Series, discussion with Mel King and Hubie Jones](http://www.youtube.com/watch?v=2d1-H2CgXuk)
+
+[Blacks in Boston: A Fifty Year Retrospective, Hubie Jones assistant to chancellor, Urban Affairs, UMass Boston](http://www.masshist.org/streaming/video-posts/blacks-in-boston%5E2003-02-20)
 
 
 ## Authors
