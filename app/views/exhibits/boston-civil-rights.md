@@ -535,7 +535,7 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=boston_civil_rights)
 
 ## Related Content
 

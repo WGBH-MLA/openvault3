@@ -75,7 +75,7 @@ TODO
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=advocates)
 
 ## Related Content
 
