@@ -1,7 +1,16 @@
 require 'rails_helper'
 require_relative '../support/validation_helper'
+require_relative '../../scripts/lib/pb_core_ingester'
 
 describe 'Special Collections' do
+  before(:all) do
+    PBCoreIngester.load_fixtures
+    Collection.each do |col|
+      # Clear cached values so that solr will be re-queried to support lists.
+      col.instance_variable_set(:@tabs, nil)
+    end
+  end
+
   it 'at least loads the index page' do
     visit '/collections'
     expect(page.status_code).to eq(200)
@@ -13,5 +22,12 @@ describe 'Special Collections' do
     expect(page.status_code).to eq(200)
     expect(page).to have_text('The Advocates')
     expect_fuzzy_xml
+  end
+  it 'has short titles' do
+    visit '/collections/vietnam-the-vietnam-collection/interviews'
+    # Shared prefix removed:
+    expect(page.html).to match(/>\s*same program; different asset title\s*</)
+    # Even more removed if we see "Interview":
+    expect(page.html).to match(/>\s*Interview with XYZ is kept\s*/)
   end
 end

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
+  <pbcoreAssetType>Original footage</pbcoreAssetType>
+  <pbcoreIdentifier source="Open Vault UID">A_FAKE_1</pbcoreIdentifier>
+  <pbcoreTitle titleType="Series">same series</pbcoreTitle>
+  <pbcoreTitle titleType="Program">almost same program</pbcoreTitle>
+  <pbcoreTitle titleType="Open Vault Title">different asset title</pbcoreTitle>
+  <pbcoreDescription descriptionType="Series Description">(at least one description required by schema.)</pbcoreDescription>
+  <pbcoreAnnotation annotationType="Special Collection Tag">vietnam_interview</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Media Type">Video</pbcoreAnnotation>
+</pbcoreDescriptionDocument>
