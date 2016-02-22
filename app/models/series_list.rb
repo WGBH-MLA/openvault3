@@ -1,9 +1,9 @@
 require 'set'
 
 class SeriesList
-  def initialize(series_online = nil, series_all = nil) # Optional params only for tests
-    series_online ||= SeriesList.series_facet(true)
+  def initialize(series_all = nil, series_online = nil) # Optional params only for tests
     series_all ||= SeriesList.series_facet(false)
+    series_online ||= SeriesList.series_facet(true)
 
     pairs = Hash[series_all.keys.map do |title|
       [

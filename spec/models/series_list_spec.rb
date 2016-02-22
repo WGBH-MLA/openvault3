@@ -3,7 +3,7 @@ require_relative '../../app/models/series_list'
 describe SeriesList do
   def h(n)
     # just an abbreviation to keep the tests readable
-    { online: n, all: nil }
+    { all: n, online: nil }
   end
   it 'does basic grouping and sorting' do
     grouped = SeriesList.new({ 'MOUSE' => 1,
