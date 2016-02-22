@@ -182,31 +182,42 @@ TODO
 
 ## Related Content
 
-- [Audio portion of the JFK Interview with Mrs. Eleanor Roosevelt on the President's Commission on the Status of Women.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHA-085-005.aspx)
+#### [Interview with JFK on the President's Commission on the Status of Women](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHA-085-005.aspx)
+Audio portion of the JFK Interview with Mrs. Eleanor Roosevelt on the President's Commission on the Status of Women.
 
-- [John F. Kennedy’s speech when accepting the Commission on the Status of Women’s final report, American Women, on October 11, 1963. This is the speech John F. Kennedy gave at the October 11, 1963 at the ceremony held for the completion of the Commission’s Report, “American Women.”](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHA-230-007.aspx)
+#### [John F. Kennedy’s speech accepting the Commission on the Status of Women’s final report, American Women, on October 11, 1963.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHA-230-007.aspx) 
+This is the speech John F. Kennedy gave at the October 11, 1963 at the ceremony held for the completion of the Commission’s Report, “American Women.”
 
-- [Makers: Women Who Made America website. Three-part digital initiative from PBS and AOL featuring oral history interviews and historical footage of the Women’s Movement and women’s contribution to America.](http://video.pbs.org/program/makers-women-who-make-america/)
+#### [Makers: Women Who Made America](http://video.pbs.org/program/makers-women-who-make-america/)
+Three-part digital initiative from PBS and AOL featuring oral history interviews and historical footage of the Women’s Movement and women’s contribution to America.
 
-- [President John F. Kennedy and Commission leaders. This photo shows six key figures of the Commission: (L-R) Secretary-Treasurer of American Federation of Labor and Congress of Industrial Organizations (AFL-CIO), William F. Schnitzler; Chairwoman of the President’s Commission on the Status of Women, Eleanor Roosevelt; Chairman of the Civil Service Commission, John W. Macy, Jr.; Representative Edith Green of Oregon; President Kennedy; Vice-chairman of the President’s Commission on the Status of Women, Dr. Richard A. Lester; Assistant Secretary of Labor Esther (Eggertsen) Peterson.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-AR7035-A.aspx)
+#### [President John F. Kennedy and Commission leaders](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-AR7035-A.aspx) 
+This photo shows six key figures of the Commission: (L-R) Secretary-Treasurer of American Federation of Labor and Congress of Industrial Organizations (AFL-CIO), William F. Schnitzler; Chairwoman of the President’s Commission on the Status of Women, Eleanor Roosevelt; Chairman of the Civil Service Commission, John W. Macy, Jr.; Representative Edith Green of Oregon; President Kennedy; Vice-chairman of the President’s Commission on the Status of Women, Dr. Richard A. Lester; Assistant Secretary of Labor Esther (Eggertsen) Peterson.
 
-- [Photo: President John F. Kennedy signing the Equal Pay Act June 10, 1963](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-AR7965-F.aspx)
+[Photo: President John F. Kennedy signing the Equal Pay Act June 10, 1963](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-AR7965-F.aspx)
 
-- [Second Photo of President John F. Kennedy signing the Equal Pay Act](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-ST-304-8-63.aspx)
+[Second Photo of President John F. Kennedy signing the Equal Pay Act](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKWHP-ST-304-8-63.aspx)
 
-- [Executive Order 10980: The original executive order from the National Archives signed by President John F. Kennedy on December 13, 1961.](http://research.archives.gov/description/300011)
+####[Executive Order 10980](http://research.archives.gov/description/300011)
+The original executive order from the National Archives signed by President John F. Kennedy on December 13, 1961.
 
-- [Statement of the President on the Establishment of the President’s Commission on the Status of Women- The statement issued upon the establishment of the Commission.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKPOF-093-004.aspx)
+#### [Statement of the President on the Establishment of the President’s Commission on the Status of Women](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKPOF-093-004.aspx) 
+The statement issued upon the establishment of the Commission.
 
-- [American Women, The final Report of the President's Commission on the Status of Women- Digitized copy of American Women, the final report of the President’s Commission on the Status of Women submitted to the president on October 11, 1963, provided by the Hathitrust Trust Digital Library.](http://babel.hathitrust.org/cgi/pt?id=mdp.39015016913678;view=1up;seq=3)
+#### [American Women, The final Report of the President's Commission on the Status of Women](http://babel.hathitrust.org/cgi/pt?id=mdp.39015016913678;view=1up;seq=3) 
+Digitized copy of American Women, the final report of the President’s Commission on the Status of Women submitted to the president on October 11, 1963, provided by the Hathitrust Trust Digital Library.
 
-- [The Equal Pay Act of 1963- This text includes the Equal Pay Act of 1963 signed by President Kennedy on June 10, 1963 which is an amendment to the Fair Labor Standards Act of 1938.](http://www.dol.gov/oasam/regs/statutes/equal_pay_act.htm)
+#### [The Equal Pay Act of 1963](http://www.dol.gov/oasam/regs/statutes/equal_pay_act.htm)
+This text includes the Equal Pay Act of 1963 signed by President Kennedy on June 10, 1963 which is an amendment to the Fair Labor Standards Act of 1938.
 
-- [Esther Peterson, Oral History 5-18-66 - Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-02.aspx)
+#### [Esther Peterson, Oral History 5-18-66](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-02.aspx) 
+Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.
 
-- [Esther Peterson, Oral History 1-20-70 - Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-03.aspx)
+#### [Esther Peterson, Oral History 1-20-70](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-03.aspx)
+Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.
 
-- [Esther Peterson, Oral History 2-11-70 - Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-04.aspx)
+#### [Esther Peterson, Oral History 2-11-70](http://www.jfklibrary.org/Asset-Viewer/Archives/JFKOH-EEP-04.aspx)
+Esther (Eggertson) Peterson provided several oral history Interviews to document her work in politics. The 1966 interview discusses her work with Kennedy as Senator. The two later interviews discuss the details of President’s Commission on the Status of Women. – From the digital collections at the JFK Library.
 
 ## Authors
 
