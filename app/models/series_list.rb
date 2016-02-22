@@ -1,15 +1,20 @@
-class SeriesList
-  def initialize(pairs = nil)
-    pairs ||= Hash[
-      RSolr.connect(url: 'http://localhost:8983/solr/')
-      .get('select', params: {
-             'facet.field' => 'series_title',
-             'facet' => 'true',
-             'rows' => '0',
-             'f.series_title.facet.limit' => -1
-           }
-          )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
+require 'set'
 
+class SeriesList
+  def initialize(series_online = nil, series_all = nil) # Optional params only for tests
+    series_online ||= SeriesList.series_facet(true)
+    series_all ||= SeriesList.series_facet(false)
+
+    pairs = Hash[(series_online.keys + series_all.keys).to_set.map do |title|
+      [
+        title, 
+        {
+          online: series_online[title], 
+          all: series_all[title]
+        }
+      ]
+    end]
+  
     pairs.each_pair.group_by do |pair|
       char = SeriesList.strip_article(pair.first)[0].upcase
       case char
@@ -36,6 +41,23 @@ class SeriesList
   class << self
     def strip_article(s)
       s.match(/^\s*((a|an|the)\s+)?(.*)/im)[3]
+    end
+    
+    def series_facet(online_only)
+      solr_params = {
+        'facet.field' => 'series_title',
+        'facet' => 'true',
+        'rows' => '0',
+        'f.series_title.facet.limit' => -1
+      }
+      solr_params['fq'] = 'access:"' + PBCore::ONLINE + '"' if online_only
+      # Solr only accepts double-quote here.
+      
+      Hash[
+        RSolr.connect(url: 'http://localhost:8983/solr/')
+        .get(
+          'select', params: solr_params
+        )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
     end
   end
 end
