@@ -1,11 +1,11 @@
-<h1>
+<h1 class="page-title">
   <%= item.title_html %>
 </h1>
 
 <% if item.respond_to?(:author) %>
-  <h2 class="byline">
+  <div class="byline">
     By <%= item.author.html_safe %>
-  </h2>
+  </div>
 <% end %>
 
 <div class="pull-left col-sm-4" >

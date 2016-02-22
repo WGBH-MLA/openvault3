@@ -13,8 +13,9 @@
            margin-top: 0;
            margin-bottom: $grid-gutter-width;
            h2 {
-               margin: 0;
+               margin: $grid-gutter-width*0.25 0;
            }
+           line-height: 1.2;
         }
     }
 }
@@ -24,7 +25,7 @@
         .info {
             font-size: 24px;
             h2 { 
-                font-weight: bold;
+                font-weight: $semibold;
                 font-size: 24px;
             }
         }
@@ -36,7 +37,7 @@
         .info {
             h2 {
               font-size: 30px; // Bigger font
-              font-weight: bold;
+              font-weight: $semibold;
               text-transform: uppercase;
             }
         }
@@ -45,14 +46,24 @@
 
 .blacklight-collections-show,.blacklight-exhibits-show {
     #main-container {
-      
+        padding-top: 20px;
+
+        p a {
+            font-weight: $semibold;
+            // TODO: I am not sure this is what we want,
+            // but if we do, should it be applied to more pages?
+        }
+        
         a.back {
            font-size: 24px;
         }
 
+        h1.page-title {
+          padding-bottom: 10px;
+        }
+
         .byline {
-            margin-top: 0px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         div.pull-left img {

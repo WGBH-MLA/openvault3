@@ -57,7 +57,7 @@
                     .facet-values {
                         display: table-cell;
                         background: $pale-grey;
-                        font-weight: bold;
+                        font-weight: $medium;
                         width: auto; // BL defaults to 100%
                         .facet-label {
                             padding: 0px;
@@ -113,18 +113,20 @@
     
     #content {
         padding-top: $grid-gutter-width/2;
+
+        .page_links {
+            // This is cleaner than the spec, but we can revisit.
+            .arrow { display: none; }
+            a {
+                &:hover { text-decoration: none; }
+                .arrow { display: inline; }
+            }
+        }
+        
         #sortAndPerPage {
             border: none; // Default has line at bottom.
             padding: 0px;
             margin: 0px;
-            .page_links {
-                // This is cleaner than the spec, but we can revisit.
-                .arrow { display: none; }
-                a {
-                    &:hover { text-decoration: none; }
-                    .arrow { display: inline; }
-                }
-            }
             #per_page-dropdown { display: none; } // Not in spec.
         }
          // But what should we do for sm and xs? TODO.

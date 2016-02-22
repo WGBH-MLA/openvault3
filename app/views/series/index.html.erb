@@ -15,10 +15,9 @@
         </div>
         <ul>
           <% group.each do |pair| %>
-            <a href="/catalog?f[series_title][]=<%= CGI.escape(pair.first) %>">
+            <li><a href="/catalog?f[series_title][]=<%= CGI.escape(pair.first) %>">
               <%= pair.first %> (<%= pair.second %>)
-            </a>
-            <br/>
+            </a></li>
           <% end %>
         </ul>
       <% end %>

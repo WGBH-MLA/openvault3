@@ -3,15 +3,16 @@
 <% end %>
 
 <div class="container-fluid">
+  <% col_class = 'col-md-11 col-lg-9' %>
   <div class="row">
-    <div class="col-md-12">
+    <div class="<%= col_class %>">
       <a href="/<%= parent %>" class="back"><%= t(parent) %></a>
       <%= render partial: 'shared/above_tabs', locals: {item: item} %>
     </div>
   </div>
   <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra', 'author']}%>
   <div class="row">
-    <div class="col-md-12">
+    <div class="<%= col_class %>">
       <% item.tabs[params[:tab]].tap do |current_tab| %>
         <% if current_tab.respond_to?(:each) %>
           <% top_docs = current_tab[0..11] %>
