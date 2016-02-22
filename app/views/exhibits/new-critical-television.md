@@ -125,14 +125,21 @@ TODO
 
 ## Related Content
 
-- [The Boston Globe published this obituary for Richards's producer Lewis Barlow.](http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?page=lifestory&pid=119563865)
-- [The Harvard Crimson online edition includes several stories about WGBH and about Richards.](http://www.thecrimson.com/)
-- [The Indiana University Libraries Film Archive cares for programs produced by National Educational Television.](http://libraries.iub.edu/?pageId=1002886)
-- [I. A. Richards' Wikipedia entry.](http://en.wikipedia.org/wiki/I._A._Richards)
-- [An open online edition of Practical Criticism is here.](https://archive.org/details/practicalcritici030142mbp)
-- [The University of Maryland Libraries holds archival materials related to the creation of the Public Broadcast Service.](http://digital.lib.umd.edu/archivesum/rguide/pbs.jsp)
-- [Purdue University's Online Writing Lab defines formalism in this overview of the history of literary theory and criticism.](https://owl.english.purdue.edu/owl/resource/722/03/)
-- [Mark Cooper and John Marx have a blog related to this project.](http://humanitiesafterhollywood.org/)
+[The Boston Globe published this obituary for Richards's producer Lewis Barlow.](http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?page=lifestory&pid=119563865)
+
+[The Harvard Crimson online edition includes several stories about WGBH and about Richards.](http://www.thecrimson.com/)
+
+[The Indiana University Libraries Film Archive cares for programs produced by National Educational Television.](http://libraries.iub.edu/?pageId=1002886)
+
+[I. A. Richards' Wikipedia entry.](http://en.wikipedia.org/wiki/I._A._Richards)
+
+[An open online edition of Practical Criticism is here.](https://archive.org/details/practicalcritici030142mbp)
+
+[The University of Maryland Libraries holds archival materials related to the creation of the Public Broadcast Service.](http://digital.lib.umd.edu/archivesum/rguide/pbs.jsp)
+
+[Purdue University's Online Writing Lab defines formalism in this overview of the history of literary theory and criticism.](https://owl.english.purdue.edu/owl/resource/722/03/)
+
+[Mark Cooper and John Marx have a blog related to this project.](http://humanitiesafterhollywood.org/)
 
 ## Authors
 
