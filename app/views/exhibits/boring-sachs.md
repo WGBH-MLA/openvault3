@@ -325,10 +325,13 @@ TODO
 
 ## Related Content
 
-* [Stevens, S.S. Edwin Garrigues Boring, 1886—1968: A biographical Memoir. National Academy of Science](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/boring-edwin-g.pdf)
-* [Edwin G. Boring's entry on Wikipedia](http://en.wikipedia.org/wiki/Edwin_Boring)
-* [Hanns Sachs Biography in the Gale Dictionary of Psychoanalysis](http://www.answers.com/topic/sachs-hanns)
-* [Secrets of a Soul: A Psychoanalytic Film (silent, black & white, Germany, 1926), which Hanns Sachs and Karl Abraham consulted per director's, G.W.Pabst's request](http://www.youtube.com/watch?v=dvaJ5m5uuzE)
+[Stevens, S.S. Edwin Garrigues Boring, 1886—1968: A biographical Memoir. National Academy of Science](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/boring-edwin-g.pdf)
+
+[Edwin G. Boring's entry on Wikipedia](http://en.wikipedia.org/wiki/Edwin_Boring)
+
+[Hanns Sachs Biography in the Gale Dictionary of Psychoanalysis](http://www.answers.com/topic/sachs-hanns)
+
+[Secrets of a Soul: A Psychoanalytic Film (silent, black & white, Germany, 1926), which Hanns Sachs and Karl Abraham consulted per director's, G.W.Pabst's request](http://www.youtube.com/watch?v=dvaJ5m5uuzE)
 
 ## Authors
 
