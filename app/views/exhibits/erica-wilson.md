@@ -137,45 +137,44 @@ TODO
 
 ## Related Content
 
-### The Quilt Index
-
-- [The Quilt Index](http://www.quiltindex.org/) is a free, open access project 
-of Matrix, Michigan State University Museum, and the Quilt Alliance. [The Quilt 
+### [The Quilt Index](http://www.quiltindex.org/) 
+A free, open access project of Matrix, Michigan State University Museum, and the Quilt Alliance. [The Quilt 
 Index is a searchable repository of digital photographs, texts (oral, video, 
 and written), and documents pertaining to quilts, quiltmakers, and 
 quilt-related activities. As of January 2013, it contains more than 50,000 
 digital representations of quilts from museums, libraries, archives, research 
-projects, and private individuals from around the world.
+projects, and private individuals from around the world. 
 
-- [Hmong Embroidery](http://www.quiltindex.org/search_results.php?pattern_name=&quilter=&quilting_group=&quilt_id=&overall_loc=&city_made=&state_made=Any+State&province_made=&country_made=&period=Any&start_year=&end_year=&owner_name=&qproject=Any&collection=Any&predom_color=&): In his 90 Seconds with… episode, Chang Xiong 
+#### [Hmong Embroidery](http://www.quiltindex.org/search_results.php?pattern_name=&quilter=&quilting_group=&quilt_id=&overall_loc=&city_made=&state_made=Any+State&province_made=&country_made=&period=Any&start_year=&end_year=&owner_name=&qproject=Any&collection=Any&predom_color=&) 
+In his 90 Seconds with… episode, Chang Xiong 
 discusses his embroidery based in the tradition of the Hmong people of Vietnam.
 
-- [Inspiration from Children’s Literature](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5F): Erica 
-Wilson frequently used illustrations and characters from children’s literature, 
+#### [Inspiration from Children’s Literature](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5F)
+Erica Wilson frequently used illustrations and characters from children’s literature, 
 especially the works of Beatrix Potter, as inspiration for needlework designs. 
 Additionally, in her episode of 90 Seconds with…, quiltmaker Ann Brauer 
 discussed how stories such as Alice’s Adventures in Wonderland have inspired 
 her quilts. All of these quilts were inspired by classics of children’s 
 literature
 
-- [Animal Motifs](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5D): 
+#### [Animal Motifs](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5D) 
 Erica Wilson was very fond of animals and devoted Erica episode “Creatures 
 Great and Small” to depictions of animals in needlework. All of these quilts 
 feature animals, mostly in appliqué designs.
 
-- [English Template Piecing](http://www.quiltindex.org/search_results.php?sortby=ID+Number%28first-last%29&keywords=stuffed+work&search=go): Erica Wilson demonstrates a paper 
-piecing method for making even patchwork in the “Patchwork” episode of Erica. 
+#### [English Template Piecing](http://www.quiltindex.org/search_results.php?sortby=ID+Number%28first-last%29&keywords=stuffed+work&search=go)
+Erica Wilson demonstrates a paper piecing method for making even patchwork in the “Patchwork” episode of Erica. 
 All of these quilts on the Quilt Index used paper piecing, often called 
 “English template piecing” in the United States, in their construction.
 
-- [Quilt Patterns](http://www.quiltindex.org/browsepattern.php):  In the 
-“Patchwork,” episode of the Erica show, Erica Wilson showed many different 
+#### [Quilt Patterns](http://www.quiltindex.org/browsepattern.php)
+In the “Patchwork,” episode of the Erica show, Erica Wilson showed many different 
 traditional quilt patterns, such Carolina Lily, crazy quilts, Dresden Plate, 
 Drunkard’s Path, Hexagon Mosaic, Log Cabin, and Trip Around the World. All of 
 these patterns and many more are illustrated here
 
-- [Quilts and Human Rights](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-18): Much of 
-Chang Xiong’s work deals with the refugee experience and the Vietnam War. For 
+#### [Quilts and Human Rights](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-18)
+Much of Chang Xiong’s work deals with the refugee experience and the Vietnam War. For 
 more quilts depicting human rights issues, see Mary Worrall, Marsha MacDowell, 
 and Lynee Swanson’s exhibit, Quilts and Human Rights.
 
