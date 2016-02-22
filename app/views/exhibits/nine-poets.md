@@ -161,172 +161,171 @@ TODO
 
 ## Related Content
 
+[Resource Page on John Ciardi via poetryfoundation.org](http://www.poetryfoundation.org/bio/john-ciardi)
 
-- [Resource Page on John Ciardi via poetryfoundation.org](http://www.poetryfoundation.org/bio/john-ciardi)
+[Resource Page on John Ciardi via poets.org](http://www.poets.org/poet.php/prmPID/680)
 
-- [Resource Page on John Ciardi via poets.org](http://www.poets.org/poet.php/prmPID/680)
+[Resource Page on John Ciardi via wikipedia.org](http://en.wikipedia.org/wiki/John_Ciardi)
 
-- [Resource Page on John Ciardi via wikipedia.org](http://en.wikipedia.org/wiki/John_Ciardi)
+[Ciardi, John. The Collected Poems of John Ciardi. Ed. Edward M. Cifelli. Fayetteville: University of Arkansas Press, 1997.](http://books.google.com/books?id=qkcmAjKXJn0C)
 
-- [Ciardi, John. The Collected Poems of John Ciardi. Ed. Edward M. Cifelli. Fayetteville: University of Arkansas Press, 1997.](http://books.google.com/books?id=qkcmAjKXJn0C)
+[Ciardi, John. The Hopeful Trout and Other Limericks. New York: Houghton Mifflin Harcourt, 1992](http://books.google.com/books?id=YLEq7VcKq1MC)
 
-- [Ciardi, John. The Hopeful Trout and Other Limericks. New York: Houghton Mifflin Harcourt, 1992](http://books.google.com/books?id=YLEq7VcKq1MC)
+[Ciardi, John. Saipan: The War Diary of John Ciardi. Fayetteville: University of Arkansas Press, 1988.](http://books.google.com/books?id=DqWpnDoni3AC)
 
-- [Ciardi, John. Saipan: The War Diary of John Ciardi. Fayetteville: University of Arkansas Press, 1988.](http://books.google.com/books?id=DqWpnDoni3AC)
+[Ciardi, John. You Read to Me, I'll Read to You. New York: HarperCollins, 1987.](http://books.google.com/books?id=WOCJB3KmxrUC)
 
-- [Ciardi, John. You Read to Me, I'll Read to You. New York: HarperCollins, 1987.](http://books.google.com/books?id=WOCJB3KmxrUC)
+[Cifelli, Edward M. John Ciardi: A Biography. Fayetteville: University of Arkansas Press, 1988.](http://books.google.com/books?id=_HWNsvwhRWUC)
 
-- [Cifelli, Edward M. John Ciardi: A Biography. Fayetteville: University of Arkansas Press, 1988.](http://books.google.com/books?id=_HWNsvwhRWUC)
+[Clemente, Vince, ed. John Ciardi: Measure of the Man. Fayetteville: University of Arkansas Press, 1987.](http://books.google.com/books?id=0W1AkxEVwA8C)
 
-- [Clemente, Vince, ed. John Ciardi: Measure of the Man. Fayetteville: University of Arkansas Press, 1987.](http://books.google.com/books?id=0W1AkxEVwA8C)
+[Resource Page on David Ferry via poetryfoundation.org](http://www.poetryfoundation.org/bio/david-ferry)
 
-- [Resource Page on David Ferry via poetryfoundation.org](http://www.poetryfoundation.org/bio/david-ferry)
+[Resource Page on David Ferry via poets.org](http://www.poets.org/poet.php/prmPID/332)
 
-- [Resource Page on David Ferry via poets.org](http://www.poets.org/poet.php/prmPID/332)
+[Resource Page on David Ferry via wikipedia.org](http://en.wikipedia.org/wiki/David_Ferry_%28poet%29)
 
-- [Resource Page on David Ferry via wikipedia.org](http://en.wikipedia.org/wiki/David_Ferry_%28poet%29)
+[Ferry, David. Bewilderment: New Poems and Translations. Chicago: University of Chicago Press, 2012.](http://books.google.com/books?id=kPeOleGRgBQC)
 
-- [Ferry, David. Bewilderment: New Poems and Translations. Chicago: University of Chicago Press, 2012.](http://books.google.com/books?id=kPeOleGRgBQC)
+[Ferry, David. Of No Country I Know: New and Selected Poems and Translations. Chicago: University of Chicago Press, 1999.](http://books.google.com/books?id=WXRFpW6bVzYC)
 
-- [Ferry, David. Of No Country I Know: New and Selected Poems and Translations. Chicago: University of Chicago Press, 1999.](http://books.google.com/books?id=WXRFpW6bVzYC)
+[Resource Page on Robert Graves via poetryfoundation.org](http://www.poetryfoundation.org/bio/robert-graves)
 
-- [Resource Page on Robert Graves via poetryfoundation.org](http://www.poetryfoundation.org/bio/robert-graves)
+[Resource Page on Robert Graves via poets.org](http://www.poets.org/poet.php/prmPID/193)
 
-- [Resource Page on Robert Graves via poets.org](http://www.poets.org/poet.php/prmPID/193)
+[Resource Page on Robert Graves via wikipedia.org](http://en.wikipedia.org/wiki/Robert_Graves)
 
-- [Resource Page on Robert Graves via wikipedia.org](http://en.wikipedia.org/wiki/Robert_Graves)
+[Graves, Robert. The Common Asphodel: Collected Essays on Poetry, 1922-1949. New York: Haskell House, 1949.](http://books.google.com/books?id=dDw7sdhIdlEC)
 
-- [Graves, Robert. The Common Asphodel: Collected Essays on Poetry, 1922-1949. New York: Haskell House, 1949.](http://books.google.com/books?id=dDw7sdhIdlEC)
+[Graves, Robert. Conversations With Robert Graves. Ed. Frank L. Kersnowski. Jackson: University Press of Mississippi, 1989.](http://books.google.com/books?id=B-hxaHat4kYC)
 
-- [Graves, Robert. Conversations With Robert Graves. Ed. Frank L. Kersnowski. Jackson: University Press of Mississippi, 1989.](http://books.google.com/books?id=B-hxaHat4kYC)
+[Graves, Robert. Country Sentiment. New York: Alfred A. Knopf, 1920](http://books.google.com/books?id=OVRLAAAAMAAJ)
 
-- [Graves, Robert. Country Sentiment. New York: Alfred A. Knopf, 1920](http://books.google.com/books?id=OVRLAAAAMAAJ)
+[Graves, Robert. On English Poetry: Being an Irregular Approach to the Psychology of this Art, From Evidence Mainly Subjective. New York: Alfred A. Knopf, 1922.](http://books.google.com/books?id=uawCAAAAMAAJ)
 
-- [Graves, Robert. On English Poetry: Being an Irregular Approach to the Psychology of this Art, From Evidence Mainly Subjective. New York: Alfred A. Knopf, 1922.](http://books.google.com/books?id=uawCAAAAMAAJ)
+[Graves, Robert. Fairies and Fusiliers. New York: Alfred A. Knopf, 1918](http://books.google.com/books?id=t1sWAAAAYAAJ)
 
-- [Graves, Robert. Fairies and Fusiliers. New York: Alfred A. Knopf, 1918](http://books.google.com/books?id=t1sWAAAAYAAJ)
+[Graves, Robert. Poetic Unreason. New York: Biblo and Tannen, 1968.](http://books.google.com/books?id=PZaz2LynqdcC)
 
-- [Graves, Robert. Poetic Unreason. New York: Biblo and Tannen, 1968.](http://books.google.com/books?id=PZaz2LynqdcC)
+[Graves, Robert. The White Goddess. London: Faber & Faber, 2010.](http://books.google.com/books?id=XHwaVK17cf0C)
 
-- [Graves, Robert. The White Goddess. London: Faber & Faber, 2010.](http://books.google.com/books?id=XHwaVK17cf0C)
+[Carter, D. N. G. Robert Graves: The Lasting Poetic Achievement. London: Macmillan Press, 1989.](http://books.google.com/books?id=Nf7G26gWrrEC)
 
-- [Carter, D. N. G. Robert Graves: The Lasting Poetic Achievement. London: Macmillan Press, 1989.](http://books.google.com/books?id=Nf7G26gWrrEC)
+[Firla, Ian, and Grevel Lindop, eds. Graves and the Goddess: Essays on Robert Graves's The White Goddess. Selinsgrove: Susquehanna University Press, 2003.](http://books.google.com/books?id=q_4UQ7SVOokC)
 
-- [Firla, Ian, and Grevel Lindop, eds. Graves and the Goddess: Essays on Robert Graves's The White Goddess. Selinsgrove: Susquehanna University Press, 2003.](http://books.google.com/books?id=q_4UQ7SVOokC)
+[X. J. Kennedy reading in 1964, 1965, and 1971 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/kennedy.cfm)
 
-- [X. J. Kennedy reading in 1964, 1965, and 1971 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/kennedy.cfm)
+[Resource Page on X. J. Kennedy via poetryfoundation.org](http://www.poetryfoundation.org/bio/x-j-kennedy)
 
-- [Resource Page on X. J. Kennedy via poetryfoundation.org](http://www.poetryfoundation.org/bio/x-j-kennedy)
+[Resource Page on X.J. Kennedy via poets.org](http://www.poets.org/poet.php/prmPID/634)
 
-- [Resource Page on X.J. Kennedy via poets.org](http://www.poets.org/poet.php/prmPID/634)
+[Resource Page on Kennedy via wikipedia.org](http://en.wikipedia.org/wiki/X._J._Kennedy)
 
-- [Resource Page on Kennedy via wikipedia.org](http://en.wikipedia.org/wiki/X._J._Kennedy)
+[Kennedy, X. J. In a Prominent Bar in Secaucus: New and Selected Poems, 1955–2007. Baltimore: Johns Hopkins University Press, 2007.](http://books.google.com/books?id=TTGP_e39liwC)
 
-- [Kennedy, X. J. In a Prominent Bar in Secaucus: New and Selected Poems, 1955–2007. Baltimore: Johns Hopkins University Press, 2007.](http://books.google.com/books?id=TTGP_e39liwC)
+[Kennedy, X. J. Peeping Tom's Cabin: Comic Verse, 1928-2008. Buffalo: BOA Editions, Ltd., 2007.](http://books.google.com/books?id=InQD2v2zSywC)
 
-- [Kennedy, X. J. Peeping Tom's Cabin: Comic Verse, 1928-2008. Buffalo: BOA Editions, Ltd., 2007.](http://books.google.com/books?id=InQD2v2zSywC)
+[Kennedy, X. J. "X.J. Kennedy." Fourteen on Form. Ed. William Baer. Jackson: University Press of Mississippi, 2004. 237-254](http://books.google.com/books?id=VQHOkVGDshkC&pg=PA237#v=onepage&q&f=false)
 
-- [Kennedy, X. J. "X.J. Kennedy." Fourteen on Form. Ed. William Baer. Jackson: University Press of Mississippi, 2004. 237-254](http://books.google.com/books?id=VQHOkVGDshkC&pg=PA237#v=onepage&q&f=false)
+[Morris, Bernard E. Taking Measure: The Poetry and Prose of X.J. Kennedy. Selinsgrove: Susquehanna University Press, 2003.](http://books.google.com/books?id=Xjsw2kgNHg8C)
 
-- [Morris, Bernard E. Taking Measure: The Poetry and Prose of X.J. Kennedy. Selinsgrove: Susquehanna University Press, 2003.](http://books.google.com/books?id=Xjsw2kgNHg8C)
+[Levertov reading in 1960, 1962, and 1986 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/levertov.cfm)
 
-- [Levertov reading in 1960, 1962, and 1986 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/levertov.cfm)
+[Resource Page on Denise Levertov via poetryfoundation.org](http://www.poetryfoundation.org/bio/denise-levertov)
 
-- [Resource Page on Denise Levertov via poetryfoundation.org](http://www.poetryfoundation.org/bio/denise-levertov)
+[Resource Page on Denise Levertov via poets.org](http://www.poets.org/poet.php/prmPID/41)
 
-- [Resource Page on Denise Levertov via poets.org](http://www.poets.org/poet.php/prmPID/41)
+[Resource Page on Denise Levertov via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/g_l/levertov/levertov.htm)
 
-- [Resource Page on Denise Levertov via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/g_l/levertov/levertov.htm)
+[Resource Page on Denise Levertov via wikipedia.org](http://en.wikipedia.org/wiki/Denise_Levertov)
 
-- [Resource Page on Denise Levertov via wikipedia.org](http://en.wikipedia.org/wiki/Denise_Levertov)
+[Duncan, Robert, and Denise Levertov. The Letters of Robert Duncan and Denise Levertov. Ed. Robert J. Bertholf and Albert Gelpi. Stanford: Stanford University Press, 2004.](http://books.google.com/books?id=CAqYY92xGykC)
 
-- [Duncan, Robert, and Denise Levertov. The Letters of Robert Duncan and Denise Levertov. Ed. Robert J. Bertholf and Albert Gelpi. Stanford: Stanford University Press, 2004.](http://books.google.com/books?id=CAqYY92xGykC)
+[Levertov, Denise. Conversations With Denise Levertov. Ed. Jewel Spears Brooker. Jackson: University Press of Mississippi, 1998.](http://books.google.com/books?id=J0Ly9rX6e54C)
 
-- [Levertov, Denise. Conversations With Denise Levertov. Ed. Jewel Spears Brooker. Jackson: University Press of Mississippi, 1998.](http://books.google.com/books?id=J0Ly9rX6e54C)
+[Levertov, Denise. Collected Earlier Poems: 1940-1960. New York: New Directions, 1979.](http://books.google.com/books?id=jB-KufsozNoC)
 
-- [Levertov, Denise. Collected Earlier Poems: 1940-1960. New York: New Directions, 1979.](http://books.google.com/books?id=jB-KufsozNoC)
+[Levertov, Denise. The Life Around Us: Selected Poems on Nature. New York: New Directions, 1997.](http://books.google.com/books?id=dlQpm2lnQ7kC)
 
-- [Levertov, Denise. The Life Around Us: Selected Poems on Nature. New York: New Directions, 1997.](http://books.google.com/books?id=dlQpm2lnQ7kC)
+[Levertov, Denise. New and Selected Essays. New York: New Directions, 1992](http://books.google.com/books?id=hsUGhNOeSakC)
 
-- [Levertov, Denise. New and Selected Essays. New York: New Directions, 1992](http://books.google.com/books?id=hsUGhNOeSakC)
+[Levertov, Denise. Poems 1972-1982. New York: New Directions, 2001.](http://books.google.com/books?id=5wPj5fKfV7cC)
 
-- [Levertov, Denise. Poems 1972-1982. New York: New Directions, 2001.](http://books.google.com/books?id=5wPj5fKfV7cC)
+[Levertov, Denise. Selected Poems. New York: New Directions, 2003.](http://books.google.com/books?id=mzl8htmcE_MC)
 
-- [Levertov, Denise. Selected Poems. New York: New Directions, 2003.](http://books.google.com/books?id=mzl8htmcE_MC)
+[Levertov, Denise. The Stream & the Sapphire: Selected Poems on Religious Themes. New York: New Directions, 1997.](http://books.google.com/books?id=u5RNyyZUbs4C)
 
-- [Levertov, Denise. The Stream & the Sapphire: Selected Poems on Religious Themes. New York: New Directions, 1997.](http://books.google.com/books?id=u5RNyyZUbs4C)
+[Levertov, Denise. Tesserae: Memories & Suppositions. New York: New Directions, 1996.](http://books.google.com/books?id=CzhIf8XTFXsC)
 
-- [Levertov, Denise. Tesserae: Memories & Suppositions. New York: New Directions, 1996.](http://books.google.com/books?id=CzhIf8XTFXsC)
+[Gelpi, Albert, ed. Denise Levertov: Selected Criticism. Ann Arbor: University of Michigan Press, 1993.](http://books.google.com/books?id=-T-cBzdy2cEC)
 
-- [Gelpi, Albert, ed. Denise Levertov: Selected Criticism. Ann Arbor: University of Michigan Press, 1993.](http://books.google.com/books?id=-T-cBzdy2cEC)
+[Greene, Dana. Denise Levertov: A Poet's Life. Champaign-Urbana: University of Illinois Press, 2012.](http://books.google.com/books?id=PInsxeoDrP8C)
 
-- [Greene, Dana. Denise Levertov: A Poet's Life. Champaign-Urbana: University of Illinois Press, 2012.](http://books.google.com/books?id=PInsxeoDrP8C)
+[Hollenberg, Donna. A Poet's Revolution: The Life of Denise Levertov. Berkeley: University of California Press, 2013.](http://books.google.com/books?id=ivd6ZDzZdFwC)
 
-- [Hollenberg, Donna. A Poet's Revolution: The Life of Denise Levertov. Berkeley: University of California Press, 2013.](http://books.google.com/books?id=ivd6ZDzZdFwC)
+[Rodgers, Audrey T. Denise Levertov: The Poetry of Engagement. Madison: Fairleigh Dickinson University Press, 1993.](http://books.google.com/books?id=xz6tD-7tn8oC)
 
-- [Rodgers, Audrey T. Denise Levertov: The Poetry of Engagement. Madison: Fairleigh Dickinson University Press, 1993.](http://books.google.com/books?id=xz6tD-7tn8oC)
+[Resource Page on Mark Van Doren via poetryfoundation.org](http://www.poetryfoundation.org/bio/mark-van-doren)
 
-- [Resource Page on Mark Van Doren via poetryfoundation.org](http://www.poetryfoundation.org/bio/mark-van-doren)
+[Resource Page on Mark Van Doren via wikipedia.org](http://en.wikipedia.org/wiki/Mark_Van_Doren)
 
-- [Resource Page on Mark Van Doren via wikipedia.org](http://en.wikipedia.org/wiki/Mark_Van_Doren)
+[Van Doren, Mark. 7 P.M. & Other Poems. New York: Albert and Charles Boni, 1926.](http://books.google.com/books?id=RYywAAAAIAAJ)
 
-- [Van Doren, Mark. 7 P.M. & Other Poems. New York: Albert and Charles Boni, 1926.](http://books.google.com/books?id=RYywAAAAIAAJ)
+[Maddocks, Melvin. "Close-Up: Van Doren at 75: A Complex Poet Who Talks Calmly in a Troubled Time." Life. June 20, 1969. 64-67.](http://books.google.com/books?id=e08EAAAAMBAJ&pg=PA64#v=onepage&q&f=false)
 
-- [Maddocks, Melvin. "Close-Up: Van Doren at 75: A Complex Poet Who Talks Calmly in a Troubled Time." Life. June 20, 1969. 64-67.](http://books.google.com/books?id=e08EAAAAMBAJ&pg=PA64#v=onepage&q&f=false)
+[Robert Penn Warren reading in 1967 and 1969 via the woodberry poetry room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/warren.cfm)
 
-- [Robert Penn Warren reading in 1967 and 1969 via the woodberry poetry room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/warren.cfm)
+[Resource Page on Robert Penn Warren via poetryfoundation.org](http://www.poetryfoundation.org/bio/robert-penn-warren)
 
-- [Resource Page on Robert Penn Warren via poetryfoundation.org](http://www.poetryfoundation.org/bio/robert-penn-warren)
+[Resource Page on Robert Penn Warren via poets.org](http://www.poets.org/poet.php/prmPID/17)
 
-- [Resource Page on Robert Penn Warren via poets.org](http://www.poets.org/poet.php/prmPID/17)
+[Resource Page on Robert Penn Warren via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/s_z/warren/warren.htm)
 
-- [Resource Page on Robert Penn Warren via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/s_z/warren/warren.htm)
+[Resource Page on Robert Penn Warren via wikipedia.org](http://en.wikipedia.org/wiki/Robert_Penn_Warren)
 
-- [Resource Page on Robert Penn Warren via wikipedia.org](http://en.wikipedia.org/wiki/Robert_Penn_Warren)
+[Warren, Robert Penn. The Collected Poems of Robert Penn Warren. Ed. John Burt. Baton Rouge: Louisiana State University Press, 1998.](http://books.google.com/books?id=tBMN6gmiA6EC)
 
-- [Warren, Robert Penn. The Collected Poems of Robert Penn Warren. Ed. John Burt. Baton Rouge: Louisiana State University Press, 1998.](http://books.google.com/books?id=tBMN6gmiA6EC)
+[Warren, Robert Penn. Conversations With Robert Penn Warren. Ed. Gloria L. Cronin, Ben Siegel. Jackson: University Press of Mississippi, 2005.](http://books.google.com/books?id=UZSwBcwpb6kC)
 
-- [Warren, Robert Penn. Conversations With Robert Penn Warren. Ed. Gloria L. Cronin, Ben Siegel. Jackson: University Press of Mississippi, 2005.](http://books.google.com/books?id=UZSwBcwpb6kC)
+[Warren, Robert Penn. Democracy and Poetry. Cambridge: Harvard University Press, 1975.](http://books.google.com/books?id=79fhTyJ5swoC)
 
-- [Warren, Robert Penn. Democracy and Poetry. Cambridge: Harvard University Press, 1975.](http://books.google.com/books?id=79fhTyJ5swoC)
+[Warren, Robert Penn. Selected Poems of Robert Penn Warren. Ed. John Burt. Baton Rouge: Louisiana State University Press, 2001.](http://books.google.com/books?id=ZjFyQN4JpZgC)
 
-- [Warren, Robert Penn. Selected Poems of Robert Penn Warren. Ed. John Burt. Baton Rouge: Louisiana State University Press, 2001.](http://books.google.com/books?id=ZjFyQN4JpZgC)
+[Runyon, Randolph. Ghostly Parallels: Robert Penn Warren And the Lyric Poetic Sequence. Knoxville: University of Tennessee Press, 2006.](http://books.google.com/books?id=o_M-NZLRmqgC)
 
-- [Runyon, Randolph. Ghostly Parallels: Robert Penn Warren And the Lyric Poetic Sequence. Knoxville: University of Tennessee Press, 2006.](http://books.google.com/books?id=o_M-NZLRmqgC)
+[Runyon, Randolph. The Braided Dream: Robert Penn Warren's Late Poetry. Lexington: University Press of Kentucky, 1990.](http://books.google.com/books?id=a_KqGy_B880C)
 
-- [Runyon, Randolph. The Braided Dream: Robert Penn Warren's Late Poetry. Lexington: University Press of Kentucky, 1990.](http://books.google.com/books?id=a_KqGy_B880C)
+[Resource Page on Theodore Weiss via poetryfoundation.org](http://www.poetryfoundation.org/bio/theodore-weiss)
 
-- [Resource Page on Theodore Weiss via poetryfoundation.org](http://www.poetryfoundation.org/bio/theodore-weiss)
+[Resource Page on Theodore Weiss via wikipedia.org](http://en.wikipedia.org/wiki/Theodore_Weiss_%28poet%29)
 
-- [Resource Page on Theodore Weiss via wikipedia.org](http://en.wikipedia.org/wiki/Theodore_Weiss_%28poet%29)
+[Weiss, Theodore. A Sum of Destructions: Poems. Baton Rouge: Louisiana State University Press, 1994.](http://books.google.com/books?id=HOdzyktY6jsC)
 
-- [Weiss, Theodore. A Sum of Destructions: Poems. Baton Rouge: Louisiana State University Press, 1994.](http://books.google.com/books?id=HOdzyktY6jsC)
+[Weiss, Theodore. Selected Poems. Evanston: Northwestern University Press, 1995.](http://books.google.com/books?id=ru5BqZNA2eAC)
 
-- [Weiss, Theodore. Selected Poems. Evanston: Northwestern University Press, 1995.](http://books.google.com/books?id=ru5BqZNA2eAC)
+[Richard Wilbur reading in 1950 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/wilbur.cfm)
 
-- [Richard Wilbur reading in 1950 via the Woodberry Poetry Room at Harvard University](http://hcl.harvard.edu/poetryroom/listeningbooth/poets/wilbur.cfm)
+[Resource Page on Richard Wilbur via poetryfoundation.org](http://www.poetryfoundation.org/bio/richard-wilbur)
 
-- [Resource Page on Richard Wilbur via poetryfoundation.org](http://www.poetryfoundation.org/bio/richard-wilbur)
+[Resource Page on Richard Wilbur via poets.org](http://www.poets.org/poet.php/prmPID/202)
 
-- [Resource Page on Richard Wilbur via poets.org](http://www.poets.org/poet.php/prmPID/202)
+[Resource Page on Richard Wilbur via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/s_z/wilbur/wilbur.htm)
 
-- [Resource Page on Richard Wilbur via the Modern American Poetry Site, at the University of Illinois](http://www.english.illinois.edu/Maps/poets/s_z/wilbur/wilbur.htm)
+[Resource Page on Richard Wilbur via wikipedia.org](http://en.wikipedia.org/wiki/Richard_Wilburur)
 
-- [Resource Page on Richard Wilbur via wikipedia.org](http://en.wikipedia.org/wiki/Richard_Wilburur)
+[Wilbur, Richard. Anterooms: New Poems and Translations. New York: Houghton Mifflin Harcourt, 2010.](http://books.google.com/books?id=FJhzJHk3jQIC)
 
-- [Wilbur, Richard. Anterooms: New Poems and Translations. New York: Houghton Mifflin Harcourt, 2010.](http://books.google.com/books?id=FJhzJHk3jQIC)
+[Wilbur, Richard. Conversations With Richard Wilbur. Ed. William Butts. Jackson: University Press of Mississippi, 1990.](http://books.google.com/books?id=QRR8U-6KVlkC)
 
-- [Wilbur, Richard. Conversations With Richard Wilbur. Ed. William Butts. Jackson: University Press of Mississippi, 1990.](http://books.google.com/books?id=QRR8U-6KVlkC)
+[Wilbur, Richard. New and Collected Poems. New York: Houghton Mifflin Harcourt, 1989.](http://books.google.com/books?id=SfnzVd1xVhcC)
 
-- [Wilbur, Richard. New and Collected Poems. New York: Houghton Mifflin Harcourt, 1989.](http://books.google.com/books?id=SfnzVd1xVhcC)
+[Wilbur, Richard. Opposites, More Opposites, and a Few Differences. New York: Houghton Mifflin Harcourt, 2000.](http://books.google.com/books?id=ScBRIk387eUC)
 
-- [Wilbur, Richard. Opposites, More Opposites, and a Few Differences. New York: Houghton Mifflin Harcourt, 2000.](http://books.google.com/books?id=ScBRIk387eUC)
+[Wilbur, Richard. Poems Of Richard Wilbur. New York: Houghton Mifflin Harcourt, 1963.](http://books.google.com/books?id=LXbM1ysAGGwC)
 
-- [Wilbur, Richard. Poems Of Richard Wilbur. New York: Houghton Mifflin Harcourt, 1963.](http://books.google.com/books?id=LXbM1ysAGGwC)
+[Wilbur, Richard. "Richard Wilbur" Fourteen on Form. Ed. William Baer. Jackson: University Press of Mississippi, 2004. 3-20.](http://books.google.com/books?id=VQHOkVGDshkC&pg=PA3#v=onepage&q&f=false)
 
-- [Wilbur, Richard. "Richard Wilbur" Fourteen on Form. Ed. William Baer. Jackson: University Press of Mississippi, 2004. 3-20.](http://books.google.com/books?id=VQHOkVGDshkC&pg=PA3#v=onepage&q&f=false)
-
-- [Michelson, Bruce. Wilbur's Poetry: Music in Scattering Time. Amherst: University of Massachusetts Press, 1991.](http://books.google.com/books?id=0SQ7ca1Sa8wC)
+[Michelson, Bruce. Wilbur's Poetry: Music in Scattering Time. Amherst: University of Massachusetts Press, 1991.](http://books.google.com/books?id=0SQ7ca1Sa8wC)
 
 ## Authors
 
