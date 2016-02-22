@@ -178,7 +178,7 @@ With Kennedy and Roosevelt both gone, the public struggled on its own to raise t
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=showing_status)
 
 ## Related Content
 

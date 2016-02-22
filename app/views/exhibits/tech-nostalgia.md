@@ -170,7 +170,7 @@ In this paper my goal was to introduce the topic of tech-nostalgia, provide exam
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=tech-nostalgia)
 
 ## Related Content
 

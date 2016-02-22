@@ -185,7 +185,7 @@ What makes *The French Chef* significant and impactful, I want to argue, is prec
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=julia_child)
 
 ## Related Content
 

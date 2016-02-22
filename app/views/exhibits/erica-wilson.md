@@ -133,7 +133,7 @@ Unlike the much more renowned Julia Child, Erica Wilson’s contribution and leg
 
 ## Media
 
-TODO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=needlework)
 
 ## Related Content
 

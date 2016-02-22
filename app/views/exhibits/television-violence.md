@@ -342,7 +342,7 @@ Unlike other media panics, *Frontline*’s “Does TV Kill” was not inspired b
 
 ## Media
 
-TO DO
+[](http://localhost:3000/catalog?f[scholar_exhibits][]=television_violence)
 
 ## Related Content
 
