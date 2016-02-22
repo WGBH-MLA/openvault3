@@ -346,17 +346,27 @@ TO DO
 
 ## Related Content
 
-- [1972 Surgeon General Report - “Television and Growing Up: The Impact of Televised Violence. Report to the Surgeon General, United States Public Health Service”](http://profiles.nlm.nih.gov/NN/B/C/G/X/)
-- [Albert Bandura](http://en.wikipedia.org/wiki/Albert_Bandura)
-- [Bandura’s bobo doll experiment](http://en.wikipedia.org/wiki/Bobo_doll_experiment)
-- [Media Violence Research](http://en.wikipedia.org/wiki/Media_violence_research)
-- [Code of Practices for Television Broadcasters, 1951](http://www.tvhistory.tv/SEAL-Good-Practice.htm)
-- [LBJ Speech to the Nation on Civil Disorders (July 27, 1967)](http://millercenter.org/president/speeches/detail/4040)
-- [Bandura’s bobo doll experiment on YouTube](http://youtu.be/hHHdovKHDNU)
-- [Code of Practices for Television Broadcasters, 1951](http://www.tvhistory.tv/SEAL-Good-Practice.htm)
-- [History of Federal Lawmakers Considering the Problem of Media Violence](http://www.stanford.edu/class/comm127/history.html)
-- [Impact of Media on Families and Children - President Clinton, 1995](http://www.c-spanvideo.org/program/Mediaon)
-- [Murder of James Bulger](http://en.wikipedia.org/wiki/Murder_of_James_Bulger)
+[1972 Surgeon General Report - “Television and Growing Up: The Impact of Televised Violence. Report to the Surgeon General, United States Public Health Service”](http://profiles.nlm.nih.gov/NN/B/C/G/X/)
+
+[Albert Bandura](http://en.wikipedia.org/wiki/Albert_Bandura)
+
+[Bandura’s bobo doll experiment](http://en.wikipedia.org/wiki/Bobo_doll_experiment)
+
+[Media Violence Research](http://en.wikipedia.org/wiki/Media_violence_research)
+
+[Code of Practices for Television Broadcasters, 1951](http://www.tvhistory.tv/SEAL-Good-Practice.htm)
+
+[LBJ Speech to the Nation on Civil Disorders (July 27, 1967)](http://millercenter.org/president/speeches/detail/4040)
+
+[Bandura’s bobo doll experiment on YouTube](http://youtu.be/hHHdovKHDNU)
+
+[Code of Practices for Television Broadcasters, 1951](http://www.tvhistory.tv/SEAL-Good-Practice.htm)
+
+[History of Federal Lawmakers Considering the Problem of Media Violence](http://www.stanford.edu/class/comm127/history.html)
+
+[Impact of Media on Families and Children - President Clinton, 1995](http://www.c-spanvideo.org/program/Mediaon)
+
+[Murder of James Bulger](http://en.wikipedia.org/wiki/Murder_of_James_Bulger)
 
 ## Authors
 

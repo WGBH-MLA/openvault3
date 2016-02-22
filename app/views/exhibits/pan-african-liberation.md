@@ -120,19 +120,26 @@ TODO
 
 ## Related Content
 
-- [**Malcolm X and the Expansion of Pan-African Identity**: For some of the early explorations of this black international thought, see the archive of The Liberator published by the New York based Liberation Committee for Africa](http://domesticdiversity.com/mainpages/liberator%20issues.html)
+#### [Malcolm X and the Expansion of Pan-African Identity](http://domesticdiversity.com/mainpages/liberator%20issues.html) 
+For some of the early explorations of this black international thought, see the archive of The Liberator published by the New York based Liberation Committee for Africa
 
-- [**African Liberation Diplomacy**: Mondlane had limited success lobbying the American government, which provided some moneys for refugee education to FRELIMO’s school in Dar Es Salaam through the auspices of the Ford Foundation. For Bobby Kennedy’s assessment of the leader, see Kennedy Dictabelts Conversation, 18B.3, Miller Center.](http://millercenter.org/presidentialrecordings)
+#### [African Liberation Diplomacy](http://millercenter.org/presidentialrecordings)
+Mondlane had limited success lobbying the American government, which provided some moneys for refugee education to FRELIMO’s school in Dar Es Salaam through the auspices of the Ford Foundation. For Bobby Kennedy’s assessment of the leader, see Kennedy Dictabelts Conversation, 18B.3, Miller Center.
 
-- [**African Liberation as Model**: A Luta Continua was one of nearly a dozen films screened about the Portuguese and African revolutions created during this period. Many of these films depicted the socialist parties as models for emulation or as gaining victories for racial equality at the global level. A digitized version of the A Luta Continua discussion guide is available from the African Activist Archive.](http://kora.matrix.msu.edu/files/50/304/32-130-22D-84-african_activist_archive-a0a8y0-b_12419.pdf)
+#### [African Liberation as Model](http://kora.matrix.msu.edu/files/50/304/32-130-22D-84-african_activist_archive-a0a8y0-b_12419.pdf)
+A Luta Continua was one of nearly a dozen films screened about the Portuguese and African revolutions created during this period. Many of these films depicted the socialist parties as models for emulation or as gaining victories for racial equality at the global level. A digitized version of the A Luta Continua discussion guide is available from the African Activist Archive.
 
-- [A clip from Margaret Dickinson’s British film Behind the Lines, widely screened in the United States before *A Luta Continua*, is available on YouTube.](http://www.youtube.com/watch?v=hP7IzF1KnPo)
+#### [*Behind the Lines*](http://www.youtube.com/watch?v=hP7IzF1KnPo) 
+Margaret Dickinson’s British film, widely screened in the United States before *A Luta Continua*
 
-- [In addition, Zambizanga by French-African director Sarah Maldoror dramatizes the Angolan Revolution and had regular showings throughout the country.](http://www.youtube.com/watch?v=TVXWIBmjkSg)
+#### [*Zambizanga*](http://www.youtube.com/watch?v=TVXWIBmjkSg) 
+By French-African director Sarah Maldoror, dramatizes the Angolan Revolution and had regular showings throughout the country.
 
-- [*Behind the Lines* inspired Dutch filmmaker Ike Bertels to follow the lives of three female soldiers featured in the film from their years shortly after independence to the present. The result is a remarkable view of FRELIMO ideology and its impact on the lives of three Mozambicans. Clips and information are available on the director’s website.](http://guerrillagrannies.com/)
+#### [Guerrilla Grannies](http://guerrillagrannies.com/) 
+*Behind the Lines* inspired Dutch filmmaker Ike Bertels to follow the lives of three female soldiers featured in the film from their years shortly after independence to the present. The result is a remarkable view of FRELIMO ideology and its impact on the lives of three Mozambicans. Clips and information are available on the director’s website.
 
-- [**Activism and Action**: Among the many groups that took up action was the Pan-African Liberation Committee of Boston. The group was pivotal in helping to launch a national campaign in the black community against Gulf Oil, which was Portugal’s single largest foreign corporate partner in the 1970s. Information on them and their campaigns is available through the African Activist Archive.](http://africanactivist.msu.edu/image.php?objectid=32-131-21E)
+#### [Activism and Action](http://africanactivist.msu.edu/image.php?objectid=32-131-21E) 
+Among the many groups that took up action was the Pan-African Liberation Committee of Boston. The group was pivotal in helping to launch a national campaign in the black community against Gulf Oil, which was Portugal’s single largest foreign corporate partner in the 1970s. Information on them and their campaigns is available through the African Activist Archive.
 
 ## Authors
 

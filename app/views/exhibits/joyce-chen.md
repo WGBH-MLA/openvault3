@@ -188,9 +188,11 @@ TODO
 
 ## Related Content
 
-- [For a look at cooking shows before Julia Child and Joyce Chen, here is a clip from another early show, the Edith Green Show.](https://diva.sfsu.edu/collections/sfbatv/bundles/201584)
-- [For a look at cooking shows before Julia Child and Joyce Chen, here is a clip from another early show, "It’s fun to eat" with Elena.](https://diva.sfsu.edu/collections/sfbatv/bundles/189406)
-- [For a detailed presentation of one TV chef from this earlier period, Florence Hanford, there's a wealth of information here.](http://www.broadcastpioneers.com/tvkitchen.html)
+[For a look at cooking shows before Julia Child and Joyce Chen, here is a clip from another early show, the Edith Green Show.](https://diva.sfsu.edu/collections/sfbatv/bundles/201584)
+
+[For a look at cooking shows before Julia Child and Joyce Chen, here is a clip from another early show, "It’s fun to eat" with Elena.](https://diva.sfsu.edu/collections/sfbatv/bundles/189406)
+
+[For a detailed presentation of one TV chef from this earlier period, Florence Hanford, there's a wealth of information here.](http://www.broadcastpioneers.com/tvkitchen.html)
 
 ## Authors
 

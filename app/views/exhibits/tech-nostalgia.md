@@ -174,17 +174,19 @@ TODO
 
 ## Related Content
 
-- [This is one of the most extensive explorations into the recent trend of making digital photographs appear old – Photographs Nathan Jurgenson refers to in this article as faux-vintage.](http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/)
+This is one of the most extensive explorations into the recent trend of making digital photographs appear old – [Photographs Nathan Jurgenson refers to in this article as faux-vintage.](http://thesocietypages.org/cyborgology/2011/05/14/the-faux-vintage-photo-full-essay-parts-i-ii-and-iii/)
 
-- [Mark Pilkington’s article, “Hauntologists mine the past for music’s future” provides an accessible overview of the origins of hauntology – from philosophical concept to art form – while providing an ample does of specific examples in the form of embedded YouTube videos.](http://boingboing.net/2012/10/12/hauntologists-mine-the-past-fo.html)
+Mark Pilkington’s article, [“Hauntologists mine the past for music’s future”](http://boingboing.net/2012/10/12/hauntologists-mine-the-past-fo.html) provides an accessible overview of the origins of hauntology – from philosophical concept to art form – while providing an ample does of specific examples in the form of embedded YouTube videos.
 
-- [What Is Hauntology? Mark Fisher Film Quarterly Vol. 66, No. 1 (Fall 2012) (pp. 16-24) Mark Fisher (known as K-Punk in the blogosphere) is said to have first used the term hauntology within the context of art, specifically British electronic music, back in 2006. This article provides a more scholarly approach to the multilayered origins and subsequent interpretations of hauntology as a moving image and sound art form.](http://www.jstor.org/action/showPublication?journalCode=filmquarterly&&)
+[What Is Hauntology?](http://www.jstor.org/action/showPublication?journalCode=filmquarterly&&)
+Mark Fisher Film Quarterly Vol. 66, No. 1 (Fall 2012) (pp. 16-24) Mark Fisher (known as K-Punk in the blogosphere) is said to have first used the term hauntology within the context of art, specifically British electronic music, back in 2006. This article provides a more scholarly approach to the multilayered origins and subsequent interpretations of hauntology as a moving image and sound art form.
 
-- [A fun Boston Globe article featuring over a dozen examples of “technology from yesterday” including photographs and brief descriptions.](http://www.boston.com/business/gallery/technology_nostalgia/)
+[A fun Boston Globe article featuring over a dozen examples of “technology from yesterday” including photographs and brief descriptions.](http://www.boston.com/business/gallery/technology_nostalgia/)
 
-- [Article synopsis provided by author John Tierney: “It was first thought to be a ‘neurological disease of essentially demonic cause,’ but it turns out that nostalgia is good for your brain. And there’s science to prove it.”](http://www.nytimes.com/2013/07/09/science/what-is-nostalgia-good-for-quite-a-bit-research-shows.html?_r=0)
+[Article synopsis provided by author John Tierney](http://www.nytimes.com/2013/07/09/science/what-is-nostalgia-good-for-quite-a-bit-research-shows.html?_r=0) 
+“It was first thought to be a ‘neurological disease of essentially demonic cause,’ but it turns out that nostalgia is good for your brain. And there’s science to prove it.”
 
-- [Similar to the New York Times article by John Tierney, this Huffington Post piece by Jeanette Leardi argues for the neurological and emotional benefits of “feeling nostalgic.” Leardi also provides some inquisitive methods for making nostalgic tendencies work in day-to-day life.](http://www.huffingtonpost.com/2013/10/05/benefits-of-nostalgia_n_4031759.html?utm_hp_ref=tw)
+Similar to the New York Times article by John Tierney, [this Huffington Post piece by Jeanette Leardi](http://www.huffingtonpost.com/2013/10/05/benefits-of-nostalgia_n_4031759.html?utm_hp_ref=tw) argues for the neurological and emotional benefits of “feeling nostalgic.” Leardi also provides some inquisitive methods for making nostalgic tendencies work in day-to-day life.
 
 ## Authors
 

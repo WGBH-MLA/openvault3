@@ -189,12 +189,23 @@ TODO
 
 ## Related Content
 
-- [Siting Julia Symposium: For Julia Child’s 100th birthday, the Radcliffe Institute organized a symposium of scholars, friends, and researchers. The last session focused specifically on her television work, although many will find the sessions on her life in Paris and in Cambridge also of interest.](http://www.radcliffe.harvard.edu/event/2012-siting-julia-symposium)
-- [Julia Child’s Archive: Julia Child donated her personal archive to the Schlesinger Library at the Radcliffe Institute. Her collections are voluminous, including research materials, scripts from her television work, and decades of correspondence with friends, family, and business associates. These are spread over two personal collections (The Julia Child Papers and the Additional Papers of Julia Child). In addition to Child’s papers, the Schlesinger holds the papers of many of her friends and associates, including Simone Beck and Avis DeVoto.](http://www.radcliffe.harvard.edu/schlesinger-library/collection/julia-child)
-- [Julia Child’s Kitchen: Child’s home kitchen was disassembled, moved, and painstakingly reassembled at the National Museum of American History. For those who can’t travel to DC, the museum has prepared an online tour of the kitchen, complete with Child’s narration, focused descriptions of the predictable and unpredictable contents of the kitchen, and a timeline of Julia Child’s life and career.](http://amhistory.si.edu/juliachild/)
-- [Mai-Juin 1968: In-between production of the first and second series of “The French Chef,” Julia and Paul Child went to their home in Provence to recuperate from a grueling schedule and so Julia could complete work on the second volume of Mastering the Art of French Cooking. While there, long-simmering resentment of DeGaulle became organized resistance to French universities, business, and much of its political order. A series of insurrections and a general strike kept Paul and Julia stuck in their home, and then grateful to leave France at the end of June. This collection offers powerful documentary of the spring 1968 uprisings in France and points to the growing racial diversity of French society, criticism of its political order, and frustration with cultural conservatism.](http://www.iisg.nl/collections/may68/index.php)
-- [The Battle for Algiers: An account of a Parisian police attack on pro-independence demonstrators](http://www.france24.com/en/20121017-paris-massacre-algeria-october-17-1961-51-years-anniversary-historian-einaudi)
-- [Americans in Paris: This website and accompanying blog, created by a college class from the University of Richmond, offer snapshots of Americans’ and America’s presence in Paris. Although Julia Child is not one of the figures described, the essays and geographic mapping helps to contextualize her in the long and sometimes complicated history of Americans’ expectations of France.](http://tocqueville.richmond.edu/AmericansInParis.html)
+#### [Siting Julia Symposium](http://www.radcliffe.harvard.edu/event/2012-siting-julia-symposium)
+For Julia Child’s 100th birthday, the Radcliffe Institute organized a symposium of scholars, friends, and researchers. The last session focused specifically on her television work, although many will find the sessions on her life in Paris and in Cambridge also of interest.
+
+#### [Julia Child’s Archive](http://www.radcliffe.harvard.edu/schlesinger-library/collection/julia-child) 
+Julia Child donated her personal archive to the Schlesinger Library at the Radcliffe Institute. Her collections are voluminous, including research materials, scripts from her television work, and decades of correspondence with friends, family, and business associates. These are spread over two personal collections (The Julia Child Papers and the Additional Papers of Julia Child). In addition to Child’s papers, the Schlesinger holds the papers of many of her friends and associates, including Simone Beck and Avis DeVoto.
+
+#### [Julia Child’s Kitchen](http://amhistory.si.edu/juliachild/) 
+Child’s home kitchen was disassembled, moved, and painstakingly reassembled at the National Museum of American History. For those who can’t travel to DC, the museum has prepared an online tour of the kitchen, complete with Child’s narration, focused descriptions of the predictable and unpredictable contents of the kitchen, and a timeline of Julia Child’s life and career.
+
+#### [Mai-Juin 1968](http://www.iisg.nl/collections/may68/index.php)
+In-between production of the first and second series of “The French Chef,” Julia and Paul Child went to their home in Provence to recuperate from a grueling schedule and so Julia could complete work on the second volume of Mastering the Art of French Cooking. While there, long-simmering resentment of DeGaulle became organized resistance to French universities, business, and much of its political order. A series of insurrections and a general strike kept Paul and Julia stuck in their home, and then grateful to leave France at the end of June. This collection offers powerful documentary of the spring 1968 uprisings in France and points to the growing racial diversity of French society, criticism of its political order, and frustration with cultural conservatism.]
+
+[The Battle for Algiers](http://www.france24.com/en/20121017-paris-massacre-algeria-october-17-1961-51-years-anniversary-historian-einaudi) 
+An account of a Parisian police attack on pro-independence demonstrators
+
+#### [Americans in Paris](http://tocqueville.richmond.edu/AmericansInParis.html)
+This website and accompanying blog, created by a college class from the University of Richmond, offer snapshots of Americans’ and America’s presence in Paris. Although Julia Child is not one of the figures described, the essays and geographic mapping helps to contextualize her in the long and sometimes complicated history of Americans’ expectations of France.
 
 ## Authors
 
