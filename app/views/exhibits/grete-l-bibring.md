@@ -1449,13 +1449,19 @@ TODO
 
 ## Related Content
 
-- [Grete L. Bibring Papers at Countway Medical Library Archives](http://oasis.lib.harvard.edu/oasis/deliver/%7Emed00104)
-- [Grete L. Bibring's Collection at the Boston Psychoanalytic Society and Institute Psychological Aspects of Pregnancy, 1957-1962, at Murray Research Archive](http://thedata.harvard.edu/dvn/dv/mra/faces/study/StudyPage.xhtml?globalId=hdl:1902.1/00568&tab=files&studyListingIndex=0_5a4a7afdce7c07d074f747465125)
-- [Bibring Photograph Collection at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/coll_bibp.html)
-- [Oral History Interviews at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/archives/archivesaudiovisual-materials/oral-history-interview-records1953-2008-bulk-1973-2008/)
-- [Vienna Psychoanalytic Society Records, 1922-1994 at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/coll_vienna.html)
-- [Dr. Grete Lehner Bibring: Changing the Face of Medicine (National Library of Medicine)](http://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_33.html)
-- [Grete Bibring: A Culinary Biography (BPSI Online Exhibit)](http://www.bostonpsychoanalytic.org/library/exhibits/exhibits_bibring_dinners.html)
+[Grete L. Bibring Papers at Countway Medical Library Archives](http://oasis.lib.harvard.edu/oasis/deliver/%7Emed00104)
+
+[Grete L. Bibring's Collection at the Boston Psychoanalytic Society and Institute Psychological Aspects of Pregnancy, 1957-1962, at Murray Research Archive](http://thedata.harvard.edu/dvn/dv/mra/faces/study/StudyPage.xhtml?globalId=hdl:1902.1/00568&tab=files&studyListingIndex=0_5a4a7afdce7c07d074f747465125)
+
+[Bibring Photograph Collection at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/coll_bibp.html)
+
+[Oral History Interviews at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/archives/archivesaudiovisual-materials/oral-history-interview-records1953-2008-bulk-1973-2008/)
+
+[Vienna Psychoanalytic Society Records, 1922-1994 at the Boston Psychoanalytic Society and Institute](http://bpsi.org/library/coll_vienna.html)
+
+[Dr. Grete Lehner Bibring: Changing the Face of Medicine (National Library of Medicine)](http://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_33.html)
+
+[Grete Bibring: A Culinary Biography (BPSI Online Exhibit)](http://www.bostonpsychoanalytic.org/library/exhibits/exhibits_bibring_dinners.html)
 
 ## Authors
 
