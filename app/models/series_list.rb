@@ -5,7 +5,7 @@ class SeriesList
     series_online ||= SeriesList.series_facet(true)
     series_all ||= SeriesList.series_facet(false)
 
-    pairs = Hash[(series_online.keys + series_all.keys).to_set.map do |title|
+    pairs = Hash[series_all.keys.map do |title|
       [
         title,
         {
