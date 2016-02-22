@@ -3,11 +3,11 @@
   <% (item.tabs.keys).reject { |x| skip.include?(x) }.tap do |tabs|
     tabs.each do |tab| %>
       <% unless tab == params[:tab] %>
-        <a    class="tab col-md-2" href="<%= tab %>#<%= anchor %>" >
+        <a class="tab" href="<%= tab %>#<%= anchor %>" >
           <%= tab.titlecase %>
         </a>
       <% else %>
-        <span class="tab col-md-2 tab-current">
+        <span class="tab tab-current">
           <%= tab.titlecase %>
         </span>
       <% end %>
