@@ -33,11 +33,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   def short_title
     @short_title ||= (asset_title || program_title || series_title)
-              .gsub(/^.*Interview\s+with\s+/i, '')
-              # N-of-N will be stripped downstream, but we keep it here
-              # so that we can distinguish the 1-of-N from the others.
+                     .gsub(/^.*Interview\s+with\s+/i, '')
+    # N-of-N will be stripped downstream, but we keep it here
+    # so that we can distinguish the 1-of-N from the others.
   end
-  
+
   def date
     @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
