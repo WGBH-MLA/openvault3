@@ -61,8 +61,7 @@ musicians and one masterful jazz radio host.
 
 ## author
 
-Leonard Brown, associate professor of African American Studies and Music, 
-Northeastern University, Boston, MA 
+Leonard Brown
 
 ## Article
 
