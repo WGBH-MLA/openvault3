@@ -16,20 +16,16 @@
     <% end %>
 
     <% if geoblocked? %>
-      <div> 
-        <strong>Note:</strong> This content is not available in your region.
-      </div>
+      <strong>Note:</strong> This content is not available in your region.
     <% elsif !@pbcore.digitized? %>
-      <div>
-        This item has not been digitized. 
-        If you are interested in sponsoring digitization, 
-        <a href="mailto:openvault@wgbh.org?<%=
-          {
-            subject: 'Digitization request',
-            body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
-          }.to_query
-        %>">contact us</a>.
-      </div>
+      This item has not been digitized. 
+      If you are interested in sponsoring digitization, 
+      <a href="mailto:openvault@wgbh.org?<%=
+        {
+          subject: 'Digitization request',
+          body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
+        }.to_query
+      %>">contact us</a>.
     <% elsif !@pbcore.proxy_srcs.empty? %>
       <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                     controls: true, id: 'player-media',
