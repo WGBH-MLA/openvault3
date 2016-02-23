@@ -9,12 +9,12 @@ $(function(){
     // TODO: offsets need to be recalculated when width changes.
     var $transcript = $('#transcript');
     $transcript.on('load', function(){
-        var offset = {};
+        var lines = {};
         $transcript.contents().find('[data-timecodebegin]').each(function(i,el){
             var $el = $(el);
-            offset[parse_timecode($el.data('timecodebegin'))] = $el.position().top;
+            lines[parse_timecode($el.data('timecodebegin'))] = $el;
         });
-        var sorted = Object.keys(offset).sort(function(a,b){return a - b;});
+        var sorted = Object.keys(lines).sort(function(a,b){return a - b;});
         // Browser seems to preserve key order, but don't rely on that.
         // JS default sort is lexicographic.
         function greatest_less_than(t) {
@@ -40,10 +40,10 @@ $(function(){
 
         $player.on('timeupdate', function(){
             var current = $player[0].currentTime;
-            var offset_key = greatest_less_than(current);
-            var target = offset[offset_key];
+            var key = greatest_less_than(current);
+            var $line = lines[key];
             if (!is_user_scroll()) {
-                $('iframe').contents().scrollTop(target-30);
+                $('iframe').contents().scrollTop($line.position().top-30);
                 // "-30" to get the speaker's name at the top;
                 // ... but when a single monologue is broken into
                 // parts this doesn't look as good: we get a line
