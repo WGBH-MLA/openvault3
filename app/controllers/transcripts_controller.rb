@@ -1,7 +1,7 @@
 class TranscriptsController < ApplicationController
   include Blacklight::Catalog
 
-  layout 'plain'
+  layout 'transcript'
 
   XSLT = Nokogiri::XSLT(File.read(__dir__ + '/../../lib/xslt/tei_to_html.xsl'))
 
