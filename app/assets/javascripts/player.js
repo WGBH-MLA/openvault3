@@ -62,7 +62,7 @@ $(function(){
             }
         });
         
-        $player.on('play', function(){
+        $player.on('mouseenter play', function(){
             set_user_scroll(false);
         });
         
