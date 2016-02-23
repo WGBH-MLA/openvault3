@@ -136,7 +136,8 @@ module Blacklight::FacetsHelperBehavior
         options[:suppress_link],
         facet_display_value(facet_field, item),
         path,
-        class: 'facet_select'
+        class: 'facet_select',
+        title: item.hits == 1 ? 'Only 1 item' : "#{item.hits} items"
       )
     end
   end
