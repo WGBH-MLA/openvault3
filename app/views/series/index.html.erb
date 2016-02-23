@@ -14,9 +14,16 @@
           <% end %>
         </div>
         <ul>
-          <% group.each do |pair| %>
-            <li><a href="/catalog?f[series_title][]=<%= CGI.escape(pair.first) %>">
-              <%= pair.first %> (<%= pair.second %>)
+          <% group.each do |title, counts| %>
+            
+            <li><a href="/catalog?<%= {f: {access: [PBCore::ALL], series_title: [title]}}.to_query %>">
+              <%= title %>:
+              <% if counts[:online] %>
+                <%= counts[:online] %> <%= PBCore::ONLINE %>
+                <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+              <% else %>
+                 <%= counts[:all] %>
+              <% end %>
             </a></li>
           <% end %>
         </ul>
