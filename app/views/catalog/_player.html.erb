@@ -1,75 +1,68 @@
 <div id="player">
-  <% if  @pbcore.image? %>
-    <%= tag('img', src: @pbcore.proxy_srcs.first) %>
-  <% else %>
-    <% 
-      # These should be complementary. The goal is to keep the 
-      # media at about the same width regardless of screen width.
-      media_col_class = 'col-lg-4 col-md-5 col-sm-6 col-xs-12'
-      transcript_col_class = 'col-lg-8 col-md-7 col-sm-6 col-xs-12'
-    %>
-    <div class="<%= media_col_class %>">
-        
-      <% if @pbcore.audio? || @pbcore.proxy_srcs.empty? %>
-        <%= tag('img', src: @pbcore.thumbnail_src) %>
-      <% end %>
-      
-      <% if geoblocked? %>
-        <div> 
-          <strong>Note:</strong> This content is not available in your region.
-        </div>
-      <% elsif !@pbcore.digitized? %>
-        <div>
-          This item has not been digitized. 
-          If you are interested in sponsoring digitization, 
-          <a href="mailto:openvault@wgbh.org?<%=
-            {
-              subject: 'Digitization request',
-              body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
-            }.to_query
-          %>">contact us</a>.
-        </div>
-      <% elsif !@pbcore.proxy_srcs.empty? %>
-        <div>
-          <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                        controls: true, id: 'player-media',
-                        oncontextmenu: 'return false;',
-                        poster: @pbcore.thumbnail_src,
-                        width: '100%') do %>
-            <% @pbcore.proxy_srcs.each do |src| %>
-              <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
-            <% end %>
-            <!-- We have transcripts, but not SRT caption files:
-              <track kind="captions" src="..."/>
-            -->
-          <% end %>
-        </div>
-      <% end %>
-      
-      
-      <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
-        <% if site_url %>
-          <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-          <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
-          <%= verb %> online at the 
-          <a href="<%= site_url %>" target="_blank"><%= site_name %>
-            <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+  <% 
+    # These should be complementary. The goal is to keep the 
+    # media at about the same width regardless of screen width.
+    media_col_class = 'col-lg-4 col-md-5 col-sm-6 col-xs-12'
+    transcript_col_class = 'col-lg-8 col-md-7 col-sm-6 col-xs-12'
+  %>
+  <div class="<%= media_col_class %>">
+
+    <% if  @pbcore.image? %>
+      <%= tag('img', src: @pbcore.proxy_srcs.first) %>
+    <% end %>
+
+    <% if @pbcore.audio? || @pbcore.proxy_srcs.empty? %>
+      <%= tag('img', src: @pbcore.thumbnail_src) %>
+    <% end %>
+
+    <% if geoblocked? %>
+      <strong>Note:</strong> This content is not available in your region.
+    <% elsif !@pbcore.digitized? %>
+      This item has not been digitized. 
+      If you are interested in sponsoring digitization, 
+      <a href="mailto:openvault@wgbh.org?<%=
+        {
+          subject: 'Digitization request',
+          body: 'I am interested in digitizing http://openvault.wgbh.org/catalog/' + @pbcore.id
+        }.to_query
+      %>">contact us</a>.
+    <% elsif !@pbcore.proxy_srcs.empty? %>
+      <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                    controls: true, id: 'player-media',
+                    oncontextmenu: 'return false;',
+                    poster: @pbcore.thumbnail_src) do %>
+        <% @pbcore.proxy_srcs.each do |src| %>
+          <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
         <% end %>
+        <!-- We have transcripts, but not SRT caption files:
+          <track kind="captions" src="..."/>
+        -->
       <% end %>
-      
-      <% if @pbcore.playlist_group %>
-        <div id="playlist" class="<%= media_col_class %>">
-          <% if @pbcore.playlist_prev_id %>
-            <a href="/catalog/<%= @pbcore.playlist_prev_id %>" class="pull-left">&#x25c0; Previous</a>
-          <% end %>
-          <% if @pbcore.playlist_next_id %>
-            <a href="/catalog/<%= @pbcore.playlist_next_id %>" class="pull-right">Next &#x25b6;</a>
-          <% end %>
-        </div>
+    <% end %>
+
+    <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
+      <% if site_url %>
+        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+        <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
+        <%= verb %> online at the 
+        <a href="<%= site_url %>" target="_blank"><%= site_name %>
+          <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
       <% end %>
-        
-    </div>
-  <% end %>
+    <% end %>
+
+    <% if @pbcore.playlist_group %>
+      <div id="playlist" class="<%= media_col_class %>">
+        <% if @pbcore.playlist_prev_id %>
+          <a href="/catalog/<%= @pbcore.playlist_prev_id %>" class="pull-left">&#x25c0; Previous</a>
+        <% end %>
+        <% if @pbcore.playlist_next_id %>
+          <a href="/catalog/<%= @pbcore.playlist_next_id %>" class="pull-right">Next &#x25b6;</a>
+        <% end %>
+      </div>
+    <% end %>
+
+  </div>
+    
   <% if @pbcore.transcript_src %>
     <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
             class="<%= transcript_col_class %>" 
