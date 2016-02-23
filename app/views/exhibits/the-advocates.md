@@ -71,25 +71,25 @@ R. Lisle Baker
 
 ## Article
 
-### Table of Contents
-[1. Introduction to *The Advocates* and its creator, Professor Roger Fisher.](#anchor-1)
-[2. How did *The Advocates* get started?](#anchor-2)
-[3. Translating the courtroom and the classroom into television.](#anchor-3)
-[4. Working as an advocate on the show.](#anchor-4)
-[5. Choosing topics to debate as decidable questions.](#anchor-5)
-[6. Involving a decision-maker.](#anchor-6)
-[7. Arguing as advocates, not partisans.](#anchor-7)
-[8. Offering the viewer neutral introductory information.](#anchor-8)
-[9. Simplifying - rather than complicating - the issues.](#anchor-9)
-[10. Using direct examination of witnesses to lay out the case.](#anchor-10)
-[11. Illustrating arguments visually and not just verbally.](#anchor-11)
-[12. Conducting cross-argument more than cross-examination with opposing witnesses.](#anchor-12)
-[13. Involving the audience.](#anchor-13) 
-[14. Going on location when possible.](#anchor-14)
-[15. Presenting topics before they became topical and revisiting them if left unresolved.](#anchor-15)
-[16. Earning praise and even awards.](#anchor-16)
-[17. Showcasing people as well as ideas.](#anchor-17) 
-[18. The return of *The Advocates*.](#anchor-18)
+### Table of Contents<br/>
+[1. Introduction to *The Advocates* and its creator, Professor Roger Fisher.](#anchor-1)<br/>
+[2. How did *The Advocates* get started?](#anchor-2)<br/>
+[3. Translating the courtroom and the classroom into television.](#anchor-3)<br/>
+[4. Working as an advocate on the show.](#anchor-4)<br/>
+[5. Choosing topics to debate as decidable questions.](#anchor-5)<br/>
+[6. Involving a decision-maker.](#anchor-6)<br/>
+[7. Arguing as advocates, not partisans.](#anchor-7)<br/>
+[8. Offering the viewer neutral introductory information.](#anchor-8)<br/>
+[9. Simplifying - rather than complicating - the issues.](#anchor-9)<br/>
+[10. Using direct examination of witnesses to lay out the case.](#anchor-10)<br/>
+[11. Illustrating arguments visually and not just verbally.](#anchor-11)<br/>
+[12. Conducting cross-argument more than cross-examination with opposing witnesses.](#anchor-12)<br/>
+[13. Involving the audience.](#anchor-13)<br/>
+[14. Going on location when possible.](#anchor-14)<br/>
+[15. Presenting topics before they became topical and revisiting them if left unresolved.](#anchor-15)<br/>
+[16. Earning praise and even awards.](#anchor-16)<br/>
+[17. Showcasing people as well as ideas.](#anchor-17)<br/>
+[18. The return of *The Advocates*.](#anchor-18)<br/>
 [19. The legacy of *The Advocates*? Seeing the legitimacy of alternative points of view.](#anchor-19)  
 
 <a name="anchor-1"></a>
@@ -189,28 +189,45 @@ Roger also believed that topics should have a sense of immediacy and reality. In
 
 When thinking about what topics to cover, he offered the following summary: “Each topic we pick must have four qualifications ... Is it a major problem? Is there somebody who can make a difference—who can listen to both sides and make a decision? Is it a decidable issue? Is it good TV?" [<sup>17</sup>](#footnote-17)
 
+Below is a clip of Roger describing that set of ideas while acting as a moderator on the show concerning our Cuba Policy. 
+**See 00:00:59 - 00:01:18.**
+
+<iframe src="/embed/V_7E8B608E5AC04B809D9579EC9F5C1BBE"></iframe>
+
 <a name="anchor-6"></a>
 ### 6. Involving a decision-maker.
 
 For the show to be truly effective, though, the issue at hand would not just be one for the citizen but, ideally, be presented to a real person “who can make a difference.” Roger believed that a bigger impact would be made if the show could identify one particular individual from among those in power who was most able to do something about the “important trouble.” He believed the show shouldn’t “spend time explaining how big the problem is or how difficult it is to solve ... Instead, identify who is in a good position to do something about it and set out a specific, detached proposal of what he ought to do next."[<sup>18</sup>](#footnote-18)
 
-For example, one of the early shows available on the WGBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts. In this clip, you will see the advocates and moderator introduced. (You may return to the article when the time-bar at the bottom of the video reaches 0.42.)
+For example, one of the early shows available on the WGBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts. 
 
-As the “man with a choice,” Mayor White was involved in the process, and was able to ask questions of the witnesses. Here is one example. (You may return to the article when the time-bar at the bottom of the video reaches 40.12.)
+In the clip below, you will see the advocates and moderator introduced. 
+**See 00:00:16 - 00:00:42** 
+
+As the “man with a choice,” Mayor White was involved in the process, and was able to ask questions of the witnesses. Below is one example. **See 00:39:37 - 00:40:51**
+
+<iframe src="/embed/V_6626C08AA1AC4F2E90E1606E24607D6A"></iframe>
+
 Notwithstanding the importance of the decision-maker in the early versions of *The Advocates*, the idea of having a decision-maker was ultimately abandoned in the second season of the show, for reasons not clear from the record, except for references in some of Roger’s papers that good “decision-makers” were hard to find. [<sup>19</sup>](#footnote-19)
 
-For comparison, here is a similar opening for The Advocates from the episode on trucking deregulation in 1979 without any decision-maker presiding, even though the issue was apparently pending before Congress. (You may return to the article when the time-bar at the bottom of the video reaches 6.14.) 
+For comparison, below is a similar opening for *The Advocates* from the episode on trucking deregulation in 1979 without any decision-maker presiding, even though the issue was apparently pending before Congress. **See 00:03:09 - 00:06:14**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-7"></a>
 ### 7. Arguing as advocates, not partisans.
 
 In the first year of the show and for a while thereafter, the individual advocates were not identified with a point of view. We did not know which side we would be asked to argue; it was almost a flip of the coin, in that we didn’t know if we were going to be arguing in favor of this or against that. Roger saw individual advocates like British barristers who would make responsible arguments on either side, but not necessarily assert their own viewpoints. He said that he wanted the viewers to focus on the issues and not just cheer on their favorite advocate, who might be presenting a case they agreed with one week, and then another case they might not, the next.
 
-Here is a clip from the Methadone show emphasizing that impartiality, an explanation omitted from episodes in subsequent seasons as the advocates on the show became more identified with the arguments they presented. (You may return to the article when the time-bar at the bottom of the video reaches 58.39.)
+Below is a clip from the Methadone show emphasizing that impartiality, an explanation omitted from episodes in subsequent seasons as the advocates on the show became more identified with the arguments they presented. **See 00:57:51 - 00:58:19**
+
+<iframe src="/embed/V_6626C08AA1AC4F2E90E1606E24607D6A"></iframe>
 
 Roger did not want to formulate an issue for discussion, which put all “right-thinking” people on one side, but rather one that offered an open choice; on which a reasonable, well- intentioned man might decide, either way. The intention was to recognize that there was often a legitimate constituency on each side, and that there are pros and cons to public policy choices. He felt that “[t]he public should be made to know that law is a process and not all trial law and criminal law; that an adversary system doesn’t always pit good guys against bad guys."[<sup>20</sup>](#footnote-20)
 
-For example, I remember that during the show on expelling student disrupters, I was asked to argue in favor of automatic expulsion. My producers and I then found one witness against student disruption, President James Hester of New York University, and one in favor of automatic penalties, Harvard Law School Professor Alan Dershowitz (who was my instructor in criminal law at Harvard). As it happened, neither of them would embrace the whole proposition; nonetheless, framing the issue this way left some daylight for an alternative point of view.[<sup>21</sup>](#footnote-21)
+For example, I remember that during the show on expelling student disrupters, I was asked to argue in favor of automatic expulsion. My producers and I then found one witness against student disruption, President James Hester of New York University, and one in favor of automatic penalties, Harvard Law School Professor Alan Dershowitz (who was my instructor in criminal law at Harvard). As it happened, neither of them would embrace the whole proposition; nonetheless, framing the issue this way left some daylight for an alternative point of view.[<sup>21</sup>](#footnote-21) Below is a clip showing that neither witness was testifying to support the whole proposition which I was charged to advocate. **See 00:00:52 - 00:01:52**
+
+<iframe src="/embed/V_790A41E1B0F946B49AFD99D7368B775B"></iframe>
 
 (This show is also available on the WGBH Open Vault.) Here is a clip showing that neither witness was testifying to support the whole proposition which I was charged to advocate. (You may return to the article when the time-bar at the bottom of the video reaches 1.53.)
 
@@ -219,7 +236,9 @@ This format, at least in the first year of the show, involved each production te
 >
 “Well, we’ve listened to Mr. Oteri’s case for resuming trade with Cuba, and now let’s turn to the other side of the question. Mr. Baker, will you give us the case against resuming trade with Cuba.” 
 
-While my producer and I had arguments prepared, I had not known how my opponent, Joe Oteri, would argue his case I found that I was persuaded by his argument, even though I still had to argue the opposite point of view. I did the best I could (and readers can judge how successful I was, since the show is now on the Open Vault). (You may return to the article when the time-bar at the bottom of the video reaches 26.21.)
+While my producer and I had arguments prepared, I had not known how my opponent, Joe Oteri, would argue his case I found that I was persuaded by his argument, even though I still had to argue the opposite point of view. I did the best I could (and readers can judge how successful I was, since the show is now on the Open Vault). **See 00:15:22 - 00:26:21**
+
+<iframe src="/embed/V_7E8B608E5AC04B809D9579EC9F5C1BBE"></iframe>
 
 The Cuba show illustrated for me the personal challenge of being an advocate. I found that I was much more effective when my side of the issue was something that I could advocate for with a clear conscience. I was too new to my craft to be able to present an argument, which I did not agree with, and spent much of my energy in discussing with my able producers what we should advocate, rather than reserving that energy for the show. (I was also too green to realize that the expectation of those involved was that those who appeared on camera were asked to execute a case. I had a different mental model of a lawyer in command of his case, rather than carrying out one that his producers had prepared.)
 
@@ -233,30 +252,42 @@ To assist viewers at home in finding a stance on the issue at hand, *The Advocat
 >
 “The opening two minutes should present enough hard, specific facts so that the viewer feels he has his ‘feet on the ground.’"[<sup>23</sup>](#footnote-23) 
 
-When the experts disagreed, Roger felt that the viewer should be armed with enough information to be persuadable, rather than just confused. Therefore, the shows often began with a statement of the issue and some background information, usually introduced by the moderator, rather than the advocates. Here is an example from a 1979 show on trucking deregulation with moderator Michael Dukakis. (You may return to the article when the time-bar at the bottom of the video reaches 1.56.)
+When the experts disagreed, Roger felt that the viewer should be armed with enough information to be persuadable, rather than just confused. Therefore, the shows often began with a statement of the issue and some background information, usually introduced by the moderator, rather than the advocates. Below is an example from a 1979 show on trucking deregulation with moderator Michael Dukakis. **See 00:01:20 - 00:01:49**
 
-The moderator would also sometimes add further explanation at the start of the show to ensure that the audience was familiar with particular terms used when discussing the subject matter for debate, as again occurred with moderator Dukakis. (You may return to the article when the time-bar at the bottom of the video reaches 7.00.)
+The moderator would also sometimes add further explanation at the start of the show to ensure that the audience was familiar with particular terms used when discussing the subject matter for debate, as again occurred with moderator Dukakis. **See 00:06:18 - 00:06:58**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-9"></a>
 ### 9. Simplifying—rather than complicating—the issues.
 
 Roger insisted that we use the medium of television to simplify, but not over-simplify, the issues and the arguments, as advocates are asked to do in court. “Fisher believe[d] that all these issues could be made comprehensible to TV viewers if information were better organized to meet the layman’s needs." [<sup>24</sup>](#footnote-24) He wanted us to take advantage of the visual medium that television provided. In the early days, Roger challenged us to get our arguments into a few words: literally, on to a board on the show’s set, like the weatherman. The intent was to reinforce what we and our witnesses would say, and to do it in a few phrases – a practice much more disciplined than even the 140 characters that Twitter demands. Roger wrote in 1970: “The advocates are more likely to have seventeen reasons for doing something than two. The skeleton of their contentions should be simpler and more apparent." [<sup>25</sup>](#footnote-25)
 
-Here is a photo of me using the “Word Board,” and a clip which involves the use of the board, from the Methadone show. (You may return to the article when the time-bar at the bottom of the video reaches 6.52.)
+Here is a clip of me using the "Word Board" from the Methadone show. **See 00:06:15 - 00:06:52**
 
-Ultimately, however, the “Word Board” fell by the wayside as the show evolved. Later, the Board was replaced by a simple introductory argument and introduction of witnesses, as in this example from 1979. (You may return to the article when the time-bar at the bottom of the video reaches 5.42.) 
+<iframe src="/embed/V_6626C08AA1AC4F2E90E1606E24607D6A"></iframe>
+
+Ultimately, however, the “Word Board” fell by the wayside as the show evolved. Later, the Board was replaced by a simple introductory argument and introduction of witnesses, as in this example from 1979. **See 00:04:48 - 00:05:42**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-10"></a>
 ### 10. Using direct examination of witnesses to lay out the case.
 
-After the introduction, the advocates elicited arguments and information from witnesses through direct examination. For example, here is a direct examination by then-State Representative Barney Frank and witness, Senator Edward Kennedy, on the same Trucking show in 1979. (You may return to the article when the time-bar at the bottom of the video reaches 7.25.)
+After the introduction, the advocates elicited arguments and information from witnesses through direct examination. For example, below is a direct examination by then-State Representative Barney Frank and witness, Senator Edward Kennedy, on the same Trucking show in 1979. **See 00:07:09 - 00:07:24**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-11"></a>
 ### 11. Illustrating arguments visually and not just verbally.
 
-Roger also encouraged us to use film, still pictures, animation, charts, maps, and real exhibits to gain interest and promote understanding in the arguments that were being presented. Our producers often used film and – in one episode on oil imports – Roger (as an advocate) gave a witness a live lobster to make the visual point that some goods were cheaper in different parts of the country. In another episode, I produced a raft used by escaping Cuban refugees, shown here. (You may return to the article when the time-bar at the bottom of the video reaches 34.36.)
+Roger also encouraged us to use film, still pictures, animation, charts, maps, and real exhibits to gain interest and promote understanding in the arguments that were being presented. Our producers often used film and – in one episode on oil imports – Roger (as an advocate) gave a witness a live lobster to make the visual point that some goods were cheaper in different parts of the country. In another episode, I produced a raft used by escaping Cuban refugees, shown below. **See 00:33:35 - 00:34:48**
 
-My own view, however, is that despite these aids, the interaction between advocates and witnesses made for the most riveting and illuminating television. Roger proved this himself when he appeared as an advocate on a show involving civil disobedience to the Vietnam War, in which he presented no visual aids but only powerful arguments. Here is Roger at work in that episode. (You may return to the article when the time-bar at the bottom of the video reaches 55.55.)
+<iframe src="/embed/V_7E8B608E5AC04B809D9579EC9F5C1BBE"></iframe>
+
+My own view, however, is that despite these aids, the interaction between advocates and witnesses made for the most riveting and illuminating television. Roger proved this himself when he appeared as an advocate on a show involving civil disobedience to the Vietnam War, in which he presented no visual aids but only powerful arguments. Here is Roger at work in that episode. **See 00:55:35 - 00:55:56**
+
+<iframe src="/embed/V_58D7FC37405E4268BB7E68C925628EF9"></iframe>
 
 As effective as it was, this closing argument does not include everything that Roger said. Executive Producer Greg Harney (Roger then having left the show as Executive Editor to return as an advocate) made a decision to excise a particular clip of Roger’s closing argument about the Vietnam War, on the grounds of concerns about appearing to advocate for contacting a specific organization, in an apparent contravention of federal tax laws barring political advocacy by nonprofit organizations, such as WGBH and its Ford Foundation sponsor.[<sup>26</sup>](#footnote-26) Roger was understandably upset, saying: 
 
@@ -266,24 +297,26 @@ As effective as it was, this closing argument does not include everything that R
 <a name="anchor-12"></a>
 ### 12. Conducting cross-argument more than cross-examination with opposing witnesses.
 
-During the first year I was with the show, cross-examination was not designed to discredit the witness, as often goes on in a courtroom, but was really cross-argument. Our job on cross-examination was to make sure we got at the weak points in the other side’s case, and if possible, prove our case through what they had to say. That was easier said than done. Here is an example from the methadone show in 1970, where I was questioning an opposing witness. (You may return to the article when the time-bar at the bottom of the video reaches 39.37.)
+During the first year I was with the show, cross-examination was not designed to discredit the witness, as often goes on in a courtroom, but was really cross-argument. Our job on cross-examination was to make sure we got at the weak points in the other side’s case, and if possible, prove our case through what they had to say. That was easier said than done. Here is an example from the methadone show in 1970, where I was questioning an opposing witness. **See 00:39:02 - 00:39:37**
 
-You never knew what the witness was going to say, and that was part of the appeal (as well as the challenge) of the show. Here is Roger with Howard Zinn as an opposing witness from the show on civil disobedience to the Vietnam War. (You may return to the article when the time-bar at the bottom of the video reaches 52.25.) And here is William Kunstler cross-examining Allard
-Lowenstein in that same episode on civil disobedience. (You may return to the article when the time-bar at the bottom of the video reaches 27.58.)
+<iframe src="/embed/V_6626C08AA1AC4F2E90E1606E24607D6A"></iframe>
 
-Here is another example where I had to cross-examine Senator Ted Kennedy, who was a proponent of deregulating trucking. (You may return to the article when the time-bar at the bottom of
-the video reaches 15.32.)
+You never knew what the witness was going to say, and that was part of the appeal (as well as the challenge) of the show. Below is Roger with Howard Zinn as an opposing witness from the show on civil disobedience to the Vietnam War. **See 00:51:53 - 00:52:24** And **from 00:27:12 - 00:27:57** see William Kunstler cross-examining Allard Lowenstein in the same episode.
 
-And here is Senator Kennedy’s response. (You may return to the article when the time-bar at the bottom of the video reaches 16.27.)
-Occasionally, however, there were some lighter moments. Here is then-State Representative Barney Frank. (You may return to the article when the time-bar at the bottom of the video reaches 42.33.)
-Successful cross-examination required, on occasion, some redirect examination. Here is the follow-up to Barney Frank’s cross-examination. (You may return to the article when the time-bar at the bottom of the video reaches 44.42.)
+<iframe src="/embed/V_58D7FC37405E4268BB7E68C925628EF9"></iframe>
+
+Below is another example where I had to cross-examine Senator Ted Kennedy, who was a proponent of deregulating trucking. **See 00:15:06 - 00:15:32** Also see Senator Kennedy’s response **from 00:15:45 - 00:16:17**. Occasionally, however, there were some lighter moments. For example, then-State Representative Barney Frank can be seen **from 00:42:05 - 00:42:34**.  Successful cross-examination required, on occasion, some redirect examination. The follow-up to Barney Frank’s cross-examination can be **seen from 00:43:25 - 00:44:24**.
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-13"></a>
 ### 13. Involving the audience.
 
 An early feature of the show was audience participation and having a studio audience was part of what gave the show immediacy. During the first season, there were also live audiences watching at remote public television stations as well, which were in effect satellite audiences for the show. These audiences were organized by the local public broadcasting station involved with the help of *Advocates* producer, Hoagy Carmichael, Jr. Hoagy rode circuit around the United States to one public television station after another in order to get a local audience to view and react to the show, whether it was broadcast from Boston or Los Angeles. Trying to guess what the studio audience, remote audience, and viewers at home felt about your case turned out to be as difficult as predicting how the witnesses would perform, but it lent some level of reality to the discussion. In the first year – on the methadone show, for example – the studio audience was polled both before and after the arguments.
 
-Here is a shot of the poll at the end of the show, and a clip of the tally being taken. (You may return to the article when the time-bar at the bottom of the video reaches 53.36.)
+Here is a shot of the poll at the end of the show, and a clip of the tally being taken. **See 00:52:12 - 00:53:36**
+
+<iframe src="/embed/V_6626C08AA1AC4F2E90E1606E24607D6A"></iframe>
 
 Hoagy Carmichael had a poll of his remote audience as well, polling members before and after the show using bulky machinery that had to be moved from station to station around the country. In later seasons, with more partisan advocates, the audience did not vote during the show, but was invited to respond by mail, although that decision came under criticism:
 
@@ -295,7 +328,9 @@ At the same time, the show did generate mail:
 >
 “Evidence of the amazing impact it had on its viewers was the fact that it drew 22,000 letters a month – or 177,000 for the 40-week season – more than was received by CBS News and Walter Cronkite, over the same period... [t]hus it more than lived up to its role of involving the viewer in critical issues." [<sup>30</sup>](#footnote-30)
 
-Here is the audience being invited to vote at the end of the show on deregulation of trucking in 1979. (You may return to the article when the time-bar at the bottom of the video reaches 56.32.)
+Here is the audience being invited to vote at the end of the show on deregulation of trucking in 1979. **See 00:56:12 - 00:56:32**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 <a name="anchor-14"></a>
 ### 14. Going on location when possible.
@@ -398,8 +433,9 @@ In 1978, Glenn Litton of WGBH Educational Foundation wrote Roger a letter in whi
 
 That argument was apparently persuasive, because the show was revived in 1979, and many of those shows are now on the Open Vault. As is apparent from some of the above clips in this article, I was invited back to the show to present the case in favor of continued regulation of the interstate trucking industry. I argued against State Representative Barney Frank and cross- examined Senator Ted Kennedy, while Dukakis (again) moderated the discussion.
 
-Here is a photo of Barney Frank, arguing against regulation with Ted Kennedy as his star witness by televised remote broadcast, with the studio audience at the John F. Kennedy School of Government in the background.[<sup>57</sup>](#footnote-57)
-Here is a clip of Barney Frank in action: (You may return to the article when the time-bar at the bottom of the video reaches 3.46.)
+Here is a clip of Barney Frank, arguing against regulation with Ted Kennedy as his star witness by televised remote broadcast.[<sup>57</sup>](#footnote-57) **See 00:03:10 - 00:03:45**
+
+<iframe src="/embed/V_406305F1D1F04ED89BA1758165B12728"></iframe>
 
 This show is remarkable in that it involved so many people who were involved in politics. Governor Dukakis has been mentioned before, and Barney Frank went on to be elected to Congress. Even I ended up in government, getting elected to the Board of Aldermen for Newton, Massachusetts, where I have served for over thirty years. 
 
