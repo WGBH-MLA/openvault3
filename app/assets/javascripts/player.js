@@ -42,6 +42,11 @@ $(function(){
             var current = $player[0].currentTime;
             var key = greatest_less_than(current);
             var $line = lines[key];
+            var class_name = 'current';
+            if (!$line.hasClass(class_name)) {
+                $transcript.contents().find('[data-timecodebegin]').removeClass(class_name);
+                $line.addClass(class_name);
+            };
             if (!is_user_scroll()) {
                 $('iframe').contents().scrollTop($line.position().top-30);
                 // "-30" to get the speaker's name at the top;
