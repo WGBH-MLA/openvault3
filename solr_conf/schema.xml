@@ -528,6 +528,10 @@
           type="sort" indexed="true" stored="true" multiValued="false"/>
    <field name="thumbnail_src"
           type="string" indexed="false" stored="true" multiValued="false"/>
+   
+   <!-- For collection lists. -->
+   <field name="short_title"
+          type="sort" indexed="true" stored="true" multiValued="false"/>
       
    <!-- Nothing below needs to be stored, but helps with debugging. -->
    
