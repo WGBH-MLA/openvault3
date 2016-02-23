@@ -72,7 +72,9 @@ $(function(){
         });
         
         $transcript.contents().find('.play-from-here').click(function(){
-            $player[0].currentTime = parse_timecode($(this).data('timecode'));
+            var time = parse_timecode($(this).data('timecode'));
+            location.hash = '#at_' + time + '_s';
+            $player[0].currentTime = time;
             $player[0].play();
             set_user_scroll(false);
         });
@@ -80,6 +82,13 @@ $(function(){
         $transcript.contents().scroll(function(){
             set_user_scroll(true);
         });
+        
+        var url_hash = location.hash.match(/#at_(\d+(\.\d+))_s/);
+        if (url_hash) {
+            $player[0].currentTime = url_hash[1];
+            // Autoplay generally a bad idea, but we could do it...
+            // $player[0].play();
+        }
 
     });
 });
