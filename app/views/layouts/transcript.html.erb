@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <%= stylesheet_link_tag "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body class="plain">
+    <div class="well well-sm"><small>
+        <script>
+          (function() {
+            // Anonymous function for variable scoping.
+            var message;
+            if (navigator.platform.indexOf("Mac")!==-1) {
+              message = '&#x2318; F';
+            } else if (navigator.userAgent.match(/iPod|iPad|iPhone/i)) {
+              message = 'the address bar at the top of the screen';
+            } else { 
+              message = 'control-F';
+            }
+            document.write('Use ' + message + ' to search the transcript.');
+          })();
+        </script>
+    </small></div>
+    <%= yield %>
+  </body>
+</html>
