@@ -2,6 +2,7 @@ require 'rsolr'
 require 'date' # NameError deep in Solrizer without this.
 require 'logger'
 require 'zip'
+require 'set'
 require_relative '../../app/models/validated_pb_core'
 require_relative 'null_logger'
 require_relative 'mount_validator'
@@ -20,6 +21,7 @@ class PBCoreIngester
     $LOG ||= NullLogger.new
     @errors = Hash.new([])
     @success_count = 0
+    @already = Set.new
 
     @re = Regexp.new(opts[:regex] || '') # Empty RE will match anything.
   end
@@ -83,6 +85,8 @@ class PBCoreIngester
       rescue => e
         raise ValidationError.new(e)
       end
+
+      fail ValidationError.new('ID repeated') unless @already.add?(pbcore.id)
 
       begin
         @solr.add(pbcore.to_solr)
