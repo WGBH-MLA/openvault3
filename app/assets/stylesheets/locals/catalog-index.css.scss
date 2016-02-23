@@ -40,6 +40,9 @@
                 background: #FFF;
                 color: #000 !important; // Ignore facet_limit-active
                 border-radius: 0px;
+                @media (max-width: $screen-md-max) {
+                    padding: 10px; // So arrows do not wrap out of box.
+                }
             }
             .panel-collapse {
                 position: relative; // Explicit position necessary for z-index to work
