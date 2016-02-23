@@ -30,20 +30,17 @@
           %>">contact us</a>.
         </div>
       <% elsif !@pbcore.proxy_srcs.empty? %>
-        <div>
-          <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                        controls: true, id: 'player-media',
-                        oncontextmenu: 'return false;',
-                        poster: @pbcore.thumbnail_src,
-                        width: '100%') do %>
-            <% @pbcore.proxy_srcs.each do |src| %>
-              <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
-            <% end %>
-            <!-- We have transcripts, but not SRT caption files:
-              <track kind="captions" src="..."/>
-            -->
+        <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                      controls: true, id: 'player-media',
+                      oncontextmenu: 'return false;',
+                      poster: @pbcore.thumbnail_src) do %>
+          <% @pbcore.proxy_srcs.each do |src| %>
+            <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
           <% end %>
-        </div>
+          <!-- We have transcripts, but not SRT caption files:
+            <track kind="captions" src="..."/>
+          -->
+        <% end %>
       <% end %>
       
       
