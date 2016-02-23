@@ -52,7 +52,7 @@ Cambridge, Massachusetts.
 
 ## author
 
-Olga Umansky, Boston Psychoanalytic Society and Institute
+Boston Psychoanalytic Society and Institute
 
 ## Article
 
