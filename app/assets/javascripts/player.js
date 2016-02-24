@@ -6,7 +6,6 @@ $(function(){
                60*60 * parseFloat(arr[0]);
     }
     
-    // TODO: offsets need to be recalculated when width changes.
     var $transcript = $('#transcript');
     $transcript.on('load', function(){
         var lines = {};
