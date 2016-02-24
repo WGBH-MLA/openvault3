@@ -24,6 +24,11 @@
             }
         }
     }
+    @media (max-width: $screen-sm-max) {
+        #sidebar .panel-title::after {
+            float: none; // Blacklight floats them right, but that's too far if it's the whole screen width.
+        }
+    }
     @media (max-width: $screen-xs-max) {
         .facets-toggle { margin-top: -50px; }
         // Move it up to a more natural location, and then kill the space it would have used.
