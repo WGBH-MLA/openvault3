@@ -118,6 +118,7 @@ describe 'Validated and plain PBCore' do
         date: '12/31/1999',
         year: '1999',
         title: 'SERIES; PROGRAM; ASSET',
+        short_title: 'ASSET',
         duration: '01:23:45',
         asset_type: 'Original footage',
         series_description: 'SERIES-DESCRIPTION',
@@ -160,18 +161,24 @@ describe 'Validated and plain PBCore' do
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
-        :id, :title, :thumbnail_src, :year, :series_title, :program_title,
+        :id, :title, :short_title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :access, :genres, :topics, :asset_type, :media_type,
         :scholar_exhibits, :special_collections, :special_collection_tags,
         :playlist_group, :playlist_order)
                              .merge(xml: pbc_xml,
-                                    text: ['SERIES', 'PROGRAM', 'PROGRAM-NUMBER', 'ASSET', '12/31/1999',
-                                           '1999', 'SERIES; PROGRAM; ASSET', 'SERIES-DESCRIPTION',
-                                           'PROGRAM-DESCRIPTION', 'ASSET-DESCRIPTION', 'CONTRIBUTOR-NAME-1',
-                                           'CONTRIBUTOR-ROLE-1', 'CONTRIBUTOR-NAME-2', 'CONTRIBUTOR-ROLE-2',
-                                           'CREATOR-NAME-1', 'CREATOR-ROLE-1', 'CREATOR-NAME-2', 'CREATOR-ROLE-2',
-                                           'PUBLISHER-1', 'PUBLISHER-2', 'SUBJECT-1', 'SUBJECT-2', 'LOCATION-1',
-                                           'LOCATION-2', 'GENRE-1', 'GENRE-2', 'TOPIC-1', 'TOPIC-2', 'RIGHTS-SUMMARY',
+                                    text: ['SERIES', 'PROGRAM', 'PROGRAM-NUMBER', 'ASSET', 'SERIES; PROGRAM; ASSET',
+                                           '12/31/1999', '1999',
+                                           'SERIES-DESCRIPTION', 'PROGRAM-DESCRIPTION', 'ASSET-DESCRIPTION',
+                                           'CONTRIBUTOR-NAME-1', 'CONTRIBUTOR-ROLE-1',
+                                           'CONTRIBUTOR-NAME-2', 'CONTRIBUTOR-ROLE-2',
+                                           'CREATOR-NAME-1', 'CREATOR-ROLE-1',
+                                           'CREATOR-NAME-2', 'CREATOR-ROLE-2',
+                                           'PUBLISHER-1', 'PUBLISHER-2',
+                                           'SUBJECT-1', 'SUBJECT-2',
+                                           'LOCATION-1', 'LOCATION-2',
+                                           'GENRE-1', 'GENRE-2',
+                                           'TOPIC-1', 'TOPIC-2',
+                                           'RIGHTS-SUMMARY',
                                            'Doctor Evil foo foo foo bar bar bar'])
 
       pbc = PBCore.new(pbc_xml)

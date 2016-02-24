@@ -28,15 +28,21 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @asset_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Open Vault Title"]')
   end
 
+  def title
+    @title ||= [series_title, program_title, asset_title].select { |x| x }.join('; ')
+  end
+  def short_title
+    @short_title ||= (asset_title || program_title || series_title)
+                     .gsub(/^.*Interview\s+with\s+/i, '')
+    # N-of-N will be stripped downstream, but we keep it here
+    # so that we can distinguish the 1-of-N from the others.
+  end
+
   def date
     @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
   def year
     @year ||= date.match(/(\d{4})/)[1] if date
-  end
-
-  def title
-    @title ||= [series_title, program_title, asset_title].select { |x| x }.join('; ')
   end
 
   def duration
@@ -258,6 +264,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
 
       title: title,
       thumbnail_src: thumbnail_src,
+      short_title: short_title,
 
       year: year,
 
@@ -295,7 +302,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def text
     @text = begin
       ignores = [
-        :text, :to_solr, :id, :duration,
+        :text, :to_solr, :id, :duration, :short_title,
         :media_type, :asset_type, :access, :digitized?,
         :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags,
