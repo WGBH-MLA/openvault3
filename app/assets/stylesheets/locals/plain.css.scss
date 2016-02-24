@@ -23,5 +23,9 @@
             color: $dark-blue;
             padding-right: 0.3em;
         }
+        .current {
+            border: 2px solid $light-grey;
+            border-radius: 8px;
+        }
     }
 }

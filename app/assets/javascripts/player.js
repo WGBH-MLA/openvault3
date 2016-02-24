@@ -6,15 +6,14 @@ $(function(){
                60*60 * parseFloat(arr[0]);
     }
     
-    // TODO: offsets need to be recalculated when width changes.
     var $transcript = $('#transcript');
     $transcript.on('load', function(){
-        var offset = {};
+        var lines = {};
         $transcript.contents().find('[data-timecodebegin]').each(function(i,el){
             var $el = $(el);
-            offset[parse_timecode($el.data('timecodebegin'))] = $el.position().top;
+            lines[parse_timecode($el.data('timecodebegin'))] = $el;
         });
-        var sorted = Object.keys(offset).sort(function(a,b){return a - b;});
+        var sorted = Object.keys(lines).sort(function(a,b){return a - b;});
         // Browser seems to preserve key order, but don't rely on that.
         // JS default sort is lexicographic.
         function greatest_less_than(t) {
@@ -40,10 +39,15 @@ $(function(){
 
         $player.on('timeupdate', function(){
             var current = $player[0].currentTime;
-            var offset_key = greatest_less_than(current);
-            var target = offset[offset_key];
+            var key = greatest_less_than(current);
+            var $line = lines[key];
+            var class_name = 'current';
+            if (!$line.hasClass(class_name)) {
+                $transcript.contents().find('[data-timecodebegin]').removeClass(class_name);
+                $line.addClass(class_name);
+            };
             if (!is_user_scroll()) {
-                $('iframe').contents().scrollTop(target-30);
+                $('iframe').contents().scrollTop($line.position().top-30);
                 // "-30" to get the speaker's name at the top;
                 // ... but when a single monologue is broken into
                 // parts this doesn't look as good: we get a line
@@ -62,12 +66,14 @@ $(function(){
             }
         });
         
-        $player.on('play', function(){
+        $player.on('mouseenter play', function(){
             set_user_scroll(false);
         });
         
         $transcript.contents().find('.play-from-here').click(function(){
-            $player[0].currentTime = parse_timecode($(this).data('timecode'));
+            var time = parse_timecode($(this).data('timecode'));
+            location.hash = '#at_' + time + '_s';
+            $player[0].currentTime = time;
             $player[0].play();
             set_user_scroll(false);
         });
@@ -75,6 +81,13 @@ $(function(){
         $transcript.contents().scroll(function(){
             set_user_scroll(true);
         });
+        
+        var url_hash = location.hash.match(/#at_(\d+(\.\d+))_s/);
+        if (url_hash) {
+            $player[0].currentTime = url_hash[1];
+            // Autoplay generally a bad idea, but we could do it...
+            // $player[0].play();
+        }
 
     });
 });
