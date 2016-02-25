@@ -3,9 +3,9 @@
 ## I can’t get one of the video or audio records to play. What should I do?
 
 Please make sure your web browser is as new as or newer than Internet 
-Explorer 7.0, Mozilla Firefox 3.0, or Safari 3.0.  Also make sure you have 
-installed Flash 9.0.115 or newer. If the record still will not play, please <a 
-href="/contact-us" title="Contact">contact us.
+Explorer 7.0, Mozilla Firefox 3.0, or Safari 3.0.
+If the record still will not play, please
+[contact us](/contact-us).
 
 ## I have found a factual error in one of the records. Who should I contact?
 
@@ -14,13 +14,14 @@ href="/contact-us" title="Contact">contact us.
 ## Can I buy copies of the programs on Open Vault?
 
 Most programs are no longer available for distribution. Please refer to
-[shop.wgbh.org](http://shop.wgbh.org) and [www.shoppbs.org](http://www.shoppbs.org)
+[www.shoppbs.org](http://www.shoppbs.org)
 for the latest catalog of programs available for distribution.
 
 ##  Can I buy copies of source materials (interviews, news footage, b-roll, etc)?
 
-For professional licensing requests, please contact WGBH Stock Sales at 
-617-300-3939 or <a href="mailto:stock_sales@wgbh.org">stock_sales@wgbh.org</a>.
+For professional licensing requests, please contact 
+[WGBH Stock Sales](http://wgbhstocksales.org) at 
+617-300-3939 or [stock_sales@wgbh.org](mailto:stock_sales@wgbh.org).
 
 ##  How can I arrange to visit the WGBH Media Library and Archives?
 
