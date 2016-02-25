@@ -90,3 +90,18 @@ Double Check Files Were Uploaded:
 ```
 aws s3 ls s3://openvault.wgbh.org/bucket-name --recursive >> /Users/logs/s3_proxies.csv
 ```
+
+### What Does Digitized Mean?
+Records on Open vault that are "digitized" means they have a media file available to be viewed online, either on Open Vault, Boston Local TV News Digital Library, or the American Archive of Public Broadcasting websites.
+
+How a the website knows an asset record is digitized or not is based on either of these two PBCore elements in the metadata.
+```
+<pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
+```
+This is used if the record has an asset proxy file that is hosted on the Open Vault S3 bucket and available to view on Open Vault and follows the naming convention.
+
+To classify a record as digitized that is available on either Boston Local or AAPB, use this element.
+```
+<pbcoreAnnotation annotationType="Outside URL">URL_TO_OUTSIDE_RECORD_PAGE</pbcoreAnnotation>
+```
+It is important to note that if there is an outside url linked for Open Vault asset records, the media files must be available to be viewed on Boston Local or the AAPB online reading room.  Outside urls should not be used for meatadata only records.
