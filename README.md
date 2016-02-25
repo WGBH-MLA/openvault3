@@ -6,6 +6,21 @@ A new version of [Openvault](http://openvault.wgbh.org),
 to replace the [current one](https://github.com/wgbh/openvault).
 Planning documents are available on [the intranet](https://atlas.wgbh.org/confluence/display/OV).
 
+## Deploy Servers
+
+There are four steps to get the site up from scratch:
+- Request servers and everything else from AWS.
+- Use Ansible for a basic configuration of the servers.
+- Deploy the site with Capistrano.
+- Ingest the PBCore.
+
+On an on-going basis there will be:
+- Capistrano redeploys to the demo server
+- and swaps of the production and demo servers.
+
+For more details, see `scripts/deploy.sh`: Ideally, this will run as-is,
+but you could also read it as instructions, and do each step manually.
+
 ## Ingest PBCore
 
 The authoritative metadata records for the site come from a FileMaker database which exports a zip
