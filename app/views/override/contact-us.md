@@ -2,7 +2,7 @@
 
 We would love to hear from you! If you have general questions or comments about the website and collection,
 want to share information on the stories you find in the collection, or would like to support the archive
-being a digitization sponsor, you can reach us at [mailto:openvault@wgbh.org](openvault@wgbh.org) or by mail.
+by sponsoring digitization, you can reach us at [openvault@wgbh.org](mailto:openvault@wgbh.org) or by mail.
 
 ### Mailing Address:
 Open Vault<br>
