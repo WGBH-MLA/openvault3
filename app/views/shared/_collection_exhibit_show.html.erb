@@ -18,7 +18,7 @@
         <% other_docs = current_tab[12..-1] %>
         <%= render partial: 'shared/document_grid', locals: {documents: top_docs} %>
         <% if other_docs && !other_docs.empty? %>
-          <div class="clearfix"/>
+        <div class="clearfix"></div>
           <p>And <%= other_docs.count %> more...</p>
           <% other_docs.in_groups(2, false).each do |docs_col| %>
             <div class="col-sm-6">
