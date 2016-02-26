@@ -78,3 +78,5 @@ gem 'aws-sdk', '~> 2', :group => :development # Unless we want the AWS credentia
 gem 'rubocop', :group => :development
 gem 'pry', :group => :development
 gem 'pry-nav', :group => :development
+
+gem 'passenger'
