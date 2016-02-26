@@ -7,8 +7,11 @@ cd ~/openvault-deploy
 
 # 1. AWS
 
+which rvm || exit 1 # Without the right ruby version from RVM, we get cryptic errors.
 git checkout git@github.com:WGBH/aws-wrapper.git
+cd aws-wrapper
 ruby aws-wrapper/scripts/build.rb --name openvault.wgbh-mla-test.org
+cd ..
 
 # 2. Ansible
 
