@@ -12,9 +12,6 @@
         background: none;
         padding: $grid-gutter-width/2;
         margin: 0px;
-        #startOverLink {
-            display: none;
-        }
     }
     @media (min-width: $screen-md-min) {
         #sidebar {

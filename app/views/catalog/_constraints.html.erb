@@ -1,0 +1,7 @@
+<%# OV tweak: not just any params will do + no start over + put 'unless' inside to preserve whitespace. %>
+<div id="appliedParams" class="clearfix constraints-container">
+  <% unless params.slice(:f, :q) == {'f' => {'access' => [PBCore::ONLINE]}} %>
+    <span class="constraints-label"><%= t('blacklight.search.filters.title') %></span>
+    <%= render_constraints(params) %>
+  <% end %>
+</div>
