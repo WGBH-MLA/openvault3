@@ -10,6 +10,6 @@ As America's preeminent public broadcasting producer, the source of fully one-th
 
 The entire WGBH collection and the American Archive of Public Broadcasting are available for research on location at WGBH. [Contact us](/contact-us) to schedule a research visit in our Brighton, MA offices.
 
-If you are interested in supporting Open Vault through donation or sponsoring digitization, [contact us](/contact-us)
+If you are interested in supporting Open Vault through donation or sponsoring digitization, [contact us](/contact-us).
 
 For professional licensing requests, please visit the [WGBH Stock Sales](http://wgbhstocksales.org) website or call 617-300-3939.
