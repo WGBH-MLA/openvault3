@@ -330,6 +330,8 @@ Warren, Robert Penn. *The Collected Poems of Robert Penn Warren*. Ed. John Burt.
 ## Authors
 
 ### Jim Cocola
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/cocola_headshot.png"></img></div>
+
 Jim Cocola works as an Assistant Professor of Literature, Film, and Media in the Department of Humanities and Arts at Worcester Polytechnic Institute, in Worcester, Massachusetts, and has also served on the faculty of the Language and Thinking Program at Bard College, in Annandale-on-Hudson, New York. He received a high school diploma from Geneva High School, in Geneva, New York, an A.B. in History and Literature from Harvard College, in Cambridge, Massachusetts, and a Ph.D. in English from the University of Virginia, in Charlottesville, Virginia. His essays have appeared and are forthcoming in *College English*, *College Literature*, *Discourse*, *The Minnesota Review*, *n+1*, *SEL: Studies in English Literature 1500-1900* and *The Worcester Review*. His honors include a research scholarship at The Georgia O'Keeffe Museum Research Center in Santa Fe, New Mexico and a resident fellowship at the The MacDowell Colony in Peterborough, New Hampshire.
 
 ### Credits

@@ -197,6 +197,8 @@ My deepest gratitude to Stephen Chen for talking with me about his mother and he
 ## Authors
 
 ### Dana Polan
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/polan_headshot.png"></img></div>
+
 Polan is a Professor of Cinema Studies in the Tisch School of the Arts at New York University (NYU). He is the author of 8 books in film and media, including, most recently, Julia Child's *The French Chef* (Duke University Press, 2011), and approximately 200 essays, reviews, and review-essays. He has also done DVD commentaries for 8 films, such as *The Third Man* and *The Girl Can't Help It*. He is a former president of the Society for Cinema Studies, the professional society for film (now the Society for Cinema and Media Studies), and a former editor of its refereed scholarly publication, *Cinema Journal*. He holds a Doctorat d’Etat in Letters from the Sorbonne Nouvelle and a Ph.D. in Modern Thought from Stanford. Before coming to NYU, he taught in the English department at the University of Pittsburgh and in critical studies at the School of Cinema-TV (now Cinematic Arts) at USC. He has been knighted by the French Ministry of Culture for contributions to cross-cultural exchange, and in 2003, was selected as one of that year’s two Academy Foundation Scholars by the Academy of Motion Picture Arts and Sciences.
 
 ### Additional Credits

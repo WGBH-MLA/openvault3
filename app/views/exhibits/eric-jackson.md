@@ -136,6 +136,7 @@ Interviews I have conducted with Eric Jackson over the past decade provide meani
 ## Authors
 
 ### Leonard Brown
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/brown_headshot.png"></img></div>
 
 Brown is a professional musician (saxophonist, composer, & arranger), teacher, ethnomusicologist and specialist in multicultural education. He has performed with many outstanding artists including Alice Coltrane, Pharoah Sanders, George Russell, Bill Barron, Yusef Lateef, Alan Dawson and Ed Blackwell. An associate professor of African American Studies and Music at Northeastern University/Boston, Brown is co-director of the Afro-Caribbean Music Research Project. He is a Ford Foundation Fellow & is currently involved in exposing & educating students to African retentions in 21st century Caribbean cultures. From 1996 to 2002, he served as senior ethnomusicologist and principal cultural historian to the American Jazz Museum in Kansas City, MO, the first national jazz museum in the nation and recently served in an advisory capacity for the National Museum of African American Music proposed for Nashville, TN.
 

@@ -144,7 +144,11 @@ Shinagel, Michael. *“The Gates Unbarred”: A History of University Extension 
 ## Authors
 
 ### Mark Garrett Cooper
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/cooper_headshot.png"></img></div>
+
 Cooper is Professor of Film and Media Studies at the University of South Carolina. He collaborates with University of California, Davis English professor John Marx on a project called "Mass Media and the Humanities Workforce." His most recent book is Universal Women: Filmmaking and Institutional Changes in Early Hollywood (University of Illinois Press, 2010). He is also at work on a history of motion pictures from the point of view of accounting.
 
 ### John Marx
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/marx_headshot.png"></img></div>
+
 Marx is Professor of English at the University of California, Davis and an Editor of the journal Contemporary Literature. He is at work on a solo book entitled "Mega: How Mass Media Make Contemporary Cities" and is collaborating with University of South Carolina film scholar and archivist Mark Garrett Cooper on a project called "Mass Media and the Humanities Workforce." He is the author most recently of Geopolitics and the Anglophone Novel, 1890-2011 (Cambridge UP, 2012)

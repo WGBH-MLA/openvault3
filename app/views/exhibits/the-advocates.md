@@ -640,6 +640,8 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 ### R. Lisle Baker 
 
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/baker_headshot.png"></img></div>
+
 Baker is a professor of law at Suffolk University Law School in Boston, where 
 he teaches courses on property, mediation, and planning for law as a career 
 and enterprise. While he was an associate in the Boston firm of Hill & Barlow, 
