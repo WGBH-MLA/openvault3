@@ -144,7 +144,9 @@ Among the many groups that took up action was the Pan-African Liberation Committ
 ## Authors
 
 ### R. Joseph Parrott
-<img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/parrott_headshot.png" class="pull-left"></img>Parrott is an International Security Studies Pre-Doctoral Fellow at Yale University and a Ph.D. Candidate in the Department of History at the University of Texas at Austin. He is currently working on a dissertation that examines the global politics of Portuguese African decolonization with a special emphasis on the development of western solidarity with the liberation movements. He has received grants and fellowships from the Council for European Studies, the Black Metropolis Research Consortium, the New York Public Library, the Society for Historians of American Foreign Relations, and multiple presidential libraries. He holds a Master of Public Policy degree from the University of Virginia.
+<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/parrott_headshot.png"></img></div>
+
+Parrott is an International Security Studies Pre-Doctoral Fellow at Yale University and a Ph.D. Candidate in the Department of History at the University of Texas at Austin. He is currently working on a dissertation that examines the global politics of Portuguese African decolonization with a special emphasis on the development of western solidarity with the liberation movements. He has received grants and fellowships from the Council for European Studies, the Black Metropolis Research Consortium, the New York Public Library, the Society for Historians of American Foreign Relations, and multiple presidential libraries. He holds a Master of Public Policy degree from the University of Virginia.
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Brenda Gayle Plummer works at the University of Wisconsin-Madison in the departments of History and Afro-American Studies. Plummer is the author of books and essays on race and foreign affairs, and African American and Caribbean history.
