@@ -222,4 +222,4 @@ Esther (Eggertson) Peterson provided several oral history Interviews to document
 ## Authors
 
 ### Maureen Mann Tannetta 
-Tannetta is a public historian and librarian studying public history at Northeastern University. Her research focuses on the history of family law and policy. She is an educator and media specialist who publishes on the topics of digital humanities, instructional technology, and library and information science.
+<img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/tannetta_headshot.png" class="pull-left"></img>Tannetta is a public historian and librarian studying public history at Northeastern University. Her research focuses on the history of family law and policy. She is an educator and media specialist who publishes on the topics of digital humanities, instructional technology, and library and information science.
