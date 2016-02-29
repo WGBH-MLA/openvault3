@@ -76,7 +76,7 @@ class ValidatedPBCore < PBCore
     if outside_url && !(aapb_url || boston_tv_news_url)
       errors << "Outside URL not of expected form: #{outside_url}"
     end
-    unless blocked_country_codes.all? { |code| code.match(/^[A-Z-]{2}$/) }
+    unless blocked_country_codes.all? { |code| code.match(/^[A-Z-]{3}$/) }
       errors << "Unexpected blocked country codes: #{blocked_country_codes}"
     end
     return if errors.empty?
