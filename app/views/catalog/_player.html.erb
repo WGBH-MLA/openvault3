@@ -17,10 +17,6 @@
 
     <% if geoblocked? %>
       <strong>Note:</strong> This content is not available in your region.
-    <% elsif !@pbcore.digitized? %>
-      Undigitized item: <span class="btn btn-primary btn-sm" 
-                              onclick="$('#request-modal').modal('show');">
-                            Request Digitization</span>
     <% elsif !@pbcore.proxy_srcs.empty? %>
       <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                     controls: true, id: 'player-media',
@@ -32,16 +28,6 @@
         <!-- We have transcripts, but not SRT caption files:
           <track kind="captions" src="..."/>
         -->
-      <% end %>
-    <% end %>
-
-    <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
-      <% if site_url %>
-        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-        <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
-        <%= verb %> online at the 
-        <a href="<%= site_url %>" target="_blank"><%= site_name %>
-          <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
       <% end %>
     <% end %>
 
@@ -58,17 +44,36 @@
 
   </div>
     
-  <% if @pbcore.transcript_src %>
-    <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>" 
-            class="<%= transcript_col_class %>" 
-            frameBorder="0" height="400"></iframe>
-  <% elsif !@pbcore.image? %>
-    Untranscribed item: 
-    <span class="btn btn-primary btn-sm" 
-          onclick="$('#request-modal').modal('show');">
-        Request Transcription</span>
-  <% end %>
+  <div class="<%= transcript_col_class %>">
+    <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
+      <% if site_url %>
+        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+        <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
+        <%= verb %> online at the 
+        <a href="<%= site_url %>" target="_blank"><%= site_name %>
+          <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+      <% end %>
+    <% end %>  
+      
+    <% if !@pbcore.digitized? %>
+      Undigitized item:
+      <span class="btn btn-primary btn-sm" 
+            onclick="$('#request-modal').modal('show');">
+          Request Digitization</span>
+    <% end %>
+      
+    <% if @pbcore.transcript_src %>
+      <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
+              frameBorder="0" height="400"></iframe>
+    <% elsif !@pbcore.image? %>
+      Untranscribed item: 
+      <span class="btn btn-primary btn-sm" 
+            onclick="$('#request-modal').modal('show');">
+          Request Transcription</span>
+    <% end %>
+  </div>
   <div class="clearfix"></div>
+  <%# Parent div collapses without this clearfix: I don't really understand the problem. %>
 </div>
 
 <div class="modal fade" id="request-modal" tabindex="-1" role="dialog" aria-labelledby="request-modal-title">
