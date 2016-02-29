@@ -371,7 +371,7 @@ Unlike other media panics, *Frontline*’s “Does TV Kill” was not inspired b
 ## Authors
 
 ### Daniella Perry
-Perry is a PhD Candidate at UCLA in History, in the field of History of Science, Medicine, and Technology. Her research is on the history of federal media violence investigations on comic books, television, and video games since 1954, and her dissertation is tentatively titled, The Role of Scientific Evidence in Media Violence Investigations, 1954-2012. Daniella explores the presentation and use of scientific evidence in these investigations to understand the role of social science in public policy more broadly.
+<img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/perry_headshot.png" class="pull-left"></img>Perry is a PhD Candidate at UCLA in History, in the field of History of Science, Medicine, and Technology. Her research is on the history of federal media violence investigations on comic books, television, and video games since 1954, and her dissertation is tentatively titled, The Role of Scientific Evidence in Media Violence Investigations, 1954-2012. Daniella explores the presentation and use of scientific evidence in these investigations to understand the role of social science in public policy more broadly.
 
 ### Credits
 Adviser Consulted During the Creation of this Collection: Philip Scepanski (PhD, Northwestern University) currently teaches in the Department of Communication and Theatre at Concordia University Chicago. His current research combines media theory and American television history to examine the ways in which comedy engages moments of American "national trauma" like the JFK assassination, the 1992 Los Angeles riots, and 9/11.
