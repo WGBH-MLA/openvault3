@@ -20,6 +20,8 @@ Rails.application.routes.draw do
   resources :embed,
             only: [:show]
 
+  get 'robots', to: 'robots#show'
+
   override_constraints = lambda do |req|
     path = req.params['path']
     path.match(/^[a-z0-9\/-]+$/) && !path.match(/^rails/)
