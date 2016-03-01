@@ -27,7 +27,12 @@
         font-size: 36px; // TODO: This causes line wrapping in md.
         background: $yellow;
         &:hover { background: $pale-yellow; }
-        padding: 1em 0em; // no side padding, to avoid unnecessary line-wrapping in medium width.
+        @media (min-width: $screen-lg-min) {
+            padding: 1em 0em; // No side padding, so none line wrap...
+        }
+        @media (max-width: $screen-md-max) {
+            padding: 1em 1.2em; // Excessive side padding, to force all to wrap.
+        }
         font-weight: $semibold;
     }
     
