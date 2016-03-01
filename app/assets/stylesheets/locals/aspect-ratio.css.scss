@@ -27,12 +27,10 @@
   }
 }
 
-// Implement a 16x9 class
-.aspect-ratio-16x9 {
-  @include aspect-ratio(16, 9);
-}
+//.aspect-ratio-16x9 {
+//  @include aspect-ratio(16, 9);
+//}
 
-// Implement a 4x3 class
 .aspect-ratio-4x3 {
   @include aspect-ratio(4, 3);
 }
