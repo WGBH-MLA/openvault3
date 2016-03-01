@@ -9,6 +9,6 @@ class GeoIPCountry
   end
 
   def country_code(ip)
-    @geo_ip.country(ip).country_code2
+    @geo_ip.country(ip).country_code3
   end
 end
