@@ -57,6 +57,16 @@
             Boston, MA: WGBH Media Library &amp; Archives.
             Retrieved from <%= url %></dd>
       </dl>
+
+      <div class="well well-sm">
+          If you have more information about this item, we want to know! Please
+          <a href="mailto:openvault@wgbh.org?<%=
+            {
+              subject: "More information about \"#{@pbcore.short_title}\"",
+              body: "http://openvault.wgbh.org/catalog/#{@pbcore.id}"
+            }.to_query
+          %>">contact us</a>, including the URL.
+      </div>
     </div>
   </div>
 </div>
