@@ -6,6 +6,7 @@ if Rails && !Rails.env.production?
   desc 'Run tests as if on CI server'
   task :ci do
     require 'jettywrapper'
+    ENV['JETTY_PORT'] ||= '8984'
 
     # Set the version of hydra-jetty we want, and download a clean copy of it.
     Jettywrapper.hydra_jetty_version = 'v8.4.0'

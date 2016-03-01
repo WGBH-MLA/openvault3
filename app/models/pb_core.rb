@@ -216,7 +216,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
   def playlist_map
     @playlist_map ||= begin
-      response = RSolr.connect(url: 'http://localhost:8983/solr/')
+      response = RSolr.connect(url: "http://localhost:#{ENV['JETTY_PORT']}/solr/")
                  .get('select', params: {
                         'fl' => 'playlist_order,id',
                         'fq' => "playlist_group:#{playlist_group}",

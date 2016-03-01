@@ -66,7 +66,7 @@ class Tabbed < Cmless
         q_val = query.values.first[0]
 
         # TODO: figure out how to reuse the blacklight, instead of wrapping our own.
-        solr_docs = RSolr.connect(url: 'http://localhost:8983/solr/')
+        solr_docs = RSolr.connect(url: "http://localhost:#{ENV['JETTY_PORT']}/solr/")
                     .get('select', params: {
                            'q' => "#{q_key}:#{q_val}",
                            'fl' => 'id,short_title,thumbnail_src',
