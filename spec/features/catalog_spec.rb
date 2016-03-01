@@ -83,7 +83,12 @@ describe 'Catalog' do
           ['media_type', 'Video OR Audio', 2],
           ['media_type', 'Audio OR Image', 2],
           ['media_type', 'Image OR Video', 2],
-          ['media_type', 'Video OR Audio OR Image', 3]
+          ['media_type', 'Video OR Audio OR Image', 3],
+          ['series_title', 'SERIES', 1],
+          ['program_title', 'PROGRAM', 1],
+          ['genres', 'GENRE-1', 1],
+          ['topics', 'TOPIC-1', 1],
+          ['asset_type', 'Original footage', 3]
         ]
         assertions.each do |facet, value, value_count|
           url = '/catalog?' + {
