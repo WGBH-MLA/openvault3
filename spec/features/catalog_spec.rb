@@ -7,6 +7,17 @@ describe 'Catalog' do
     PBCoreIngester.load_fixtures
   end
 
+  def expect_count(count)
+    case count
+    when 0
+      expect(page).to have_text('No entries found')
+    when 1
+      expect(page).to have_text('1 entry found')
+    else
+      expect(page).to have_text("1 - #{[count, 12].min} of #{count}")
+    end
+  end
+
   describe '#index' do
     it 'loads the index page' do
       visit '/catalog'
@@ -60,6 +71,38 @@ describe 'Catalog' do
         '"An" REMOVED: SORT 2',
         '"The" removed: sort 1'
       ])
+    end
+
+    describe 'support facet ORs' do
+      describe 'URL support' do
+        # OR is supported on all facets, even if not in the UI.
+        assertions = [
+          ['media_type', 'Video', 1],
+          ['media_type', 'Audio', 1],
+          ['media_type', 'Image', 1],
+          ['media_type', 'Video OR Audio', 2],
+          ['media_type', 'Audio OR Image', 2],
+          ['media_type', 'Image OR Video', 2],
+          ['media_type', 'Video OR Audio OR Image', 3],
+          ['series_title', 'SERIES', 1],
+          ['program_title', 'PROGRAM', 1],
+          ['genres', 'GENRE-1', 1],
+          ['topics', 'TOPIC-1', 1],
+          ['asset_type', 'Original footage', 3]
+        ]
+        assertions.each do |facet, value, value_count|
+          url = '/catalog?' + {
+            f: { access: [PBCore::ONLINE],
+                 facet => [value] }
+          }.to_query
+          describe "visiting #{url}" do
+            it "has #{value_count} results" do
+              visit url
+              expect_count(value_count)
+            end
+          end
+        end
+      end
     end
   end
 
