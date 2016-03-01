@@ -16,10 +16,10 @@ $(function(){
         var sorted = Object.keys(lines).sort(function(a,b){return a - b;});
         // Browser seems to preserve key order, but don't rely on that.
         // JS default sort is lexicographic.
-        function greatest_less_than(t) {
+        function greatest_less_than_or_equal_to(t) {
             var last = 0;
             for (var i=0; i < sorted.length; i++) {
-                if (sorted[i] < t) {
+                if (sorted[i] <= t) {
                     last = sorted[i];
                 } else {
                     return last;
@@ -39,7 +39,7 @@ $(function(){
 
         $player.on('timeupdate', function(){
             var current = $player[0].currentTime;
-            var key = greatest_less_than(current);
+            var key = greatest_less_than_or_equal_to(current);
             var $line = lines[key];
             var class_name = 'current';
             if (!$line.hasClass(class_name)) {
