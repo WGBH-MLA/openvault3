@@ -23,9 +23,12 @@
             color: $dark-blue;
             padding-right: 0.3em;
         }
-        .current {
-            border: 2px solid $light-grey;
+        .para {
+            border: 2px solid transparent;
             border-radius: 8px;
+        }
+        .para.current {
+            border-color: $light-grey
         }
     }
 }
