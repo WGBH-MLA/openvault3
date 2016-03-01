@@ -6,7 +6,7 @@ describe 'Catalog' do
   before(:all) do
     PBCoreIngester.load_fixtures
   end
-  
+
   def expect_count(count)
     case count
     when 0
@@ -72,7 +72,7 @@ describe 'Catalog' do
         '"The" removed: sort 1'
       ])
     end
-    
+
     describe 'support facet ORs' do
       describe 'URL support' do
         # OR is supported on all facets, even if not in the UI.
@@ -87,9 +87,9 @@ describe 'Catalog' do
         ]
         assertions.each do |facet, value, value_count|
           url = '/catalog?' + {
-            f: {access: [PBCore::ONLINE],
-            facet => [value]}
-          }.to_query 
+            f: { access: [PBCore::ONLINE],
+                 facet => [value] }
+          }.to_query
           describe "visiting #{url}" do
             it "has #{value_count} results" do
               visit url
