@@ -11,7 +11,8 @@
     #player {
         background-color: $pale-grey;
         padding: $grid-gutter-width/2 0;
-        img, video, audio { width: 100%; } 
+        img, video, audio { width: 100%; }
+        iframe { width: 100%; }
     }
     #playlist {
         width: 100%;
