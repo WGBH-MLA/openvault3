@@ -36,7 +36,16 @@
       margin-top: 20px;
       font-size: 14px;
     }
+    
+    svg#wgbh-logo {
+      text { font-weight: bold; }
+      path,text { fill: #FFF;  }
+    }
 }
+.blacklight-home #footer svg#wgbh-logo {
+      path,text { fill: $light-grey;  }
+}
+
 
 #header,#footer {
     padding: 2em;
