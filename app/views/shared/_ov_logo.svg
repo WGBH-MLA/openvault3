@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263 60" id="ov-logo">
+    <rect x="0" y="0" width="300" height="40" opacity="0"/><!-- So the whole thing is clickable. -->
+    <text transform="translate(0,30)" font-size="50" font-weight="200">
+      <!-- Whitney is closer than Heletica, but loop of "p" is still not circular: should be. -->
+      open
+    </text>
+    <text transform="translate(120,30) scale(1.25,1)" font-size="36" font-weight="800" font-family="Helvetica">
+      <!-- Whitney angles the ends of the strokes; With Helvetica they are horizontal. -->
+      VAULT
+    </text>
+</svg>

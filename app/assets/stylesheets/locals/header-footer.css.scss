@@ -1,7 +1,10 @@
 #header {
     background: $dark-blue;
-    img,input {
+    svg#ov-logo,input {
         width: 250px;
+    }
+    svg#ov-logo {
+        text { fill: #FFF;  }
     }
     input {
         padding: 0 8px;
