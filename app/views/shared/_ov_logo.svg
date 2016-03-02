@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263 60" id="ov-logo">
-    <rect x="0" y="0" width="300" height="40" opacity="0"/><!-- So the whole thing is clickable. -->
+    <rect x="0" y="0" width="1000" height="1000" opacity="0"/>
+    <!-- Make the whole thing clickable. Extra large so we don't need to tweak it going forward. -->
     <text transform="translate(0,30)" font-size="50" font-weight="200">
       <!-- Whitney is closer than Heletica, but loop of "p" is still not circular: should be. -->
       open
