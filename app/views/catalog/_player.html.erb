@@ -47,29 +47,53 @@
   <div class="<%= transcript_col_class %>">
     <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
       <% if site_url %>
-        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
-        <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
-        <%= verb %> online at the 
-        <a href="<%= site_url %>" target="_blank"><%= site_name %>
-          <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+        <p>
+          <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+          <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
+          <%= verb %> online at the 
+          <a href="<%= site_url %>" target="_blank"><%= site_name %>
+            <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+        </p>
       <% end %>
     <% end %>  
       
     <% if !@pbcore.digitized? %>
-      Undigitized item:
-      <span class="btn btn-primary btn-sm" 
-            onclick="$('#request-modal').modal('show');">
-          Request Digitization</span>
+      <p>
+        Undigitized item:
+        <span class="btn btn-primary btn-sm" 
+              onclick="$('#request-modal').modal('show');">
+            Request Digitization</span>
+      </p>
     <% end %>
       
     <% if @pbcore.transcript_src %>
       <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
-              frameBorder="0" height="400"></iframe>
+              frameBorder="0" height="400"></iframe>      
+      <div id="find-help" class="well well-sm" style="margin-bottom: 0;"><small>
+          <script>
+            (function() {
+              // Anonymous function for variable scoping.
+              var message;
+              if (navigator.platform.indexOf("Mac")!==-1) {
+                message = '&ldquo;&#x2318; F&rdquo;';
+              } else if (navigator.userAgent.match(/iPod|iPad|iPhone/i)) {
+                message = 'the address bar at the top of the screen';
+              } else { 
+                message = 'control-F';
+              }
+              document.write('Looking for something? Use ' + message + ' to search the transcript.');
+            })();
+          </script>
+          <span class="btn btn-primary btn-sm pull-right"
+                onclick="$('#find-help').hide();">Got it</span>
+      </small></div>
     <% elsif !@pbcore.image? %>
-      Untranscribed item: 
-      <span class="btn btn-primary btn-sm" 
-            onclick="$('#request-modal').modal('show');">
-          Request Transcription</span>
+      <p>
+        Untranscribed item: 
+        <span class="btn btn-primary btn-sm" 
+              onclick="$('#request-modal').modal('show');">
+            Request Transcription</span>
+      </p>
     <% end %>
   </div>
   <div class="clearfix"></div>
