@@ -45,7 +45,7 @@ class ValidatedPBCore < PBCore
         'Geoblock',
         'Media Type',
         'Outside URL',
-        'Password',
+        'Password Restriction',
         'Playlist Group',
         'Playlist Order',
         'Scholar Exhibit',

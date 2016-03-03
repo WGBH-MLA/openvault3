@@ -178,7 +178,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   end
 
   def password_required?
-    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password"]')
+    xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password Restriction"]')
   end
 
   AAPB_RE = /^http:\/\/americanarchive.org\//

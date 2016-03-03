@@ -58,7 +58,7 @@
   <pbcoreAnnotation annotationType="Playlist Group">demo</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Playlist Order">1</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Geoblock">---</pbcoreAnnotation>
-  <pbcoreAnnotation annotationType="Password">YES</pbcoreAnnotation>
+  <pbcoreAnnotation annotationType="Password Restriction">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Digitized">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Thumbnail">YES</pbcoreAnnotation>
   <pbcoreAnnotation annotationType="Transcript">YES</pbcoreAnnotation>
