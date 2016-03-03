@@ -39,12 +39,21 @@ The ingester can read the zip export directly: Unzipping is unnecessary.
 $ ruby scripts/ingest.rb --stdout-log --same-mount --files ~/Downloads/export.zip
 ```
 
-If you want to reingest just a few files from a zip, they should be selectively unzipped first:
+If you want to reingest just a few files from a zip, they should be selectively unzipped first.
+File names in the Filemaker export are based on ID, but also include an extra hash, so you'll
+need to grep:
 
 ```
 $ mkdir ~/unzips
-$ unzip  ~/Downloads/export.zip V_1234.xml V_5678.xml -d ~/unzips
+$ ZIP=~/Downloads/export.zip
+$ unzip $ZIP `unzip -l $ZIP | grep -e V_1234 -e V_5678 | perl -pne 's/.* //g'` -d ~/unzips/
 $ ruby scripts/ingest.rb --stdout-log --same-mount --dirs ~/unzips
+```
+
+Or if you have a longer list of IDs:
+
+```
+$ unzip $ZIP `unzip -l $ZIP | grep -f ~/list-of-ids.txt | perl -pne 's/.* //g'` -d ~/unzips/
 ```
 
 ## Asset Proxy, Thumbnail and Transcript Files
