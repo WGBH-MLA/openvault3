@@ -68,25 +68,32 @@
       
     <% if @pbcore.transcript_src %>
       <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
-              frameBorder="0" height="400"></iframe>      
-      <div id="find-help" class="well well-sm" style="margin-bottom: 0;"><small>
-          <script>
-            (function() {
-              // Anonymous function for variable scoping.
-              var message;
-              if (navigator.platform.indexOf("Mac")!==-1) {
-                message = '&ldquo;&#x2318; F&rdquo;';
-              } else if (navigator.userAgent.match(/iPod|iPad|iPhone/i)) {
-                message = 'the address bar at the top of the screen';
-              } else { 
-                message = 'control-F';
-              }
-              document.write('Looking for something? Use ' + message + ' to search the transcript.');
-            })();
-          </script>
-          <span class="btn btn-primary btn-sm pull-right"
-                onclick="$('#find-help').hide();">Got it</span>
-      </small></div>
+              frameBorder="0" height="400"></iframe>
+      <% 'got_it'.tap do |cookie_name| %>
+        <% if !cookies[cookie_name] %>
+          <div id="find-help" class="well well-sm" style="margin-bottom: 0;"><small>
+              <script>
+                (function() {
+                  // Anonymous function for variable scoping.
+                  var message;
+                  if (navigator.platform.indexOf("Mac")!==-1) {
+                    message = '&ldquo;&#x2318; F&rdquo;';
+                  } else if (navigator.userAgent.match(/iPod|iPad|iPhone/i)) {
+                    message = 'the address bar at the top of the screen';
+                  } else { 
+                    message = 'control-F';
+                  }
+                  document.write('Looking for something? Use ' + message + ' to search the transcript.');
+                })();
+              </script>
+              <span class="btn btn-primary btn-sm pull-right"
+                    onclick="
+                      $('#find-help').hide();
+                      document.cookie = '<%= cookie_name %>=y;max-age=<%= 60*60*24*365 %>';
+                    ">Got it</span>
+          </small></div>
+        <% end %>
+      <% end %>
     <% elsif !@pbcore.image? %>
       <p>
         Untranscribed item: 
