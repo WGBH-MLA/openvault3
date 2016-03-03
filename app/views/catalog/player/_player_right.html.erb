@@ -1,0 +1,59 @@
+<div class="<%= col_class %>">
+  <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
+    <% if site_url %>
+      <p>
+        <% verb = @pbcore.video? ? 'View' : 'Listen' %>
+        <% site_name = @pbcore.aapb_url ? 'American Archive of Public Broadcasting' : 'Boston TV News Digital Library' %>
+        <%= verb %> online at the 
+        <a href="<%= site_url %>" target="_blank"><%= site_name %>
+          <small><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></small></a>
+      </p>
+    <% end %>
+  <% end %>  
+
+  <% if !@pbcore.digitized? %>
+    <p>
+      Undigitized item:
+      <span class="btn btn-primary btn-sm" 
+            onclick="$('#request-modal').modal('show');">
+          Request Digitization</span>
+    </p>
+  <% end %>
+
+  <% if @pbcore.transcript_src %>
+    <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
+            frameBorder="0" height="400"></iframe>
+    <% 'got_it'.tap do |cookie_name| %>
+      <% if !cookies[cookie_name] %>
+        <div id="find-help" class="well well-sm" style="margin-bottom: 0;"><small>
+            <script>
+              (function() {
+                // Anonymous function for variable scoping.
+                var message;
+                if (navigator.platform.indexOf("Mac")!==-1) {
+                  message = '&ldquo;&#x2318; F&rdquo;';
+                } else if (navigator.userAgent.match(/iPod|iPad|iPhone/i)) {
+                  message = 'the address bar at the top of the screen';
+                } else { 
+                  message = 'control-F';
+                }
+                document.write('Looking for something? Use ' + message + ' to search the transcript.');
+              })();
+            </script>
+            <span class="btn btn-primary btn-sm pull-right"
+                  onclick="
+                    $('#find-help').hide();
+                    document.cookie = '<%= cookie_name %>=y;max-age=<%= 60*60*24*365 %>';
+                  ">Got it</span>
+        </small></div>
+      <% end %>
+    <% end %>
+  <% elsif !@pbcore.image? %>
+    <p>
+      Untranscribed item: 
+      <span class="btn btn-primary btn-sm" 
+            onclick="$('#request-modal').modal('show');">
+          Request Transcription</span>
+    </p>
+  <% end %>
+</div>
