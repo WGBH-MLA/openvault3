@@ -17,4 +17,11 @@
     #playlist {
         width: 100%;
     }
+    #password-modal {
+        #hint {
+            font-family: monospace;
+            font-weight: bold;
+            background: $pale-grey;
+        }
+    }
 }
