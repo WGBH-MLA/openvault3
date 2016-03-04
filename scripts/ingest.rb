@@ -15,7 +15,6 @@ class ParamsError < StandardError
 end
 
 class Ingest
-
   include HasLogger
 
   def const_init(name)
@@ -88,7 +87,7 @@ class Ingest
   def log_init!(argv)
     # Specify a log file unless we are logging to stdout
     unless @is_stdout_log
-      set_logger Logger.new(log_file_name)
+      self.logger = Logger.new(log_file_name)
 
       # Print to stdout where the logfile is
       puts "logging to #{log_file_name}"
@@ -131,7 +130,7 @@ class Ingest
     ingester = PBCoreIngester.new(is_same_mount: @is_same_mount, regex: @regex)
 
     # set the PBCoreIngester's logger to the same as this object's logger
-    ingester.set_logger logger
+    ingester.logger = logger
 
     @files.each do |path|
       begin

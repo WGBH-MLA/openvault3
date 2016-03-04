@@ -9,7 +9,6 @@ require_relative 'mount_validator'
 require_relative '../../lib/solr'
 
 class PBCoreIngester
-
   include HasLogger
 
   attr_reader :errors

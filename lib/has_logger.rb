@@ -2,8 +2,8 @@ require 'logger'
 
 module HasLogger
   # Sets the logger object
-  def set_logger(logger)
-    raise InvalidLogger.new(logger) unless logger.is_a? Logger || logger.nil?
+  def logger=(logger)
+    fail InvalidLogger.new(logger) unless logger.is_a?(Logger) || logger.nil?
     @logger = logger
   end
 

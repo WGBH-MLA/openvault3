@@ -15,10 +15,10 @@ describe HasLogger do
     end
   end
 
-  describe '#set_logger' do
+  describe '#logger=' do
     context 'when given something that is not a Logger object' do
       it 'raises an InvalidLogger error' do
-        expect{ subject.set_logger "not a logger" }.to raise_error HasLogger::InvalidLogger
+        expect { subject.logger = 'not a logger' }.to raise_error HasLogger::InvalidLogger
       end
     end
   end
