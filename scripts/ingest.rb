@@ -1,7 +1,9 @@
 require_relative '../lib/rails_stub'
 require_relative 'lib/pb_core_ingester'
-require 'logger'
+require_relative '../lib/has_logger'
 require 'rake'
+
+require 'pry'
 
 class Exception
   def short
@@ -13,6 +15,9 @@ class ParamsError < StandardError
 end
 
 class Ingest
+
+  include HasLogger
+
   def const_init(name)
     const_name = name.upcase.tr('-', '_')
     flag_name = "--#{name}"
@@ -25,7 +30,7 @@ class Ingest
   end
 
   def initialize(argv)
-    orig = argv.clone
+    log_init!(argv)
 
     %w(files dirs grep-files grep-dirs).each do |name|
       const_init(name)
@@ -40,9 +45,6 @@ class Ingest
 
     mode = argv.shift
     args = argv
-
-    log_init(orig)
-    $LOG.info("START: Process ##{Process.pid}: #{__FILE__} #{orig.join(' ')}")
 
     @flags = { is_same_mount: @is_same_mount, is_just_reindex: @is_just_reindex }
 
@@ -83,18 +85,21 @@ class Ingest
     end.flatten.sort
   end
 
-  def log_init(argv)
-    sanitized_argv = argv.grep(/--/).map { |a| a.sub('--', '') }.join('-')
-    log_file_name = if @is_stdout_log
-                      $stdout
-                    else
-                      Rails.root + "log/ingest-#{sanitized_argv}.log"
-                    end
-    $LOG = Logger.new(log_file_name, 'daily')
-    $LOG.formatter = proc do |severity, datetime, _progname, msg|
+  def log_init!(argv)
+    # Specify a log file unless we are logging to stdout
+    unless @is_stdout_log
+      set_logger Logger.new(log_file_name)
+
+      # Print to stdout where the logfile is
+      puts "logging to #{log_file_name}"
+    end
+
+    logger.formatter = proc do |severity, datetime, _progname, msg|
       "#{severity} [#{datetime.strftime('%Y-%m-%d %H:%M:%S')}]: #{msg}\n"
     end
-    puts "logging to #{log_file_name}"
+
+    # Log how the script was invoked
+    logger.info("START: Process ##{Process.pid}: #{__FILE__} #{argv.join(' ')}")
   end
 
   def usage_message
@@ -125,6 +130,9 @@ class Ingest
   def process
     ingester = PBCoreIngester.new(is_same_mount: @is_same_mount, regex: @regex)
 
+    # set the PBCoreIngester's logger to the same as this object's logger
+    ingester.set_logger logger
+
     @files.each do |path|
       begin
         success_count_before = ingester.success_count
@@ -132,16 +140,16 @@ class Ingest
         ingester.ingest(path: path, is_batch_commit: @is_batch_commit)
         success_count_after = ingester.success_count
         error_count_after = ingester.errors.values.flatten.count
-        $LOG.info("Processed '#{path}' #{'but not committed' if @is_batch_commit}")
-        $LOG.info("success: #{success_count_after - success_count_before}; " \
+        logger.info("Processed '#{path}' #{'but not committed' if @is_batch_commit}")
+        logger.info("success: #{success_count_after - success_count_before}; " \
           "error: #{error_count_after - error_count_before}")
       end
     end
 
     if @is_batch_commit
-      $LOG.info('Starting one big commit...')
+      logger.info('Starting one big commit...')
       ingester.commit
-      $LOG.info('Finished one big commit.')
+      logger.info('Finished one big commit.')
     end
 
     # TODO: Investigate whether optimization is worth it. Requires a lot of disk and time.
@@ -153,23 +161,27 @@ class Ingest
     success_count = ingester.success_count
     total_count = error_count + success_count
 
-    $LOG.info('SUMMARY: DETAIL')
+    logger.info('SUMMARY: DETAIL')
     errors.each do |type, list|
-      $LOG.warn("#{list.count} #{type} errors:\n#{list.join("\n")}")
+      logger.warn("#{list.count} #{type} errors:\n#{list.join("\n")}")
     end
 
-    $LOG.info('SUMMARY: STATS')
-    $LOG.info('(Look just above for details on each error.)')
+    logger.info('SUMMARY: STATS')
+    logger.info('(Look just above for details on each error.)')
     errors.each do |type, list|
-      $LOG.warn("#{list.count} (#{percent(list.count, total_count)}%) #{type}")
+      logger.warn("#{list.count} (#{percent(list.count, total_count)}%) #{type}")
     end
-    $LOG.info("#{success_count} (#{percent(success_count, total_count)}%) succeeded")
+    logger.info("#{success_count} (#{percent(success_count, total_count)}%) succeeded")
 
-    $LOG.info('DONE')
+    logger.info('DONE')
   end
 
   def percent(part, whole)
     (100.0 * part / whole).round(1)
+  end
+
+  def log_file_name
+    @log_file_name ||= "#{Rails.root}/log/ingest.#{Time.now.strftime('%Y-%m-%d_%H%M%S')}.log"
   end
 end
 

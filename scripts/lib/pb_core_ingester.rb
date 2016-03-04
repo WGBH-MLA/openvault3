@@ -4,11 +4,14 @@ require 'logger'
 require 'zip'
 require 'set'
 require_relative '../../app/models/validated_pb_core'
-require_relative 'null_logger'
+require_relative '../../lib/has_logger'
 require_relative 'mount_validator'
 require_relative '../../lib/solr'
 
 class PBCoreIngester
+
+  include HasLogger
+
   attr_reader :errors
   attr_reader :success_count
 
@@ -18,7 +21,6 @@ class PBCoreIngester
     @solr.get('../admin/cores')['status']['blacklight-core']['dataDir'].tap do|data_dir|
       MountValidator.validate_mount("#{data_dir}index", 'solr index') unless opts[:is_same_mount]
     end
-    $LOG ||= NullLogger.new
     @errors = Hash.new([])
     @success_count = 0
     @already = Set.new
@@ -49,7 +51,7 @@ class PBCoreIngester
         zip_file.each do |entry|
           begin
             ingest_xml_no_commit(entry.get_input_stream.read) ||
-              $LOG.warn("No match. Skipping #{path} :: #{entry.name} ")
+              logger.warn("No match. Skipping #{path} :: #{entry.name} ")
             commit unless is_batch_commit
           rescue => e
             record_error(e, "#{path} :: #{entry.name}")
@@ -59,7 +61,7 @@ class PBCoreIngester
     rescue Zip::Error
       begin
         ingest_xml_no_commit(File.read(path)) ||
-          $LOG.warn("No match. Skipping #{path} :: #{entry.name} ")
+          logger.warn("No match. Skipping #{path} :: #{entry.name} ")
       rescue => e
         record_error(e, path)
       end
@@ -70,7 +72,7 @@ class PBCoreIngester
 
   def record_error(e, path, id_extracts = '')
     message = "#{path} #{id_extracts}: #{e.message}"
-    $LOG.warn(message)
+    logger.warn(message)
     @errors["#{e.class}: #{e.message.split(/\n/).first}"] += [message]
   end
 
@@ -93,7 +95,7 @@ class PBCoreIngester
       rescue => e
         raise SolrError.new(e)
       end
-      $LOG.info("Updated solr record #{pbcore.id}")
+      logger.info("Updated solr record #{pbcore.id}")
       @success_count += 1
     else
       false # Not strictly necessary, but a good reminder that the return value is consumed.
