@@ -10,6 +10,8 @@
 
   <% if geoblocked? %>
     <strong>Note:</strong> This content is not available in your region.
+  <% elsif @pbcore.password_required? %>
+    Temporarily Unavailable
   <% elsif !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                   controls: true, id: 'player-media',
