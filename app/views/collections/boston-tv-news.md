@@ -12,8 +12,6 @@ Nearly 2,000 audiovisual news reports are available for viewing online, includin
 
 Click on the thumbnails below to screen examples from our collection:
 
-## Examples
-
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_UDAMVZGA4JEY06N">
         <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_UDAMVZGA4JEY06N.png"/>
