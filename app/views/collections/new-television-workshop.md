@@ -15,10 +15,22 @@ Workshop*, as well as early video arts works that pre-dated organization of the
 *New Television Workshop* and ancillary but related video art works produced by 
 WGBH.
 
-## Clip
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_clip)
+## Dance
 
-## Record
+[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_dance)
+
+
+## Performance
+
+[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_performance)
+
+
+## Video Art
+
+[](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_video_art)
+
+
+## Data Only Records
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_record)
