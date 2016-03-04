@@ -18,12 +18,16 @@
   // within the aspec-ratio container, then apply those styles to the .content
   // element.
   > .aspect-ratio-content {
-    // stretch the .content element to it's parent with positioning.
+    // stretch the .content element to its parent with positioning.
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    img { height: 100% }
+    // We have some thumbs less than 4x3... but those ones
+    // (for the most part) seem to be slightly squished and distored,
+    // and a vertical stretch is an improvement.
   }
 }
 
