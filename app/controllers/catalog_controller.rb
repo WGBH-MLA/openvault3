@@ -62,15 +62,25 @@ class CatalogController < ApplicationController
 
     config.add_facet_field 'series_title', label: 'Series', show: false
 
-    config.add_facet_field 'access', partial: 'access_facet',
-                                     tag: 'access', ex: 'access'
     # tag-ex: Always show both: even w/o counts displayed, this matters
     # because the UI will not show facets that have counts of zero.
-    config.add_facet_field 'media_type'
-    config.add_facet_field 'genres', label: 'Genre', solr_params: { 'facet.limit' => -1 }
-    config.add_facet_field 'topics', label: 'Topic', solr_params: { 'facet.limit' => -1 }
-    config.add_facet_field 'asset_type'
-    config.add_facet_field 'year', sort: 'index', range: true
+
+    config.add_facet_field 'access',
+                           partial: 'access_facet',
+                           tag: 'access', ex: 'access,media_type,genres,topics,asset_type,year'
+    config.add_facet_field 'media_type',
+                           tag: 'media_type', ex: 'access,media_type,genres,topics,asset_type,year'
+    config.add_facet_field 'genres',
+                           label: 'Genre', solr_params: { 'facet.limit' => -1 },
+                           tag: 'genres', ex: 'access,media_type,genres,topics,asset_type,year'
+    config.add_facet_field 'topics',
+                           label: 'Topic', solr_params: { 'facet.limit' => -1 },
+                           tag: 'topics', ex: 'access,media_type,genres,topics,asset_type,year'
+    config.add_facet_field 'asset_type',
+                           tag: 'asset_type', ex: 'access,media_type,genres,topics,asset_type,year'
+    config.add_facet_field 'year',
+                           sort: 'index', range: true,
+                           tag: 'year', ex: 'year'
 
     #    config.add_facet_field 'format', :label => 'Format'
     #    config.add_facet_field 'pub_date', :label => 'Publication Year', :single => true
