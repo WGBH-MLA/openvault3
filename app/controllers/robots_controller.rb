@@ -15,7 +15,8 @@ User-agent: *
 Disallow: /
 # Only #{REAL_HOST} should be indexed.
 EOF
-          end
+          end +
+            'Sitemap: http://openvault.wgbh.org/sitemap.xml'
       end
     end
   end
