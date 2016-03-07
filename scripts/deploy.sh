@@ -8,7 +8,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 NAME=$1
-STAMP=`date '+%Y-%m-%d_%H-%M-%S'`
 OV_TMP=/tmp/ov-deploy-tools-`date '+%Y-%m-%d_%H-%M-%S'`
 
 mkdir $OV_TMP
