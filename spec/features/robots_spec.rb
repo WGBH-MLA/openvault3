@@ -1,5 +1,4 @@
 require 'rails_helper'
-require_relative '../support/validation_helper'
 
 describe 'robots.txt' do
   it 'has a Disallow' do
