@@ -8,9 +8,11 @@ if [ "$#" -ne 1 ]; then
 fi
 
 NAME=$1
+STAMP=`date '+%Y-%m-%d_%H-%M-%S'`
+OV_TMP=/tmp/ov-deploy-tools-`date '+%Y-%m-%d_%H-%M-%S'`
 
-mkdir ~/openvault-deploy
-cd ~/openvault-deploy
+mkdir $OV_TMP
+cd $OV_TMP
 
 git clone https://github.com/WGBH/aws-wrapper.git
 git clone https://github.com/WGBH/mla-playbooks.git
