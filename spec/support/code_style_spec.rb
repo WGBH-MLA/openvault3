@@ -26,7 +26,7 @@ describe 'code style' do
     end
   end
 
-  ['debug', 'merge', 'error'].each do |list|
+  %w(debug merge error).each do |list|
     it "has no #{list} cruft" do
       joined = instance_variable_get("@#{list}").join("\n")
       expect(joined).to be_empty, joined
