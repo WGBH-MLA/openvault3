@@ -19,9 +19,6 @@ of Open Vault in 2008, with the addition of the Vietnam Collection. Subsequent
 lessons learned from Open Vault Research, funded by The Andrew W. Mellon Foundation, 
 helped inform the later design and functionality of Open Vault Vietnam.
 
-This website uses H264 pseudo video streaming technology by
-<a href="http://h264.code-shop.com/">CodeShop</a>.
-
 ## Project Credits
 
 - [Open Vault Vietnam](/credits/credits-open-vault-vietnam)
