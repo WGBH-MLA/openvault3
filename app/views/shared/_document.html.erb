@@ -8,3 +8,9 @@
     <%= document[:title] %>
   </div>
 </a>
+
+<% document.response[:highlighting][document.id][:text].each do |html| %>
+  <blockquote>
+    <%= html.html_safe %>
+  </blockquote>
+<% end %>

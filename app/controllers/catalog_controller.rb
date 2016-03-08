@@ -18,7 +18,9 @@ class CatalogController < ApplicationController
     ## See also SolrHelper#solr_search_params
     config.default_solr_params = {
       qt: 'search',
-      rows: 12
+      rows: 12,
+      :'hl.fl' => 'text',
+      :hl => true
     }
 
     # solr path which will be added to solr base url before the other solr params.
