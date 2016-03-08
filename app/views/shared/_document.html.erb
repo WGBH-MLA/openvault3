@@ -9,8 +9,10 @@
   </div>
 </a>
 
-<% document.response[:highlighting][document.id][:text].each do |html| %>
-  <blockquote>
-    <%= html.html_safe %>
-  </blockquote>
+<% document.response[:highlighting][document.id][:text].tap do |highlights| %>
+  <% highlights.each do |highlight| %>
+    <blockquote>
+      <%= highlight.html_safe %>
+    </blockquote>
+  <% end if highlights %>
 <% end %>
