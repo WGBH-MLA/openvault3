@@ -27,7 +27,7 @@ class Ingest
   end
 
   def initialize(argv)
-    orig_args = argv.dup
+    orig_argv = argv.dup
 
     %w(files dirs grep-files grep-dirs).each do |name|
       const_init(name)
@@ -40,7 +40,9 @@ class Ingest
       argv.delete(flag_name)
     end
 
-    log_init!(orig_args)
+    # The code above sets fields which log_init needs,
+    # but it also modifies argv in place, so we need the dup.
+    log_init!(orig_argv)
 
     mode = argv.shift
     args = argv
