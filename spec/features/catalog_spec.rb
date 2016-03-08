@@ -74,7 +74,7 @@ describe 'Catalog' do
         'An. stays: not an article: sort 0'
       ])
     end
-    
+
     it 'highlights keywords in original context' do
       visit '/catalog?f[access][]=Available+Online&q=evil'
       expect(page.status_code).to eq(200)
