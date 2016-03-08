@@ -14,14 +14,14 @@ Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_UDAMVZGA4JEY06N">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_UDAMVZGA4JEY06N.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_UDAMVZGA4JEY06N.png"/>
         <div class="info">Derrick Bell Threatens to Leave Harvard - with Obama footage</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_LN8RID02NE1W3AK">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_LN8RID02NE1W3A.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_LN8RID02NE1W3A.png"/>
         <div class="info">Evening Compass focus on School Desegregation</div>
     </a>
 </div>
@@ -30,7 +30,7 @@ Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_OUS1BQH8VP7MVMQ">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_OUS1BQH8VP7MVMQ.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_OUS1BQH8VP7MVMQ.png"/>
         <div class="info">Blizzard Second Day - 1978</div>
     </a>
 </div>
@@ -39,7 +39,7 @@ Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_3GABP3HGN6CGIOW">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_3GABP3HGN6CGIOW.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_3GABP3HGN6CGIOW.png"/>
         <div class="info">Nthabiseng Mabuza talks about Mandela</div>
     </a>
 </div>
@@ -48,14 +48,14 @@ Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_K8BUH3FQFLF84AV">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_K8BUH3FQFLF84AV.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_K8BUH3FQFLF84AV.png"/>
         <div class="info">Orange Line El Stations</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_UALBIB1J205O4AA">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_UALBIB1J205O4AA.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/V_UALBIB1J205O4AA.png"/>
         <div class="info">Allston Brighton Environs</div>
     </a>
 </div>
