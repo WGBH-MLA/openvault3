@@ -79,7 +79,7 @@ describe 'Catalog' do
       visit '/catalog?f[access][]=Available+Online&q=evil'
       expect(page.status_code).to eq(200)
       expect_fuzzy_xml
-      expect(page).to have_content 'Doctor Evil foo foo foo'
+      expect(page.html).to include 'Doctor <em>Evil</em> foo foo foo'
     end
 
     describe 'support facet ORs' do
