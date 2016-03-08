@@ -30,7 +30,7 @@ Click on the thumbnails below to screen examples:
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-19s1rwtr">
         <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-19s1rwtr.png"/>
-        <div class="info">Announcement from Hartford Gunn and David Ives about a fire at WGBh</div>
+        <div class="info">Announcement from Hartford Gunn and David Ives about a fire at WGBH</div>
     </a>
 </div>
 
