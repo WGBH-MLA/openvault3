@@ -34,3 +34,9 @@ WGBH.
 ## Data Only Records
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=ntw_record)
+
+## Related Content
+
+[New Television Workshop Finding Aid](http://main.wgbh.org/wgbh/NTW/FA/index.html)
+
+[New Television Workshop Exhibit Space](http://main.wgbh.org/wgbh/NTW/ES/index.html)
