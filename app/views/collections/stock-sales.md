@@ -15,7 +15,7 @@ Search and browse thousands of WGBH clips available to license! Click on the thu
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GBH00000082001013">
         <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000082001013.png"/>
-        <div class="info">Lab Researcher B&W/div>
+        <div class="info">Lab Researcher B&W</div>
     </a>
 </div>
 
