@@ -15,3 +15,15 @@ Robert Maynard. (Premiered October, 1969; conceived by Prof. Roger Fisher.)
 ## Full Program Video
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=advocates_full_program)
+
+## Related Content
+
+[American Parliamentary Debate Association](http://www.apdaweb.org/)
+
+[International Debate Educational Association (IDEA)](http://idebate.org/)
+
+[Model UN](http://www.nmun.org/)
+
+[National Debate Tournament](http://groups.wfu.edu/NDT/)
+
+[National Forensic League](http://www.speechanddebate.org/)
