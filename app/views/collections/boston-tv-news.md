@@ -21,7 +21,7 @@ Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_LN8RID02NE1W3AK">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_LN8RID02NE1W3A.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_LN8RID02NE1W3AK.png"/>
         <div class="info">Evening Compass focus on School Desegregation</div>
     </a>
 </div>
