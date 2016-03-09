@@ -25,7 +25,7 @@ conversations with distinct voices from the African American community.
 
 ## Related Content
 
-[Basic Black](http://wgbh.org/basicblack)
+[Basic Black](http://www.wgbh.org/basicblack)
 
 [Say Brother finding aid](http://main.wgbh.org/saybrother/)
 
