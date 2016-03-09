@@ -18,3 +18,11 @@ current events.
 ## Full Program Video
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=press_programs)
+
+## Related Content
+
+[Louis Martin Lyons papers](http://scua.library.umass.edu/umarmot/lyons-louis-martin/)
+
+[Edward R. Murrow collection](http://sites.tufts.edu/murrowcollection/)
+
+[Newseum](http://www.newseum.org/)
