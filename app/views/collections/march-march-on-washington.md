@@ -25,7 +25,7 @@ Luther King Jr.’s historic “I have a dream” speech.
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=mow_photographs)
 
-## Listener's Guide
+## Listening Guide
 
 In 1963, eight years before National Public Radio hit the airwaves, WGBH and a small network of radio stations dubbed the “Educational Radio Network” (ERN) teamed up to broadcast full, uninterrupted coverage of the March on Washington for Jobs and Freedom. As the march unfolded, quarter-inch tape rolled in Boston, recording speeches by Martin Luther King, Jr., John Lewis of the Student Non-Violent Coordinating Committee, music by Mahalia Jackson and a very young Bob Dylan and Joan Baez, an interview with Marlon Brando and much more…15 hours altogether. These tapes, now in the WGBH Media Library and Archives, are the only complete audio coverage of the broadcast in existence.
 
@@ -37,7 +37,7 @@ To write *Nobody Turn Me Around*, Euchner interviewed more than 120 people who p
 
 “I have spent my life studying grassroots politics of all kinds and have also worked as a planner in Boston and Florida. I wanted to tell the stories of ordinary people who made the civil rights movement succeed. I also wanted to show the complex dynamics of the movement, the differences among leaders and how such a diverse group came together to speak with one voice. As a child of the South — I was born in Chattanooga and went to college in Nashville — I also wanted to understand, more deeply, just how lucky I was to be one of the beneficiaries of the movement.”
 
-### Listeners Guide
+### Listening Guide
 
 #### [Part 1: 9:00 AM-10:00 AM](/catalog/A_739CF821AA9F44B891160EB2CF76FA78)
 
