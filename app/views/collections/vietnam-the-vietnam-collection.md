@@ -32,3 +32,15 @@ and digitized for preservation and access.
 ## Programs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_programs)
+
+## Related Content
+
+[American Experience: Vietnam](http://www.pbs.org/wgbh/amex/vietnam/)
+
+[Teachers' Domain: Vietnam War](http://www.pbslearningmedia.org/?q=vietnam&fq_grade=PK&fq_grade=PS)
+
+[Veterans History Project, a project of the American Folklife Center of the Library of Congress](http://www.loc.gov/vets/)
+
+[UMass Boston Vietnam Finding Aid](http://www.lib.umb.edu/node/1648)
+
+[Purchase *Vietnam: A Television History* on Shop PBS](http://www.shoppbs.org/product/index.jsp?productId=1817567)
