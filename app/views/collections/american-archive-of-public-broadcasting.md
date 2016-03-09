@@ -10,8 +10,6 @@ The [American Archive of Public Broadcasting](http://americanarchive.org/) conta
 
 Browse and discover the WGBH collection in the AAPB!
 
-## Examples
-
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-80ht7n4v">
         <img src="https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/cpb-aacip_15-80ht7n4v.png"/>
