@@ -22,3 +22,11 @@ conversations with distinct voices from the African American community.
 ## Records
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=sb_record)
+
+## Related Content
+
+[Basic Black](http://wgbh.org/basicblack)
+
+[Say Brother finding aid](http://main.wgbh.org/saybrother/)
+
+[History of Say Brother](http://main.wgbh.org/saybrother/history.html)
