@@ -34,8 +34,8 @@ contacting the WGBH Media Library and Archives.
 
 ## Related Content
 
-[Cold War International History Project](http://www.wilsoncenter.org/index.cfm?fuseaction=topics.home&topic_id=1409)
+[Cold War International History Project](https://www.wilsoncenter.org/program/cold-war-international-history-project)
 
-[The National Security Archive at George Washington University](http://www.gwu.edu/~nsarchiv/index.html)
+[The National Security Archive at George Washington University](http://nsarchive.gwu.edu/)
 
 [The Nevada Test Site Oral History Project at the University of Nevada, Las Vegas](http://digital.library.unlv.edu/ntsohp/)
