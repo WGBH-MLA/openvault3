@@ -24,3 +24,15 @@ Luther King Jr.’s historic “I have a dream” speech.
 ## Photographs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=mow_photographs)
+
+## Related Content
+
+[March on Washington Listener's Guide](http://blog.openvault.wgbh.org/2013/08/march-on-washington-listeners-guide/)
+
+[American Experience: Eyes on the Prize](http://www.pbs.org/wgbh/amex/eyesontheprize/)
+
+[Washington University Film and Media Archive](http://library.wustl.edu/spec/filmandmedia/)
+
+[Civil Rights Digital Library](http://crdl.usg.edu/)
+
+[Teachers' Domain: Civil Rights](http://www.pbslearningmedia.org/collection/civil/)
