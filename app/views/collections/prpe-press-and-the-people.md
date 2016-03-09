@@ -21,7 +21,7 @@ current events.
 
 ## Related Content
 
-[Louis Martin Lyons papers](http://www.library.umass.edu/spcoll/umarmot/?p=281)
+[Louis Martin Lyons papers](http://scua.library.umass.edu/umarmot/lyons-louis-martin/)
 
 [Edward R. Murrow collection](http://sites.tufts.edu/murrowcollection/)
 
