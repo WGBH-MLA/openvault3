@@ -1,10 +1,17 @@
 # Credits: 10 O’Clock News
   
-[The Ten O’Clock News project](/collections/tocn-the-ten-o-clock-news)
- Web site was made possible though a grant from the Institute 
-of Museum and Library Services (IMLS). All content on this site is the 
+[The original Ten O’Clock News project](/collections/tocn-the-ten-o-clock-news) web site, which is now incorporated into the [Boston TV News Digital Library](http://bostonlocaltv.org), was made possible though a grant from the Institute 
+of Museum and Library Services (IMLS). The Boston TV News Digital Library, an expansion of the Ten O'Clock News project, was funded by the Council on Library and Information Resources (CLIR) and IMLS. Credits for the Boston TV News Digital Library project can be found at [bostonlocaltv.org](http://bostonlocaltv.org/blog/credits/). 
+
+All content on this site is the 
 intellectual property of the WGBH Educational Foundation, which is solely 
 responsible for this work.
+
+<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="IMLS logo" title="IMLS">
+ 
+ <a href="http://www.clir.org"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/CLIR.jpg"
+ alt="CLIR logo" title="CLIR">
 
 ## WGBH Media Library and Archives
 Andrea McCarty, Project Archivist</br>
