@@ -148,6 +148,8 @@ Shinagel, Michael. *“The Gates Unbarred”: A History of University Extension 
 
 Cooper is Professor of Film and Media Studies at the University of South Carolina. He collaborates with University of California, Davis English professor John Marx on a project called "Mass Media and the Humanities Workforce." His most recent book is Universal Women: Filmmaking and Institutional Changes in Early Hollywood (University of Illinois Press, 2010). He is also at work on a history of motion pictures from the point of view of accounting.
 
+<br/>
+
 ### John Marx
 <div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/marx_headshot.png"></img></div>
 
