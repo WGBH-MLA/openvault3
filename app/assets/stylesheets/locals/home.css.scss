@@ -8,7 +8,7 @@
             height: 360px;
         }
         @media ( min-width: $screen-md-min ) {
-            height: 472.5px; // Img is same width even in lg.
+            height: 465px; // Img is same width even in lg.
         }
         // Carousel does not show in xs, and I'm ok with that.
         .carousel-inner {
