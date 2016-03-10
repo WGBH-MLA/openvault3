@@ -24,5 +24,7 @@ module Xyz
     config.middleware.use('RedirectMiddleware')
 
     config.exceptions_app = routes
+
+    config.action_controller.page_cache_directory = "#{Rails.root}/public/deploy"
   end
 end
