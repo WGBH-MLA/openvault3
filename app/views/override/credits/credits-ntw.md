@@ -8,7 +8,7 @@ videos from the New Television Workshop, as well as early video arts works that
 pre-dated organization of the New Television Workshop and ancillary but related 
 video art works produced by WGBH.
 
-<a href="http://www.nea.gov"><img src="https://s3.amazonaws.com/openvault.wgbh.org/logos/NEA.jpg"
+<a href="http://www.arts.gov"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/NEA.jpg"
  alt="NEA logo" title="NEA">
 
 Project Archivist: Selene Colburn<br/>
