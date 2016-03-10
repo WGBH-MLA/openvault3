@@ -31,4 +31,4 @@ alt="Mellon Foundation" title="Mellon Foundation">
 - [The Advocates](/credits/credits-advocates)
 - [March on Washington](/credits/credits-mow)
 - [Rock and Roll](/credits/credits-rock-and-roll)
-- [American Archive of Public Broadcasting](/credits/american-archive-of-public-broadcasting)
+- [American Archive of Public Broadcasting](/credits/credits-american-archive-of-public-broadcasting)
