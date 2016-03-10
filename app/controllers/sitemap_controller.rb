@@ -6,6 +6,7 @@ class SitemapController < ApplicationController
                    'rows' => '50000' # Max for sitemaps
                  })['response']['docs'].map { |d| d['id'] }
   def index
+    @ids = ALL_IDS
     respond_to do |format|
       format.xml do
         render
