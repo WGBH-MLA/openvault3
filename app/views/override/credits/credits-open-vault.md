@@ -6,13 +6,13 @@ made possible through a grant from the Institute of Museum and Library Services
 website do not necessarily represent those of the IMLS.
 
 <a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="IMLS logo" title="IMLS">
+ alt="IMLS logo" title="IMLS"></a>
 
 The prototype website was funded in part by The John D. and Catherine T. MacArthur 
 Foundation.
 
 <a href="http://www.macfound.org"><img width="153" height="28" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
-alt="MacArthur Foundation" title="MacArthur Foundation">
+alt="MacArthur Foundation" title="MacArthur Foundation"></a>
 
 IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam-the-vietnam-collection/interviews).
 
