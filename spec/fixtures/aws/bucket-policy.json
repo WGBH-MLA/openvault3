@@ -16,7 +16,7 @@
       "Effect": "Deny",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::openvault.wgbh.org/*",
+      "Resource": "arn:aws:s3:::openvault.wgbh.org/catalog/*",
       "Condition": {
         "StringNotLike": {
           "aws:Referer": [
