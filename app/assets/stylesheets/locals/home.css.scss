@@ -5,10 +5,10 @@
         // Set height to half width: not necessary if imgs sized correctly.
         overflow: hidden;
         @media ( min-width: $screen-sm-min ) {
-            height: 360px;
+            height: 355px; // originally 360px: some provided images too short.
         }
         @media ( min-width: $screen-md-min ) {
-            height: 465px; // Img is same width even in lg.
+            height: 465px; //  originally 470px; ditto.
         }
         // Carousel does not show in xs, and I'm ok with that.
         .carousel-inner {
