@@ -6,6 +6,8 @@ National Endowment for the Humanities: Exploring the Human Endeavor.
 
 <a href="http://www.neh.gov"><img src="https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg"
  alt="NEH logo" title="NEH">
+ 
+Major funding for War and Peace in the Nuclear Age broadcast program was provided by the Annenberg/CPB Project.
 
 ## PROJECT MANAGEMENT
 Karen Cariani, Project Director<br/>
