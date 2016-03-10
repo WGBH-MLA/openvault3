@@ -1,7 +1,7 @@
-# Credits: Open Vault Research
+# Credits: Digital Library Initiative
   
 Funded by The Andrew W. Mellon Foundation, the WGBH Media Library & 
-Archives Digital Library Project has completed two phases. In the first phase, 
+Archives Digital Library Project has completed three phases. In the first phase, 
 WGBH conducted an assessment of the value of our archival collections for 
 scholarly use. In the second phase, “Developing a Public Television Content 
 Delivery System for Academic Institutions,” WGBH developed Open Vault Research. 
@@ -10,7 +10,10 @@ facilitates research access to the collections. Further, working with Ithaka
 S+R, we investigated the sustainability of online archives for academic use. 
 Beyond Open Vault Research, lessons from both Phase One and Phase Two of the 
 Digital Library Project also informed the design and development of Open Vault 
-Vietnam.
+Vietnam. In the third phase, we explored the best methods for bringing our catalog online for scholarly and public access and helped drive new interest and scholarly work around our resources.
+
+<a href="https://mellon.org/"><img src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
+alt="Mellon Foundation" title="Mellon Foundation">
 
 ##    Principal Investigators
 Karen Cariani<br/>
