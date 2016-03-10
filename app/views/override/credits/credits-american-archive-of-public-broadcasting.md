@@ -1,51 +1,8 @@
-# Credits: 10 O’Clock News
+# Credits: American Archive of Public Broadcasting
   
-[The Ten O’Clock News project](/collections/tocn-the-ten-o-clock-news)
- Web site was made possible though a grant from the Institute 
-of Museum and Library Services (IMLS). All content on this site is the 
-intellectual property of the WGBH Educational Foundation, which is solely 
-responsible for this work.
+The [American Archive of Public Broadcasting](http://www.americanarchive.org) is a collaboration between WGBH and the Library of Congress to preserve and make accessible significant historical content created by public television and radio, and to coordinate a national effort to preserve at-risk public broadcasting before its content is lost to posterity. The Corporation for Public Broadcasting (CPB) funded the digitization of 40,000 hours of historic public television and radio content contributed by more than 100 stations across the country. CPB also provided a two year grant to WGBH and the Library of Congress as the permanent stewards of the collection. 
 
-## WGBH Media Library and Archives
-Andrea McCarty, Project Archivist</br>
-Mary Ide, Project Supervisor</br>
-Scott Turner, Preservation Supervisor</br>
-Thom Shepard, Database Developer</br>
-Beth Willis, Project Intern (Simmons Graduate School of Library & Information Science)</br>
-Julie Ecker, Rights clearance</br>
+<a href="http://www.cpb.org"><img src="https://s3.amazonaws.com/openvault.wgbh.org/logos/CPB.jpg"
+ alt="CPB logo" title="CPB"></a>
 
-## WGBH Interactive
-Caitlin O’Neil, Producer</br>
-Tyler Howe, Designer</br>
-Molly Frey, Developer</br>
-Tim Halle, Video guru</br>
-Jon Alper, Director of Technology, Research & Development
-WGBH Media Access Group</br>
-Ira Miller, Francis Mahoney, Sheilarae Lau, Descriptive Video 
-Service</br>
-Andrew Bowers, Eileen Carney, Nathan Gray, Cauley Greene, Trish Lawless, 
-Carl Richardson, Charlie Schweim, Leslie Spears, Ann Stimson, and Barbara 
-VanScoyoc, The Caption Center</br>
-
-## Special thanks to:
-Jordan Berson</br>
-Chuck Costa</br>
-Jim Deering</br>
-Jay Fialkov</br>
-Brad Hawes</br>
-Glenn Heath</br>
-Cecelia Kelly</br>
-Keith Luf</br>
-Lauren Marano</br>
-Doug Martin</br>
-Hollis MacArthur</br>
-Jim McKenna</br>
-Christopher McNeice</br>
-Emily Novak</br>
-Jane Pikor</br>
-Jonathan Pipe</br>
-Leah Weisse</br>
-The staff of WGBH Production Services and the staff of the WGBH Media Access Group</br>
-  
-  
-  
+Project credits can be found at [americanarchive.org](http://americanarchive.org/about-the-american-archive/staff)
