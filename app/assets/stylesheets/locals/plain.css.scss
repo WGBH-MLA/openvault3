@@ -1,7 +1,7 @@
 .plain {
     background: transparent !important;
     #player {
-        #transcript {
+        #transcript,#find-help {
             // Don't include the transcript when 
             // the whole player is in an iframe.
             display: none;
