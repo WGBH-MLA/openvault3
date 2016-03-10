@@ -4,13 +4,13 @@ The creation of **Open Vault** was made possible
 through a grant from the Institute of Museum and Library Services (IMLS). The views, findings, conclusions or recommendations expressed in this (publication) (program) (exhibition) (website) (article) do not necessarily represent those of the Institute of Museum and Library Services.
 
 <a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="IMLS logo" title="IMLS">
+ alt="IMLS logo" title="IMLS"></a>
 
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
 
 <a href="http://www.macfound.org"><img width="153" height="28" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
-alt="MacArthur Foundation" title="MacArthur Foundation">
+alt="MacArthur Foundation" title="MacArthur Foundation"></a>
 
 This site brings together materials from three previous web sites
     
