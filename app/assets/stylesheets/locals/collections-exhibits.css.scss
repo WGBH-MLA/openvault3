@@ -107,5 +107,15 @@
             border: none;
             background: $pale-grey;
         }
+        
+        ul#tabs {
+            list-style: none;
+            position: relative;
+            li .pointer {
+                position: absolute;
+                left: 0px;
+            }
+        }
+        
     }
 }
