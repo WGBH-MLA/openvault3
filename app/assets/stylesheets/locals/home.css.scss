@@ -16,6 +16,10 @@
             bottom: 0; // If imgs are sized correctly, this is not necessary.
             img {
                 width: 100%;
+                transition: 10s ease-in-out;
+                &:hover {
+                    transform: scale(1.3);
+                }
             }
         }
         .carousel-control {
