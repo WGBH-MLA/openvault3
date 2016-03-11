@@ -9,14 +9,19 @@
 Karen Cariani
 
 ## Project Staff
-Keith Luf
-Peter Higgins
-Lynn Mason
-Sadie Roosa
-Alison Smith
-Leah Weisse
-Nicholas Pollard
-Paul Plutnicki
-Kevin Carter
-Julie Ecker
-Nancy Dillon
+Kevin Carter<br/>
+Nancy Dillon<br/>
+Julie Ecker<br/>
+Peter Higgins<br/>
+Keith Luf<br/>
+Lynn Mason<br/>
+Paul Plutnicki<br/>
+Nicholas Pollard<br/>
+Sadie Roosa<br/>
+Alison Smith<br/>
+Leah Weisse<br/>
+
+
+
+
+
