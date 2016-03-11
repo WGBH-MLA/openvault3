@@ -11,7 +11,7 @@ website do not necessarily represent those of the IMLS.
 The prototype website was funded in part by The John D. and Catherine T. MacArthur 
 Foundation.
 
-<a href="http://www.macfound.org"><img width="153" height="28" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
+<a href="http://www.macfound.org"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
 alt="MacArthur Foundation" title="MacArthur Foundation"></a>
 
 IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam-the-vietnam-collection/interviews).
