@@ -5,5 +5,18 @@ The [March on Washington](/collections/march-march-on-washington) collection was
 <a href="http://www.arts.gov"><img height="80" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/NEA.jpg"
  alt="NEA logo" title="NEA">
 
+## Project Director
+Karen Cariani
+
+## Project Staff
+Chris Beer
+Karen Colbron
+Elizabeth Deane
+Charles Euchner
+Keith Luf
+Courtney Michael
+Paul Plutnicki
+Leah Weisse
+
 
   
