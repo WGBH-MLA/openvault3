@@ -8,6 +8,7 @@ class RobotsController < ApplicationController
             <<EOF
 User-agent: *
 Disallow: /catalog?
+Disallow: /plain/
 EOF
           else
             <<EOF
