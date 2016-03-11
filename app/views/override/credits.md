@@ -1,24 +1,24 @@
 # Open Vault Credits
 
 The creation of **Open Vault** was made possible 
-through a grant from the Institute of Museum and Library Services (IMLS). The views, findings, conclusions or recommendations expressed in this (publication) (program) (exhibition) (website) (article) do not necessarily represent those of the Institute of Museum and Library Services.
+through a grant from the Institute of Museum and Library Services (IMLS). The views, findings, conclusions or recommendations expressed in this website do not necessarily represent those of the Institute of Museum and Library Services.
 
-<a href="http://www.imls.gov"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="IMLS logo" title="IMLS"></a>
+<a href="http://www.imls.gov" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="Institute of Museum and Library Services"></a>
 
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
 
-<a href="http://www.macfound.org"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
-alt="MacArthur Foundation" title="MacArthur Foundation"></a>
+<a href="http://www.macfound.org" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
+alt="MacArthur Foundation"></a>
 
-This site brings together materials from three previous web sites
+This site brings together materials from three previous web sites:
     
 - [New Television Workshop](/collections/ntw-the-new-television-workshop)
 - [Say Brother](/collections/sbro-say-brother)
 - [Ten O’Clock News](/collections/tocn-the-ten-o-clock-news) 
 
-As well as new material from [War and Peace in the Nuclear Age](/collections/wpna-wpna-war-and-peace-in-the-nuclear-age)
+As well as new material from [War and Peace in the Nuclear Age](/collections/wpna-wpna-war-and-peace-in-the-nuclear-age).
 
 IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam-the-vietnam-collection/interviews).
 
