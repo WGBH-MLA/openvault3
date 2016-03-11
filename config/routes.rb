@@ -20,6 +20,9 @@ Rails.application.routes.draw do
   resources :embed,
             only: [:show]
 
+  resources :sitemap,
+            only: [:index]
+
   get 'robots', to: 'robots#show'
 
   override_constraints = lambda do |req|

@@ -16,3 +16,6 @@
 /tmp
 /nbproject
 /jetty
+
+# actionpack-page_caching
+/public/deploy
