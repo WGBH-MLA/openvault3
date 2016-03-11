@@ -5,8 +5,8 @@ funded by the Institute of Museum and Library Services (IMLS). Any views,
 findings, conclusions or recommendations expressed in this website do not 
 necessarily represent those of the IMLS.
 
-<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="IMLS logo" title="IMLS">
+<!--<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="IMLS logo" title="IMLS">-->
 
 ## Project Management
 Karen Cariani, Project Director<br/>

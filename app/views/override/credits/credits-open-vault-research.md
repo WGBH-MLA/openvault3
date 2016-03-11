@@ -12,8 +12,8 @@ Beyond Open Vault Research, lessons from both Phase One and Phase Two of the
 Digital Library Project also informed the design and development of Open Vault 
 Vietnam. In the third phase, we explored the best methods for bringing our catalog online for scholarly and public access and helped drive new interest and scholarly work around our resources.
 
-<a href="https://mellon.org/"><img height="100" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
-alt="Mellon Foundation" title="Mellon Foundation">
+<!--<a href="https://mellon.org/"><img height="100" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
+alt="Mellon Foundation" title="Mellon Foundation"></a>-->
 
 ##    Principal Investigators
 Karen Cariani<br/>

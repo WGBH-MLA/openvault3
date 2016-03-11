@@ -7,11 +7,11 @@ All content on this site is the
 intellectual property of the WGBH Educational Foundation, which is solely 
 responsible for this work.
 
-<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="IMLS logo" title="IMLS">
+<!--<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="IMLS logo" title="IMLS">-->
  
- <a href="http://www.clir.org"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/CLIR.jpg"
- alt="CLIR logo" title="CLIR">
+<!--<a href="http://www.clir.org"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/CLIR.jpg"
+ alt="CLIR logo" title="CLIR">-->
 
 ## WGBH Media Library and Archives
 Andrea McCarty, Project Archivist<br/>

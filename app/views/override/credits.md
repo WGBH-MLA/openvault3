@@ -3,14 +3,14 @@
 The creation of **Open Vault** was made possible 
 through a grant from the Institute of Museum and Library Services (IMLS). The views, findings, conclusions or recommendations expressed in this website do not necessarily represent those of the Institute of Museum and Library Services.
 
-<a href="http://www.imls.gov" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="Institute of Museum and Library Services"></a>
+<!--<a href="http://www.imls.gov" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="Institute of Museum and Library Services"></a>-->
 
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
 
-<a href="http://www.macfound.org" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
-alt="MacArthur Foundation"></a>
+<!--<a href="http://www.macfound.org" target="_blank"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
+alt="MacArthur Foundation"></a>-->
 
 This site brings together materials from three previous web sites:
     
@@ -24,8 +24,8 @@ IMLS further funded the development of Open Vault in 2008 by supporting the [Vie
 
 Subsequent funding by The Andrew W. Mellon Foundation helped inform the later design and additional functionality of Open Vault, as well as the [scholar exhibits](/exhibits).
 
-<a href="https://mellon.org/"><img height="100" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
-alt="Mellon Foundation" title="Mellon Foundation">
+<!--<a href="https://mellon.org/"><img height="100" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
+alt="Mellon Foundation" title="Mellon Foundation">-->
 
 ## Project Credits
 
