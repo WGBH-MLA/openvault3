@@ -9,7 +9,7 @@ through a grant from the Institute of Museum and Library Services (IMLS). The vi
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
 
-<a href="http://www.macfound.org"><img height="40" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
+<a href="http://www.macfound.org"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
 alt="MacArthur Foundation" title="MacArthur Foundation"></a>
 
 This site brings together materials from three previous web sites
