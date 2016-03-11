@@ -4,27 +4,19 @@ The creation of Open Vault: WGBH Media Library and Archives Web site was
 made possible through a grant from the Institute of Museum and Library Services 
 (IMLS). Any views, findings, conclusions or recommendations expressed in this 
 website do not necessarily represent those of the IMLS.
-    
 
-The website was funded in part by The John D. and Catherine T. MacArthur 
+<!--<a href="http://www.imls.gov"><img width="156" height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="IMLS logo" title="IMLS"></a>-->
+
+The prototype website was funded in part by The John D. and Catherine T. MacArthur 
 Foundation.
 
-This site brings together materials from three previous web sites
-    
-- [New Television Workshop](/collections/ntw-the-new-television-workshop)
-- [Say Brother](/collections/sbro-say-brother)
-- [Ten O’Clock News](/collections/tocn-the-ten-o-clock-news) 
+<!--<a href="http://www.macfound.org"><img height="60" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg" 
+alt="MacArthur Foundation" title="MacArthur Foundation"></a>-->
 
-As well as new material from:
-    
-- [War and Peace in the Nuclear Age](/collections/wpna-wpna-war-and-peace-in-the-nuclear-age)
-- [Vietnam: A Television History](/collections/vietnam-the-vietnam-collection)
-    
-Major funding for War and Peace in the Nuclear Age was provided 
-by the Annenberg/CPB Project.
-    
-All content on this site is the intellectual property of WGBH 
-Educational Foundation, which is solely responsible for this work.
+IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam-the-vietnam-collection/interviews).
+
+All content on this site is the intellectual property of WGBH Educational Foundation, which is solely responsible for this work.
     
 ## Project Management
 Karen Cariani, Project Director<br/>
@@ -66,6 +58,3 @@ Mary Ide<br/>
 Keith Luf<br/>
 Jonathan Pipe<br/>
 Leah Weisse<br/>
-  
-  
-  

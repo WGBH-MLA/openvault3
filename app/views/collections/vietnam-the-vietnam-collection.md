@@ -13,6 +13,8 @@ archive. *Vietnam: A Television History* was one of the last WGBH series produce
 entirely on film. Starting in 2008, materials were reconstructed, transferred, 
 and digitized for preservation and access.
 
+[Click here](/credits/credits-open-vault-vietnam) for project credits and funding.
+
 ## Interviews
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=vietnam_interview)

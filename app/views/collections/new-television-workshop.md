@@ -15,6 +15,7 @@ Workshop*, as well as early video arts works that pre-dated organization of the
 *New Television Workshop* and ancillary but related video art works produced by 
 WGBH.
 
+[Click here](/credits/credits-ntw) for project credits and funding.
 
 ## Dance
 

@@ -10,6 +10,8 @@ The [Boston TV News Digital Library](http://bostonlocaltv.org), funded by the In
 
 Nearly 2,000 audiovisual news reports are available for viewing online, including content from Boston Public Library’s WHDH film collection (1960- mid-1970s), Cambridge Community Television (1988 to 1999), Northeast Historic Film’s WCVB film collection (1970-1979), and WGBH-produced The Reporters (1970-1973), Evening Compass (1973-1975) and the Ten O’Clock News.
 
+[Click here](/credits/credits-ton) for project credits and funding.
+
 Click on the thumbnails below to screen examples from our collection:
 
 <div class="document col-md-4 col-sm-6">

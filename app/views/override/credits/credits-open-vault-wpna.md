@@ -2,7 +2,12 @@
   
 [This Collection](/catalog/wpna-wpna-war-and-peace-in-the-nuclear-age)
 has been made possible in part by a major grant from the 
-National Endowment for the Humanities: Exploring the human endeavor.
+National Endowment for the Humanities: Exploring the Human Endeavor.
+
+<!--<a href="http://www.neh.gov"><img src="https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg"
+ alt="NEH logo" title="NEH"></a>-->
+ 
+Major funding for War and Peace in the Nuclear Age broadcast program was provided by the Annenberg/CPB Project.
 
 ## PROJECT MANAGEMENT
 Karen Cariani, Project Director<br/>
