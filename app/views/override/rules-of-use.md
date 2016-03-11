@@ -96,7 +96,7 @@ has not been properly attributed to you or has been used without permission, we
 want to hear from you. Please contact Mike Muraszko, Digital Archives Manager, 
 at [openvault@wgbh.org](mailto:openvault@wgbh.org) with your contact details, a link to the relevant 
 content, and a description of the location of your copyrighted material within 
-the content (if necessary). See our general Terms and Conditions for more 
+the content (if necessary). See our general [Terms and Conditions](/terms-and-conditions) for more 
 information.
 
 ## 4. Password-Protected Uses
