@@ -2,9 +2,9 @@
   <div class="row">
     <div class="col-xs-12">
       
-      <% if @pbcore.password_required? %>
-        <%= render partial: 'password_modal' %>
-      <% end %>
+      <%# if @pbcore.password_required? %>
+        <%#= render partial: 'password_modal' %>
+      <%# end %>
       
       <h1><%= @pbcore.title %></h1>
       <%= content_tag('p', @pbcore.date) if @pbcore.date %>
