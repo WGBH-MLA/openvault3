@@ -9,14 +9,14 @@ The [March on Washington](/collections/march-march-on-washington) collection was
 Karen Cariani
 
 ## Project Staff
-Chris Beer
-Karen Colbron
-Elizabeth Deane
-Charles Euchner
-Keith Luf
-Courtney Michael
-Paul Plutnicki
-Leah Weisse
+Chris Beer<br/>
+Karen Colbron<br/>
+Elizabeth Deane<br/>
+Charles Euchner<br/>
+Keith Luf<br/>
+Courtney Michael<br/>
+Paul Plutnicki<br/>
+Leah Weisse<br/>
 
 
   
