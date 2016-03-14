@@ -1,4 +1,4 @@
-# The Julia Child of Needlework: Erica Wilson’s Legacy in Stitches and on Television
+# Erica Wilson: The Julia Child of Needlework
 
 1
 
@@ -21,7 +21,7 @@ stations nationally.
 
 ## author
 
-Dr. Amanda Grace Sikarskie
+Amanda Grace Sikarskie
 
 ## Article
 
