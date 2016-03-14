@@ -8,7 +8,11 @@ html > body {
     a:hover { text-decoration: none; } // No examples in specs of underline.
     h1 {
         font-size: 48px;
+        font-weight: $bold;
         padding-bottom: 20px;
+    }
+    h2 {
+        font-weight: $semibold;
     }
     .btn-primary {
         background: $medium-blue;
