@@ -37,24 +37,25 @@
         <% end %>
         <dt>Citation</dt>
         
-        <% url = "http://openvault.wgbh.org/catalog/#{@pbcore.id}" %>
+        <% url = "<span class='long-url'>http://openvault.wgbh.org/catalog/#{@pbcore.id}</span>".html_safe %>
         <% today = Date.today.to_formatted_s(:long) %>
+        <% org = 'WGBH Media Library & Archives' %>
         
         <dd><em>Chicago</em>: 
             &ldquo;<%= @pbcore.title %>,&rdquo;
             <%= @pbcore.date + ',' if @pbcore.date %> 
-            WGBH Media Library &amp; Archives, 
+            <%= org %>, 
             accessed <%= today %>, 
             <%= url %>.</dd>
         <dd><em>MLA</em>:
             &ldquo;<%= @pbcore.title %>.&rdquo;
             <%= @pbcore.date + '.' if @pbcore.date %>
-            WGBH Media Library &amp; Archives.
+            <%= org %>.
             Web. <%= today %>. 
             &lt;<%= url %>&gt;.</dd>
         <dd><em>APA</em>:
             <%= @pbcore.title %>.
-            Boston, MA: WGBH Media Library &amp; Archives.
+            Boston, MA: <%= org %>.
             Retrieved from <%= url %></dd>
       </dl>
 
