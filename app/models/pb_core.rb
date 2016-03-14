@@ -126,9 +126,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @thumb_src ||= begin
       if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Thumbnail"]')
         "#{URL_BASE}/asset_thumbnails/#{id}.jpg"
-      elsif aapb_url
+      elsif aapb_url && media_type == VIDEO # TODO: Could some AAPB audio have thumbnails?
         aapb_id = aapb_url.gsub(/.*\//, '')
-        "http://americanarchive.org.s3.amazonaws.com/thumbnail/#{aapb_id}.jpg"
+        "http://s3.amazonaws.com/americanarchive.org/thumbnail/#{aapb_id}.jpg"
       else
         case media_type
         when VIDEO
