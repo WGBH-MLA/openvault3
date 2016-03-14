@@ -1,4 +1,4 @@
-# The Advocates: a Retrospective on an Important— and Still Relevant Innovation in Public Affairs Television
+# The Advocates: An Important & Relevant Innovation in Public Affairs Television
 
 1
 
