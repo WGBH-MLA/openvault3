@@ -1,4 +1,4 @@
-# Showing Status: WGBH and the President’s Commission on the Status of Women
+# WGBH and the President’s Commission on the Status of Women
 
 1
 
