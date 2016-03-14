@@ -1,4 +1,4 @@
-# Mediating the Art of Asian Cooking: Joyce Chen Cooks and the Upscaling of Chinese Food in America in the 1960s
+# Joyce Chen Cooks and the Upscaling of Chinese Food in America in the 1960s
 
 1
 

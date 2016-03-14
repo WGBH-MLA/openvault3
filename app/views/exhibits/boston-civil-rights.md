@@ -36,7 +36,7 @@ conferences and live broadcasts of the day’s activities of the Freedom Schools
 
 ## author
 
-Audrea F. Jones Dunham
+Audrea Jones Dunham
 
 ## Article
 
