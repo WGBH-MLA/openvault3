@@ -107,5 +107,16 @@
             border: none;
             background: $pale-grey;
         }
+        
+        ul#tabs {
+            list-style: none;
+            position: relative;
+            font-weight: $medium;
+            li .pointer {
+                position: absolute;
+                left: 0px;
+            }
+        }
+        
     }
 }
