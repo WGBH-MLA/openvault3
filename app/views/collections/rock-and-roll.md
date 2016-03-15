@@ -15,7 +15,7 @@ the innovators who defined the music that has rocked the nation and the world
 for 40 years. A co-production between WGBH/Boston and BBC, this collection 
 contains interviews created for the series.
 
-Project staff and funding can be viewed on the [credits page](/credits/credits-rock-and-roll).
+View [project staff and funding](/credits/credits-rock-and-roll).
 
 ## Interviews
 
