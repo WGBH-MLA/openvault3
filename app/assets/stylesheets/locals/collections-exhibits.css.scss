@@ -66,11 +66,6 @@
             margin-bottom: 20px;
         }
 
-        div.signature img {
-            margin: $grid-gutter-width/2 $grid-gutter-width/2 -$grid-gutter-width $grid-gutter-width/2;
-            width: 100%;
-        }
-
         #tabs {
             margin-top: $grid-gutter-width/2;
             // Needed particularly if there are no tabs.
