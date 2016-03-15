@@ -1,5 +1,16 @@
 <div id="header" class="container-fluid">
-  <div class="container">
+  <div class="hidden-md hidden-lg">
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="/"><%= render partial: 'shared/ov_logo.svg' %></a>
+        <form action="/catalog" style="display: inline;">
+          <input name="q" placeholder="Search..." onchange="this.form.submit()"/>
+          <span class="glyphicon glyphicon-search"></span>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container hidden-sm hidden-xs ">
     <div class="row">
       <div class="col-md-3">
         <a href="/"><%= render partial: 'shared/ov_logo.svg' %></a>
@@ -12,7 +23,7 @@
           <span class="glyphicon glyphicon-search"></span>
         </form>
       </div>
-      <div class="col-md-9 hidden-sm hidden-xs nav">
+      <div class="col-md-9 nav">
         <%= link_to(t('series'), '/series') %>
         <%= link_to(t('exhibits'), '/exhibits') %>
         <%= link_to(t('collections'), '/collections') %>
