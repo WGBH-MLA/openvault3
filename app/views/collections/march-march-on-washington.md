@@ -13,7 +13,7 @@ rights for African Americans. Credited with being the final impetus to the
 passing of the 1964 Civil Rights Act, the event famously ended with Martin 
 Luther King Jr.’s historic “I have a dream” speech.
 
-Project staff and funding can be viewed on the [credits page](/credits/credits-mow).
+View [project staff and funding](/credits/credits-mow).
 
 ## ERN Coverage
 
