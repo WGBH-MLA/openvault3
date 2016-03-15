@@ -1,9 +1,15 @@
 #header {
     background: $dark-blue;
-    svg#ov-logo,input {
-        width: 250px;
+    .hidden-xs,.hidden-sm {
+        svg.ov-logo,input { width: 250px; }
     }
-    svg#ov-logo {
+    .hidden-md,.hidden-lg {
+        line-height: 25px;
+        svg.ov-logo { width: 200px; }
+        input { width: 100%; }
+        .glyphicon { display: none; }
+    }
+    svg.ov-logo {
         text { fill: #FFF;  }
     }
     input {
@@ -48,6 +54,11 @@
 
 
 #header,#footer {
-    padding: 2em;
+    @media(min-width: $screen-md-min) {
+        padding: 2em;
+    }
+    @media(max-width: $screen-sm-max) {
+        padding: 1em;
+    }
     &, a { color: #FFF; }
 }
