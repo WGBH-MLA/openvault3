@@ -3,8 +3,6 @@ $font-family: 'sans-serif' !default;
 html > body {
     font-family: $font-family;
     font-size: 18px;
-    line-height: 35px;
-    p { margin: 0 0 40px; }
     a:hover { text-decoration: none; } // No examples in specs of underline.
     h1 {
         font-size: 48px;
@@ -17,5 +15,16 @@ html > body {
     .btn-primary {
         background: $medium-blue;
         border: none;
+    }
+}
+
+.blacklight-collections-show,.blacklight-exhibits-show,.blacklight-override {
+    #main-container {
+        line-height: 35px;
+        p { margin: 0 0 40px; }
+    }
+    div.signature img {
+        margin: 0.5em -0.75em -1em;
+        width: 100%;
     }
 }
