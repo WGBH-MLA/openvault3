@@ -12,7 +12,7 @@ support their point of view. Debates recorded at Boston’s Faneuil Hall.
 Moderators included: Michael Dukakis; Marilyn Berger; Michael Harrington, 
 Robert Maynard. (Premiered October, 1969; conceived by Prof. Roger Fisher.)
 
-Project staff and funding can be viewed on the [credits page](/credits/credits-advocates).
+View [project staff and funding](/credits/credits-advocates).
 
 ## Full Program Video
 
