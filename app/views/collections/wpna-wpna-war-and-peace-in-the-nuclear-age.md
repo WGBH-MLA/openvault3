@@ -16,7 +16,7 @@ from the series.  If you would like to view the full *War and Peace in the
 Nuclear Age* episodes you may schedule an appointment at WGBH in Boston by 
 contacting the WGBH Media Library and Archives.
 
-Project staff and funding can be viewed on the [credits page](/credits/credits-open-vault-wpna).
+View [project staff and funding](/credits/credits-open-vault-wpna).
 
 ## Interviews
 
