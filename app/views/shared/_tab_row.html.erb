@@ -2,7 +2,7 @@
 <ul id="<%= anchor %>">
   <% (item.tabs.keys).reject { |x| skip.include?(x) }.tap do |tabs|
     tabs.each do |tab| 
-      title = item.tabs[tab][:title] %>
+      title = item.tabs[tab].title %>
       <li>
         <% unless tab == params[:tab] %>
           <a href="<%= tab %>#<%= anchor %>" >

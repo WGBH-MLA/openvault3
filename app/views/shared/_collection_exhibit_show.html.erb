@@ -12,7 +12,7 @@
   </div>
   <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra', 'author']}%>
   <div class="row">
-    <% item.tabs[params[:tab]][:content].tap do |current_tab| %>
+    <% item.tabs[params[:tab]].content.tap do |current_tab| %>
       <% if current_tab.respond_to?(:each) %>
         <% top_docs = current_tab[0..11] %>
         <% other_docs = current_tab[12..-1] %>
