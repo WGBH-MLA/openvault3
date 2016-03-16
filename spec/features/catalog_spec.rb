@@ -29,18 +29,21 @@ describe 'Catalog' do
       visit '/catalog?q='
       expect(page.status_code).to eq(200)
       expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online&q=')
+      expect(page).not_to have_content 'You searched for:'
     end
 
     it 'redirects missing everything' do
       visit '/catalog?'
       expect(page.status_code).to eq(200)
       expect(URI.parse(current_url).query).to eq('f[access][]=Available+Online')
+      expect(page).not_to have_content 'You searched for:'
     end
 
     it 'has a helpful no-results' do
       visit '/catalog?q=asdfasfasdf'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'Consider using other search terms, removing filters, or searching all records, not just those with media.'
+      expect(page).to have_content 'You searched for:'
       expect_fuzzy_xml
     end
 
@@ -48,12 +51,14 @@ describe 'Catalog' do
       visit '/catalog?q=asdfasfasdf&f[access][]=All+Records'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'Consider using other search terms or removing filters.'
+      expect(page).to have_content 'You searched for:'
       expect_fuzzy_xml
     end
 
     it 'sorts by title ascending, ignoring articles' do
       visit '/catalog?f[access][]=All+Records&q=sort&sort=title+asc'
       expect(page.status_code).to eq(200)
+      expect(page).to have_content 'You searched for:'
       expect_fuzzy_xml
       expect(page.all('.info').map(&:text)).to eq([
         'An. stays: not an article: sort 0',
@@ -66,6 +71,7 @@ describe 'Catalog' do
     it 'sorts by title descending, ignoring articles' do
       visit '/catalog?f[access][]=All+Records&q=sort&sort=title+desc'
       expect(page.status_code).to eq(200)
+      expect(page).to have_content 'You searched for:'
       expect_fuzzy_xml
       expect(page.all('.info').map(&:text)).to eq([
         'A removed: sort 3',
