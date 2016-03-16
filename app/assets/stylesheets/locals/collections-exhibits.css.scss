@@ -107,8 +107,9 @@
             font-weight: $medium;
             li .pointer {
                 position: absolute;
-                left: 0px;
+                left: 15px;
             }
+            padding-left: 40px;
         }
         
     }
