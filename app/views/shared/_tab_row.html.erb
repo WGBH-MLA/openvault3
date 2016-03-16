@@ -1,17 +1,13 @@
-<% anchor = 'tabs' %>
-<ul id="<%= anchor %>">
-  <% (item.tabs.keys).reject { |x| skip.include?(x) }.tap do |tabs|
-    tabs.each do |tab| %>
-      <li>
-        <% unless tab == params[:tab] %>
-          <a href="<%= tab %>#<%= anchor %>" >
-            <%= tab.titlecase %>
-          </a>
-        <% else %>
-          <span class="pointer">&#x25B6;</span>
-          <%= tab.titlecase %>
-        <% end %>
-      </li>
-    <% end if tabs.count > 1
-    end %>
-</ul>
+<% if item.tabs.count > 1 %>
+  <% anchor = 'tabs' %>
+  <ul id="<%= anchor %>" class="well col-md-4">
+    <% item.tabs.each do |key,tab|
+        next if skip.include?(key)
+        selected = key == params[:tab] %>
+        <li>
+          <% if selected %><span class="pointer">&#x25B6;</span><% end %>
+          <%= link_to_unless(selected, tab.title, "#{key}##{anchor}" ) %>
+        </li>
+    <% end %>
+  </ul>
+<% end %>

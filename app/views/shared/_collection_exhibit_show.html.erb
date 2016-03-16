@@ -10,29 +10,31 @@
       <%= render partial: 'shared/above_tabs', locals: {item: item} %>
     </div>
   </div>
-  <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra', 'author']}%>
-  <div class="row">
-    <% item.tabs[params[:tab]].tap do |current_tab| %>
-      <% if current_tab.respond_to?(:each) %>
-        <% top_docs = current_tab[0..11] %>
-        <% other_docs = current_tab[12..-1] %>
-        <%= render partial: 'shared/document_grid', locals: {documents: top_docs} %>
-        <% if other_docs && !other_docs.empty? %>
-        <div class="clearfix"></div>
-          <p>And <%= other_docs.count %> more...</p>
-          <% other_docs.in_groups(2, false).each do |docs_col| %>
-            <div class="col-sm-6">
-              <% docs_col.each do |doc| %>
-                <a href="/catalog/<%= doc.id %>"><%= doc.title %></a><br/>
-              <% end %>
-            </div>
+  <% if params[:tab] %>
+    <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra', 'author']}%>
+    <div class="row">
+      <% item.tabs[params[:tab]].content.tap do |current_tab| %>
+        <% if current_tab.respond_to?(:each) %>
+          <% top_docs = current_tab[0..11] %>
+          <% other_docs = current_tab[12..-1] %>
+          <%= render partial: 'shared/document_grid', locals: {documents: top_docs} %>
+          <% if other_docs && !other_docs.empty? %>
+          <div class="clearfix"></div>
+            <p>And <%= other_docs.count %> more...</p>
+            <% other_docs.in_groups(2, false).each do |docs_col| %>
+              <div class="col-sm-6">
+                <% docs_col.each do |doc| %>
+                  <a href="/catalog/<%= doc.id %>"><%= doc.title %></a><br/>
+                <% end %>
+              </div>
+            <% end %>
           <% end %>
+        <% else %>
+          <div class="<%= col_class %>">
+            <%= current_tab.html_safe if current_tab %>
+          </div>
         <% end %>
-      <% else %>
-        <div class="<%= col_class %>">
-          <%= current_tab.html_safe if current_tab %>
-        </div>
       <% end %>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
 </div>

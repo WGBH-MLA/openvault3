@@ -11,20 +11,25 @@ class Tabbed < Cmless
     raise "Problem with #{title}: #{$ERROR_INFO}"
   end
 
+  Tab = Struct.new(:title, :content)
+
   def tabs
     @tabs ||= begin
       doc = Nokogiri::HTML(body_html)
       Hash[
         doc.xpath('//h2').map do |tab_el|
-          tab_text = tab_el.text
-          tab_html = Cmless.extract_html(doc, tab_text)
+          tab_title = tab_el.text
+          tab_html = Cmless.extract_html(doc, tab_title)
           [
-            self.class.norm(tab_text),
-            begin
-              Tabbed.expand_links(tab_html)
-            rescue NotACatalogLink
-              tab_html
-            end
+            Tabbed.norm(tab_title),
+            Tab.new(
+              tab_title,
+              begin
+                Tabbed.expand_links(tab_html)
+              rescue NotACatalogLink
+                tab_html
+              end
+            )
           ]
         end
       ]
