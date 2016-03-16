@@ -62,9 +62,8 @@
             margin-bottom: 20px;
         }
 
-        div.signature img {
-            margin: $grid-gutter-width/2 $grid-gutter-width/2 -$grid-gutter-width $grid-gutter-width/2;
-            width: 100%;
+        img.signature {
+            width: 50%;
         }
 
         #tabs {
