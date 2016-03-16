@@ -24,7 +24,7 @@ IMLS further funded the development of Open Vault in 2008 by supporting the [Vie
 
 Subsequent funding by The Andrew W. Mellon Foundation helped inform the later design and additional functionality of Open Vault, as well as the [scholar exhibits](/exhibits).
 
-<!--<a href="https://mellon.org/"><img height="100" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg" 
+<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg)](https://mellon.org/) 
 alt="Mellon Foundation" title="Mellon Foundation">-->
 
 ## Project Credits
