@@ -14,7 +14,7 @@ aims to bring to life local news stories produced in and about Boston from the e
 1960s to 2000.
 
 Nearly 2,000 audiovisual news reports are available for viewing online, including content from 
-Boston Public Library’s [WHDH film collection](http://bostonlocaltv.org/whdh) (1960–mid-1970s), 
+Boston Public Library’s [WHDH film collection](http://bostonlocaltv.org/whdh) (1958–1973), 
 [Cambridge Community Television](http://bostonlocaltv.org/cctv) (1988–1999), 
 Northeast Historic Film’s [WCVB film collection](http://bostonlocaltv.org/wcvb) (1970–1979), 
 and WGBH-produced 
