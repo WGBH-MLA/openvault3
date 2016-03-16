@@ -15,7 +15,7 @@ arrange, describe, and reformat master *Say Brother* programs dating from 1968 t
 invaluable programming, whether performance, political commentary, or 
 conversations with distinct voices from the African American community.
 
-[Click here](/credits/credits-say-brother) for project credits and funding.
+View [project staff and funding](/credits/credits-say-brother).
 
 ## Clips
 
