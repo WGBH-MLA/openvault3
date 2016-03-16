@@ -44,7 +44,7 @@
     }
     
     #nav-button-container {
-        margin: 66px 0;
+        padding-top: 66px;
         a h2 {
             color: $dark-blue;
             font-size: 36px; // TODO: This causes line wrapping in md.
