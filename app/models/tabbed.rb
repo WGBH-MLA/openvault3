@@ -12,7 +12,7 @@ class Tabbed < Cmless
   end
 
   Tab = Struct.new(:title, :content)
-  
+
   def tabs
     @tabs ||= begin
       doc = Nokogiri::HTML(body_html)
