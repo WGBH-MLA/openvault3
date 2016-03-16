@@ -1,15 +1,16 @@
 <% anchor = 'tabs' %>
 <ul id="<%= anchor %>">
   <% (item.tabs.keys).reject { |x| skip.include?(x) }.tap do |tabs|
-    tabs.each do |tab| %>
+    tabs.each do |tab| 
+      title = item.tabs[tab][:title] %>
       <li>
         <% unless tab == params[:tab] %>
           <a href="<%= tab %>#<%= anchor %>" >
-            <%= tab.titlecase %>
+            <%= title %>
           </a>
         <% else %>
           <span class="pointer">&#x25B6;</span>
-          <%= tab.titlecase %>
+          <%= title %>
         <% end %>
       </li>
     <% end if tabs.count > 1

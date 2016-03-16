@@ -16,15 +16,19 @@ class Tabbed < Cmless
       doc = Nokogiri::HTML(body_html)
       Hash[
         doc.xpath('//h2').map do |tab_el|
-          tab_text = tab_el.text
-          tab_html = Cmless.extract_html(doc, tab_text)
+          tab_title = tab_el.text
+          tab_html = Cmless.extract_html(doc, tab_title)
           [
-            self.class.norm(tab_text),
-            begin
-              Tabbed.expand_links(tab_html)
-            rescue NotACatalogLink
-              tab_html
-            end
+            Tabbed.norm(tab_title),
+            {
+              title: tab_title,
+              content: 
+                begin
+                  Tabbed.expand_links(tab_html)
+                rescue NotACatalogLink
+                  tab_html
+                end
+            }
           ]
         end
       ]
