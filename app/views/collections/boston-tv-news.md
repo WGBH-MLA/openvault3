@@ -11,7 +11,7 @@ Institute of Museum and Library Services and the Council on Library and Informat
 Resources, is a collaboration between the Boston Public Library, Cambridge Community 
 Television, Northeast Historic Film and WGBH Educational Foundation. The website 
 aims to bring to life local news stories produced in and about Boston from the early 
-1960’s to 2000.
+1960s to 2000.
 
 Nearly 2,000 audiovisual news reports are available for viewing online, including 
 content from Boston Public Library’s WHDH film collection (1960- mid-1970s), 
