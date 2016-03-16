@@ -210,8 +210,8 @@ This website and accompanying blog, created by a college class from the Universi
 ## Authors
 
 ### Tracey Deutsch
-<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/deutsch_headshot.png"></img></div>
 
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/deutsch_headshot.png)
 Deutsch is associate professor of history at the University of Minnesota. She teaches, researches, and writes in the areas of food studies, gender and women’s history, the history of capitalism, and modern US history. Deutsch is the author of Building a Housewife’s Paradise: Gender, Government, and American Grocery Stores, 1919-1968 (2010 University of North Carolina Press). She has also published essays on food and labor in The Oxford Handbook of Food History and in the Radical History Review. She is currently researching a book project on the life of Julia Child and the politics of gourmet food in the mid-century US.
 
 ### Credits

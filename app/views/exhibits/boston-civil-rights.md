@@ -557,8 +557,8 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 ## Authors
 
 ### Dr. Audrea F. Jones Dunham
-<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/dunham_headshot.png"></img></div>
 
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/dunham_headshot.png)
 Dunham was born and raised in the Roxbury section of Boston. She earned a Ph.D. in African American Studies from Temple University and has taught African American Studies at Georgia State University and Delaware State University. She has served on the Board of the National Council for Black Studies and as an associate editor of the Journal of Black Studies.Her research interest which focuses on women in social movements is largely attributable to the early influences of many of the local civil rights activists in Boston, and to her own subsequent activism as a student in the Stay-Out for Freedom campaigns, the Dr. Martin Luther King, Jr. March, and later as the leader of the Massachusetts State Chapter of the Black Panther Party during the 1960s. She has published an article about the Roxbury-based Mothers for Adequate Welfare (MAW) organization, Fight for a Change! MAW and the Evolution of the Welfare Rights Movement in Boston in the International Journal of Africana Studies, and is currently completing a book-length manuscript of the same title.
 
 ### Credit

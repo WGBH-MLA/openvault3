@@ -284,8 +284,8 @@ Wilson, Erica. “Needlepoint.”  Four-part Video Series.
 ## Authors
 
 ### Dr. Amanda Grace Sikarskie
-<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/sikarskie_headshot.png"></img></div>
 
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/sikarskie_headshot.png)
 Sikarskie is Adjunct Assistant Professor in the Department of 
 History at Western Michigan University and Adjunct Assistant Professor in the 
 Museum Studies Program at Michigan State University. She is also a Research 
