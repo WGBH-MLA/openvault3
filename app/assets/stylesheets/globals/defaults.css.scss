@@ -17,8 +17,13 @@ html > body {
         background: $medium-blue;
         border: none;
     }
+    .container-fluid {
+        // For the header and footer we nest a .container with the content
+        // inside a .container-fluid to get the color bar full width.
+        // Without this, we get a horizontal scrolls near breakpoint widths.
+        overflow: hidden; 
+    }
 }
-
 .blacklight-collections-show,.blacklight-exhibits-show,.blacklight-override {
     #main-container {
         line-height: 35px;
