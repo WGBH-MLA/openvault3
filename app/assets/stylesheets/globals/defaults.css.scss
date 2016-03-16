@@ -24,9 +24,16 @@ html > body {
         overflow: hidden; 
     }
 }
+
 .blacklight-collections-show,.blacklight-exhibits-show,.blacklight-override {
     #main-container {
         line-height: 35px;
         p { margin: 0 0 40px; }
+        img { 
+            max-width: 100%; 
+            float: left;
+            padding-right: 30px;
+            padding-top: 10px; // To account for extra line-height.
+        }
     }
 }
