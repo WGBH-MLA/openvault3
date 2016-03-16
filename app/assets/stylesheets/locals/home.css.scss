@@ -43,23 +43,27 @@
         }
     }
     
-    a h2 {
-        color: $dark-blue;
-        font-size: 36px; // TODO: This causes line wrapping in md.
-        background: $yellow;
-        &:hover { background: $pale-yellow; }
-        @media (min-width: $screen-lg-min) {
-            padding: 1em 0em; // No side padding, so none line wrap...
+    #nav-button-container {
+        margin: 66px 0;
+        a h2 {
+            color: $dark-blue;
+            font-size: 36px; // TODO: This causes line wrapping in md.
+            background: $yellow;
+            &:hover { background: $pale-yellow; }
+            @media (min-width: $screen-lg-min) {
+                padding: 1em 0em; // No side padding, so none line wrap...
+            }
+            @media (max-width: $screen-md-max) {
+                padding: 1em 1.2em; // Excessive side padding, to force all to wrap.
+            }
+            font-weight: $semibold;
         }
-        @media (max-width: $screen-md-max) {
-            padding: 1em 1.2em; // Excessive side padding, to force all to wrap.
-        }
-        font-weight: $semibold;
     }
     
+    
     #about {
-        margin: $grid-gutter-width/2 0;
-        padding: $grid-gutter-width/2;
+        margin: 80px 0;
+        padding: 40px;
         background: $light-grey;
         color: #FFF;
         a { 
@@ -77,6 +81,12 @@
             img { height: 100%}
             margin-bottom: 20px; // Just for mobile, really.
             font-weight: $medium;
+        }
+        h3 {
+            font-weight: $bold;
+        }
+        p {
+            margin: 0;
         }
     }
     
