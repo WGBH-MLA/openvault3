@@ -479,6 +479,23 @@
     </fieldType>
  </types>
 
+ <highlighting>
+     <!-- Configure the standard fragmenter -->
+     <!-- This could most likely be commented out in the "default" case -->
+     <fragmenter name="gap" class="org.apache.solr.highlight.GapFragmenter" default="true">
+         <lst name="defaults">
+             <int name="hl.fragsize">3</int>
+         </lst>
+     </fragmenter>
+
+     <formatter name="html" class="org.apache.solr.highlight.HtmlFormatter" default="true">
+         <lst name="defaults">
+             <str name="hl.simple.pre"><![CDATA[<em>]]></str>
+             <str name="hl.simple.post"><![CDATA[</em>]]></str>
+         </lst>
+     </formatter>
+
+ </highlighting>
 
  <fields>
    <!-- Valid attributes for fields:
@@ -514,7 +531,7 @@
    
    <!-- default, catch all search field -->
    <field name="text" 
-          type="text" indexed="true" stored="false" multiValued="true"/>
+          type="text" indexed="true" stored="true" multiValued="true"/>
    
       
    <!--

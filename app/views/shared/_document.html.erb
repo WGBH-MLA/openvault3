@@ -8,3 +8,11 @@
     <%= document[:title] %>
   </div>
 </a>
+
+<% document.response[:highlighting][document.id][:text].tap do |highlights| %>
+  <% highlights.each do |highlight| %>
+    <blockquote>
+      <%= highlight.html_safe %>
+    </blockquote>
+  <% end if highlights %>
+<% end %>
