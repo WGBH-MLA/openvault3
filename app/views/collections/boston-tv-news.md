@@ -21,7 +21,7 @@ WCVB film collection (1970-1979), and WGBH-produced *The Reporters* (1970-1973),
 
 View [project staff and funding](/credits/credits-ton).
 
-Click on the thumbnails below to screen examples from our collection:
+Highlights of the collection:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://bostonlocaltv.org/catalog/V_UDAMVZGA4JEY06N">
