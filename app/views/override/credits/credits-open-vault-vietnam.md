@@ -58,5 +58,15 @@ Keith Luf<br/>
 Mike Muraszko<br/>
 Leah Weisse<br/>
   
-  
+## Thanks to our project partners
+
+[University of Massachusetts Boston](http://www.umb.edu/)<br/>
+[The William Joiner Center of the University of Massachusetts Boston](https://www.umb.edu/joinerinstitute)<br/>
+[Columbia University: Columbia Center for New Media Teaching and Learning](http://ctl.columbia.edu/)
+
+## Thanks to
+
+Footage Courtesy of [ABCNew](http://www.abcnewsvsource.com/)s<br/>
+Footage Courtesy of [CBS News](http://www.cbsnews.com/)<br/>
+National Boston
   
