@@ -79,6 +79,9 @@ class ValidatedPBCore < PBCore
     unless blocked_country_codes.all? { |code| code.match(/^[A-Z-]{3}$/) }
       errors << "Unexpected blocked country codes: #{blocked_country_codes}"
     end
+    unless id[0].upcase == media_type[0]
+      errors << "First char of ID does not match media: #{id[0].upcase} != #{media_type[0]}"
+    end
     return if errors.empty?
     fail 'Value validation errors: ' + errors.join("\n")
   end
