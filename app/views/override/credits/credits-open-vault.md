@@ -1,9 +1,7 @@
 # Credits: Open Vault
   
 The creation of Open Vault: WGBH Media Library and Archives Web site was 
-made possible through a grant from the Institute of Museum and Library Services 
-(IMLS). Any views, findings, conclusions or recommendations expressed in this 
-website do not necessarily represent those of the IMLS.
+made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov). Any views, findings, conclusions or recommendations expressed in this website do not necessarily represent those of the IMLS.
 
 <!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)-->
 
