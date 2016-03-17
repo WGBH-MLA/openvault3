@@ -5,7 +5,7 @@ made possible in part by the [Institute of Museum and Library Services (IMLS)](h
 findings, conclusions or recommendations expressed in this website do not 
 necessarily represent those of the IMLS.
 
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)-->
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 
 ## Project Management
 Karen Cariani, Project Director<br/>
