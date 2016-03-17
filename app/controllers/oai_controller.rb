@@ -1,6 +1,6 @@
 class OaiController < ApplicationController
   Record = Struct.new(:id, :date, :pbcore)
-  ROWS = 2
+  ROWS = 100
 
   def index
     @verb = params.delete(:verb)
@@ -11,9 +11,9 @@ class OaiController < ApplicationController
 
     resumption_token = params.delete(:resumptionToken) || '0'
     fail("Unsupported resumptionToken: #{resumption_token}") unless resumption_token =~ /^\d*$/
-    offset = resumption_token.to_i
-    
-    unsupported = params.keys - ['action', 'controller', 'format']
+    start = resumption_token.to_i
+
+    unsupported = params.keys - %w(action controller format)
     fail("Unsupported params: #{unsupported}") unless unsupported.empty?
 
     @response_date = Time.now.strftime('%FT%T')
@@ -24,7 +24,7 @@ class OaiController < ApplicationController
              'q' => '*:*',
              'fl' => 'id,timestamp,xml',
              'rows' => ROWS,
-             'offset' => offset
+             'start' => start
            })['response']['docs'].map do |d|
         Record.new(
           d['id'],
@@ -36,7 +36,7 @@ class OaiController < ApplicationController
       if @records.empty?
         nil
       else
-        offset + ROWS
+        start + ROWS
       end
 
     respond_to do |format|
