@@ -8,8 +8,6 @@ National Endowment for the Humanities: Exploring the Human Endeavor.
  
 Major funding for War and Peace in the Nuclear Age broadcast program was provided by the Annenberg/CPB Project.
 
-Poster Artwork Courtesy of [Jan Sawka, 1988](http://www.jansawka.com/).
-
 ## PROJECT MANAGEMENT
 Karen Cariani, Project Director<br/>
 Karen Colbron, Project Consultant<br/>
@@ -44,5 +42,5 @@ Kate Van Slate<br/>
 Alyda Porter<br/>
 Bruce Vencill<br/>
   
-  
+Poster Artwork Courtesy of [Jan Sawka, 1988](http://www.jansawka.com/).
   
