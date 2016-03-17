@@ -39,9 +39,9 @@ Click on the thumbnails below to screen examples:
 <div class="clearfix hidden-sm"></div>
 
 <div class="document col-md-4 col-sm-6">
-    <a href="http://americanarchive.org/catalog/cpb-aacip_15-3n20c4t26j">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-3n20c4t26j.png"/>
-        <div class="info">Remembering James Brown at the Boston Garden, 1968</div>
+    <a href="http://americanarchive.org/catalog/cpb-aacip_15-50tqk2fw">
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-50tqk2fw.png"/>
+        <div class="info">Long, Hot Summer '64, Episode One</div>
     </a>
 </div>
 
