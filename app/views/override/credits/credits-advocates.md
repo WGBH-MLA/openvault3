@@ -8,7 +8,6 @@
 Karen Cariani
 
 ## Project Staff
-Karen Cariani<br/>
 Keith Luf<br/>
 Peter Higgins<br/>
 Kevin Carter<br/>
