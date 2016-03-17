@@ -7,6 +7,18 @@
       <% end %>
       
       <h2><%= @pbcore.title %></h2>
+      
+      <% if !@pbcore.special_collections.empty? || !@pbcore.scholar_exhibits.empty? %>
+        <p>
+          <% @pbcore.special_collections_hash.each do |key, title| %> 
+            Part of <%= link_to(title, "/collections/#{key}") %>.
+          <% end %>
+          <% @pbcore.scholar_exhibits_hash.each do |key, title| %> 
+            Part of <%= link_to(title, "/exhibits/#{key}") %>.
+          <% end %>
+        </p>
+      <% end %>
+      
       <%= content_tag('p', @pbcore.date) if @pbcore.date %>
       
       <%= content_tag('p', @pbcore.asset_description) %>
@@ -14,17 +26,6 @@
       <%= render partial: 'catalog/player/player' %>
       
       <dl>
-        <% if !@pbcore.special_collections.empty? || !@pbcore.scholar_exhibits.empty? %>
-          <dt>Learn more</dt>
-          <dd>
-            <% @pbcore.special_collections_hash.each do |key, title| %> 
-              Part of <%= link_to(title, "/collections/#{key}") %>.
-            <% end %>
-            <% @pbcore.scholar_exhibits_hash.each do |key, title| %> 
-              Part of the <%= "/exhibits/#{key}" %> <%= title %> exhibit.
-            <% end %>
-          </dd>
-        <% end %>
         <% [
               {field: 'series_title', label: 'Series', facet_link: true},
               {field: 'program_title', label: 'Program', facet_link: true},
