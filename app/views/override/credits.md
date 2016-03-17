@@ -3,8 +3,8 @@
 The creation of **Open Vault** was made possible 
 in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov) (IMLS Grant Log Number [LG-05-05-0220-05](https://www.imls.gov/grants/awarded/lg-05-05-0220-05)). The views, findings, conclusions or recommendations expressed in this website do not necessarily represent those of the Institute of Museum and Library Services.
 
-<!--<a href="http://www.imls.gov" target="_blank"><img width="131" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
- alt="Institute of Museum and Library Services"></a>-->
+<a href="http://www.imls.gov" target="_blank"><img width="131" src="https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg"
+ alt="Institute of Museum and Library Services"></a>
 
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
@@ -39,4 +39,4 @@ alt="Mellon Foundation" title="Mellon Foundation">-->
 - [The Advocates](/credits/credits-advocates)
 - [March on Washington](/credits/credits-mow)
 - [Rock and Roll](/credits/credits-rock-and-roll)
-- [American Archive of Public Broadcasting](/credits/credits-american-archive-of-public-broadcasting)
+
