@@ -1,5 +1,6 @@
 require_relative '../../app/models/validated_pb_core'
 require 'active_support'
+require 'rails_helper'
 
 describe 'Validated and plain PBCore' do
   pbc_xml = File.read('spec/fixtures/pbcore/good-all-fields.xml')
@@ -150,6 +151,8 @@ describe 'Validated and plain PBCore' do
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],
         scholar_exhibits: ['needlework'],
+        special_collections_hash: {}, # TODO
+        scholar_exhibits_hash: {}, # TODO
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
         playlist_group: 'demo',
