@@ -6,9 +6,9 @@ All content on this site is the
 intellectual property of the WGBH Educational Foundation, which is solely 
 responsible for this work.
 
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)-->
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
  
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/CLIR.jpg)](http://www.clir.org)-->
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/CLIR.jpg)](http://www.clir.org)
 
 ## WGBH Media Library and Archives
 Andrea McCarty, Project Archivist<br/>
