@@ -1,7 +1,7 @@
 # Credits: Open Vault Vietnam
   
 The development of [Open Vault Vietnam](/collections/vietnam-the-vietnam-collection) was 
-funded by the Institute of Museum and Library Services (IMLS). Any views, 
+made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov). Any views, 
 findings, conclusions or recommendations expressed in this website do not 
 necessarily represent those of the IMLS.
 
