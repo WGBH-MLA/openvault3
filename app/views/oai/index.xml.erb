@@ -17,5 +17,8 @@
                 </metadata>
             </record>
         <% end %>
+        <% if @next_resumption_token %>
+            <resumptionToken><%= @next_resumption_token %></resumptionToken>
+        <% end %>
     </ListRecords>
 </OAI-PMH>

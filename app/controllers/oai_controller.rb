@@ -3,15 +3,18 @@ class OaiController < ApplicationController
   ROWS = 2
 
   def index
-    @verb = params[:verb]
+    @verb = params.delete(:verb)
     fail("Unsupported verb: #{@verb}") unless @verb == 'ListRecords'
 
-    @metadata_prefix = params[:metadataPrefix] || 'pbcore'
-    fail('Unsupported metadataPrefix') unless @metadata_prefix == 'pbcore'
+    @metadata_prefix = params.delete(:metadataPrefix) || 'pbcore'
+    fail("Unsupported metadataPrefix: #{@metadata_prefix}") unless @metadata_prefix == 'pbcore'
 
-    resumption_token = params[:resumptionToken] || '0'
+    resumption_token = params.delete(:resumptionToken) || '0'
     fail("Unsupported resumptionToken: #{resumption_token}") unless resumption_token =~ /^\d*$/
     offset = resumption_token.to_i
+    
+    unsupported = params.keys - ['action', 'controller', 'format']
+    fail("Unsupported params: #{unsupported}") unless unsupported.empty?
 
     @response_date = Time.now.strftime('%FT%T')
 
