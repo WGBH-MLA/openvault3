@@ -32,12 +32,8 @@ class OaiController < ApplicationController
           d['xml'].gsub('<?xml version="1.0" encoding="UTF-8"?>', '').strip)
       end
 
-    @next_resumption_token = # Not ideal: they'll need to go past the end.
-      if @records.empty?
-        nil
-      else
-        start + ROWS
-      end
+    # Not ideal: they'll need to go past the end.
+    @next_resumption_token = start + ROWS unless @records.empty?
 
     respond_to do |format|
       format.xml do
