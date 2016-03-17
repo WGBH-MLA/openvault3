@@ -23,6 +23,9 @@ Rails.application.routes.draw do
   resources :sitemap,
             only: [:index]
 
+  resources :oai,
+            only: [:index]
+
   get 'robots', to: 'robots#show'
 
   override_constraints = lambda do |req|
