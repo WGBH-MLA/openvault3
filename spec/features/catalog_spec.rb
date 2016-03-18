@@ -10,7 +10,7 @@ describe 'Catalog' do
   def expect_count(count)
     case count
     when 0
-      expect(page).to have_text('No entries found')
+      expect(page).to have_text('Consider using other search terms')
     when 1
       expect(page).to have_text('1 entry found')
     else
@@ -85,12 +85,12 @@ describe 'Catalog' do
       describe 'URL support' do
         # OR is supported on all facets, even if not in the UI.
         assertions = [
-          ['media_type', 'Video', 1],
-          ['media_type', 'Audio', 1],
+          ['media_type', 'Video', 0],
+          ['media_type', 'Audio', 2],
           ['media_type', 'Image', 1],
           ['media_type', 'Video OR Audio', 2],
-          ['media_type', 'Audio OR Image', 2],
-          ['media_type', 'Image OR Video', 2],
+          ['media_type', 'Audio OR Image', 3],
+          ['media_type', 'Image OR Video', 1],
           ['media_type', 'Video OR Audio OR Image', 3],
           ['series_title', 'SERIES', 1],
           ['program_title', 'PROGRAM', 1],

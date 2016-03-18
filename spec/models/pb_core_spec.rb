@@ -126,7 +126,7 @@ describe 'Validated and plain PBCore' do
         asset_description: 'ASSET-DESCRIPTION',
         id: 'A_00000000_MOCK',
         thumbnail_src: "#{base}/asset_thumbnails/#{id}.jpg",
-        proxy_srcs: %w(webm mp4).map { |ext| "#{base}/asset_proxies/#{id}.#{ext}" },
+        proxy_srcs: %w(mp3).map { |ext| "#{base}/asset_proxies/#{id}.#{ext}" },
         rights_summary: 'RIGHTS-SUMMARY',
         contributors: [
           PBCoreNameRole.new('contributor', 'CONTRIBUTOR-NAME-1', 'CONTRIBUTOR-ROLE-1'),
@@ -135,9 +135,9 @@ describe 'Validated and plain PBCore' do
           PBCoreNameRole.new('creator', 'CREATOR-NAME-1', 'CREATOR-ROLE-1'),
           PBCoreNameRole.new('creator', 'CREATOR-NAME-2', 'CREATOR-ROLE-2')],
         publishers: ['PUBLISHER-1', 'PUBLISHER-2'],
-        media_type: 'Video',
-        video?: true,
-        audio?: false,
+        media_type: 'Audio',
+        video?: false,
+        audio?: true,
         image?: false,
         digitized?: true,
         access: ['All Records', 'Available Online'],
@@ -157,7 +157,7 @@ describe 'Validated and plain PBCore' do
         playlist_map: { 1 => 'A_00000000_MOCK', 2 => 'A_00B0C50853C64A71935737EF7A4DA66C' },
         playlist_next_id: 'A_00B0C50853C64A71935737EF7A4DA66C',
         playlist_prev_id: nil,
-        extensions: %w(webm mp4),
+        extensions: %w(mp3),
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
