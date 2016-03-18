@@ -5,6 +5,7 @@ class TranscriptsController < ApplicationController
 
   XSLT = Nokogiri::XSLT(File.read(__dir__ + '/../../lib/xslt/tei_to_html.xsl'))
 
+  caches_page :show
   def show
     @response, @document = fetch(params['id'])
     curl = Curl::Easy.http_get(PBCore.new(@document['xml']).transcript_src)
