@@ -1,16 +1,20 @@
 .blacklight-home-index {
     
     .carousel {
-        margin-top: -1px; // Flash div above inserts a gap.
-        // Set height to half width: not necessary if imgs sized correctly.
         overflow: hidden;
+        // Carousel does not show in xs.
         @media ( min-width: $screen-sm-min ) {
-            height: 355px; // originally 360px: some provided images too short.
+            height: 300px;
+            font-size: 48px * 300 / 475;
         }
         @media ( min-width: $screen-md-min ) {
-            height: 465px; //  originally 470px; ditto.
+            height: 392px;
+            font-size: 48px * 392 / 475;
         }
-        // Carousel does not show in xs, and I'm ok with that.
+        @media ( min-width: $screen-lg-min ) {
+            height: 475px;
+            font-size: 48px;
+        }
         .carousel-inner {
             position: absolute;
             bottom: 0; // If imgs are sized correctly, this is not necessary.
@@ -25,16 +29,15 @@
         .carousel-control {
             background: $transparent;
             padding: 50px 0px;
-            top: 30% !important;
-            bottom: 30% !important;
-            width: 15% !important;   
+            top: 33% !important;
+            bottom: 33% !important;
+            width: 10% !important;   
         }
         .carousel-caption {
             position: absolute;
             bottom: 0px;
             left: 0px;
             right: auto;
-            font-size: 48px;
             font-weight: $semibold;
             background-color: $transparent;
             color: #FFF;
