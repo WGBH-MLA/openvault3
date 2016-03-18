@@ -5,7 +5,7 @@ web site, now incorporated into Open Vault, was made possible though a grant fro
 Humanities. However, all content on this site is the intellectual property of 
 the WGBH Educational Foundation, which is solely responsible for this work.
 
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)-->
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)
 
 ##    Media Library & Archives
 Project Archivist: Emily R. Novak<br/>
