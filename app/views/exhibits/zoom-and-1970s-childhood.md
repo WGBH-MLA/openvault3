@@ -194,6 +194,6 @@ Through various means, *ZOOM* opened up a wider world to its viewers. It took se
 ## Authors
 
 ### Leslie Paris
-<div class="pull-left col-sm-4"><img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/paris_headshot.png"></img></div>
 
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/paris_headshot.png)
 Paris is Associate Professor of History at the University of British Columbia in Vancouver, British Columbia, where she teaches modern American history and writes about the history of American childhood. She is the author of *Children’s Nature: The Rise of the American Summer Camp* (New York U. Press, 2008) and co-editor of the two-volume *The Girls’ History and Culture Reader* (U. of Illinois Press, 2011). Her work has been funded by numerous granting agencies, including the Social Science and Humanities Research Council of Canada, the Henry A. Murray Research Archive at Harvard University and the Rutgers Center for Historical Analysis. She is currently writing a history of American childhood in the 1960s and 1970s. 

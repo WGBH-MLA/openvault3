@@ -8,9 +8,7 @@
   </div>
 <% end %>
 
-<div class="signature col-sm-6" >
-  <img src="<%= item.img_src %>"/>
-</div>
+<img src="<%= item.img_src %>" class="signature"/>
 
 <div>
   <%= item.tabs['intro'].content.html_safe %>
