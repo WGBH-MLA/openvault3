@@ -20,10 +20,11 @@
       "Condition": {
         "StringNotLike": {
           "aws:Referer": [
+            "http://*wgbh-mla.org/*",
             "http://openvault.wgbh.org:3000/*",
             "http://demo.openvault.wgbh.org/*",
             "http://openvault.wgbh.org/*",
-            "http://52.90.240.42/*",
+            "http://*wgbh-mla-test.org/*",
             "http://localhost:3000/*"
           ]
         }
