@@ -13,7 +13,7 @@ class PBCoreIngester
   attr_reader :errors
   attr_reader :success_count
 
-  def initialize(opts)
+  def initialize(opts = {})
     # TODO: hostname and corename from config?
     @solr = Solr.instance.connect
     @errors = Hash.new([])
@@ -25,7 +25,7 @@ class PBCoreIngester
 
   def self.load_fixtures
     # This is a test in its own right elsewhere.
-    ingester = PBCoreIngester.new()
+    ingester = PBCoreIngester.new
     ingester.delete_all
     Dir['spec/fixtures/pbcore/*.xml'].each do |pbcore|
       ingester.ingest(path: pbcore)
