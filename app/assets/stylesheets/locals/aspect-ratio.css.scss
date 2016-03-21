@@ -24,10 +24,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    img { height: 100% }
-    // We have some thumbs less than 4x3... but those ones
-    // (for the most part) seem to be slightly squished and distored,
-    // and a vertical stretch is an improvement.
+    img { 
+        height: 100% ;
+        // We have some thumbs less than 4x3... but those ones
+        // (for the most part) seem to be slightly squished and distored,
+        // and a vertical stretch is an improvement.
+        padding: 0 !important;
+        // Override default padding for images in text.
+    }
+
   }
 }
 
