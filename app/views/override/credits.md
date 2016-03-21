@@ -12,7 +12,7 @@ The prototype website was funded in part by The John D. and Catherine T. MacArth
 Foundation.
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg)](https://mellon.org/) 
-alt="Mellon Foundation" title="Mellon Foundation">
+
 
 Funding by The Andrew W. Mellon Foundation for the [Digital Library Initiative](/credits/credits-open-vault-research) informed the later design and additional functionality of Open Vault, as well as the scholar exhibits and digitization on demand.
 
