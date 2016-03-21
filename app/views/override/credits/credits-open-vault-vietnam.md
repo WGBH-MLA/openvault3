@@ -1,11 +1,11 @@
 # Credits: Open Vault Vietnam
+
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)  
   
 The development of [Open Vault Vietnam](/collections/vietnam-the-vietnam-collection) was 
 made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov) (IMLS Grant Log Number [LG-05-07-0166-07](https://www.imls.gov/grants/awarded/lg-05-07-0166-07)). Any views, 
 findings, conclusions or recommendations expressed in this website do not 
 necessarily represent those of the IMLS.
-
-[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 
 ## Project Management
 Karen Cariani, Project Director<br/>
