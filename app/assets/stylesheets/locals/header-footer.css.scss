@@ -5,6 +5,7 @@
     }
     svg#ov-logo {
         text,path { fill: #FFF;  }
+        &:hover { text,path { fill: $yellow; } }
     }
     input {
         padding: 0px 28px 0px 8px;
