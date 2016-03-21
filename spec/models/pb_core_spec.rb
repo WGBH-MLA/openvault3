@@ -151,8 +151,8 @@ describe 'Validated and plain PBCore' do
         special_collections: ['war_peace'],
         special_collection_tags: ['war_interview'],
         scholar_exhibits: ['needlework'],
-        special_collections_hash: {"war_peace"=>"War and Peace in the Nuclear Age"},
-        scholar_exhibits_hash: {"needlework"=>"Erica Wilson: The Julia Child of Needlework"},
+        special_collections_hash: { 'war_peace' => 'War and Peace in the Nuclear Age' },
+        scholar_exhibits_hash: { 'needlework' => 'Erica Wilson: The Julia Child of Needlework' },
         aapb_url: 'http://americanarchive.org/',
         boston_tv_news_url: nil,
         playlist_group: 'demo',
@@ -182,8 +182,8 @@ describe 'Validated and plain PBCore' do
                                            'GENRE-1', 'GENRE-2',
                                            'TOPIC-1', 'TOPIC-2',
                                            'RIGHTS-SUMMARY',
-                                           "war_peace", "War and Peace in the Nuclear Age",
-                                           "needlework", "Erica Wilson: The Julia Child of Needlework",
+                                           'war_peace', 'War and Peace in the Nuclear Age',
+                                           'needlework', 'Erica Wilson: The Julia Child of Needlework',
                                            'Doctor Evil foo foo foo bar bar bar'])
 
       pbc = PBCore.new(pbc_xml)
