@@ -1,11 +1,10 @@
 # Credits: Open Vault Vietnam
-  
+
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 The development of [Open Vault Vietnam](/collections/vietnam-the-vietnam-collection) was 
-funded by the Institute of Museum and Library Services (IMLS). Any views, 
+made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov) (IMLS Grant Log Number [LG-05-07-0166-07](https://www.imls.gov/grants/awarded/lg-05-07-0166-07)). Any views, 
 findings, conclusions or recommendations expressed in this website do not 
 necessarily represent those of the IMLS.
-
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)-->
 
 ## Project Management
 Karen Cariani, Project Director<br/>
@@ -58,5 +57,15 @@ Keith Luf<br/>
 Mike Muraszko<br/>
 Leah Weisse<br/>
   
-  
+## Thanks to our project partners
+
+[University of Massachusetts Boston](http://www.umb.edu/)<br/>
+[The William Joiner Center of the University of Massachusetts Boston](https://www.umb.edu/joinerinstitute)<br/>
+[Columbia University: Columbia Center for New Media Teaching and Learning](http://ctl.columbia.edu/)
+
+## Thanks to
+
+Footage Courtesy of [ABCNews](http://www.abcnewsvsource.com/)<br/>
+Footage Courtesy of [CBS News](http://www.cbsnews.com/)<br/>
+National Boston
   

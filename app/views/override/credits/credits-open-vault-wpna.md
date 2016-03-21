@@ -1,10 +1,9 @@
 # Credits: Open Vault War and Peace in the Nuclear Age
-  
-[This Collection](/catalog/wpna-wpna-war-and-peace-in-the-nuclear-age)
+
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)
+[This Collection](/collections/wpna-wpna-war-and-peace-in-the-nuclear-age)
 has been made possible in part by a major grant from the 
 National Endowment for the Humanities: Exploring the Human Endeavor.
-
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)-->
  
 Major funding for War and Peace in the Nuclear Age broadcast program was provided by the Annenberg/CPB Project.
 
@@ -42,5 +41,5 @@ Kate Van Slate<br/>
 Alyda Porter<br/>
 Bruce Vencill<br/>
   
-  
+Poster Artwork Courtesy of [Jan Sawka, 1988](http://www.jansawka.com/).
   
