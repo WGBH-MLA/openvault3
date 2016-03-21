@@ -9,7 +9,7 @@ describe 'Special Collections' do
     expect_fuzzy_xml
   end
   it 'at least loads a details page tab' do
-    visit '/collections/advocates-advocates/full-program-video'
+    visit '/collections/advocates/full-program-video'
     expect(page.status_code).to eq(200)
     expect(page).to have_text('The Advocates')
     expect_fuzzy_xml
