@@ -82,6 +82,12 @@ class ValidatedPBCore < PBCore
     unless id[0].upcase == media_type[0]
       errors << "First char of ID does not match media: #{id[0].upcase} != #{media_type[0]}"
     end
+    if special_collections.empty? && !special_collection_tags.empty?
+      errors << 'If special_collection_tags, then special_collections should be provided.'
+    end
+    if special_collection_tags.empty? && !special_collections.empty?
+      errors << 'If special_collection, then special_collections_tags should be provided.'
+    end
     return if errors.empty?
     fail 'Value validation errors: ' + errors.join("\n")
   end
