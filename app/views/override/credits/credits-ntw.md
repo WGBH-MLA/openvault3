@@ -1,7 +1,6 @@
 # Credits: New Television Workshop
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEA.jpg)](http://www.arts.gov)
-
 [The New Television Workshop Collection](/collections/ntw-the-new-television-workshop)
 was preserved, arranged, and described by 
 the WGBH Media Library and Archives with support from the National Endowment 

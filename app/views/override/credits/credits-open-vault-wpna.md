@@ -1,8 +1,7 @@
 # Credits: Open Vault War and Peace in the Nuclear Age
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)
-  
-[This Collection](/catalog/wpna-wpna-war-and-peace-in-the-nuclear-age)
+[This Collection](/collections/wpna-wpna-war-and-peace-in-the-nuclear-age)
 has been made possible in part by a major grant from the 
 National Endowment for the Humanities: Exploring the Human Endeavor.
  

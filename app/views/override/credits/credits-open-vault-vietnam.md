@@ -1,7 +1,6 @@
 # Credits: Open Vault Vietnam
 
-[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)  
-  
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 The development of [Open Vault Vietnam](/collections/vietnam-the-vietnam-collection) was 
 made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov) (IMLS Grant Log Number [LG-05-07-0166-07](https://www.imls.gov/grants/awarded/lg-05-07-0166-07)). Any views, 
 findings, conclusions or recommendations expressed in this website do not 
@@ -66,7 +65,7 @@ Leah Weisse<br/>
 
 ## Thanks to
 
-Footage Courtesy of [ABCNew](http://www.abcnewsvsource.com/)s<br/>
+Footage Courtesy of [ABCNews](http://www.abcnewsvsource.com/)<br/>
 Footage Courtesy of [CBS News](http://www.cbsnews.com/)<br/>
 National Boston
   
