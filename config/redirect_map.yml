@@ -1,5 +1,27 @@
 ---
+# TODO: Do we need to have redirects from the old scholar collections?
+
+"/catalog/advocates-advocates": "/collections/advocates"
+"/catalog/march-march-on-washington": "/collections/march_on_washington"
+"/catalog/new-television-workshop": "/collections/new_television_workshop"
+"/catalog/prpe-press-and-the-people": "/collections/press_people"
+"/catalog/rock-and-roll": "/collections/rock_roll"
+"/catalog/say-brother": "/collections/say_brother"
+"/catalog/vault-from-the-vault": "/collections/vault"
+"/catalog/vietnam-the-vietnam-collection": "/collections/vietnam"
+"/catalog/wpna-wpna-war-and-peace-in-the-nuclear-age": "/collections/war_peace"
+
+# This block not necessary if deployed before old links get indexed.
+"/collections/advocates-advocates": "/collections/advocates"
+"/collections/march-march-on-washington": "/collections/march_on_washington"
+"/collections/new-television-workshop": "/collections/new_television_workshop"
+"/collections/prpe-press-and-the-people": "/collections/press_people"
+"/collections/rock-and-roll": "/collections/rock_roll"
+"/collections/say-brother": "/collections/say_brother"
+"/collections/vault-from-the-vault": "/collections/vault"
 "/collections/vietnam-the-vietnam-collection": "/collections/vietnam"
+"/collections/wpna-wpna-war-and-peace-in-the-nuclear-age": "/collections/war_peace"
+
 "/catalog/openvault:3": "/catalog/I_8B3BAB5CD79649BE867CFE665E69B10B"
 "/catalog/openvault:4": "/catalog/I_4704FDE6CD0D48CB90490088646A47BA"
 "/catalog/openvault:5": "/catalog/V_894B7E1B59CA45FD99C37EC63DD64A46"
