@@ -7,10 +7,10 @@ class TabbedController < ApplicationController
     @item = tab_class.find_by_path(params[:id])
     @page_title = @item.title
 
-    if params[:tab] || @item.tab_path == params[:id] # ie, there is no tab
-      fail ActiveRecord::RecordNotFound unless @item.tabs[params[:tab]]
+    if params[:tab]
+      fail ActiveRecord::RecordNotFound if !@item.tabs[params[:tab]]
     else
-      redirect_to('/' + params[:controller] + '/' + @item.tab_path)
+      redirect_to('/' + params[:controller] + '/' + @item.tab_path) if @item.tab_path != params[:id]
     end
   end
 end
