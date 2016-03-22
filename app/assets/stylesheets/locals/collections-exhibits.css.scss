@@ -78,6 +78,7 @@
            // Left-right padding chosen such that AAPB fits in two lines.
            margin-top: 0;
            margin-bottom: $grid-gutter-width;
+           line-height: 1.3em; // Huge line-height of body text not needed here.
            h2 {
                margin: 0;
            }
