@@ -8,7 +8,7 @@ class TabbedController < ApplicationController
     @page_title = @item.title
 
     if params[:tab]
-      fail ActiveRecord::RecordNotFound if !@item.tabs[params[:tab]]
+      fail ActiveRecord::RecordNotFound unless @item.tabs[params[:tab]]
     else
       redirect_to('/' + params[:controller] + '/' + @item.tab_path) if @item.tab_path != params[:id]
     end
