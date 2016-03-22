@@ -208,6 +208,13 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @scholar_exhibits ||= xpaths('/*/pbcoreAnnotation[@annotationType="Scholar Exhibit"]')
   end
 
+  def special_collections_hash
+    @special_collections_hash ||= Hash[special_collections.map { |name| [name, Collection.find_by_path(name).title] }]
+  end
+  def scholar_exhibits_hash
+    @scholar_exhibits_hash ||= Hash[scholar_exhibits.map { |name| [name, Exhibit.find_by_path(name).title] }]
+  end
+
   def playlist_group
     @playlist_group ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Group"]')
   end
