@@ -5,7 +5,6 @@ require 'zip'
 require 'set'
 require_relative '../../app/models/validated_pb_core'
 require_relative '../../lib/has_logger'
-require_relative 'mount_validator'
 require_relative '../../lib/solr'
 
 class PBCoreIngester
@@ -14,12 +13,9 @@ class PBCoreIngester
   attr_reader :errors
   attr_reader :success_count
 
-  def initialize(opts)
+  def initialize(opts = {})
     # TODO: hostname and corename from config?
     @solr = Solr.instance.connect
-    @solr.get('../admin/cores')['status']['blacklight-core']['dataDir'].tap do|data_dir|
-      MountValidator.validate_mount("#{data_dir}index", 'solr index') unless opts[:is_same_mount]
-    end
     @errors = Hash.new([])
     @success_count = 0
     @already = Set.new
@@ -29,7 +25,7 @@ class PBCoreIngester
 
   def self.load_fixtures
     # This is a test in its own right elsewhere.
-    ingester = PBCoreIngester.new(is_same_mount: true)
+    ingester = PBCoreIngester.new
     ingester.delete_all
     Dir['spec/fixtures/pbcore/*.xml'].each do |pbcore|
       ingester.ingest(path: pbcore)

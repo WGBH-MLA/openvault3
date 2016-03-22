@@ -36,7 +36,7 @@ class Ingest
       const_init(name)
     end
 
-    %w(batch-commit same-mount stdout-log).each do |name|
+    %w(batch-commit stdout-log).each do |name|
       flag_name = const_init(name)
       variable_name = "@is_#{name.tr('-', '_')}"
       instance_variable_set(variable_name, argv.include?(flag_name))
@@ -50,7 +50,7 @@ class Ingest
     mode = argv.shift
     args = argv
 
-    @flags = { is_same_mount: @is_same_mount, is_just_reindex: @is_just_reindex }
+    @flags = { is_just_reindex: @is_just_reindex }
 
     begin
       case mode
@@ -109,7 +109,7 @@ class Ingest
   def usage_message
     <<-EOF.gsub(/^ {4}/, '')
       USAGE: #{File.basename(__FILE__)}
-               [#{BATCH_COMMIT}] [#{SAME_MOUNT}] [#{STDOUT_LOG}]
+               [#{BATCH_COMMIT}] [#{STDOUT_LOG}]
                 #{FILES} FILE ... |
                 #{DIRS} DIR ... |
                 #{GREP_FILES} REGEX FILE ... |
@@ -118,9 +118,6 @@ class Ingest
       boolean flags:
         #{BATCH_COMMIT}: Optionally, make just one commit at the end, rather than
           one commit per file.
-        #{SAME_MOUNT}: Optionally, allow same mount point for the script and the
-          solr index. This is what you want in development, but the default, to
-          disallow this, would have stopped me from running out of disk many times.
         #{STDOUT_LOG}: Optionally, log to stdout, rather than a log file.
 
       mutually exclusive modes:
@@ -132,7 +129,7 @@ class Ingest
   end
 
   def process
-    ingester = PBCoreIngester.new(is_same_mount: @is_same_mount, regex: @regex)
+    ingester = PBCoreIngester.new(regex: @regex)
 
     # set the PBCoreIngester's logger to the same as this object's logger
     ingester.logger = logger
