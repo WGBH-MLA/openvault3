@@ -35,5 +35,8 @@ html > body {
             padding-right: 30px;
             padding-top: 10px; // To account for extra line-height.
         }
+        a img {
+            float: none; // Typically logos, which stand by themselves on the line 
+        }
     }
 }
