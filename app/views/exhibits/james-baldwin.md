@@ -32,5 +32,5 @@ As the interview begins, you'll see Baldwin trying to collect his thoughts. "My 
 
 ### Elizabeth Deane
 
-![](img src="https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/deane_headshot.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/deane_headshot.png)
 Deane is a producer, writer, and filmmaker. She was creator and executive producer of PBS's ten-part musical history *Rock & Roll*, for which she won the Peabody Award and the ASCAP Award for Excellence in Music Programming. Deane as executive producer for *The Kennedys* and *Nixon*, two presidential profiles for the history series *American Experience*, both remain among the most-watched special programs in PBS history. Her recent films include *John & Abigail Adams* and *Reconstruction: The Second Civil War*. Her numerous awards include four Peabody Awards, a duPont-Columbia Award, an Emmy, a Writers' Guild Award, a Worldfest Houston Gold Medal, the Japan Prize, the Organization of American Historians' Erik Barnouw Award, and Britain's Broadcasting Press Guild Award.
