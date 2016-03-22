@@ -1,3 +1,5 @@
+require 'cmless'
+
 class Tabbed < Cmless
   attr_reader :title_html
   attr_reader :head_html

@@ -3,6 +3,9 @@ require_relative 'lib/pb_core_ingester'
 require_relative '../lib/has_logger'
 require 'rake'
 
+require_relative '../app/models/collection'
+require_relative '../app/models/exhibit'
+
 class Exception
   def short
     message + "\n" + backtrace[0..2].join("\n")
