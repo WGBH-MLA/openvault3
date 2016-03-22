@@ -47,7 +47,7 @@ describe 'Tab Pages' do
       expect { visit(base + '/nope') }.to raise_error(ActiveRecord::RecordNotFound)
     end
     it '404s if tab on no-tab page' do
-      base = '/collections/advocates-advocates' # TODO: Will need to be renamed
+      base = '/collections/advocates'
       visit(base)
       expect(page.status_code).to eq(200) # Will have redirected
       expect { visit(base + '/nope') }.to raise_error(ActiveRecord::RecordNotFound)
