@@ -7,7 +7,7 @@ class TabbedController < ApplicationController
     begin
       @item = tab_class.find_by_path(params[:id])
     rescue IndexError
-      fail ActiveRecord::RecordNotFound
+      raise ActiveRecord::RecordNotFound
     end
     @page_title = @item.title
 
