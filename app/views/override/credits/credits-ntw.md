@@ -2,7 +2,7 @@
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEA.jpg)](http://www.arts.gov)
 
-[The New Television Workshop Collection](/collections/ntw-the-new-television-workshop)
+[The New Television Workshop Collection](/collections/new_television_workshop)
 was preserved, arranged, and described by 
 the WGBH Media Library and Archives with support from the National Endowment 
 for the Arts (Grant # A 96 - 019016). Materials in the collection include 
