@@ -10,7 +10,7 @@ made possible in part by the [Institute of Museum and Library Services (IMLS)](h
 The prototype website was funded in part by The John D. and Catherine T. MacArthur 
 Foundation.
 
-IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam-the-vietnam-collection/interviews).
+IMLS further funded the development of Open Vault in 2008 by supporting the [Vietnam Collection](/collections/vietnam/interviews).
 
 All content on this site is the intellectual property of WGBH Educational Foundation, which is solely responsible for this work.
     
