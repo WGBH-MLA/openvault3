@@ -10,7 +10,7 @@ Foundation.
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg)](https://mellon.org/)
 
-Funding by The Andrew W. Mellon Foundation for the [Digital Library Initiative](/credits/credits-open-vault-research) informed the later design and additional functionality of Open Vault, as well as the scholar exhibits and digitization on demand.
+The Andrew W. Mellon Foundation supported the further development of Open Vault through the [Digital Library Initiative](/credits/credits-openvault-research), funding the addition of new functionality and features such as a catalog, scholar exhibits, and digitization on demand.
 
 This site brings together materials from three previous web sites:
     
