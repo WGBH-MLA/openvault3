@@ -15,8 +15,8 @@ class LinkChecker
   ]
 
   def initialize
-    @checked = Set.new(File.readlines(IGNORE_FILE).map { |f| f.strip } )
-    File.unlink(REPORT_FILE) if File.exists?(REPORT_FILE)
+    @checked = Set.new(File.readlines(IGNORE_FILE).map(&:strip))
+    File.unlink(REPORT_FILE) if File.exist?(REPORT_FILE)
   end
 
   def check?(url)
@@ -52,7 +52,7 @@ class LinkChecker
     report("FAIL #{e}", url)
     false
   end
-  
+
   def report(status, url)
     puts "[#{status} #{url}]" # This gives context which is missing in the report.
     File.open(REPORT_FILE, 'a') { |f| f.write("#{status}: #{url}\n") }
