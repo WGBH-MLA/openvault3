@@ -14,9 +14,9 @@ The Andrew W. Mellon Foundation supported the further development of Open Vault 
 
 This site brings together materials from three previous web sites:
     
-- [New Television Workshop](/collections/ntw-the-new-television-workshop)
-- [Say Brother](/collections/sbro-say-brother)
-- [Ten O’Clock News](/collections/tocn-the-ten-o-clock-news) 
+- [New Television Workshop](/collections/new_television_workshop)
+- [Say Brother](/collections/say_brother)
+- [Ten O’Clock News](/collections/boston-tv-news) 
 
 ## Additional Project Credits
 

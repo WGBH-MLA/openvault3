@@ -4,7 +4,11 @@ class TabbedController < ApplicationController
   end
 
   def show
-    @item = tab_class.find_by_path(params[:id])
+    begin
+      @item = tab_class.find_by_path(params[:id])
+    rescue IndexError
+      raise ActiveRecord::RecordNotFound
+    end
     @page_title = @item.title
 
     if params[:tab]

@@ -2,7 +2,7 @@
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH.jpg)](http://www.neh.gov)
 
-[The Say Brother Collection](/collections/sbro-say-brother) 
+[The Say Brother Collection](/collections/say_brother) 
 web site, now incorporated into Open Vault, was made possible though a grant from the National Endowment for the 
 Humanities. However, all content on this site is the intellectual property of 
 the WGBH Educational Foundation, which is solely responsible for this work.

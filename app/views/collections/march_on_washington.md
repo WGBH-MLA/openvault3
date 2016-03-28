@@ -31,7 +31,7 @@ View [project staff and funding](/credits/credits-mow).
 
 In 1963, eight years before National Public Radio hit the airwaves, WGBH and a small network of radio stations dubbed the “Educational Radio Network” (ERN) teamed up to broadcast full, uninterrupted coverage of the March on Washington for Jobs and Freedom. As the march unfolded, quarter-inch tape rolled in Boston, recording speeches by Martin Luther King, Jr., John Lewis of the Student Non-Violent Coordinating Committee, music by Mahalia Jackson and a very young Bob Dylan and Joan Baez, an interview with Marlon Brando and much more…15 hours altogether. These tapes, now in the WGBH Media Library and Archives, are the only complete audio coverage of the broadcast in existence.
 
-This coverage, with transcripts, has been made available to the public in its entirety via [OpenVault’s March on Washington Collection](/collections/march-march-on-washington/ern-coverage).
+This coverage, with transcripts, has been made available to the public in its entirety via [OpenVault’s March on Washington Collection](/collections/march_on_washington/ern-coverage).
 
 In honor of the 50th Anniversary of the March in 2013, Charles Euchner, the author of *Nobody Turn Me Around: A People’s History of the 1963 March on Washington* (Beacon Press, 2010) has written a **Listeners Guide** for the first 7 hours of coverage in order to help users navigate this comprehensive audio collection. Each section of the Guide represents one hour of broadcast audio, and explores background information on individual participants, groups and the planning of the march itself.
 
