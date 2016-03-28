@@ -86,6 +86,11 @@
         #documents .document {
             border: none;
         }
+        .no-thumbs a {
+            display: block;
+            margin-left: 2em;
+            text-indent: -2em;
+        }
         
         iframe {
             // (For embeds)
