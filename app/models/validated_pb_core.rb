@@ -111,6 +111,7 @@ class ValidatedPBCore < PBCore
           else
             Curl::Easy.new(url).tap do |curl|
               curl.headers['Referer'] = 'http://openvault.wgbh.org/'
+              curl.headers['User-Agent'] = 'openvault-spider'
               curl.http_head
               unless curl.response_code == 200
                 errors << "HTTP HEAD from ##{method} not 200: #{curl.status}"
