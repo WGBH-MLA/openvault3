@@ -21,7 +21,7 @@ class OaiController < ApplicationController
     @records =
       RSolr.connect(url: 'http://localhost:8983/solr/')
       .get('select', params: {
-             'q' => '*:*',
+             'q' => 'access:"' + PBCore::ONLINE + '"',
              'fl' => 'id,timestamp,xml',
              'rows' => ROWS,
              'start' => start
