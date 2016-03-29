@@ -1,9 +1,12 @@
 class OverrideController < ApplicationController
   def show
-    @override = Override.find_by_path(params[:path])
+    @override, status = begin
+      [Override.find_by_path(params[:path]), 200]
+    rescue
+      [Override.find_by_path('404'), 404]
+    end
     @page_title = @override.title
     params[:path] = nil # search widget grabs ALL parameters.
-  rescue
-    raise ActionController::RoutingError.new('404')
+    render :show, status: status
   end
 end
