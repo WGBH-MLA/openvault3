@@ -21,7 +21,6 @@ class LinkChecker
 
   def check?(url)
     return true if url.nil?
-    return true  if url.match(/^[^\/].*#tabs/) # These relative links are actually OK, but cleanup. TODO.
     url.gsub!(/#.*/, '') # Checking page content for anchor is a hassle.
     return true if url.empty?
     return true if @checked.include?(url)
