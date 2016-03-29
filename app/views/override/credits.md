@@ -4,7 +4,8 @@
 
 The initial creation of **Open Vault** was made possible in part by the [Institute of Museum and Library Services (IMLS)](http://www.imls.gov) (IMLS Grant Log Number [LG-05-05-0220-05](https://www.imls.gov/grants/awarded/lg-05-05-0220-05)). IMLS further funded the development of Open Vault in 2008 by supporting the Vietnam Collection.  The views, findings, conclusions or recommendations expressed in this website do not necessarily represent those of the Institute of Museum and Library Services.
 
-<!--[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg)](http://www.macfound.org)-->
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/MacArthur.jpg)](http://www.macfound.org)
+
 The prototype website was funded in part by The John D. and Catherine T. MacArthur
 Foundation.
 
