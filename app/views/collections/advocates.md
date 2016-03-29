@@ -2,7 +2,7 @@
 
 5
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/advocates/advocates.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/advocates/advocates-q-50.jpg)
 
 ## intro
 

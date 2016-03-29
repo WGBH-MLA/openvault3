@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/vietnam/vietnam.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/vietnam/vietnam-q-50.jpg)
 
 ## intro
 

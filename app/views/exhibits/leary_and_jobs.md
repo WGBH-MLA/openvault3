@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/leary_and_jobs/leary_and_jobs_554x340.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/leary_and_jobs/leary_and_jobs_554x340-q-50.jpg)
 
 ## intro
 

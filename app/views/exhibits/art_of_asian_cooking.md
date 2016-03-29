@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/art_of_asian_cooking/art_of_asian_cooking_554x340.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/art_of_asian_cooking/art_of_asian_cooking_554x340-q-50.jpg)
 
 
 ## intro

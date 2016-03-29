@@ -2,7 +2,7 @@
 
 2
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/war_peace/war_peace.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/war_peace/war_peace-q-50.jpg)
 
 ## intro
 

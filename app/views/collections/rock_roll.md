@@ -2,7 +2,7 @@
 
 4
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/rock_roll/rock_roll.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/rock_roll/rock_roll-q-50.jpg)
 
 ## intro
 

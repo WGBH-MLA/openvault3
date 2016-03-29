@@ -2,7 +2,7 @@
 
 11
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/aapb.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/aapb-q-50.jpg)
 
 ## intro
 
