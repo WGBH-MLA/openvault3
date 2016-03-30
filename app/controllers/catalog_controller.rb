@@ -4,6 +4,10 @@ require_relative '../../lib/geo_i_p_country'
 class CatalogController < ApplicationController
   include Blacklight::Catalog
 
+  # This overrides default behavior from the Blacklight::Catalog module in the
+  # blacklight gem. Method defined below.
+  rescue_from Blacklight::Exceptions::RecordNotFound, with: :record_not_found
+
   configure_blacklight do |config|
     ## Default parameters to send to solr for all search-like requests.
     ## See also SolrHelper#solr_search_params
@@ -167,6 +171,7 @@ class CatalogController < ApplicationController
   def show
     # TODO: do we need more of the behavior from Blacklight::Catalog?
     @response, @document = fetch(params['id'])
+
     xml = @document['xml']
 
     respond_to do |format|
@@ -179,5 +184,11 @@ class CatalogController < ApplicationController
         render text: xml
       end
     end
+  end
+
+  # Callback for Blacklight Catalog controller. Acts as a passthru to
+  # ApplicationController#render_404, which is the common 404 method.
+  def record_not_found(_exception)
+    render_404
   end
 end
