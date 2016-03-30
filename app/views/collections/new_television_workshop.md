@@ -2,7 +2,7 @@
 
 8
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/ntw/ntw.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/ntw/ntw-q-50.jpg)
 
 ## intro
 

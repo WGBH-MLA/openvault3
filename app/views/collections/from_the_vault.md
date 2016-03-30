@@ -2,7 +2,7 @@
 
 7
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/from_the_vault/from_the_vault.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/from_the_vault/from_the_vault-q-50.jpg)
 
 ## intro
 

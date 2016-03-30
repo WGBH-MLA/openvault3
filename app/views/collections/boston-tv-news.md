@@ -2,7 +2,7 @@
 
 10
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/tocn.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/tocn/tocn-q-50.jpg)
 
 ## intro
 

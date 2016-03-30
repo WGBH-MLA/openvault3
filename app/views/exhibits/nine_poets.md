@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/nine_poets/nine_poets_554x340.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/nine_poets/nine_poets_554x340-q-50.jpg)
 
 
 ## intro

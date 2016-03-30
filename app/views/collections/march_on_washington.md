@@ -2,7 +2,7 @@
 
 6
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/march_washington/march_washington.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/march_washington/march_washington-q-50.jpg)
 
 ## intro
 

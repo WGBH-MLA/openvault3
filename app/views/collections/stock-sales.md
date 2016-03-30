@@ -2,7 +2,7 @@
 
 12
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/stock_sales.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/stock_sales-q-50.jpg)
 
 ## intro
 

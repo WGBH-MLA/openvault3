@@ -2,7 +2,7 @@
 
 9
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/press_people/press_people.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/press_people/press_people-q-50.jpg)
 
 ## intro
 

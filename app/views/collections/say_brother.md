@@ -2,7 +2,7 @@
 
 3
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/say_brother/say_brother.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/say_brother/say_brother-q-50.jpg)
 
 ## intro
 

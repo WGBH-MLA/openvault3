@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/fenway_park/fenway_park_554x340.png)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/fenway_park/fenway_park_554x340-q-50.jpg)
 
 ## intro
 
