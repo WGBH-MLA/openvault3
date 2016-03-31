@@ -25,6 +25,10 @@ describe 'Tab Pages' do
             end
           end
         end
+        it 'Gives 404 for bad tab' do
+          visit target + '/bad'
+          expect(page.status_code).to eq(404)
+        end
         (tabbed.tabs.keys - %w(intro extra)).each do |path|
           "/#{top}/#{tabbed.path}/#{path}".tap do |target|
             it "loads #{target}" do
@@ -51,6 +55,13 @@ describe 'Tab Pages' do
       visit(base)
       expect(page.status_code).to eq(200) # Will have redirected
       expect { visit(base + '/nope') }.to raise_error(ActiveRecord::RecordNotFound)
+    end
+  end
+
+  %w(exhibit collection).each do |base|
+    it "Gives 404 for bad #{base}" do
+      visit "/#{base}/bad"
+      expect(page.status_code).to eq(404)
     end
   end
 end
