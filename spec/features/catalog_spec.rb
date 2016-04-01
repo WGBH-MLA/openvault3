@@ -112,6 +112,11 @@ describe 'Catalog' do
         end
       end
     end
+
+    it 'Gives 404 for bad query' do
+      visit '/catalog?f[access]='
+      expect(page.status_code).to eq(404)
+    end
   end
 
   describe '#show' do
@@ -132,6 +137,11 @@ describe 'Catalog' do
     it 'Respects line-breaks in source data' do
       visit '/catalog/A_00B0C50853C64A71935737EF7A4DA66C'
       expect(page.html).to match(/<p>Line breaks\s+do not matter, but<\/p><p>empty lines do\.<\/p>/)
+    end
+
+    it 'Gives 404 for bad item' do
+      visit '/catalog/nope'
+      expect(page.status_code).to eq(404)
     end
   end
 end

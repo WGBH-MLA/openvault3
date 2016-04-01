@@ -14,4 +14,9 @@ describe 'Overrides' do
         expect_fuzzy_xml
       end
     end
+
+  it 'Gives 404 for no such page' do
+    visit '/nothing/here'
+    expect(page.status_code).to eq(404)
+  end
 end

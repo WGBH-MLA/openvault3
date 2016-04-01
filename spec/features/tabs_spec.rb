@@ -24,6 +24,10 @@ describe 'Tab Pages' do
               expect_fuzzy_xml
             end
           end
+          it 'Gives 404 for bad tab' do
+            visit target + '/bad'
+            expect(page.status_code).to eq(404)
+          end
         end
         (tabbed.tabs.keys - %w(intro extra)).each do |path|
           "/#{top}/#{tabbed.path}/#{path}".tap do |target|
@@ -39,18 +43,10 @@ describe 'Tab Pages' do
     end
   end
 
-  describe 'Bad tab 404' do
-    it '404s if tab on no-tab page' do
-      base = '/collections/boston-tv-news'
-      visit(base)
-      expect(page.status_code).to eq(200)
-      expect { visit(base + '/nope') }.to raise_error(ActiveRecord::RecordNotFound)
-    end
-    it '404s if tab on no-tab page' do
-      base = '/collections/advocates'
-      visit(base)
-      expect(page.status_code).to eq(200) # Will have redirected
-      expect { visit(base + '/nope') }.to raise_error(ActiveRecord::RecordNotFound)
+  %w(exhibit collection).each do |base|
+    it "Gives 404 for bad #{base}" do
+      visit "/#{base}/bad"
+      expect(page.status_code).to eq(404)
     end
   end
 end
