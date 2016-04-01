@@ -15,7 +15,10 @@ class TranscriptsController < ApplicationController
     respond_to do |format|
       format.html do
         tei_doc = Nokogiri::XML(curl.body_str)
-        @transcript_html = XSLT.transform(tei_doc).to_xml
+        ugly_xml = XSLT.transform(tei_doc).to_xml
+        @transcript_html = Nokogiri::XML(ugly_xml) do |config|
+          config.options = Nokogiri::XML::ParseOptions::NOBLANKS
+        end.to_xml.sub('<?xml version="1.0"?>', '').sub('xmlns:xhtml="http://www.w3.org/1999/xhtml"', '')
         render
       end
       format.xml do

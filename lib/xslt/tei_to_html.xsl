@@ -94,12 +94,29 @@
 
   <xsl:template match="tei:name" mode="seg">
     <xsl:variable name="ref" select="key('teiRef', substring-after(@ref, '#'))"/>
-    <a>
-      <xsl:attribute name="href"><xsl:value-of select="$ref/@xhtml:href" /></xsl:attribute>
-      <xsl:attribute name="title"><xsl:value-of select="$ref" /></xsl:attribute>
-      <xsl:attribute name="target">_blank</xsl:attribute>
-      <xsl:apply-templates mode="seg" />
-    </a>
+    <xsl:variable name="href" select="$ref/@xhtml:href"/>
+    <!--
+      Given a list of URLs, this gives the first few from each domain:
+        for D in `perl -pne 's{https?://}{};s{/.*}{}' all_urls.txt | sort | uniq `; 
+          do grep $D all_urls.txt | head -n3
+          echo
+        done
+        
+      authorities.loc.gov is down, and lcsh.info has turned into a German freeware site.
+    -->
+    <xsl:choose>
+      <xsl:when test="contains($href, '//lcsh.info') or contains($href, '//authorities.loc.gov')">
+        <xsl:apply-templates mode="seg" />
+      </xsl:when>
+      <xsl:otherwise>
+        <a>
+          <xsl:attribute name="href"><xsl:value-of select="$href" /></xsl:attribute>
+          <xsl:attribute name="title"><xsl:value-of select="$ref" /></xsl:attribute>
+          <xsl:attribute name="target">_blank</xsl:attribute>
+          <xsl:apply-templates mode="seg" />
+        </a>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="tei:date" mode="seg">

@@ -3,6 +3,15 @@
     <teiHeader>
         <profileDesc></profileDesc>
         <fileDesc></fileDesc>
+        <keywords scheme="http://authorities.loc.gov">
+            <term xhtml:href="http://authorities.loc.gov/does-not-matter" xml:id="foo">Foo, 2015-2016</term>
+        </keywords>
+        <keywords scheme="should-just-be-ignored">
+            <term xhtml:href="http://lcsh.info/does-not-matter" xml:id="bar">Bar, 2015-2016</term>
+        </keywords>
+        <keywords scheme="should-just-be-ignored">
+            <term xhtml:href="http://i.am.ok/does-not-matter" xml:id="baz">Baz, 2015-2016</term>
+        </keywords>
     </teiHeader>
     <text>
         <body>
@@ -14,8 +23,15 @@
             <div>
                 <div type="qa" xml:id="q0">
                     <u who="#a">
-                        <seg xml:id="para1" smil:begin="00:00:00" smil:end="00:00:10">foo foo foo</seg>
-                        <seg xml:id="para2" smil:begin="00:00:10" smil:end="00:00:20">bar bar bar</seg>
+                        <seg xml:id="para1" smil:begin="00:00:00" smil:end="00:00:10">
+                            <name ref="#foo">foo</name>!
+                        </seg>
+                        <seg xml:id="para2" smil:begin="00:00:10" smil:end="00:00:20">
+                            <name ref="#bar">bar</name>?
+                        </seg>
+                        <seg xml:id="para3" smil:begin="00:00:20" smil:end="00:00:30">
+                            <name ref="#baz">baz</name>.
+                        </seg>
                     </u>
                 </div>
             </div>
