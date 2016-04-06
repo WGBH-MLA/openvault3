@@ -20,7 +20,7 @@ class CatalogController < ApplicationController
     config.default_solr_params = {
       qt: 'search',
       rows: 12,
-      'hl.fl': 'text',
+      'hl.fl' => 'text',
       hl: true
     }
 
