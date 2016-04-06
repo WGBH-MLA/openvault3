@@ -5,7 +5,7 @@
   xmlns:smil="http://www.w3.org/2001/SMIL20/Language"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   exclude-result-prefixes="tei smil">
-  <xsl:output method="html" encoding="utf-8" indent="yes" />
+  <xsl:output method="xml" encoding="utf-8"/>
   <xsl:variable name="persNames" select="//tei:person" />
   <xsl:key name="teiRef" match="//tei:term" use="@xml:id" />
 

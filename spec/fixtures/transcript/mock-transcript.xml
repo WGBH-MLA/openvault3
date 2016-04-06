@@ -31,6 +31,7 @@
                         </seg>
                         <seg xml:id="para3" smil:begin="00:00:20" smil:end="00:00:30">
                             <name ref="#baz">baz</name>.
+                            <lb/>Translates to br in html: self closing tags can be parse problems.
                         </seg>
                     </u>
                 </div>

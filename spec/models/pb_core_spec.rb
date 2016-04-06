@@ -184,7 +184,7 @@ describe 'Validated and plain PBCore' do
                                            'RIGHTS-SUMMARY',
                                            'war_peace', 'War and Peace in the Nuclear Age',
                                            'needlework', 'Erica Wilson: The Julia Child of Needlework',
-                                           'Foo, 2015-2016 Bar, 2015-2016 Baz, 2015-2016 Doctor Evil foo ! bar ? baz .'])
+                                           'Foo, 2015-2016 Bar, 2015-2016 Baz, 2015-2016 Doctor Evil foo ! bar ? baz . Translates to br in html: self closing tags can be parse problems.'])
 
       pbc = PBCore.new(pbc_xml)
 
