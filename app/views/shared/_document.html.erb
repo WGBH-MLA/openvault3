@@ -2,17 +2,18 @@
   <div class="aspect-ratio-4x3">
     <div class="aspect-ratio-content">
       <img src="<%= document[:thumbnail_src] %>">
+      <% document.response[:highlighting][document.id][:text].tap do |highlights| %>
+        <% highlights.each do |highlight| %>
+          <div class="highlight">
+            &hellip;
+            <%= highlight.html_safe %>
+            &hellip;
+          </div>
+        <% end if highlights %>
+      <% end %>
     </div>
   </div>
   <div class="info">
     <%= document[:title] %>
   </div>
 </a>
-
-<% document.response[:highlighting][document.id][:text].tap do |highlights| %>
-  <% highlights.each do |highlight| %>
-    <blockquote>
-      <%= highlight.html_safe %>
-    </blockquote>
-  <% end if highlights %>
-<% end %>
