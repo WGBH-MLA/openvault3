@@ -93,7 +93,7 @@ Once you have your PBCore xml export run the following commands.
 $ cd openvault3_deploy
 $ for i in `cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag \
   --zone_name wgbh-mla.org.`; do OV_HOST=$i OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
-  bundle exec cap demo ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip& done
+  bundle exec cap demo ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip & done
 ```
 
 Make sure to add the `&` after the path to your PBCore to background the reindex on both servers, so they can run in parallel.
