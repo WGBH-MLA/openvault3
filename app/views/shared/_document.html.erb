@@ -3,7 +3,12 @@
     <div class="aspect-ratio-content">
       <img src="<%= document[:thumbnail_src] %>">
       <% document.response[:highlighting][document.id][:text].tap do |highlights| %>
-        <% highlights.each do |highlight| %>
+        <% highlights.reject do |highlight|
+             term = highlight.match(/<em>([^<]*)<\/em>/)[1].downcase
+             document[:title].downcase.include?(term)
+             # If someone is doing a known item search,
+             # repeating the title just looks odd.
+        end.each do |highlight| %>
           <div class="highlight">
             &hellip;
             <%= highlight.html_safe %>
