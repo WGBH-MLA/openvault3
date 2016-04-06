@@ -57,7 +57,7 @@ If those commands completed successfully, you can proceed to deploy Github code 
 ## Deploy Code to Demo Server
 Because we don't want to immediately deploy new code changes to the live Open Vault server, we first deploy them to the demo site where you can verify before swapping the server from live to demo so the live site should always be the most up to date version of the code.
 ```
-$ cd openavult3_deploy
+$ cd openvault3_deploy
 ```
 
 The next command you'll enter uses the `ssh_opt.rb` script from aws-wrapper to determine and use the demo ip address.  That's why it's important you verify the aws-wrapper is working.
