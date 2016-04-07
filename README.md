@@ -63,7 +63,7 @@ $ cd openvault3_deploy
 The next command you'll enter uses the `ssh_opt.rb` script from aws-wrapper to determine and use the demo ip address.  That's why it's important you verify the aws-wrapper is working.
 ```
 $ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns \
---zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem bundle exec cap demo deploy
+--zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem bundle exec cap aws deploy
 ```
 
 You will be prompted with `Please enter branch (master):`.  Press the return key.
@@ -93,7 +93,7 @@ Once you have your PBCore xml export run the following commands.
 $ cd openvault3_deploy
 $ for i in `cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag \
   --zone_name wgbh-mla.org.`; do OV_HOST=$i OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
-  bundle exec cap demo ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip & done
+  bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip & done
 ```
 
 Make sure to add the `&` after the path to your PBCore to background the reindex on both servers, so they can run in parallel.
@@ -106,14 +106,14 @@ Single ingest to live server:
 $  cd openvault3_deploy
 $ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns \
 --zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
-bundle exec cap demo ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
+bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
 Single ingest to demo server:
 ```
 $  cd openvault3_deploy
 $ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns \
 --zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
-bundle exec cap demo ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
+bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
 
 ## Verify Successful Ingest
