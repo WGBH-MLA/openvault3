@@ -6,4 +6,6 @@ class OverrideController < ApplicationController
     params[:path] = nil # search widget grabs ALL parameters.
     render :show
   end
+
+  rescue_from IndexError, with: :render_404
 end

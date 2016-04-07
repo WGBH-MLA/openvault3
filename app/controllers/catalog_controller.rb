@@ -6,7 +6,7 @@ class CatalogController < ApplicationController
 
   # This shouldn't be necessary, since it's also specified in ApplicationController...
   # but I must be missing something.
-  rescue_from StandardError, with: :render_404
+  rescue_from Blacklight::Exceptions::RecordNotFound, with: :render_404
 
   # Callback for Blacklight Catalog controller. Acts as a passthru to
   # ApplicationController#render_404, which is the common 404 method.
