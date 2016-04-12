@@ -40,14 +40,14 @@ $ ruby scripts/ssh_opt.rb
 
 This will give you the list of arguments.  For this initial interaction, you are trying to show the ip address of the demo and live servers.  For Open Vault the `zone_name` is `wgbh-mla.org.`, including the final period.
 ```
-$ ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns --zone_name wgbh-mla.org.
+$ ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns
 ```
 
 The returned result should be the ip address of the live Open Vault site.
 
 To do the same for the demo site, change the `—-name` argument to `demo.openvault.wgbh-mla.org`
 ```
-$ ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns --zone_name wgbh-mla.org.
+$ ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns
 ```
 
 The returned result should be the demo server ip address, different from the previous one.
@@ -62,11 +62,9 @@ $ cd openvault3_deploy
 
 The next command you'll enter uses the `ssh_opt.rb` script from aws-wrapper to determine and use the demo ip address.  That's why it's important you verify the aws-wrapper is working.
 ```
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns \
---zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem bundle exec cap aws deploy
+$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns` \
+OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem bundle exec cap aws deploy
 ```
-
-You will be prompted with `Please enter branch (master):`.  Press the return key.
 
 When complete, [go to the demo site](http://demo.openvault.wgbh-mla.org) and verify the code changes that were just deployed are what you desire.
 
@@ -76,7 +74,7 @@ If so, now you'll want to swap the servers so the demo site becomes the public, 
 This will switch which server is the demo and which one is the live.
 ```
 $ cd aws-wrapper
-$ ruby scripts/swap.rb --name openvault.wgbh-mla.org --zone_name wgbh-mla.org.
+$ ruby scripts/swap.rb --name openvault.wgbh-mla.org
 ```
 
 When that process completes, you can go to the [live Open Vault](http://openvault.wgbh.org) and verify that the new code came deploy that had previously been on the demo site is now live.  You can also visit the demo url if you wish to see if the non-updated code is still in place.
@@ -91,8 +89,8 @@ We also run the ingest process on both the demo and live server so they remain r
 Once you have your PBCore xml export run the following commands.
 ```
 $ cd openvault3_deploy
-$ for i in `cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag \
-  --zone_name wgbh-mla.org.`; do OV_HOST=$i OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
+$ for i in `cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag` \
+; do OV_HOST=$i OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
   bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip & done
 ```
 
@@ -104,15 +102,15 @@ If you ever have the need to ingest on a single server you can do the following.
 Single ingest to live server:
 ```
 $  cd openvault3_deploy
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns \
---zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
+$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns` \
+OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
 bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
 Single ingest to demo server:
 ```
 $  cd openvault3_deploy
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns \
---zone_name wgbh-mla.org.` OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
+$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns` \
+OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
 bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
 
@@ -124,7 +122,7 @@ Verify log file on live site:
 ```
 $ cd aws-wrapper
 $ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org \
---ips_by_dns --zone_name wgbh-mla.org.`
+--ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
@@ -134,7 +132,7 @@ Verify log file on demo site:
 ```
 $ cd aws-wrapper
 $ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org \
---ips_by_dns --zone_name wgbh-mla.org.`
+--ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
