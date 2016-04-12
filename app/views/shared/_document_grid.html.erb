@@ -1,6 +1,7 @@
+<% documents += [other_count] if defined? other_count %>
 <%= render layout: 'shared/grid', 
            locals: { 
-             docs: documents + [other_count],
+             docs: documents,
              cols: {
                 lg: 4,
                 md: 3,
