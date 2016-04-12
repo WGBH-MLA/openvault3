@@ -21,8 +21,6 @@
   <% end %>
 
   <% if @pbcore.transcript_src %>
-    <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
-            frameBorder="0" height="400"></iframe>
     <% 'got_it'.tap do |cookie_name| %>
       <% if !cookies[cookie_name] %>
         <div id="find-help" class="well well-sm" style="margin-bottom: 0;"><small>
@@ -37,7 +35,8 @@
                 } else { 
                   message = 'control-F';
                 }
-                document.write('Looking for something? Use ' + message + ' to search the transcript.');
+                document.write('Looking for something? Use ' + message + ' to search the transcript, ');
+                document.write('and then hit <span class="plain"><span class="transcript"><span class="play-from-here"></span></span></span> to play from that point.');
               })();
             </script>
             <span class="btn btn-primary btn-sm pull-right"
@@ -48,6 +47,8 @@
         </small></div>
       <% end %>
     <% end %>
+    <iframe id="transcript" src="/transcripts/<%= @pbcore.id %>"
+            frameBorder="0" height="400"></iframe>
   <% elsif !@pbcore.image? %>
     <p>
       Untranscribed item: 

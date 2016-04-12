@@ -20,8 +20,10 @@
         .play-from-here::before {
             content: '\25B6'; // right-pointing triangle
             cursor: pointer;
-            color: $dark-blue;
-            padding-right: 0.3em;
+            background: $medium-blue;
+            color: #FFF;
+            padding: 0 4px;
+            border-radius: 3px;
         }
         .para {
             border: 2px solid transparent;
