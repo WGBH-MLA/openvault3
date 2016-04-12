@@ -21,7 +21,9 @@
             content: '\25B6'; // right-pointing triangle
             cursor: pointer;
             color: $dark-blue;
-            padding-right: 0.3em;
+            padding: 0 4px;
+            border: 1.5px solid;
+            border-radius: 5px;
         }
         .para {
             border: 2px solid transparent;
