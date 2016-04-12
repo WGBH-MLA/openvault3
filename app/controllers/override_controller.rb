@@ -1,6 +1,5 @@
 class OverrideController < ApplicationController
   def show
-
     begin
       @override = Override.find_by_path(params[:path])
     rescue IndexError
