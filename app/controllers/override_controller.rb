@@ -7,5 +7,5 @@ class OverrideController < ApplicationController
     render :show
   end
 
-  rescue_from IndexError, with: :render_404
+  rescue_from Cmless::Error, with: :render_404
 end
