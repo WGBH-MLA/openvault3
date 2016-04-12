@@ -121,8 +121,7 @@ View the most recent log file.  At the end of the log there should be a % comple
 Verify log file on live site:
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org \
---ips_by_dns`
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
@@ -131,8 +130,7 @@ $ less ingest.2016-03-28_190938.log
 Verify log file on demo site:
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org \
---ips_by_dns`
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
