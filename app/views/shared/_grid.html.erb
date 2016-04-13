@@ -8,7 +8,13 @@
       cols.map { |k,v| "hidden-#{k}" unless i % v == 0 }.join(' ')  
     %>"></div>
     <div class="document <%= col_classes %>">
-      <%= yield(doc) %>
+      <% if doc.is_a? Fixnum %>
+        <% if doc > 0 %>
+          ... and <strong><%= doc %></strong> more, continuing below.
+        <% end %>
+      <% else %>
+        <%= yield(doc) %>
+      <% end %>
     </div>
   <% end %>
 </div>
