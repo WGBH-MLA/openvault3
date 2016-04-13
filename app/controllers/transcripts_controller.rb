@@ -21,6 +21,16 @@ class TranscriptsController < ApplicationController
         end.to_xml.sub('<?xml version="1.0" encoding="utf-8"?>', '').sub('xmlns:xhtml="http://www.w3.org/1999/xhtml"', '')
         render
       end
+      format.vtt do
+        render text: <<END
+WEBVTT FILE
+
+1
+00:00:00.500 --> 00:00:02.000
+Decimals are required
+
+END
+      end
       format.xml do
         render text: curl.body_str
       end
