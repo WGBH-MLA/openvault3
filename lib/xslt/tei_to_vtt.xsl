@@ -9,9 +9,8 @@
   <xsl:variable name="persNames" select="//tei:person" />
   <xsl:key name="teiRef" match="//tei:term" use="@xml:id" />
 
-  <xsl:template match="/">WEBVTT FILE
-
-<xsl:apply-templates match="tei:body"/>
+  <xsl:template match="/">
+    <xsl:apply-templates match="tei:body"/>
   </xsl:template>
 
   <xsl:template match="tei:body">

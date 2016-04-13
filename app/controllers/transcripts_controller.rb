@@ -24,8 +24,10 @@ class TranscriptsController < ApplicationController
       end
       format.vtt do
         tei_doc = Nokogiri::XML(curl.body_str)
-        ugly_vtt = VTT_XSLT.transform(tei_doc).to_s.gsub(/^\s*/, '')
-        render text: ugly_vtt.sub('<?xml version="1.0" encoding="utf-8"?>'+"\n", '').gsub('&gt;', '>') # Bugs in Nokogiri?
+        ugly_vtt = VTT_XSLT.transform(tei_doc).to_s
+          .sub('<?xml version="1.0" encoding="utf-8"?>'+"\n", '').gsub('&gt;', '>') # Bugs in Nokogiri?
+          .gsub(/(\D)\s*\n\s*(\D)/, '\1 \2') # remove newlines, and indentation, but only from text blocks
+        render text: "WEBVTT FILE\n\n"+ugly_vtt
       end
       format.xml do
         render text: curl.body_str
