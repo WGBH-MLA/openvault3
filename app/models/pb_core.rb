@@ -132,11 +132,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
       else
         case media_type
         when VIDEO
-          '/images/video_icon.png'
+          digitized? ? '/images/video_digitized_icon.png' : '/images/video_undigitized_icon.png'
         when AUDIO
-          '/images/audio_icon.png'
+          digitized? ? '/images/audio_digitized_icon.png' : '/images/audio_undigitized_icon.png'
         when IMAGE
-          '/images/image_icon.png'
+          '/images/image_icon.png' # TODO: Should we ever reach this?
         else
           fail("Unrecognized media_type: #{media_type}")
         end
