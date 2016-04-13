@@ -66,7 +66,7 @@ GEM
       xpath (~> 2.0)
     childprocess (0.5.5)
       ffi (~> 1.0, >= 1.0.11)
-    cmless (0.1.0)
+    cmless (1.0.0)
       nokogiri (~> 1.6)
       redcarpet (~> 3.2)
     coderay (1.1.0)
@@ -242,7 +242,7 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.4.1)
   cancan
   capybara
-  cmless (= 0.1.0)
+  cmless (= 1.0.0)
   coffee-rails (~> 4.0.0)
   curb
   geoip

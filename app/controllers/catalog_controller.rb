@@ -4,9 +4,8 @@ require_relative '../../lib/geo_i_p_country'
 class CatalogController < ApplicationController
   include Blacklight::Catalog
 
-  # This shouldn't be necessary, since it's also specified in ApplicationController...
-  # but I must be missing something.
-  rescue_from StandardError, with: :render_404
+  rescue_from Blacklight::Exceptions::RecordNotFound, with: :render_404
+  rescue_from Blacklight::Exceptions::InvalidRequest, with: :render_404
 
   # Callback for Blacklight Catalog controller. Acts as a passthru to
   # ApplicationController#render_404, which is the common 404 method.
@@ -172,6 +171,12 @@ class CatalogController < ApplicationController
       params[:f].merge!(access: [PBCore::ONLINE])
       redirect_to "/catalog?#{params.except(:action, :controller).to_query}"
     else
+      # Malformed queries can cause errors from deep in BL.
+      # We want every 500 to represent an actual bug, so here we validate
+      # the user input more tightly than BL does by default.
+      if params[:f]
+        params[:f].each { |_k, v| fail Blacklight::Exceptions::InvalidRequest unless v.class == Array }
+      end
       super
     end
   end

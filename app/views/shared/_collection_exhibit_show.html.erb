@@ -14,13 +14,10 @@
     <%= render partial: 'shared/tab_row', locals: {item: item, skip: ['intro', 'extra', 'author']}%>
     <% item.tabs[params[:tab]].content.tap do |current_tab| %>
       <% if current_tab.respond_to?(:each) %>
-        <% top_docs = current_tab[0..11] %>
-        <% other_docs = current_tab[12..-1] %>
-        <%= render partial: 'shared/document_grid', locals: {documents: top_docs} %>
-        <% if other_docs && !other_docs.empty? %>
-          <div class="row">
-            <div class="col-sm-12">And <%= other_docs.count %> more...</div>
-          </div>
+        <% top_docs = current_tab[0..10] %>
+        <% other_docs = current_tab[11..-1] || [] %>
+        <%= render partial: 'shared/document_grid', locals: {documents: top_docs, other_count: other_docs.count} %>
+        <% if !other_docs.empty? %>
           <div class="row no-thumbs">
             <% other_docs.in_groups(2, false).each do |docs_col| %>
               <div class="col-md-6">
