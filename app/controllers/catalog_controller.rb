@@ -178,6 +178,11 @@ class CatalogController < ApplicationController
         params[:f].each { |_k, v| fail Blacklight::Exceptions::InvalidRequest unless v.class == Array }
       end
       super
+      @highlighting = Hash[@response[:highlighting].map {|k,v| [k, v[:text][0]]}]
+      # TODO: Don't include if search term is in title?
+      # highlights.reject do |highlight|
+      #       term = highlight.match(/<em>([^<]*)<\/em>/)[1].downcase
+      #       document[:title].downcase.include?(term)
     end
   end
 
