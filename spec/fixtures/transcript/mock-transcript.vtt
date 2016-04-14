@@ -1,10 +1,8 @@
 WEBVTT FILE
 
-
- 
-00:00:00 --> 00:00:10
-Doctor Evil: foo! 
-00:00:10 --> 00:00:20
-Doctor Evil: bar? 
-00:00:20 --> 00:00:30
-Doctor Evil: baz. Translates to br in html: self closing tags can be parse problems. 
+00:00:00.000 --> 00:00:10.000
+Doctor Evil: foo!
+00:00:10.000 --> 00:00:20.000
+Doctor Evil: bar?
+00:00:20.000 --> 00:00:30.000
+Doctor Evil: baz. Translates to br in html: self closing tags can be parse problems.
