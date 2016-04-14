@@ -18,7 +18,7 @@ describe 'Transcripts' do
     expect(page.status_code).to eq(200)
     expect(page.body).to match(File.read(Rails.root + 'spec/fixtures/transcript/mock-transcript.html'))
   end
-  
+
   it 'generates WebVTT' do
     visit '/transcripts/A_00000000_MOCK.vtt'
     expect(page.status_code).to eq(200)
