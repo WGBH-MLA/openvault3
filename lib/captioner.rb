@@ -9,7 +9,7 @@ class Captioner
         Segment.new(
           parse(s.css('begin').text.strip),
           parse(s.css('end').text.strip),
-          s.css('speaker').text.strip,
+          s.css('speaker').text.strip.gsub(/:$/, ''),
           s.css('text').text.strip.gsub(/\s+/, ' ')
         )
       end.map do |h|
