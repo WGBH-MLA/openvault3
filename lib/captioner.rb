@@ -13,7 +13,7 @@ class Captioner
           s.css('text').text.strip.gsub(/\s+/, ' ')
         )
       end.map do |h|
-        [h]
+        split(h)
       end.flatten.map do |h|
         "#{format(h.begin)} --> #{format(h.end)}\n#{h.speaker}: #{h.text}\n"
       end.join
@@ -28,6 +28,20 @@ class Captioner
 
     def format(t)
       Time.at(t).utc.strftime('%H:%M:%S.%L')
+    end
+    
+    def split(seg)
+      chunks = seg.text.split(/(?<=\.\s)/)
+      duration = seg.end - seg.begin
+      seg_length = seg.text.length
+      to_return = []
+      t = seg.begin
+      chunks.each do |chunk|
+        chunk_duration = duration * chunk.length / seg_length
+        to_return << Segment.new(t, t+chunk_duration, seg.speaker, chunk)
+        t += chunk_duration
+      end
+      to_return
     end
   end
 end
