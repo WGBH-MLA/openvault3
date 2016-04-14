@@ -13,6 +13,8 @@ class Captioner
           s.css('text').text.strip.gsub(/\s+/, ' ')
         )
       end.map do |h|
+        [h]
+      end.flatten.map do |h|
         "#{format(h.begin)} --> #{format(h.end)}\n#{h.speaker}: #{h.text}\n"
       end.join
     end
