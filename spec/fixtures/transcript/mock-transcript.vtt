@@ -1,7 +1,10 @@
 WEBVTT FILE
 
 
-  00:00:00 --> 00:00:10
- foo!  00:00:10 --> 00:00:20
- bar?  00:00:20 --> 00:00:30
+ 
+00:00:00 --> 00:00:10
+ foo! 
+00:00:10 --> 00:00:20
+ bar? 
+00:00:20 --> 00:00:30
  baz. Translates to br in html: self closing tags can be parse problems. 

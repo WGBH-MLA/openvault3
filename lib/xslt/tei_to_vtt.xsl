@@ -48,8 +48,8 @@
   </xsl:template>-->
 
   <xsl:template match="tei:seg" mode="teibody">
+      <xsl:text>&#xa;</xsl:text>
       <xsl:value-of select="@smil:begin" /> --&gt; <xsl:value-of select="@smil:end" />
-
       <xsl:text>&#xa;</xsl:text>
       <xsl:apply-templates mode="seg" />
       <xsl:text>&#xa;&#xa;</xsl:text>
