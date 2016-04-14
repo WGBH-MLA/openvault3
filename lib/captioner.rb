@@ -29,7 +29,7 @@ class Captioner
     def format(t)
       Time.at(t).utc.strftime('%H:%M:%S.%L')
     end
-    
+
     def split(seg)
       chunks = seg.text.split(/(?<=\.\s)(?<!Mr\.\s)(?<!Dr\.\s)(?<!Mrs\.\s)(?<!Ms\.\s)/)
       duration = seg.end - seg.begin
@@ -38,7 +38,7 @@ class Captioner
       t = seg.begin
       chunks.each do |chunk|
         chunk_duration = duration * chunk.length / seg_length
-        to_return << Segment.new(t, t+chunk_duration, seg.speaker, chunk)
+        to_return << Segment.new(t, t + chunk_duration, seg.speaker, chunk)
         t += chunk_duration
       end
       to_return
