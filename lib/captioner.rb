@@ -31,7 +31,7 @@ class Captioner
     end
     
     def split(seg)
-      chunks = seg.text.split(/(?<=\.\s)/)
+      chunks = seg.text.split(/(?<=\.\s)(?<!Mr\.\s)(?<!Dr\.\s)(?<!Mrs\.\s)(?<!Ms\.\s)/)
       duration = seg.end - seg.begin
       seg_length = seg.text.length
       to_return = []
