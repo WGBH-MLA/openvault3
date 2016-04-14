@@ -28,6 +28,7 @@
         .para {
             border: 2px solid transparent;
             border-radius: 8px;
+            padding: 0 2px;
         }
         .para.current {
             border-color: $light-grey
