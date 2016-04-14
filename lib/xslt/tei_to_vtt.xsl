@@ -56,59 +56,30 @@
   </xsl:template>
 
   <xsl:template match="tei:name" mode="seg">
-    <xsl:variable name="ref" select="key('teiRef', substring-after(@ref, '#'))"/>
-    <xsl:variable name="href" select="$ref/@xhtml:href"/>
-    <!--
-      Given a list of URLs, this gives the first few from each domain:
-        for D in `perl -pne 's{https?://}{};s{/.*}{}' all_urls.txt | sort | uniq `; 
-          do grep $D all_urls.txt | head -n3
-          echo
-        done
-        
-      authorities.loc.gov is down, and lcsh.info has turned into a German freeware site.
-    -->
-    <xsl:choose>
-      <xsl:when test="contains($href, '//lcsh.info') or contains($href, '//authorities.loc.gov')">
-        <xsl:apply-templates mode="seg" />
-      </xsl:when>
-      <xsl:otherwise>
-        <a>
-          <xsl:attribute name="href"><xsl:value-of select="$href" /></xsl:attribute>
-          <xsl:attribute name="title"><xsl:value-of select="$ref" /></xsl:attribute>
-          <xsl:attribute name="target">_blank</xsl:attribute>
-          <xsl:apply-templates mode="seg" />
-        </a>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:apply-templates mode="seg" />
   </xsl:template>
 
   <xsl:template match="tei:date" mode="seg">
-    <span>
-      <xsl:attribute name="class">tei-date</xsl:attribute>
-      <xsl:if test="@when"><xsl:attribute name="title"><xsl:value-of select="@when" /></xsl:attribute></xsl:if>
-      <xsl:apply-templates mode="seg" />
-    </span>
+    <xsl:apply-templates mode="seg" />
   </xsl:template>
 
   <xsl:template match="tei:quote" mode="seg">
-    <blockquote>
-      <xsl:apply-templates mode="seg" />
-    </blockquote>
+    <xsl:apply-templates mode="seg" />
   </xsl:template>
 
   <xsl:template match="tei:bibl" mode="seg">
-    <span class="tei-bibl"><xsl:apply-templates mode="seg" /></span>
+    <xsl:apply-templates mode="seg" />
   </xsl:template>
 
   <xsl:template match="tei:l" mode="seg">
-    <span class="tei-l"><xsl:apply-templates mode="seg" /></span>
+    <xsl:apply-templates mode="seg" />
   </xsl:template>
 
   <xsl:template match="tei:choice[tei:sic]" mode="seg">
-    <xsl:apply-templates mode="seg" select="tei:sic" /> <span class="tei-sic"> [sic]</span>
+    <xsl:apply-templates mode="seg" select="tei:sic" />[sic]
   </xsl:template>
 
-  <xsl:template match="tei:lb" mode="seg"><br /></xsl:template>
+  <xsl:template match="tei:lb" mode="seg"><xsl:text>&#xa;</xsl:text></xsl:template>
 <!--
   <xsl:template match="tei:" mode="seg">
     <xsl:apply-templates mode="seg" />
