@@ -27,10 +27,10 @@
   <% if @pbcore.playlist_group %>
     <div id="playlist">
       <% if @pbcore.playlist_prev_id %>
-        <a href="/catalog/<%= @pbcore.playlist_prev_id %>" class="pull-left">&#x25c0; Previous</a>
+        <a href="/catalog/<%= @pbcore.playlist_prev_id %>" class="pull-left">&#x25c0; Part <%= @pbcore.playlist_order - 1 %></a>
       <% end %>
       <% if @pbcore.playlist_next_id %>
-        <a href="/catalog/<%= @pbcore.playlist_next_id %>" class="pull-right">Next &#x25b6;</a>
+        <a href="/catalog/<%= @pbcore.playlist_next_id %>" class="pull-right">Part <%= @pbcore.playlist_order + 1 %> &#x25b6;</a>
       <% end %>
     </div>
   <% end %>
