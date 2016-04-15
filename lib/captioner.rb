@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 class Captioner
   CAP_XSLT = Nokogiri::XSLT(File.read(__dir__ + '/xslt/tei_to_vtt.xsl'))
   Segment = Struct.new(:begin, :end, :speaker, :text)

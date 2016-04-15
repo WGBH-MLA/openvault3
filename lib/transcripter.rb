@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 class Transcripter
   HTML_XSLT = Nokogiri::XSLT(File.read(__dir__ + '/xslt/tei_to_html.xsl'))
 
