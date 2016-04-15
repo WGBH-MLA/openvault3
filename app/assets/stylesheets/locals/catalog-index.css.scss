@@ -146,6 +146,20 @@
                color: $dark-blue;
                padding: 15px 0 50px;
             }
+            &:hover .highlight {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                right: auto;
+                background-color: $transparent;
+                color: #FFF;
+                text-align: left;
+                padding: $grid-gutter-width/4 $grid-gutter-width;
+                em {
+                    font-weight: $semibold;
+                    font-style: none;
+                }
+            }
         }
         .record-padding {
             display: none; // Hide pager at bottom.

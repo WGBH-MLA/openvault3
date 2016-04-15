@@ -81,6 +81,13 @@ describe 'Catalog' do
       ])
     end
 
+    it 'highlights keywords in original context' do
+      visit '/catalog?f[access][]=Available+Online&q=evil'
+      expect(page.status_code).to eq(200)
+      expect_fuzzy_xml
+      expect(page.html).to include 'Doctor <em>Evil</em> foo ! bar ?'
+    end
+
     describe 'support facet ORs' do
       describe 'URL support' do
         # OR is supported on all facets, even if not in the UI.
