@@ -175,7 +175,7 @@ class CatalogController < ApplicationController
       # We want every 500 to represent an actual bug, so here we validate
       # the user input more tightly than BL does by default.
       if params[:f]
-        params[:f].each { |_k, v| fail Blacklight::Exceptions::InvalidRequest unless v.class == Array }
+        fail Blacklight::Exceptions::InvalidRequest unless params[:f].values.all? { |v| v.is_a? Array }
       end
       super
       @highlighting = Hash[@response[:highlighting].map { |k, v| [k, (v[:text][0] if v[:text])] }]
