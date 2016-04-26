@@ -13,6 +13,12 @@ WGBH is a 501(c)(3) nonprofit organization. All donations are tax deductible.
 On your credit card statement, you'll see your donation withdrawn by Kimbia.
 
 ## Make a Donation Now
-To donate by credit card, enter the required information below. You can also mail us a donation.
+To donate by credit card, enter the required information below. You can also mail a donation to:
+
+Open Vault Donations c/o Karen Cariani<br/>
+Media Library and Archives<br/>
+WGBH Educational Foundation<br/>
+One Guest Street<br/>
+Boston, MA 02135
 
 <script src='https://widgets.kimbia.com/widgets/formChooser.js?id=32AFJU3'></script>
