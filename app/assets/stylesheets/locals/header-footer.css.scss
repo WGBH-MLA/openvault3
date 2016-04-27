@@ -17,11 +17,13 @@
         left: 240px;
         top: 7px;
     }
+    .nav { padding-left: 2em; }
     .nav a {
-        margin-left: 2em;
+        margin-left: 1em;
         font-size: 22px;
         font-weight: $medium;
         &:hover { color: $yellow; }
+        &#donate { color: $yellow; }
     }
 }
 
