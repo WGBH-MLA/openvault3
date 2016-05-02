@@ -2,9 +2,8 @@
 
 # openvault3
 
-A new version of [Openvault](http://openvault.wgbh.org),
-to replace the [current one](https://github.com/wgbh/openvault).
-Planning documents are available on [the intranet](https://atlas.wgbh.org/confluence/display/OV).
+[Open Vault](http://openvault.wgbh.org), by WGBH Media Library and Archives (MLA),
+provides online access to unique and historically important content produced by WGBH.
 
 ## Deploy Servers
 
@@ -38,7 +37,7 @@ $ cd aws-wrapper
 $ ruby scripts/ssh_opt.rb
 ```
 
-This will give you the list of arguments.  For this initial interaction, you are trying to show the ip address of the demo and live servers.  For Open Vault the `zone_name` is `wgbh-mla.org.`, including the final period.
+This will give you the list of arguments.  For this initial interaction, you are trying to show the ip address of the demo and live servers.
 ```
 $ ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns
 ```
@@ -106,13 +105,7 @@ $ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-ml
 OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
 bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
-Single ingest to demo server:
-```
-$  cd openvault3_deploy
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns` \
-OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
-bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
-```
+To ingest to demo server, add `demo.`: `--name demo.openvault.wgbh-mla.org`
 
 ## Verify Successful Ingest
 To verify ingest completed successfully you can view the most recent ingest log files on both the demo and live servers.
