@@ -39,15 +39,14 @@ describe 'Catalog' do
       expect(page).not_to have_content 'You searched for:'
     end
 
-    it 'has a helpful no-results' do
+    it 'has a helpful all-records link' do
       visit '/catalog?q=asdfasfasdf'
       expect(page.status_code).to eq(200)
-      expect(page).to have_content 'Consider using other search terms, removing filters, or searching all records, not just those with media.'
-      expect(page).to have_content 'You searched for:'
+      expect(page).to have_content 'Or search all records, not just media.'
       expect_fuzzy_xml
     end
 
-    it 'also has an unhelpful no-results' do
+    it 'has dead-end no-results' do
       visit '/catalog?q=asdfasfasdf&f[access][]=All+Records'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'Consider using other search terms or removing filters.'
