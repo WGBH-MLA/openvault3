@@ -11,6 +11,7 @@
         border: none;
         background: none;
         padding: $grid-gutter-width/2;
+        line-height: 1.95 !important; // Hack to get the baselines on left and right to align.
         margin: 0px;
     }
     @media (min-width: $screen-md-min) {
