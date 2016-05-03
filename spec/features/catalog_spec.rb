@@ -102,7 +102,7 @@ describe 'Catalog' do
           ['program_title', 'PROGRAM', 1],
           ['genres', 'GENRE-1', 1],
           ['topics', 'TOPIC-1', 1],
-          ['asset_type', 'Original footage', 3]
+          ['asset_type', 'Original footage', 2]
         ]
         assertions.each do |facet, value, value_count|
           url = '/catalog?' + {

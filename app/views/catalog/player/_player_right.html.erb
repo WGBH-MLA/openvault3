@@ -1,4 +1,14 @@
 <div class="<%= col_class %>">
+  <% if @pbcore.this_isnt_all? %>
+    <p>
+      More footage is available from the WGBH Archives.
+      If you are interested in licensing footage,
+      please email <a href="mailto:stock_sales@wgbh.org">stock_sales@wgbh.org</a> or call 617-300-3939.
+      If you are a researcher interested in using our collections on site in Boston,
+      please email <a href="mailto:openvault@wgbh.org">openvault@wgbh.org</a>. 
+    </p>
+  <% end %>
+    
   <% (@pbcore.aapb_url || @pbcore.boston_tv_news_url).tap do |site_url| %>
     <% if site_url %>
       <p>
