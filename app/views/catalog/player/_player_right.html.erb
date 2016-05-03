@@ -11,6 +11,14 @@
     <% end %>
   <% end %>  
 
+  <% if @pbcore.this_isnt_all? %>
+    <p>
+      More material is available from this program at the WGBH Archive.
+      If you are a researcher interested in accessing the collection at WGBH, 
+      please email <a href="mailto:openvault@wgbh.org">openvault@wgbh.org</a>.
+    </p>
+  <% end %>
+    
   <% if !@pbcore.digitized? %>
     <p>
       Undigitized item:

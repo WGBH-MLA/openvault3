@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
-  <pbcoreAssetType>Original footage</pbcoreAssetType>
+  <pbcoreAssetType>Broadcast program</pbcoreAssetType>
   <pbcoreAssetDate dateType="Item Date">12/31/1999</pbcoreAssetDate>
   <pbcoreIdentifier source="Open Vault UID">A_00000000_MOCK</pbcoreIdentifier>
   <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>

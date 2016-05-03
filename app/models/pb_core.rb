@@ -54,6 +54,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def asset_type
     @asset_type ||= xpath('/*/pbcoreAssetType')
   end
+  def this_isnt_all?
+    asset_type == 'Broadcast program'
+  end
   def series_description
     @series_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Series Description"]')
   end

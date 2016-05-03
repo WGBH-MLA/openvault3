@@ -102,7 +102,7 @@ describe 'Catalog' do
           ['program_title', 'PROGRAM', 1],
           ['genres', 'GENRE-1', 1],
           ['topics', 'TOPIC-1', 1],
-          ['asset_type', 'Original footage', 3]
+          ['asset_type', 'Original footage', 2]
         ]
         assertions.each do |facet, value, value_count|
           url = '/catalog?' + {
@@ -143,6 +143,11 @@ describe 'Catalog' do
     it 'Respects line-breaks in source data' do
       visit '/catalog/A_00B0C50853C64A71935737EF7A4DA66C'
       expect(page.html).to match(/<p>Line breaks\s+do not matter, but<\/p><p>empty lines do\.<\/p>/)
+    end
+
+    it 'Has extra messaging, as appropriate' do
+      visit '/catalog/A_00000000_MOCK'
+      expect(page.html).to match(/More material is available from this program at the WGBH Archive/)
     end
 
     it 'Gives 404 for bad item' do
