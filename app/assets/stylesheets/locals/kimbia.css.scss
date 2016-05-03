@@ -3,10 +3,10 @@
         border: none;
         .ui-tabs-nav {
             li.ui-state-active a::before {
-                content: 'Currently Selected: '
+                content: '\2611 ' // Checked checkbox
             }
             li a::before {
-                content: 'Or: '
+                content: '\2610 ' // Empty checkbox
             } 
         }
     }
