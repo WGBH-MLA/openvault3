@@ -1,0 +1,13 @@
+.blacklight-override .k_jquery-ui {
+    .ui-widget-content {
+        border: none;
+        .ui-tabs-nav {
+            li.ui-state-active a::before {
+                content: 'Currently Selected: '
+            }
+            li a::before {
+                content: 'Or: '
+            } 
+        }
+    }
+}
