@@ -144,7 +144,7 @@ describe 'Catalog' do
       visit '/catalog/A_00B0C50853C64A71935737EF7A4DA66C'
       expect(page.html).to match(/<p>Line breaks\s+do not matter, but<\/p><p>empty lines do\.<\/p>/)
     end
-    
+
     it 'Has extra messaging, as appropriate' do
       visit '/catalog/A_00000000_MOCK'
       expect(page.html).to match(/More material is available from this program at the WGBH Archive/)
