@@ -1,13 +1,18 @@
 .blacklight-override .k_jquery-ui {
-    .ui-widget-content {
+    .ui-widget {
+        font-family: $font-family;
         border: none;
         .ui-tabs-nav {
-            li.ui-state-active a::before {
-                content: '\2611 ' // Checked checkbox
+            li {
+                a::before { font-size: 130% }
+                a::before { content: '\2610 ' } // Empty checkbox
+                &.ui-state-active a::before { content: '\2611 ' } // Checked checkbox
+                border: 1px solid $light-grey;
             }
-            li a::before {
-                content: '\2610 ' // Empty checkbox
-            } 
+        }
+        .ui-tabs-panel {
+            padding-top: 0;
+            border: 1px solid $light-grey;
         }
     }
 }
