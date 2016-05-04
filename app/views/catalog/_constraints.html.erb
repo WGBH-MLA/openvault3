@@ -5,6 +5,11 @@
     <%= render_constraints(params) %>
   <% end %>
   
+  <span class="hidden-sm hidden-md hidden-lg pull-right">
+    <!-- Preserve space for the hamburger, which is also pull-right in small. -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>
   <% unless params[:f] == {'access' => [PBCore::ALL]} %>
     <span class="constraints-label pull-right">
         Or search <%=
