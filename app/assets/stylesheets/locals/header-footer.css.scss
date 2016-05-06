@@ -14,10 +14,14 @@
     button {
         position: absolute;
         color: #000;
-        background: #FFF;
+        background: transparent;
+        z-index: 1000; // Make sure it's clickable.
         left: 230px;
-        top: 3px;
+        top: 1px;
         border: none;
+    }
+    _:-moz-tree-row(hover), button {
+        top: 4px; // Hack to get FF positioning right.
     }
     .nav { padding-left: 2em; }
     .nav a {
