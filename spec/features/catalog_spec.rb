@@ -122,14 +122,14 @@ describe 'Catalog' do
     def url_params_to_hash(url)
       CGI.parse(URI.parse(url).query)
     end
-    
+
     it 'Preserves facets with new searches' do
       orig_url = '/catalog?f[access][]=X&f[asset_type][]=X&f[genres][]=X&f[media_type][]=X&f[topics][]=X&q=X'
       visit orig_url
       find('//form/button').click
       expect(url_params_to_hash(current_url)).to eq(url_params_to_hash(orig_url))
     end
-    
+
     it 'Gives 404 for bad query' do
       visit '/catalog?f[access]='
       expect(page.status_code).to eq(404)
