@@ -11,11 +11,13 @@
         padding: 0px 28px 0px 8px;
         color: #000;
     }
-    form .glyphicon {
+    button {
         position: absolute;
         color: #000;
-        left: 240px;
-        top: 7px;
+        background: #FFF;
+        left: 230px;
+        top: 3px;
+        border: none;
     }
     .nav { padding-left: 2em; }
     .nav a {
@@ -59,7 +61,7 @@
         padding: 1em 0;
         input { width: 100% }
         svg#ov-logo { width: 200px; }
-        form .glyphicon { right: 30px; left: auto; }
+        button { right: 30px; left: auto; }
     }
     &, a { color: #FFF; }
 }
