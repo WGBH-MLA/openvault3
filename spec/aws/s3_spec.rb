@@ -16,7 +16,7 @@ describe 'S3' do
   end
   describe 'policy effect' do
     it 'allows thumbnail without referer' do
-      curl = Curl::Easy.http_get('https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/V_E7B307B7ACAF4A89B41CFD03EF68630B.jpg')
+      curl = Curl::Easy.http_get('https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_thumbnails/A_00000000_MOCK.jpg')
       curl.perform
       expect(curl.status).to eq('200 OK')
     end
@@ -24,6 +24,22 @@ describe 'S3' do
       curl = Curl::Easy.http_get('https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_proxies/A_00000000_MOCK.mp3')
       curl.perform
       expect(curl.status).to eq('403 Forbidden')
+    end
+    describe 'allows proxies with appropriate referers' do
+      [
+        "http://openvault.wgbh.org",
+        "http://demo.openvault.wgbh.org",
+        "http://localhost:3000",
+        "http://foo.wgbh-mla.org",
+        "http://foo.wgbh-mla-test.org"
+      ].each do |host|
+        it "loads from #{host}" do
+          curl = Curl::Easy.http_get('https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_proxies/A_00000000_MOCK.mp3')
+          curl.headers['Referer'] = "#{host}/foo-bar"
+          curl.perform
+          expect(curl.status).to eq('200 OK')
+        end
+      end
     end
   end
 end
