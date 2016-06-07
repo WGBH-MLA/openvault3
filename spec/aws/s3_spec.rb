@@ -1,6 +1,7 @@
 require 'aws-sdk'
 require 'json'
 require 'curl'
+require 'rails_helper'
 
 describe 'S3' do
   describe 'policy implementation', not_on_travis: true do
