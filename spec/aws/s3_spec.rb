@@ -3,7 +3,7 @@ require 'json'
 require 'curl'
 
 describe 'S3' do
-  describe 'policy implementation' , not_on_travis: true do
+  describe 'policy implementation', not_on_travis: true do
     def to_pretty_json(string_io)
       JSON.pretty_generate(JSON.parse(string_io.string))
     end
@@ -27,11 +27,11 @@ describe 'S3' do
     end
     describe 'allows proxies with appropriate referers' do
       [
-        "http://openvault.wgbh.org",
-        "http://demo.openvault.wgbh.org",
-        "http://localhost:3000",
-        "http://foo.wgbh-mla.org",
-        "http://foo.wgbh-mla-test.org"
+        'http://openvault.wgbh.org',
+        'http://demo.openvault.wgbh.org',
+        'http://localhost:3000',
+        'http://foo.wgbh-mla.org',
+        'http://foo.wgbh-mla-test.org'
       ].each do |host|
         it "loads from #{host}" do
           curl = Curl::Easy.http_get('https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_proxies/A_00000000_MOCK.mp3')
