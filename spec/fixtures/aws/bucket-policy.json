@@ -16,16 +16,16 @@
       "Effect": "Deny",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::openvault.wgbh.org/catalog/*",
+      "Resource": "arn:aws:s3:::openvault.wgbh.org/catalog/asset_proxies/*",
       "Condition": {
         "StringNotLike": {
           "aws:Referer": [
-            "http://*wgbh-mla.org/*",
+            "http://openvault.wgbh.org/*",
             "http://openvault.wgbh.org:3000/*",
             "http://demo.openvault.wgbh.org/*",
-            "http://openvault.wgbh.org/*",
-            "http://*wgbh-mla-test.org/*",
-            "http://localhost:3000/*"
+            "http://localhost:3000/*",
+            "http://*wgbh-mla.org/*",
+            "http://*wgbh-mla-test.org/*"
           ]
         }
       }
