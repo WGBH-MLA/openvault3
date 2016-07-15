@@ -135,3 +135,50 @@ There may be instances where the ingest is successful on the live site but not t
 
 Once you've verified the ingest was 100% successful, you should spot check the records themselves on the live and sites.
 
+## Ingest Issues and Restarting Jetty
+
+We had a couple problems with getting Solr restarted and working after we deployed new code to get ingest working.
+Also, if the demo instance of the sever (the one you should be deploying to) may be stopped to save AWS costs.  When the server is stopped, Jetty is stopped and you can confirm this by going to the demo site in a browser and trying to search.  Search will not work, so Jetty must be restarted.
+You may need to first kill Jetty and then clean and configure before starting then ingesting.
+```
+$ cd aws-wrapper
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb \
+--name demo.openvault.wgbh-mla.org --ips_by_dns`
+$ cd /var/www/openvault/current/
+```
+First, need to stop Jetty if it's running.
+```
+$ ps aux | grep jetty
+```
+That should list the running Jetty process.  Find the process number and then enter it after `kill` command.
+Example:
+```
+$ kill 12345
+```
+You may also need to delete the jettywrapper.log file found within current/jetty
+
+With Jetty now stopped you should clean, config and then start it again.
+```
+$ bundle exec rake jetty:clean
+$ bundle exec rake jetty:config
+$ bundle exec rake jetty:start
+```
+Now you should be ready for ingest.
+
+Once you've verified the ingest was 100% successful, you should spot check the records themselves on the live and demo sites.
+
+## Restarting Jetty After Server Stop / Start
+
+Jetty needs to be restarted on any server that has stop.rb and then start.rb ran on it.  To do this.
+```
+$ cd aws-wrapper
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb \
+--name demo.openvault.wgbh-mla.org --ips_by_dns`
+$ cd /var/www/openvault/current/
+$ bundle exec rake jetty:start
+```
+
+You may also need to use the following command
+```
+RAILS_ENV=production bundle exec rake jetty:start
+```
