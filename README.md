@@ -34,19 +34,19 @@ If you have all the required applications and dependencies, a good first test wo
 Open your Terminal application.
 ```
 $ cd aws-wrapper
-$ ruby scripts/ssh_opt.rb
+$ bundle exec scripts/ssh_opt.rb
 ```
 
 This will give you the list of arguments.  For this initial interaction, you are trying to show the ip address of the demo and live servers.
 ```
-$ ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns
+$ bundle exec scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns
 ```
 
 The returned result should be the ip address of the live Open Vault site.
 
 To do the same for the demo site, change the `—-name` argument to `demo.openvault.wgbh-mla.org`
 ```
-$ ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns
+$ bundle exec scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns
 ```
 
 The returned result should be the demo server ip address, different from the previous one.
@@ -61,7 +61,7 @@ $ cd openvault3_deploy
 
 The next command you'll enter uses the `ssh_opt.rb` script from aws-wrapper to determine and use the demo ip address.  That's why it's important you verify the aws-wrapper is working.
 ```
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns` \
+$ OV_HOST=`cd ../aws-wrapper && bundle exec scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns` \
 OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem bundle exec cap aws deploy
 ```
 
@@ -73,7 +73,7 @@ If so, now you'll want to swap the servers so the demo site becomes the public, 
 This will switch which server is the demo and which one is the live.
 ```
 $ cd aws-wrapper
-$ ruby scripts/swap.rb --name openvault.wgbh-mla.org
+$ bundle exec scripts/swap.rb --name openvault.wgbh-mla.org
 ```
 
 When that process completes, you can go to the [live Open Vault](http://openvault.wgbh.org) and verify that the new code came deploy that had previously been on the demo site is now live.  You can also visit the demo url if you wish to see if the non-updated code is still in place.
@@ -88,7 +88,7 @@ We also run the ingest process on both the demo and live server so they remain r
 Once you have your PBCore xml export run the following commands.
 ```
 $ cd openvault3_deploy
-$ for i in `cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag` \
+$ for i in `cd ../aws-wrapper && bundle exec scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_tag` \
 ; do OV_HOST=$i OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
   bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip & done
 ```
@@ -101,7 +101,7 @@ If you ever have the need to ingest on a single server you can do the following.
 Single ingest to live server:
 ```
 $  cd openvault3_deploy
-$ OV_HOST=`cd ../aws-wrapper && ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns` \
+$ OV_HOST=`cd ../aws-wrapper && bundle exec scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns` \
 OV_SSH_KEY=~/.ssh/openvault.wgbh-mla.org.pem \
 bundle exec cap aws ingest OV_PBCORE=/PATH/TO/PBCORE/pbcore_xml.zip
 ```
@@ -114,7 +114,7 @@ View the most recent log file.  At the end of the log there should be a % comple
 Verify log file on live site:
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns`
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`bundle exec scripts/ssh_opt.rb --name openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
@@ -123,7 +123,7 @@ $ less ingest.2016-03-28_190938.log
 Verify log file on demo site:
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns`
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`bundle exec scripts/ssh_opt.rb --name demo.openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/log
 $ ls -l
 $ less ingest.2016-03-28_190938.log
@@ -142,7 +142,7 @@ Also, if the demo instance of the sever (the one you should be deploying to) may
 You may need to first kill Jetty and then clean and configure before starting then ingesting.
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb \
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`bundle exec scripts/ssh_opt.rb \
 --name demo.openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/
 ```
@@ -172,7 +172,7 @@ Once you've verified the ingest was 100% successful, you should spot check the r
 Jetty needs to be restarted on any server that has stop.rb and then start.rb ran on it.  To do this.
 ```
 $ cd aws-wrapper
-$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`ruby scripts/ssh_opt.rb \
+$ ssh -i ~/.ssh/openvault.wgbh-mla.org.pem ec2-user@`bundle exec scripts/ssh_opt.rb \
 --name demo.openvault.wgbh-mla.org --ips_by_dns`
 $ cd /var/www/openvault/current/
 $ bundle exec rake jetty:start
