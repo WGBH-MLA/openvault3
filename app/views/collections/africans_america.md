@@ -15,7 +15,7 @@ Fifty-three original, full-length interviews comprising more than 55 hours shot 
 
 ## Interviews
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interviews)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview)
 
 ## Related Content
 
