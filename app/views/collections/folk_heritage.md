@@ -16,9 +16,9 @@ This collection features 11 *Folk Heritage* programs digitized and donated by Di
 
 ## Related Content
 
-[Longtime Radio Host Celebrate 40 Years](http://www.patriotledger.com/entertainment/x2026719765/Longtime-radio-host-celebrates-40-years)
+[Longtime Radio Host Celebrate 40 Years](http://www.patriotledger.com/entertainment/x2026719765/Longtime-radio-host-celebrates-40-years)<br>
 Jan 6, 2011, Patriot Ledger
 
-[A Pleasant(s) Evening at Sanders to Honor Boston-Area DJ](http://acousticmusicscene.com/2010/12/30/a-pleasants-evening-at-sanders-to-honor-boston-area-dj/)
+[A Pleasant(s) Evening at Sanders to Honor Boston-Area DJ](http://acousticmusicscene.com/2010/12/30/a-pleasants-evening-at-sanders-to-honor-boston-area-dj/)<br>
 Dec 30, 2010, Acoustic Music Scene
 
