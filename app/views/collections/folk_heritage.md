@@ -1,31 +1,24 @@
-# Folk Heritage
+# Folk Heritage with Dick Pleasants
 
 5
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/advocates/advocates-q-50.jpg)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/folk-heritage/folk-heritage-q-50.jpg)
 
 ## intro
 
-A series of debates with a moderator facilitating the discussion of national 
-and international issues – using advocates who would introduce witnesses to 
-support their point of view. Debates recorded at Boston’s Faneuil Hall. 
-Moderators included: Michael Dukakis; Marilyn Berger; Michael Harrington, 
-Robert Maynard. (Premiered October, 1969; conceived by Prof. Roger Fisher.)
+Produced and hosted by Dick Pleasants, WGBH's *Folk Heritage* radio series ran from 1978 through ??? and featured live performances and interviews with a wide variety of songwriters and musicians, including Tom Paxton, Pete Seeger, Odetta, Si Kahn, Silly Wizard, Ossian, The Battlefield Band, Patty Larkin and Beausoleil. *Folk Heritage* also offered listeners the annual live broadcast from the Lowell Folk Festival as well as highlights from such important folk festivals from around the country as the Telluride Bluegrass Festival and the New Orleans Jazz & Heritage Festival. 
 
-View [project staff and funding](/credits/credits-advocates).
+This collection features 11 *Folk Heritage* programs digitized and donated by Dick Pleasants.
 
-## Full Program Video
+## Programs
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=advocates_full_program)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=folk-heritage_program)
 
 ## Related Content
 
-[American Parliamentary Debate Association](http://www.apdaweb.org/)
+[Longtime Radio Host Celebrate 40 Years](http://www.patriotledger.com/entertainment/x2026719765/Longtime-radio-host-celebrates-40-years)
+Jan 6, 2011, Patriot Ledger
 
-[International Debate Educational Association (IDEA)](http://idebate.org/)
+[A Pleasant(s) Evening at Sanders to Honor Boston-Area DJ](http://acousticmusicscene.com/2010/12/30/a-pleasants-evening-at-sanders-to-honor-boston-area-dj/)
+Dec 30, 2010, Acoustic Music Scene
 
-[Model UN](http://www.nmun.org/)
-
-[National Debate Tournament](http://groups.wfu.edu/NDT/)
-
-[National Forensic League](http://www.speechanddebate.org/)
