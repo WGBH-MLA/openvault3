@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-12">
+    <main class="col-md-12" role="main">
       <h1><%= t('series') %></h1>
       <% @series_by_first_letter.each do |the_letter,group| %>
         <a name="<%= the_letter %>"></a>
@@ -15,7 +15,7 @@
         </div>
         <ul>
           <% group.each do |title, counts| %>
-            
+
             <li><a href="/catalog?<%= {f: {access: [PBCore::ALL], series_title: [title]}}.to_query %>">
               <%= title %>:
               <% if counts[:online] %>
@@ -28,6 +28,6 @@
           <% end %>
         </ul>
       <% end %>
-    </div>
+    </main>
   </div>
 </div>
