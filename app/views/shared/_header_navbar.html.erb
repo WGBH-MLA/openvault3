@@ -1,24 +1,24 @@
 <div id="header" class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        <a href="/"><%= render partial: 'shared/ov_logo.svg' %></a>
-      </div>
+      <header class="col-md-3" role="banner">
+          <a href="/"><%= render partial: 'shared/ov_logo.svg' %></a>
+      </header>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3" role="search">
         <form action="/catalog">
           <%= render_hash_as_hidden_fields(params.except(:q, :controller, :action)) %>
-          <input name="q" placeholder="Search..." value="<%= params[:q] %>" onchange="this.form.submit();"/>
+          <input type="search" name="q" placeholder="Search..." value="<%= params[:q] %>" onchange="this.form.submit();"/>
           <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
         </form>
       </div>
-      <div class="col-md-9 hidden-sm hidden-xs nav">
+      <nav class="col-md-9 hidden-sm hidden-xs nav" role="navigation" aria-label="Main Menu">
         <%= link_to(t('series_short'), '/series') %>
         <%= link_to(t('exhibits'), '/exhibits') %>
         <%= link_to(t('collections'), '/collections') %>
         <%= link_to(t('donate'), '/donate', id: 'donate') %>
-      </div>
+      </nav>
     </div>
   </div>
 </div>
