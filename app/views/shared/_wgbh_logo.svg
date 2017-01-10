@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" viewBox="0 0 1020 325" id="wgbh-logo">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="250"
+  viewBox="0 0 1020 325"
+  id="wgbh-logo"
+  aria-label="WGBH Media Library and Archives Logo">
     <!-- height="100" viewbox="0 0 365 135" -->
   <!-- From https://en.wikipedia.org/wiki/File:WGBH_logo.svg -->
+  <title>WGBH Media Library and Archives Logo</title>
   <g transform="translate(-125.69624,-415.13311)">
     <rect x="100" y="400" width="1100" height="300" opacity="0"/><!-- So the whole thing is clickable. -->
     <text transform="translate(290,620)" font-size="72">
