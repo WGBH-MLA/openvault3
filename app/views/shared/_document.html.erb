@@ -1,7 +1,7 @@
 <a href="/catalog/<%= document.id %>">
   <div class="aspect-ratio-4x3">
     <div class="aspect-ratio-content">
-      <img src="<%= document[:thumbnail_src] %>">
+      <img alt="" src="<%= document[:thumbnail_src] %>" aria-hidden="true">
       <% (@highlighting || {})[document.id].tap do |highlight_html| %>
         <% if highlight_html %>
           <div class="highlight">
