@@ -6,37 +6,37 @@
 
 ## intro
 
-A hundred years ago nostalgia was thought to be a psychological affliction, 
-something that had a pronounced impact on an individuals cognition and ability 
-to function in everyday life. Typically associated with geographical 
-displacement, nostalgia was (and to a certain degree still is) synonymous with 
-longing and a sense of homesickness for ones "place" - figuratively and 
-literally. Nowadays it is more likely to hear nostalgia uttered in 
-conversations about missing a time that felt simpler, safer, and “better,” or 
-in reminiscences of yesterdays technologies that offered a tangible interaction 
-with its user and seemed “easier.” Herein lies the backbone of what has been 
-referred to as technostalgia: the affinity for antiquated technologies and a 
-desire to utilize both obsolete and modern technologies (hardware and software) 
-to re-imagine, re-live, or outright emulate aspects of our collective history, 
-particularly music and the visual arts. Real-life examples of tech-nostalgia’s 
-impact on our popular culture can be seen in the myriad filters which allow for 
-the masking of our digital photographs in veils of fauxhistory, and the use of 
-audio manipulation programs to emulate aesthetics, such as vinyl record pops 
-and hisses, associated with a bygone, analog-only era. With a revived interest 
-in resurrecting and recreating the physical medium in the form of record 
-players, rotary telephones, and obsolete computer hardware, the hope is to 
-physically connect with the past and establish a tangibility so often lost in 
-our wireless world. This serves to complicate the tech-nostalgia concept even 
-further. In this collection I will explore the concept of tech-nostalgia and 
-its ability to make the passé, popular and the imperfect, fashionable. I will 
-also highlight the genre of electronic music called, hauntology, as a specific 
-manifestation of tech-nostalgia. As technology and interconnectivity become 
-more streamlined with our everyday lives we seem to be both attracted and 
-resistant to staying afloat in a sea of rapid technological changes and 
-development. This notion will help guide my examination into tech-nostalgia. 
-Lastly, I hope to offer insight into how the tech-nostalgia idea could be 
-offering archivists, conservators, and information professionals new ways of 
-thinking about our moving image and sound heritage in the digital age. 
+A hundred years ago nostalgia was thought to be a psychological affliction,
+something that had a pronounced impact on an individuals cognition and ability
+to function in everyday life. Typically associated with geographical
+displacement, nostalgia was (and to a certain degree still is) synonymous with
+longing and a sense of homesickness for ones "place" - figuratively and
+literally. Nowadays it is more likely to hear nostalgia uttered in
+conversations about missing a time that felt simpler, safer, and “better,” or
+in reminiscences of yesterdays technologies that offered a tangible interaction
+with its user and seemed “easier.” Herein lies the backbone of what has been
+referred to as technostalgia: the affinity for antiquated technologies and a
+desire to utilize both obsolete and modern technologies (hardware and software)
+to re-imagine, re-live, or outright emulate aspects of our collective history,
+particularly music and the visual arts. Real-life examples of tech-nostalgia’s
+impact on our popular culture can be seen in the myriad filters which allow for
+the masking of our digital photographs in veils of fauxhistory, and the use of
+audio manipulation programs to emulate aesthetics, such as vinyl record pops
+and hisses, associated with a bygone, analog-only era. With a revived interest
+in resurrecting and recreating the physical medium in the form of record
+players, rotary telephones, and obsolete computer hardware, the hope is to
+physically connect with the past and establish a tangibility so often lost in
+our wireless world. This serves to complicate the tech-nostalgia concept even
+further. In this collection I will explore the concept of tech-nostalgia and
+its ability to make the passé, popular and the imperfect, fashionable. I will
+also highlight the genre of electronic music called, hauntology, as a specific
+manifestation of tech-nostalgia. As technology and interconnectivity become
+more streamlined with our everyday lives we seem to be both attracted and
+resistant to staying afloat in a sea of rapid technological changes and
+development. This notion will help guide my examination into tech-nostalgia.
+Lastly, I hope to offer insight into how the tech-nostalgia idea could be
+offering archivists, conservators, and information professionals new ways of
+thinking about our moving image and sound heritage in the digital age.
 
 ## author
 
@@ -62,7 +62,7 @@ Today, it seems that digital technologies are created, changed, and become outda
 
 The attachment of utopian hope to machinery and circuitry is far from dead, although it must compete more strongly than ever against the critique of constant technological novelty. For every Wired reviewer who lauds the "liberating" potential of the latest generation of iPods and their ability to serve a number of functions with no movable parts, there is a skeptic like Tapeworm's creative director Philip Marshall, who denounces the widening rift in the producer-consumer relationship that these devices create. [<sup>5</sup>](#footnote-5)
 
-As I will explore in a bit more depth later, it seems that for many a resentment for the ever-expanding sea of new technologies underlies our tech-nostalgia. Yearning for a tangible connection to our cultural heritage and those who create it hearkens to the kind of emotional displacement or loneliness for which nostalgia was originally associated back in the 18th and 19th centuries. A lack of physical companionship with physical media (vinyl records, analog cameras, film projectors, VHS tapes, and so on) evokes a similar kind of abandonment, leaving users in a state of longing for a more substantive connection to their media. As an antidote to the lack of tactility, aesthetics of the past can be either redesigned to fit present media or recreated by one of the faux-applications already mentioned. As author Ann Mack argues, the more time we spend surfing around the digital universe the stronger some of us feel about preserving or rediscovering elements of the past. Mack proposes that, 
+As I will explore in a bit more depth later, it seems that for many a resentment for the ever-expanding sea of new technologies underlies our tech-nostalgia. Yearning for a tangible connection to our cultural heritage and those who create it hearkens to the kind of emotional displacement or loneliness for which nostalgia was originally associated back in the 18th and 19th centuries. A lack of physical companionship with physical media (vinyl records, analog cameras, film projectors, VHS tapes, and so on) evokes a similar kind of abandonment, leaving users in a state of longing for a more substantive connection to their media. As an antidote to the lack of tactility, aesthetics of the past can be either redesigned to fit present media or recreated by one of the faux-applications already mentioned. As author Ann Mack argues, the more time we spend surfing around the digital universe the stronger some of us feel about preserving or rediscovering elements of the past. Mack proposes that,
 
 >
 As digital becomes more pervasive, it seems that we are increasingly fetishizing the physical and tactile. We’re embracing things like old-time typewriters, wristwatches, physical books and face-to-face time with friends and loved ones—things being rendered obsolete in the digital era. As we spend ever more time in the digital world, we increasingly value the time we don't spend in front of a screen—the time we spend with real people and real things. [<sup>6</sup>](#footnote-6)
@@ -183,7 +183,7 @@ Mark Fisher Film Quarterly Vol. 66, No. 1 (Fall 2012) (pp. 16-24) Mark Fisher (k
 
 [A fun Boston Globe article featuring over a dozen examples of “technology from yesterday” including photographs and brief descriptions.](http://www.boston.com/business/gallery/technology_nostalgia/)
 
-[Article synopsis provided by author John Tierney](http://www.nytimes.com/2013/07/09/science/what-is-nostalgia-good-for-quite-a-bit-research-shows.html?_r=0) 
+[Article synopsis provided by author John Tierney](http://www.nytimes.com/2013/07/09/science/what-is-nostalgia-good-for-quite-a-bit-research-shows.html?_r=0)
 “It was first thought to be a ‘neurological disease of essentially demonic cause,’ but it turns out that nostalgia is good for your brain. And there’s science to prove it.”
 
 Similar to the New York Times article by John Tierney, [this Huffington Post piece by Jeanette Leardi](http://www.huffingtonpost.com/2013/10/05/benefits-of-nostalgia_n_4031759.html?utm_hp_ref=tw) argues for the neurological and emotional benefits of “feeling nostalgic.” Leardi also provides some inquisitive methods for making nostalgic tendencies work in day-to-day life.
@@ -192,7 +192,7 @@ Similar to the New York Times article by John Tierney, [this Huffington Post pie
 
 ### John Campopiano
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/campopiano_headshot.png)
+![John Campopiano](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/campopiano_headshot.png)
 Originally hailing from Rhode Island, John Campopiano studied ethnomusicology at Wheaton College and soon thereafter realized his real passion was to be found off the musical stage. Several years after taking a job archiving the personal collection of noir-pianist, Ran Blake, he discovered the archival science profession. In 2011 he entered the Library and Information Science graduate program at Simmons College and in the spring of 2013, soon after graduating from Simmons, began work at the Jewish Women's Archive in Brookline and the Harvard Film Archive in Cambridge. He is now Records Manager for *Frontline* at WGBH. His research interests include tech-nostalgia, the intersection between nostalgia and popular culture, digital preservation, and anything related to archival science. In his spare time, John enjoys watching and discussing films - particularly horror films and anything from Greenland - hiking, and playing his fretless banjo.
 
 ### Credits
