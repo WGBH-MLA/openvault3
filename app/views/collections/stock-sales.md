@@ -12,14 +12,14 @@ Search and browse thousands of WGBH clips available to license! Click on the thu
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GBH00000082001013">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000082001013.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000082001013.png" alt="" aria-hidden="true"/>
         <div class="info">Lab Researcher B&W</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GBH00000089001015">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000089001015.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000089001015.png" alt="" aria-hidden="true"/>
         <div class="info">Dog DNA Animation</div>
     </a>
 </div>
@@ -28,7 +28,7 @@ Search and browse thousands of WGBH clips available to license! Click on the thu
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GET93197277">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GET93197277.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GET93197277.png" alt="" aria-hidden="true"/>
         <div class="info">Panda</div>
     </a>
 </div>
@@ -37,7 +37,7 @@ Search and browse thousands of WGBH clips available to license! Click on the thu
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/0749-001-10-01-060">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/0749-001-10-01-060.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/0749-001-10-01-060.png" alt="" aria-hidden="true"/>
         <div class="info">Wind Turbines</div>
     </a>
 </div>
@@ -46,14 +46,14 @@ Search and browse thousands of WGBH clips available to license! Click on the thu
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GET93197580">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GET93197580.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GET93197580.png" alt="" aria-hidden="true"/>
         <div class="info">Snake Charmers</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GBH00000075001032">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000075001032.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/stock_sales/GBH00000075001032.png" alt="" aria-hidden="true"/>
         <div class="info">Monarch Caterpillar</div>
     </a>
 </div>

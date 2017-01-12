@@ -13,14 +13,14 @@ Click on the thumbnails below to screen examples:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-80ht7n4v">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-80ht7n4v.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-80ht7n4v.png" alt="Edward R. Murrow"/>
         <div class="info">An Inquiry into the Work of the American Press in Informing the American People</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-47dr85hr">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-47dr85hr.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-47dr85hr.png" alt="Audio Logo"/>
         <div class="info">The Role of Educational Broadcasting in Underdeveloped Areas</div>
     </a>
 </div>
@@ -29,7 +29,7 @@ Click on the thumbnails below to screen examples:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-19s1rwtr">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-19s1rwtr.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-19s1rwtr.png" alt="Audio Logo"/>
         <div class="info">Announcement from Hartford Gunn and David Ives about a fire at WGBH</div>
     </a>
 </div>
@@ -38,7 +38,7 @@ Click on the thumbnails below to screen examples:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-50tqk2fw">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-50tqk2fw.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-50tqk2fw.png" alt="Audio Logo"/>
         <div class="info">Long, Hot Summer '64, Episode One</div>
     </a>
 </div>
@@ -47,14 +47,14 @@ Click on the thumbnails below to screen examples:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-06g1k422">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-06g1k422.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-06g1k422.png" alt="Audio Logo"/>
         <div class="info">Recreation of First Broadcast on Lowell Intitute's 20th Anniversary</div>
     </a>
 </div>
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://americanarchive.org/catalog/cpb-aacip_15-36547qr1">
-        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-36547qr1.png"/>
+        <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/aapb/cpb-aacip_15-36547qr1.png" alt="Audio Logo"/>
         <div class="info">Feminist Journalism</div>
     </a>
 </div>
