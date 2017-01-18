@@ -2,11 +2,11 @@
   <%= t('exhibits') + ' - ' + t('blacklight.application_name') %>
 <% end %>
 
-<div class="container-fluid">
+<main class="container-fluid">
   <div class="row">
     <div class="col-md-12">
       <h2><%= t('exhibits') %></h2>
     </div>
   </div>
   <%= render partial: 'shared/collection_exhibit_grid', locals: {items: @all, path: 'exhibits'} %>
-</div>
+</main>
