@@ -7,56 +7,56 @@
 
 ## intro
 
-In May of 1972, tens of thousands of African Americans gathered in Washington, 
-D.C. Young and old, radical and moderate, they united not in protest of the 
-government’s treatment of blacks in the United States, but rather on behalf of 
-their distant kin fighting revolutions in Africa. At the first African 
-Liberation Day, black peoples in the western Diaspora sought to change American 
-foreign policy, which continued to actively support the colonial empire of tiny 
-Portugal and the minority regimes of Rhodesia (Zimbabwe) and South Africa. The 
-crowd marched through the streets of the capital, carrying signs proclaiming 
-solidarity with the liberation struggles and condemning the economic 
-discrimination that kept blacks subservient at home as well as abroad. The 
-parade of activists made stops at the State Department and the embassies of the 
-southern African regimes, where government and community leaders urged 
-listeners to adopt the African revolutions as their own and boycott corporate 
-partners like Gulf Oil and Polaroid that helped sustain minority rule. This 
-demonstration culminated on the National Mall – renamed Lumumba Square for the 
-festivities – where an estimated 25,000-40,000 people joined organizer Owusu 
-Sadaukai (Howard Fuller) in chants of “We are an African People.” This 
-demonstration in Washington, described by one participant as the largest 
-all-black assemblage in the city’s history, was a symbol of a much larger 
-movement that developed at the end of the Black Power era. Disillusioned both 
-with the slow pace of civil rights in the mid-1960s and the ideological 
-divisiveness of groups like the Black Panthers, African American leaders sought 
-a common ground on which they could build a political and social movement that 
-would unite the entire black community. They found a solution in the ongoing 
-revolutions occurring in southern Africa. Since the wave of decolonization had 
-begun to sweep through the continent in the late 1950s, black Africans had been 
-struggling for self-determination against recalcitrant minority white 
-governments. Nationalists adopted armed revolution and wholesale social 
-reconstruction as necessary tactics in the face of official resistance to 
-reform. By 1972, the armed conflicts in the Portuguese colonies of Mozambique 
-in the south and Guinea-Bissau in the northwest had swung in the favor of the 
-freedom fighters, while South Africa’s harsh system of segregation known as 
-apartheid had dramatized for the world the stark inequality that separated the 
-races under minority rule. The two faces of Africa – heroic struggle and racial 
-injustice – provided African Americans a rallying cry as they sought to address 
-the systemic economic and political problems that continued to plague their own 
-communities. This sense of shared struggle gave birth to a solidarity movement, 
-where African Americans pledged support to African liberation and sought to use 
-these continental models of self-determination to change conditions in the 
-United States. For their part, Africans joined in this exchange of equals, with 
-exiles helping to lead local movements and nationalists encouraging the support 
-of their brothers abroad. WGBH cameras were there at almost all stages of the 
-construction of this movement, documenting the interactions of African peoples 
-across linguistic, spatial, and experiential gaps. This collection will explore 
-these exchanges, using episodes of *Say Brother* to illuminate the leaders, 
-events, and campaigns that helped reignite a commitment to African liberation 
-in the national imagination. Though the celebration of African Liberation Day 
-would fade along with the 1970s, this identification with the continent had 
-important effects on black communal identity and would feed directly into the 
-more famous anti-apartheid movement of the next decade. 
+In May of 1972, tens of thousands of African Americans gathered in Washington,
+D.C. Young and old, radical and moderate, they united not in protest of the
+government’s treatment of blacks in the United States, but rather on behalf of
+their distant kin fighting revolutions in Africa. At the first African
+Liberation Day, black peoples in the western Diaspora sought to change American
+foreign policy, which continued to actively support the colonial empire of tiny
+Portugal and the minority regimes of Rhodesia (Zimbabwe) and South Africa. The
+crowd marched through the streets of the capital, carrying signs proclaiming
+solidarity with the liberation struggles and condemning the economic
+discrimination that kept blacks subservient at home as well as abroad. The
+parade of activists made stops at the State Department and the embassies of the
+southern African regimes, where government and community leaders urged
+listeners to adopt the African revolutions as their own and boycott corporate
+partners like Gulf Oil and Polaroid that helped sustain minority rule. This
+demonstration culminated on the National Mall – renamed Lumumba Square for the
+festivities – where an estimated 25,000-40,000 people joined organizer Owusu
+Sadaukai (Howard Fuller) in chants of “We are an African People.” This
+demonstration in Washington, described by one participant as the largest
+all-black assemblage in the city’s history, was a symbol of a much larger
+movement that developed at the end of the Black Power era. Disillusioned both
+with the slow pace of civil rights in the mid-1960s and the ideological
+divisiveness of groups like the Black Panthers, African American leaders sought
+a common ground on which they could build a political and social movement that
+would unite the entire black community. They found a solution in the ongoing
+revolutions occurring in southern Africa. Since the wave of decolonization had
+begun to sweep through the continent in the late 1950s, black Africans had been
+struggling for self-determination against recalcitrant minority white
+governments. Nationalists adopted armed revolution and wholesale social
+reconstruction as necessary tactics in the face of official resistance to
+reform. By 1972, the armed conflicts in the Portuguese colonies of Mozambique
+in the south and Guinea-Bissau in the northwest had swung in the favor of the
+freedom fighters, while South Africa’s harsh system of segregation known as
+apartheid had dramatized for the world the stark inequality that separated the
+races under minority rule. The two faces of Africa – heroic struggle and racial
+injustice – provided African Americans a rallying cry as they sought to address
+the systemic economic and political problems that continued to plague their own
+communities. This sense of shared struggle gave birth to a solidarity movement,
+where African Americans pledged support to African liberation and sought to use
+these continental models of self-determination to change conditions in the
+United States. For their part, Africans joined in this exchange of equals, with
+exiles helping to lead local movements and nationalists encouraging the support
+of their brothers abroad. WGBH cameras were there at almost all stages of the
+construction of this movement, documenting the interactions of African peoples
+across linguistic, spatial, and experiential gaps. This collection will explore
+these exchanges, using episodes of *Say Brother* to illuminate the leaders,
+events, and campaigns that helped reignite a commitment to African liberation
+in the national imagination. Though the celebration of African Liberation Day
+would fade along with the 1970s, this identification with the continent had
+important effects on black communal identity and would feed directly into the
+more famous anti-apartheid movement of the next decade.
 
 ## author
 
@@ -120,7 +120,7 @@ owed a debt to the generation of American “Africanists, Malcolm X, and the ear
 
 ## Related Content
 
-#### [Malcolm X and the Expansion of Pan-African Identity](http://domesticdiversity.com/mainpages/liberator%20issues.html) 
+#### [Malcolm X and the Expansion of Pan-African Identity](http://domesticdiversity.com/mainpages/liberator%20issues.html)
 For some of the early explorations of this black international thought, see the archive of The Liberator published by the New York based Liberation Committee for Africa
 
 #### [African Liberation Diplomacy](http://millercenter.org/presidentialrecordings)
@@ -129,23 +129,23 @@ Mondlane had limited success lobbying the American government, which provided so
 #### [African Liberation as Model](http://kora.matrix.msu.edu/files/50/304/32-130-22D-84-african_activist_archive-a0a8y0-b_12419.pdf)
 A Luta Continua was one of nearly a dozen films screened about the Portuguese and African revolutions created during this period. Many of these films depicted the socialist parties as models for emulation or as gaining victories for racial equality at the global level. A digitized version of the A Luta Continua discussion guide is available from the African Activist Archive.
 
-#### [*Behind the Lines*](http://www.youtube.com/watch?v=hP7IzF1KnPo) 
+#### [*Behind the Lines*](http://www.youtube.com/watch?v=hP7IzF1KnPo)
 Margaret Dickinson’s British film, widely screened in the United States before *A Luta Continua*
 
-#### [*Zambizanga*](http://www.youtube.com/watch?v=TVXWIBmjkSg) 
+#### [*Zambizanga*](http://www.youtube.com/watch?v=TVXWIBmjkSg)
 By French-African director Sarah Maldoror, dramatizes the Angolan Revolution and had regular showings throughout the country.
 
-#### [Guerrilla Grannies](http://guerrillagrannies.com/) 
+#### [Guerrilla Grannies](http://guerrillagrannies.com/)
 *Behind the Lines* inspired Dutch filmmaker Ike Bertels to follow the lives of three female soldiers featured in the film from their years shortly after independence to the present. The result is a remarkable view of FRELIMO ideology and its impact on the lives of three Mozambicans. Clips and information are available on the director’s website.
 
-#### [Activism and Action](http://africanactivist.msu.edu/image.php?objectid=32-131-21E) 
+#### [Activism and Action](http://africanactivist.msu.edu/image.php?objectid=32-131-21E)
 Among the many groups that took up action was the Pan-African Liberation Committee of Boston. The group was pivotal in helping to launch a national campaign in the black community against Gulf Oil, which was Portugal’s single largest foreign corporate partner in the 1970s. Information on them and their campaigns is available through the African Activist Archive.
 
 ## Authors
 
 ### R. Joseph Parrott
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/parrott_headshot.png)
+![R. Joseph Parrott](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/parrott_headshot.png)
 Parrott is an International Security Studies Pre-Doctoral Fellow at Yale University and a Ph.D. Candidate in the Department of History at the University of Texas at Austin. He is currently working on a dissertation that examines the global politics of Portuguese African decolonization with a special emphasis on the development of western solidarity with the liberation movements. He has received grants and fellowships from the Council for European Studies, the Black Metropolis Research Consortium, the New York Public Library, the Society for Historians of American Foreign Relations, and multiple presidential libraries. He holds a Master of Public Policy degree from the University of Virginia.
 
 ### Credits

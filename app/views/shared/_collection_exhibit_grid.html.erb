@@ -10,7 +10,7 @@
              } do |item| %>
     <a href="<%= '/' + path + '/' + item.tab_path %>">
       <!-- Sort order: <%= item.head_html.gsub('<p>', '').to_f %> -->
-      <img src="<%= item.img_src %>"/>
+      <img alt="" src="<%= item.img_src %>" aria-hidden="true"/>
       <div class="wrap">
         <div class="info">
           <h3><%= item.title %></h3>

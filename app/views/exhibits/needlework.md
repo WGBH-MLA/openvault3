@@ -6,18 +6,18 @@
 
 ## intro
 
-Erica Moira Susan Wilson (1928-2011) has been called the “Julia Child of 
-Needlework,” and her impact on the field of sewing and craft-related television 
-has arguably been as great as that of Julia Child on the TV cooking program 
-genre. Like Child, who made archaic aspects of French cookery accessible to a 
-popular audience, Wilson revived and modernized old-fashioned needlework 
-techniques with boundless enthusiasm. In Wilson’s obituary in *The Guardian*, 
-Veronica Horwell wrote, “Wilson shared some of Child's enthusiastic style and 
-all of her ambition to demystify and democratize what had become arcane 
-skills.” This essay explores Erica Wilson’s work and her tremendous impacts 
-both on needlework and on public television, as evidenced through the lens of 
-Erica, a program produced by WGBH in 1971-72 and 1975-6 and broadcast on PBS 
-stations nationally. 
+Erica Moira Susan Wilson (1928-2011) has been called the “Julia Child of
+Needlework,” and her impact on the field of sewing and craft-related television
+has arguably been as great as that of Julia Child on the TV cooking program
+genre. Like Child, who made archaic aspects of French cookery accessible to a
+popular audience, Wilson revived and modernized old-fashioned needlework
+techniques with boundless enthusiasm. In Wilson’s obituary in *The Guardian*,
+Veronica Horwell wrote, “Wilson shared some of Child's enthusiastic style and
+all of her ambition to demystify and democratize what had become arcane
+skills.” This essay explores Erica Wilson’s work and her tremendous impacts
+both on needlework and on public television, as evidenced through the lens of
+Erica, a program produced by WGBH in 1971-72 and 1975-6 and broadcast on PBS
+stations nationally.
 
 ## author
 
@@ -29,11 +29,11 @@ Erica Moira Susan Wilson (1928-2011) has been called the “Julia Child of Needl
 
 ### The Julia Child of Needlework
 
-Erica Wilson was born in Wiltshire, England, and raised in England, Scotland, and Bermuda.  She graduated from the Royal School of Needlework[<sup>4</sup>](#footnote-4)  in London, a school that had a tremendous impact on American needlework in the 1870s when works by its faculty were exhibited at the 1876 Centennial Exhibition in Philadelphia.  Their embroidery work done in red thread gave rise to a Redwork[<sup>5</sup>](#footnote-5)  craze among needle artists in the United States.  Wilson emigrated from the United Kingdom in 1954 and quickly began giving needlework courses in New York City at the Cooper-Hewitt National Design Museum.  She was featured in print media, and her 1962 book *Crewel Embroidery* made her a household name as “America’s First Lady of Stitchery.”[<sup>6</sup>](#footnote-6)   Wilson eventually hosted a needlework program, *Erica*, produced by WGBH beginning in 1971.  Through not only her popular TV programs (which were also broadcast in the United Kingdom by the BBC and in Australia),[<sup>7</sup>](#footnote-7)  but also her needlework design, her books, correspondence courses, and stores in New York City and Nantucket,[<sup>8</sup>](#footnote-8)  Erica Wilson helped to revive several needlework traditions which had gone out of style, such as bargello,[<sup>9</sup>](#footnote-9)  crewel work,[<sup>10</sup>](#footnote-10)  and turkey work.[<sup>11</sup>](#footnote-11)   
+Erica Wilson was born in Wiltshire, England, and raised in England, Scotland, and Bermuda.  She graduated from the Royal School of Needlework[<sup>4</sup>](#footnote-4)  in London, a school that had a tremendous impact on American needlework in the 1870s when works by its faculty were exhibited at the 1876 Centennial Exhibition in Philadelphia.  Their embroidery work done in red thread gave rise to a Redwork[<sup>5</sup>](#footnote-5)  craze among needle artists in the United States.  Wilson emigrated from the United Kingdom in 1954 and quickly began giving needlework courses in New York City at the Cooper-Hewitt National Design Museum.  She was featured in print media, and her 1962 book *Crewel Embroidery* made her a household name as “America’s First Lady of Stitchery.”[<sup>6</sup>](#footnote-6)   Wilson eventually hosted a needlework program, *Erica*, produced by WGBH beginning in 1971.  Through not only her popular TV programs (which were also broadcast in the United Kingdom by the BBC and in Australia),[<sup>7</sup>](#footnote-7)  but also her needlework design, her books, correspondence courses, and stores in New York City and Nantucket,[<sup>8</sup>](#footnote-8)  Erica Wilson helped to revive several needlework traditions which had gone out of style, such as bargello,[<sup>9</sup>](#footnote-9)  crewel work,[<sup>10</sup>](#footnote-10)  and turkey work.[<sup>11</sup>](#footnote-11)
 
 ### To Demystify and Democratize Arcane Skills
 
-Wilson’s approach to the needle and fabric arts was simultaneously rooted in the past and strikingly modern.  At the beginning of most episodes of *Erica*, Wilson discussed museum pieces, often from the Museum of Fine Arts, Boston, or the Society for the Preservation of New England Antiquities, which she herself had used for inspiration.  Wilson appreciated the beauty and quality of work in these museum pieces, but also urged viewers to find the humor in them as well.  She delighted in reading out cheeky messages in needlework samplers, such as “This was done by Mary Pitt, who hated every stitch of it” (episode #120, “Sentiments in Stitches”). 
+Wilson’s approach to the needle and fabric arts was simultaneously rooted in the past and strikingly modern.  At the beginning of most episodes of *Erica*, Wilson discussed museum pieces, often from the Museum of Fine Arts, Boston, or the Society for the Preservation of New England Antiquities, which she herself had used for inspiration.  Wilson appreciated the beauty and quality of work in these museum pieces, but also urged viewers to find the humor in them as well.  She delighted in reading out cheeky messages in needlework samplers, such as “This was done by Mary Pitt, who hated every stitch of it” (episode #120, “Sentiments in Stitches”).
 
 <iframe src="/embed/V_FB3BA6DE3CFB452EB24494D6E79483ED"></iframe>
 
@@ -41,25 +41,25 @@ While she usually took her historical inspiration from 17th, 18th, or 19th centu
 
 Though she frequently looked to the past for inspiration, most of the projects that she demonstrated on *Erica* were quite contemporary. Her projects generally utilized the color palette fashionable in the clothing and interior design of the 1970s—bright oranges, acid yellows, and pea greens—as well as popular motifs of the decade, such as owls and mushrooms.  Of an owl in embroidery that she executed in episode #114, “Thinking Bigger,” Wilson noted, “I simply adore owls.  She might be a female, so I called her ‘Belinda.’”  Her usage of large scale designs in heavy rug wool and new, synthetic crafting materials such as plastic canvas (episode #106, “Space Age Canvas”) and Lurex[<sup>15</sup>](#footnote-15)  (“Oriental Gold”) also marked a conscious departure from the textiles of the past.
 
-The needlework revival led by Wilson parallels the “Quilt Revival”[<sup>16</sup>](#footnote-16) that so dominated American sewing and crafts in the 1970s.  Women (and men) in the ‘70s, a decade marked by the colonial nostalgia of the Bicentennial, looked to figures like Erica Wilson to learn traditional techniques long lost to the average American.  Season One of *Erica* (1971-2) instructed viewers in several needlework techniques common in both the United States and America in the seventeenth and eighteenth centuries, with episodes such as #101 “Ticking Sampler,” #104 “Bargello,” #107 “Turkey Work,” and #116 “Crewel Point.”  In Season Two (1975-6), Wilson branched out to quiltmaking techniques, with episodes on patchwork[<sup>17</sup>](#footnote-17) (episode #201) and appliqué[<sup>18</sup>](#footnote-18) (episode #215), staking her claim as part of the Quilt Revival.  The antique quilt turning that she does in episode #201 is really quite spectacular, as is a quilt made of appliquéd velvet on silk made in Belfast, Maine in 1840 that she showcases in episode #215.  While she did not devote a whole episode to it, Wilson also investigated whitework  in the second season, displaying a white on white Federal eagle quilt from the early nineteenth century and reflecting, “Well I think whitework[<sup>19</sup>](#footnote-19) is one of my favorite things.  It’s so beautifully frosty (episode #213, “Creatures Great and Small”).”  Wilson also explores “quiltpoint”[<sup>20</sup>](#footnote-20)  in Season Two (episode #209, “New Points in Needlepoint”), designing a Lone Star[<sup>21</sup>](#footnote-21) pattern in needlepoint.[<sup>22</sup>](#footnote-22) 
+The needlework revival led by Wilson parallels the “Quilt Revival”[<sup>16</sup>](#footnote-16) that so dominated American sewing and crafts in the 1970s.  Women (and men) in the ‘70s, a decade marked by the colonial nostalgia of the Bicentennial, looked to figures like Erica Wilson to learn traditional techniques long lost to the average American.  Season One of *Erica* (1971-2) instructed viewers in several needlework techniques common in both the United States and America in the seventeenth and eighteenth centuries, with episodes such as #101 “Ticking Sampler,” #104 “Bargello,” #107 “Turkey Work,” and #116 “Crewel Point.”  In Season Two (1975-6), Wilson branched out to quiltmaking techniques, with episodes on patchwork[<sup>17</sup>](#footnote-17) (episode #201) and appliqué[<sup>18</sup>](#footnote-18) (episode #215), staking her claim as part of the Quilt Revival.  The antique quilt turning that she does in episode #201 is really quite spectacular, as is a quilt made of appliquéd velvet on silk made in Belfast, Maine in 1840 that she showcases in episode #215.  While she did not devote a whole episode to it, Wilson also investigated whitework  in the second season, displaying a white on white Federal eagle quilt from the early nineteenth century and reflecting, “Well I think whitework[<sup>19</sup>](#footnote-19) is one of my favorite things.  It’s so beautifully frosty (episode #213, “Creatures Great and Small”).”  Wilson also explores “quiltpoint”[<sup>20</sup>](#footnote-20)  in Season Two (episode #209, “New Points in Needlepoint”), designing a Lone Star[<sup>21</sup>](#footnote-21) pattern in needlepoint.[<sup>22</sup>](#footnote-22)
 
-Further evidence of Wilson’s interest in the American Bicentennial, in spite of (or perhaps because of) her status a British expatriate, was the use of colonial American imagery in projects demonstrated on Erica.  The most salient of these images is a needlepoint picture done for episode #213, “Creatures Great and Small” (1976) depicting the Beatrix Potter character, Mrs. Tittlemouse,[<sup>23</sup>](#footnote-23)  in the guise of Betsy Ross, sewing the American flag.  One might well read this picture, with its juxtaposition of the colonial and the Edwardian, the American and the British pasts, as a sort of self-portrait of Wilson herself.  Wilson seems to be using, here, the figure of Mrs. Tittlemouse to navigate her British roots and newfound role as one of the pre-eminent figures in American needlework.  
+Further evidence of Wilson’s interest in the American Bicentennial, in spite of (or perhaps because of) her status a British expatriate, was the use of colonial American imagery in projects demonstrated on Erica.  The most salient of these images is a needlepoint picture done for episode #213, “Creatures Great and Small” (1976) depicting the Beatrix Potter character, Mrs. Tittlemouse,[<sup>23</sup>](#footnote-23)  in the guise of Betsy Ross, sewing the American flag.  One might well read this picture, with its juxtaposition of the colonial and the Edwardian, the American and the British pasts, as a sort of self-portrait of Wilson herself.  Wilson seems to be using, here, the figure of Mrs. Tittlemouse to navigate her British roots and newfound role as one of the pre-eminent figures in American needlework.
 
-Animals were dear to Wilson, and she devoted episode #213, “Creatures Great and Small,”[<sup>24</sup>](#footnote-24)  to depicting animals in needlework, from (predictably) Beatrix Potter characters to big cats captured in wildlife photography.  Virginia Vis, now Curatorial Assistant at the Daughters of the American Revolution Museum, Washington, D.C., remembers watching *Erica* in college.[<sup>25</sup>](#footnote-25) Vis created a hand-dyed, free embroidery wall hanging of various critters after watching “Creatures Great and Small” in 1976.  This episode, interestingly, is perhaps the only episode of *Erica* in which Wilson could be described as having made a (albeit vague) political statement.  She noted, “We’re all very concerned nowadays about the natural environment, and how crowded it’s getting.” 
+Animals were dear to Wilson, and she devoted episode #213, “Creatures Great and Small,”[<sup>24</sup>](#footnote-24)  to depicting animals in needlework, from (predictably) Beatrix Potter characters to big cats captured in wildlife photography.  Virginia Vis, now Curatorial Assistant at the Daughters of the American Revolution Museum, Washington, D.C., remembers watching *Erica* in college.[<sup>25</sup>](#footnote-25) Vis created a hand-dyed, free embroidery wall hanging of various critters after watching “Creatures Great and Small” in 1976.  This episode, interestingly, is perhaps the only episode of *Erica* in which Wilson could be described as having made a (albeit vague) political statement.  She noted, “We’re all very concerned nowadays about the natural environment, and how crowded it’s getting.”
 
-Wilson returned to the influences of her British childhood, and particularly her love of Beatrix Potter, throughout the series.  Wilson executed several needlepoints and stuffed dolls of Beatrix Potter characters—Hunca Munca,[<sup>26</sup>](#footnote-26)  Peter Rabbit, Johnny Townmouse, and Squirrel Nutkin among them—in the course of the series.  Ultimately, however, Wilson seemed very much to embrace her status as a British expatriate who had made a home and an identity for herself in New England.  She frequently referred to the American past as “our past” on *Erica*, for example in episode #201, “Patchwork,” Wilson described quilt patterns such as Robbing Peter to Pay Paul, Sunshine and Shadow, and Trip Around the World as “old patterns from *our* American ancestors.”  
+Wilson returned to the influences of her British childhood, and particularly her love of Beatrix Potter, throughout the series.  Wilson executed several needlepoints and stuffed dolls of Beatrix Potter characters—Hunca Munca,[<sup>26</sup>](#footnote-26)  Peter Rabbit, Johnny Townmouse, and Squirrel Nutkin among them—in the course of the series.  Ultimately, however, Wilson seemed very much to embrace her status as a British expatriate who had made a home and an identity for herself in New England.  She frequently referred to the American past as “our past” on *Erica*, for example in episode #201, “Patchwork,” Wilson described quilt patterns such as Robbing Peter to Pay Paul, Sunshine and Shadow, and Trip Around the World as “old patterns from *our* American ancestors.”
 
 ### Some of Child's Enthusiastic Style
 
-While Wilson’s legacy in the fields of needlework, sewing, and quilting is immense, so too is her legacy in the realm of public television.  Wilson was clearly aware early on the potential of public television and of her role in shaping the future of the fledgling Public Broadcasting Service (PBS), which was founded by Hartford N. Gunn Jr. of WGBH as the Corporation for Public Broadcasting in October of 1970, less than a year before *Erica* first aired.  In a 1971 episode of *Erica* on textual graphics and monograms in needlework (#105), for example, Wilson began by referencing Sesame Street (which premiered in 1969), announcing, “Today’s program is presented by the letters ‘E’ and ‘W’.”  
+While Wilson’s legacy in the fields of needlework, sewing, and quilting is immense, so too is her legacy in the realm of public television.  Wilson was clearly aware early on the potential of public television and of her role in shaping the future of the fledgling Public Broadcasting Service (PBS), which was founded by Hartford N. Gunn Jr. of WGBH as the Corporation for Public Broadcasting in October of 1970, less than a year before *Erica* first aired.  In a 1971 episode of *Erica* on textual graphics and monograms in needlework (#105), for example, Wilson began by referencing Sesame Street (which premiered in 1969), announcing, “Today’s program is presented by the letters ‘E’ and ‘W’.”
 
-Erica was truly a pioneering program, providing a model format that countless other craft shows would follow, notably Emma Amos and Beth Gutcheon’s 1977-79 program, *Show of Hands*, which was also produced by WGBH and featured many of the same production crew as *Erica*.  Today, PBS devotes an entire channel, *Create TV*, to cooking, arts & crafts, gardening, home improvement, and travel programming.  The craft program format pioneered by Erica Wilson and WGBH on PBS was so popular, of course, that commercial television, such as the Home & Garden Television network (HGTV), later adopted the genre. 
+Erica was truly a pioneering program, providing a model format that countless other craft shows would follow, notably Emma Amos and Beth Gutcheon’s 1977-79 program, *Show of Hands*, which was also produced by WGBH and featured many of the same production crew as *Erica*.  Today, PBS devotes an entire channel, *Create TV*, to cooking, arts & crafts, gardening, home improvement, and travel programming.  The craft program format pioneered by Erica Wilson and WGBH on PBS was so popular, of course, that commercial television, such as the Home & Garden Television network (HGTV), later adopted the genre.
 
-Part of what made the *Erica* format such great television was Wilson’s mastery of stitchery, which allowed her to create projects, seemingly on the fly, for the camera.  One of the cornerstones of the program was her instructional demonstration of various stitches, both common stitches such as backstitch, cross-stitch, satin stitch, and tent stitch, and more advanced stitches such as Burden stitch[<sup>27</sup>](#footnote-27) and Gobelin stitch.[<sup>28</sup>](#footnote-28) Her needlework prowess was so immense that the show could have been off-putting, but her enthusiasm and encouragement made the show eminently watchable, even for those with the most rudimentary (or completely absent) needlework skills.  In episode #112, “Geometric Needlepoint,” for example, Wilson encouraged viewers to be bold, “I’ve selected pretty strong colors.  You can be a lot bolder than you think,” while reassuring viewers that, “Designing needlepoint is the easiest thing in the world.”  Often, it was not what Erica Wilson said, but how she said it, that made the *Erica* show so accessible.  On the subject of bargello, Erica noted that, “It’s like eating peanuts.  You can’t stop once you begin. (#104),” and when speaking of choosing fabrics for a patchwork quilt, Erica used a similarly alimentary simile, “The first thing you have to do, of course, is choose the fabrics, and that’s really just like eating candies (#201).”  
+Part of what made the *Erica* format such great television was Wilson’s mastery of stitchery, which allowed her to create projects, seemingly on the fly, for the camera.  One of the cornerstones of the program was her instructional demonstration of various stitches, both common stitches such as backstitch, cross-stitch, satin stitch, and tent stitch, and more advanced stitches such as Burden stitch[<sup>27</sup>](#footnote-27) and Gobelin stitch.[<sup>28</sup>](#footnote-28) Her needlework prowess was so immense that the show could have been off-putting, but her enthusiasm and encouragement made the show eminently watchable, even for those with the most rudimentary (or completely absent) needlework skills.  In episode #112, “Geometric Needlepoint,” for example, Wilson encouraged viewers to be bold, “I’ve selected pretty strong colors.  You can be a lot bolder than you think,” while reassuring viewers that, “Designing needlepoint is the easiest thing in the world.”  Often, it was not what Erica Wilson said, but how she said it, that made the *Erica* show so accessible.  On the subject of bargello, Erica noted that, “It’s like eating peanuts.  You can’t stop once you begin. (#104),” and when speaking of choosing fabrics for a patchwork quilt, Erica used a similarly alimentary simile, “The first thing you have to do, of course, is choose the fabrics, and that’s really just like eating candies (#201).”
 
 Humor is another quality, now crucial to craft and how-to programs, which Wilson pioneered in *Erica*.  Ever so discreetly comparing needlework to sex, she saucily quipped, “You can do it in the car, in bed, even in the bath, if you like (#124, “Needle Painting”).”  Wilson also presented a very humble persona on Erica. She could readily laugh at her own chief shortcoming as an embroideress, namely, the very untidy quality of the reverse sides of her work.  “Turning to the wrong side of the embroidery… it’s a terrible sin.  It’s a waste of time, you see (#114),” she said.  “You’re not supposed to turn the frame to the wrong side, because that’s terribly unprofessional (#115).”  All of this is not to say that, however, that Wilson and WGBH perfected the television craft program format from the pilot episode of *Erica*.  Especially in the first few episodes of the first season of *Erica*, the series is checkered with what are, by twenty-first century viewing standards, some quaint, even downright naïve, production choices—such as an awkwardly loud gong to signal the end of the episode and to signal Wilson to utter her catch phrase in a harried manner, “Too many stitches, too little time,” as well as the frequent scene of Wilson whizzing past a window in the set as the credits rolled.
 
-Related to the quaint naïveté of the show, one major element of the *Erica* show that largely was not adopted by television presenters who followed her footsteps was costume.  Wilson sometimes wore normal street clothes when presenting Erica, but equally often, she appeared in a fanciful costume that echoed the theme of the episode.  In episode #211, “Native American Treasures,” for example, Wilson wore buckskin pants decorated with Tlingit totems.[<sup>29</sup>](#footnote-29) While she often used the element of costume to showcase the dress of non-Western cultures, she sometimes wore family heirlooms as costume pieces as well.  In episode #110, “Satin Stitch,” Wilson wore her great-grandmother’s skirt, which she stated came from the Paris Exhibition of 1851[<sup>30</sup>](#footnote-30) and was decorated with padded satin stitch in silks and cottons.  She sheepishly noted that while her great-grandmother had had an 18-inch waist (due to the use of a corset), Wilson had had to let out the garment considerably in order to be able to wear it.  In another instance (episode #209, “New Points in Needlepoint”), Wilson donned a kilt for a discussion of how to imitate Scottish plaid in needlepoint, but noted that she was not wearing her own family’s tartan “because it was much too plain.”  
+Related to the quaint naïveté of the show, one major element of the *Erica* show that largely was not adopted by television presenters who followed her footsteps was costume.  Wilson sometimes wore normal street clothes when presenting Erica, but equally often, she appeared in a fanciful costume that echoed the theme of the episode.  In episode #211, “Native American Treasures,” for example, Wilson wore buckskin pants decorated with Tlingit totems.[<sup>29</sup>](#footnote-29) While she often used the element of costume to showcase the dress of non-Western cultures, she sometimes wore family heirlooms as costume pieces as well.  In episode #110, “Satin Stitch,” Wilson wore her great-grandmother’s skirt, which she stated came from the Paris Exhibition of 1851[<sup>30</sup>](#footnote-30) and was decorated with padded satin stitch in silks and cottons.  She sheepishly noted that while her great-grandmother had had an 18-inch waist (due to the use of a corset), Wilson had had to let out the garment considerably in order to be able to wear it.  In another instance (episode #209, “New Points in Needlepoint”), Wilson donned a kilt for a discussion of how to imitate Scottish plaid in needlepoint, but noted that she was not wearing her own family’s tartan “because it was much too plain.”
 
 Family was a recurring theme on *Erica*, and Wilson frequented mentioned making projects for or with her husband, furniture designer Vladimir Kagan, and their three children, daughters Vanessa and Jessica, and son Ilya.  In episode #120, “Sentiments in Stitches,” for example, Wilson showed pillows on the theme of “Love,” a modern version that her husband had designed and her daughter’s Victorian version, noting that, “Love is acceptable at any time of the year.”  The mention of family has become an important aspect of how-to programs, making the host seem more down-to-earth and relatable to the average viewer.  Today, programs from *P. Allen Smith’s Garden Home* to *Lydia’s Italy* frequently use mention of the presenter’s family.
 
@@ -71,15 +71,15 @@ Unlike the much more renowned Julia Child, Erica Wilson’s contribution and leg
 
 ### Endnotes
 
-<a name="footnote-1"></a><sup>1</sup>Interestingly, Erica was filmed in the studio next to the one that Julia Child used.  Child’s own program, *The French Chef*, debuted on WGBH in 1963. 
+<a name="footnote-1"></a><sup>1</sup>Interestingly, Erica was filmed in the studio next to the one that Julia Child used.  Child’s own program, *The French Chef*, debuted on WGBH in 1963.
 
-<a name="footnote-2"></a><sup>2</sup>Veronica Horwell, “Erica Wilson obituary,” *The Guardian*, 2 January 2012. 
+<a name="footnote-2"></a><sup>2</sup>Veronica Horwell, “Erica Wilson obituary,” *The Guardian*, 2 January 2012.
 
 <a name="footnote-3"></a><sup>3</sup>Emphasis added.
 
 <a name="footnote-4"></a><sup>4</sup>The school was known as the Royal School of Art Needlework until 1922, when the word “art” was dropped from its name.
 
-<a name="footnote-5"></a><sup>5</sup>Redwork is red pictorial needlework on a white ground.  True Redwork is done with “turkey red” dyed thread, which comes from the madder plant and is so named because it originated in the Middle East.  Flora and fauna, nursery rhymes, and Japanese motifs were typical subjects depicted in Redwork.  
+<a name="footnote-5"></a><sup>5</sup>Redwork is red pictorial needlework on a white ground.  True Redwork is done with “turkey red” dyed thread, which comes from the madder plant and is so named because it originated in the Middle East.  Flora and fauna, nursery rhymes, and Japanese motifs were typical subjects depicted in Redwork.
 
 <a name="footnote-6"></a><sup>6</sup>Valerie J. Nelson, “Erica Wilson, ‘America’s first lady of stitchery,’ dies at 83,” *The Washington Post*, 19 December 2011.
 
@@ -137,56 +137,56 @@ Unlike the much more renowned Julia Child, Erica Wilson’s contribution and leg
 
 ## Related Content
 
-### [The Quilt Index](http://www.quiltindex.org/) 
-A free, open access project of Matrix, Michigan State University Museum, and the Quilt Alliance. [The Quilt 
-Index is a searchable repository of digital photographs, texts (oral, video, 
-and written), and documents pertaining to quilts, quiltmakers, and 
-quilt-related activities. As of January 2013, it contains more than 50,000 
-digital representations of quilts from museums, libraries, archives, research 
-projects, and private individuals from around the world. 
+### [The Quilt Index](http://www.quiltindex.org/)
+A free, open access project of Matrix, Michigan State University Museum, and the Quilt Alliance. [The Quilt
+Index is a searchable repository of digital photographs, texts (oral, video,
+and written), and documents pertaining to quilts, quiltmakers, and
+quilt-related activities. As of January 2013, it contains more than 50,000
+digital representations of quilts from museums, libraries, archives, research
+projects, and private individuals from around the world.
 
-#### [Hmong Embroidery](http://www.quiltindex.org/search_results.php?pattern_name=&quilter=&quilting_group=&quilt_id=&overall_loc=&city_made=&state_made=Any+State&province_made=&country_made=&period=Any&start_year=&end_year=&owner_name=&qproject=Any&collection=Any&predom_color=&) 
-In his 90 Seconds with… episode, Chang Xiong 
+#### [Hmong Embroidery](http://www.quiltindex.org/search_results.php?pattern_name=&quilter=&quilting_group=&quilt_id=&overall_loc=&city_made=&state_made=Any+State&province_made=&country_made=&period=Any&start_year=&end_year=&owner_name=&qproject=Any&collection=Any&predom_color=&)
+In his 90 Seconds with… episode, Chang Xiong
 discusses his embroidery based in the tradition of the Hmong people of Vietnam.
 
 #### [Inspiration from Children’s Literature](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5F)
-Erica Wilson frequently used illustrations and characters from children’s literature, 
-especially the works of Beatrix Potter, as inspiration for needlework designs. 
-Additionally, in her episode of 90 Seconds with…, quiltmaker Ann Brauer 
-discussed how stories such as Alice’s Adventures in Wonderland have inspired 
-her quilts. All of these quilts were inspired by classics of children’s 
+Erica Wilson frequently used illustrations and characters from children’s literature,
+especially the works of Beatrix Potter, as inspiration for needlework designs.
+Additionally, in her episode of 90 Seconds with…, quiltmaker Ann Brauer
+discussed how stories such as Alice’s Adventures in Wonderland have inspired
+her quilts. All of these quilts were inspired by classics of children’s
 literature
 
-#### [Animal Motifs](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5D) 
-Erica Wilson was very fond of animals and devoted Erica episode “Creatures 
-Great and Small” to depictions of animals in needlework. All of these quilts 
+#### [Animal Motifs](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-5D)
+Erica Wilson was very fond of animals and devoted Erica episode “Creatures
+Great and Small” to depictions of animals in needlework. All of these quilts
 feature animals, mostly in appliqué designs.
 
 #### [English Template Piecing](http://www.quiltindex.org/search_results.php?sortby=ID+Number%28first-last%29&keywords=stuffed+work&search=go)
-Erica Wilson demonstrates a paper piecing method for making even patchwork in the “Patchwork” episode of Erica. 
-All of these quilts on the Quilt Index used paper piecing, often called 
+Erica Wilson demonstrates a paper piecing method for making even patchwork in the “Patchwork” episode of Erica.
+All of these quilts on the Quilt Index used paper piecing, often called
 “English template piecing” in the United States, in their construction.
 
 #### [Quilt Patterns](http://www.quiltindex.org/browsepattern.php)
-In the “Patchwork,” episode of the Erica show, Erica Wilson showed many different 
-traditional quilt patterns, such Carolina Lily, crazy quilts, Dresden Plate, 
-Drunkard’s Path, Hexagon Mosaic, Log Cabin, and Trip Around the World. All of 
+In the “Patchwork,” episode of the Erica show, Erica Wilson showed many different
+traditional quilt patterns, such Carolina Lily, crazy quilts, Dresden Plate,
+Drunkard’s Path, Hexagon Mosaic, Log Cabin, and Trip Around the World. All of
 these patterns and many more are illustrated here
 
 #### [Quilts and Human Rights](http://www.quiltindex.org/galleryFullRecord.php?kid=3-98-18)
-Much of Chang Xiong’s work deals with the refugee experience and the Vietnam War. For 
-more quilts depicting human rights issues, see Mary Worrall, Marsha MacDowell, 
+Much of Chang Xiong’s work deals with the refugee experience and the Vietnam War. For
+more quilts depicting human rights issues, see Mary Worrall, Marsha MacDowell,
 and Lynee Swanson’s exhibit, Quilts and Human Rights.
 
 ### Erica Wilson's Legacy: A Bibliography
 
 “AHSA Talks with Erica Wilson,” *Forecast for Home Economics* (Special Issue) 	30, September 1984, 57.
 
-Baehr, Helen, and Gillian Dyer. B*oxed In: Women and Television.* Pandora Press, 1987. 
+Baehr, Helen, and Gillian Dyer. B*oxed In: Women and Television.* Pandora Press, 1987.
 
 Brackman, Barbara.  *Patterns of Progress: Quilts in the Machine Age.* Los Angeles: Autry Museum of Western Heritage, 1997.
 
-Bryan-Wilson, Julia. "Eleven Propositions in Response to the Question: What Is Contemporary about Craft?." *The Journal of Modern Craf*t 6, no. 1 (2013): 7-10. 
+Bryan-Wilson, Julia. "Eleven Propositions in Response to the Question: What Is Contemporary about Craft?." *The Journal of Modern Craf*t 6, no. 1 (2013): 7-10.
 
 Brown, Mary Ellen, ed. *Television and Women's Culture: The Politics of the Popular.* 	SAGE Publications Limited, 1990.
 
@@ -194,7 +194,7 @@ Cassidy, Marsha Francis. *What Women Watched: Daytime Television in the 1950s.* 
 
 Colby, Averill. *Patchwork*. London: Batsford, 1958.
 
-“Crewel Awakening.” *Newsweek* 59, 11 June 1962, 96. 
+“Crewel Awakening.” *Newsweek* 59, 11 June 1962, 96.
 
 “Erica Wilson Dies at 83 – Led a Rebirth of Needleworking.” *New York Times.* 13 December 2011.
 
@@ -230,10 +230,10 @@ Nelson, Valerie J.  “Erica Wilson, ‘America’s first lady of stitchery,’ 
 
 “On and Off the Avenue:  Erica Wilson’s Needlework Classes.” *New Yorker* 37, 18 	February 1961, 100 -101.
 
-“One Stitch Leads to Another: Crewelwork.” *New York Times Magazine*, 1 March 
+“One Stitch Leads to Another: Crewelwork.” *New York Times Magazine*, 1 March
 	1970, 66-67.
 
-Orlofsky, Patsy, and Myron Orlofsky. *Quilts in America*. New York: McGraw Hill, 1974. 	Reprint, New York: Abbeville Press, 1992. 
+Orlofsky, Patsy, and Myron Orlofsky. *Quilts in America*. New York: McGraw Hill, 1974. 	Reprint, New York: Abbeville Press, 1992.
 
 Safford, Carleton L. and Robert Bishop. *America’s Quilts and Coverlets*. New York: E. 	P. Dutton & Co., 1972.
 
@@ -285,19 +285,19 @@ Wilson, Erica. “Needlepoint.”  Four-part Video Series.
 
 ### Dr. Amanda Grace Sikarskie
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/sikarskie_headshot.png)
-Sikarskie is Adjunct Assistant Professor in the Department of 
-History at Western Michigan University and Adjunct Assistant Professor in the 
-Museum Studies Program at Michigan State University. She is also a Research 
-Associate with the Quilt Index, an online archive providing preservation and 
-access for images and metadata of over 60,000 quilts held in collections across 
-the United States and around the world. Dr. Sikarskie’s research examines the 
-history of quilts and quiltmaking, as well as the role of digital tools in 
-bringing quilt history to the public, and she has published and presented 
-extensively on American quilts and needlework. 
+![Dr. Amanda Grace Sikarskie](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/sikarskie_headshot.png)
+Sikarskie is Adjunct Assistant Professor in the Department of
+History at Western Michigan University and Adjunct Assistant Professor in the
+Museum Studies Program at Michigan State University. She is also a Research
+Associate with the Quilt Index, an online archive providing preservation and
+access for images and metadata of over 60,000 quilts held in collections across
+the United States and around the world. Dr. Sikarskie’s research examines the
+history of quilts and quiltmaking, as well as the role of digital tools in
+bringing quilt history to the public, and she has published and presented
+extensively on American quilts and needlework.
 
-Additional Credits: Adviser Consulted During the Creation of this Collection: 
-Marsha MacDowell, Ph.D. Marsha is Curator, Michigan State University Museum, 
-and Professor, Department of Art, Art History, and Design, Michigan State 
-University. Her research foci includes traditional material culture (especially 
-quilts), folk arts and education, and museum theory and practice. 
+Additional Credits: Adviser Consulted During the Creation of this Collection:
+Marsha MacDowell, Ph.D. Marsha is Curator, Michigan State University Museum,
+and Professor, Department of Art, Art History, and Design, Michigan State
+University. Her research foci includes traditional material culture (especially
+quilts), folk arts and education, and museum theory and practice.

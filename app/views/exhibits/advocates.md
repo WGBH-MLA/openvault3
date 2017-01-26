@@ -7,63 +7,63 @@
 
 ## intro
 
-Before Roger Fisher founded the Program on Negotiation at Harvard Law School, 
-he was nationally recognized for having created an award-winning public affairs 
-television show, *The Advocates*, which aired on the Public Broadcasting Service. 
-Over the course of its five year season, beginning in 1969 (plus additional 
-shows in 1978-79 and in 1984), *The Advocates* previewed some of the ideas that 
-appeared in Roger’s many writings and, eventually, as part of the *Program on 
-Negotiation* itself. *The Advocates* used a modified trial format to debate what 
-Roger called an “important public trouble,” not in the abstract, but in terms 
-of what Roger called “a decidable question” — a situation where someone, whether 
-a public figure or an individual citizen at home, had to decide what to do. 
-Viewers in the studio audience or at home in their living rooms were invited to 
-weigh in by mail, and during the first season, a remote audience on location 
-somewhere else in the country offered their opinions as well. He saw this as 
-part of an effort to help citizens make “public affairs your affairs.” *The 
-Advocates* was produced initially through a joint effort by WGBH in Boston and 
-KCET in Los Angeles, two flagship stations in the public broadcasting network. 
-*The Advocates* addressed issues ranging from civil disobedience to same-sex 
-marriage. In some cases, the shows are more than four decades old, but many of 
-the issues are still timely. When Roger was later teaching the Negotiation 
-Workshop at Harvard Law School, in which I was a participant, he once said that 
-preparing for trial and preparing for negotiation were very similar, except 
-that in negotiation, “the judge you have to persuade is sitting across the 
-table.” With *The Advocates*, you begin to get a clear sense of what he meant, in 
-that the judge was really the viewer at home, rather than an adversary or 
-impartial jurist. On the show, Roger played multiple roles: executive editor 
-and moderator of the show during its first season; then later, as an advocate. 
-I saw some of his multifaceted talent in action while I worked with him on the 
-show during that first season. I took a leave of absence from law practice from 
-1969-70 to appear in thirteen episodes as a Boston-based advocate on the show, 
-arguing one side or another of the issue which was assigned to me and the 
-producers I worked with. Over time, *The Advocates* changed into more of a 
-partisan debate on public questions, often with a regular liberal and 
-conservative advocate, or advocates who were identified with specific issues. 
-While this perhaps made for simpler television, the show may have lost some of 
-Roger’s original mission: to frame public choices as necessarily challenging 
-decisions, with positives and negatives for either course of action, rather 
-than right paths versus wrong ones. This was a preview of his later (and 
-famous) “presently perceived choice,” the idea that something which seems 
-sensible to you might look different to someone on the other side of a dispute. 
+Before Roger Fisher founded the Program on Negotiation at Harvard Law School,
+he was nationally recognized for having created an award-winning public affairs
+television show, *The Advocates*, which aired on the Public Broadcasting Service.
+Over the course of its five year season, beginning in 1969 (plus additional
+shows in 1978-79 and in 1984), *The Advocates* previewed some of the ideas that
+appeared in Roger’s many writings and, eventually, as part of the *Program on
+Negotiation* itself. *The Advocates* used a modified trial format to debate what
+Roger called an “important public trouble,” not in the abstract, but in terms
+of what Roger called “a decidable question” — a situation where someone, whether
+a public figure or an individual citizen at home, had to decide what to do.
+Viewers in the studio audience or at home in their living rooms were invited to
+weigh in by mail, and during the first season, a remote audience on location
+somewhere else in the country offered their opinions as well. He saw this as
+part of an effort to help citizens make “public affairs your affairs.” *The
+Advocates* was produced initially through a joint effort by WGBH in Boston and
+KCET in Los Angeles, two flagship stations in the public broadcasting network.
+*The Advocates* addressed issues ranging from civil disobedience to same-sex
+marriage. In some cases, the shows are more than four decades old, but many of
+the issues are still timely. When Roger was later teaching the Negotiation
+Workshop at Harvard Law School, in which I was a participant, he once said that
+preparing for trial and preparing for negotiation were very similar, except
+that in negotiation, “the judge you have to persuade is sitting across the
+table.” With *The Advocates*, you begin to get a clear sense of what he meant, in
+that the judge was really the viewer at home, rather than an adversary or
+impartial jurist. On the show, Roger played multiple roles: executive editor
+and moderator of the show during its first season; then later, as an advocate.
+I saw some of his multifaceted talent in action while I worked with him on the
+show during that first season. I took a leave of absence from law practice from
+1969-70 to appear in thirteen episodes as a Boston-based advocate on the show,
+arguing one side or another of the issue which was assigned to me and the
+producers I worked with. Over time, *The Advocates* changed into more of a
+partisan debate on public questions, often with a regular liberal and
+conservative advocate, or advocates who were identified with specific issues.
+While this perhaps made for simpler television, the show may have lost some of
+Roger’s original mission: to frame public choices as necessarily challenging
+decisions, with positives and negatives for either course of action, rather
+than right paths versus wrong ones. This was a preview of his later (and
+famous) “presently perceived choice,” the idea that something which seems
+sensible to you might look different to someone on the other side of a dispute.
 
-To learn more about *The Advocates*, Roger Fisher’s role in it, and some of the 
-lessons the show has for us even after over forty years, you can read my more 
-extensive introduction to the show, *The Advocates: a retrospective on an 
-important—and still relevant—innovation in public affairs television*, written 
-for the WGBH Educational Foundation, and maintained on its Open Vault website. 
-On this WGBH Open Vault website, you can see many episodes of *The Advocates* in 
-their entirety, including a newly added episode in which Roger appeared as an 
-advocate opposite William Kunstler on the subject of civil disobedience to the 
-Vietnam War. This episode was shown by the *Program on Negotiation* at Harvard 
-Law School at a special presentation on February 28, 2013, in preparation for a 
-special Harvard Negotiation Law Review Symposium on Roger’s legacy held at 
-Harvard Law School on March 1, 2013. The article for WGBH grew out of my 
-introduction to that February 28th presentation. The article also includes 
-references to clips from that and several other episodes, and also contains a 
-list of some of *The Advocates* shows that were produced, besides those which 
-have been made available on the WGBH Open Vault. While Professor Fisher is no longer with us, we can 
-continue to learn from his example. 
+To learn more about *The Advocates*, Roger Fisher’s role in it, and some of the
+lessons the show has for us even after over forty years, you can read my more
+extensive introduction to the show, *The Advocates: a retrospective on an
+important—and still relevant—innovation in public affairs television*, written
+for the WGBH Educational Foundation, and maintained on its Open Vault website.
+On this WGBH Open Vault website, you can see many episodes of *The Advocates* in
+their entirety, including a newly added episode in which Roger appeared as an
+advocate opposite William Kunstler on the subject of civil disobedience to the
+Vietnam War. This episode was shown by the *Program on Negotiation* at Harvard
+Law School at a special presentation on February 28, 2013, in preparation for a
+special Harvard Negotiation Law Review Symposium on Roger’s legacy held at
+Harvard Law School on March 1, 2013. The article for WGBH grew out of my
+introduction to that February 28th presentation. The article also includes
+references to clips from that and several other episodes, and also contains a
+list of some of *The Advocates* shows that were produced, besides those which
+have been made available on the WGBH Open Vault. While Professor Fisher is no longer with us, we can
+continue to learn from his example.
 
 ## author
 
@@ -90,16 +90,16 @@ R. Lisle Baker
 [16. Earning praise and even awards.](#anchor-16)<br/>
 [17. Showcasing people as well as ideas.](#anchor-17)<br/>
 [18. The return of *The Advocates*.](#anchor-18)<br/>
-[19. The legacy of *The Advocates*? Seeing the legitimacy of alternative points of view.](#anchor-19)  
+[19. The legacy of *The Advocates*? Seeing the legitimacy of alternative points of view.](#anchor-19) 
 
 <a name="anchor-1"></a>
-### 1. Introduction to *The Advocates* and its creator, Professor Roger Fisher. 
+### 1. Introduction to *The Advocates* and its creator, Professor Roger Fisher.
 
 In 1969, a year after graduating from Harvard Law School, I was asked to appear on a new public television show to argue one side of an important public question. I undertook this responsibility for thirteen episodes during its first season, returning to the show one more time in 1979. The show, which earned both the Peabody Award and four Emmys, was called *The Advocates*. It grew out of the belief by Harvard Law School Professor Roger Fisher that television could help illuminate important issues in public affairs by using the adversary format of a trial, and its capacity for individual advocacy – including witness examination and cross- examination – in the court of public opinion of viewers at home.
 
 I have been invited by the Mellon Project at WGBH, and also the Harvard Negotiation Law Review, to provide some background on the show. In that work, I have drawn on my own memories, as well as from some of the documentary history which is available from Roger Fisher’s personal files in the Historical and Special Collections at the Harvard Law School Library, and materials provided by WGBH.
 
-Thanks to technical assistance from WGBH and Allison Pekel, Coordinator for the Mellon Project, I have also been able to excerpt some short clips from several *Advocates* episodes from 1970, 1971, and 1979. These clips help illustrate some aspects of my own experience, as well as Roger Fisher’s skill at advocacy and explanation, and some of the changes in the show that took place over the ten years it was broadcast throughout the country. 
+Thanks to technical assistance from WGBH and Allison Pekel, Coordinator for the Mellon Project, I have also been able to excerpt some short clips from several *Advocates* episodes from 1970, 1971, and 1979. These clips help illustrate some aspects of my own experience, as well as Roger Fisher’s skill at advocacy and explanation, and some of the changes in the show that took place over the ten years it was broadcast throughout the country.
 
 The episodes on the Open Vault date primarily from the later years of the program, but a few were recorded during the first season when I was with the show. The Open Vault episodes have an unusual feature in that a viewer can read the transcript and click on a link which, after some time for loading, will take the viewer to that portion of the video from that show.
 
@@ -117,12 +117,12 @@ But first, before more of the story, here is how the Vanderbilt Library, which h
 What follows is an attempt to fill in more of the background and details of the show.
 
 <a name="anchor-2"></a>
-### 2. How did *The Advocates* get started? 
+### 2. How did *The Advocates* get started?
 
-Roger had earlier been critical of television, particularly public television, as not doing an adequate job of helping inform the public. He was quoted as saying: 
+Roger had earlier been critical of television, particularly public television, as not doing an adequate job of helping inform the public. He was quoted as saying:
 
 >
-“Most media are abysmal in that they talk about all aspects of a problem such as old age or drugs, but do not organize the choice for anybody. It’s important to say ‘Here is a choice.’ ” 
+“Most media are abysmal in that they talk about all aspects of a problem such as old age or drugs, but do not organize the choice for anybody. It’s important to say ‘Here is a choice.’ ”
 
 More specifically, Roger was quoted as saying that:
 
@@ -189,7 +189,7 @@ Roger also believed that topics should have a sense of immediacy and reality. In
 
 When thinking about what topics to cover, he offered the following summary: “Each topic we pick must have four qualifications ... Is it a major problem? Is there somebody who can make a difference—who can listen to both sides and make a decision? Is it a decidable issue? Is it good TV?" [<sup>17</sup>](#footnote-17)
 
-Below is a clip of Roger describing that set of ideas while acting as a moderator on the show concerning our Cuba Policy. 
+Below is a clip of Roger describing that set of ideas while acting as a moderator on the show concerning our Cuba Policy.
 **See 00:00:59 - 00:01:18.**
 
 <iframe src="/embed/V_7E8B608E5AC04B809D9579EC9F5C1BBE"></iframe>
@@ -199,10 +199,10 @@ Below is a clip of Roger describing that set of ideas while acting as a moderato
 
 For the show to be truly effective, though, the issue at hand would not just be one for the citizen but, ideally, be presented to a real person “who can make a difference.” Roger believed that a bigger impact would be made if the show could identify one particular individual from among those in power who was most able to do something about the “important trouble.” He believed the show shouldn’t “spend time explaining how big the problem is or how difficult it is to solve ... Instead, identify who is in a good position to do something about it and set out a specific, detached proposal of what he ought to do next."[<sup>18</sup>](#footnote-18)
 
-For example, one of the early shows available on the WGBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts. 
+For example, one of the early shows available on the WGBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts.
 
-In the clip below, you will see the advocates and moderator introduced. 
-**See 00:00:16 - 00:00:42** 
+In the clip below, you will see the advocates and moderator introduced.
+**See 00:00:16 - 00:00:42**
 
 As the “man with a choice,” Mayor White was involved in the process, and was able to ask questions of the witnesses. Below is one example. **See 00:39:37 - 00:40:51**
 
@@ -231,10 +231,10 @@ For example, I remember that during the show on expelling student disrupters, I 
 
 (This show is also available on the WGBH Open Vault.) Here is a clip showing that neither witness was testifying to support the whole proposition which I was charged to advocate. (You may return to the article when the time-bar at the bottom of the video reaches 1.53.)
 
-This format, at least in the first year of the show, involved each production team knowing something about their opponents’ cases in advance. As a result, we knew most of what the other advocate team was going to argue, at least in general, and could make the cases complement each other. One exception I recall was a show we did on our Cuba policy, where I was assigned to present the case for keeping Cuba isolated. After listening to the argument on the other side, Roger, who was the moderator, turned to me and said: 
+This format, at least in the first year of the show, involved each production team knowing something about their opponents’ cases in advance. As a result, we knew most of what the other advocate team was going to argue, at least in general, and could make the cases complement each other. One exception I recall was a show we did on our Cuba policy, where I was assigned to present the case for keeping Cuba isolated. After listening to the argument on the other side, Roger, who was the moderator, turned to me and said:
 
 >
-“Well, we’ve listened to Mr. Oteri’s case for resuming trade with Cuba, and now let’s turn to the other side of the question. Mr. Baker, will you give us the case against resuming trade with Cuba.” 
+“Well, we’ve listened to Mr. Oteri’s case for resuming trade with Cuba, and now let’s turn to the other side of the question. Mr. Baker, will you give us the case against resuming trade with Cuba.”
 
 While my producer and I had arguments prepared, I had not known how my opponent, Joe Oteri, would argue his case I found that I was persuaded by his argument, even though I still had to argue the opposite point of view. I did the best I could (and readers can judge how successful I was, since the show is now on the Open Vault). **See 00:15:22 - 00:26:21**
 
@@ -247,10 +247,10 @@ The difficulty of making arguments, regardless of the side assigned, may have le
 <a name="anchor-8"></a>
 ### 8. Offering the viewer neutral introductory information.
 
-To assist viewers at home in finding a stance on the issue at hand, *The Advocates* aimed to convey enough factual information so that the viewer would feel competent to hear and then decide the question presented. Roger wrote: 
+To assist viewers at home in finding a stance on the issue at hand, *The Advocates* aimed to convey enough factual information so that the viewer would feel competent to hear and then decide the question presented. Roger wrote:
 
 >
-“The opening two minutes should present enough hard, specific facts so that the viewer feels he has his ‘feet on the ground.’"[<sup>23</sup>](#footnote-23) 
+“The opening two minutes should present enough hard, specific facts so that the viewer feels he has his ‘feet on the ground.’"[<sup>23</sup>](#footnote-23)
 
 When the experts disagreed, Roger felt that the viewer should be armed with enough information to be persuadable, rather than just confused. Therefore, the shows often began with a statement of the issue and some background information, usually introduced by the moderator, rather than the advocates. Below is an example from a 1979 show on trucking deregulation with moderator Michael Dukakis. **See 00:01:20 - 00:01:49**
 
@@ -289,7 +289,7 @@ My own view, however, is that despite these aids, the interaction between advoca
 
 <iframe src="/embed/V_58D7FC37405E4268BB7E68C925628EF9"></iframe>
 
-As effective as it was, this closing argument does not include everything that Roger said. Executive Producer Greg Harney (Roger then having left the show as Executive Editor to return as an advocate) made a decision to excise a particular clip of Roger’s closing argument about the Vietnam War, on the grounds of concerns about appearing to advocate for contacting a specific organization, in an apparent contravention of federal tax laws barring political advocacy by nonprofit organizations, such as WGBH and its Ford Foundation sponsor.[<sup>26</sup>](#footnote-26) Roger was understandably upset, saying: 
+As effective as it was, this closing argument does not include everything that Roger said. Executive Producer Greg Harney (Roger then having left the show as Executive Editor to return as an advocate) made a decision to excise a particular clip of Roger’s closing argument about the Vietnam War, on the grounds of concerns about appearing to advocate for contacting a specific organization, in an apparent contravention of federal tax laws barring political advocacy by nonprofit organizations, such as WGBH and its Ford Foundation sponsor.[<sup>26</sup>](#footnote-26) Roger was understandably upset, saying:
 
 >
 “How can we show a program on the right and wrong things to do about a war protest without telling what the right things are? My whole position has been shot out from under me." [<sup>27</sup>](#footnote-27) Executive Producer Harney, however, responded that: “Mr. Fisher was retained to be an advocate on the program and to present the case for his side. He was not retained to take final responsibility for the program."[<sup>28</sup>](#footnote-28)
@@ -323,7 +323,7 @@ Hoagy Carmichael had a poll of his remote audience as well, polling members befo
 >
 “The audience vote on each program is, of course, far from being scientifically accurate, with the tally being subject to the distortions of organized pressure groups and inveterate letter writers. The results over an extended period, though, have been curious. The conservative side, it seems, ‘won’ 12 programs, while the liberals were picking up only 6."[<sup>29</sup>](#footnote-29)
 
-At the same time, the show did generate mail: 
+At the same time, the show did generate mail:
 
 >
 “Evidence of the amazing impact it had on its viewers was the fact that it drew 22,000 letters a month – or 177,000 for the 40-week season – more than was received by CBS News and Walter Cronkite, over the same period... [t]hus it more than lived up to its role of involving the viewer in critical issues." [<sup>30</sup>](#footnote-30)
@@ -363,7 +363,7 @@ Not everyone agreed, however. In the spirit of *The Advocates*, here is an alter
 >
 “Debate went out with the ark. It persists as a fossilized relic in certain academic institutions and, as one might sadly expect, on public television....From the sample offered...the real-life lawyers...are very tiresome and unendearing fellows....And the cross-examination lacks that power in the hands of a script writer or film editor to condense time and dramatize reality. The result is an exchange as dull as that in any courtroom on a normal day....Having supposedly galvanized interest, it is daringly suggested that the greatest contribution toward solving the problem at hand is to write to the producers of the program." [<sup>38</sup>](#footnote-38)
 
-Station mangers supported the show, with 193 stations in 1972 choosing to air it, second only to Masterpiece Theatre with 199. [<sup>39</sup>](#footnote-39) One station manager wrote: 
+Station mangers supported the show, with 193 stations in 1972 choosing to air it, second only to Masterpiece Theatre with 199. [<sup>39</sup>](#footnote-39) One station manager wrote:
 
 >
 “On no other continuing show does the viewer have an opportunity to hear all sides of controversial issues debated at the same setting in time and with key experts and witnesses from essential areas and fields involved in the point in question." [<sup>40</sup>](#footnote-40)
@@ -375,24 +375,24 @@ At the time of the award, Roger Fisher said in a press release:
 >
 “Let us hope this will encourage more programs to recognize that television’s highest challenge is not to divert people from reality, or even to tell them about it, but to help them cope with it....The true measure of success for an hour’s broadcast is not its internal elegance, its technical excellence, or the size of its audience, but the degree to which it leaves each citizen better equipped to achieve his full potential."[<sup>42</sup>](#footnote-42) 
 
-Russell Morash, WGBH producer for *The Advocates*, said: 
+Russell Morash, WGBH producer for *The Advocates*, said:
 
 >
 “I’ve never been connected with a show in which mail has been such a factor. This series has received more than 70,000 letters. We’ve been given the responsibility to air two sides of the question and we’ve learned that viewers value this objectivity above all else."[<sup>43</sup>](#footnote-43)
 
-The show got impressive fan mail from high officials and ordinary citizens alike. Chief Justice Warren Burger wrote: “I continue to watch *The Advocates* at every opportunity and join with many of your viewers in expressing appreciation for this fine program." 
+The show got impressive fan mail from high officials and ordinary citizens alike. Chief Justice Warren Burger wrote: “I continue to watch *The Advocates* at every opportunity and join with many of your viewers in expressing appreciation for this fine program."
 
 [<sup>44</sup>](#footnote-44) Another viewer wrote:
 
 >
-“I have thoroughly enjoyed *The Advocates* this past year. It has been the second most thought-provoking series I have ever watched. (Second only to *Star Trek*.) *The Advocates* is the type of program that I consider to be essential in a democracy. This is because it allows the average citizen to become informed about the crucial issues of the day by having both sides of the issue. My only complaint is that it isn’t on 12 months a year." [<sup>45</sup>](#footnote-45) 
+“I have thoroughly enjoyed *The Advocates* this past year. It has been the second most thought-provoking series I have ever watched. (Second only to *Star Trek*.) *The Advocates* is the type of program that I consider to be essential in a democracy. This is because it allows the average citizen to become informed about the crucial issues of the day by having both sides of the issue. My only complaint is that it isn’t on 12 months a year." [<sup>45</sup>](#footnote-45)
 
-The show received plaudits from either side of the political spectrum. Here is one from conservative commentator William F. Buckley: 
+The show received plaudits from either side of the political spectrum. Here is one from conservative commentator William F. Buckley:
 
 >
-“The thought of doing without The Advocates is terribly depressing. It has been instructive, vigorous, stimulating and witty. What else could serious viewers ask for? And where else are they supposed to go?"[<sup>46</sup>](#footnote-46) 
+“The thought of doing without The Advocates is terribly depressing. It has been instructive, vigorous, stimulating and witty. What else could serious viewers ask for? And where else are they supposed to go?"[<sup>46</sup>](#footnote-46)
 
-Conversely, here is one from liberal economist John Kenneth Galbraith: 
+Conversely, here is one from liberal economist John Kenneth Galbraith:
 
 >
 “I know *The Advocates* both as a participant and as a viewer. In both roles, and especially the second, I came to believe it to be one of the fairest, most informative, and generally most interesting programs viewable in the last ten years." [<sup>47</sup>](#footnote-47)
@@ -401,7 +401,7 @@ The show was also praised by a Vietnam veteran named John Kerry, who went on to 
 
 *The Advocates* then went on to win several other awards. During its second season, the show won a Christopher Award, a presentation of the Christophers given to programs which “affirm the highest values of the human spirit...demonstrate artistic and technical proficiency...and (which) have gained a significant degree of public acceptance.” In presenting the Christopher Award for *The Advocates*’ debate on school vouchers, Father Richard Armstrong called the program a “frank, informative exploration of both sides of a complex issue." [<sup>50</sup>](#footnote-50) During its fourth season, the show won four Emmys, presented by the National Academy of Television Arts and Sciences in the “Special Classification of Outstanding Program and Individual Achievement." [<sup>1</sup>](#footnote-51)
 
-When it was not clear whether the show would be funded for a full season in 1973-74, Bill Hart, station manager for WYES in New Orleans wrote: 
+When it was not clear whether the show would be funded for a full season in 1973-74, Bill Hart, station manager for WYES in New Orleans wrote:
 
 >
 “*The Advocates* is a valuable show we would like to see preserved. It is the only format where controversy is shown through unbiased presentation....We tried to do a local show patterned after *The Advocates* and discovered how difficult and how expensive it was to do properly." [<sup>52</sup>](#footnote-52)
@@ -417,13 +417,13 @@ Policy and public argument aside, one of the underlying strengths of the show we
 
 Despite these talented people, and its successes, *The Advocates* apparently became the victim of uncertain funding. It went off the air at the end of the 1974 season. At the time, those involved with the show argued that, were it to be cancelled, the viewing public would lose:
 
-- A discussion of important issues likely to appear only on this program. 
-- The only public affairs program willing and able to reexamine questions when  necessary. 
-- A public forum where large numbers of thoughtful citizens can appear to air their  opinions. 
-- The presentation of unorthodox arguments. 
-- The questioning of interested parties by other interested parties, a way of eliminating  charges of reporter “bias”. [<sup>55</sup>](#footnote-55)
+- A discussion of important issues likely to appear only on this program.
+- The only public affairs program willing and able to reexamine questions when necessary.
+- A public forum where large numbers of thoughtful citizens can appear to air their opinions.
+- The presentation of unorthodox arguments.
+- The questioning of interested parties by other interested parties, a way of eliminating charges of reporter “bias”. [<sup>55</sup>](#footnote-55)
 
-In 1978, Glenn Litton of WGBH Educational Foundation wrote Roger a letter in which he said: 
+In 1978, Glenn Litton of WGBH Educational Foundation wrote Roger a letter in which he said:
 
 >
 “We need to remind our current audience of how unique the format still is, how fresh it remains, and how useful it can be to an electorate that is just as befuddled as ever. In short, more of your enthusiasm for and faith in reasoned argument put in a dramatic form needs to be heard."[<sup>56</sup>](#footnote-56)
@@ -464,7 +464,7 @@ Roger always said that armed with the correct information and perspective, one p
 
 <a name="footnote-1"></a><sup>1</sup>Peggy Hudson, *So You Want to Be a TV Decision-Maker?* SENIOR SCHOLASTIC MAGAZINE, Jan. 5, 1970 (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 14). 
 
-<a name="footnote-2"></a><sup>2</sup>Letter from Michael Rice, Director of Television Programming, WGBH TV, to Archibald L. Gillies (May 2, 1969) (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 4). My memory is that there was also another show on British television which was shown at WGBH as a source of ideas. 
+<a name="footnote-2"></a><sup>2</sup>Letter from Michael Rice, Director of Television Programming, WGBH TV, to Archibald L. Gillies (May 2, 1969) (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 4). My memory is that there was also another show on British television which was shown at WGBH as a source of ideas.
 
 <a name="footnote-3"></a><sup>3</sup>Id.
 
@@ -488,7 +488,7 @@ Roger always said that armed with the correct information and perspective, one p
 
 <a name="footnote-12"></a><sup>12</sup>Roger Fisher, “The Advocates: Reports and Papers for New York Meeting” (Jan. 20, 1970) (The Roger Fisher Papers, Harvard Law School Library, Box 141, Folder 36). 
 
-<a name="footnote-13"></a><sup>13</sup>Id.  
+<a name="footnote-13"></a><sup>13</sup>Id. 
 
 <a name="footnote-14"></a><sup>14</sup>Fisher quoted in: Joyce Gabriel, *Meet Roger Fisher: Out of the Ivory Tower, Into the Living Room*, TV SCOUT, Jun. 16, 1970 (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 4).
 
@@ -524,11 +524,11 @@ Roger always said that armed with the correct information and perspective, one p
 
 <a name="footnote-30"></a><sup>30</sup> “Professor returns to class but his TV show lives on,” Boston Globe (10/2/1970). (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 2). Over later years, almost a million viewers responded to requests for viewer opinion. First Season (1969-70) Second Season (1970-1971) Third Season (1971-1972) Fourth Season (1972-1973) 177,881 228,455 200,125 311,977 918,438
 
-WGBH, THE CASE FOR THE ADVOCATES (1973) at 30. 
+WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-31"></a><sup31</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 7.
 
-<a name="footnote-32"></a><sup>32</sup>Id.at 10, 11. 
+<a name="footnote-32"></a><sup>32</sup>Id.at 10, 11.
 
 <a name="footnote-33"></a><sup>33</sup>Id. at 12.
 
@@ -536,13 +536,13 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-35"></a><sup>35</sup>Norman Mark, CHICAGO DAILY NEWS Oct. 6, 1969. 
 
-<a name="footnote-36"></a><sup>36</sup>Gail Rock, DAILY NEWS RECORD (New York) Oct. 17, 1969. 
+<a name="footnote-36"></a><sup>36</sup>Gail Rock, DAILY NEWS RECORD (New York) Oct. 17, 1969.
 
 <a name="footnote-37"></a><sup>37</sup>VARIETY (Los Angeles, CA) – Oct. 29, 1969. 
 
 <a name="footnote-38"></a><sup>38</sup>Alex Toogood, University of Texas, *Program Reviews: The Advocates*, EDUCATIONAL BROADCASTING REVIEW, Feb. 1970 (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 4). *See also* LAURIE OUELLETTE, VIEWERS LIKE YOU? HOW PUBLIC TV FAILED THE PEOPLE (2002) (“The Advocates and the discursive formation around it divorced politics from the everyday lives and emotions of ordinary people, casting democracy as an affair managed by professionals.” *Id.* at 129).
 
-<a name="footnote-39"></a><sup>39</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 25. 
+<a name="footnote-39"></a><sup>39</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 25.
 
 <a name="footnote-40"></a><sup>40</sup>Id.at 27. 
 
@@ -574,7 +574,7 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-54"></a><sup>54</sup>Hoagy Carmichael was multitalented, helping produce many shows thereafter, and at one time even made bamboo fly fishing rods by hand. An index of his good humor was that he was even willing to try to teach me how to cast with one.
 
-<a name="footnote-55"></a><sup>55</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 21. 
+<a name="footnote-55"></a><sup>55</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 21.
 
 <a name="footnote-56"></a><sup>56</sup>Letter from Glenn Litton to Roger Fisher (Aug. 7, 1978) (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 7).
 
@@ -638,24 +638,24 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 ## Authors
 
-### R. Lisle Baker 
+### R. Lisle Baker
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/baker_headshot.png)
-Baker is a professor of law at Suffolk University Law School in Boston, where 
-he teaches courses on property, mediation, and planning for law as a career 
-and enterprise. While he was an associate in the Boston firm of Hill & Barlow, 
-he was selected as one of the two regular Boston advocates to appear during 
-1969-70 in the first season of Professor Roger Fisher’s Peabody Award-winning 
-television show, *The Advocates*. In addition to writing on issues related to 
-psychology and dispute resolution for both the Harvard Negotiation Law Review 
-and The Negotiation Journal, he has written elsewhere on such topics as settling 
-appeals of land use decisions within the framework of the open meeting law, 
-conflicts between beneficial but neighboring uses of land, using betterment 
-assessments to help pay for open space, ethical limits on attorney contact 
-with local zoning officials, and taxing gains from land speculation. He is an 
-honors graduate of Williams College and Harvard Law School. He has also served 
-for almost thirty years as an elected alderman in Newton, Massachusetts, and won 
-an award for his cable TV series of interviews about Newton government, 
+![R. Lisle Baker](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/baker_headshot.png)
+Baker is a professor of law at Suffolk University Law School in Boston, where
+he teaches courses on property, mediation, and planning for law as a career
+and enterprise. While he was an associate in the Boston firm of Hill & Barlow,
+he was selected as one of the two regular Boston advocates to appear during
+1969-70 in the first season of Professor Roger Fisher’s Peabody Award-winning
+television show, *The Advocates*. In addition to writing on issues related to
+psychology and dispute resolution for both the Harvard Negotiation Law Review
+and The Negotiation Journal, he has written elsewhere on such topics as settling
+appeals of land use decisions within the framework of the open meeting law,
+conflicts between beneficial but neighboring uses of land, using betterment
+assessments to help pay for open space, ethical limits on attorney contact
+with local zoning officials, and taxing gains from land speculation. He is an
+honors graduate of Williams College and Harvard Law School. He has also served
+for almost thirty years as an elected alderman in Newton, Massachusetts, and won
+an award for his cable TV series of interviews about Newton government,
 available at [http://www.aldermanatwork.org](http://www.aldermanatwork.org).
 
 ### Credits

@@ -7,48 +7,48 @@
 
 ## intro
 
-Grete Lehner Bibring was born in Vienna on January 11, 1899. Inspired by 
-Sigmund Freud's work in psychoanalysis, she became one of the very few female 
-medical students at the University of Vienna in 1918, and one of the first 
-psychiatrists to champion the need to incorporate psychoanalysis into the 
-practice of medicine. She married a member of Freud's Vienna Psychoanalytic 
-Society Edward Bibring in 1921. Leaving Austria after Nazi's takeover in 1938, 
-they eventually settled in Boston in 1941, where Dr. Grete L. Bibring continued 
-her medical career and became a chief of psychiatry at Boston Beth Israel 
-Hospital and the first woman clinical professor at Harvard Medical School in 
-1961. The Boston postwar period was fruitful for both psychiatry and 
-psychoanalysis, with more medical students entering psychiatry and more 
-psychiatrists seeking analytic training. A change in the acceptance of 
-psychoanalysis took place during the war, partly as a result of experiences 
-with psychiatric casualties. Psychiatric services were established in general 
-hospitals, and federal funds and private foundations supported psychiatric 
-training and psychosomatic research. Bibrings’ arrival in Boston coincided with 
-a new era in American psychiatry and medicine. The ground had been prepared by 
-psychoanalysts like William Healy at the Judge Baker, Ives Hendrick at Boston 
-Psychopathic, and Stanley Cobb at the Massachusetts General Hospital. Grete 
-Bibring served as a president of the Boston Psychoanalytic Society and 
-Institute from 1955 to 1958, president of the American Psychoanalytic 
-Association in 1962, and vice president of the International Psycho-Analytical 
-Association. In the early 1950’s, Grete Bibring initiated an important study of 
-the psychological aspects of pregnancy at the Beth Israel Hospital in Boston. 
-Two papers summarizing the results of the study were published in the 
-*Psychoanalytic Study of the Child* in 1961 (Vol. 16, p. 9-72). One of her major 
-contributions to psychiatry was creation of different personality types to 
-guide medical management of each patient. According to numerous accounts of her 
-students, she was a brilliant teacher interested in bringing psychoanalytic 
-ideas into a general medical setting. After she became emerita in 1965, Dr. 
-Bibring continued to teach a special seminar at the Radcliffe Institute on the 
-development of professional women. Between 1928 and 1976, Dr. Bibring published 
-over thirty papers, in both medical and psychoanalytic journals, and as 
-chapters in books edited by others. She co-authored, with Dr. Ralph M. Kahana, 
-*The Lectures in Medical Psychiatry* (1969) and edited the *The Teaching of 
-Dynamic Psychiatry* (1968). Several of her publications were on general hospital 
-psychiatry and an important paper was on normal aging "Old Age, Its Liabilities 
-and Assets" (1966). In 1975, she participated in a WGBH documentary television 
-program, *Psychoanalysis: A Personal View*, where she was interviewed by Dr. 
-Oliver Cope, MD. She also gave a major address at MIT on "Freud and the 
-Understanding of Human Nature." Grete L. Bibring died on August 10, 1977 in 
-Cambridge, Massachusetts. 
+Grete Lehner Bibring was born in Vienna on January 11, 1899. Inspired by
+Sigmund Freud's work in psychoanalysis, she became one of the very few female
+medical students at the University of Vienna in 1918, and one of the first
+psychiatrists to champion the need to incorporate psychoanalysis into the
+practice of medicine. She married a member of Freud's Vienna Psychoanalytic
+Society Edward Bibring in 1921. Leaving Austria after Nazi's takeover in 1938,
+they eventually settled in Boston in 1941, where Dr. Grete L. Bibring continued
+her medical career and became a chief of psychiatry at Boston Beth Israel
+Hospital and the first woman clinical professor at Harvard Medical School in
+1961. The Boston postwar period was fruitful for both psychiatry and
+psychoanalysis, with more medical students entering psychiatry and more
+psychiatrists seeking analytic training. A change in the acceptance of
+psychoanalysis took place during the war, partly as a result of experiences
+with psychiatric casualties. Psychiatric services were established in general
+hospitals, and federal funds and private foundations supported psychiatric
+training and psychosomatic research. Bibrings’ arrival in Boston coincided with
+a new era in American psychiatry and medicine. The ground had been prepared by
+psychoanalysts like William Healy at the Judge Baker, Ives Hendrick at Boston
+Psychopathic, and Stanley Cobb at the Massachusetts General Hospital. Grete
+Bibring served as a president of the Boston Psychoanalytic Society and
+Institute from 1955 to 1958, president of the American Psychoanalytic
+Association in 1962, and vice president of the International Psycho-Analytical
+Association. In the early 1950’s, Grete Bibring initiated an important study of
+the psychological aspects of pregnancy at the Beth Israel Hospital in Boston.
+Two papers summarizing the results of the study were published in the
+*Psychoanalytic Study of the Child* in 1961 (Vol. 16, p. 9-72). One of her major
+contributions to psychiatry was creation of different personality types to
+guide medical management of each patient. According to numerous accounts of her
+students, she was a brilliant teacher interested in bringing psychoanalytic
+ideas into a general medical setting. After she became emerita in 1965, Dr.
+Bibring continued to teach a special seminar at the Radcliffe Institute on the
+development of professional women. Between 1928 and 1976, Dr. Bibring published
+over thirty papers, in both medical and psychoanalytic journals, and as
+chapters in books edited by others. She co-authored, with Dr. Ralph M. Kahana,
+*The Lectures in Medical Psychiatry* (1969) and edited the *The Teaching of
+Dynamic Psychiatry* (1968). Several of her publications were on general hospital
+psychiatry and an important paper was on normal aging "Old Age, Its Liabilities
+and Assets" (1966). In 1975, she participated in a WGBH documentary television
+program, *Psychoanalysis: A Personal View*, where she was interviewed by Dr.
+Oliver Cope, MD. She also gave a major address at MIT on "Freud and the
+Understanding of Human Nature." Grete L. Bibring died on August 10, 1977 in
+Cambridge, Massachusetts.
 
 ## author
 
@@ -153,7 +153,7 @@ correct one, but interesting.
 Then, I think, we read Havelock Ellis’s The Psychology of Sex. And then we had an assignment to report Freud’s contribution to the theory of sex, and the student who had to review it, was Edward Bibring. Now, he came back to our seminar, and he said, “Most interesting, and most important book.” And I piped up and I really got quite embarrassed about this remark the older I got and then I got old enough not to be embarrassed but amused and touched by this very famous man, and a very great man. I read some of his writings. Now, you mustn’t forget, I was a youngster of seventeen.  I’d read two books, whereas these men who were
 [   ] me as my elders, were in the war, [    ] another war
 in Russia and I was in the luxury of literature and science
-and could do whatever fed my  . . 
+and could do whatever fed my  . .
 .
 #### OLIVER COPE
 And nineteen at the time.
@@ -1465,7 +1465,7 @@ weeks . . .
 
 ## Authors
 
-#### Olga Umansky, MLS 
+#### Olga Umansky, MLS
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/umansky_headshot.png)
+![Olga Umansky](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/headshots/umansky_headshot.png)
 Umansky has been an archivist and a head librarian of the Boston Psychoanalytic Society and Institute since 2007. She is in charge of many archival initiatives, including conversion of the society audio archives into a digital format, collection of new oral histories, implementation of XML finding aids, digital imaging, web publishing, online exhibits, and historic research. Most recently, Olga has been leading an effort of several co-authors to publish a new biography of Grete Bibring. In addition to her archivist's duties, Olga manages a busy research library for member psychoanalysts, students, and independent researchers. Graduate of the Simmons College GSLIS of 1997, Olga holds a BA in Philology from the Kharkov State University, and is a member of the New England Archivists (NEA). Her previous careers included library database design at Wolters Kluwer/Ovid Technologies, technical product management at SilverPlatter Information, processing of archival collections at the Boston Public Library, and radio journalism in Ukraine.

@@ -2,9 +2,11 @@
 <svg
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 268 70"
-   id="ov-logo">
+   id="ov-logo"
+   aria-label="Open Vault Logo">
   <!-- Used Inkscape to kern individual letters, particularly "VA" in "VAULT", and then converted to paths. -->
   <!-- Make the whole thing clickable. Extra large so we don't need to tweak it going forward. -->
+  <title>Open Vault Logo</title>
   <rect
      x="0"
      y="0"
