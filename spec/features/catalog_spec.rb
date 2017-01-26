@@ -1,6 +1,7 @@
 require 'rails_helper'
 require_relative '../support/validation_helper'
 require_relative '../../scripts/lib/pb_core_ingester'
+require 'pry'
 
 describe 'Catalog' do
   before(:all) do
@@ -60,8 +61,8 @@ describe 'Catalog' do
       expect(page).to have_content 'You searched for:'
       expect_fuzzy_xml
       expect(page.all('.info').map(&:text)).to eq([
-        'An. stays: not an article: sort 0',
-        'The removed: sort 1',
+        'An. stays: not an article: sort 0 foo...',
+        'The removed: sort 1 foo...',
         'An REMOVED: SORT 2',
         'A removed: sort 3'
       ])
@@ -75,8 +76,8 @@ describe 'Catalog' do
       expect(page.all('.info').map(&:text)).to eq([
         'A removed: sort 3',
         'An REMOVED: SORT 2',
-        'The removed: sort 1',
-        'An. stays: not an article: sort 0'
+        'The removed: sort 1 foo...',
+        'An. stays: not an article: sort 0 foo...'
       ])
     end
 
