@@ -1,7 +1,6 @@
 require 'rails_helper'
 require_relative '../support/validation_helper'
 require_relative '../../scripts/lib/pb_core_ingester'
-require 'pry'
 
 describe 'Catalog' do
   before(:all) do
