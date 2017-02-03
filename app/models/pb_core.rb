@@ -278,6 +278,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
       title: title,
       thumbnail_src: thumbnail_src,
       short_title: short_title,
+      asset_description: asset_description,
 
       year: year,
 
