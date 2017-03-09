@@ -37,7 +37,7 @@
 
     <!-- The format for this date field is of the form 1995-12-31T23:59:59Z, and
          is a more restricted form of the canonical representation of dateTime
-         http://www.w3.org/TR/xmlschema-2/#dateTime
+         http://www.w3.org/TR/xmlschema-2/#dateTime    
          The trailing "Z" designates UTC time and is mandatory.
          Optional fractional seconds are allowed: 1995-12-31T23:59:59.999Z
          All other components are mandatory.
@@ -52,7 +52,7 @@
                NOW/DAY+6MONTHS+3DAYS
                   ... 6 months and 3 days in the future from the start of
                       the current day
-
+                      
          Consult the DateField javadocs for more information.
 
          Note: For faster range queries, consider the tdate type
@@ -80,7 +80,7 @@
        </analyzer>
      </fieldType>
 
-
+    
     <fieldType name="sort" class="solr.TextField">
         <analyzer>
             <!-- One token -->
@@ -125,7 +125,7 @@
  <fields>
    <!-- Valid attributes for fields:
      name: mandatory - the name for the field
-     type: mandatory - the name of a previously defined type from the
+     type: mandatory - the name of a previously defined type from the 
        <types> section
      indexed: true if this field should be indexed (searchable or sortable)
      stored: true if this field should be retrievable
@@ -138,88 +138,87 @@
        given field.
        When using MoreLikeThis, fields used for similarity should be
        stored for best performance.
-     termPositions: Store position information with the term vector.
+     termPositions: Store position information with the term vector.  
        This will increase storage costs.
-     termOffsets: Store offset information with the term vector. This
+     termOffsets: Store offset information with the term vector. This 
        will increase storage costs.
      default: a value that should be used if no value is specified
        when adding a document.
    -->
 
-   <field name="id"
+   <field name="id" 
           type="string" indexed="true" stored="true" required="true" />
-   <field name="timestamp"
+   <field name="timestamp" 
           type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
-
-   <field name="xml"
+   
+   <field name="xml" 
           type="string" indexed="false" stored="true" multiValued="false"/>
-
+   
    <!-- default, catch all search field -->
-   <field name="text"
+   <field name="text" 
           type="text" indexed="true" stored="true" multiValued="true"/>
-
-
+   
+      
    <!--
    *****************************************
         Keep in sync with PbCore#to_solr
-   *****************************************
+   ***************************************** 
    -->
-
+   
    <!-- For the search results page. -->
    <field name="title"
           type="sort" indexed="true" stored="true" multiValued="false"/>
    <field name="thumbnail_src"
           type="string" indexed="false" stored="true" multiValued="false"/>
-   <field name="asset_description"
-          type="string" indexed="false" stored="true" multiValued="false"/>
+   
    <!-- For collection lists. -->
    <field name="short_title"
           type="sort" indexed="true" stored="true" multiValued="false"/>
-
+      
    <!-- Nothing below needs to be stored, but helps with debugging. -->
-
-   <field name="year"
+   
+   <field name="year" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-
+   
    <!-- links from details and series pages: -->
-   <field name="series_title"
+   <field name="series_title" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="program_title"
+   <field name="program_title" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-
-   <field name="subjects"
+   
+   <field name="subjects" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="locations"
+   <field name="locations" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-
+   
    <!-- UI facets -->
    <field name="access"
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="genres"
+   <field name="genres" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="topics"
+   <field name="topics" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-
-   <field name="asset_type"
+   
+   <field name="asset_type" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="media_type"
+   <field name="media_type" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-
+   
    <!-- exhibit/collection support -->
-   <field name="scholar_exhibits"
+   <field name="scholar_exhibits" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="special_collections"
+   <field name="special_collections" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="special_collection_tags"
+   <field name="special_collection_tags" 
           type="string" indexed="true" stored="true" multiValued="true"/>
-
-   <field name="playlist_group"
+   
+   <field name="playlist_group" 
           type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="playlist_order"
+   <field name="playlist_order" 
           type="string" indexed="true" stored="true" multiValued="false"/>
  </fields>
 
- <!-- Field to use to determine and enforce document uniqueness.
+ <!-- Field to use to determine and enforce document uniqueness. 
       Unless this field is marked with required="false", it will be a required field
    -->
  <uniqueKey>id</uniqueKey>

@@ -165,7 +165,7 @@ describe 'Validated and plain PBCore' do
         outside_url: 'http://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
       assertions[:to_solr] = assertions.slice(
-        :id, :title, :asset_description, :short_title, :thumbnail_src, :year, :series_title, :program_title,
+        :id, :title, :short_title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :access, :genres, :topics, :asset_type, :media_type,
         :scholar_exhibits, :special_collections, :special_collection_tags,
         :playlist_group, :playlist_order)
