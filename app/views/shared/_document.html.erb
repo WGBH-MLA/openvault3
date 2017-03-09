@@ -17,10 +17,5 @@
     <div id="title">
       <%= document[:title] %><br/>
     </div>
-    <% if document[:asset_description].present? %>
-      <div id="description" class="hidden">
-        <%= document[:asset_description][0..99] + "..." %>
-      </div>
-    <% end %>
   </div>
 </a>
