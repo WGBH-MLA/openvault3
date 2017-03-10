@@ -53,7 +53,7 @@ class Tabbed < Cmless
       s.downcase.gsub(/\W+/, '-')
     end
 
-    TabbedCell = Struct.new(:id, :title, :thumbnail_src)
+    TabbedCell = Struct.new(:id, :title, :thumbnail_src, :asset_description)
 
     ONE_OF_N = /\s*\[(Part 1 of \d+|1)\]/i
     N_OF_N =   /\s*\[(Part \d+ of \d+|\d+)\]/i
@@ -76,7 +76,7 @@ class Tabbed < Cmless
         solr_docs = RSolr.connect(url: 'http://localhost:8983/solr/')
                     .get('select', params: {
                            'q' => "#{q_key}:#{q_val}",
-                           'fl' => 'id,short_title,thumbnail_src',
+                           'fl' => 'id,short_title,thumbnail_src,asset_description',
                            'sort' => 'short_title asc',
                            'rows' => '1000' # Solr default is 10.
                          })['response']['docs']
@@ -88,7 +88,8 @@ class Tabbed < Cmless
             solr_doc['id'],
             solr_doc['short_title']
               .gsub(N_OF_N, ''),
-            solr_doc['thumbnail_src']
+            solr_doc['thumbnail_src'],
+            solr_doc['asset_description']
           )
         end
       end.flatten
