@@ -54,7 +54,7 @@ class SeriesList
       # Solr only accepts double-quote here.
 
       Hash[
-        RSolr.connect(url: 'http://localhost:8983/solr/')
+        RSolr.connect(url: "http://localhost:#{ENV['JETTY_PORT']}/solr/")
           .get(
             'select', params: solr_params
           )['facet_counts']['facet_fields']['series_title'].in_groups_of(2)]
