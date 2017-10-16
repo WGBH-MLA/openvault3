@@ -2,7 +2,7 @@
 
 5
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/africans_america/africans_america-q-50.jpg)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/africans_america/africans-in-america_ov.jpg "Africans in America")
 
 ## intro
 
