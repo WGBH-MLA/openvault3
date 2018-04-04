@@ -13,6 +13,7 @@
   <% elsif !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                   controls: true, id: 'player-media',
+                  controlsList: "nodownload",
                   oncontextmenu: 'return false;',
                   poster: @pbcore.thumbnail_src) do %>
       <% @pbcore.proxy_srcs.each do |src| %>
