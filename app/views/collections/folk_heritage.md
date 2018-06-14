@@ -2,7 +2,7 @@
 
 5
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/folks_heritage/folk_heritage.jpg)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/folk_heritage/folk_heritage.jpg)
 
 ## intro
 
