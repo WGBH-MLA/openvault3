@@ -12,9 +12,7 @@
 
 Although the series switched from Sunday evenings to Saturday afternoons, it consistently featured a wide range of songwriters and musicians in live performances and interviews, including Pete Seeger, Tom Paxton, Odetta, Patty Larkin and BeauSoleil. For his farewell program on March 13, 2004, Pleasants welcomed Sparky and Rhonda Rucker into the studio for conversation and music.
 
-This collection features four *Folk Heritage* programs digitized by Stephen Snyder, World Senior Radio Producer, and donated to the WGBH Media Library and Archives by Dick Pleasants. The collection also includes records for items that have not yet been digitized or have been digitized and are currently available for research on location at WGBH. Over time, more items will be added to the online collection.
-
->Source: Prime Time WGBH Program Guide (October 1978); On Air WGBH Radio Program Guide (September 1979) GBH Members Guide (May 2004)
+This collection features four *Folk Heritage* episodes that are available online. The original tapes were digitized by Stephen Snyder, World Senior Radio Producer. The collection also includes records for items that have not yet been digitized or have been digitized and are currently available for research on location at WGBH. Over time, more items will be added to the online collection.
 
 ## Programs
 
