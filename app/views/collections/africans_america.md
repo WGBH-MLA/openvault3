@@ -1,6 +1,6 @@
 # Africans in America
 
-9
+5
 
 ![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/africans_america/africans_america-q-50.jpg)
 
