@@ -52,10 +52,10 @@ gem 'cmless', '1.0.0'
 gem 'htmlentities', '~> 4.3.2'
 gem 'curb' # curl
 
-gem 'blacklight'
+gem 'blacklight', '~> 5.11.1'
 gem 'solrizer'
 gem 'rsolr'
-gem 'jettywrapper', '~> 1.7'
+gem 'jettywrapper'
 
 gem 'rubyzip'
 
