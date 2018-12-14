@@ -52,10 +52,10 @@ gem 'cmless', '1.0.0'
 gem 'htmlentities', '~> 4.3.2'
 gem 'curb' # curl
 
-gem 'blacklight'
+gem 'blacklight', '~> 5.11.1'
 gem 'solrizer'
 gem 'rsolr'
-gem 'jettywrapper', '~> 1.7'
+gem 'jettywrapper'
 
 gem 'rubyzip'
 
@@ -71,7 +71,7 @@ gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
 gem 'aws-sdk', '~> 2', :group => :development # Unless we want the AWS credentials on Travis for tests...
 
-gem 'rubocop', :group => :development
+gem 'rubocop', '0.32.1', :group => :development
 gem 'pry', :group => :development
 gem 'pry-nav', :group => :development
 
