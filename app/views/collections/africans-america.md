@@ -13,19 +13,19 @@ their struggle for freedom transformed America.
 
 Fifty-three original, full-length interviews comprising more than 55 hours shot for *Africans in America* are available in this collection. 
 
-## Interviews from *The Terrible Transformation (1562-1750)*
+## Interviews from The Terrible Transformation
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_01)
 
-## Interviews from *Revolution (1750-1805)*
+## Interviews from Revolution
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_02)
 
-## Interviews from *Brotherly Love (1776-1834)*
+## Interviews from Brotherly Love
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_03)
 
-## Interviews from *Judgment Day (1831-1861)*
+## Interviews from Judgment Day
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_04)
 
