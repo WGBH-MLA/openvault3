@@ -159,7 +159,7 @@ http://www.abcnewsvsource.com/
 http://www.aflcio.org/About/Our-History/Key-People-in-Labor-History/Esther-Peterson-1906-1997
 http://www.aldermanatwork.org
 http://www.aldermenatwork.org/
-http://www.americanarchive.org
+https://www.americanarchive.org
 http://www.answers.com/topic/sachs-hanns
 http://www.apdaweb.org/
 http://www.arts.gov
