@@ -58,7 +58,7 @@ describe 'Validated and plain PBCore' do
       end
 
       it 'rejects unexpected outside URL' do
-        invalid_pbcore = pbc_xml.sub(/Outside URL">http:\/\/americanarchive.org/, 'Outside URL">http://inquisition.es')
+        invalid_pbcore = pbc_xml.sub(/Outside URL">https:\/\/americanarchive.org/, 'Outside URL">http://inquisition.es')
         expect { ValidatedPBCore.new(invalid_pbcore) }.to(
           raise_error(/Outside URL not of expected form/))
       end
