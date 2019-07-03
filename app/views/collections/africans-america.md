@@ -29,7 +29,3 @@ Fifty-three original, full-length interviews comprising more than 55 hours shot 
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_04)
 
-## Related Content
-
-[*Africans in America* Series Website](http://www.pbs.org/wgbh/aia/home.html)
-
