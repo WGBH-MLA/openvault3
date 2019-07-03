@@ -39,7 +39,7 @@ class LinkChecker
     curl = Curl::Easy.new
     curl.url = full_url
     curl.follow_location = true
-    curl.max_redirects = 1
+    curl.max_redirects = 2
     curl.http_get
 
     code = curl.response_code
