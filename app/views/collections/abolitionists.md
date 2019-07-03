@@ -18,6 +18,6 @@
 
 - [<em>The Abolitionists</em> Documentary Website](http://www.pbs.org/wgbh/americanexperience/films/abolitionists/) 
 - [<em>The Abolitionists</em> Teaching Guide](https://mass.pbslearningmedia.org/collection/abolitionists)
-- [Black Abolitionist Archive, University of Detroit](http://research.udmercy.edu/find/special_collections/digital/baa/)
+- [Black Abolitionist Archive, University of Detroit](https://research.udmercy.edu/find/special_collections/digital/baa/)
 - [<em>From Slavery to Freedom: The African-American Pamphlet Collection 1822-1909</em>, Library of Congress](http://memory.loc.gov/ammem/aapchtml/aapchome.html)
 - [<em>The African American Odyssey: A Quest for Full Citizenship</em>, Library of Congress](https://www.loc.gov/exhibits/african-american-odyssey/abolition.html)
