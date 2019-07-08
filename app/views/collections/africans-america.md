@@ -1,6 +1,6 @@
 # Africans in America
 
-5
+6
 
 ![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/africans_america/africans-in-america_ov.jpg "Africans in America")
 
@@ -28,8 +28,4 @@ Fifty-three original, full-length interviews comprising more than 55 hours shot 
 ## Interviews from Judgment Day
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=africans-america_interview_04)
-
-## Related Content
-
-[*Africans in America* Series Website](http://www.pbs.org/wgbh/aia/home.html)
 

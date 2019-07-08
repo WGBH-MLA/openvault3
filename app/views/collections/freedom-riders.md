@@ -16,9 +16,9 @@ The <em>Freedom Riders</em> interviews were conducted in 2011 for the <em>Americ
 
 ## Related Content
 
-[<em>Voices from the Southern Civil Rights Movement</em> Exhibit](http://americanarchive.org/exhibits/civil-rights)
+[<em>Voices from the Southern Civil Rights Movement</em> Exhibit](https://americanarchive.org/exhibits/civil-rights)
 
-[<em>Eyes on the Prize</em> Interviews Collection](http://americanarchive.org/special_collections/eotp-i-interviews)
+[<em>Eyes on the Prize</em> Interviews Collection](https://americanarchive.org/special_collections/eotp-i-interviews)
 
 [<em>Freedom Riders</em> Documentary Website](http://www.pbs.org/wgbh/americanexperience/films/freedomriders/)
 

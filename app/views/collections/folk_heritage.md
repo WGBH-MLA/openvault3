@@ -1,6 +1,6 @@
 # Folk Heritage with Dick Pleasants
 
-5
+23
 
 ![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/folk_heritage/folk_heritage.jpg)
 
@@ -24,7 +24,7 @@ This collection features four *Folk Heritage* episodes that are available online
 
 ## Related Content
 
-[Longtime Radio Host Celebrate 40 Years](http://www.patriotledger.com/entertainment/x2026719765/Longtime-radio-host-celebrates-40-years)<br>
+[Longtime Radio Host Celebrate 40 Years](https://www.patriotledger.com/entertainment/x2026719765/Longtime-radio-host-celebrates-40-years)<br>
 *Jan 6, 2011, Patriot Ledger*
 
 [A Pleasant(s) Evening at Sanders to Honor Boston-Area DJ](http://acousticmusicscene.com/2010/12/30/a-pleasants-evening-at-sanders-to-honor-boston-area-dj/)<br>

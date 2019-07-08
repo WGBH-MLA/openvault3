@@ -2,13 +2,13 @@ http://2012diaries.blogspot.com/2010/05/hauntology-rising-part-1-ghost-box.html
 http://africanactivist.msu.edu/image.php?objectid=32-131-21E
 http://ahmadjamal.net/
 http://alandawson.org/
-http://americanarchive.org/
-http://americanarchive.org/catalog/cpb-aacip_15-06g1k422
-http://americanarchive.org/catalog/cpb-aacip_15-19s1rwtr
-http://americanarchive.org/catalog/cpb-aacip_15-36547qr1
-http://americanarchive.org/catalog/cpb-aacip_15-47dr85hr
-http://americanarchive.org/catalog/cpb-aacip_15-50tqk2fw
-http://americanarchive.org/catalog/cpb-aacip_15-80ht7n4v
+https://americanarchive.org/
+https://americanarchive.org/catalog/cpb-aacip_15-06g1k422
+https://americanarchive.org/catalog/cpb-aacip_15-19s1rwtr
+https://americanarchive.org/catalog/cpb-aacip_15-36547qr1
+https://americanarchive.org/catalog/cpb-aacip_15-47dr85hr
+https://americanarchive.org/catalog/cpb-aacip_15-50tqk2fw
+https://americanarchive.org/catalog/cpb-aacip_15-80ht7n4v
 http://amhistory.si.edu/juliachild/
 http://archive.org/details/JamesBreeden
 http://archive.org/details/report6263bost
@@ -159,7 +159,7 @@ http://www.abcnewsvsource.com/
 http://www.aflcio.org/About/Our-History/Key-People-in-Labor-History/Esther-Peterson-1906-1997
 http://www.aldermanatwork.org
 http://www.aldermenatwork.org/
-http://www.americanarchive.org
+https://www.americanarchive.org
 http://www.answers.com/topic/sachs-hanns
 http://www.apdaweb.org/
 http://www.arts.gov
@@ -313,3 +313,5 @@ https://aaamc.indiana.edu/
 https://www.digitaltransgenderarchive.net/
 https://mass.pbslearningmedia.org/collection/abolitionists
 http://docsouth.unc.edu/fpn/
+https://libraries.udmercy.edu/archives/special-collections/index.php?collectionCode=baa
+https://research.udmercy.edu/find/special_collections/digital/baa/

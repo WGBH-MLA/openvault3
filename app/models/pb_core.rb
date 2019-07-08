@@ -184,7 +184,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
     xpath_boolean('/*/pbcoreAnnotation[@annotationType="Password Restriction"]')
   end
 
-  AAPB_RE = /^http:\/\/americanarchive.org\//
+  AAPB_RE = /^https:\/\/americanarchive.org\//
   NEWS_RE = /^http:\/\/bostonlocaltv.org\//
   def outside_url
     @outside_url ||=
