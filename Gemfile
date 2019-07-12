@@ -4,10 +4,12 @@
 
 source 'https://rubygems.org'
 
+ruby '2.4.4'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2'
+gem 'rails', '4.2.8'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.6'
 # gem 'mysql2', :group => :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -76,3 +78,6 @@ gem 'pry', :group => :development
 gem 'pry-nav', :group => :development
 
 gem 'passenger'
+
+gem 'bigdecimal'
+gem 'minitest', '5.11.3'
