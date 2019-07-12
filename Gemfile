@@ -80,3 +80,4 @@ gem 'pry-nav', :group => :development
 gem 'passenger'
 
 gem 'bigdecimal'
+gem 'minitest', '5.11.3'

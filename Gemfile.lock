@@ -275,6 +275,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jettywrapper
   jquery-rails
+  minitest (= 5.11.3)
   passenger
   pry
   pry-nav
