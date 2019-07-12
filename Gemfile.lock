@@ -45,6 +45,7 @@ GEM
     aws-sdk-resources (2.11.190)
       aws-sdk-core (= 2.11.190)
     aws-sigv4 (1.0.3)
+    bigdecimal (1.4.4)
     blacklight (5.11.3)
       bootstrap-sass (~> 3.2)
       deprecation
@@ -239,6 +240,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-page_caching
   aws-sdk (~> 2)
+  bigdecimal
   blacklight (~> 5.11.1)
   blacklight_range_limit
   bootstrap-sass (= 3.3.4.1)

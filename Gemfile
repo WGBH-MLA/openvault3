@@ -78,3 +78,5 @@ gem 'pry', :group => :development
 gem 'pry-nav', :group => :development
 
 gem 'passenger'
+
+gem 'bigdecimal'
