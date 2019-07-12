@@ -288,7 +288,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   solrizer
   spring (~> 1.6.3)
-  sqlite3
+  sqlite3 (= 1.4.1)
   therubyracer
   uglifier (>= 1.3.0)
 
