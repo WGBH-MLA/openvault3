@@ -15,7 +15,7 @@ A gift in support of Open Vault, leveraged by the NEH Challenge grant currently 
 •	Improve our website with new features and improve functionality and discoverability of the collection
 •	Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
 
-Read the entire Case for Support <a href="/assets/case_for_support.pdf" target="_blank">here</a>. 
+Read the entire Case for Support <a href="http://localhost:3000/assets/case_for_support.pdf" target="_blank">here</a>.
 
 If you are interested in supporting Open Vault and the NEH challenge currently underway, please contact Tatiana Espinal, Major Gifts Officer, at tatiana_espinal@wgbh.org or 617.300.3677.
 
