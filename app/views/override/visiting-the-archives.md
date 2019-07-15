@@ -1,10 +1,10 @@
 # Visiting the Archives
 
-Members of the general public are welcome to access the WGBH Media Library and Archives’ processed collections in the [WGBH offices in Brighton, Massachusetts](http://www.wgbh.org/about/Directions.cfm). Users who visit the MLA must agree to abide by MLA's policies. Materials can only be accessed on-site and cannot be borrowed or taken from the WGBH offices. 
+Members of the general public are welcome to access the WGBH Media Library and Archives’ processed collections in the [WGBH offices in Brighton, Massachusetts](http://www.wgbh.org/about/Directions.cfm). Users who visit the MLA must agree to abide by MLA's policies. Materials can only be accessed on-site and cannot be borrowed or taken from the WGBH offices.
 
-The MLA is open Monday through Friday from 9:00am to 3:00pm ET. Before contacting us to schedule your visit, please review the information below. 
+The MLA is open Monday through Friday from 10:00am to 4:00pm ET. Before contacting us to schedule your visit, please review the information below.
 
-Before your visit, researchers should contact MLA with a specific research request. In some cases, we may first request to schedule an interview to determine which materials you will need to access. Researchers are asked to plan their visit well in advance so that some reference services can be conducted prior to arrival, such as retrieving boxes and tapes. Researchers must contact MLA a minimum of two weeks in advance of their intended visit. Please contact WGBH MLA at <a 
+Before your visit, researchers should contact MLA with a specific research request. In some cases, we may first request to schedule an interview to determine which materials you will need to access. Researchers are asked to plan their visit well in advance so that some reference services can be conducted prior to arrival, such as retrieving boxes and tapes. Researchers must contact MLA a minimum of two weeks in advance of their intended visit. Please contact WGBH MLA at <a
 href="mailto:archive_requests@wgbh.org">archive_requests@wgbh.org</a> and state the nature of your research interest and your academic or professional affiliation.
 
 ## Guidelines
@@ -19,8 +19,8 @@ Researchers must abide by WGBH MLA’s rules governing the physical handling of 
 - agreeing to let MLA staff do all photocopying of archival papers
 - permitting an inspection of notes to ensure documents are not leaving the Archives.
 
-Permitted photocopying of materials for scholarly use will be granted in accordance with the <a target="_blank" 
-href="http://www.copyright.gov/title17/92chap1.html#107">Fair Use provisions of 
+Permitted photocopying of materials for scholarly use will be granted in accordance with the <a target="_blank"
+href="http://www.copyright.gov/title17/92chap1.html#107">Fair Use provisions of
 the Copyright Act</a>.
 
 Users cannot quote or publish materials from WGBH archival collections without first obtaining the written permission of WGBH Educational Foundation. Users must submit a copy of all portions of their intended final work with their request for permission.

@@ -30,6 +30,7 @@
         font-weight: $medium;
         &:hover { color: $yellow; }
         &#donate { color: $yellow; }
+        &#support { color: $yellow; }
     }
 }
 
@@ -46,7 +47,7 @@
       margin-top: 20px;
       font-size: 14px;
     }
-    
+
     svg#wgbh-logo {
       text { font-weight: bold; }
       path,text { fill: #FFF;  }
