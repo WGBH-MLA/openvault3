@@ -10,6 +10,22 @@ As America's preeminent public broadcasting producer, the source of fully one-th
 
 The entire WGBH collection and the American Archive of Public Broadcasting are available for research on location at WGBH. [Contact us](/contact-us) to schedule a research visit in our Brighton, MA offices.
 
-If you are interested in supporting Open Vault through donation or sponsoring digitization, [contact us](/contact-us).
+If you are interested in supporting Open Vault by making a gift please contact Tatiana Espinal at tatiana_espinal@wgbh.org or 617-300-3677.
 
 For professional licensing requests, please visit the [WGBH Stock Sales](http://wgbhstocksales.org) website or call 617-300-3939.
+
+**Current Initiatives**
+
+NEH Challenge
+In 2018, WGBH received a $750,000 challenge grant from the National Endowment for the Humanities (NEH) to preserve and digitize the most at-risk items in the WGBH archival collection, specifically 83,000 media resources. This effort will preserve the archive we have built and ensure that future media assets are properly preserved as they are created. The grant calls for a 4:1 match, or $3 million in matching dollars over the next four years.
+
+A gift in support of Open Vault, leveraged by the NEH Challenge grant currently underway, directly enables us to:
+
+•	Digitize critical programs that are currently deteriorating on obsolete formats
+•	Add newly digitized content to Open Vault
+•	Improve our website with new features and improve functionality and discoverability of the collection
+•	Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
+
+If you are interested in supporting Open Vault and the NEH challenge currently underway, please contact Tatiana Espinal, Major Gifts Officer, at tatiana_espinal@wgbh.org or 617.300.3677.
+
+WGBH is a 501(c)(3) nonprofit organization. All donations are tax deductible to the extent allowable by law.
