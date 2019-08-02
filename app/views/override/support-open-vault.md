@@ -10,10 +10,10 @@ In 2018, WGBH received a $750,000 challenge grant from the National Endowment fo
 
 A gift in support of Open Vault, leveraged by the NEH Challenge grant currently underway, directly enables us to:
 
-•	Digitize critical programs that are currently deteriorating on obsolete formats
-•	Add newly digitized content to Open Vault
-•	Improve our website with new features and improve functionality and discoverability of the collection
-•	Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
+- Digitize critical programs that are currently deteriorating on obsolete formats
+- Add newly digitized content to Open Vault
+- Improve our website with new features and improve functionality and discoverability of the collection
+- Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
 
 Read the entire Case for Support <a href="http://localhost:3000/assets/case_for_support.pdf" target="_blank">here</a>.
 
