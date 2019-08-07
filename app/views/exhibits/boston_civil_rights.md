@@ -194,48 +194,37 @@ Dear Peggy, if you never hear from me again; don’t worry because I know what I
 
 It was perhaps the first time that Black youngsters in Boston had an opportunity to personally identify with a peer who showed such commitment to the cause of racial justice.  Throughout the one-day Freedom School the youth were exposed to a set of new ideas about citizenship, a sense of their own efficacy and identity, and a new way to view their education. Thus, it was not surprising that by the end of the day they expressed an overwhelmingly positive response to the request for student volunteers to work on St. Mark’s voter registration and educational activities, scheduled for the summer.  
 
+### The Aftermath
 
+Predictably, School Committee members unvaryingly declared the Stay Out a failure, reiterating their previous claims of its unlawfulness and violence. Eisenstadt declared, “Based on lawlessness, it was destined to fail before it was conceived.” Despite strong evidence to the contrary, Hicks reemphasized the violence argument, speaking of the “mothers who kept their children home because of fear of bodily harm.”[<sup>152/sup>](#footnote-152)  Superintendent Gillis argued attendance figures showed “the ‘Stay Out’ movement has been a failure.”  However, he added the racialized caveat that “many of those who refrained from going to school were white children whose parents kept them home rather than risk trouble.”[<sup>153/sup>](#footnote-153)  These comments reflected a level of insularity that would be a challenge even if the School Committee had the intentions to negotiate in good faith.  Although the Stay Out did not change the attitudes of School Committee members, it prompted action by Massachusetts Governor Endicott Peabody. After the Governor’s efforts to persuade the School Committee to acknowledge racial imbalance in the public schools had failed; he took a strong stand against the School Committee. He issued a statement, which read in part that, “de facto segregation impairs access to adequate education and employment and denies freedom of association as well as other social and economic opportunities that are inherent in a free society.”[<sup>154/sup>](#footnote-154)  Thus, Governor Peabody conceded to the existence of de facto segregation in a very public way in the wake of the Stay Out. Certainly, it was as much of a victory for the NAACP, the parents and Stay Out leaders, as it was a defeat for the Boston School Committee.
 
+On the other hand, Stay-Out leaders and other activists presented a broader context for assessing the mass action. Noel Day framed the Stay Out campaign as successful to the extent it provided a structure for thousands of students and their parents to engage in mass action, putting into practice the idea of being politically active. In his message on the value of the Freedom School, Day emphasized that it gave the children some understanding of the importance of “a large non-violent movement in the North.”[<sup>155/sup>](#footnote-155)   Moreover, Day highlighted the significance of the African and African History components of the Freedom Schools, asserting, “I believe, the most significant aspect of the Stayout. Here, we had children . . . that no idea that they were deeply rooted in American History, learning something about themselves; learning something about their ancestors.”[<sup>156/sup>](#footnote-156)  Ruth Batson stressed the Stay Out’s significance by highlighting the agency of Black parents. She explained that the Stay Out “demonstrated to the Boston community that the Negro community is concerned and that we want action.”[<sup>157/sup>](#footnote-157)  Bill Russell, who addressed the students at the St. Mark’s Freedom School, spoke of its success declaring, “We’re ready; we’re into the fight now. And I think we’ll win.” He emphasized the protest’s implication as a factor in achieving actual democracy in America. He warned that if the demands for desegregation in the Boston Public Schools continued to go unanswered that “it could conceivably destroy democracy here and everywhere.”[<sup>158/sup>](#footnote-158)  As Day summed it up, from an organizing perspective, “The form of action was highly visible, therefore the community could relate to and identify with its success.”[<sup>159/sup>](#footnote-159)  Overall, the Black activists were inspired by the display of a new capacity for mass action in Boston.
 
+While the Massachusetts Freedom Movement activists focused on the implementation of the ongoing Freedom Schools, various mobilizations were organized by different community groups. On June 26th, thousands of demonstrators participated in the NAACP-sponsored Memorial Rally for Medgar Evers on the Boston Common, where they launched a voter registration drive for the upcoming School Committee election. The demonstrators were also joined by the 1000 STOP protestors who had marched from Roxbury to the Common.[<sup>160/sup>](#footnote-160)  During the summer, the NAACP, BAG, NSM and various civil rights groups picketed intermittently outside 15 Beacon Street, protesting the School Committee’s refusal to continue negotiations with the NAACP.[<sup>161/sup>](#footnote-161)   When the School Committee ostensibly conceded to meet with the NAACP on August 15, 1963, they summarily ended the meeting fifteen minutes later when Ruth Batson mentioned the term “de facto segregation.”[<sup>162/sup>](#footnote-162)  Many of the activists attended the March on Washington and returned to Boston with a renewed commitment to struggle for social change.[<sup>163/sup>](#footnote-163)  
+
+On Thursday, September 5, 1963, the NAACP accelerated its non-violent direct-action protests by organizing a Sit-In at the School Committee’s headquarters. While the sit-in was not a mass action, the protestors, nonetheless, risked arrest. By doing so, they clearly demonstrated the degree to which they claimed civil disobedience as a viable civil rights tactic since the June Stay Out for Freedom campaign. During its regularly scheduled meeting on Friday, September 6th, the School Committee voted to have the police remove the NAACP Sit-In demonstrators who were still protesting elsewhere in the building. The demonstrators vowed to remain; however, later in the evening all persons were evacuated from the building due to an alleged bomb scare.[<sup>164/sup>](#footnote-164)  After the sit-in, the NAACP called on community activists to temporarily discontinue demonstrations at the School Committee headquarters.[<sup>165/sup>](#footnote-165)  Its primary focus was now electoral politics.
+
+Indeed, many of the city’s activists then turned their attention exclusively to electoral politics. Much of the activists’ energy was channeled into the fall Boston School Committee election. A community-endorsed slate of progressive candidates, including Mel King, was attempting to unseat the anti-integrationist incumbents, Louise Day Hicks, Thomas Eisenstadt, Joseph Lee and William O’Connor. This left Arthur Gartland as the only sitting member to receive support from the Black community and other progressives.[<sup>166/sup>](#footnote-166)  However, in one of the largest rallies in the community, the March on Roxbury, Thomas Atkins chastised the estimated crowd of 10,000 people. He complained that the activists’ demands of the School Committee to provide quality education for their children would continue to go unanswered because many Black Bostonians did not vote. Pointing to the voter apathy in the Black community, Atkins stated, “In the last election less than 50 percent of the Boston Negroes bothered, cared, took the time to vote.”[<sup>167/sup>](#footnote-167)  His stern advice was, "don't go complaining about anything until you register and vote!” The crowd responded enthusiastically.[<sup>168/sup>](#footnote-168)  Unfortunately, however, the fervor did not translate into a win for the progressive slate. Instead, it was the four anti-integrationist incumbents who scored the city-wide resounding win, with Hicks capturing seven out of ten votes.[<sup>169/sup>](#footnote-169)
+
+Certainly, the Black community suffered a setback as a result of the continued recalcitrant behavior of the Boston School Committee, buttressed by their victory in the November 5, 1963 election and the defeat of Mel King. However, the set-back turned out to be short-lived. As the New Year began, what apathy existed in the Black community rapidly dissipated. In January, no sooner than his assumption of the chairmanship of the Boston School Committee, William O’Connor provided his analysis of the issue of de facto segregation, stating that the problem was not inferior schools, but rather a case of “an inferior type of student.”[<sup>170/sup>](#footnote-170)  Shortly thereafter, Reverend Breeden announced a second Stay Out for Freedom campaign to take place in February 1964, that ultimately drew 10,000 school children, and thus, ushered in  the next phase of Boston’s evolving direct-action movement.
+
+#### Reflections on the Legacy of the 1963 Stay Out for Freedom Campaign
+
+The legacy of the first Stay Out for Freedom Campaign should be viewed within the context of local and national factors. The Citizens for Human Rights led the way in organizing thousands of Black people to engage in mass action in defiance of the influence and power of the Boston School Committee. Their direct-action campaign added an important new dimension to the local struggle for civil rights, as evidenced by the decisive move toward civil disobedience in a relatively short time. The aim of the Citizens for Human Rights group was to build a non-violent direct-action movement in Boston, and this was an important step. However, the leadership understood that it was necessarily a long-term endeavor and they directed their efforts on methods of radicalizing the youth to become agents for social change. In addition to expanded Freedom Schools, organizers sought to engage the youth in political work such as voter registration and education.  This work is more difficult to measure and is certainly outside the parameters of this essay. However, some school officials complained that, after attending the Freedom Schools,  “the kids came back with chips on their shoulders and started quoting all the rules and regulations about what we could and could not do.”[<sup>171/sup>](#footnote-171)  At least anecdotally it suggests that the Freedom School experience raised the consciousness of some of the youth as intended. An examination of the second Stay Out and the ongoing Freedom Schools might provide evidence to support such claims.
+
+Nonetheless, Boston’s Stay Out the School Boycott concept as a viable direct-action technique in the struggles to end de facto segregation in public schools in communities outside the South, quickly became a major civil rights phenomenon.  Reverend Breeden and other activists from across the country met in New York to develop a plan for a coordinated school boycott. The group decided on a National School Boycott in February 1964, in which boycotts were planned in New York, Chicago, Cleveland, Philadelphia and Chester Pennsylvania, Cambridge and Baltimore, Maryland, Milwaukee and Boston to demand the desegregation of public schools.[<sup>172/sup>](#footnote-172)  Following the example of Boston, most of the protest groups also established Freedom Schools.[<sup>173/sup>](#footnote-173)  Indeed, Boston’s Freedom Schools would be replicated and innovated elsewhere in the country during this period, including the historic 1964 Mississippi Summer project.[<sup>174/sup>](#footnote-174)
+
+The meteoric rise of the School Boycott concept was not unanimously sanctioned by the civil rights establishment. A few civil rights leaders equivocated or opposed the idea. Although Roy Wilkins did not hesitate to give the support of the National NAACP to Boston’s June 18, 1963 Stay Out action, he was less inclined to give a blanket endorsement of the concept of school boycotts as a civil rights tactic. After first rejecting the idea, Wilkins was pressured by other civil rights activists to reverse his stand. He then reluctantly gave a conditional approval, stating that in general, “children should to go to school while adults argue the issue, but where parents decided upon a boycott, we would aid.”[<sup>175/sup>](#footnote-175)  Conversely, Martin Luther King, Jr. understood its force as a significant expansion of the contours of the movement and “heartily endorsed the concept” and the local actions.[<sup>176/sup>](#footnote-176)  The concept corresponded well with the strategy of increased non-violent direct-action and its attendant new slogan, “More In ’64.”[<sup>177/sup>](#footnote-177)  For King, the school boycotts played an important role in exposing the myth of racial discrimination and oppression as “inherently sectional problems” limited to the South. King argued, “School boycotts have punctured the thin veneer of the North’s racial self-righteousness.”[<sup>178/sup>](#footnote-178)  This task was essential in order to shape the narrative of a national civil rights movement undergirding the “Negro Revolution” or “Negro Revolt.”[<sup>179/sup>](#footnote-179)  
+
+Boston activists, in the Deep North, were making major strides in effectively exposing the contradiction. For far too long, the North had exorcised itself from its own systems of racial discrimination and hierarchy; while often providing moral and financial support for the civil rights struggle in the South. The 1963 Stay Out campaign became a harbinger of the heightened militancy that was to unfold among people of African descent in Boston during this period. In the years to come, many of the youth of the “Stay Out” generation, including the author, took their places in the struggle for human rights and social change. Thus, the Stay Out campaign also stood as an exemplar in the wave of “Negro Power” that sought to move an unwilling nation into a new phase of living up to its American Creed.  
 
 <--- STOPPED HERE. ABOVE HERE HAS BEEN UPDATED, AND BELOW HERE HAS NOT BEEN UPDATED YET. THE FOOTNOTES SECTION AT THE END NEEDS TO BE COMPLETED UPDATED BASED ON THESE LATEST FOOTNOTES, AS THEY WILL NO LONGER ALIGN. --->
 
 
 
-
-
-
-### The Aftermath
-
-Predictably, School Committee members unvaryingly declared the Stay Out a failure, reiterating their previous claims of its unlawfulness and violence. Eisenstadt declared, “Based on lawlessness, it was destined to fail before it was conceived.” Despite strong evidence to the contrary, Hicks reemphasized the violence argument, speaking of the “mothers who kept their children home because of fear of bodily harm.”[<sup>136</sup>](#footnote-136)  Superintendent Gillis argued attendance figures showed “the ‘Stay Out’ movement has been a failure.”  However, he added the racialized caveat that “many of those who refrained from going to school were white children whose parents kept them home rather than risk trouble.”[<sup>137</sup>](#footnote-137)  These comments reflected the same level of insularity among the School Committee members evidenced in the June 11th NAACP public hearing.
-
-While the Stay Out did not change the attitudes of School Committee members, it prompted action by Massachusetts Governor Endicott Peabody. After the Governor’s efforts to persuade the School Committee to acknowledge racial imbalance in the public schools had failed; Governor Peabody took a strong stand against the School Committee. He issued a statement, which read in part that “*de facto segregation* impairs access to adequate education and employment and denies freedom of association as well as other social and economic opportunities that are inherent in a free society.”[<sup>138</sup>](#footnote-138)  Thus, Governor Peabody conceded to the existence of *de facto segregation* in a very public way in the aftermath of the Stay Out. It was certainly a victory for the parents and Stay Out leaders. However, the governor’s stance also further exposed the persistent inability of the School Boston Committee to recognize and appropriately respond to changing social forces of the times.
-
-Stay-Out leaders and other activists presented a broader context for assessing the mass action. Noel Day framed the Stay Out campaign successful to the extent it provided a structure for thousands of students and their parents to engage in mass action,  putting into practice the idea of being politically active. In his message on the value of the Freedom School, Day emphasized that it gave the children some understanding of the importance of “a large non-violent movement in the North.”[<sup>139</sup>](#footnote-139)   Moreover, Day highlighted the significance of the African and African History component of the Freedom Schools, asserting, “I believe, the most significant aspect of the Stayout. Here, we had children . . . that had no idea that they were deeply rooted in American History, learning something about themselves; learning some about their ancestors.”[<sup>140</sup>](#footnote-140) Ruth Batson stressed the Stay Out’s significance by highlighting the agency of Black parents. She explained that Stay Out “demonstrated to the Boston community that the Negro community is concerned and that we want action.”[<sup>141</sup>](#footnote-141)  Bill Russell, who addressed the students at the St. Mark’s Freedom School, spoke of its success declaring, “We’re ready; we’re into the fight now. And I think we’ll win.” He emphasized the protest’s implication as a factor in achieving actual democracy in America. He warned that if the demands for desegregation in the Boston Public Schools continued to go unanswered that “it could conceivable destroy democracy here and everywhere.”[<sup>142</sup>](#footnote-142)  Overall, the Black activists were inspired by the display of a new capacity for mass action in Boston.
-
-Following the Stay Out, the Citizens for Human Rights activists focused on the implementation of the ongoing Freedom Schools. At the same time, various mobilizations were organized by different community groups. On June 26th thousands of demonstrators participated in the NAACP-sponsored Memorial Rally for Medgar Evers on the Boston Common where they launched a voter registration drive for the upcoming School Committee election. The demonstrators were also joined by the 1000 STOP protestors who had marched from Roxbury to the Common.[<sup>143</sup>](#footnote-143) During the summer, the NAACP, BAG, NSM and various civil rights groups picketed intermittently outside 15 Beacon Street protesting the School Committee’s refusal to continue negotiations with the NAACP.[<sup>144</sup>](#footnote-144) On July 30th the NAACP issued an ultimatum to the Boston School Committee warning that if the School Committee did not resume negotiations that the NAACP, “with the support of every other major civil rights organization,” would begin mass demonstrations at the School Committee Headquarters on August 2nd.[<sup>145</sup>](#footnote-145)  Ultimately, the School Committee conceded to meet with the NAACP on August 15, 1963 only to summarily end the meeting fifteen minutes later when Ruth Batson mentioned the term “*de facto segregation*.”[<sup>146</sup>](#footnote-146)  Many of the activists attended the March on Washington and returned to Boston with renewed commitment to struggle for social change.[<sup>147</sup>](#footnote-147)
-
-On Thursday, September 5, 1963, the NAACP accelerated its non-violent direct action protests by organizing a sit-In at the School Committee’s headquarters. While the sit-in was not a mass direct action, the protestors, nonetheless, risked arrest. By doing so, they clearly demonstrated the degree to which they had claimed civil disobedience as a viable civil rights tactic since June Stay Out. During its regularly scheduled meeting on Friday, September 6th, the School Committee voted to have the police remove the NAACP Sit-In demonstrators who were still protesting elsewhere in the building. The demonstrators vowed to remain; however, later in the evening all persons were evacuated from the building due to an alleged bomb scare.[<sup>148</sup>](#footnote-148)  Following the sit-in, the NAACP requested a temporary discontinuance of demonstration at the School Committee headquarters.[<sup>149</sup>](#footnote-149) Its primary focus was now electoral politics.
-
-Indeed, many of the city’s activists then turned their attention exclusively to electoral politics. Much of the activists’ energy was channeled into the fall Boston School Committee election. The NAACP and Citizens for Public Schools, an education advocacy group, endorsed Mel King, John Carney, and incumbent, Arthur Gartland in an attempt to unseat the anti-desegregation incumbents, Louise Day Hicks, Thomas Eisenstadt, and Joseph Lee.[<sup>150</sup>](#footnote-150)  Leading up to the School Committee election, Thomas Atkins chastised the estimated crowd of 10,000 people during the March on Roxbury, one of Boston’s largest rallies. He complained that the activists’ demands of the School Committee to provide quality education for their children would continue to go unanswered because many Black Bostonians did not vote. Pointing to the voter apathy in the Black community, Atkins stated, “In the last election less than 50 percent of the Boston Negroes bothered, cared, took the time to vote.”[<sup>151</sup>](#footnote-151) His stern advice was "don't go complaining about anything until you register and vote!” The crowd responded enthusiastically.[<sup>152</sup>](#footnote-152) Unfortunately, however, the fervor of the rally did not translate into a win for the progressive slate.
-
-In a stunning rebuke to the Black community, all five School Committee scored a city-wide resounding win, with Hicks capturing seven out of ten votes.[<sup>153</sup>](#footnote-153)  Therefore, the election was widely viewed as a rejection of the Black community’s assertions of *de facto segregation* in the Boston Public Schools. Indeed, Hick was quick to declare “The people of Boston have given their answer to the de facto segregation question.”[<sup>154</sup>](#footnote-154) For Hicks, the incumbents’ victory was the final word on the matter. However, in an ironic twist, Alabama Governor George Wallace unwittingly disrupted the triumph. Speaking in near-by New Hampshire, Wallace praised the election results as a vindication of segregationists, proclaiming, “Take a look at the Boston School Board election returns if you don’t believe there are many other people who believe about segregation as I do.”[<sup>155</sup>](#footnote-155)   Wallace’s endorsement of the Boston School Committee bolstered the NAACP’s charge that the re-election of the staunch anti-desegregationists “was done on a racial basis.[<sup>156</sup>](#footnote-156) Nonetheless, while acknowledging the racial context of the election defeat for the Black community, the NAACP also attempted to enlarge the argument with a word of caution of the likely ramifications for all the citizens of Boston. The civil rights organization argued, “What most Boston voters may not have realized is that Mrs. Hicks may now feel justified in refusing to discuss school conditions with any group of voters, white of black.”[<sup>157</sup>](#footnote-157) Notwithstanding Hicks’s assertions, rather than ending the debate, overall, the 1963 Boston School Committee election only deepened the political divide on the issue of *de facto segregation* and educational justice.
-
-Certainly, the Black community suffered a setback as a result of the continued recalcitrant behavior of the Boston School Committee, buttressed by their victory in the November 5, 1963 election and the defeat of Mel King. However, the set-back turned out to be short-lived. As the New Year began what apathy existed in the Black community rapidly dissipated. In January, no sooner than his assumption of the chairmanship of the Boston School Committee, William O’Connor provided his analysis the issue of *de facto segregation*, stating that the problem was not inferior schools, but rather a case of “an inferior type of student.”[<sup>158</sup>](#footnote-158)  Shortly thereafter, Reverend Breeden announced a second Stay Out for Freedom to take place in February 1964 that would become the next phase in Boston’s evolving direct action movement.[<sup>159</sup>](#footnote-159)
-
-#### Reflections on the Legacy of the 1963 Stay Out for Freedom Campaign
-
-The legacy of the first Stay Out for Freedom Campaign should be viewed within the context of local and national factors. The Citizens for Human Rights led the way in organizing thousands of Black people to engage in mass action in defiance of the influence and power of the Boston School Committee and a segment of the Black elite. The CFHR’s direct action campaign added an important new dimension to the local struggle for civil rights as evidenced by the decisive move toward civil disobedience in a relatively short time. The aim of the Citizens for Human Rights group was to build a non-violent direct action movement in Boston and the Stay Out for Freedom was an important step. However, the Stay Out leadership understood that it was necessarily a long-term endeavor and they directed their efforts on methods to radicalize the youth to become agents for social change. In addition to expanded Freedom Schools, organizers sought to engage the youth in political work such as voter registration and education.  This work is more difficult to measure and is certainly outside the parameters of this essay. However, some school officials complained “the kids came back with chips on their shoulders and started quoting all the rules and regulations about what we could and could not do.”[<sup>160</sup>](#footnote-160)  At least anecdotally it suggests that the Freedom School experience raised the consciousness of some of the youth as intended. An examination of the second Stay Out and the ongoing Freedom Schools might provide evidence to support such claims.
-
-Nonetheless, Boston’s Stay Out/School Boycott concept as a viable direct action technique in the struggles to end *de facto segregation* in public schools in communities outside the South quickly became a major civil rights phenomenon.  Reverend Breeden and other activists from across the country met in New York to develop a plan for a coordinated school boycott. The group decided on a National School Boycott in February 1964, in which boycotts were planned in New York, Chicago, Cleveland, Philadelphia and Chester Pennsylvania, Cambridge and Baltimore, Maryland, Milwaukee and Boston to demand the desegregation of public schools.[<sup>161</sup>](#footnote-161) Following the example of Boston, most of the protest groups also established Freedom Schools.[<sup>162</sup>](#footnote-162) In fact, Boston’s Freedom Schools would be replicated and innovated elsewhere in the country during this period, including the Mississippi Summer project.
-
-The meteoric rise of the School Boycott concept was not unanimously sanctioned by the civil rights establishment. A few civil rights leaders equivocated or opposed the idea. Although Roy Wilkins did not hesitate to give the support of the National NAACP to Boston’s June 18, 1963 Stay Out action,[<sup>163</sup>](#footnote-163)  he was less inclined to give a blanket endorsement of the concept of school boycotts as a civil rights tactic. After first rejecting the idea, Wilkins was pressured by other civil rights activists to reverse his stand. He then reluctantly gave a conditional approval, stating that in general, “children to go to school while adults argue the issue, but where parents decided upon a boycott, we would aid.”[<sup>164</sup>](#footnote-164) On the other hand, Martin Luther King, Jr. understood  its force as a significant expansion of the contours of the movement and “heartily endorsed the concept” and the local actions. The concept corresponded well with the strategy of increased non-violent direct action and its attendant new slogan, “More In ’64.”[<sup>165</sup>](#footnote-165) To King, the school boycotts played an important role in exposing the myth of racial discrimination and oppression as “inherently sectional problems” limited to the South. King argued, “School boycotts have punctured the thin veneer of the North’s racial self-righteousness.”[<sup>166</sup>](#footnote-166) This task was essential in order to shape the narrative of a national civil rights movement undergirding the “Negro Revolution” or “Negro Revolt.”
-
-Boston activists, in the Deep North, were making major strides in effectively exposing the contradiction and expanding the narrative. For far too long, the North had exorcised itself from its own systems of racial discrimination and hierarchy; often while providing moral and financial support for the civil rights struggle in the South. Moreover, the 1963 Stay Out campaign became a harbinger of the heightened militancy that was to unfold among people of African descent in Boston during this period. In the years to come, many of the youth of the “Stay Out” generation, including the author, took their place in the struggle for human rights and social change. Thus, the Stay Out campaign also stood as an exemplar in the wave of “Negro Power” that sought to move an unwilling nation into a new phase of living up to its American Creed.
-
 ### Endnotes
 
-<a name="footnote-footnote-1"></a><sup>1</sup>The author would like to thank Allison Pekel and WGBH Foundation for the opportunity to participate in this project as a Mellon Scholar. A sincere thanks is also extended to Aaron Schmidt, Boston Public Library Print Department; Michelle Romero, Snell Library Archives and Special Collections Department, Northeastern University; the Schlesinger Library; Arthur Pollock, Boston Herald; and Dr. Charles E. Jones, Professor of Africana Studies, University of Cincinnati.
+<a name="footnote-1"></a><sup>1</sup>The author would like to thank Allison Pekel and WGBH Foundation for the opportunity to participate in this project as a Mellon Scholar. A sincere thanks is also extended to Aaron Schmidt, Boston Public Library Print Department; Michelle Romero, Snell Library Archives and Special Collections Department, Northeastern University; the Schlesinger Library; Arthur Pollock, Boston Herald; and Dr. Charles E. Jones, Professor of Africana Studies, University of Cincinnati.
 
 <a name="footnote-2"></a><sup>2</sup>For an account of the activism leading to the legal challenge  to school segregation in antebellum Boston (Roberts vs. Boston) and the first boycott of the Boston Public Schools see, Stephen Kendrick and Paul Kendrick, Sarah’s Long Walk: The Free Blacks of Boston and How Their Struggle for Equality Changed America (Boston: Beacon Press, 2004).
 
@@ -251,37 +240,37 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 
 <a name="footnote-8"></a><sup>8</sup>See Molefi Kete Asante, Afrocentricity (Trenton, N.J.: Africa World Press, Inc. 1991), 59-60.
 
-<a name="footnote-9"></a><sup>9</sup>See King, Chain of Change, 155-168.
+<a name="footnote-9"></a><sup>9</sup>See Audrea F. Dunham, “Fight for a Change”
 
-<a name="footnote-10"></a><sup>10</sup>Ted Poston, Panelist, “Civil Rights Panel with Louis Lyons,” WGBH-FM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-10"></a><sup>10</sup>See King, Chain of Change, 155-168.
 
-<a name="footnote-11"></a><sup>11</sup>Robert L. Levey, Panelist, The Struggle for Civil Rights in Boston. John F. Kennedy Presidential Library and Museum, Boston, MA March 29, 1998). [Hereafter, The Struggle for Civil Rights in Boston 1998]
+<a name="footnote-11"></a><sup>11</sup>Ted Poston, Panelist, “Civil Rights Panel with Louis Lyons,” WGBH-FM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-12"></a><sup>12</sup>“Girl Strangling Stirs Outcry by 500 In Roxbury,” Boston Globe, January 7, 1963.
+<a name="footnote-12"></a><sup>12</sup>Robert L. Levey, Panelist, The Struggle for Civil Rights in Boston. John F. Kennedy Presidential Library and Museum, Boston, MA March 29, 1998). [Hereafter, The Struggle for Civil Rights in Boston 1998]
 
-<a name="footnote-13"></a><sup>13</sup>“1000 in Roxbury Jeer McNamara,” Boston Globe, January 8, 1963.
+<a name="footnote-13"></a><sup>13</sup>“Girl Strangling Stirs Outcry by 500 In Roxbury,” Boston Globe, January 7, 1963.
 
-<a name="footnote-14"></a><sup>14</sup>“Citizens’ Council on Police Practices,” Phyllis M. Ryan Collection (M94), University Libraries, Archives and Special Collections Department, Northeastern University, Boston, Massachusetts, Box 1, Folder: 10. [Hereafter, PMR].
+<a name="footnote-14"></a><sup>14</sup>“1000 in Roxbury Jeer McNamara,” Boston Globe, January 8, 1963.
 
-<a name="footnote-15"></a><sup>15</sup>Noel Day, “The Freedom Movement in Massachusetts.” Distributed by Student for a Democratic Society, 119 5th Avenue, New York, New York, and its Economic Research and Action Project, 1100 E. Washington Street, Ann Arbor, Michigan. Helen Garvy Papers, International Institute of Social History (IISH),  Amsterdam - the Netherlands, 6-7. Day also published a shorter version of this paper.  See Noel Day, “The Freedom Movement in Boston,” Equity & Excellence in Education, Volume 2, Issue 6 December 1964, pages 11 – 23; Mel King, Chain of Change, 48-51; Robert Levey, “Despite Little Cash, BAG Wields an Effective Economic Boycott,” Boston Globe, December 11, 1963, 28.
+<a name="footnote-15"></a><sup>15</sup>“Citizens’ Council on Police Practices,” Phyllis M. Ryan Collection (M94), University Libraries, Archives and Special Collections Department, Northeastern University, Boston, Massachusetts, Box 1, Folder: 10. [Hereafter, PMR].
 
-<a name="footnote-16"></a><sup>16</sup>Wilfred C. Rodgers, “New Boston Wows Them,” Boston Globe, November 17, 1962.
+<a name="footnote-16"></a><sup>16</sup>Noel Day, “The Freedom Movement in Massachusetts.” Distributed by Student for a Democratic Society, 119 5th Avenue, New York, New York, and its Economic Research and Action Project, 1100 E. Washington Street, Ann Arbor, Michigan. Helen Garvy Papers, International Institute of Social History (IISH), Amsterdam - the Netherlands, 6-7. Day also published a shorter version of this paper.  See Noel Day, “The Freedom Movement in Boston,” Equity & Excellence in Education, Volume 2, Issue 6 December 1964 , pages 11 – 23; Mel King, Chain of Change, 48-51; Robert Levey, “Despite Little Cash, BAG Wields an Effective Economic Boycott,” Boston Globe, December 11, 1963, 28.
 
-<a name="footnote-17"></a><sup>17</sup>King, Chain of Change, 18-22.
+<a name="footnote-17"></a><sup>17</sup>Wilfred C. Rodgers, “New Boston Wows Them,” Boston Globe, November 17, 1962.
 
-<a name="footnote-18"></a><sup>18</sup>John F. Collins, “And Still the Hub,” Boston Globe, April 21, 1963.
+<a name="footnote-18"></a><sup>18</sup>King, Chain of Change, 18-22.
 
-<a name="footnote-19"></a><sup>19</sup>Peter Schrag, Village School Downtown: Politics and Education – A Boston Report (Boston: Beacon Press, 1967), 66. [Hereafter, Village School Downtown]; Stephan Thernstrom, The Other Bostonians:  Poverty and Progress in the American Metropolis, 1880-1970 (Cambridge: Harvard University Press, 1993), 218. [Hereafter, The Other Bostonians]. 8; Jack Tager, Boston Riots:  Three Centuries of Social Violence. (Boston, MA: Northeastern University Press, 2001), 176.
+<a name="footnote-19"></a><sup>19</sup>John F. Collins, “And Still the Hub,” Boston Globe, April 21, 1963.
 
-<a name="footnote-20"></a><sup>20</sup>Marguerite Ross Barnett, “A Theoretical Perspective On American Racial Public Policy,” in Margaret R. Barnett and James A. Hefner, ed. Public policy for the Black community: Strategies & perspective. (New York: Alfred Publishing Co., Inc., 1976), p. 13. [Hereafter, “A Theoretical Perspective.”
+<a name="footnote-20"></a><sup>20</sup>Peter Schrag, Village School Downtown: Politics and Education – A Boston Report (Boston: Beacon Press, 1967), 66. [Hereafter, Village School Downtown]; Stephan Thernstrom, The Other Bostonians:  Poverty and Progress in the American Metropolis, 1880-1970 (Cambridge: Harvard University Press, 1993), 218. [Hereafter, The Other Bostonians]. 8; Jack Tager, Boston Riots:  Three Centuries of Social Violence. (Boston, MA: Northeastern University Press, 2001), 176.
 
-<a name="footnote-21"></a><sup>21</sup>Daniel Golden and Donald Lowery, “Boston and the Postwar Racial Strain/Blacks and Whites in Boston: 1945-1982,” Boston Globe, September 27, 1982, p.1.
+<a name="footnote-21"></a><sup>21</sup>Marguerite Ross Barnett, “A Theoretical Perspective On American Racial Public Policy,” in Margaret R. Barnett and James A. Hefner, ed. Public policy for the Black community: Strategies & perspective. (New York: Alfred Publishing Co., Inc., 1976), p. 13. [Hereafter, “A Theoretical Perspective”]
 
-<a name="footnote-22"></a><sup>22</sup>“The Negro Family: “The Case For National Action.” Washington, D.C.: Office of Policy Planning and Research, United States Department of Labor, March 1965), more often referred to as the [Patrick] Moynihan Report.
+<a name="footnote-22"></a><sup>22</sup>Daniel Golden and Donald Lowery, “Boston and the Postwar Racial Strain/Blacks and Whites in Boston: 1945-1982,” Boston Globe, September 27, 1982, p.1.
 
-<a name="footnote-23"></a><sup>23</sup>Thernstrom, The Other Bostonians, 218.
+<a name="footnote-23"></a><sup>23</sup>“The Negro Family: “The Case For National Action.” Washington, D.C.: Office of Policy Planning and Research, United States Department of Labor, March 1965), more often referred to as the [Patrick] Moynihan Report.
 
-<a name="footnote-24"></a><sup>24</sup>“The Voice of the Ghetto: Report on Two Boston Neighborhood Meetings.” Massachusetts State Advisory Committee to the U.S. Commission on Civil Rights,  3.  Boston Public Library, State and Local Government Documents, Catalogue Number: RLS/E185.86.U5. [Hereafter, “Voice of the Ghetto Report”]
+<a name="footnote-24"></a><sup>24</sup>Thernstrom, The Other Bostonians, 218.
 
 <a name="footnote-25"></a><sup>25</sup>“Discrimination in Housing in the Boston Metropolitan Area: Report of the Massachusetts Advisory Committee to the United States Commission on Civil Rights” December, 1963; “Voice of the Ghetto Report,” 34-42.
 
@@ -297,7 +286,7 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 
 <a name="footnote-31"></a><sup>31</sup>Ross Barnett, “A Theoretical Perspective,” 23.
 
-<a name="footnote-32"></a><sup>32</sup>Later, they became activists in educational initiatives such as the school boycotts and the creation of Operation Exodus; Sarah Ann Shaw personal papers. Copy in author=s possession; Sarah Ann Shaw, telephone interview with the author, February 26, 2007.
+<a name="footnote-32"></a><sup>32</sup>Later, they became activists in educational initiatives such as the school boycotts and the creation of Operation Exodus; Sarah Ann Shaw personal papers. Copy in author's possession; Sarah Ann Shaw, telephone interview with the author, February 26, 2007.
 
 <a name="footnote-33"></a><sup>33</sup>See Day, “The Freedom Movement in Massachusetts,” 7.
 
@@ -313,261 +302,285 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 
 <a name="footnote-39"></a><sup>39</sup>Schrag, Village School Downtown, 113.
 
-<a name="footnote-40"></a><sup>40</sup>Eyes on The Prize Transcript, Public Broadcasting Company. Downloaded: May 7, 2009 [http://www.pbs.org/wgbh/amex/eyesontheprize/about/pt.html](http://www.pbs.org/wgbh/amex/eyesontheprize/about/pt.html)
+<a name="footnote-40"></a><sup>40</sup>Ruth Batson, Eyes on The Prize Transcript, Public Broadcasting Company. Downloaded: May 7, 2009 [http://www.pbs.org/wgbh/amex/eyesontheprize/about/pt.html]
 
 <a name="footnote-41"></a><sup>41</sup>“Hearing to NAACP, June 11, 1963,” The School Committee of the City of Boston, Office of the Secretary, City of Boston Archives, Boston Massachusetts, p. 4. [Hereafter, Minutes of NAACP June 11th Meeting].
 
-<a name="footnote-42"></a><sup>42</sup>Bennett, The Negro Mood, 6.
+<a name="footnote-42"></a><sup>42</sup>Bennett, The Negro Mood, 6.  
 
-<a name="footnote-43"></a><sup>43</sup>“STOP,” John F. Collins Collection,” Boston Public Library, Box 195, Folder 8 [hereafter, Collins Collection]. Unlike the Stay Out organizer, STOP Day organizers did not create a specific organizational structure. See retrospective accounts of STOP in King, Chain of Change, 51-53; Hubie Jones, Panelist, Power and Protest: The Civil Rights Movement in Boston, 1960-1968, November 4, 2006,  Massachusetts Historical Society, Boston, Massachusetts  [hereafter, Power and Protest Conference 2006].
-<a name="footnote-44"></a><sup>44</sup>“Reaction to Boycott Report I,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.; James Breeden Recorded by Bill Holiday, Internet Archives Library, Community Audio
-http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
+<a name="footnote-43"></a><sup>43</sup>“STOP,” John F. Collins Collection,” Boston Public Library, Box 195, Folder 8 [hereafter, JFC]. Ruth Batson had misgivings regarding this economic tactic. She recalled, “Some Boston black leaders, including some NAACP leaders, are conflicted about a demonstration which would call for massive planning and for larger number of demonstrators. Some feel that the turbulent conflict with the Boston School Committee is about all the Black community can handle at this time. In a great show of solidarity, STOP calls off work stoppage plans and organizes a group of 1,000 to gather on the Boston common.” See Batson, Black Educational Movement in Boston, 94. Unlike the Stay-Out organizers, the STOP organizers did not create a specific organizational structure. See retrospective accounts of STOP in King, Chain of Change, 51-53; Hubie Jones, Panelist, Power and Protest: The Civil Rights Movement in Boston, 1960-1968, November 4, 2006, Massachusetts Historical Society, Boston, Massachusetts [hereafter, Power and Protest Conference 2006]. Jim Vrabel, A People’s History of the New Boston, 43, 44.
 
-<a name="footnote-45"></a><sup>45</sup>“Rights Rally Sunday on Common Sunday,” Boston Globe, May 9, 1963,  44.
+<a name="footnote-44"></a><sup>44</sup>Michael Gillis, “Rider on the Storm,” Dartmouth Alumni Magazine, Sept-Oct 2013:32, 34.
 
-<a name="footnote-46"></a><sup>46</sup>Michael Gillis, “Rider on the Storm,” Dartmouth Alumni Magazine, Sept-Oct 2013:32, 34.
+<a name="footnote-45"></a><sup>45</sup>“4 Hub Clergy, Rocky's Son-in-Law Held in Race Bias Protest,” Boston Globe, September 14, 1961:14; James Breeden Recorded by Bill Holiday, Internet Archives Library, Community Audio http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013; James Breeden, The History Makers, https://www.thehistorymakers.org/biography/james-breeden-41; Raymond Arsenault, Freedom Riders: 1961 and the Struggle for Racial Justice (New York: Oxford University Press, 2011).
 
-<a name="footnote-47"></a><sup>47</sup>Peggy Trotter Dammond Preacely, "It Was Simply in My Blood" in Hands On The Freedom Plow: Personal Accounts By Women in SNCC. Urbana (University of Illinois Press, 2010), 163-171. Also see her introduction on the SNCC Veterans website. [http://www.crmvet.org/vet/dammondp.htm]. Peggy Trotter Dammond Preacely is the great great-grandaughter of William and Ellen Craft who escaped from enslavement. Preacely is also the grand niece of William Monroe Trotter.  See African American Families of Monticello: http://www.monticello.org/getting-word/people/margaret-dammond-preacely.
+<a name="footnote-46"></a><sup>46</sup>“Two Statements From: The Prayer Pilgrimage to the 60th General Convention of the Episcopal Church, September,1961, The Episcopal Society for Cultural and Racial Unity, 5 Forsyth Street, Atlanta, GA. [http://www.episcopalarchives.org/Afro-Anglican_history/exhibit/pdf/ESCRU_Prayer_Pilgrimage_Statements.pdf].
 
-<a name="footnote-48"></a><sup>48</sup>Noel Day, “Biographical Material,” PMR, Box 2, Folder 40.
+<a name="footnote-47"></a><sup>47</sup>“Reaction to Boycott Report I,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.; James Breeden Recorded by Bill Holiday, Internet Archives Library, Community Audio http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.  “Rights Rally Sunday on Common Sunday,” Boston Globe, May 9, 1963, 44.
 
-<a name="footnote-49"></a><sup>49</sup>Julian Houston, Panelist, Power and Protest Conference 2006.
+<a name="footnote-48"></a><sup>48</sup>James P. Breeden, “The Church and the Freedom Movement,” in On the Battle Lines: 27 Anglican Priests in Rebellion in the United States of America, ed. Malcolm Boyd (London: SCM Press Ltd, 1964), 105.
 
-<a name="footnote-50"></a><sup>50</sup>As is often the case, the organizers were not highlighted at the rally or in the media. Rather, featured prominently in a photo in the Boston Globe were James Farmer, National Secretary of CORE; Rev. James Bevel, SCLC; Kenneth Guscott, President of the Boston Branch of the NAACP; Massachusetts Governor, Endicott Peabody and Attorney General, Edward Brooke; and K. C. Jones and Bill Russell of the Boston Celtics.  See Robert Levey, “Hub Rally Backs Alabama Negroes,” Boston Globe, May 13, 1963,  1.
+<a name="footnote-49"></a><sup>49</sup>Focus Western New England: The Freedom Riders, 50 Years Later, WFCR News (2011-04-08),  http://www.publicbroadcasting.net/wfcr/news.newsmain?action=article&ARTICLE_ID=1786545 Serghino René, “Breeden an Important Thinker in Boston’s Civil Rights Movement,” Bay State Banner, November 9, 2006, Vol. 42, No. 13; Gardiner H. Shattuck, Episcopalians and Race: Civil War to Civil Rights, (Lexington, KY: University Press of Kentucky, 2003), 109-111.
 
-<a name="footnote-51"></a><sup>51</sup>“Stay Out For Freedom- Press Conference II,” June 12, 1964, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-50"></a><sup>50</sup>Noel Day. “A White America in a Non-White World.” Speech delivered at the SDS Conference of Student Social Action, Cambridge, MA., December, 1962. Reproduced and distributed by: Students for a Democratic Society, 112 East 19th Street, New York, 3. New York. PMR, Box 2, Folder 40.
 
-<a name="footnote-52"></a><sup>52</sup>Author interview with James Breeden, September 14, 2012.
+<a name="footnote-51"></a><sup>51</sup>Noel Day. “A White America in a Non-White World.” Peggy Trotter Dammond Preacely, Introduction, SNCC Veterans website. [http://www.crmvet.org/vet/dammondp.htm]. See, Running a Thousand Miles for Freedom: Or, the Escape of William and Ellen Craft from Slavery (Mineola, NY: Dover Publications, 2014); Stephen R. Fox, The Guardian of Boston: William Monroe Trotter (New York: Atheneum Books, 1970).Peggy Trotter Dammond Preacely, "It Was Simply in My Blood" in Hands On The Freedom Plow: Personal Accounts By Women in SNCC. (Urbana: University of Illinois Press, 2010), 163-171. See African American Families of Monticello: http://www.monticello.org/getting-word/people/margaret-dammond-preacely.
 
-<a name="footnote-53"></a><sup>53</sup>Day, “The Freedom Movement in Massachusetts,”  8.
+<a name="footnote-52"></a><sup>52</sup>Noel Day, “Biographical Material,” PMR, Box 2, Folder 40.
 
-<a name="footnote-54"></a><sup>54</sup>Batson, Black Educational Movement in Boston, 87.
+<a name="footnote-53"></a><sup>53</sup>Mel King, Chain of Change, 268.
 
-<a name="footnote-55"></a><sup>55</sup>Ibid.
+<a name="footnote-54"></a><sup>54</sup>Ibid.
 
-<a name="footnote-56"></a><sup>56</sup>“March on Roxbury,” WGBH-FM, September 22, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-55"></a><sup>55</sup>Noel Day, “Biographical Material, PMR, Box 2, Folder 40. Noel Day is also a descendant of an activist tradition. He is the grandson of Frederick Randolph Moore (1857-1943), organizer, political activist, journalist and publisher. Moore was the owner and publisher the New York Age and Colored American Magazine. See Rayford W. Logan and Michael R. Winston, eds., Dictionary of American Negro Biography (New York: W.W. Norton & Company, 1982), 446-448. Mel King, Chain of Change, 267-268. Noel Day, “The Freedom Movement in Massachusetts,” 6.
 
-<a name="footnote-57"></a><sup>57</sup>Hubie Jones, Power and Protest Conference 2006.
+<a name="footnote-56"></a><sup>56</sup>Quoting George Wiley who later formed the National Welfare Rights Organization. Author telephone interview with James Breeden, September 14, 2012.
 
-<a name="footnote-58"></a><sup>58</sup>Day, “The Freedom Movement in Massachusetts,” 8.
+<a name="footnote-57"></a><sup>57</sup>Noel Day, “The Freedom Movement in Massachusetts,” 7-8; “Rights Rally Sunday on Common,” Boston Globe, May 9, 1963, p. 44; Robert Levey, “Hub Rally Backs Alabama Negroes,” Boston Globe, May 13, 1963, 1;  Noel Day spoke before the Harvard University Civil Rights Coordinating Committee on May 6, 1963, the day following the CFHR group’s decision to organize the rally. It is an example of the swift due diligence that guided the CFHR mobilization efforts. See, “Mass Gathering at Boston Common Will Protest Birmingham Arrests: College Students Asked to March,” The Harvard Crimson, May 9, 1963.
 
-<a name="footnote-59"></a><sup>59</sup>The other School Committee members at the time were Thomas Eisenstadt, Arthur Gartland, Joseph Lee and William O’Connor.
+<a name="footnote-58"></a><sup>58</sup>Robert Levey, “Hub Rally Backs Alabama Negroes,” Boston Globe, May 13, 1963, 1. There were no published reports that indicated that either Mayor John Collins, or any of the city-wide elected official on the Boston City Council or Boston School Committee, participated in the Birmingham Sympathy Rally.
 
-<a name="footnote-60"></a><sup>60</sup>Thomas O’Connor, Building a New Boston: Politics and urban renewal 1950-1970 (Boston: Northeastern University Press, 1993), 64. [Hereafter, Building a New Boston].
+<a name="footnote-59"></a><sup>59</sup>“Stay Out For Freedom- Press Conference II,” June 12, 1964, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-61"></a><sup>61</sup>Schrag, Village School Downtown, p. 66.
+<a name="footnote-60"></a><sup>60</sup>Author interview with James Breeden, September 14, 2012.
 
-<a name="footnote-62"></a><sup>62</sup>King, Chain of Change, 33, citing a local newspaper.
+<a name="footnote-61"></a><sup>61</sup>Day, “The Freedom Movement in Massachusetts,” 8.
 
-<a name="footnote-63"></a><sup>63</sup>Minutes of NAACP June 11th Meeting.
+<a name="footnote-62"></a><sup>62</sup>Batson, Black Educational Movement in Boston, 87.
 
-<a name="footnote-64"></a><sup>64</sup>Minutes of NAACP June 11th Meeting, p. 4.
+<a name="footnote-63"></a><sup>63</sup>Ibid.
 
-<a name="footnote-65"></a><sup>65</sup>Minutes of NAACP June 11th Meeting, p. 3-17; “Boycott Report,” WGBH-FM, June 17, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-64"></a><sup>64</sup>“March on Roxbury,” WGBH-FM, September 22, 1963, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-66"></a><sup>66</sup>Minutes of NAACP June 11th Meeting, p. 60. The header quote, “We, therefore, must fear for our rising offspring” is taken from the petition. The original and historic petition is located at the Massachusetts Historical Society. A complete transcript of the petition, with the title “Negroes Ask for Equal Education,” is included in Herbert Aptheker, A Documentary History of the Negro People in the United States: From Colonial Times Through the Civil War, (New York: Citadel Press, 1990), 19-20.
+<a name="footnote-65"></a><sup>65</sup>Hubie Jones, Power and Protest Conference 2006.
 
-<a name="footnote-67"></a><sup>67</sup>Minutes of NAACP June 11th Meeting, 60.
+<a name="footnote-66"></a><sup>66</sup>Batson, Black Educational Movement in Boston, p. 87.
 
-<a name="footnote-68"></a><sup>68</sup>Minutes of NAACP June 11th Meeting, p. 33.
+<a name="footnote-67"></a><sup>67</sup>Batson, Black Educational Movement in Boston, 87. Hubie Jones, Panelist, Power and Protest Conference 2006. Bennett, The Negro Mood, 8. Peter Schrag: “The NAACP with its tradition of mild protest B was reluctant to participate in the first Boston school boycott (1963).  A group of outsiders Noel Day, directors of St. Mark’s Social Center in Roxbury, Alan Gartner, a teacher in Newton and a leader Boston CORE, and several other militants pressured Kenneth Guscott, the president of the local NAACP chapter into support of the protest. These leaders, along with Ruth Batson and Paul Parks of the NAACP Education Committee, who were more militant than Guscott, were nevertheless aiming for a symbolic rather than substantive victory.” Peter Schrag, Village School Downtown, 40. J. Michael Ross and William M. Berg mistakenly infer that NAACP delegated the leadership of the Stay Out. They maintain, “Though some members of the NAACP, including its president, Kenneth Guscott, favored milder actions, the group officially supported the boycott, though it left the leadership to others, mainly black clergy.” J. Michael Ross and William M. Berg, “I Respectfully Disagree with the Judge’s Order” The Boston School Desegregation Controversy (Washington, D.C.: University Press of America, 1981), 46. Day, “The Freedom Movement in Massachusetts,” 8.
 
-<a name="footnote-69"></a><sup>69</sup>Minutes of NAACP June 11th Meeting, 43-44.
+<a name="footnote-68"></a><sup>68</sup>The other School Committee members at the time were Thomas Eisenstadt, Arthur Gartland, Joseph Lee and William O’Connor.
 
-<a name="footnote-70"></a><sup>70</sup>Minutes of NAACP June 11th Meeting, p. 105.
+<a name="footnote-69"></a><sup>69</sup>Thomas O’Connor, Building a New Boston: Politics and urban renewal 1950-1970 (Boston: Northeastern University Press, 1993), 64.
 
-<a name="footnote-71"></a><sup>71</sup>Ruth Batson, panelist, The Struggle for Civil Rights in Boston, 1998.
+<a name="footnote-70"></a><sup>70</sup>Schrag, Village School Downtown, p. 66.
 
-<a name="footnote-72"></a><sup>72</sup>“Boston’s Problem, Too,” Boston Globe, June 14, 1963, 22. At the time, for example, it appeared that New York was taking the broader view. There, responding to protesting parents and civil rights leadership the State Board of Education had at least conceded that de facto segregation existed and took responsibility for its rectification. The conflict there was centered on “how” desegregation of the schools would be implemented.
+<a name="footnote-71"></a><sup>71</sup>King, Chain of Change, 33, citing a local newspaper.
 
-<a name="footnote-73"></a><sup>73</sup>Minutes of NAACP June 11th Meeting, p. 116.
+<a name="footnote-72"></a><sup>72</sup>Minutes of NAACP June 11th Meeting, p. 4.
 
-<a name="footnote-74"></a><sup>74</sup>Eleven years later in 1974, U.S. District Judge W. Arthur Garrity concluded that the Boston School Committee had in fact “knowingly carried out a systematic program of segregation affecting all of city’s students, teachers and school facilities and had intentionally brought about and maintained a dual school system.” See Tallulah Morgan et al. v. James W. Hennigan et al. The preceding quote located in The Eyes on the Prize Civil Rights Reader: Documents, Speeches, and Firsthand Accounts from the Black Freedom Movement, ed. Clayborne Carson et al. (New York: Penguin Books, 1991), 611.
+<a name="footnote-73"></a><sup>73</sup>Minutes of NAACP June 11th Meeting, p. 3-17; “Boycott Report,” WGBH-FM, June 17, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-75"></a><sup>75</sup>Interview with Ruth Batson, conducted by Blackside, Inc. on November 8, 1988, for Eyes on the Prize II: America at the Racial Crossroads 1965 to 1985. Washington University Libraries, Film and Media Archive, Henry Hampton Collection.
+<a name="footnote-74"></a><sup>74</sup>Minutes of NAACP June 11th Meeting, p. 60. The header quote, “We, therefore, must fear for our rising offspring” is taken from the petition. The original and historic petition is located at the Massachusetts Historical Society. A complete transcript of the petition, with the title “Negroes Ask for Equal Education,” is included in Herbert Aptheker, A Documentary History of the Negro People in the United States: From Colonial Times Through the Civil War, (New York: Citadel Press, 1990), 19-20.
 
-<a name="footnote-76"></a><sup>76</sup>Day, “The Freedom Movement in Boston,” 22.
+<a name="footnote-75"></a><sup>75</sup>Minutes of NAACP June 11th Meeting, 60.
 
-<a name="footnote-77"></a><sup>77</sup>Ibid, 14.
+<a name="footnote-76"></a><sup>76</sup>Minutes of NAACP June 11th Meeting, p. 33.
 
-<a name="footnote-78"></a><sup>78</sup>Day, “The Freedom Movement in Massachusetts,” 8-9.
+<a name="footnote-77"></a><sup>77</sup>Minutes of NAACP June 11th Meeting, 43-44.
 
-<a name="footnote-79"></a><sup>79</sup>Ibid, 8.
+<a name="footnote-78"></a><sup>78</sup>Minutes of NAACP June 11th Meeting, p. 105.
 
-<a name="footnote-80"></a><sup>80</sup>Ibid.
+<a name="footnote-79"></a><sup>79</sup>Ruth Batson, panelist, The Struggle for Civil Rights in Boston, 1998.  
 
-<a name="footnote-81"></a><sup>81</sup>Laura B. Morris, “The Negro and the Church, Rheable M. Edwards and Laura B. Morris, The Negro in Boston (Boston: Action for Boston Community Development, 1961), 80.
+<a name="footnote-80"></a><sup>80</sup>“Boston’s Problem, Too,” Boston Globe, June 14, 1963, 22. At the time, for example, it appeared that New York was taking the broader view. There, responding to protesting parents and civil rights leadership, the State Board of Education had at least conceded that de facto segregation existed and took responsibility for its rectification. The conflict there was centered on “how” desegregation of the schools would be implemented.
 
-<a name="footnote-82"></a><sup>82</sup>“Stay Out for Freedom.” PMR, Box 3, Folder 15.
+<a name="footnote-81"></a><sup>81</sup>Minutes of NAACP June 11th Meeting, p. 116.
 
-<a name="footnote-83"></a><sup>83</sup>Peggy Dammond, memo dated, June 12, 1963, “Stay Out for Freedom Day in the Boston Public Schools, Letter from Peggy Dammond to the Student Nonviolent Coordinating Committee, Southern Christian Leadership Conference [and] Congress for Racial Equality. SCLC Papers, June-Jul 1963.
+<a name="footnote-82"></a><sup>82</sup>Day, “The Freedom Movement in Boston,” 22. In retrospect, Batson acknowledged that in raising the issue of de facto segregation, the NAACP may have unwittingly given the School Committee a “gift” that would endow “their political careers stability for a long time to come.” See, Interview with Ruth Batson, conducted by Blackside, Inc. on November 8, 1988, for Eyes on the Prize II: America at the Racial Crossroads 1965 to 1985. Washington University Libraries, Film and Media Archive, Henry Hampton Collection.
 
-<a name="footnote-84"></a><sup>84</sup>Hub School Boycott Planned by Negroes,” Boston Globe, June 13, 1963, 12.
+<a name="footnote-83"></a><sup>83</sup>Ibid, 14.
 
-<a name="footnote-85"></a><sup>85</sup>Ibid.
+<a name="footnote-84"></a><sup>84</sup>Day, “The Freedom Movement in Massachusetts,” 8-9.
 
-<a name="footnote-86"></a><sup>86</sup>Day, “The Freedom Movement in Massachusetts,” 8-9.
+<a name="footnote-85"></a><sup>85</sup>Ibid, 8.
 
-<a name="footnote-87"></a><sup>87</sup>Day, “The Freedom Movement in Massachusetts,” 8-9; “What About the Freedom Stay Out?” Collins Collection,  Box 195, Folder 8.
+<a name="footnote-86"></a><sup>86</sup>Ibid.
 
-<a name="footnote-88"></a><sup>88</sup>Ibid, 9.
+<a name="footnote-87"></a><sup>87</sup>Laura B. Morris, “The Negro and the Church, Rheable M. Edwards and Laura B. Morris, The Negro in Boston (Boston: Action for Boston Community Development, 1961), 80.  
 
-<a name="footnote-89"></a><sup>89</sup>Bernice Johnson Reagon, “Let the Church Sing "Freedom," Black Music Research Journal, Vol. 7 (1987): 107.
+<a name="footnote-88"></a><sup>88</sup>“Stay Out for Freedom.” PMR, Box 3, Folder 15.
 
-<a name="footnote-90"></a><sup>90</sup>Charlotte Ryan, Prime Time Activism: Media Strategies for Grassroots Organizing (Boston: South End Press, 1991), 32.
+<a name="footnote-89"></a><sup>89</sup>Peggy Dammond, memo dated, June 12, 1963, “Stay Out for Freedom Day in the Boston Public Schools, Letter from Peggy Dammond to the Student Nonviolent Coordinating Committee, Southern Christian Leadership Conference [and] Congress for Racial Equality. SCLC Papers, June-Jul 1963.
 
-<a name="footnote-91"></a><sup>91</sup>“Legal Notices, Commonwealth of Massachusetts, Suffolk SS, Boston Juvenile Court,” Boston Globe, 19.
+<a name="footnote-90"></a><sup>90</sup>“Hub School Boycott Planned by Negroes,” Boston Globe, June 13, 1963, 12.
 
-<a name="footnote-92"></a><sup>92</sup>Ibid.; “Judge Tells 500 to Avoid Boycott,” Boston Globe, June 15, 1963,  1, 2.
+<a name="footnote-91"></a><sup>91</sup>Ibid.
 
-<a name="footnote-93"></a><sup>93</sup>"Boycott Report”
+<a name="footnote-92"></a><sup>92</sup>Day, “The Freedom Movement in Massachusetts,” 8-9.
 
-<a name="footnote-94"></a><sup>94</sup>Pre-Boycott, Stay Out For Freedom,” WGBH-FM, June 14, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA. Hereafter, “Pre-Boycott Report.”
+<a name="footnote-93"></a><sup>93</sup>Day, “The Freedom Movement in Massachusetts,” 8-9; “What About the Freedom Stay Out?” JFC, Box 195, Folder 8.
 
-<a name="footnote-95"></a><sup>95</sup>“To Secure These Rights: A Documented History of the Negro ‘Freedom Movement,’ ” produced by Ted Mascott, WGBH, Boston, Massachusetts. Transcript located in Freedom House Papers (M16), Northeastern University Snelling Library, Archives and Special Collections, Box 39, Folder 1357.
+<a name="footnote-94"></a><sup>94</sup>Ibid, 9.
 
-<a name="footnote-96"></a><sup>96</sup>“Boycott Report”
+<a name="footnote-95"></a><sup>95</sup>Bernice Johnson Reagon, “Let the Church Sing "Freedom," Black Music Research Journal, Vol. 7 (1987): 107.
 
-<a name="footnote-97"></a><sup>97</sup>Ibid.
+<a name="footnote-96"></a><sup>96</sup>“Boycott Report,” June 17, 1963.
 
-<a name="footnote-98"></a><sup>98</sup>Ibid.
+<a name="footnote-97"></a><sup>97</sup>“End Hub 'Shame'—Brooke, Boston Globe, August 19, 1963.
 
-<a name="footnote-99"></a><sup>99</sup>“School Boycott on Despite Plea,” Boston Globe, June 14, 1963, 9.
+<a name="footnote-98"></a><sup>98</sup>Breeden, “The Church and the Freedom Movement,” 106.
 
-<a name="footnote-100"></a><sup>100</sup>Martin Luther King, Jr., The Autobiography of Martin Luther King, Jr.. Clayborne Carson (Ed). (New York: Warner Books, 2001), 206.
+<a name="footnote-99"></a><sup>99</sup>Noel Day, “A White America in a Non-White World.”
 
-<a name="footnote-101"></a><sup>101</sup>Rev. Virgil Wood, PBS, Religion & Ethics NewsWeekly, Recorded at the Civil Rights Institute in Birmingham, Alabama, April 26, 2013. [http://www.pbs.org/wnet/religionandethics/2013/04/26/april-26-2013-birmingham-and-the-childrens-march/16051/]
+<a name="footnote-100"></a><sup>100</sup>Day, “The Freedom Movement in Massachusetts,” 12.
 
-<a name="footnote-102"></a><sup>102</sup>“Boycott Report”
+<a name="footnote-101"></a><sup>101</sup>Author telephone interview with James Breeden, September 14, 2012.
 
-<a name="footnote-103"></a><sup>103</sup>Jon Brian Sheehan, The Boston School Integration Dispute: Social Change and Legal Maneuvers. (New York: Columbia University Press, 1984):64. Sheehan refers to a newspaper account wherein “Hick stated that three attempts to deliver the Committee’s vote to him had failed and he was reported ‘out of town’ (Herald 6/18/63: 6).
+<a name="footnote-102"></a><sup>102</sup>“Legal Notices, Commonwealth of Massachusetts, Suffolk SS, Boston Juvenile Court,” Boston Globe, 19.
 
-<a name="footnote-104"></a><sup>104</sup>“Pre-Boycott Report.”
+<a name="footnote-103"></a><sup>103</sup>Ibid.; “Judge Tells 500 to Avoid Boycott,” Boston Globe, June 15, 1963, 1, 2.
 
-<a name="footnote-105"></a><sup>105</sup>Ibid.
+<a name="footnote-104"></a><sup>104</sup>“Boycott Report”
 
-<a name="footnote-106"></a><sup>106</sup>Ibid.
+<a name="footnote-105"></a><sup>105</sup>"Pre-Boycott, Stay Out For Freedom,” WGBH-FM, June 14, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA. Hereafter, “Pre-Boycott Report.”
 
-<a name="footnote-107"></a><sup>107</sup>Batson, Black Educational Movement in Boston, 89.
+<a name="footnote-106"></a><sup>106</sup>“To Secure These Rights: A Documented History of the Negro ‘Freedom Movement,’ ” produced by Ted Mascott, WGBH, Boston, Massachusetts. Transcript located in Freedom House Papers (M16), Northeastern University Snelling Library, Archives and Special Collections, Box 39, Folder 1357.
 
-<a name="footnote-108"></a><sup>108</sup>Jeffrey A. Osoff, “Boston Negroes Push Plan for Boycott, Talks Falter,” Boston Globe, June 17, 1963, 1.
+<a name="footnote-107"></a><sup>107</sup>Jon Brian Sheehan, The Boston School Integration Dispute: Social Change and Legal Maneuvers. (New York: Columbia University Press, 1984), 64. [Hereafter, Sheehan, The Boston School Integration Dispute.
 
-<a name="footnote-109"></a><sup>109</sup>“Boycott Report”; William E. Nelson, Jr. Black Atlantic Politics: Dilemmas of Political Empowerment in Boston and Liverpool, Albany: State University of New York Press, 2000): 111. [Hereafter, Black Atlantic Politics]; Hubie Jones, Panelist, Power and Protest Conference 2006.
+<a name="footnote-108"></a><sup>108</sup>“Boycott Report”
 
-<a name="footnote-110"></a><sup>110</sup>Robert Healy, “Peabody, Gartland. . . .They Almost Broke Impasse,” Boston Globe, June 19, 1963, 1.
+<a name="footnote-109"></a><sup>109</sup>Ibid.
 
-<a name="footnote-111"></a><sup>111</sup>"Brooke ‘Out of State,’ Office Sees Compromise,” Boston Globe, June 19, 1963, 10.
+<a name="footnote-110"></a><sup>110</sup>Ibid.
 
-<a name="footnote-112"></a><sup>112</sup>"Judge Tells 500 to Avoid Boycott,” Boston Globe, June 15, 1963, 1, 2.
+<a name="footnote-111"></a><sup>111</sup>Taylor Branch, Parting the Waters: America in the King Years, 1954-63 (New York: Simon and Schuster, 1988), 761-762.
 
-<a name="footnote-113"></a><sup>113</sup>Ibid.
+<a name="footnote-112"></a><sup>112</sup>Martin Luther King, Jr., “The School Boycott Concept,” New York Amsterdam News, April 11, 1964, p. 10.
 
-<a name="footnote-114"></a><sup>114</sup>John McGinn, “Mothers’ Revolt Perils Boycott of Hub Schools,” Record American, June 17, 1963.
+<a name="footnote-113"></a><sup>113</sup>Rev. Virgil Wood, PBS, Religion & Ethics NewsWeekly, Recorded at the Civil Rights Institute in Birmingham, Alabama, April 26, 2013. [http://www.pbs.org/wnet/religionandethics/2013/04/26/april-26-2013-birmingham-and-the-childrens-march/16051/]
 
-<a name="footnote-115"></a><sup>115</sup>“Pre-Boycott Report.”
+<a name="footnote-114"></a><sup>114</sup>“Boycott Report”
 
-<a name="footnote-116"></a><sup>116</sup>Ibid.
+<a name="footnote-115"></a><sup>115</sup>Jon Brian Sheehan, The Boston School Integration Dispute, 64. Sheehan refers to a newspaper account wherein, “Hick stated that three attempts to deliver the Committee’s vote to him had failed and he was reported ‘out of town’ (Herald 6/18/63: 6).
 
-<a name="footnote-117"></a><sup>117</sup>See “Boycott Unthinkable So States the Thinking Negro Parent.” Press Release: Mrs. Lavinia M. Underwood, President, Warren Neighborhood Association, Collins Collection,” Box 195, Folder 7.
+<a name="footnote-116"></a><sup>116</sup>“Pre-Boycott Report.”
 
-<a name="footnote-118"></a><sup>118</sup>Ibid; Seymour R. Linscott, “Negroes to Go Ahead with Stay Out,” Boston Globe, June 18, 1963, 1.
+<a name="footnote-117"></a><sup>117</sup>Ibid.
 
-<a name="footnote-119"></a><sup>119</sup>John A. Fenton, “Boston’s Negroes Firm on ‘Stay Out,’ New York Times, June 18, 1963, 20.
+<a name="footnote-118"></a><sup>118</sup>Ibid.
 
-<a name="footnote-120"></a><sup>120</sup>“Boycott Report,” June 17, 1963, Ted Mascott, Producer, WGBH-PM, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-119"></a><sup>119</sup>Batson, Black Educational Movement in Boston, 89.
 
-<a name="footnote-121"></a><sup>121</sup>Day, “The Freedom Movement in Massachusetts,” 14.
+<a name="footnote-120"></a><sup>120</sup>Jeffrey A. Osoff, “Boston Negroes Push Plan for Boycott, Talks Falter,” Boston Globe, June 17, 1963, 1.
 
-<a name="footnote-122"></a><sup>122</sup>“Reaction to Boycott Report II,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-121"></a><sup>121</sup>“Boycott Report”; William E. Nelson, Jr. Black Atlantic Politics: Dilemmas of Political Empowerment in Boston and Liverpool, Albany: State University of New York Press, 2000): 111. [Hereafter, Black Atlantic Politics]; Hubie Jones, Panelist, Power and Protest Conference 2006.
 
-<a name="footnote-123"></a><sup>123</sup>“Boycott Report”
+<a name="footnote-122"></a><sup>122</sup>Robert Healy, “Peabody, Gartland. . . .They Almost Broke Impasse,” Boston Globe, June 19, 1963, 1.
 
-<a name="footnote-124"></a><sup>124</sup>“Reaction to Boycott Report II”
+<a name="footnote-123"></a><sup>123</sup>“Brooke ‘Out of State,’ Office Sees Compromise,” Boston Globe, June 19, 1963, 10.
+
+<a name="footnote-124"></a><sup>124</sup>“Judge Tells 500 to Avoid Boycott,” Boston Globe, June 15, 1963, 1, 2.
 
 <a name="footnote-125"></a><sup>125</sup>Ibid.
 
-<a name="footnote-126"></a><sup>126</sup>Ibid.
+<a name="footnote-126"></a><sup>126</sup>John McGinn, “Mothers’ Revolt Perils Boycott of Hub Schools,” Record American, June 17, 1963.
 
-<a name="footnote-127"></a><sup>127</sup>Ibid.
+<a name="footnote-127"></a><sup>127</sup>“Pre-Boycott Report.”
 
-<a name="footnote-128"></a><sup>128</sup>Ibid.
+<a name="footnote-128"></a><sup>128</sup>“Pre-Boycott, Stay Out For Freedom,” WGBH-PM, June 14, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-129"></a><sup>129</sup>Ibid.
 
-<a name="footnote-130"></a><sup>130</sup>Ibid.
+<a name="footnote-130"></a><sup>130</sup>See “Boycott Unthinkable So States the Thinking Negro Parent.” Press Release: Mrs. Lavinia M. Underwood, President, Warren Neighborhood Association, JFC,” Box 195, Folder 7.
 
-<a name="footnote-131"></a><sup>131</sup>“Boycott Report”
+<a name="footnote-131"></a><sup>131</sup>Ibid; Seymour R. Linscott, “Negroes to Go Ahead with Stay Out,” Boston Globe, June 18, 1963, 1.
 
-<a name="footnote-132"></a><sup>132</sup>“Reaction to Boycott Report II”
+<a name="footnote-132"></a><sup>132</sup>John A. Fenton, “Boston’s Negroes Firm on ‘Stay Out,’ New York Times, June 18, 1963, 20.
 
-<a name="footnote-133"></a><sup>133</sup>Ibid.
+<a name="footnote-133"></a><sup>133</sup>“School Boycott on Despite Plea,” Boston Globe, June 14, 1963, 9.
 
-<a name="footnote-134"></a><sup>134</sup>Ibid.
+<a name="footnote-134"></a><sup>134</sup>Noel Day, (n.d.). “The Freedom Movement in Massachusetts,” 17.
 
-<a name="footnote-135"></a><sup>135</sup>Ibid.
+<a name="footnote-135"></a><sup>135</sup>Boycott Report,” June 17, 1963.
 
-<a name="footnote-136"></a><sup>136</sup>“It Was a Victory... ...It Was a Failure,” Boston Globe, June 19, 1963, p. 11.
+<a name="footnote-136"></a><sup>136</sup>Ibid.
 
-<a name="footnote-137"></a><sup>137</sup>Ibid.
+<a name="footnote-137"></a><sup>137</sup>Day, “The Freedom Movement in Massachusetts,” 9.
 
-<a name="footnote-138"></a><sup>138</sup>"Governor’s Statement,” Boston Globe, June 18, 1963.
+<a name="footnote-138"></a><sup>138</sup>“Reaction to Boycott Report II,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-139"></a><sup>139</sup>“It Was a Victory... ...It Was a Failure”
+<a name="footnote-139"></a><sup>139</sup>“Boycott Report”
 
-<a name="footnote-140"></a><sup>140</sup>Noel Day, Panelist, Civil Rights Panel with Louis Lyons, WGBH-PM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-140"></a><sup>140</sup>“Reaction to Boycott Report II”
 
-<a name="footnote-141"></a><sup>141</sup>“It Was a Victory... ...It Was a Failure”
+<a name="footnote-141"></a><sup>141</sup>Ibid.
 
-<a name="footnote-142"></a><sup>142</sup>“Reaction to Boycott Report I”
+<a name="footnote-142"></a><sup>142</sup>Ibid.
 
-<a name="footnote-143"></a><sup>143</sup>“15,000 To Mourn Evers Here,” Boston Globe, June 26, 1963; King, Chain of Change, 53; Nelson, Black Atlantic Politics, 111; Hubie Jones, Panelist, Power and Protest.
+<a name="footnote-143"></a><sup>143</sup>Ibid.
 
-<a name="footnote-144"></a><sup>144</sup>Day, “The Freedom Movement in Massachusetts,” 10.
+<a name="footnote-144"></a><sup>144</sup>Ibid.
 
-<a name="footnote-145"></a><sup>145</sup>“Text of a Statement Read by Thomas Atkins, Executive Secretary of the Boston Branch NAACP, Concerning Direct Action to be Taken Against the Boston, School Committee,” Collins Collection, Box 195, Folder, 8.
+<a name="footnote-145"></a><sup>145</sup>Ibid.
 
-<a name="footnote-146"></a><sup>146</sup>Batson, Black Educational Movement in Boston, 104-105.
+<a name="footnote-146"></a><sup>146</sup>Ibid.
 
-<a name="footnote-147"></a><sup>147</sup>“1200 Leave From Boston,” Boston Globe, August 28, 1963; “Camera and Pen Capture the Scene, Boston Globe, August 29, 1963; Edward McGrath, “Hub NAACP Seeks End of School Row,” Boston Globe, August 30, 1963.
+<a name="footnote-147"></a><sup>147</sup>“Boycott Report”
 
-<a name="footnote-148"></a><sup>148</sup>“Boston School Committee Report on Sit-Ins,” WGBH-FM, September 6, 1963, WGBH Educational Foundation, Boston.
+<a name="footnote-148"></a><sup>148</sup>“Reaction to Boycott Report II”
 
-<a name="footnote-149"></a><sup>149</sup>Day, “The Freedom Movement in Massachusetts,” 10; Ian Forman, “School Bd. Given Rest By NAACP,” Boston Globe, September 11, 1963, p. 1.
+<a name="footnote-149"></a><sup>149</sup>Ibid.
 
-<a name="footnote-150"></a><sup>150</sup>King, Chain of Change, 36.
+<a name="footnote-150"></a><sup>150</sup>Ibid.
 
-<a name="footnote-151"></a><sup>151</sup>“March on Roxbury”
+<a name="footnote-151"></a><sup>151</sup>Ibid.
 
-<a name="footnote-152"></a><sup>152</sup>Ibid.
+<a name="footnote-152"></a><sup>152</sup>“It Was a Victory... ...It Was a Failure,” Boston Globe, June 19, 1963, p. 11.
 
-<a name="footnote-153"></a><sup>153</sup>“School Vote,” Boston Globe, November 6, 1963, 1.
+<a name="footnote-153"></a><sup>153</sup>Ibid.
 
-<a name="footnote-154"></a><sup>154</sup>“Policies Endorsed Mrs. Hicks States,” Boston Globe, November 6, 1963, 10.
+<a name="footnote-154"></a><sup>154</sup>“Governor’s Statement,” Boston Globe, June 18, 1963.
 
-<a name="footnote-155"></a><sup>155</sup>“Wallace Lauds Hub School Vote,” Boston Globe, November 6, 1963, p. 12.
+<a name="footnote-155"></a><sup>155</sup>“It Was a Victory... ...It Was a Failure,” 11.
 
-<a name="footnote-156"></a><sup>156</sup>“School Vote,” Boston Globe, November 6, 1963, 11.
+<a name="footnote-156"></a><sup>156</sup>Noel Day, Panelist, Civil Rights Panel with Louis Lyons, WGBH-PM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
 
-<a name="footnote-157"></a><sup>157</sup>“School Vote,” Boston Globe, November 6, 1963, 11.
+<a name="footnote-157"></a><sup>157</sup>“It Was a Victory... ...It Was a Failure,” 11.
 
-<a name="footnote-158"></a><sup>158</sup>Robert L. Levey, “School Board Head Proposes 8 Changes” Boston Globe, January 7, 1964.
+<a name="footnote-158"></a><sup>158</sup>“Reaction to Boycott Report I”
 
-<a name="footnote-159"></a><sup>159</sup>“School Boycott Due,” Boston Globe, January 15, 1964, p. 1; Day, Freedom Movement in Massachusetts, 11-12.
+<a name="footnote-159"></a><sup>159</sup>Day, “The Freedom Movement in Massachusetts,” p. 11.
 
-<a name="footnote-160"></a><sup>160</sup>Schrag, Village School Downtown, 96.
+<a name="footnote-160"></a><sup>160</sup>“15,000 To Mourn Evers Here,” Boston Globe, June 26, 1963; King, Chain of Change, 53; Nelson, Black Atlantic Politics, 111; Hubie Jones, Panelist, Power and Protest.
 
-<a name="footnote-161"></a><sup>161</sup>Clarence Taylor, Knocking at Our Own: Milton A. Galamison and the Struggle to Integrate New York City Schools Door, (Lanham, MD: Lexington Books), 129-131); Day, Freedom Movement in Massachusetts, 11-12;
-“Plan Nationwide Schools Boycott, Chicago Daily Defender, January 6, 1964: 1; “School Protests in Ten Other Cities,” Freedom’s Journal (n.d.) circa 1964, PMR, Box 4, Folder 26; “School Boycotts are Set in 5 Cities,” New York Times, January 26, 1964,  39.
+<a name="footnote-161"></a><sup>161</sup>Day, “The Freedom Movement in Massachusetts,” 10.
 
-<a name="footnote-162"></a><sup>162</sup>See, Leonard Nathaniel Moore, “The School Desegregation Crisis of Cleveland, Ohio, 1963-1964: The Catalyst for Black Political Power in a Northern City,” Journal of Urban History 28, no.2, 2002, 135-157; Milwaukee United School Integration Committee (MUSIC) Records, 1964-1966 Records, Archives / Milwaukee Area Research Center. University of Wisconsin-Milwaukee Libraries Box 1, Folder 5, Other Projects and Miscellany, 1964-1966; “School Boycott Success: 224,770 Pupils Absent,” Chicago Daily Defender, A1.
+<a name="footnote-162"></a><sup>162</sup>Batson, Black Educational Movement in Boston, 104-105.
 
-<a name="footnote-163"></a><sup>163</sup>“Boycott Report”
+<a name="footnote-163"></a><sup>163</sup>“1200 Leave From Boston,” Boston Globe, August 28, 1963; “Camera and Pen Capture the Scene, Boston Globe, August 29, 1963; Edward McGrath, “Hub NAACP Seeks End of School Row,” Boston Globe, August 30, 1963.
 
-<a name="footnote-164"></a><sup>164</sup>Fred Powledge, “School Boycott Divides Negroes,” New York Times, January 8, 1964,  1; Fred M. Hechinger, “Education Cities in Crisis: The Northern Integration Issue,” New York Times, January 12, 1964,  E11; “Roy Wilkins Recants, Backs School Boycott,” Chicago Defender, January 11, 1964,  1; Martin Arnold, “Urban League Refuses to Back City School Boycott Tomorrow,” New York Times, March 15,  1.
+<a name="footnote-164"></a><sup>164</sup>“Boston School Committee Report on Sit-Ins,” WGBH-FM, September 6, 1963, WGBH Educational Foundation, Boston.
 
-<a name="footnote-165"></a><sup>165</sup>Don McKee, “More in ’64, Civil Rights Slogan,” The Saratogian, January 15, 1964, p. 4; Reiman Morin, “ ‘Negro Revolution’ Leaders Calling for ‘More in ’64,’ ” Meridian Journal, February 21, 1964,  1; “Selective Buying Campaign,” Alabama Christian Movement for Human Rights, Inc., Alicia Kaplow Papers (MS507), Wisconsin Historical Society, Friends of SNCC - General, 1964-1967, Box 1, Folder 4. Beginning in February 1964, the “More In ’64” slogan was displayed in the SCLC Newsletters.
+<a name="footnote-165"></a><sup>165</sup>“Text of a Statement Read by Thomas Atkins, Executive Secretary of the Boston Branch NAACP, Concerning Direct Action to be Taken Against the Boston, School Committee,” JFC, Box 195, Folder, 8.
 
-<a name="footnote-166"></a><sup>166</sup>Martin Luther King, Jr., “The School Boycott Concept,” New York Amsterdam News, April 11, 1964, 10.
+<a name="footnote-166"></a><sup>166</sup>King, Chain of Change, 34-35.
 
+<a name="footnote-167"></a><sup>167</sup>“March on Roxbury”
+
+<a name="footnote-168"></a><sup>168</sup>Ibid.
+
+<a name="footnote-169"></a><sup>169</sup>“School Vote,” Boston Globe, November 6, 1963, 1.
+
+<a name="footnote-170"></a><sup>170</sup>Robert L. Levey, “School Board Head Proposes 8 Changes” Boston Globe, January 7, 1964.
+
+<a name="footnote-171"></a><sup>171</sup>Schrag, Village School Downtown, 96.
+
+<a name="footnote-172"></a><sup>172</sup>Day, Freedom Movement in Boston, 16-17; “Plan Nationwide Schools Boycott, Chicago Daily Defender, January 6, 1964: 1; “School Protests in Ten Other Cities,” Freedom’s Journal (n.d.) circa 1964, PMR, Box 4, Folder 26; “School Boycotts are Set in 5 Cities,” New York Times, January 26, 1964,  39.
+
+<a name="footnote-173"></a><sup>173</sup>See, Leonard Nathaniel Moore, “The School Desegregation Crisis of Cleveland, Ohio, 1963-1964: The Catalyst for Black Political Power in a Northern City,” Journal of Urban History 28, no.2, 2002, 135-157; Milwaukee United School Integration Committee (MUSIC) Records, 1964-1966 Records, Archives / Milwaukee Area Research Center. University of Wisconsin-Milwaukee Libraries Box 1, Folder 5, Other Projects and Miscellany, 1964-1966; “School Boycott Success: 224,770 Pupils Absent,” Chicago Daily Defender, A1.
+
+<a name="footnote-174"></a><sup>174</sup>Noel and Peggy Dammond Day were the principal authors of the Citizenship Curriculum component of the lesson plans for the 1964 Mississippi Summer project Freedom Schools. At the time of the 1963 Stay-Out, Dammond was engaged to Noel Day. During the 1964 Stay-Out, she is referred to as Peggy Day. See, Kathy Emery, Sylvia Braselmann, and Linda Gold, “Freedom School Curriculum, Mississippi Freedom School, 1964,” 10, 13, 19, 31, 45, 51, 55, 90, 100, 135. http://www.educationanddemocracy.org/ED_FSC.html. Daniel Perlstein, “Teaching Freedom: SNCC and the Creation of the Mississippi Freedom Schools,” History of Education Quarterly 30, no. 3 (1990):309-312. Perlstein also notes that Noel Day “wrote curricula for Freedom Schools across the country relying on informal contacts with activists from such organizations as SDS, CORE, Highlander, and SNCC.”
+
+<a name="footnote-175"></a><sup>175</sup>Fred Powledge, “School Boycott Divides Negroes,” New York Times, January 8, 1964,  1; Fred M. Hechinger, “Education Cities in Crisis: The Northern Integration Issue,” New York Times, January 12, 1964,  E11; “Roy Wilkins Recants, Backs School Boycott,” Chicago Defender, January 11, 1964,  1; Martin Arnold, “Urban League Refuses to Back City School Boycott Tomorrow,” New York Times, March 15,  1.
+
+<a name="footnote-176"></a><sup>176</sup>Martin Luther King, Jr., “The School Boycott Concept,” New York Amsterdam News, April 11, 1964, 10.
+
+<a name="footnote-177"></a><sup>177</sup>Reiman Morin, “ ‘Negro Revolution’ Leaders Calling for ‘More in ’64,’ ” Meridian Journal, February 21, 1964,  1.
+
+<a name="footnote-178"></a><sup>178</sup>Martin Luther King, Jr., “The School Boycott Concept,” 10.
+
+<a name="footnote-179"></a><sup>179</sup>Reiman Morin, “More in ’64, 1; “Selective Buying Campaign,” Alabama Christian Movement for Human Rights, Inc., Alicia Kaplow Papers (MS507), Wisconsin Historical Society, Friends of SNCC - General, 1964-1967, Box 1, Folder 4. Beginning in February 1964, the “More In ’64” slogan was displayed in the SCLC Newsletters.
 
 ## Media
 
