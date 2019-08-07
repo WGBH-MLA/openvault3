@@ -316,3 +316,4 @@ http://docsouth.unc.edu/fpn/
 https://libraries.udmercy.edu/archives/special-collections/index.php?collectionCode=baa
 https://research.udmercy.edu/find/special_collections/digital/baa/
 http://localhost:3000/assets/case_for_support.pdf
+http://www.episcopalarchives.org/Afro-Anglican_history/exhibit/pdf/ESCRU_Prayer_Pilgrimage_Statements.pdf
