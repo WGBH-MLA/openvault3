@@ -218,10 +218,6 @@ The meteoric rise of the School Boycott concept was not unanimously sanctioned b
 
 Boston activists, in the Deep North, were making major strides in effectively exposing the contradiction. For far too long, the North had exorcised itself from its own systems of racial discrimination and hierarchy; while often providing moral and financial support for the civil rights struggle in the South. The 1963 Stay Out campaign became a harbinger of the heightened militancy that was to unfold among people of African descent in Boston during this period. In the years to come, many of the youth of the “Stay Out” generation, including the author, took their places in the struggle for human rights and social change. Thus, the Stay Out campaign also stood as an exemplar in the wave of “Negro Power” that sought to move an unwilling nation into a new phase of living up to its American Creed.  
 
-<--- STOPPED HERE. ABOVE HERE HAS BEEN UPDATED, AND BELOW HERE HAS NOT BEEN UPDATED YET. THE FOOTNOTES SECTION AT THE END NEEDS TO BE COMPLETED UPDATED BASED ON THESE LATEST FOOTNOTES, AS THEY WILL NO LONGER ALIGN. --->
-
-
-
 ### Endnotes
 
 <a name="footnote-1"></a><sup>1</sup>The author would like to thank Allison Pekel and WGBH Foundation for the opportunity to participate in this project as a Mellon Scholar. A sincere thanks is also extended to Aaron Schmidt, Boston Public Library Print Department; Michelle Romero, Snell Library Archives and Special Collections Department, Northeastern University; the Schlesinger Library; Arthur Pollock, Boston Herald; and Dr. Charles E. Jones, Professor of Africana Studies, University of Cincinnati.
