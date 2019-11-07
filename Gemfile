@@ -46,7 +46,7 @@ gem 'spring', '~> 1.6.3', :group => :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'bootstrap-sass', '3.3.4.1'
+gem 'bootstrap-sass', '3.4.1'
 # TODO: remove when upsteam is fixed.
 # https://github.com/projecthydra/hydra-editor/commit/18737ec2
 gem 'cmless', '1.0.0'
