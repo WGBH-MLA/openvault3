@@ -136,6 +136,7 @@ describe 'Validated and plain PBCore' do
         creators: [
           PBCoreNameRole.new('creator', 'CREATOR-NAME-1', 'CREATOR-ROLE-1'),
           PBCoreNameRole.new('creator', 'CREATOR-NAME-2', 'CREATOR-ROLE-2')],
+        playable?: true,
         publishers: ['PUBLISHER-1', 'PUBLISHER-2'],
         media_type: 'Audio',
         video?: false,

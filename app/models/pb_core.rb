@@ -18,12 +18,15 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def series_title
     @series_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Series"]')
   end
+
   def program_title
     @program_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Program"]')
   end
+
   def program_number
     @program_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Program Number"]')
   end
+
   def asset_title
     @asset_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Open Vault Title"]')
   end
@@ -31,6 +34,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def title
     @title ||= [series_title, program_title, asset_title].select { |x| x }.join('; ')
   end
+
   def short_title
     @short_title ||= (asset_title || program_title || series_title)
                      .gsub(/^.*Interview\s+with\s+/i, '')
@@ -41,6 +45,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def date
     @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
+
   def year
     @year ||= date.match(/(\d{4})/)[1] if date
   end
@@ -51,43 +56,55 @@ class PBCore # rubocop:disable Metrics/ClassLength
       full.gsub(/(\d\d:\d\d:\d\d):\d\d/, '\1') if full
     end
   end
+
   def asset_type
     @asset_type ||= xpath('/*/pbcoreAssetType')
   end
+
   def this_isnt_all?
     asset_type == 'Broadcast program'
   end
+
   def series_description
     @series_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Series Description"]')
   end
+
   def program_description
     @program_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Program Description"]')
   end
+
   def asset_description
     @asset_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Asset Description"]')
   end
+
   def contributors
     @contributors ||= REXML::XPath.match(@doc, '/*/pbcoreContributor').map do|rexml|
       PBCoreNameRole.new(rexml)
     end
   end
+
   def creators
     @creators ||= REXML::XPath.match(@doc, '/*/pbcoreCreator').map do|rexml|
       PBCoreNameRole.new(rexml)
     end
   end
+
   def publishers
     @publishers ||= xpaths('/*/pbcorePublisher/publisher')
   end
+
   def subjects
     @subjects ||= xpaths('/*/pbcoreSubject')
   end
+
   def locations
     @locations ||= xpaths('/*/pbcoreCoverage[coverageType="Spatial"]/coverage')
   end
+
   def genres
     @genre ||= xpaths('/*/pbcoreGenre[@source="Series Genre"]')
   end
+
   def topics
     @topic ||= xpaths('/*/pbcoreGenre[@source="Series Topic"]')
   end
@@ -102,15 +119,19 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def media_type
     @media_type ||= xpath('/*/pbcoreAnnotation[@annotationType="Media Type"]')
   end
+
   def video?
     media_type == VIDEO
   end
+
   def audio?
     media_type == AUDIO
   end
+
   def image?
     media_type == IMAGE
   end
+
   def extensions
     case media_type
     when VIDEO
@@ -155,10 +176,23 @@ class PBCore # rubocop:disable Metrics/ClassLength
         access << ONLINE if digitized?
       end
   end
-  def digitized?
-    # (Cast to boolean)
-    (outside_url ? true : false) || xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
+
+  def playable?
+    digi_anno = xpaths('/*/pbcoreAnnotation[@annotationType="Digitized"]').first&.downcase
+    if digi_anno == 'yes'
+      # digi and playable
+      true
+    elsif digi_anno == 'not available online'
+      # digi not playable
+      false
+    end
   end
+
+  def digitized?
+    # is there a digitized annotation????!!!
+    (outside_url || xpaths('/*/pbcoreAnnotation[@annotationType="Digitized"]').first) ? true : false
+  end
+
   def proxy_srcs
     @proxy_srcs ||=
       if xpath_boolean('/*/pbcoreAnnotation[@annotationType="Digitized"]')
@@ -190,11 +224,13 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @outside_url ||=
       xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]')
   end
+
   def aapb_url
     @aapb_url ||= begin
       outside_url if outside_url && outside_url.match(AAPB_RE)
     end
   end
+
   def boston_tv_news_url
     @boston_tv_news_url ||= begin
       outside_url if outside_url && outside_url.match(NEWS_RE)
@@ -204,9 +240,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def special_collections
     @special_collections ||= xpaths('/*/pbcoreAnnotation[@annotationType="Special Collection"]')
   end
+
   def special_collection_tags
     @special_collection_tags ||= xpaths('/*/pbcoreAnnotation[@annotationType="Special Collection Tag"]')
   end
+
   def scholar_exhibits
     @scholar_exhibits ||= xpaths('/*/pbcoreAnnotation[@annotationType="Scholar Exhibit"]')
   end
@@ -214,6 +252,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def special_collections_hash
     @special_collections_hash ||= Hash[special_collections.map { |name| [name, Collection.find_by_path(name).title] }]
   end
+
   def scholar_exhibits_hash
     @scholar_exhibits_hash ||= Hash[scholar_exhibits.map { |name| [name, Exhibit.find_by_path(name).title] }]
   end
@@ -221,9 +260,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def playlist_group
     @playlist_group ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Group"]')
   end
+
   def playlist_order
     @playlist_order ||= xpath_optional('/*/pbcoreAnnotation[@annotationType="Playlist Order"]').to_i
   end
+
   def playlist_map
     @playlist_map ||= begin
       response = RSolr.connect(url: 'http://localhost:8983/solr/')
@@ -236,11 +277,13 @@ class PBCore # rubocop:disable Metrics/ClassLength
       Hash[response['response']['docs'].map { |doc| [doc['playlist_order'].to_i, doc['id']] }]
     end if playlist_group
   end
+
   def playlist_next_id
     @playlist_next_id ||= begin
       playlist_map[playlist_map.keys.select { |k| k > playlist_order }.min]
     end if playlist_map
   end
+
   def playlist_prev_id
     @playlist_prev_id ||= begin
       playlist_map[playlist_map.keys.select { |k| k < playlist_order }.max]

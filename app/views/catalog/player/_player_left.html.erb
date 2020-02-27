@@ -10,7 +10,7 @@
 
   <% if geoblocked? %>
     <strong>Note:</strong> This content is not available in your region.
-  <% elsif !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
+  <% elsif @pbcore.playable? && !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
                   controls: true, id: 'player-media',
                   controlsList: "nodownload",
@@ -21,6 +21,8 @@
       <% end %>
       <track src="/transcripts/<%= @pbcore.id %>.vtt" default/>
     <% end %>
+  <% else %>
+    <img src="<%= @pbcore.thumbnail_src %>">
   <% end %>
 
   <% if @pbcore.playlist_group %>

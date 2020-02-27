@@ -64,7 +64,7 @@ class ValidatedPBCore < PBCore
       begin
         send(method)
       rescue => e
-        errors << (["'##{method}' failed: #{e.message}"] + e.backtrace[0..2]).join("\n")
+        errors << (["'##{method}' failed: #{e.message}"] + e.backtrace).join("\n")
       end
     end
     return if errors.empty?

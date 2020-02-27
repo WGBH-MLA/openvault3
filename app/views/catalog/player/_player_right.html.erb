@@ -19,7 +19,13 @@
     </p>
   <% end %>
 
-  <% if !@pbcore.digitized? %>
+  <% if @pbcore.digitized? %>
+    <% if !@pbcore.playable? %>
+      <p>
+        This record has been digitized, but is not available for playback on Open Vault.
+      </p>
+    <% end %>
+  <% else %>
     <p>
       This program has not been digitized yet or cannot be made available on Open Vault.
     </p>
