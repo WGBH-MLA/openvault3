@@ -1,5 +1,4 @@
 require 'rails_helper'
-require_relative '../support/validation_helper'
 require_relative '../../scripts/lib/pb_core_ingester'
 
 describe 'Catalog' do
@@ -22,7 +21,6 @@ describe 'Catalog' do
     it 'loads the index page' do
       visit '/catalog'
       expect(page.status_code).to eq(200)
-      expect_fuzzy_xml
     end
 
     it 'redirects missing access' do
@@ -43,7 +41,6 @@ describe 'Catalog' do
       visit '/catalog?q=asdfasfasdf'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'Or search all records, not just media.'
-      expect_fuzzy_xml
     end
 
     it 'has dead-end no-results' do
@@ -51,14 +48,12 @@ describe 'Catalog' do
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'Consider using other search terms or removing filters.'
       expect(page).to have_content 'You searched for:'
-      expect_fuzzy_xml
     end
 
     it 'sorts by title ascending, ignoring articles' do
       visit '/catalog?f[access][]=All+Records&q=sort&sort=title+asc'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'You searched for:'
-      expect_fuzzy_xml
       expect(page.all('.info').map(&:text)).to eq([
         'An. stays: not an article: sort 0',
         'The removed: sort 1',
@@ -71,7 +66,6 @@ describe 'Catalog' do
       visit '/catalog?f[access][]=All+Records&q=sort&sort=title+desc'
       expect(page.status_code).to eq(200)
       expect(page).to have_content 'You searched for:'
-      expect_fuzzy_xml
       expect(page.all('.info').map(&:text)).to eq([
         'A removed: sort 3',
         'An REMOVED: SORT 2',
@@ -83,7 +77,6 @@ describe 'Catalog' do
     it 'highlights keywords in original context' do
       visit '/catalog?f[access][]=Available+Online&q=evil'
       expect(page.status_code).to eq(200)
-      expect_fuzzy_xml
       expect(page.html).to include 'Doctor <em>Evil</em> foo ! bar ?'
     end
 
@@ -146,7 +139,6 @@ describe 'Catalog' do
         it "loads #{path}" do
           visit path
           expect(page.status_code).to eq(200)
-          expect_fuzzy_xml
         end
       end
     end
