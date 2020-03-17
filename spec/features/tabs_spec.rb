@@ -1,5 +1,4 @@
 require 'rails_helper'
-require_relative '../support/validation_helper'
 
 describe 'Tab Pages' do
   {
@@ -14,14 +13,12 @@ describe 'Tab Pages' do
               visit target
               expect(page.status_code).to eq(200)
               expect(current_path).to eq(target)
-              expect_fuzzy_xml
             end
           else
             it "redirects #{target}" do
               visit target
               expect(page.status_code).to eq(200)
               expect(current_path).not_to eq(target)
-              expect_fuzzy_xml
             end
           end
           it 'Gives 404 for bad tab' do
@@ -35,7 +32,6 @@ describe 'Tab Pages' do
               visit target
               expect(page.status_code).to eq(200)
               expect(current_path).to eq(target)
-              expect_fuzzy_xml
             end
           end
         end
