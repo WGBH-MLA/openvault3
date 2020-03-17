@@ -1,5 +1,4 @@
 require 'rails_helper'
-require_relative '../support/validation_helper'
 
 describe 'Overrides' do
   Dir['app/views/override/**/*']
@@ -11,7 +10,6 @@ describe 'Overrides' do
       it "#{path} method works" do
         visit path
         expect(page.status_code).to eq(200)
-        expect_fuzzy_xml
       end
     end
 
