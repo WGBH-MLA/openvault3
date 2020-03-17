@@ -81,3 +81,4 @@ gem 'passenger'
 
 gem 'bigdecimal'
 gem 'minitest', '5.11.3'
+gem 'rack', '1.6.13'

@@ -278,6 +278,7 @@ DEPENDENCIES
   passenger
   pry
   pry-nav
+  rack (= 1.6.13)
   rails (= 4.2.8)
   rsolr
   rspec
