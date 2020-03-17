@@ -79,6 +79,6 @@ gem 'pry-nav', :group => :development
 
 gem 'passenger'
 
-gem 'bigdecimal'
+gem 'bigdecimal', '2.0.0'
 gem 'minitest', '5.11.3'
 gem 'rack', '1.6.13'

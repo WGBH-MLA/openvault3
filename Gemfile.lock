@@ -262,7 +262,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-page_caching
   aws-sdk (~> 2)
-  bigdecimal
+  bigdecimal (= 2.0.0)
   blacklight (~> 5.11.1)
   blacklight_range_limit
   bootstrap-sass (= 3.3.4.1)
