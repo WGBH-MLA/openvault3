@@ -22,4 +22,4 @@ The <em>Jubilee Singers</em> interviews were conducted in 2000 for the <em>Ameri
 
 [Archives of African American Music and Culture, Indiana University](https://aaamc.indiana.edu/)
 
-[African American History, American Memory Project, Library of Congress](https://memory.loc.gov/ammem/browse/ListSome.php?category=African%20American%20History)
+[African American History, American Memory Project, Library of Congress](https://www.loc.gov/collections/?fa=subject:african+american+history)
