@@ -2,7 +2,7 @@
 
 2
 
-![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair-cooke-banner.jpg)
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg)
 
 ## intro
 
