@@ -22,10 +22,6 @@ In 2019 Andrew Egendorf, in memory of his late wife, Linda Egendorf, gifted to W
 
 *Masterpiece Theatre* began in 1971 as a partnership between WGBH and the BBC and other producers. In 2019 Andrew Egendorf generously donated to WGBH in honor of his late wife Linda. This gift enabled the Media Library and Archives to digitize episodes of *Masterpiece Theatre* programs from 1971-1992, Alistair Cooke’s tenure. Materials will be available online when possible and on-site at WGBH as materials are digitized.
 
-## Full Program Video
-
-[](http://localhost:3000/catalog?f[special_collection_tags][]=advocates_full_program)
-
 ## Related Content
 
 - [<em>Masterpiece</em> Website](https://www.pbs.org/wgbh/masterpiece/)
