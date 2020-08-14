@@ -17,6 +17,9 @@
 // Required by Blacklight
 //= require blacklight/blacklight
 //= require blacklight_range_limit
+//= require react
+//= require react_ujs
+//= require components
 //= require_tree .
 
 // http://stackoverflow.com/a/30008017

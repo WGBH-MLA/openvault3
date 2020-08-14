@@ -1,0 +1,86 @@
+.cards-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.card-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  border: 2px solid #eee;
+  height: 10vh;
+  background-color: #ddd;
+  padding: 0.6vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-right: 0px !important;
+}
+
+.card-container-mask {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  -webkit-mask-image: linear-gradient(to bottom, #ccc 45%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #ccc 45%, transparent 100%);
+}
+
+.card-container:hover > .card-container-mask {
+  transition: opacity 2s;
+  opacity: 1;
+}
+
+.card-container:hover {
+  transition: background-color 0.5s;
+  background-color: #eee;
+}
+
+.card-showfull {
+  opacity: 0;
+  font-style: italic;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0.5em;
+  font-size: 16px;
+  color: #000;
+}
+
+.card-container:hover > .card-showfull {
+  transition: opacity 2s;
+  opacity: 1;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0;
+  padding: 0.4vw;
+  color: #111;
+}
+
+.card-closed {
+  min-width: 25%;
+  width: 25%;
+  max-width: 25%;
+}
+
+.card-expanded {
+  transition: width 2s;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.card-description {
+  font-size: 16px;
+  padding: 0.4vw;
+  margin: 0;
+  color: #222;
+  line-height: 1.4em;
+}
+
+.card-img {
+  color: #ff00ff;
+}
