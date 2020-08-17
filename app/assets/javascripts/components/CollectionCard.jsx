@@ -1,8 +1,8 @@
 class CollectionCard extends React.Component {
   render() {
-    let classes = this.props.isExpanded ? 'card-expanded' : 'card-closed'
-    classes += ' card-container'
-    console.log(this.props.isExpanded)
+    let classes = 'card-container '
+    classes += this.props.expanded == this.props.index ? ' expanded' : ''
+
     return (
       <div onClick={ () => this.props.expand(this.props.index) } className={ classes }>
         <div className="card-container-mask"></div>

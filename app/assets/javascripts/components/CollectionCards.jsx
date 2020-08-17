@@ -10,16 +10,13 @@ class CollectionCards extends React.Component {
   }
 
   expand(index){
-    console.log("POOP", index)
-    this.setState({expanded: index})
-  }
-
-  shouldComponentUpdate(nextProps, nextState){
-    if(nextState.expanded !== this.state.expanded ){
-      return true
-    } else {
-      return false
+    let newExpand
+    // if we already expanded this one, close it
+    if(this.state.expanded != index){
+      newExpand = index
     }
+
+    this.setState({expanded: newExpand})
   }
 
   drawCards(){
@@ -28,18 +25,17 @@ class CollectionCards extends React.Component {
     let index
     for(var i=0; i<this.props.cards.length; i++){
       card = this.props.cards[i]
-      console.log(this.state.expanded == i, i)
       index = i+1
       
       cards.push( 
         <CollectionCard
-          // 'key is not a prop' lame ass
           key={i}
+          
           index={index}
           title={ card.title }
           description={ card.description }
           img={ card.img }
-          isExpanded={ this.state.expanded == index }
+          expanded={ this.state.expanded }
           expand={ this.expand }
           record_link={ card.record_link }
         />
