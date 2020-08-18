@@ -1,0 +1,22 @@
+title: 'The Andrew Egendorf thing Wwihty th Alistair Cooke on thahaaaaa siiide'
+seasons:
+  - seasonNumber: 1
+    seasonImage: 'blippity.jpg'
+    cardData:
+      - title: First Card
+        description: First cards say whhaaaaaaa
+        recordLink: http://www.google.com
+      - title: Second Card
+        description: second cards say whoooo
+        recordLink: http://www.wgbh.org
+
+  - seasonNumber: 2
+    seasonImage: 'scrippity.jpg'
+    cardData:
+      - title: other Card
+        description: First cards say whhaaaaaaa
+        recordLink: http://www.google.com
+      - title: more card ard cards! Card
+        description: second cards say whoooo
+        recordLink: http://www.wgbh.org
+      

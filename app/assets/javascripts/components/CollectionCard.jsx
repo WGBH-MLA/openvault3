@@ -1,3 +1,4 @@
+
 class CollectionCard extends React.Component {
   render() {
     let classes = 'card-container '
@@ -15,7 +16,7 @@ class CollectionCard extends React.Component {
           { this.props.description }
         </div>
 
-        <a href={ this.props.record_link } className="card-showfull">
+        <a href={ this.props.recordLink } className="card-showfull">
           See Full Record
         </a>
       </div>

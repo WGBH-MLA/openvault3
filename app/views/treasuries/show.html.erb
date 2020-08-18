@@ -1,0 +1,11 @@
+<%= stylesheet_link_tag "locals/collectioncard.css" %>
+<main class="container-fluid" role="main">
+
+  <div class="row">
+    <h1>
+      @item.title
+    </h1>
+  </div>
+
+  <%= react_component("CollectionSeasons", { seasons: @item.seasons }) %>
+</main>

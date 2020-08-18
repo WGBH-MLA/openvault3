@@ -26,6 +26,9 @@ Rails.application.routes.draw do
   resources :oai,
             only: [:index]
 
+
+  get '/treasuries/:title', to: 'treasuries#show'
+
   get 'robots', to: 'robots#show'
 
   override_constraints = lambda do |req|

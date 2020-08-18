@@ -4,8 +4,12 @@ class TabbedController < ApplicationController
   end
 
   def show
+
     @item = tab_class.find_by_path(params[:id])
     @page_title = @item.title
+
+    
+    # require('pry');binding.pry
 
     if params[:tab]
       render_404 unless @item.tabs[params[:tab]]
