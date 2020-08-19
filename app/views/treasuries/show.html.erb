@@ -3,9 +3,8 @@
 
   <div class="row">
     <h1>
-      @item.title
+      <%= @item.title %>
     </h1>
   </div>
-
   <%= react_component("CollectionSeasons", { seasons: @item.seasons }) %>
 </main>

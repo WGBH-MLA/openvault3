@@ -26,7 +26,7 @@ class CollectionSeasons extends React.Component {
           key={i}
 
           seasonImage={ season.seasonImage }
-
+          description={ season.description }
           expand={ this.expand }
           expanded={ this.state.expanded }
           index={index}

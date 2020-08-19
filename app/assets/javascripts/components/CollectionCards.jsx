@@ -34,10 +34,10 @@ class CollectionCards extends React.Component {
           index={index}
           title={ card.title }
           description={ card.description }
-          img={ card.img }
+          cardImage={ card.cardImage }
           expanded={ this.state.expanded }
           expand={ this.expand }
-          record_link={ card.record_link }
+          recordLink={ card.recordLink }
         />
       )
     }
