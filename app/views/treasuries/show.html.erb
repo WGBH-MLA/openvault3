@@ -1,10 +1,16 @@
 <%= stylesheet_link_tag "locals/collectioncard.css" %>
 <main class="container-fluid" role="main">
 
-  <div class="row">
+  <div class="row treasury-title">
     <h1>
       <%= @item.title %>
     </h1>
   </div>
+
+  <div class="row treasury-description">
+    <%= @item.description %>
+  </div>
+
   <%= react_component("CollectionSeasons", { seasons: @item.seasons }) %>
+
 </main>

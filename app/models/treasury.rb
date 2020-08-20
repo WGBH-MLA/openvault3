@@ -14,6 +14,10 @@ class Treasury
     @data["title"]
   end
 
+  def description
+    @data["description"]
+  end
+
   def seasons
     @data["seasons"]
   end
