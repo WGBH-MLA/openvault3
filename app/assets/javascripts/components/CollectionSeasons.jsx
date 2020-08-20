@@ -10,7 +10,13 @@ class CollectionSeasons extends React.Component {
   }
 
   expand(index){
-    this.setState({expanded: index})
+    let setto
+    if(this.state.expanded == index){
+      setto = null
+    } else {
+      setto = index
+    }
+    this.setState({expanded: setto})
   }
 
   drawSeasons(){

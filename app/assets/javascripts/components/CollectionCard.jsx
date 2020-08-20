@@ -1,9 +1,7 @@
-
 class CollectionCard extends React.Component {
   render() {
     let classes = 'card-container '
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
-    console.log("CARD IMG", this.props.cardImage)
     let sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
 
     return (
