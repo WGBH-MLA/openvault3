@@ -14,6 +14,10 @@ class Treasury
     @data["title"]
   end
 
+  def poster_image
+    @data["posterImage"]
+  end
+
   def description
     @data["description"]
   end

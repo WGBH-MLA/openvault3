@@ -2,13 +2,21 @@
 <main class="container-fluid" role="main">
 
   <div class="row treasury-title">
+
     <h1>
       <%= @item.title %>
     </h1>
   </div>
 
   <div class="row treasury-description">
-    <%= @item.description %>
+    <div class="col-md-6">
+      <%= @item.description %>
+
+    </div>
+
+    <div class="col-md-6">
+      <img src="<%= @item.poster_image %>">
+    </div>
   </div>
 
   <%= react_component("CollectionSeasons", { seasons: @item.seasons }) %>
