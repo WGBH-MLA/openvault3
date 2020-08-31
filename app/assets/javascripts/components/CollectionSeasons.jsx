@@ -3,10 +3,40 @@ class CollectionSeasons extends React.Component {
     super(props)
 
     this.state = {
-      expanded: null
+      expanded: null,
+      search: ''
     }
 
+    this.handleOnChange = this.handleOnChange.bind(this)
     this.expand = this.expand.bind(this)
+  }
+
+  // get search value
+  handleOnChange(event){
+    let val = event.target.value
+    this.setState({search: val})
+  }
+
+  searchCards(cards, val){
+    // check each card for search term
+    return cards.filter( (card) => { return this.searchCard(card, val) } )
+  }
+
+  searchCard(card, val){
+    // console.log("val ", val)
+    // console.log("title ", card.title)
+    // console.log("desc ", val)
+
+    
+    val = this.normalize(val)
+    let title = this.normalize(card.title)
+    let description = this.normalize(card.description)
+
+    return (title && title.includes(val)) || (description && description.includes(val))
+  }
+
+  normalize(val){
+    return val ? val.toLowerCase() : ''
   }
 
   expand(index){
@@ -27,6 +57,18 @@ class CollectionSeasons extends React.Component {
       season = this.props.seasons[i]
       index = i+1
       
+      let cards = season.cardData
+      if(this.state.search.length > 0){
+        cards = this.searchCards(cards, this.state.search)
+      }
+
+      // if(!cards || cards.length == 0){
+      //   cards = season.cardData
+      // }
+      if(cards.length == 0){
+        continue
+      }
+
       seasons.push( 
         <CollectionSeason
           key={i}
@@ -35,11 +77,16 @@ class CollectionSeasons extends React.Component {
           description={ season.description }
           expand={ this.expand }
           expanded={ this.state.expanded }
+          searching={ this.state.search.length > 0 }
           index={index}
           seasonNumber={ season.seasonNumber }
-          cardData={ season.cardData }
+          cardData={ cards }
         />
       )
+    }
+
+    if(seasons.length == 0){
+      seasons = "No episodes matched your search... Please revise your search terms and try again."
     }
 
     return seasons
@@ -49,6 +96,10 @@ class CollectionSeasons extends React.Component {
     let seasons = this.drawSeasons()
     return (
       <div className="">
+        <CollectionSearch
+          handleOnChange={ this.handleOnChange }
+          seasons={ seasons }
+        />
         { seasons }
       </div>
     )

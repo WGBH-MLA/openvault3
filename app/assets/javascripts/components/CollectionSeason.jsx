@@ -4,8 +4,8 @@ class CollectionSeason extends React.Component {
     let cardData = this.props.cardData;
     let classes = 'season'
 
-
-    let expanded = this.props.expanded == this.props.index
+    // if were searching, expand them all
+    let expanded = (this.props.expanded == this.props.index || this.props.searching)
     classes += expanded ? ' season-open' : ''
     let sty
 
