@@ -2,44 +2,69 @@ title: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collect
 description: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at WGBH as they are digitized.'
 posterImage: 'https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg'
 seasons:
-  - seasonNumber: 1
+  - seasonNumber: "1964"
     seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-    cardData:
-      - title: In A Quiet Mansion (Episode 1)
-        description: Masterpiece Theatre was the result of a collaboration between WGBH in Boston and the BBC and other producers, after WGBH President Stanford Calderwood became interested in licensing dramatic programs from the UK for broadcast in the US.
-        recordLink: http://www.google.com
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/2025552.jpg
-      - title: From The Teapot To the Ascot (Episode 2)
-        description: Masterpiece Theatre premiered on PBS on January 10, 1971, with Christopher Sarson serving as the series’ first executive producer. From its first broadcast until 1992, Masterpiece Theatre’s host was Alistair Cooke, a British-American broadcaster and journalist. To this day, Alistair Cooke remains the longest-serving of any Masterpiece host.
-        recordLink: http://www.wgbh.org
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/carousel/alistair_cooke_banner.jpg
+  - seasonNumber: "1999"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: "1965"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: "1979"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: "1989"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: "1978"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: "1961"
+    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
 
-  - seasonNumber: 2
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/1HY0245_002_lt.jpg'
-    description: Alistair Cooke's enduring legacy reminds us all to create a little 'Masterpiece' of our own.
-    cardData:
-      - title: Alistair Cooke's Enduring Legacy (Episode 1)
-        description: Alistair Cooke KBE (20 November 1908 – 30 March 2004) was a British-born American writer whose work as a journalist, television personality and radio broadcaster was done primarily in the United States.
-        recordLink: http://www.google.com
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_584.jpg.focalcrop.1200x630.50.10.jpg
-      - title: More Masterpieces (Episode 2)
-        description: 'Outside his journalistic output, which included Letter from America and America: A Personal History of the United States, he was well known in the United States as the host of PBS Masterpiece Theatre from 1971 to 1992.'
-        recordLink: http://www.wgbh.org
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/cooke-headshot.jpg
-      - title: 'Pieces of the Master: Alistair Cooke (Episode 3)'
-        description: After holding the job for 22 years, and having worked in television for 42 years, Cooke retired in 1992, although he continued to present Letter from America until shortly before his death.
-        recordLink: http://www.google.com
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/download.jpeg
-      - title: Frills and Bonnets (Episode 4)
-        description: 'He was the father of author and folk singer John Byrne Cooke.'
-        recordLink: http://www.wgbh.org
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Alistair-Cookie.jpg
-      - title: The Bookshelf Back There (Episode 5)
-        description: 'Today Masterpiece is known for its popular programs including Upstairs/Downstairs, Jewel in the Crown, Sherlock, Downton Abbey, and Victoria. Masterpiece Theatre programs have won a number of Emmy and Peabody Awards.'
-        recordLink: http://www.google.com
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/maxresdefault.jpg
-      - title: Bulk Candelabra Purchase (Episode 6)
-        description: 'In 2008, the series title was changed to Masterpiece and the series was split into three: Masterpiece Classic mainly encompassing shows set in the years before World War Two, Masterpiece Mystery! featuring detective drama shows, and Masterpiece Contemporary mainly for shows set in the years from World War II to the present.'
-        recordLink: http://www.wgbh.org
-        cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/p01vzv4w.jpg
+
+
+  # # testdata
+  # - seasonNumber: 1
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  #   cardData:
+  #     - title: In A Quiet Mansion (Episode 1)
+  #       description: Masterpiece Theatre was the result of a collaboration between WGBH in Boston and the BBC and other producers, after WGBH President Stanford Calderwood became interested in licensing dramatic programs from the UK for broadcast in the US.
+  #       recordLink: http://www.google.com
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/2025552.jpg
+  #     - title: From The Teapot To the Ascot (Episode 2)
+  #       description: Masterpiece Theatre premiered on PBS on January 10, 1971, with Christopher Sarson serving as the series’ first executive producer. From its first broadcast until 1992, Masterpiece Theatre’s host was Alistair Cooke, a British-American broadcaster and journalist. To this day, Alistair Cooke remains the longest-serving of any Masterpiece host.
+  #       recordLink: http://www.wgbh.org
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/carousel/alistair_cooke_banner.jpg
+
+  # - seasonNumber: 2
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/1HY0245_002_lt.jpg'
+  #   description: Alistair Cooke's enduring legacy reminds us all to create a little 'Masterpiece' of our own.
+  #   cardData:
+  #     - title: Alistair Cooke's Enduring Legacy (Episode 1)
+  #       description: Alistair Cooke KBE (20 November 1908 – 30 March 2004) was a British-born American writer whose work as a journalist, television personality and radio broadcaster was done primarily in the United States.
+  #       recordLink: http://www.google.com
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_584.jpg.focalcrop.1200x630.50.10.jpg
+  #     - title: More Masterpieces (Episode 2)
+  #       description: 'Outside his journalistic output, which included Letter from America and America: A Personal History of the United States, he was well known in the United States as the host of PBS Masterpiece Theatre from 1971 to 1992.'
+  #       recordLink: http://www.wgbh.org
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/cooke-headshot.jpg
+  #     - title: 'Pieces of the Master: Alistair Cooke (Episode 3)'
+  #       description: After holding the job for 22 years, and having worked in television for 42 years, Cooke retired in 1992, although he continued to present Letter from America until shortly before his death.
+  #       recordLink: http://www.google.com
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/download.jpeg
+  #     - title: Frills and Bonnets (Episode 4)
+  #       description: 'He was the father of author and folk singer John Byrne Cooke.'
+  #       recordLink: http://www.wgbh.org
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Alistair-Cookie.jpg
+  #     - title: The Bookshelf Back There (Episode 5)
+  #       description: 'Today Masterpiece is known for its popular programs including Upstairs/Downstairs, Jewel in the Crown, Sherlock, Downton Abbey, and Victoria. Masterpiece Theatre programs have won a number of Emmy and Peabody Awards.'
+  #       recordLink: http://www.google.com
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/maxresdefault.jpg
+  #     - title: Bulk Candelabra Purchase (Episode 6)
+  #       description: 'In 2008, the series title was changed to Masterpiece and the series was split into three: Masterpiece Classic mainly encompassing shows set in the years before World War Two, Masterpiece Mystery! featuring detective drama shows, and Masterpiece Contemporary mainly for shows set in the years from World War II to the present.'
+  #       recordLink: http://www.wgbh.org
+  #       cardImage: https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/p01vzv4w.jpg
