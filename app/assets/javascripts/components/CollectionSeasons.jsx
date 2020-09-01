@@ -4,11 +4,12 @@ class CollectionSeasons extends React.Component {
 
     this.state = {
       expanded: null,
-      search: ''
+      search: ""
     }
 
     this.handleOnChange = this.handleOnChange.bind(this)
     this.expand = this.expand.bind(this)
+    this.clearSearch = this.clearSearch.bind(this)
   }
 
   // get search value
@@ -36,7 +37,7 @@ class CollectionSeasons extends React.Component {
   }
 
   normalize(val){
-    return val ? val.toLowerCase() : ''
+    return val ? val.toLowerCase() : ""
   }
 
   expand(index){
@@ -47,6 +48,10 @@ class CollectionSeasons extends React.Component {
       setto = index
     }
     this.setState({expanded: setto})
+  }
+
+  clearSearch(){
+    this.setState({search: ""})
   }
 
   drawSeasons(){
@@ -62,9 +67,6 @@ class CollectionSeasons extends React.Component {
         cards = this.searchCards(cards, this.state.search)
       }
 
-      // if(!cards || cards.length == 0){
-      //   cards = season.cardData
-      // }
       if(cards.length == 0){
         continue
       }
@@ -86,7 +88,11 @@ class CollectionSeasons extends React.Component {
     }
 
     if(seasons.length == 0){
-      seasons = "No episodes matched your search... Please revise your search terms and try again."
+      seasons = (
+        <h1 className="row treasury-noresults">
+          Sorry, no records matched your search. Please revise your search terms.
+        </h1>
+      )
     }
 
     return seasons
@@ -97,6 +103,7 @@ class CollectionSeasons extends React.Component {
     return (
       <div className="">
         <CollectionSearch
+          clearSearch={ this.clearSearch }
           handleOnChange={ this.handleOnChange }
           seasons={ seasons }
         />

@@ -52,7 +52,9 @@ class Treasury
     {
       "title" => pbcore.title,
       "description" => pbcore.program_description,
-      "recordLink" => "#/catalog/{pbcore.id}",
+      "date" => pbcore.date,
+      "programNumber" => pbcore.program_number,
+      "recordLink" => "#/catalog/#{pbcore.id}",
       "cardImage" => random_cooke_image
     }
   end

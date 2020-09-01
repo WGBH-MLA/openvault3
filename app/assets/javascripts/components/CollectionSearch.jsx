@@ -6,6 +6,7 @@ class CollectionSearch extends React.Component {
     return (
       <div>
         <input placeholder="Search..." type="text" onChange={ this.props.handleOnChange } />
+        <button onClick={ this.props.clearSearch }>X</button>
       </div>
     )
   }

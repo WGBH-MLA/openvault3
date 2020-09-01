@@ -32,12 +32,19 @@ class CollectionCards extends React.Component {
           key={i}
           
           index={index}
+
+          // from pbcore model
           title={ card.title }
           description={ card.description }
+          programNumber={ card.programNumber }
+          date={ card.date }
+
+          // catalog link
+          recordLink={ card.recordLink }
+          
           cardImage={ card.cardImage }
           expanded={ this.state.expanded }
           expand={ this.expand }
-          recordLink={ card.recordLink }
         />
       )
     }

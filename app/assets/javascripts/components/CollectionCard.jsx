@@ -4,6 +4,22 @@ class CollectionCard extends React.Component {
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
     let sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
 
+    let programNumber, date, description
+
+    if(this.props.programNumber){
+      programNumber = "Program " + this.props.programNumber
+    }
+
+    if(this.props.date){
+      date = "(" + this.props.date + ")"
+    }
+
+    pnAndDate = ( <div className="card-text">{ programNumber } { date }</div> )
+
+    if(this.props.description){
+      description = ( <div className="card-text">{ this.props.description }</div> )
+    }
+
     return (
       <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
         <div className="card-container-mask"></div>
@@ -12,9 +28,9 @@ class CollectionCard extends React.Component {
           { this.props.title }
         </h1>
 
-        <div className="card-description">
-          { this.props.description }
-        </div>
+        { pnAndDate }
+
+        { description }
 
         <a href={ this.props.recordLink } className="card-showfull">
           See Full Record
