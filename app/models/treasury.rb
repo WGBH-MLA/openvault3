@@ -54,8 +54,13 @@ class Treasury
       "description" => pbcore.program_description,
       "date" => pbcore.date,
       "programNumber" => pbcore.program_number,
-      "recordLink" => "#/catalog/#{pbcore.id}",
-      "cardImage" => random_cooke_image
+      "guid" => pbcore.id,
+      "recordLink" => "/catalog/#{pbcore.id}",
+      "embedLink" => "/embed/card/#{pbcore.id}",
+      "cardImage" => random_cooke_image,
+
+      # HEY - DON DO TIHS THOUGH
+      "clipCard" => true
     }
   end
 

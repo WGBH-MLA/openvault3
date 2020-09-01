@@ -1,6 +1,12 @@
 class CollectionCard extends React.Component {
   render() {
-    let classes = 'card-container '
+    let classes
+    if(this.props.clipCard || true){
+      classes = 'card-container card-container-video'
+    } else {
+      classes = 'card-container '
+    }
+
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
     let sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
 
@@ -20,22 +26,44 @@ class CollectionCard extends React.Component {
       description = ( <div className="card-text">{ this.props.description }</div> )
     }
 
-    return (
-      <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
-        <div className="card-container-mask"></div>
+    if(this.props.clipCard){
+      console.log(this.props.clipCardActive)
+      if(this.props.clipCardActive){
+        return (
+          <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
+            <div className="card-video">
+              <iframe className="card-iframe" src={ this.props.embedLink } />
+            </div>
+          </div>
+        )  
+      } else {
 
-        <h1 className="card-title">
-          { this.props.title }
-        </h1>
+        return (
+          <div style={ sty } onClick={ () => this.props.handleClipClick(this.props.guid) } className={ classes }>
+              CLEEK ME TO PPAALAAAAAYYYYY
+          </div>
+        )
+      }
 
-        { pnAndDate }
+    } else {
+        
+      return (
+        <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
+          <div className="card-container-mask"></div>
 
-        { description }
+          <h1 className="card-title">
+            { this.props.title }
+          </h1>
 
-        <a href={ this.props.recordLink } className="card-showfull">
-          See Full Record
-        </a>
-      </div>
-    )
+          { pnAndDate }
+
+          { description }
+
+          <a href={ this.props.recordLink } className="card-showfull">
+            See Full Record
+          </a>
+        </div>
+      )
+    }
   }
 }

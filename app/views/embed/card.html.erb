@@ -1,0 +1,29 @@
+<div style="width: 100%; height: 30vh;">
+
+  <% if  @pbcore.image? %>
+    <%= tag('img', src: @pbcore.proxy_srcs.first) %>
+  <% end %>
+
+  <% if @pbcore.audio? || @pbcore.proxy_srcs.empty? %>
+    <%= tag('img', src: @pbcore.thumbnail_src) %>
+  <% end %>
+
+  <% if false %>
+    <strong>Note:</strong> This content is not available in your region.
+  <% elsif !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
+    <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
+                  style: 'width: 100vw; min-height: 50vh; max-height: 100vh;',
+                  controls: true,
+                  id: 'player-media',
+                  controlsList: "nodownload",
+                  oncontextmenu: 'return false;',
+                  poster: @pbcore.thumbnail_src) do %>
+      <% @pbcore.proxy_srcs.each do |src| %>
+        <%= tag('source', src: src, type: @pbcore.video? ? 'video/mp4' : 'audio/mp3') %>
+      <% end %>
+      <track src="/transcripts/<%= @pbcore.id %>.vtt" default/>
+    <% end %>
+  <% end %>
+
+</div>
+

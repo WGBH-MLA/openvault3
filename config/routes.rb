@@ -20,6 +20,8 @@ Rails.application.routes.draw do
   resources :embed,
             only: [:show]
 
+  get '/embed/card/:id', to: 'embed#card'
+
   resources :sitemap,
             only: [:index]
 

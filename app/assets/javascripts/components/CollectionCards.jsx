@@ -26,7 +26,8 @@ class CollectionCards extends React.Component {
     for(var i=0; i<this.props.cards.length; i++){
       card = this.props.cards[i]
       index = i+1
-      
+
+      console.log('CARDS', card.guid, this.props.clipClickGuid)
       cards.push( 
         <CollectionCard
           key={i}
@@ -39,12 +40,20 @@ class CollectionCards extends React.Component {
           programNumber={ card.programNumber }
           date={ card.date }
 
+          guid={ card.guid }
           // catalog link
           recordLink={ card.recordLink }
+          embedLink={ card.embedLink }
           
           cardImage={ card.cardImage }
+
           expanded={ this.state.expanded }
           expand={ this.expand }
+
+          handleClipClick={ this.props.handleClipClick }
+          // but is it though?
+          clipCard={ card.clipCard }
+          clipCardActive={ card.guid == this.props.clipClickGuid }
         />
       )
     }

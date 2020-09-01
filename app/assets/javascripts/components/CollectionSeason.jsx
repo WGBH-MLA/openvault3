@@ -25,7 +25,11 @@ class CollectionSeason extends React.Component {
         </div>
 
         <div className="season-body">
-          <CollectionCards cards={ cardData } />
+          <CollectionCards
+            handleClipClick={ this.props.handleClipClick }
+            clipClickGuid={ this.props.clipClickGuid }
+            cards={ cardData }
+          />
         </div>
 
         <div className="season-mask"></div>

@@ -4,12 +4,16 @@ class CollectionSeasons extends React.Component {
 
     this.state = {
       expanded: null,
-      search: ""
+      search: "",
+
+      // what guid we done clipclicked
+      clipClickGuid: null
     }
 
     this.handleOnChange = this.handleOnChange.bind(this)
     this.expand = this.expand.bind(this)
     this.clearSearch = this.clearSearch.bind(this)
+    this.handleClipClick = this.handleClipClick.bind(this)
   }
 
   // get search value
@@ -54,6 +58,11 @@ class CollectionSeasons extends React.Component {
     this.setState({search: ""})
   }
 
+  handleClipClick(guid){
+    this.setState({clipClickGuid: guid})
+    console.log(" I CLICK AN CLICK AND CLICK", guid, this.state.clipClickGuid)
+  }
+
   drawSeasons(){
     let seasons = []
     let season
@@ -77,8 +86,13 @@ class CollectionSeasons extends React.Component {
 
           seasonImage={ season.seasonImage }
           description={ season.description }
-          expand={ this.expand }
+
           expanded={ this.state.expanded }
+          expand={ this.expand }
+
+          clipClickGuid={ this.state.clipClickGuid }
+          handleClipClick={ this.handleClipClick }          
+
           searching={ this.state.search.length > 0 }
           index={index}
           seasonNumber={ season.seasonNumber }
