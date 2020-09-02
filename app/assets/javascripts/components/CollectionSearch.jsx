@@ -4,7 +4,7 @@ class CollectionSearch extends React.Component {
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
     let sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
     return (
-      <div>
+      <div id="treasury-search">
         <input value={ this.props.search } placeholder="Search..." type="text" onChange={ this.props.handleOnChange } />
         <button onClick={ this.props.clearSearch }>X</button>
       </div>

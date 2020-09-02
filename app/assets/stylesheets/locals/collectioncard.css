@@ -215,9 +215,27 @@
   margin: 0;
 }
 
+.treasury-description {
+  margin-bottom: 2vh;
+}
+
 .treasury-noresults {
   margin-top: 2vh;
   font-size: 28px;
+}
+
+#treasury-search input, button {
+  padding: 0.15vw;
+  border-radius: 4px;
+}
+
+#treasury-search input {
+  background-color: #F1F1F1;
+}
+
+#treasury-search button {
+  width: 2vw;
+  background-color: #DEE5EF;
 }
 
 .season div.season-subtitle {
