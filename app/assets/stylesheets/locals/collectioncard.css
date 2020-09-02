@@ -35,6 +35,13 @@
 
 .card-container-video {
   padding: 0;
+  overflow: hidden;
+}
+
+.card-container.card-container-video.expanded {
+  transition: background-color 0.6s;
+  background-color: #000;
+  background-image: none;
 }
 
 .card-container.expanded {
@@ -50,13 +57,6 @@
 }
 
 .card-container-mask {
-/*  opacity: 0;
-  position: absolute;
-  width: 100%;
-  height: 10vw;
-  -webkit-mask-image: linear-gradient(to bottom, #ccc 45%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #ccc 45%, transparent 100%);*/
-  
   top: 0;
   left: 0;
   position: absolute;
@@ -75,6 +75,14 @@
   transition: opacity 0.3s;
   opacity: 1;
 }
+
+
+/* shrug
+.card-clipclick-container:hover > {
+  transition: opacity 0.3s;
+  background-image: url('openvault_blue_video.png');
+  opacity: 1;
+}*/
 
 .card-container:not(.expanded):hover {
   height: 10.6vw;

@@ -28,11 +28,6 @@ class CollectionSeasons extends React.Component {
   }
 
   searchCard(card, val){
-    // console.log("val ", val)
-    // console.log("title ", card.title)
-    // console.log("desc ", val)
-
-    
     val = this.normalize(val)
     let title = this.normalize(card.title)
     let description = this.normalize(card.description)
@@ -60,7 +55,6 @@ class CollectionSeasons extends React.Component {
 
   handleClipClick(guid){
     this.setState({clipClickGuid: guid})
-    console.log(" I CLICK AN CLICK AND CLICK", guid, this.state.clipClickGuid)
   }
 
   drawSeasons(){
@@ -117,6 +111,8 @@ class CollectionSeasons extends React.Component {
     return (
       <div className="">
         <CollectionSearch
+
+          search={ this.state.search }
           clearSearch={ this.clearSearch }
           handleOnChange={ this.handleOnChange }
           seasons={ seasons }

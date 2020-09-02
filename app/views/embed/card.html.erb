@@ -12,7 +12,7 @@
     <strong>Note:</strong> This content is not available in your region.
   <% elsif !@pbcore.proxy_srcs.empty? && !@pbcore.image? %>
     <%= content_tag(@pbcore.video? ? 'video' : 'audio', 
-                  style: 'width: 100vw; min-height: 50vh; max-height: 100vh;',
+                  style: 'overflow: hidden; width: 100vw; min-height: 50vh; max-height: 100vh;',
                   controls: true,
                   id: 'player-media',
                   controlsList: "nodownload",

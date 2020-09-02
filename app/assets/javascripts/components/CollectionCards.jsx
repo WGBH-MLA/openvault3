@@ -27,8 +27,7 @@ class CollectionCards extends React.Component {
       card = this.props.cards[i]
       index = i+1
 
-      console.log('CARDS', card.guid, this.props.clipClickGuid)
-      cards.push( 
+      cards.push(
         <CollectionCard
           key={i}
           

@@ -1,14 +1,25 @@
 class CollectionCard extends React.Component {
+  clipClickAndExpand(){
+    this.props.handleClipClick(this.props.guid)
+    this.props.expand(this.props.index)
+  }
+
   render() {
     let classes
-    if(this.props.clipCard || true){
+    let sty
+
+     if(this.props.clipCard && !this.props.clipCardActive) {
+      classes = 'card-container clipclick '
+      sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+    } else if(this.props.clipCard) { 
       classes = 'card-container card-container-video'
+
     } else {
       classes = 'card-container '
+      sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
     }
 
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
-    let sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
 
     let programNumber, date, description
 
@@ -27,7 +38,6 @@ class CollectionCard extends React.Component {
     }
 
     if(this.props.clipCard){
-      console.log(this.props.clipCardActive)
       if(this.props.clipCardActive){
         return (
           <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
@@ -37,10 +47,23 @@ class CollectionCard extends React.Component {
           </div>
         )  
       } else {
-
         return (
-          <div style={ sty } onClick={ () => this.props.handleClipClick(this.props.guid) } className={ classes }>
-              CLEEK ME TO PPAALAAAAAYYYYY
+          <div style={ sty } className={ classes }>
+            <div className="card-container-mask"></div>
+
+            <div onClick={ () => this.clipClickAndExpand() } className="card-clipclick-container">
+              <h1 className="card-title">
+                { this.props.title }
+              </h1>
+
+              { pnAndDate }
+
+              { description }
+            </div>
+
+            <a href={ this.props.recordLink } className="card-showfull">
+              Watch Clip
+            </a>
           </div>
         )
       }
