@@ -6,7 +6,7 @@ class CollectionSearch extends React.Component {
     return (
       <div id="treasury-search">
         <input value={ this.props.search } placeholder="Search..." type="text" onChange={ this.props.handleOnChange } />
-        <button onClick={ this.props.clearSearch }>X</button>
+        <button onClick={ this.props.clearSearch }></button>
       </div>
     )
   }

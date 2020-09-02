@@ -224,18 +224,33 @@
   font-size: 28px;
 }
 
+#treasury-search {
+  height: 32px;
+  display: inline-block;
+  margin-bottom: 0.5vw;
+}
+
 #treasury-search input, button {
   padding: 0.15vw;
   border-radius: 4px;
+  min-height: 32px;
 }
 
 #treasury-search input {
-  background-color: #F1F1F1;
+  height: 32px;
+  max-height: 32px;
+  /*background-color: #F1F1F1;*/
 }
 
 #treasury-search button {
-  width: 2vw;
-  background-color: #DEE5EF;
+  position: relative;
+  top: 5px;
+  width: 32px;
+  background-color: #939598;
+  background: url('/images/x-gray.png');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .season div.season-subtitle {
