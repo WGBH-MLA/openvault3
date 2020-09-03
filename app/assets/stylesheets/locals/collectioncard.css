@@ -329,3 +329,21 @@ a.clear-search-button:hover {
   transition: opacity 1s, height 1s;
 }
 */
+/*
+@media only screen and (max-width: 991px) {
+  .card-container {
+    height: 20vh;
+    width: 100%;
+    display: block;  
+  }
+
+  .card-showfull {
+    opacity: 1;
+    position: relative;
+    margin-top: 1em;
+    display: block;
+  }
+
+}
+
+*/
