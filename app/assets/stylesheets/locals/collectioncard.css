@@ -230,19 +230,22 @@
   margin-bottom: 0.5vw;
 }
 
-#treasury-search input, button {
-  padding: 0.15vw;
+#treasury-search input {
+  padding: 0.16em;
   border-radius: 4px;
+  border:0.1em solid #ccc;
   min-height: 32px;
 }
 
 #treasury-search input {
   height: 32px;
   max-height: 32px;
+  margin-right: 0.2em;
+  color:#ccc;
   /*background-color: #F1F1F1;*/
 }
 
-#treasury-search button {
+/*#treasury-search button {
   position: relative;
   top: 5px;
   width: 32px;
@@ -251,6 +254,36 @@
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
+}*/
+
+a.clear-search-button{
+/*  background-color: #939598;
+  background: url('/images/x-gray.png');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+*/    
+  display:inline-block;
+  padding:0.12em 0.38em;
+  border:0.1em solid #ccc;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.22em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#6E6F71;
+  text-align:center;
+  transition: all 0.2s;
+}
+a.clear-search-button:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+ a.clear-search-button{
+  display:block;
+  margin:0.4em auto;
+ }
 }
 
 .season div.season-subtitle {
