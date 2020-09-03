@@ -136,7 +136,9 @@ class Treasury
       "title" => title,
       "description" => desc,
       "recordLink" => "/miniseries/#{ normalize_mini_title(title) }",
-      "cardImage" => random_cooke_image,
+      
+      # they dont want no card image
+      # "cardImage" => random_cooke_image,
     }
   end
 
@@ -162,11 +164,11 @@ class Treasury
       "guid" => pbcore.id,
       "recordLink" => "/catalog/#{pbcore.id}",
       "embedLink" => "/embed/card/#{pbcore.id}",
-      "cardImage" => random_cooke_image,
 
-      # HEY - DON DO TIHS THOUGH
-      "clipCard" => pbcore.year == "1961"
-      # "clipCard" => pbcore.is_clip?
+      # no card image for you
+      # "cardImage" => random_cooke_image,
+
+      "clipCard" => pbcore.is_clip?
     }
   end
 

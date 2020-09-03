@@ -10,13 +10,17 @@ class CollectionCard extends React.Component {
 
      if(this.props.clipCard && !this.props.clipCardActive) {
       classes = 'card-container clipclick '
-      sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+      if(this.props.cardImage){
+        sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+      }
     } else if(this.props.clipCard) { 
       classes = 'card-container card-container-video'
 
     } else {
       classes = 'card-container '
-      sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+      if(this.props.cardImage){
+        sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+      }
     }
 
     classes += this.props.expanded == this.props.index ? ' expanded' : ''
