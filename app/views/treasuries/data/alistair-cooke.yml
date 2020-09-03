@@ -2,24 +2,89 @@ title: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collect
 description: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at WGBH as they are digitized.'
 posterImage: 'https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg'
 seasons:
-  - seasonNumber: "1964"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 1
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1999"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 2
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1965"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 3
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1979"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 4
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1989"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 5
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1978"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 6
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
-  - seasonNumber: "1961"
-    seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  - seasonNumber: 7
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
     # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 8
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 9
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 10
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 11
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 12
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 13
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 14
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 15
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 16
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 17
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 18
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 19
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 20
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 21
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+
+
+  # - seasonNumber: "1964"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1999"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1965"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1979"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1989"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1978"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  # - seasonNumber: "1961"
+  #   seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+  #   # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'

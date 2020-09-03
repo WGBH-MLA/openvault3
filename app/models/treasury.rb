@@ -1,5 +1,6 @@
 class Treasury
-
+  SEASONS = 0
+  EPISODES = 1
   attr_reader :data
 
   # YML style
@@ -11,36 +12,81 @@ class Treasury
   #   @data = YAML.load( File.read(filepath) )
   # end
 
-  def initialize(title)
-    filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
-
-    raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
-    # @file = 
-    @data = YAML.load( File.read(filepath) )
-
-    docs = RSolr.connect(url: 'http://localhost:8983/solr/')
-                    .get('select', params: {
-                           'q' => "*:*",
-                           # 'fl' => 'id,short_title,thumbnail_src,asset_description',
-                           # 'sort' => 'short_title asc',
-                           'rows' => '1000' # Solr default is 10.
-                         })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
-
-    # want season number, need something that will always be there!
-    # season_data = docs.group_by {|pb| pb.year }
+  def initialize(title, type)
 
     # get a bucket of images to draw from
     @cooke_images = images
 
-    # year for testing
-    season_data = docs.reject {|g| g.year.nil? }.group_by {|pb| pb.year }
 
-    # combine yml data with docs
-    @data["seasons"] = @data["seasons"].map do |season|
-      snumber = season["seasonNumber"]
-      season_from_pbcores( snumber, season["description"], season_data[ snumber ] )
+
+    if type == SEASONS
+      filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
+
+      raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
+
+
+  
+      @data = YAML.load( File.read(filepath) )
+
+      pbs = RSolr.connect(url: 'http://localhost:8983/solr/')
+                      .get('select', params: {
+                             'q' => "*:*",
+                             # 'fl' => 'id,short_title,thumbnail_src,asset_description',
+                             # 'sort' => 'short_title asc',
+                             'rows' => '1000' # Solr default is 10.
+                           })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
+
+      # year for testing
+      # season_data = docs.reject {|g| g.year.nil? }.group_by {|pb| pb.year }
+
+      # this is to grab every miniseries once - gross!
+      season_data = pbs.uniq {|pb| pb.miniseries_title }.group_by {|pb| pb.season_number }
+
+      # combine yml data with docs
+      @data["seasons"] = @data["seasons"].map do |season|
+        snumber = season["seasonNumber"].to_s
+
+        card_data = []
+        # one season's card data
+        if season_data[snumber]
+          card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description) }
+        end
+
+        season_from_cards( snumber, season["description"], card_data )
+      end
+    else
+
+      # normalized, from url
+      miniseries_title = title
+
+      # get every pbcore record that shares this miniseries_title
+      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "*:*", 'fl' => 'xml', 'rows' => '10000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
+
+      # program number AKA episode number
+      miniseries_data = minipbs.group_by {|pb| pb.program_number }
+
+      @data = {}
+      @data["title"] = minipbs.first.miniseries_title
+
+      # stored pretty redundantly but thats how the cookie catalogs
+      miniseries_description  = minipbs.first.miniseries_description
+      @data["description"] = miniseries_description
+      @data["seasons"] = []
+
+      miniseries_data.each do |episode_number, episode_pbs|
+
+
+        card_data = episode_pbs.map {|pb| card_from_pbcore(pb) }
+        # for miniseries page, a 'season' is ONE EPISODE
+        @data["seasons"] << season_from_cards(episode_number, nil, card_data)
+      end
     end
+
   end
+
+  # def all_miniseries_titles
+
+  # end
 
   def images
     [
@@ -69,17 +115,46 @@ class Treasury
     ]
   end
 
-  def season_from_pbcores(season_number, season_description, pbcores)
+  # this is for slices, whther seasons or minis
+  def season_from_cards(season_number, season_description, card_data, season_image=nil)
     {
-      "seasonImage" => random_cooke_image,
+      "seasonImage" => season_image || random_cooke_image,
       "description" => season_description,
       "seasonNumber" => season_number,
-      "cardData" => pbcores.map {|pb| card_from_pbcore(pb) }
+      "cardData" => card_data
     }
   end
 
+  def normalize_mini_title(title)
+    return title.downcase.gsub(' ', '-').gsub(',','').gsub(/[',:;\.\(\)]/, '')
+  end
+
+  # this is for mini CARDS
+  def card_from_mini(title, desc)
+    {
+      "type" => "miniseries",
+      "title" => title,
+      "description" => desc,
+      "recordLink" => "/miniseries/#{ normalize_mini_title(title) }",
+      "cardImage" => random_cooke_image,
+    }
+  end
+
+  # this is for mini SLICES
+  # def miniseries_from_pbcores(season_number, season_description, pbcores)
+  #   {
+  #     "seasonImage" => random_cooke_image,
+  #     "description" => season_description,
+  #     "seasonNumber" => season_number,
+  #     "cardData" => pbcores.map {|pb| card_from_pbcore(pb) }
+  #   }
+  # end
+
+  # this is for program material CARDS
   def card_from_pbcore(pbcore)
     {
+      "type" => "pbcore",
+
       "title" => pbcore.title,
       "description" => pbcore.program_description,
       "date" => pbcore.date,

@@ -15,6 +15,29 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
   end
 
+  # new SHIT
+  def is_clip?
+    asset_type == 'Open - Close'
+  end
+
+  def miniseries_title
+    @miniseries_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Miniseries"]')
+  end
+
+  def miniseries_description
+    @miniseries_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Miniseries Description"]')
+  end
+
+  def season_number
+    @season_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Season"]')
+  end
+
+
+
+
+
+
+
   def series_title
     @series_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Series"]')
   end

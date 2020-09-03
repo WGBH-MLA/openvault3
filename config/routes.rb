@@ -30,6 +30,7 @@ Rails.application.routes.draw do
 
 
   get '/treasuries/:title', to: 'treasuries#show'
+  get '/miniseries/:title', to: 'treasuries#miniseries'
 
   get 'robots', to: 'robots#show'
 

@@ -31,10 +31,10 @@ class ValidatedPBCore < PBCore
     errors = []
     errors += unexpected_attributes(
       'Title',
-      ['Series', 'Program', 'Program Number', 'Open Vault Title'])
+      ['Series', 'Program', 'Program Number', 'Open Vault Title', 'Season', 'Miniseries'])
     errors += unexpected_attributes(
       'Description',
-      ['Series Description', 'Program Description', 'Asset Description'])
+      ['Series Description', 'Program Description', 'Asset Description', 'Miniseries Description'])
     # For reference:
     # grep pbcoreAnnotation app/models/pb_core.rb | ruby -pne '$_.gsub!(/.*@annotationType="/,"");$_.gsub!(/".*/,"");$_="\"#{$_.strip}\",\n"' | sort | uniq
     errors += unexpected_attributes(

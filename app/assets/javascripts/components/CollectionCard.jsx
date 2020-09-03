@@ -62,7 +62,7 @@ class CollectionCard extends React.Component {
             </div>
 
             <a href={ this.props.recordLink } className="card-showfull">
-              Watch Clip
+              Watch Alistair
             </a>
           </div>
         )
