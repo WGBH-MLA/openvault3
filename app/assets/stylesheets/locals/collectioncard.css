@@ -275,12 +275,13 @@ a.clear-search-button{
   text-align:center;
   transition: all 0.2s;
 }
-a.clear-search-button:hover{
+a.clear-search-button:hover {
  color:#000000;
  background-color:#FFFFFF;
 }
-@media all and (max-width:30em){
- a.clear-search-button{
+
+@media all and (max-width:30em) {
+ a.clear-search-button {
   display:block;
   margin:0.4em auto;
  }
