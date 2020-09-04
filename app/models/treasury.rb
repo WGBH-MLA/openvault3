@@ -4,9 +4,8 @@ class Treasury
   attr_reader :data
 
   def self.records
-      Rails.cache.fetch("cooke_records") do
-        RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
-      end
+    Rails.cache.fetch("cooke_records") do
+      RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
     end
   end
 
