@@ -78,6 +78,8 @@ class CollectionSeasons extends React.Component {
         <CollectionSeason
           key={i}
 
+          // for now, theres no reason for this
+          // type={ season.type }
           seasonImage={ season.seasonImage }
           description={ season.description }
 

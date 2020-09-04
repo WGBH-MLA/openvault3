@@ -29,9 +29,11 @@ class CollectionCards extends React.Component {
 
       cards.push(
         <CollectionCard
-          key={i}
+          key={ i }
           
-          index={index}
+          index={ index }
+
+          type={ card.type }
 
           // from pbcore model
           title={ card.title }

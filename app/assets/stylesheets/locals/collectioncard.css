@@ -215,6 +215,12 @@
   margin: 0;
 }
 
+.treasury-back-link {
+  display: inline;
+  width: 100%;
+  font-size: 12px;
+}
+
 .treasury-description {
   margin-bottom: 2vh;
 }

@@ -3,41 +3,25 @@ class Treasury
   EPISODES = 1
   attr_reader :data
 
-  # YML style
-  # def initialize(title)
-  #   filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
-
-  #   raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
-  #   # @file = 
-  #   @data = YAML.load( File.read(filepath) )
-  # end
-
   def initialize(title, type)
 
     # get a bucket of images to draw from
     @cooke_images = images
 
-
-
     if type == SEASONS
       filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
 
       raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
-
-
   
       @data = YAML.load( File.read(filepath) )
+      @data["type"] = 'seasons'
 
       pbs = RSolr.connect(url: 'http://localhost:8983/solr/')
                       .get('select', params: {
                              'q' => "*:*",
-                             # 'fl' => 'id,short_title,thumbnail_src,asset_description',
-                             # 'sort' => 'short_title asc',
                              'rows' => '1000' # Solr default is 10.
                            })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
 
-      # year for testing
-      # season_data = docs.reject {|g| g.year.nil? }.group_by {|pb| pb.year }
 
       # this is to grab every miniseries once - gross!
       season_data = pbs.uniq {|pb| pb.miniseries_title }.group_by {|pb| pb.season_number }
@@ -56,7 +40,7 @@ class Treasury
       end
     else
 
-      # normalized, from url
+      # normalized, from url 
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
@@ -66,7 +50,16 @@ class Treasury
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
 
       @data = {}
+      @data["type"] = 'episodes'
       @data["title"] = minipbs.first.miniseries_title
+
+      tseries = Treasury.treasury_series
+      home_treasury = tseries.keys.find {|treasury_title| tseries[ treasury_title ][:miniseries_titles].include?( @data["title"] ) }
+
+      if home_treasury
+        @data["treasury_url"] = "/treasuries/#{home_treasury}"
+        @data["treasury_nice_title"] = tseries[home_treasury][:nice_treasury_title]
+      end
 
       # stored pretty redundantly but thats how the cookie catalogs
       miniseries_description  = minipbs.first.miniseries_description
@@ -74,8 +67,6 @@ class Treasury
       @data["seasons"] = []
 
       miniseries_data.each do |episode_number, episode_pbs|
-
-
         card_data = episode_pbs.map {|pb| card_from_pbcore(pb) }
         # for miniseries page, a 'season' is ONE EPISODE
         @data["seasons"] << season_from_cards(episode_number, nil, card_data)
@@ -83,10 +74,6 @@ class Treasury
     end
 
   end
-
-  # def all_miniseries_titles
-
-  # end
 
   def images
     [
@@ -111,7 +98,6 @@ class Treasury
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/f20ab-invererycastledrawingroom.png",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/herter.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/victorian.jpg",
-
     ]
   end
 
@@ -136,21 +122,10 @@ class Treasury
       "title" => title,
       "description" => desc,
       "recordLink" => "/miniseries/#{ normalize_mini_title(title) }",
-      
       # they dont want no card image
       # "cardImage" => random_cooke_image,
     }
   end
-
-  # this is for mini SLICES
-  # def miniseries_from_pbcores(season_number, season_description, pbcores)
-  #   {
-  #     "seasonImage" => random_cooke_image,
-  #     "description" => season_description,
-  #     "seasonNumber" => season_number,
-  #     "cardData" => pbcores.map {|pb| card_from_pbcore(pb) }
-  #   }
-  # end
 
   # this is for program material CARDS
   def card_from_pbcore(pbcore)
@@ -176,6 +151,10 @@ class Treasury
     @cooke_images.shuffle!.pop || images.sample
   end
 
+  def is_episodes?
+    @data["type"] == 'episodes'
+  end
+
   def title
     @data["title"]
   end
@@ -191,4 +170,177 @@ class Treasury
   def seasons
     @data["seasons"]
   end
+
+  def treasury_url
+    @data["treasury_url"]
+  end
+
+  def treasury_nice_title
+    @data["treasury_nice_title"]
+  end
+
+  def self.treasury_series
+    {
+      "alistair-cooke" => {
+        miniseries_titles:[
+        "First Churchills, The",
+        "Spoils of Poynton, The",
+        "Possessed, The",
+        "Pere Goriot",
+        "Jude the Obscure",
+        "Gambler, The",
+        "Resurrection",
+        "Cold Comfort Farm",
+        "Six Wives of Henry VIII, The",
+        "Elizabeth R",
+        "Last of the Mohicans, The",
+        "Vanity Fair",
+        "Cousin Bette",
+        "Moonstone, The (1972)",
+        "Tom Brown's Schooldays",
+        "Point Counter Point",
+        "Golden Bowl, The",
+        "Clouds of Witness",
+        "Man Who Was Hunting Himself, The",
+        "Unpleasantness at the Bellona Club, The",
+        "Little Farm, The",
+        "Upstairs, Downstairs, Season 1",
+        "Edwardians, The",
+        "Murder Must Advertise",
+        "Upstairs, Downstairs, Season 2",
+        "Country Matters, Season 1",
+        "Vienna 1900",
+        "Nine Tailors, The",
+        "Shoulder to Shoulder",
+        "Notorious Woman",
+        "Upstairs, Downstairs, Season 3",
+        "Cakes and Ale",
+        "Sunset Song",
+        "Madame Bovary",
+        "How Green Was My Valley",
+        "Five Red Herrings",
+        "Upstairs, Downstairs, Season 4",
+        "Poldark, Season 1 (1977)",
+        "Dickens of London",
+        "I, Claudius",
+        "Anna Karenina (1978)",
+        "Lillie",
+        "Our Mutual Friend (1978)",
+        "Poldark, Season 2 (1978)",
+        "Mayor of Casterbridge, The",
+        "Duchess of Duke Street, The, Season 1",
+        "20th Anniversary Favorites: The Six Wives of Henry VIII: Catherine Howard",
+        "Country Matters, Season 2",
+        "Kean",
+        "Love for Lydia",
+        "Duchess of Duke Street, The, Season 2",
+        "Therese Raquin",
+        "My Son, My Son",
+        "Disraeli",
+        "Crime and Punishment",
+        "Pride and Prejudice",
+        "Testament of Youth",
+        "Danger UXB",
+        "Town Like Alice, A",
+        "Edward And Mrs. Simpson",
+        "Flame Trees Of Thika, The",
+        "I Remember Nelson",
+        "Love In A Cold Climate",
+        "Flickers",
+        "To Serve Them All My Days",
+        "Good Soldier, The",
+        "Winston Churchill: The Wilderness Years",
+        "On Approval",
+        "Drake's Venture",
+        "Private Schulz",
+        "Sons and Lovers",
+        "Pictures",
+        "Citadel, The",
+        "Irish R.M., The, Season 1",
+        "Tale of Beatrix Potter, The",
+        "Nancy Astor",
+        "Barchester Chronicles, The",
+        "Jewel in the Crown, The",
+        "All for Love",
+        "Strangers and Brothers",
+        "Last Place on Earth, The",
+        "Bleak House (1985)",
+        "Lord Mountbatten: The Last Viceroy",
+        "By the Sword Divided, Season 1",
+        "Irish R.M., The, Season 2",
+        "Paradise Postponed",
+        "Goodbye, Mr. Chips (1987)",
+        "Lost Empires",
+        "Silas Marner",
+        "Star Quality: Noel Coward Stories",
+        "Death of the Heart, The",
+        "Love Song",
+        "Bretts, The, Season 1",
+        "Northanger Abbey",
+        "Sorrell and Son",
+        "Fortunes of War",
+        "Day After the Fair",
+        "David Copperfield (1988)",
+        "By the Sword Divided, Season 2",
+        "Perfect Spy, A",
+        "Heaven on Earth",
+        "Wreath of Roses, A",
+        "Very British Coup, A",
+        "All Passion Spent",
+        "Talking Heads: Bed Among the Lentils",
+        "Christabel",
+        "Charmer, The",
+        "Bretts, The, Season 2",
+        "And a Nightingale Sang",
+        "Precious Bane",
+        "Glory Enough for All",
+        "Tale of Two Cities, A",
+        "Yellow Wallpaper, The",
+        "After the War",
+        "Real Charlotte, The",
+        "Dressmaker, The",
+        "Traffik",
+        "Piece of Cake",
+        "Heat of the Day, The",
+        "Ginger Tree, The",
+        "Jeeves and Wooster, Season 1",
+        "Scoop",
+        "Room of One's Own, A",
+        "Backstage at Masterpiece Theatre: 20th Anniversary Special",
+        "House of Cards",
+        "Shiralee, The",
+        "Summer's Lease",
+        "20th Anniversary Favorites: I, Claudius: Zeus, By Jove",
+        "20th Anniversary Favorites: All for Love: A Dedicated Man",
+        "20th Anniversary Favorites: The Jewel in the Crown: Crossing the River",
+        "20th Anniversary Favorites: The Tale of Beatrix Potter",
+        "20th Anniversary Favorites: Upstairs, Downstairs, Season 1: Guest of Honor",
+        "20th Anniversary Favorites: Upstairs, Downstairs",
+        "20th Anniversary Favorites: The Flame Trees Of Thika: Happy New Year",
+        "20th Anniversary Favorites: Upstairs, Downstairs, Series IV: All the King’s Horses",
+        "20th Anniversary Favorites: Upstairs, Downstairs, Series IV: Such A Lovely Man",
+        "20th Anniversary Favorites: On Approval",
+        "20th Anniversary Favorites: Elizabeth R: The Lion's Cub",
+        "Parnell and the Englishwoman",
+        "Titmuss Regained",
+        "Adam Bede",
+        "Doll's House, A",
+        "Clarissa",
+        "Henry V",
+        "Perfect Hero, A",
+        "Portrait of a Marriage",
+        "Question of Attribution, A",
+        "Best of Friends, The",
+        "Memento Mori",
+        "Two Monologues: In My Defense; A Chip in the Sugar",
+        "Secret Agent, The",],
+
+        # for backlinks
+        nice_treasury_title: 'Alistair Cooke Masterpiece Collection'
+      }
+
+    }
+
+  end
+
 end

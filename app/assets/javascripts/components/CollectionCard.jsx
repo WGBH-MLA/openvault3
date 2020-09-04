@@ -7,17 +7,23 @@ class CollectionCard extends React.Component {
   render() {
     let classes
     let sty
+    let linkText
+    if(this.props.type == "miniseries"){
+      linkText = "View Episodes"
+    } else {
+      linkText = "See Full Record"
+    }
 
      if(this.props.clipCard && !this.props.clipCardActive) {
-      classes = 'card-container clipclick '
+      classes = "card-container clipclick "
       if(this.props.cardImage){
-        sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
+        sty = {backgroundImage: "url(" + this.props.cardImage + ")"}
       }
     } else if(this.props.clipCard) { 
-      classes = 'card-container card-container-video'
+      classes = "card-container card-container-video"
 
     } else {
-      classes = 'card-container '
+      classes = "card-container "
       if(this.props.cardImage){
         sty = {backgroundImage: 'url(' + this.props.cardImage + ')'}
       }
@@ -87,7 +93,7 @@ class CollectionCard extends React.Component {
           { description }
 
           <a href={ this.props.recordLink } className="card-showfull">
-            See Full Record
+            { linkText }
           </a>
         </div>
       )

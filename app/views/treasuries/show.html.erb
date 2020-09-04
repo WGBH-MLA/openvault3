@@ -2,22 +2,32 @@
 <main class="container-fluid" role="main">
 
   <div class="row treasury-title">
-
     <h1>
       <%= @item.title %>
+      <% if @item.treasury_url && @item.is_episodes? %>
+        <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
+      <% end %>
     </h1>
   </div>
 
-  <div class="row treasury-description">
-    <div class="col-md-6">
-      <%= @item.description %>
+  <% if @item.poster_image %>
+    <div class="row treasury-description">
+      <div class="col-md-6">
+        <%= @item.description %>
 
-    </div>
+      </div>
 
-    <div class="col-md-6">
-      <img src="<%= @item.poster_image %>">
+      <div class="col-md-6">
+        <img src="<%= @item.poster_image %>">
+      </div>
     </div>
-  </div>
+  <% else %>
+    <div class="row treasury-description">
+      <div class="col-md-12">
+        <%= @item.description %>
+      </div>
+    </div>
+  <% end %>
 
   <%= react_component("CollectionSeasons", { seasons: @item.seasons }) %>
 </main>
