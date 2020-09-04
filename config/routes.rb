@@ -2,6 +2,12 @@ Rails.application.routes.draw do
   root to: 'home#index'
   blacklight_for :catalog # If I change this we get errors from the other pages.
 
+  get '/treasuries/:title', to: 'treasuries#show'
+  get '/miniseries/:title', to: 'treasuries#miniseries'
+  # TODO: hardcoded due to misunderstanding of what a 'colleciton' means on OV
+  get '/collections/alistair-cooke', to: 'treasuries#show'
+
+
   get 'collections', to: 'collections#index'
   get 'collections/:id(/:tab)', to: 'collections#show'
 
@@ -27,10 +33,6 @@ Rails.application.routes.draw do
 
   resources :oai,
             only: [:index]
-
-
-  get '/treasuries/:title', to: 'treasuries#show'
-  get '/miniseries/:title', to: 'treasuries#miniseries'
 
   get 'robots', to: 'robots#show'
 

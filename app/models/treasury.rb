@@ -22,7 +22,6 @@ class Treasury
                              'rows' => '1000' # Solr default is 10.
                            })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
 
-
       # this is to grab every miniseries once - gross!
       season_data = pbs.uniq {|pb| pb.miniseries_title }.group_by {|pb| pb.season_number }
 
@@ -36,7 +35,7 @@ class Treasury
           card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description) }
         end
 
-        season_from_cards( snumber, season["description"], card_data )
+        season_from_cards( snumber, season["description"], card_data, 'seasons' )
       end
     else
 
@@ -44,8 +43,8 @@ class Treasury
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
-      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "*:*", 'fl' => 'xml', 'rows' => '10000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
-
+      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "*:*", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
+      
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
 
@@ -69,7 +68,7 @@ class Treasury
       miniseries_data.each do |episode_number, episode_pbs|
         card_data = episode_pbs.map {|pb| card_from_pbcore(pb) }
         # for miniseries page, a 'season' is ONE EPISODE
-        @data["seasons"] << season_from_cards(episode_number, nil, card_data)
+        @data["seasons"] << season_from_cards(episode_number, nil, card_data, 'episodes')
       end
     end
 
@@ -102,12 +101,13 @@ class Treasury
   end
 
   # this is for slices, whther seasons or minis
-  def season_from_cards(season_number, season_description, card_data, season_image=nil)
+  def season_from_cards(season_number, season_description, card_data, type, season_image=nil)
     {
       "seasonImage" => season_image || random_cooke_image,
       "description" => season_description,
       "seasonNumber" => season_number,
-      "cardData" => card_data
+      "cardData" => card_data,
+      "type" => type
     }
   end
 

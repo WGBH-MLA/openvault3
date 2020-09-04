@@ -74,12 +74,13 @@ class CollectionSeasons extends React.Component {
         continue
       }
 
+      console.log( 'season type', season.type )
       seasons.push( 
         <CollectionSeason
           key={i}
 
           // for now, theres no reason for this
-          // type={ season.type }
+          type={ season.type }
           seasonImage={ season.seasonImage }
           description={ season.description }
 

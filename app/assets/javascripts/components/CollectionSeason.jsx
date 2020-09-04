@@ -4,6 +4,13 @@ class CollectionSeason extends React.Component {
     let cardData = this.props.cardData
     let classes = 'season'
 
+    let sliceName
+    if(this.props.type == 'seasons'){
+      sliceName = 'Season'
+    } else if(this.props.type == 'episodes') {
+      sliceName = 'Episode'
+    }
+
     // if were searching, expand them all
     let expanded = (this.props.expanded == this.props.index || this.props.searching)
     classes += expanded ? ' season-open' : ''
@@ -17,7 +24,7 @@ class CollectionSeason extends React.Component {
 
         <h2 className="season-title" onClick={ () => this.props.expand(this.props.index) }>
           <div className="season-title-text">
-            Season { this.props.seasonNumber }
+            { sliceName } { this.props.seasonNumber }
           </div>
         </h2>
         <div className="season-subtitle">

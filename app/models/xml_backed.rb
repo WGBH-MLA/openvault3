@@ -41,9 +41,11 @@ module XmlBacked
   end
 
   def self.text_from(node)
-    ((node.respond_to?('text') ? node.text : node.value) || '').strip.tap do |s|
-      fail("Empty element in XML: #{node}") if s == ''
-    end
+    ((node.respond_to?('text') ? node.text : node.value) || '').strip
+    # .tap do |s|
+      # TODO: either actually enforce 'no empty elements' in xml creation, or admit that this is a weird way to handle this
+      # fail("Empty element in XML: #{node}") if s == ''
+    # end
   end
 
   def pairs_by_type(element_xpath, attribute_xpath)

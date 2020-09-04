@@ -41,7 +41,12 @@ class CollectionCard extends React.Component {
       date = "(" + this.props.date + ")"
     }
 
-    pnAndDate = ( <div className="card-text">{ programNumber } { date }</div> )
+    console.log( 'DATE ME', this.props.date )
+
+    let pnAndDate
+    if( this.props.date || this.props.programNumber ){
+      pnAndDate = ( <div className="card-text">{ programNumber } { date }</div> )
+    }
 
     if(this.props.description){
       description = ( <div className="card-text">{ this.props.description }</div> )
