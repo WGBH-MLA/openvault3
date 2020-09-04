@@ -18,7 +18,7 @@ class Treasury
 
       pbs = RSolr.connect(url: 'http://localhost:8983/solr/')
                       .get('select', params: {
-                             'q' => "*:*",
+                             'q' => "special_collections:alistair-cooke",
                              'rows' => '1000' # Solr default is 10.
                            })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
 
@@ -43,7 +43,7 @@ class Treasury
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
-      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "*:*", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
+      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
       
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
