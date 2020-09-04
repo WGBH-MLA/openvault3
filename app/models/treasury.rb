@@ -3,6 +3,13 @@ class Treasury
   EPISODES = 1
   attr_reader :data
 
+  def self.records
+      Rails.cache.fetch("cooke_records") do
+        RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
+      end
+    end
+  end
+
   def initialize(title, type)
 
     # get a bucket of images to draw from
@@ -16,11 +23,7 @@ class Treasury
       @data = YAML.load( File.read(filepath) )
       @data["type"] = 'seasons'
 
-      pbs = RSolr.connect(url: 'http://localhost:8983/solr/')
-                      .get('select', params: {
-                             'q' => "special_collections:alistair-cooke",
-                             'rows' => '1000' # Solr default is 10.
-                           })['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
+      pbs = Treasury.records
 
       # this is to grab every miniseries once - gross!
       season_data = pbs.uniq {|pb| pb.miniseries_title }.group_by {|pb| pb.season_number }
@@ -43,7 +46,7 @@ class Treasury
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
-      minipbs = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
+      minipbs = Treasury.records.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
       
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
