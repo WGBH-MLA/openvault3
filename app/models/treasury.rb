@@ -56,7 +56,7 @@ class Treasury
 
       # get every pbcore record that shares this miniseries_title
       minipbs = Treasury.xml_docs.select {|xml| miniseries_title == normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
-      
+
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
 
@@ -270,7 +270,8 @@ class Treasury
   end
 
   def normalize_mini_title(title)
-    return title.downcase.gsub(' ', '-').gsub(',','').gsub(/[',:;\.\(\)]/, '')
+    # return title.downcase.gsub(' ', '-').gsub(',','').gsub(/[',:;\.\(\)]/, '')
+    return title.downcase.gsub(' ', '-').gsub(/\W/, '')
   end
 
   # this is for mini CARDS
