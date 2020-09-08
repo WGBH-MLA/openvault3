@@ -1,12 +1,39 @@
+# require 'rexml/document'
+# require 'rexml/xpath'
+
 class Treasury
   SEASONS = 0
   EPISODES = 1
   attr_reader :data
 
-  def self.records
-    Rails.cache.fetch("cooke_records") do
-      RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }
-    end
+  def self.xml_docs
+    # Rails.cache.fetch("cooke_records") do
+      # sort all cooke records by date, as solr docs, so it FAST
+
+      puts "BEFORE TIME IS #{Time.now}"
+      docs  = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map {|doc| doc['xml'] }.sort_by {|xml| Treasury.broadcast_date_from_xml(xml) }
+      puts "AFTER TIME IS #{Time.now}"
+
+      # docs = docs.map { |doc| PBCore.new( doc['xml'] ) }
+
+      # puts "BEFORE TIME IS #{Time.now}"
+      # docs  = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.sort_by {|pb| pb.broadcast_date }
+      # puts "AFTER TIME IS #{Time.now}"
+
+      docs
+    # end
+  end
+
+  def self.broadcast_date_from_xml(xml)
+    # matched = REXML::XPath.match(REXML::Document.new(xml), '/*/pbcoreAssetDate[@dateType="Broadcast"]')
+    # matched && matched.first && matched.first.text && matched.first.text.present? ? Date.strptime( matched.first.text, '%m/%d/%Y' ) : DateTime.now
+    matchdata = xml.match(/<pbcoreAssetDate dateType="Broadcast">(.{8,10})<\/pbcoreAssetDate>/)
+    matchdata ? Date.strptime( matchdata[1], '%m/%d/%Y' ) : DateTime.now
+  end
+
+  def self.miniseries_title_from_xml(xml)
+    matchdata = xml.match(/<pbcoreTitle titleType="Miniseries">(.*?)<\/pbcoreTitle>/)
+    matchdata ? matchdata[1] : nil
   end
 
   def initialize(title, type)
@@ -22,10 +49,9 @@ class Treasury
       @data = YAML.load( File.read(filepath) )
       @data["type"] = 'seasons'
 
-      pbs = Treasury.records
-
-      # this is to grab every miniseries once - gross!
-      season_data = pbs.uniq {|pb| pb.miniseries_title }.group_by {|pb| pb.season_number }
+      # UNIQ BASED ON raw XML, to Save MANY SECONDS
+      pbs = Treasury.xml_docs.uniq {|xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }
+      season_data = pbs.group_by {|pb| pb.season_number }
 
       # combine yml data with docs
       @data["seasons"] = @data["seasons"].map do |season|
@@ -34,7 +60,8 @@ class Treasury
         card_data = []
         # one season's card data
         if season_data[snumber]
-          card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description) }
+          # card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }.sort_by {|minicard| minicard["sortDate"] }
+          card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }
         end
 
         season_from_cards( snumber, season["description"], card_data, 'seasons' )
@@ -45,7 +72,8 @@ class Treasury
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
-      minipbs = Treasury.records.select {|pb| pb.miniseries_title &&  miniseries_title == normalize_mini_title(pb.miniseries_title) }
+      # minipbs = Treasury.records.select {|pb| pb.miniseries_title && miniseries_title == normalize_mini_title(pb.miniseries_title) }
+      minipbs = Treasury.xml_docs.select {|xml| miniseries_title == normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
       
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
@@ -209,7 +237,6 @@ class Treasury
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_20200907015505.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_20200907015711.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_ginger_tree_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_ginger_tree_2.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_room_ones_own_1.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_room_ones_own_2.jpg",
       "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_scoop_1.jpg",
@@ -265,12 +292,14 @@ class Treasury
   end
 
   # this is for mini CARDS
-  def card_from_mini(title, desc)
+  def card_from_mini(title, desc, date)
     {
       "type" => "miniseries",
       "title" => title,
       "description" => desc,
       "recordLink" => "/miniseries/#{ normalize_mini_title(title) }",
+      "sortDate" => date,
+      "date" => date.strftime('%m/%d/%Y')
       # they dont want no card image
       # "cardImage" => random_cooke_image,
     }
@@ -283,7 +312,8 @@ class Treasury
 
       "title" => pbcore.title,
       "description" => pbcore.program_description,
-      "date" => pbcore.date,
+      # no need to sort on this within a single episode
+      "date" => pbcore.broadcast_date_raw,
       "programNumber" => pbcore.program_number,
       "guid" => pbcore.id,
       "recordLink" => "/catalog/#{pbcore.id}",

@@ -14,10 +14,14 @@
 
   bottom: 0;
 
+  background-position: center center;
+  background-size: 20000px;
+
+
   display: inline-block;
   position: relative;
-  border-radius: 3px;
-  border: 1px solid #ddd;
+  /*border-radius: 3px;*/
+  border: 1px solid #ccc;
   background-color: #ddd;
   padding: 0.6vw;
   overflow-y: hidden;

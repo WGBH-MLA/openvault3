@@ -37,6 +37,11 @@ class CollectionCard extends React.Component {
       programNumber = "Program " + this.props.programNumber
     }
 
+    // DO NOT show date values for miniseries cards, because we arent sure we got the earlier date from mini
+    // if(!this.props.type == 'miniseries' && this.props.date){
+    //   date = "(" + this.props.date + ")"
+    // }
+
     if(this.props.date){
       date = "(" + this.props.date + ")"
     }

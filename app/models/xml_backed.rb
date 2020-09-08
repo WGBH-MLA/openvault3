@@ -1,7 +1,9 @@
 module XmlBacked
   def initialize(xml)
     @xml = xml
+    # puts "BEGIN-XMLPARSE #{Time.now}"
     @doc = REXML::Document.new xml
+    # puts "END-XMLPARSE #{Time.now}"
   end
 
   def xpath(xpath)

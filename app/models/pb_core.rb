@@ -32,6 +32,17 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @season_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Season"]')
   end
 
+  def broadcast_date
+    @broadcast_date_obj ||= begin
+     dateval = broadcast_date_raw
+     # temp this because the data is incomplete.
+     dateval && dateval.present? ? DateTime.strptime( dateval, '%m/%d/%Y' ) : DateTime.now
+    end 
+  end
+
+  def broadcast_date_raw
+    @broadcast_date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Broadcast"]')
+  end
 
 
 
@@ -64,6 +75,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def date
     @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
+
   def year
     @year ||= date.match(/(\d{4})/)[1] if date
   end
