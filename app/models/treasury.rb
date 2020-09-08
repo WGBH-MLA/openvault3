@@ -1,32 +1,16 @@
-# require 'rexml/document'
-# require 'rexml/xpath'
-
 class Treasury
   SEASONS = 0
   EPISODES = 1
   attr_reader :data
 
   def self.xml_docs
-    # Rails.cache.fetch("cooke_records") do
-      # sort all cooke records by date, as solr docs, so it FAST
-
-      puts "BEFORE TIME IS #{Time.now}"
-      docs  = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map {|doc| doc['xml'] }.sort_by {|xml| Treasury.broadcast_date_from_xml(xml) }
-      puts "AFTER TIME IS #{Time.now}"
-
-      # docs = docs.map { |doc| PBCore.new( doc['xml'] ) }
-
-      # puts "BEFORE TIME IS #{Time.now}"
-      # docs  = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map { |doc| PBCore.new( doc['xml'] ) }.sort_by {|pb| pb.broadcast_date }
-      # puts "AFTER TIME IS #{Time.now}"
-
-      docs
-    # end
+    Rails.cache.fetch("cooke_records") do
+      # sort all cooke records by date, as xml, so it FAST
+      RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map {|doc| doc['xml'] }.sort_by {|xml| Treasury.broadcast_date_from_xml(xml) }
+    end
   end
 
   def self.broadcast_date_from_xml(xml)
-    # matched = REXML::XPath.match(REXML::Document.new(xml), '/*/pbcoreAssetDate[@dateType="Broadcast"]')
-    # matched && matched.first && matched.first.text && matched.first.text.present? ? Date.strptime( matched.first.text, '%m/%d/%Y' ) : DateTime.now
     matchdata = xml.match(/<pbcoreAssetDate dateType="Broadcast">(.{8,10})<\/pbcoreAssetDate>/)
     matchdata ? Date.strptime( matchdata[1], '%m/%d/%Y' ) : DateTime.now
   end
@@ -38,7 +22,7 @@ class Treasury
 
   def initialize(title, type)
 
-    # get a bucket of images to draw from
+    # get a bucket of image urls to draw from
     @cooke_images = images
 
     if type == SEASONS
@@ -60,7 +44,6 @@ class Treasury
         card_data = []
         # one season's card data
         if season_data[snumber]
-          # card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }.sort_by {|minicard| minicard["sortDate"] }
           card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }
         end
 
@@ -72,7 +55,6 @@ class Treasury
       miniseries_title = title
 
       # get every pbcore record that shares this miniseries_title
-      # minipbs = Treasury.records.select {|pb| pb.miniseries_title && miniseries_title == normalize_mini_title(pb.miniseries_title) }
       minipbs = Treasury.xml_docs.select {|xml| miniseries_title == normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
       
       # program number AKA episode number
