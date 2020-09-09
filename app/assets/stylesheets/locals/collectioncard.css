@@ -238,6 +238,10 @@
 
 }
 
+.treasury-title h1 {
+  margin-bottom: 0 !important;
+}
+
 .treasury-title, .treasury-description, .treasury-noresults {
   padding-top: 0.5vw;
   margin: 0;
@@ -247,9 +251,10 @@
   display: block;
   width: 100%;
   font-size: 12px;
+  padding: 0.4vw;
 }
 
-.treasury-title, .treasury-noresults, .treasury-back-link {
+.treasury-title, .treasury-noresults {
   padding: 1vw;
 }
 

@@ -108,7 +108,7 @@ class Treasury
 
       if home_treasury
         @data["treasury_url"] = "/treasuries/#{home_treasury}"
-        @data["treasury_nice_title"] = tseries[home_treasury][:nice_treasury_title]
+        @data["treasury_nice_title"] = tseries[home_treasury][:treasury_nice_title]
       end
 
       # stored pretty redundantly but thats how the cookie catalogs
@@ -485,7 +485,7 @@ class Treasury
         "Secret Agent, The",],
 
         # for backlinks
-        nice_treasury_title: 'Alistair Cooke Masterpiece Collection'
+        treasury_nice_title: 'Alistair Cooke Masterpiece Collection'
       }
 
     }
