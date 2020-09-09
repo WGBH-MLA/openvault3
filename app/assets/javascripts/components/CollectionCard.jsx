@@ -1,7 +1,7 @@
 class CollectionCard extends React.Component {
   clipClickAndExpand(){
     this.props.handleClipClick(this.props.guid)
-    this.props.expand(this.props.index)
+    this.props.expand(this.props.guid)
   }
 
   render() {
@@ -29,7 +29,7 @@ class CollectionCard extends React.Component {
       }
     }
 
-    classes += this.props.expanded == this.props.index ? ' expanded' : ''
+    classes += this.props.expanded == this.props.guid ? ' expanded' : ''
 
     let programNumber, date, description
 
@@ -43,24 +43,23 @@ class CollectionCard extends React.Component {
     // }
 
     if(this.props.date){
-      date = "(" + this.props.date + ")"
+      date = this.props.date
     }
-
-    console.log( 'DATE ME', this.props.date )
 
     let pnAndDate
     if( this.props.date || this.props.programNumber ){
       pnAndDate = ( <div className="card-text">{ programNumber } { date }</div> )
     }
 
-    if(this.props.description){
+    // only show description on expanded card
+    if(this.props.expanded == this.props.guid && this.props.description){
       description = ( <div className="card-text">{ this.props.description }</div> )
     }
 
     if(this.props.clipCard){
       if(this.props.clipCardActive){
         return (
-          <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
+          <div id={ this.props.guid } style={ sty } onClick={ () => this.props.expand(this.props.guid) } className={ classes }>
             <div className="card-video">
               <iframe className="card-iframe" src={ this.props.embedLink } />
             </div>
@@ -68,7 +67,7 @@ class CollectionCard extends React.Component {
         )  
       } else {
         return (
-          <div style={ sty } className={ classes }>
+          <div id={ this.props.guid } style={ sty } className={ classes }>
             <div className="card-container-mask"></div>
 
             <div onClick={ () => this.clipClickAndExpand() } className="card-clipclick-container">
@@ -91,7 +90,7 @@ class CollectionCard extends React.Component {
     } else {
         
       return (
-        <div style={ sty } onClick={ () => this.props.expand(this.props.index) } className={ classes }>
+        <div id={ this.props.guid } style={ sty } onClick={ () => this.props.expand(this.props.guid) } className={ classes }>
           <div className="card-container-mask"></div>
 
           <h1 className="card-title">

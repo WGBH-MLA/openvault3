@@ -74,10 +74,11 @@ class CollectionSeasons extends React.Component {
         continue
       }
 
-      console.log( 'season type', season.type )
       seasons.push( 
         <CollectionSeason
           key={i}
+
+          id={ "season-"+i }
 
           // for now, theres no reason for this
           type={ season.type }
@@ -111,6 +112,12 @@ class CollectionSeasons extends React.Component {
 
   render() {
     let seasons = this.drawSeasons()
+
+    let altLink
+    if(this.props.altLink){
+      altLink = ( <a className="treasury-alt-link" href={ this.props.altLink.url } >{ this.props.altLink.text }</a> )
+    }
+
     return (
       <div className="">
         <CollectionSearch
@@ -120,6 +127,8 @@ class CollectionSeasons extends React.Component {
           handleOnChange={ this.handleOnChange }
           seasons={ seasons }
         />
+
+        { altLink }
         { seasons }
       </div>
     )

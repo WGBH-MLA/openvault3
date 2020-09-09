@@ -20,6 +20,10 @@ class Treasury
     matchdata ? matchdata[1] : nil
   end
 
+  def self.normalize_mini_title(title)
+    return title.downcase.gsub(' ', '-').gsub(/\W/, '')
+  end
+  
   def initialize(title, type)
 
     # get a bucket of image urls to draw from
@@ -53,16 +57,17 @@ class Treasury
 
       # normalized, from url 
       miniseries_title = title
-
       # get every pbcore record that shares this miniseries_title
-      minipbs = Treasury.xml_docs.select {|xml| miniseries_title == normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
+      minipbs = Treasury.xml_docs.select {|xml| miniseries_title == Treasury.normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
 
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }
 
       @data = {}
       @data["type"] = 'episodes'
-      @data["title"] = minipbs.first.miniseries_title
+
+      miniseries_title = minipbs.first ? minipbs.first.miniseries_title : 'Miniseries Title Not Found'
+      @data["title"] = miniseries_title
 
       tseries = Treasury.treasury_series
       home_treasury = tseries.keys.find {|treasury_title| tseries[ treasury_title ][:miniseries_titles].include?( @data["title"] ) }
@@ -73,7 +78,7 @@ class Treasury
       end
 
       # stored pretty redundantly but thats how the cookie catalogs
-      miniseries_description  = minipbs.first.miniseries_description
+      miniseries_description  = minipbs.first ? minipbs.first.miniseries_description : ""
       @data["description"] = miniseries_description
       @data["seasons"] = []
 
@@ -88,173 +93,119 @@ class Treasury
 
   def images
     [
-      # demo stuff
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/2025552.jpg",
-      # # "https://s3.amazonaws.com/openvault.wgbh.org/carousel/alistair_cooke_banner.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_584.jpg.focalcrop.1200x630.50.10.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/cooke-headshot.jpg",
-      # # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/download.jpeg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Alistair-Cookie.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/maxresdefault.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/p01vzv4w.jpg",
-      
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/1280px-Bunratty_Castle_South_Solar_01.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/20180814-Parlor-023.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/3c304-blue-drawing-roombuckinghampalace.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/450c3aff51adacec1954c15fd524b6bb.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/DrawingRoom1-2.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/HOL_3016.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/OSMstuzB7-8hO7LQNWjauYkBPstvyuv1Y5PDXlPBTOM.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/The-Fife-Arms-Drawing-Room.-Ancient-Quartz-by-Zhang-Enli.-Photo-credit-Sim-Canetty-Clarke-e1553790189459-scaled.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/d3ddd-the-yellow-drawing-room-credit-tim-imrie.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/f20ab-invererycastledrawingroom.png",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/herter.jpg",
-      # "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/victorian.jpg",
-      
       # prod stuff
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Mascerpiece_Theatre_Season_19_glory_enough_for_all_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masconviece_Theatre_Season20_Scoop_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/MastOpen_01.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/MastOpen_02.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/MastOpen_03.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/MastOpen_04.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/MastOpen_05.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatce_Season_12_On_approval_Cooke_2..jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season13_Irish_RM_barcode289530.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season14_Jewel_in_Crown_Barcode289531.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season15_Bleak_House_Color_Barcode289532.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season15_Bleak_House_barcode289532.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season16_Paradise_Posponed_Barcode289526.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season16_Paradise_Postponed_Bar_Barcode289526.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season16_Paradise_Postponed_StudioSetup_Barcode289526.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season17_Fortunes_of_War_Color_Barcode289524.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season17_Fortunes_of_War_Masterpiece Theatre.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season17_Sorrell_Son_Barcode289525.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season19_Traffik_Barcode289517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season19_Traffik_Color__Barcode 289517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season19_Yellow_Wallpaper_Color_Barcode289517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_20th_Anniversary_Barcode289517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Alistair_Favorites_Color_Barcode289517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Ginger_Tree_Color_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Heat_of_Day_Color_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Heat_of_Day_barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Jeeves_Wooster_Color_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Scoop_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season20_Scoop_Color_Barcode289518.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_Love_Cold_Climate_cooke_on_set_barcode350101_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_Love_Cold_Climate_cooke_on_set_barcode350101_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_edward_mrs_simpson_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_edward_mrs_simpson_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_love_cold_climate_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_love_cold_climate_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_love_cold_climate_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_love_cold_climate_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_townlike_alice_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_11_townlike_alice_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_12_On_approval_Cooke_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_12_On_approval_Cooke_2..jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_Beatrix_Potter_coke_on_set_barcode383427.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_citadel_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_citadel_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_citadel_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_nancy_aster_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_nancy_astor_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_nancy_astor_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_pictures_Cooke_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_13_pictures_Cooke_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_all_for_love.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_5.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_14_jewel_in_crown_6.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_15_bleak_house.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_goodbye_mr_chips_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_goodbye_mr_chips_2_Cooke.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_goodbye_mr_chips_3_Cooke.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_goodbye_mr_chips_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_5.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_6.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_7.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_paradise_postponed_8.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_silas_marner_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_silas_marner_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_16_silas_marner_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_bretts_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_bretts_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_day_after_fair_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_day_after_fair_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_day_after_fair_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_day_after_fair_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_northanger_abbey.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_northanger_abbey_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_17_northanger_abbey_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_all_passion_spent_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_all_passion_spent_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_heaven_on_earth.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_talking_heads_bed_lentils_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_talking_heads_bed_lentils_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_very_british_coup.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_wreath_roses_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_18_wreath_roses_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_glory_enough_for_all_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_glory_enough_for_all_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_glory_enough_for_all_5.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_piece_of_cake_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_piece_of_cake_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_piece_of_cake_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_19_piece_of_cake_4.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_Jeevec_Wooster_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_Jeeves_Wooster_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_Jeeves_Wooster_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_coecial_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_spconvl_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_20200907015505.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_anniversary_special_20200907015711.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_ginger_tree_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_room_ones_own_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_room_ones_own_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_scoop_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_20_scoop_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_21_clarissa.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_21_dolls_house_1.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_21_dolls_house_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_21_dolls_house_3.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Masterpiece_Theatre_Season_9_Love_for_Lydia_coke_on_set_barcode383427.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/Staff_HenryBectonAlistairCooke_01.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/alistair_cooke_on_set_masterpiece_01.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/alistair_cooke_on_set_masterpiece_02.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/carliament-544751.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/casterpiece_Theatre_Season_18_talking_heads_bed_lentils_2.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/castle-336498.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/cemair-beech-1900-143396.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/citadel.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/dunrobin-453164.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/fingerprint-255904.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/fog-1494431.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/henryviii.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/jewelincrown.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/library-863148.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/london-5102512.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/manor-house-4299218.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/mohicans.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/parliament-544751.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/philatelist-1844078.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/royal-1691418.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/royal-garden-2529542.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/sherlock-holmes-4470682.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/space-4161418.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/texture-1362879.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/vienna-434517.jpg",
-      "https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production/western-style-2312246.jpg",
-
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masconviece_Theatre_Season20_Scoop_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/MastOpen_01.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/MastOpen_02.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/MastOpen_03.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/MastOpen_04.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/MastOpen_05.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season13_Irish_RM_barcode289530.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season14_Jewel_in_Crown_Barcode289531.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season15_Bleak_House_Color_Barcode289532.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season15_Bleak_House_barcode289532.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season16_Paradise_Posponed_Barcode289526.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season16_Paradise_Postponed_Bar_Barcode289526.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season16_Paradise_Postponed_StudioSetup_Barcode289526.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season17_Fortunes_of_War_Color_Barcode289524.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season17_Fortunes_of_War_Masterpiece Theatre.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season17_Sorrell_Son_Barcode289525.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season19_Traffik_Barcode289517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season19_Traffik_Color__Barcode 289517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season19_Yellow_Wallpaper_Color_Barcode289517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_20th_Anniversary_Barcode289517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Alistair_Favorites_Color_Barcode289517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Ginger_Tree_Color_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Heat_of_Day_Color_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Heat_of_Day_barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Jeeves_Wooster_Color_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Scoop_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season20_Scoop_Color_Barcode289518.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_Love_Cold_Climate_cooke_on_set_barcode350101_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_Love_Cold_Climate_cooke_on_set_barcode350101_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_edward_mrs_simpson_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_edward_mrs_simpson_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_love_cold_climate_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_love_cold_climate_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_love_cold_climate_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_love_cold_climate_4.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_11_townlike_alice_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_12_On_approval_Cooke_2..jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_Beatrix_Potter_Cooke_on_set_barcode383427.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_citadel_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_citadel_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_nancy_astor_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_nancy_astor_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_pictures_Cooke_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_13_pictures_Cooke_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_all_for_love.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_jewel_in_crown_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_jewel_in_crown_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_jewel_in_crown_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_jewel_in_crown_5.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_14_jewel_in_crown_6.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_15_bleak_house.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_goodbye_mr_chips_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_goodbye_mr_chips_3_Cooke.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_paradise_postponed_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_paradise_postponed_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_paradise_postponed_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_paradise_postponed_4.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_paradise_postponed_5.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_silas_marner_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_16_silas_marner_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_17_bretts_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_17_day_after_fair_4.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_17_northanger_abbey_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_17_northanger_abbey_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_18_all_passion_spent_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_18_heaven_on_earth.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_18_talking_heads_bed_lentils_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_18_very_british_coup.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_18_wreath_roses_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_glory_enough_for_all_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_glory_enough_for_all_4.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_glory_enough_for_all_5.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_piece_of_cake_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_piece_of_cake_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_19_piece_of_cake_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_Jeeves_Wooster_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_anniversary_special_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_anniversary_special_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_anniversary_special_20200907015711.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_ginger_tree_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_ginger_tree_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_room_ones_own_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_scoop_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_20_scoop_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_21_clarissa.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_21_dolls_house_1.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_21_dolls_house_2.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Masterpiece_Theatre_Season_21_dolls_house_3.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/Staff_HenryBectonAlistairCooke_01.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/alistair_cooke_on_set_masterpiece_01.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/alistair_cooke_on_set_masterpiece_02.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/carliament-544751.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/castle-336498.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/cemair-beech-1900-143396.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/citadel.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/dunrobin-453164.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/fingerprint-255904.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/fog-1494431.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/henryviii.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/jewelincrown.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/library-863148.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/london-5102512.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/manor-house-4299218.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/mohicans.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/parliament-544751.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/philatelist-1844078.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/royal-1691418.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/royal-garden-2529542.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/space-4161418.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/texture-1362879.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/vienna-434517.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/western-style-2312246.jpg',
     ]
   end
 
@@ -269,20 +220,18 @@ class Treasury
     }
   end
 
-  def normalize_mini_title(title)
-    # return title.downcase.gsub(' ', '-').gsub(',','').gsub(/[',:;\.\(\)]/, '')
-    return title.downcase.gsub(' ', '-').gsub(/\W/, '')
-  end
-
   # this is for mini CARDS
   def card_from_mini(title, desc, date)
     {
       "type" => "miniseries",
       "title" => title,
       "description" => desc,
-      "recordLink" => "/miniseries/#{ normalize_mini_title(title) }",
+      "recordLink" => "/miniseries/#{ Treasury.normalize_mini_title(title) }",
       "sortDate" => date,
-      "date" => date.strftime('%m/%d/%Y')
+      "date" => date.strftime('%m/%d/%Y'),
+
+      # generate a unique id for mini cards for scrollTo js behavior
+      "guid" => SecureRandom.uuid,
       # they dont want no card image
       # "cardImage" => random_cooke_image,
     }
@@ -327,6 +276,10 @@ class Treasury
 
   def description
     @data["description"]
+  end
+
+  def alt_link
+    @data["altLink"]
   end
 
   def seasons

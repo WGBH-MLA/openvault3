@@ -20,7 +20,7 @@ class CollectionSeason extends React.Component {
     sty = {backgroundImage: 'url(' + this.props.seasonImage + ')'}
 
     return (
-      <div style={ sty } className={ classes }>
+      <div id={ this.props.id } style={ sty } className={ classes }>
 
         <h2 className="season-title" onClick={ () => this.props.expand(this.props.index) }>
           <div className="season-title-text">
@@ -33,6 +33,7 @@ class CollectionSeason extends React.Component {
 
         <div className="season-body">
           <CollectionCards
+            seasonId={ this.props.id }
             handleClipClick={ this.props.handleClipClick }
             clipClickGuid={ this.props.clipClickGuid }
             cards={ cardData }

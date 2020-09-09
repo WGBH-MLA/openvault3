@@ -1,0 +1,63 @@
+<%= stylesheet_link_tag "locals/collectioncard.css" %>
+<main class="container-fluid" role="main">
+
+  <div class="row treasury-title">
+    <h1>
+      The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection
+      <a class="treasury-back-link" href="/collections/alistair-cooke">Return to Collection View</a>
+    </h1>
+  </div>
+
+  <div class="row treasury-description">
+    <div class="col-md-6">
+      The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at WGBH as they are digitized.
+    </div>
+
+    <div class="col-md-6">
+      <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg">
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-12">
+      <ul>
+
+        <% @list_seasons.each do |season| %>
+
+          <li>
+            <h2>Season <%= season[:seasonNumber] %></h2>
+
+            <ul>
+
+              <% season[:miniseries].each do |miniseries| %>
+                <li>
+                  
+                  <a href="<%= miniseries[:miniseriesUrl] %>">
+                    <h3><%= miniseries[:miniseriesTitle] %></h3>
+                  </a>
+
+                  <ul>
+                    <% miniseries[:miniseriesEpisodes].each do |episode| %>
+
+                      <li>
+                        <a href="<%= episode[:episodeUrl] %>">
+                          <h4><%= episode[:programNumber] + " - " + episode[:episodeTitle] %></h4>
+                        </a>
+                      </li>
+                    <% end %>
+                  </ul>
+                </li>
+              <% end %>
+            </ul>
+
+          </li>
+
+        <% end %>
+
+      </ul>
+
+    </div>
+
+  </div>
+</main>

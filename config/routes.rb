@@ -4,8 +4,11 @@ Rails.application.routes.draw do
 
   get '/treasuries/:title', to: 'treasuries#show'
   get '/miniseries/:title', to: 'treasuries#miniseries'
+
   # TODO: hardcoded due to misunderstanding of what a 'colleciton' means on OV
   get '/collections/alistair-cooke', to: 'treasuries#show'
+  get '/collections/alistair-cooke-donor', to: 'treasuries#bio'
+  get '/collections/alistair-cooke-list', to: 'treasuries#list'
 
 
   get 'collections', to: 'collections#index'

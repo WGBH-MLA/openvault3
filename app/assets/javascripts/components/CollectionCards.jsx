@@ -9,14 +9,21 @@ class CollectionCards extends React.Component {
     this.expand = this.expand.bind(this)
   }
 
-  expand(index){
+  expand(guid){
     let newExpand
     // if we already expanded this one, close it
-    if(this.state.expanded != index){
-      newExpand = index
+    // ignore nulls (initial state)
+    if(guid && this.state.expanded != guid){
+      newExpand = guid
     }
 
+    // scroll to element
     this.setState({expanded: newExpand})
+
+    if(newExpand){
+      // scroll to season element so expanded card will be on screen, just below top of season slice
+      document.getElementById( this.props.seasonId ).scrollIntoView()
+    }
   }
 
   drawCards(){
@@ -35,7 +42,10 @@ class CollectionCards extends React.Component {
 
           type={ card.type }
 
-          // from pbcore model
+          // this is the season element's id, for scrolling
+          seasonId={ this.props.seasonId }
+
+          // from pbcore model/miniseries derived data
           title={ card.title }
           description={ card.description }
           programNumber={ card.programNumber }
