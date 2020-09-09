@@ -4,16 +4,16 @@
   <div class="row treasury-title">
     <h1>
       <%= @item.title %>
-      <% if @item.treasury_url && @item.is_episodes? %>
-        <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
-      <% end %>
     </h1>
+    <% if @item.treasury_url && @item.is_episodes? %>
+      <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
+    <% end %>
   </div>
 
   <% if @item.poster_image %>
     <div class="row treasury-description">
       <div class="col-md-6">
-        <%= @item.description %>
+        <%= @item.description.html_safe %>
 
       </div>
 
