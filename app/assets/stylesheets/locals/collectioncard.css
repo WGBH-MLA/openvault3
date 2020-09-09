@@ -249,7 +249,7 @@
   font-size: 12px;
 }
 
-.treasury-title, .treasury-noresults {
+.treasury-title, .treasury-noresults, .treasury-back-link {
   padding: 1vw;
 }
 
