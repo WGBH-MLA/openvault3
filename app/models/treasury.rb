@@ -10,6 +10,40 @@ class Treasury
     end
   end
 
+  def self.generate_list_seasons
+    # this takes... a long time
+    Rails.cache.fetch("cooke_list") do
+      @list_seasons = []
+
+      # a data structure only a mother could love
+      seasons = Treasury.new('alistair-cooke', SEASONS).seasons
+      seasons.each_with_index do |season,i|
+        list_season = {seasonNumber: season["seasonNumber"], miniseries: []}
+        
+        season["cardData"].each do |miniseries|
+           list_miniseries = { miniseriesTitle: miniseries["title"], miniseriesUrl: miniseries["recordLink"], miniseriesEpisodes: [] }
+
+          Treasury.new(Treasury.normalize_mini_title( miniseries["title"] ), EPISODES).seasons.each do |episode|
+
+            episode["cardData"].each do |epicard|
+
+              # DONT GIMME ANY DAMN CLIPS
+              if epicard["clipCard"] != true
+                list_miniseries[:miniseriesEpisodes] << { episodeTitle: epicard["title"], programNumber: epicard["programNumber"], episodeUrl: epicard["recordLink"] }
+              end
+            end
+          end
+
+           list_season[:miniseries] << list_miniseries
+        end
+
+        @list_seasons << list_season
+      end
+
+      @list_seasons
+    end
+  end
+
   def self.broadcast_date_from_xml(xml)
     matchdata = xml.match(/<pbcoreAssetDate dateType="Broadcast">(.{8,10})<\/pbcoreAssetDate>/)
     matchdata ? Date.strptime( matchdata[1], '%m/%d/%Y' ) : DateTime.now
