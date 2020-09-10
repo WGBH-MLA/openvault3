@@ -254,11 +254,17 @@
 }
 
 .treasury-bio-image {
+  width: 50%;
+  position: relative;
   object-fit: cover;
   display: inline;
-  width: 50%;
 }
-
+/*
+.treasury-bio-image::after {
+  content: "Linda and Andrew Egendorf (Courtesy Andrew Egendorf / Stanley Rose)";
+  font-size: 1000px;
+}
+*/
 .treasury-title, .treasury-description, .treasury-noresults {
   padding-top: 0.5vw;
   margin: 0;

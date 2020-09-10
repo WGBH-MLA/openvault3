@@ -122,7 +122,6 @@ class Treasury
         @data["seasons"] << season_from_cards(episode_number, nil, card_data, 'episodes')
       end
     end
-
   end
 
   def images
