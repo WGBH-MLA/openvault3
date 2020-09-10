@@ -12,7 +12,7 @@ class Treasury
 
   def self.generate_list_seasons
     # this takes... a long time
-    Rails.cache.fetch("cooke_list_2") do
+    # Rails.cache.fetch("cooke_list_2") do
       @list_seasons = []
 
       # a data structure only a mother could love
@@ -41,7 +41,7 @@ class Treasury
       end
 
       @list_seasons
-    end
+    # end
   end
 
   def self.broadcast_date_from_xml(xml)
