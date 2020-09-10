@@ -119,6 +119,12 @@
   background-color: #eee;
 }
 
+.card-container.expanded > .card-showfull {
+  transition: opacity 0.3s;
+  opacity: 1;
+  background-color: #eee;
+}
+
 .card-showfull {
   opacity: 0;
   font-style: italic;
@@ -240,6 +246,17 @@
 
 .treasury-title h1 {
   margin-bottom: 0 !important;
+}
+
+.treasury-header-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.treasury-bio-image {
+  object-fit: cover;
+  display: inline;
+  width: 50%;
 }
 
 .treasury-title, .treasury-description, .treasury-noresults {

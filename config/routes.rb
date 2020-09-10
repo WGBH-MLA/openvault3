@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # TODO: hardcoded due to misunderstanding of what a 'colleciton' means on OV
   get '/collections/alistair-cooke', to: 'treasuries#show'
-  get '/collections/alistair-cooke-donor', to: 'treasuries#bio'
+  get '/collections/alistair-cooke-about', to: 'treasuries#bio'
   get '/collections/alistair-cooke-list', to: 'treasuries#list'
 
 
