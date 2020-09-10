@@ -4,10 +4,10 @@ class Treasury
   attr_reader :data
 
   def self.xml_docs
-    Rails.cache.fetch("cooke_xml_records") do
+    # Rails.cache.fetch("cooke_xml_records") do
       # sort all cooke records by date, as xml, so it FAST
       RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map {|doc| doc['xml'] }.sort_by {|xml| Treasury.broadcast_date_from_xml(xml) }
-    end
+    # end
   end
 
   def self.generate_list_seasons
@@ -100,8 +100,8 @@ class Treasury
       @data = {}
       @data["type"] = 'episodes'
 
-      miniseries_title = minipbs.first ? minipbs.first.miniseries_title : 'Miniseries Title Not Found'
-      @data["title"] = miniseries_title
+      nice_miniseries_title = minipbs.first ? minipbs.first.miniseries_title : 'Miniseries Title Not Found'
+      @data["title"] = nice_miniseries_title
 
       tseries = Treasury.treasury_series
       home_treasury = tseries.keys.find {|treasury_title| tseries[ treasury_title ][:miniseries_titles].include?( @data["title"] ) }
