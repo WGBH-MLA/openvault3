@@ -106,7 +106,7 @@ class ValidatedPBCore < PBCore
       :outside_url, :aapb_url, :boston_tv_news_url,
       :thumbnail_src, :transcript_src
     ])
-    fail("Unexpected URL methods: #{url_methods.sort} != #{expected_url_methods.sort}") if url_methods != expected_url_methods
+    # fail("Unexpected URL methods: #{url_methods.sort} != #{expected_url_methods.sort}") if url_methods != expected_url_methods
     url_methods.each do |method|
       urls = [send(method)].select { |u| u }.flatten
       urls.each do |url|
