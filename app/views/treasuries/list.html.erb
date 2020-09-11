@@ -43,7 +43,10 @@
 
                       <li>
                         <a href="<%= episode[:episodeUrl] %>">
-                          <h4><%= episode[:programNumber] + " - " + episode[:episodeTitle] %></h4>
+                          <% eptitle = episode[:episodeTitle] || "" %>
+                          <% pnumber = episode[:programNumber] || "" %>
+
+                          <h4><%= pnumber + " - " + eptitle %></h4>
                         </a>
                       </li>
                     <% end %>
