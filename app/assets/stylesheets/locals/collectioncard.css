@@ -254,17 +254,34 @@
 }
 
 .treasury-bio-image {
-  width: 50%;
+  width: 100%;
   position: relative;
   object-fit: cover;
   display: inline;
 }
-/*
-.treasury-bio-image::after {
-  content: "Linda and Andrew Egendorf (Courtesy Andrew Egendorf / Stanley Rose)";
-  font-size: 1000px;
+
+a.treasury-bio-image-container{
+  color: #000
+  text-decoration: none;
+  float: right;
+  width: 50%;
+  position: relative;
+  display: inline-block;
 }
-*/
+a.treasury-bio-image-container::after {
+  color: #000;
+  height: 0.6em;
+  display: block;
+  content: "Linda and Andrew Egendorf (Courtesy Andrew Egendorf / Stanley Rose)";
+  font-size: 10px;
+  position: absolute;
+  bottom: -1em;
+  bottom: -10px;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
 .treasury-title, .treasury-description, .treasury-noresults {
   padding-top: 0.5vw;
   margin: 0;
