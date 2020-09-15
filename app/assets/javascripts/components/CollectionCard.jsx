@@ -60,6 +60,10 @@ class CollectionCard extends React.Component {
       if(this.props.clipCardActive){
         return (
           <div id={ this.props.guid } style={ sty } onClick={ () => this.props.expand(this.props.guid) } className={ classes }>
+            <div className="card-video-expand">
+
+            </div>
+
             <div className="card-video">
               <iframe className="card-iframe" src={ this.props.embedLink } />
             </div>

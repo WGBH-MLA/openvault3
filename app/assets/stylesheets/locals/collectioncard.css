@@ -163,6 +163,31 @@
   width: 100%;
 }
 
+.card-container:hover > .card-video-expand {
+  opacity: 1;
+  transition: opacity 0.6s;
+
+
+}
+
+.card-video-expand {
+  background-image: url("/images/fullscreen-icon-white.png");
+  background-size: cover;
+
+  opacity: 0;
+  transition: opacity 0.6s;
+
+  width: 2em;
+  height: 2em;
+
+  /*background-color: #f0f;*/
+  margin-right: 0.4em;
+  margin-top: 0.2em;
+  position: absolute;
+  right: 0;
+  top:0 ;
+}
+
 .card-iframe {
   border: 0;
   width: 100%;
