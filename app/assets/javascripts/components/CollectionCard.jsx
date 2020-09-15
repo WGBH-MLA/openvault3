@@ -67,6 +67,10 @@ class CollectionCard extends React.Component {
             <div className="card-video">
               <iframe className="card-iframe" src={ this.props.embedLink } />
             </div>
+
+            <a href={ this.props.recordLink } className="card-showfull card-video-showfull">
+              Watch Alistair
+            </a>
           </div>
         )  
       } else {

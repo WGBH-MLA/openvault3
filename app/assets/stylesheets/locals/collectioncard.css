@@ -66,6 +66,20 @@
   background-image: none;
 }
 
+/* only show showfull button on hover when video clipcard */
+.card-container.card-container-video.expanded > .card-video-showfull {
+  transition: opacity 0.3s;
+  opacity: 0;
+  background-color: #eee;
+}
+
+.card-container.card-container-video.expanded:hover > .card-video-showfull {
+  transition: opacity 0.3s;
+  transition: background-color 0.3s;
+  background-color: #eee;
+  opacity: 1;
+}
+
 .card-container.expanded {
   order: 1;
   transition: width 0.6s, height 0.6s;
