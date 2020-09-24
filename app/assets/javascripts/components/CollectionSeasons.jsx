@@ -113,9 +113,25 @@ class CollectionSeasons extends React.Component {
   render() {
     let seasons = this.drawSeasons()
 
-    let altLink
-    if(this.props.altLink){
-      altLink = ( <a className="treasury-alt-link" href={ this.props.altLink.url } >{ this.props.altLink.text }</a> )
+    let links
+    let listLink
+    if(this.props.listLink){
+      listLink = ( <a className="treasury-link" href={ this.props.listLink.url } >{ this.props.listLink.text }</a> )
+    }
+
+    let clipLink
+    if(this.props.clipLink){
+      clipLink = ( <a className="treasury-link" href={ this.props.clipLink.url } >{ this.props.clipLink.text }</a> )
+    }
+
+    if(listLink || clipLink){
+      links = (
+        <a className="treasury-link-container" href={ this.props.clipLink.url } >
+          {clipLink}
+          {listLink}
+        </a>
+      )
+
     }
 
     return (
@@ -128,7 +144,8 @@ class CollectionSeasons extends React.Component {
           seasons={ seasons }
         />
 
-        { altLink }
+        { links }
+
         { seasons }
       </div>
     )

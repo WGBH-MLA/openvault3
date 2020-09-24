@@ -1,6 +1,7 @@
 class Treasury
   SEASONS = 0
-  EPISODES = 1
+  CLIPS = 1
+  EPISODES = 2
   attr_reader :data
 
   def self.xml_docs
@@ -54,6 +55,11 @@ class Treasury
     matchdata ? matchdata[1] : nil
   end
 
+
+  def self.is_clip_from_xml(xml)
+    xml.match(/<pbcoreAssetType>Open - Close<\/pbcoreAssetType>/)
+  end
+
   def self.normalize_mini_title(title)
     return title.downcase.gsub(' ', '-').gsub(/\W/, '')
   end
@@ -72,8 +78,7 @@ class Treasury
       @data["type"] = 'seasons'
 
       # UNIQ BASED ON raw XML, to Save MANY SECONDS
-      pbs = Treasury.xml_docs.uniq {|xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }
-      season_data = pbs.group_by {|pb| pb.season_number }
+      season_data = Treasury.xml_docs.uniq {|xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
 
       # combine yml data with docs
       @data["seasons"] = @data["seasons"].map do |season|
@@ -83,6 +88,24 @@ class Treasury
         # one season's card data
         if season_data[snumber]
           card_data = season_data[snumber].map {|pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }
+        end
+
+        season_from_cards( snumber, season["description"], card_data, 'seasons' )
+      end
+
+    elsif type == CLIPS
+      filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
+      @data = YAML.load( File.read(filepath) )
+      @data["type"] = 'clips'
+
+      season_data = Treasury.xml_docs.select {|x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
+      @data["seasons"] = @data["seasons"].map do |season|
+        snumber = season["seasonNumber"].to_s
+
+        card_data = []
+        # one season's card data
+        if season_data[snumber]
+          card_data = season_data[snumber].map {|pb| card_from_pbcore(pb) }
         end
 
         season_from_cards( snumber, season["description"], card_data, 'seasons' )
@@ -311,8 +334,12 @@ class Treasury
     @data["description"]
   end
 
-  def alt_link
-    @data["altLink"]
+  def list_link
+    @data["listLink"]
+  end
+
+  def clip_link
+    @data["clipLink"]
   end
 
   def seasons

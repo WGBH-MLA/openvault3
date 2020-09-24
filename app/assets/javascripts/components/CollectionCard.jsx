@@ -14,9 +14,10 @@ class CollectionCard extends React.Component {
       linkText = "See Full Record"
     }
 
-     if(this.props.clipCard && !this.props.clipCardActive) {
+    if(this.props.clipCard && !this.props.clipCardActive) {
       classes = "card-container clipclick "
       if(this.props.cardImage){
+
         sty = {backgroundImage: "url(" + this.props.cardImage + ")"}
       }
     } else if(this.props.clipCard) { 
@@ -53,7 +54,14 @@ class CollectionCard extends React.Component {
 
     // only show description on expanded card
     if(this.props.expanded == this.props.guid && this.props.description){
-      description = ( <div className="card-text">{ this.props.description }</div> )
+      let desctxt
+      if(this.props.clipCard){
+        desctxt = "Clip Of Alistair Cooke. " + description
+      } else {
+        desctxt = this.props.description
+      }
+
+      description = ( <div className="card-text">{ desctxt }</div> )
     }
 
     if(this.props.clipCard){

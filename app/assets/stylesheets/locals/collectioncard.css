@@ -1,4 +1,4 @@
-.treasury-alt-link {
+.treasury-link-container {
   /*float: right;*/
   padding: 0.58em;
   display: inline-block;
@@ -6,6 +6,10 @@
   width: 50%;
   font-size: 16px;
   text-decoration: none;
+}
+
+.treasury-link {
+  width: 50%;
 }
 
 .cards-container {

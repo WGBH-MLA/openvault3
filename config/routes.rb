@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/collections/alistair-cooke', to: 'treasuries#show'
   get '/collections/alistair-cooke-about', to: 'treasuries#bio'
   get '/collections/alistair-cooke-list', to: 'treasuries#list'
+  get '/collections/alistair-cooke-clips', to: 'treasuries#clip'
 
 
   get 'collections', to: 'collections#index'

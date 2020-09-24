@@ -2,9 +2,13 @@ title: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collect
 description: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at WGBH as they are digitized. <a href="/collections/alistair-cooke-about">Read more</a> about the collection and our funders who made it possible.'
 posterImage: 'https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg'
 
-altLink:
+listLink:
   url: '/collections/alistair-cooke-list'
   text: List View
+
+clipLink:
+  url: '/collections/alistair-cooke-clips'
+  text: Clip View
 
 seasons:
   - seasonNumber: 1

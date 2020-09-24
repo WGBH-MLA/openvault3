@@ -1,6 +1,7 @@
 class TreasuriesController < ApplicationController
   SEASONS = 0
-  EPISODES = 1
+  CLIPS = 1
+  EPISODES = 2
   # all seasons
   def show
     # TODO: not this -> hardcoding this, because people want the url for cooke to be /collections/cooke
@@ -12,6 +13,11 @@ class TreasuriesController < ApplicationController
 
   def miniseries
     @item = Treasury.new(params[:title], EPISODES)
+    render 'treasuries/show'
+  end
+
+  def clip
+    @item = Treasury.new('alistair-cooke', CLIPS)
     render 'treasuries/show'
   end
 
