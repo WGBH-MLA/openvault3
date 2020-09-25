@@ -47,21 +47,21 @@ class CollectionCard extends React.Component {
       date = this.props.date
     }
 
+    // add this text to clip card subtitles only
+    let clipText
+    if(this.props.clipCard){
+      clipText = "Clip Of Alistair Cooke. "
+    }
+
     let pnAndDate
     if( this.props.date || this.props.programNumber ){
-      pnAndDate = ( <div className="card-text">{ programNumber } { date }</div> )
+      pnAndDate = ( <div className="card-text">{ clipText } { programNumber } { date }</div> )
     }
+
 
     // only show description on expanded card
     if(this.props.expanded == this.props.guid && this.props.description){
-      let desctxt
-      if(this.props.clipCard){
-        desctxt = "Clip Of Alistair Cooke. " + description
-      } else {
-        desctxt = this.props.description
-      }
-
-      description = ( <div className="card-text">{ desctxt }</div> )
+      description = ( <div className="card-text">{ this.props.description }</div> )
     }
 
     if(this.props.clipCard){

@@ -20,14 +20,21 @@
   </div>
 
   <div class="row">
+    <div class="col-md-12">
+      <a class="treasury-list-link" href="/collections/alistair-cooke">Miniseries View</a>
+    </div>
+
+  </div>
+
+  <div class="row">
 
     <div class="col-md-12">
-      <ul>
+      <ul style="line-height: 1.8em;">
 
         <% @list_seasons.each do |season| %>
 
           <li>
-            <h2>Season <%= season[:seasonNumber] %></h2>
+            <h2 style="display: inline;">Season <%= season[:seasonNumber] %></h2>
 
             <ul>
 
@@ -35,7 +42,7 @@
                 <li>
                   
                   <a href="<%= miniseries[:miniseriesUrl] %>">
-                    <h3><%= miniseries[:miniseriesTitle] %></h3>
+                    <h3 style="display: inline;"><%= miniseries[:miniseriesTitle] %></h3>
                   </a>
 
                   <ul>
@@ -46,7 +53,19 @@
                           <% eptitle = episode[:episodeTitle] || "" %>
                           <% pnumber = episode[:programNumber] || "" %>
 
-                          <h4><%= pnumber + " - " + eptitle %></h4>
+                          <h4 style="display: inline;"><%= pnumber + " - " + eptitle %></h4>
+                          <ul>
+                            <% episode[:episodeClips].each do |clip| %>
+
+                              <li>
+                                <a href="<%= clip["recordLink"] %>">
+                                  <h5><%= clip["title"] %> (Clip)</h5>
+                                </a>
+                              </li>
+
+                            <% end %>
+
+                          </ul>
                         </a>
                       </li>
                     <% end %>

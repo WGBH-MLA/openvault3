@@ -5,7 +5,7 @@ class Treasury
   attr_reader :data
 
   def self.xml_docs
-    Rails.cache.fetch("cooke_xml_records_5") do
+    Rails.cache.fetch("cooke_xml_records_6") do
       # sort all cooke records by date, as xml, so it FAST
       RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: {'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000'})['response']['docs'].map {|doc| doc['xml'] }.sort_by {|xml| Treasury.broadcast_date_from_xml(xml) }
     end
@@ -13,7 +13,7 @@ class Treasury
 
   def self.generate_list_seasons
     # this takes... a long time
-    Rails.cache.fetch("cooke_list_5") do
+    Rails.cache.fetch("cooke_list_6") do
       @list_seasons = []
 
       # a data structure only a mother could love
@@ -26,13 +26,13 @@ class Treasury
 
           Treasury.new(Treasury.normalize_mini_title( miniseries["title"] ), EPISODES).seasons.each do |episode|
 
-            episode["cardData"].each do |epicard|
 
-              # DONT GIMME ANY DAMN CLIPS
-              if epicard["clipCard"] != true
-                list_miniseries[:miniseriesEpisodes] << { episodeTitle: epicard["title"], programNumber: epicard["programNumber"], episodeUrl: epicard["recordLink"] }
-              end
-            end
+            episode_records, clip_records = episode["cardData"].partition {|epicard| epicard["clipCard"] != true }
+
+            # there should only be one full record per episode, but there couuuuld be more, add all clips for each one
+            episode_records = episode_records.map { |er| { episodeTitle: er["title"], programNumber: er["programNumber"], episodeUrl: er["recordLink"], episodeClips: clip_records } }
+
+            list_miniseries[:miniseriesEpisodes] += episode_records
           end
 
            list_season[:miniseries] << list_miniseries
