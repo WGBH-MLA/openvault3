@@ -5,20 +5,15 @@
     <h1>
       <%= @item.title %>
     </h1>
-    <% if @item.treasury_url && @item.is_episodes? %>
+    <% if @item.treasury_url && (@item.is_episodes? || @item.is_clips?) %>
       <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
     <% end %>
   </div>
 
   <% if @item.poster_image %>
     <div class="row treasury-description">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <%= @item.description.html_safe %>
-        <%= @item.treasury_url %>
-      </div>
-
-      <div class="col-md-6">
-        <img class="treasury-header-image" src="<%= @item.poster_image %>">
       </div>
     </div>
   <% else %>

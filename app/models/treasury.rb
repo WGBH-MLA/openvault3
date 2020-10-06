@@ -97,6 +97,9 @@ class Treasury
       filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
       @data = YAML.load( File.read(filepath) )
       @data["type"] = 'clips'
+      @data["treasury_url"] = "/collections/alistair-cooke"
+      @data["treasury_nice_title"] = "Alistair Cooke Masterpiece Collection"
+
 
       season_data = Treasury.xml_docs.select {|x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
       @data["seasons"] = @data["seasons"].map do |season|
@@ -320,6 +323,10 @@ class Treasury
 
   def is_episodes?
     @data["type"] == 'episodes'
+  end
+
+  def is_clips?
+    @data["type"] == 'clips'
   end
 
   def title
