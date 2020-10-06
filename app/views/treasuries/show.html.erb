@@ -12,14 +12,17 @@
 
   <% if @item.poster_image %>
     <div class="row treasury-description">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <%= @item.description.html_safe %>
+      </div>
+      <div class="col-md-6">
+        <img src="<%= @item.poster_image %>">
       </div>
     </div>
   <% else %>
     <div class="row treasury-description">
       <div class="col-md-12">
-        <%= @item.description %>
+        <%= @item.description.html_safe %>
       </div>
     </div>
   <% end %>

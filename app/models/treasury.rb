@@ -100,6 +100,7 @@ class Treasury
       @data["treasury_url"] = "/collections/alistair-cooke"
       @data["treasury_nice_title"] = "Alistair Cooke Masterpiece Collection"
       @data["description"] = "While the Archives digitized and preserved Masterpiece Theatre, due to copyright we are unable to publicly post on-line full videos of the programs. However, as the introductions and closings of the episodes were filmed at GBH, we hope you enjoy these clips of Alistair Cooke as he brought viewers into the episodes and closed them out."
+      @data["posterImage"] = nil
 
 
       season_data = Treasury.xml_docs.select {|x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
