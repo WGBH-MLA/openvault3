@@ -99,6 +99,7 @@ class Treasury
       @data["type"] = 'clips'
       @data["treasury_url"] = "/collections/alistair-cooke"
       @data["treasury_nice_title"] = "Alistair Cooke Masterpiece Collection"
+      @data["description"] = "While the Archives digitized and preserved Masterpiece Theatre, due to copyright we are unable to publicly post on-line full videos of the programs. However, as the introductions and closings of the episodes were filmed at GBH, we hope you enjoy these clips of Alistair Cooke as he brought viewers into the episodes and closed them out."
 
 
       season_data = Treasury.xml_docs.select {|x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
@@ -111,7 +112,7 @@ class Treasury
           card_data = season_data[snumber].map {|pb| card_from_pbcore(pb) }
         end
 
-        season_from_cards( snumber, season["description"], card_data, 'seasons' )
+        season_from_cards( snumber, season["description"], card_data, 'clips' )
       end
     else
 
@@ -332,6 +333,10 @@ class Treasury
   def title
     @data["title"]
   end
+  
+  def type
+    @data["type"]
+  end
 
   def poster_image
     @data["posterImage"]
@@ -347,6 +352,10 @@ class Treasury
 
   def clip_link
     @data["clipLink"]
+  end
+
+  def seasons_link
+    @data["seasonsLink"]
   end
 
   def seasons

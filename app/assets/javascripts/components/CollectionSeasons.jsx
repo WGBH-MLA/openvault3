@@ -120,16 +120,24 @@ class CollectionSeasons extends React.Component {
     }
 
     let clipLink
-    if(this.props.clipLink){
+    if(this.props.type != 'clips' && this.props.clipLink){
       clipLink = ( <a className="treasury-link" href={ this.props.clipLink.url } >{ this.props.clipLink.text }</a> )
     }
 
-    if(listLink || clipLink){
+    let seasonsLink
+    if(this.props.type != 'seasons' && this.props.seasonsLink){
+      seasonsLink = ( <a className="treasury-link" href={ this.props.seasonsLink.url } >{ this.props.seasonsLink.text }</a> )
+    }
+
+    console.log( 'i got', this.props.type != 'clips')
+
+    if(listLink || clipLink || seasonsLink){
       links = (
-        <a className="treasury-link-container" href={ this.props.clipLink.url } >
+        <div className="treasury-link-container">
+          {seasonsLink}
           {clipLink}
           {listLink}
-        </a>
+        </div>
       )
 
     }
