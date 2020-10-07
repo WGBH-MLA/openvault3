@@ -5,9 +5,9 @@ class CollectionSeason extends React.Component {
     let classes = 'season'
 
     let sliceName
-    if(this.props.type == 'seasons'){
+    if(this.props.type == 'seasons' || this.props.type == 'clips'){
       sliceName = 'Season'
-    } else if(this.props.type == 'episodes') {
+    } else if(this.props.type == 'episodes'){
       sliceName = 'Episode'
     }
 
