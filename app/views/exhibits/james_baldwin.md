@@ -6,7 +6,7 @@
 
 ## intro
 
-Originally published in February 2012 in honor of Black History Month, WGBH's Open Vault looks back at a tumultuous moment in the African American quest for equal rights.
+Originally published in February 2012 in honor of Black History Month, GBH's Open Vault looks back at a tumultuous moment in the African American quest for equal rights.
 
 ## author
 
@@ -14,7 +14,7 @@ Elizabeth Deane
 
 ## Article
 
-It was the spring of 1963, a few months after Alabama Governor George Wallace called for "segregation forever," and a few months before the March on Washington. WGBH producer Henry Morgenthau III and director Fred Barzyk filmed *The Negro and the American Promise*, featuring interviews with author James Baldwin, Nation of Islam Minister Malcolm X, and Martin Luther King, Jr.
+It was the spring of 1963, a few months after Alabama Governor George Wallace called for "segregation forever," and a few months before the March on Washington. GBH producer Henry Morgenthau III and director Fred Barzyk filmed *The Negro and the American Promise*, featuring interviews with author James Baldwin, Nation of Islam Minister Malcolm X, and Martin Luther King, Jr.
 
 Baldwin was filmed in New York on May 24,1963, immediately after he, Morgenthau, and the interviewer, psychologist Kenneth Clark, had left a rancorous meeting with then- Attorney General Robert F. Kennedy. This was the so-called "secret meeting," organized by Baldwin at RFK's request. Intended to focus on the racial situation in northern cities, it devolved, Clark later wrote, into hostility on both sides, and finally, "an excruciating sense of impasse."
 

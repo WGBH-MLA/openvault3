@@ -1,8 +1,8 @@
 # Media Production Organizational Tools
   
-The MLA’s Media Production Organizational Tools are freely available to the production community. The tools, created by the MLA, consist of a handbook and four Filemaker databases. Use them as you move through the different phases of production to help you in organizing tapes and photos, compiling cue sheets, tracking licenses with third party sources, and in creating a final program log.
+The GBH Archives' Media Production Organizational Tools are freely available to the production community. The tools, created by the MLA, consist of a handbook and four Filemaker databases. Use them as you move through the different phases of production to help you in organizing tapes and photos, compiling cue sheets, tracking licenses with third party sources, and in creating a final program log.
 
-Media Production Organizational Tools consist of a [handbook](https://s3.amazonaws.com/openvault.wgbh.org/resources/mpot/MPOT_Handbook.pdf) and four Filemaker databases. Download each zipped file individually or download the [complete package](https://s3.amazonaws.com/openvault.wgbh.org/resources/mpot/MPOT_all.zip). These databases require the Filemaker 7.0 or higher application which users are responsible for acquiring. The WGBH Media Library and Archives cannot offer any technical support.
+Media Production Organizational Tools consist of a [handbook](https://s3.amazonaws.com/openvault.wgbh.org/resources/mpot/MPOT_Handbook.pdf) and four Filemaker databases. Download each zipped file individually or download the [complete package](https://s3.amazonaws.com/openvault.wgbh.org/resources/mpot/MPOT_all.zip). These databases require the Filemaker 7.0 or higher application which users are responsible for acquiring. The GBH Archives cannot offer any technical support.
 
 ## Filemaker Databases for logging materials during production
     

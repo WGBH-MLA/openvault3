@@ -28,7 +28,7 @@ Susan Levene, Content Producer<br/>
 ## Copyeditor
 Eleanor Beram<br/>
 
-## Web Production, Design, and Development - WGBH Interactive
+## Web Production, Design, and Development - GBH Interactive
 Keren Shomer, Producer<br/>
 Mayo Todorovic, Designer<br/>
 Mitch Smith, Developer<br/>
@@ -41,8 +41,8 @@ Jim Barton, Business Operations Manager<br/>
 ## With thanks to
 Steve Baldwin, National Boston<br/>
 Ned Biddle, National Boston<br/>
-Kevin Carter, technical advisor, WGBH<br/>
-Nancy Dillon, library manager, WGBH<br/>
+Kevin Carter, technical advisor, GBH<br/>
+Nancy Dillon, library manager, GBH<br/>
 Dale Freeman, assistant archivist, Archives and Special Collections 
 Department, Healey Library, University of Massachusetts at Boston<br/>
 Elizabeth Mock, librarian, Archives and Special Collections Department, 

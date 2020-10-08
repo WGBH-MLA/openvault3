@@ -19,7 +19,7 @@ Lindsay Skay Whitacre<br/>
 ## Business Manager
 Paul Plutnicki<br/>
 
-## Web Production, Design, and Development &mdash; WGBH Interactive
+## Web Production, Design, and Development &mdash; GBH Interactive
 Sarah Grafman, Producer<br/>
 Chris Beer, Developer<br/>
 Peter Pinch, Director of Technology<br/>
@@ -30,9 +30,9 @@ Heather Myers, QA<br/>
 Malika Rajan, QA<br/>
 Jim Barton, Business Operations Manager<br/>
 Alan West, Director of Administration<br/>
-Ron LaRussa, Director WGBH Interactive<br/>
+Ron LaRussa, Director GBH Interactive<br/>
 
-## WGBH Legal
+## GBH Legal
 Nike Okediji<br/>
 Susan Rosen<br/>
 Doug Ryan<br/>

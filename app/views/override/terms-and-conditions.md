@@ -9,7 +9,7 @@ and do not use the Site or any of its features.
     
 This Open Vault site (including all services, features, functionality 
 and content available through the openvault.wgbh.org domain name, collectively, 
-the “Site”) is owned and operated by the WGBH Educational Foundation (“WGBH”). 
+the “Site”) is owned and operated by the WGBH Educational Foundation (“GBH”). 
 The terms and conditions of use (the “Terms” or “Terms of Use”) set forth 
 herein apply to all information, online communications, services, text, video, 
 audio files, graphics, still images, links, or other material and content that 
@@ -28,14 +28,14 @@ Site may, now or in the future, only be accessible and used after registration
 and creation of an account. When creating your account, you must provide true, 
 accurate, and complete information, and maintain and promptly update this 
 information. If you provide any information that is deceptive, untrue, 
-inaccurate, or incomplete, or if WGBH has reasonable grounds to suspect that 
-the information is untrue, inaccurate, or incomplete, WGBH has the right to 
+inaccurate, or incomplete, or if GBH has reasonable grounds to suspect that 
+the information is untrue, inaccurate, or incomplete, GBH has the right to 
 suspend or terminate your account and access to the Site. You will provide a 
 password and login name upon completing the registration process. You are 
 responsible for maintaining the confidentiality of your password and login 
 name, and are solely responsible for all activities that occur with your 
-password and login name. You must immediately notify WGBH of any unauthorized 
-use of your account or any other breach of security. WGBH will not be liable 
+password and login name. You must immediately notify GBH of any unauthorized 
+use of your account or any other breach of security. GBH will not be liable 
 for any losses (including your or third party losses) caused by any 
 unauthorized use of your account. You are responsible for obtaining access to 
 the Site, which access may involve third party fees (such as Internet service 
@@ -59,7 +59,7 @@ from our database as soon as possible.
 may be used for bona fide personal, educational, non-commercial purposes only. 
 You may not use this Content in a defamatory, derogatory or offensive manner. 
 In addition, you may not use the Content for or in any commercial or for-profit 
-manner without the prior written consent of WGBH. For clarity, this means the 
+manner without the prior written consent of GBH. For clarity, this means the 
 Content may not be used in any commercial tie-in (i.e. use of the Content in 
 connection with marketing merchandise or services and/or in connection with 
 premiums or promotions, or use of the Site or Content in order to gain 
@@ -98,19 +98,19 @@ or spam, to conduct or promote any illegal activity, for political campaigning,
 or soliciting support for legislative or other initiatives.
     
 7. You understand that when using the Site, you will be exposed to User 
-Generated Content (defined below) from a variety of sources, and that WGBH is 
+Generated Content (defined below) from a variety of sources, and that GBH is 
 not responsible for the accuracy, usefulness, safety, or intellectual property 
-rights of or relating to such User Generated Content. Though WGBH expects all 
+rights of or relating to such User Generated Content. Though GBH expects all 
 users to adhere to our Terms and content policies, you understand and 
 acknowledge that you may be exposed to User Generated Content that is 
 inaccurate, offensive, indecent, or objectionable, and you agree to waive, and 
 hereby do waive, any legal or equitable rights or remedies you have or may have 
-against WGBH and our affiliates with respect thereto, and agree to defend, 
-indemnify and hold WGBH, and its affiliates, and/or licensors, and their 
+against GBH and our affiliates with respect thereto, and agree to defend, 
+indemnify and hold GBH, and its affiliates, and/or licensors, and their 
 respective trustees, directors and employees, harmless to the fullest extent 
 allowed by law regarding all matters related to your use of the Site.
     
-8. WGBH reserves all rights not expressly granted in and to the Site and 
+8. GBH reserves all rights not expressly granted in and to the Site and 
 the Content.
     
 C. User Generated Content:
@@ -119,19 +119,19 @@ C. User Generated Content:
 images, textual content (e.g., comments, tags, annotations) or other content 
 submitted by you and other users (“User Generated Content”) and the hosting, 
 sharing and/or publishing of such User Generated Content. You understand that 
-whether or not such User Generated Content is published, WGBH does not 
+whether or not such User Generated Content is published, GBH does not 
 guarantee confidentiality with respect to any such User Generated Content. You 
 acknowledge that User Generated Content may be routed through our servers, the 
 servers of one or more third parties on our behalf, and the Internet, and may 
-be viewed by WGBH staff and on the Internet by the general public. You 
+be viewed by GBH staff and on the Internet by the general public. You 
 acknowledge that the Site, including its features, is for public and not 
 private communications.
     
 2. You shall be solely responsible for your own User Generated Content 
-and the consequences of WGBH posting, publishing or otherwise distributing 
+and the consequences of GBH posting, publishing or otherwise distributing 
 them. By submitting your User Generated Content to the Site, you affirm, 
 represent, and/or warrant that: (i) you own or have the necessary licenses, 
-rights, consents, and permissions to upload, use and authorize WGBH to use all 
+rights, consents, and permissions to upload, use and authorize GBH to use all 
 patent, trademark, trade secret, copyright or other proprietary rights, 
 including privacy and publicity rights, in and to any and all User Generated 
 Content to enable inclusion, distribution and use of the User Generated Content 
@@ -153,14 +153,14 @@ give rise to civil liability; (vi) the User Generated Content does not violate
 or infringe upon the rights of any person or entity whatsoever; (vii) the User 
 Generated Content is not an endorsement, express or implied, of any party, 
 product, or other entity and (viii) you have not received payment or 
-consideration of any kind for submitting the User Generated Content to WGBH or 
+consideration of any kind for submitting the User Generated Content to GBH or 
 the Site.
     
-3. Unless you enter into a separate written agreement with WGBH, WGBH 
+3. Unless you enter into a separate written agreement with GBH, GBH 
 does not claim ownership in User Generated Content you submit; however, by 
-submitting the User Generated Content to WGBH, you hereby waive any and all 
+submitting the User Generated Content to GBH, you hereby waive any and all 
 moral rights in connection with the User Generated Content and you 
-automatically grant WGBH and its licensees, a perpetual, worldwide, 
+automatically grant GBH and its licensees, a perpetual, worldwide, 
 non-exclusive, royalty-free, and transferable license to use, reproduce, 
 distribute, sub-license, modify, create derivative works of (including without 
 limitation, to rename, edit, shorten, if video &ndash; split the videos into 
@@ -170,7 +170,7 @@ host, index, cache, tag, encode, and/or adapt the User Generated Content in any
 and all media formats and channels, including, but not limited to, the Site 
 (including the advertisement and promotion thereof), third party licensee web 
 sites, over the air (on radio or television), and on mobile platforms, without 
-payment and without further consent or notice to you. You further grant WGBH 
+payment and without further consent or notice to you. You further grant GBH 
 and its licensees the right to contact you in connection with your User 
 Generated Content and to use your name, city and state or province and other 
 information that you have provided in connection with the User Generated 
@@ -186,15 +186,15 @@ as permitted through the functionality of the Site and under these Terms.
 that you will not upload content, or distribute anything that may be harmful to 
 minors or that violates these Terms.
     
-5. WGBH does not endorse any User Generated Content or any opinion, 
-recommendation, or advice expressed therein, and WGBH expressly disclaims any 
+5. GBH does not endorse any User Generated Content or any opinion, 
+recommendation, or advice expressed therein, and GBH expressly disclaims any 
 and all liability in connection with User Generated Content. Opinions on the 
 Site are not to be construed as assertions of fact.
     
 6. By uploading User Generated Content, you are consenting to its 
 display through the Site and for related promotional purposes.
     
-7. You acknowledge that WGBH reserves the right to screen, refuse to 
+7. You acknowledge that GBH reserves the right to screen, refuse to 
 post, remove or edit User Generated Content at any time and for any or no 
 reason in our absolute and sole discretion without prior notice, although we 
 have no duty to do so. If we elect to screen User Generated Content, there may 
@@ -204,21 +204,21 @@ the duty, to contact you for further information, including, for example, to
 verify that you own the copyright or otherwise have the rights to post the User 
 Generated Content.
     
-8. WGBH may terminate your access to the Site for uploading material in 
+8. GBH may terminate your access to the Site for uploading material in 
 violation of these Terms, at any time, without prior notice and in its sole 
 discretion.
     
 D. Removal of Content
     
-1. WGBH does not permit the infringement of intellectual property 
-rights, including copyright, on its Site, and WGBH will remove Content 
+1. GBH does not permit the infringement of intellectual property 
+rights, including copyright, on its Site, and GBH will remove Content 
 (including User Generated Content) if properly notified that such Content 
-infringes on another’s intellectual property rights. WGBH reserves the right to 
+infringes on another’s intellectual property rights. GBH reserves the right to 
 remove Content, including User Generated Content without prior notice.
     
-2. WGBH reserves the right to change or discontinue temporarily or 
+2. GBH reserves the right to change or discontinue temporarily or 
 permanently any Content, or services available through the Site at any time 
-without notice. WGBH will not be liable to you or any third party for any 
+without notice. GBH will not be liable to you or any third party for any 
 modification or discontinuance of the services therein.
     
 E. Conflicts: Some of the Content on the Site may now or in the future 
@@ -231,18 +231,18 @@ Terms.
 F. Copyright: All rights, including copyright and database right, in 
 this Site and its Content (including all text, images, software, illustrations, 
 artwork, high resolution photography, video clips, audio clips, any after-sales 
-material, and ancillary materials) are owned by or licensed to WGBH, or 
-otherwise used by WGBH as permitted by applicable law or agreement. In the case 
-of User Generated Content, the contents are licensed to WGBH by the user as set 
+material, and ancillary materials) are owned by or licensed to GBH, or 
+otherwise used by GBH as permitted by applicable law or agreement. In the case 
+of User Generated Content, the contents are licensed to GBH by the user as set 
 forth herein.
     
 G. Trademarks: All trademarks, service marks, and trade names are 
-proprietary to WGBH, unless otherwise noted, in which case they are the 
+proprietary to GBH, unless otherwise noted, in which case they are the 
 trademarks, service marks, and/or trade names of the respective owner as 
 indicated by the mark, as the case may be. All rights are reserved by the 
-respective owners. You may not use any WGBH-provided service marks, logos or 
-graphics, without WGBH’s prior written consent, except that you shall have the 
-right, and obligation, to use any WGBH or other content provider service mark 
+respective owners. You may not use any GBH-provided service marks, logos or 
+graphics, without GBH’s prior written consent, except that you shall have the 
+right, and obligation, to use any GBH or other content provider service mark 
 or logo included in, or required to be used in connection with, Content or 
 other functionalities of the Site, subject to the requirements set forth in 
 these Terms for the use of the Content or other functionalities of the Site.
@@ -267,7 +267,7 @@ I. Notification of Copyright Infringement
     
 1. If you are a copyright owner or an agent of a copyright owner and 
 believe that any content on the Site infringes upon your copyrights, you may 
-submit a notification to WGBH’s Designated Agent pursuant to the Digital 
+submit a notification to GBH’s Designated Agent pursuant to the Digital 
 Millennium Copyright Act (“DMCA”) section 17 USC 512(c)(3). All notifications 
 of claimed copyright infringement should be forwarded to our Designated Agent: 
 Eric Brass, One Guest Street, Boston, MA 02135, fax: 617-300-1014, email: 
@@ -332,13 +332,13 @@ infringement.
 J. Disclosure of Online Communications: You are cautioned that any 
 online communications may not be fully confidential. In addition, you should be 
 aware that federal postal regulations do not protect electronic mail. You 
-should be aware that some administrative personnel of WGBH may, in the course 
+should be aware that some administrative personnel of GBH may, in the course 
 of their regular duties, have access to communications required by law.
     
-K. Rogue Programming and Viruses: WGBH is not responsible for any 
+K. Rogue Programming and Viruses: GBH is not responsible for any 
 computer virus, trojan horse, timebomb, worm, or any other rogue programming 
 (“Rogue Programming”) that may be contained in any of the Content (including 
-User Generated Content), material or software contained on the Site. WGBH has 
+User Generated Content), material or software contained on the Site. GBH has 
 no obligation to detect the presence of any Rogue Programming. Any downloading 
 of software or other materials or any other use of the Content (including User 
 Generated Content) on the Site is at your risk, and you are advised to take 
@@ -348,26 +348,26 @@ You agree not to post, transmit, or make available in any way through the Site
 any software or other materials that contain Rogue Programming.
     
 L. Content of Information: You are responsible for the content of any 
-information you put on the Site. WGBH has no obligation to, and does not in the 
+information you put on the Site. GBH has no obligation to, and does not in the 
 normal course, monitor, prescreen or control any User Generated Content that is 
-or becomes available on the Site. WGBH reserves the right to review any User 
-Generated Content that is or becomes available on the Site. WGBH also reserves 
+or becomes available on the Site. GBH reserves the right to review any User 
+Generated Content that is or becomes available on the Site. GBH also reserves 
 the right to refuse to post, to redact, edit or to move or remove any User 
-Generated Content that is, in WGBH’s sole discretion, unacceptable, 
-undesirable, or in violation of these Terms. However, WGBH has no obligation to 
-exercise such reservations of rights by WGBH and is not responsible for any 
+Generated Content that is, in GBH’s sole discretion, unacceptable, 
+undesirable, or in violation of these Terms. However, GBH has no obligation to 
+exercise such reservations of rights by GBH and is not responsible for any 
 failure or delay in removing such material.
     
 M. Disclaimer of Warranties: The Site, the Content and other material on 
 the Site are provided on an “As Is” basis without warranties of any kind, 
 either express or implied, including without limitation warranties of title, 
 non-infringement, or implied warranties of merchantability or fitness for a 
-particular purpose. WGBH does not warrant that any Content is complete or 
+particular purpose. GBH does not warrant that any Content is complete or 
 accurate, that the Site will be uninterrupted or error free, or that any 
 Content or material is free of Rogue Programming.
     
 N. Limitation of Damages: Under no circumstance, including negligence or 
-any other legal theory, shall WGBH be liable for any direct, indirect, 
+any other legal theory, shall GBH be liable for any direct, indirect, 
 incidental, special, punitive, or consequential damages that may result from 
 the use or inability to use the Site, including without limitation use of or 
 reliance on Content available on the Site, interruptions, errors, defects, 
@@ -375,26 +375,26 @@ mistakes, omissions, deletions of files, delays in operation or transmission,
 non-delivery of Content, disclosure of communications, or any other failure of 
 performance.
     
-O. Release and Indemnity: Though WGBH expects all users to adhere to our 
+O. Release and Indemnity: Though GBH expects all users to adhere to our 
 content policies in these Terms, you may be exposed to content that violates 
 our policies or is otherwise offensive through the use of the Site. Your use of 
-the Site is at your own risk. You agree that WGBH is not liable for content 
+the Site is at your own risk. You agree that GBH is not liable for content 
 that is provided by others. We take no responsibility for your exposure to 
 content on the Site whether it violates our content policies or not. You 
 understand that the information and opinions in content uploaded by third 
 parties represent solely the thoughts of the author and is neither endorsed by 
-nor does it necessarily reflect WGBH’s beliefs or editorial positions. You 
+nor does it necessarily reflect GBH’s beliefs or editorial positions. You 
 hereby release and waive any and all claims, causes of action and/or liability 
-against WGBH arising from or in connection with your use of the Site, the 
+against GBH arising from or in connection with your use of the Site, the 
 Content and/or any other material on the Site. You also agree to defend, 
-indemnify, and hold harmless WGBH and its trustees, officers and employees from 
+indemnify, and hold harmless GBH and its trustees, officers and employees from 
 and against any and all causes of action, claims or liability, including costs 
 and attorneys fees, arising from or in connection with your use of the Site, 
 your provision of User Generated Content to or on the Site, or failure to abide 
 by applicable law or these Terms.
     
 P. Modifications: These Terms and the Content may be revised, amended, 
-or supplemented by WGBH without notice at any time for any reason. Continuing 
+or supplemented by GBH without notice at any time for any reason. Continuing 
 to use the Site after a change has been made will signify your acceptance of 
 the changes. You should refer back to this page for future updates.
     
@@ -414,7 +414,7 @@ located in Massachusetts and you waive any claim that this forum is or may be
 inconvenient or improper.
     
 S. International Users: The Site is controlled and operated within the 
-United States. WGBH makes no representation that Content, materials or products 
+United States. GBH makes no representation that Content, materials or products 
 available on or through the Site are appropriate or available for use outside 
 of the United States. If you access the Site from a location outside the United 
 States, you are responsible for compliance with applicable laws, including 

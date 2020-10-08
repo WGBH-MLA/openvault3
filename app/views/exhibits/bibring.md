@@ -44,7 +44,7 @@ chapters in books edited by others. She co-authored, with Dr. Ralph M. Kahana,
 *The Lectures in Medical Psychiatry* (1969) and edited the *The Teaching of
 Dynamic Psychiatry* (1968). Several of her publications were on general hospital
 psychiatry and an important paper was on normal aging "Old Age, Its Liabilities
-and Assets" (1966). In 1975, she participated in a WGBH documentary television
+and Assets" (1966). In 1975, she participated in a GBH documentary television
 program, *Psychoanalysis: A Personal View*, where she was interviewed by Dr.
 Oliver Cope, MD. She also gave a major address at MIT on "Freud and the
 Understanding of Human Nature." Grete L. Bibring died on August 10, 1977 in
@@ -59,7 +59,7 @@ Boston Psychoanalytic Society and Institute
 ### Interview of Grete L. Bibring, M.D.
 #### By Oliver Cope, M.D.
 #### “Psychoanalysis: A Personal View”
-#### WGBH, 1975
+#### GBH, 1975
 
 #### NARRATOR:
 Dr. Bibring is an international figure in psychoanalysis.

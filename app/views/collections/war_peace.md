@@ -13,8 +13,8 @@ power and how it shaped the diplomacy, negotiation, ethical debates, and
 doctrine of deterrence that ran through the forty-year history of the nuclear 
 age. This collection contains the full interviews and selected stock footage 
 from the series.  If you would like to view the full *War and Peace in the 
-Nuclear Age* episodes you may schedule an appointment at WGBH in Boston by 
-contacting the WGBH Media Library and Archives.
+Nuclear Age* episodes you may schedule an appointment at GBH in Boston by 
+contacting the GBH Archives.
 
 View [project staff and funding](/credits/credits-open-vault-wpna).
 

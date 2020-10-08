@@ -7,7 +7,7 @@ opportunities for study. The Privacy Policy set forth here refers solely to the
 Open Vault website.
     
 We know you don’t want the information you provide us shared 
-indiscriminately. Here we explain what information WGBH and our third-party 
+indiscriminately. Here we explain what information GBH and our third-party 
 vendors (collectively “we”) acting on our behalf to help deliver the services 
 and operate and analyze use of the Site collect, what we do with the 
 information, and what controls you have over the information collected. We’re 
@@ -18,7 +18,7 @@ personal data with full confidence.
 The privacy policy set forth here refers solely to openvault.wgbh.org. 
 Please read it carefully, and if you have any questions or concerns, please <a 
 target="_self" href="/contact-us">contact</a> us. Also, note that 
-openvault.wgbh.org links to numerous other sites, such as WGBH, PBS, and the 
+openvault.wgbh.org links to numerous other sites, such as GBH, PBS, and the 
 University of Massachusetts at Amherst. Please consult those sites to learn 
 more about their policies.
 
@@ -47,11 +47,11 @@ offered throughout the Site.  A unique email address (user name) and password
 must be supplied to register. By using the Site, you are agreeing to the 
 conditions of our Terms of Use.
     
-#### Support of Open Vault and the WGBH Media Library and Archives:<br>
+#### Support of Open Vault and the GBH Archives:<br>
 
 On certain pages within the Site we may now or in the future offer 
 visitors the opportunity to make a donation in support ofthe Open Vault website 
-and the WGBH Media Library and Archives.  If a visitor chooses to make a 
+and the GBH Archives.  If a visitor chooses to make a 
 donation, we will collect and store your telephone number, e-mail address, 
 billing address and credit card information.
     
@@ -79,7 +79,7 @@ as indicated at the time of collection.
 #### Marketing and Promotional Communications:
 
 On occasion, we may collect personal information from users in connection 
-with optional  marketing and promotional communications from WGBH, PBS, or a 
+with optional  marketing and promotional communications from GBH, PBS, or a 
 public broadcasting station. We will indicate which information is required and 
 which is optional.  Such information will be used as indicated at the time of 
 collection.
@@ -87,7 +87,7 @@ collection.
 ### B.  Non-personally Identifiable Information
     
 In addition to information that you provide to us, we (again, this is 
-WGBH and our affiliates and third party vendors) may also collect and store 
+GBH and our affiliates and third party vendors) may also collect and store 
 certain non-personally identifiable information automatically when you use the 
 Site.  This information helps us improve the experience you and other visitors 
 have with the Site.
@@ -123,11 +123,11 @@ properly if you do so.
 
 ## 2.  HOW DO WE USE INFORMATION GATHERED ON THE SITE?
     
-Neither WGBH, nor our third-party vendors acting on our behalf to help 
+Neither GBH, nor our third-party vendors acting on our behalf to help 
 deliver the services and operate the Site, will willfully disclose any 
 personally identifiable information about our online users to any 
 non-affiliated third party without first receiving the user’s permission, 
-unless required by law. WGBH’s affiliates include our local and national 
+unless required by law. GBH’s affiliates include our local and national 
 productions (for example, NOVA, and Forum Network), PBS, and other public 
 broadcasting stations or programming.
     
@@ -153,7 +153,7 @@ will use these addresses to respond to the general purposes for which we
 collected the information, to provide services and to operate the Site, 
 including to respond to inquiries; to process credit card payments, billing, 
 and shipping; to process e-mail distribution; for list processing and analysis; 
-for promotions management; to send information about WGBH’s programs, services, 
+for promotions management; to send information about GBH’s programs, services, 
 or your local public broadcasting station’s membership/fundraising; or to 
 correspond about a purchase or product offers. Our service providers have 
 access to your personally identifiable information as necessary to provide 
@@ -181,7 +181,7 @@ disclose when posting a message to these areas, such as your name, screen name
 or ID used, becomes public.  In addition, the information that you disclose in 
 these areas may be used by us for promotional and marketing purposes. We are 
 not responsible for any personally identifiable information that you choose to 
-disclose in these public areas.  Further, WGBH, its production units, public 
+disclose in these public areas.  Further, GBH, its production units, public 
 broadcasting station affiliates and their licensees, may use, copy, sublicense, 
 modify, transmit, publicly perform, display, create derivative works of, host, 
 index, cache, tag, encode, and/or adapt any User Materials, and any information 
@@ -195,7 +195,7 @@ This includes order confirmations, renewal/expiration notices, notices of
 credit-card problems, other transactional e-mails and notifications about major 
 changes to our Site and/or to our Privacy Policy.
     
-WGBH, with the assistance from time to time of its third party service 
+GBH, with the assistance from time to time of its third party service 
 vendors, uses non-identifying aggregate information to analyze use of and 
 better design the Site and to share with third parties in aggregate form only 
 as appropriate. For example, we may tell a third party that a certain number of 
@@ -204,7 +204,7 @@ any information that could be used to identify those users.
     
 ## 3.  SECURITY OF INFORMATION
     
-WGBH has in place what we believe to be appropriate physical, 
+GBH has in place what we believe to be appropriate physical, 
 electronic, and managerial procedures to safeguard and secure the information 
 we collect online. Credit card information provided on the Site is protected 
 against unauthorized use by Secure Sockets Layer (SSL) security features.  The 
@@ -224,11 +224,11 @@ age of 13.
 ## 5.  CORRECTIONS TO PERSONAL DATA; OPTING OUT
     
 Please <a target="_self" href="/contact-us">Contact Us</a> to a) correct 
-or update any personal information in the WGBH database that you state is 
-erroneous, b) opt-out of future communications from WGBH, or c) request WGBH to 
-make reasonable efforts to remove your personal information from the WGBH 
+or update any personal information in the GBH database that you state is 
+erroneous, b) opt-out of future communications from GBH, or c) request GBH to 
+make reasonable efforts to remove your personal information from the GBH 
 online database, thereby canceling your profile, newsletter registration and 
-other WGBH registrations. This will not necessarily remove previous public 
+other GBH registrations. This will not necessarily remove previous public 
 comments and other User Materials submitted for public display on the Site. You 
 should understand that it may be impossible to delete personal information 
 entirely because of backups and records of deletions.
@@ -240,7 +240,7 @@ conditions of this Privacy Policy for openvault.wgbh.org. If you do not agree
 to these terms and conditions, please do not use this Site. We reserve the 
 right, at our sole discretion, to change, modify, add, or remove portions of 
 this policy at any time. Please check this page periodically for any changes. 
-Your continued use of WGBH.org following the posting of any changes to these 
+Your continued use of GBH.org following the posting of any changes to these 
 terms shall mean that you have accepted those changes. If you have any 
 questions or concerns, please <a target="_self" href="/contact-us">contact</a> 
 us.

@@ -6,14 +6,14 @@
 
 ## intro
 
-The steel shelves of the WGBH vault hold six decades of radio and television programs, 
+The steel shelves of the GBH vault hold six decades of radio and television programs, 
 an exuberant collection of finished shows and outtakes, successes and missteps, all 
 stored at a constant, cool 62 degrees. “From the Vault,” launched in 2011, is an ongoing 
-collaboration with WGBH Radio (89.7), and WGBH.org, bringing treasures from the archive 
+collaboration with GBH Radio (89.7), and GBH.org, bringing treasures from the archive 
 to new audiences, when rights permit.
 
 While most of the Open Vault collections are designed for scholarly research, “From the Vault” 
-is meant for a wider viewership. Selections to date give a sense of the range of the WGBH 
+is meant for a wider viewership. Selections to date give a sense of the range of the GBH 
 collection, from a rare, unedited 1990 interview with Steve Jobs, to interviews with Martin 
 Luther King, Malcolm X and James Baldwin for a 1963 program called “The Negro and the American 
 Promise,” a 1967 film featuring Dr. Timothy Leary making the case for LSD, and clips from 
@@ -29,12 +29,12 @@ and back out into the world.
 
 ## Related Links
 
-[WGBH Alumni](http://wgbhalumni.org)
+[GBH Alumni](http://wgbhalumni.org)
 
-[WGBH News Radio](http://www.wgbh.org/news/wgbhnews.cfm)
+[GBH News Radio](http://www.wgbh.org/news/wgbhnews.cfm)
 
-[WGBH Timeline](http://www.wgbh.org/about/history.cfm)
+[GBH Timeline](http://www.wgbh.org/about/history.cfm)
 
-[WGBH Stock Sales](http://www.wgbhstocksales.org/)
+[GBH Stock Sales](http://www.wgbhstocksales.org/)
     
 

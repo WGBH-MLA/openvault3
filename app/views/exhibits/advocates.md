@@ -21,7 +21,7 @@ Viewers in the studio audience or at home in their living rooms were invited to
 weigh in by mail, and during the first season, a remote audience on location
 somewhere else in the country offered their opinions as well. He saw this as
 part of an effort to help citizens make “public affairs your affairs.” *The
-Advocates* was produced initially through a joint effort by WGBH in Boston and
+Advocates* was produced initially through a joint effort by GBH in Boston and
 KCET in Los Angeles, two flagship stations in the public broadcasting network.
 *The Advocates* addressed issues ranging from civil disobedience to same-sex
 marriage. In some cases, the shows are more than four decades old, but many of
@@ -52,17 +52,17 @@ lessons the show has for us even after over forty years, you can read my more
 extensive introduction to the show, *The Advocates: a retrospective on an
 important—and still relevant—innovation in public affairs television*, written
 for the WGBH Educational Foundation, and maintained on its Open Vault website.
-On this WGBH Open Vault website, you can see many episodes of *The Advocates* in
+On this GBH Open Vault website, you can see many episodes of *The Advocates* in
 their entirety, including a newly added episode in which Roger appeared as an
 advocate opposite William Kunstler on the subject of civil disobedience to the
 Vietnam War. This episode was shown by the *Program on Negotiation* at Harvard
 Law School at a special presentation on February 28, 2013, in preparation for a
 special Harvard Negotiation Law Review Symposium on Roger’s legacy held at
-Harvard Law School on March 1, 2013. The article for WGBH grew out of my
+Harvard Law School on March 1, 2013. The article for GBH grew out of my
 introduction to that February 28th presentation. The article also includes
 references to clips from that and several other episodes, and also contains a
 list of some of *The Advocates* shows that were produced, besides those which
-have been made available on the WGBH Open Vault. While Professor Fisher is no longer with us, we can
+have been made available on the GBH Open Vault. While Professor Fisher is no longer with us, we can
 continue to learn from his example.
 
 ## author
@@ -97,22 +97,22 @@ R. Lisle Baker
 
 In 1969, a year after graduating from Harvard Law School, I was asked to appear on a new public television show to argue one side of an important public question. I undertook this responsibility for thirteen episodes during its first season, returning to the show one more time in 1979. The show, which earned both the Peabody Award and four Emmys, was called *The Advocates*. It grew out of the belief by Harvard Law School Professor Roger Fisher that television could help illuminate important issues in public affairs by using the adversary format of a trial, and its capacity for individual advocacy – including witness examination and cross- examination – in the court of public opinion of viewers at home.
 
-I have been invited by the Mellon Project at WGBH, and also the Harvard Negotiation Law Review, to provide some background on the show. In that work, I have drawn on my own memories, as well as from some of the documentary history which is available from Roger Fisher’s personal files in the Historical and Special Collections at the Harvard Law School Library, and materials provided by WGBH.
+I have been invited by the Mellon Project at GBH, and also the Harvard Negotiation Law Review, to provide some background on the show. In that work, I have drawn on my own memories, as well as from some of the documentary history which is available from Roger Fisher’s personal files in the Historical and Special Collections at the Harvard Law School Library, and materials provided by GBH.
 
-Thanks to technical assistance from WGBH and Allison Pekel, Coordinator for the Mellon Project, I have also been able to excerpt some short clips from several *Advocates* episodes from 1970, 1971, and 1979. These clips help illustrate some aspects of my own experience, as well as Roger Fisher’s skill at advocacy and explanation, and some of the changes in the show that took place over the ten years it was broadcast throughout the country.
+Thanks to technical assistance from GBH and Allison Pekel, Coordinator for the Mellon Project, I have also been able to excerpt some short clips from several *Advocates* episodes from 1970, 1971, and 1979. These clips help illustrate some aspects of my own experience, as well as Roger Fisher’s skill at advocacy and explanation, and some of the changes in the show that took place over the ten years it was broadcast throughout the country.
 
 The episodes on the Open Vault date primarily from the later years of the program, but a few were recorded during the first season when I was with the show. The Open Vault episodes have an unusual feature in that a viewer can read the transcript and click on a link which, after some time for loading, will take the viewer to that portion of the video from that show.
 
 In the article itself, as noted above, you will find excerpts from episodes of the show, which are available on the Open Vault, and these clips will help illustrate points that are made in the article. In the box below are instructions on how to view the clips and return to the article.
 
-When *The Advocates* was finishing its fourth, and what then appeared to be its final season, because of funding problems for public television that were unrelated to the show itself, WGBH published a retrospective about the show entitled *THE CASE FOR THE ADVOCATES* (1973), provided to me by WGBH. Finally, in a separate file are listed these and other resources about Professor Fisher and the author.
+When *The Advocates* was finishing its fourth, and what then appeared to be its final season, because of funding problems for public television that were unrelated to the show itself, GBH published a retrospective about the show entitled *THE CASE FOR THE ADVOCATES* (1973), provided to me by GBH. Finally, in a separate file are listed these and other resources about Professor Fisher and the author.
 
 I hope that new viewers of these episodes might find that while *The Advocates* is no longer telecast, many of the shows will still provide food for thought, just as they did for viewers over forty years ago. While some of the issues debated on *The Advocates* are now decided, others are still very much with us today.
 
 But first, before more of the story, here is how the Vanderbilt Library, which has a collection of hard copy materials about *The Advocates*, describes the show:
 
 >
-“*The Advocates* was a public television network presentation of KCET, Los Angeles and WGBH, Boston made possible by grants from the Corporation for Public Broadcasting and the Ford Foundation. The purpose of the series was to stimulate public participation, and understanding, by focusing on realistic choices that must be made in the future, by having both sides of the question presented, and by demonstrating the interest which public officials have in both reasoned arguments and the views of their constituents. Having a one hour time slot, the program topics varied depending on current news and concerns of the public. The program ran from October 5, 1969 through May 23, 1974; then again bi-weekly from January 26, 1978, through September 9, 1979.”
+“*The Advocates* was a public television network presentation of KCET, Los Angeles and GBH, Boston made possible by grants from the Corporation for Public Broadcasting and the Ford Foundation. The purpose of the series was to stimulate public participation, and understanding, by focusing on realistic choices that must be made in the future, by having both sides of the question presented, and by demonstrating the interest which public officials have in both reasoned arguments and the views of their constituents. Having a one hour time slot, the program topics varied depending on current news and concerns of the public. The program ran from October 5, 1969 through May 23, 1974; then again bi-weekly from January 26, 1978, through September 9, 1979.”
 
 What follows is an attempt to fill in more of the background and details of the show.
 
@@ -129,15 +129,15 @@ More specifically, Roger was quoted as saying that:
 >
 “The general effect of TV discussion shows is boring, and even worse, depressing – for the format convinces people that they can have no influence on current affairs. Viewers hear all about something when it is too late to do anything about it. I suggested that instead of looking back, we look forward – at something specific that offers an operational choice for an elected official." [<sup>1</sup>](#footnote-1)
 
-Roger’s solution was to translate a trial format to television in order to provide that choice, framed around what he liked to call a “decidable question.” *The Advocates*, however, had a prequel in the spring of 1969, when Boston’s public television station, WGBH, aired six programs with arguments presented for both sides of local issues, entitled *It’s Up to You...* with the name of the specific decision-maker involved in each episode inserted into the title, usually a government official. For example, one show involved advocates and witnesses making a case before a key legislator who was deciding about the creation of a Housing Court for the City of Boston, while another involved a debate before a Massachusetts congressman who was considering a bill to provide elderly citizens with a minimum income. [<sup>2</sup>](#footnote-2)
+Roger’s solution was to translate a trial format to television in order to provide that choice, framed around what he liked to call a “decidable question.” *The Advocates*, however, had a prequel in the spring of 1969, when Boston’s public television station, GBH, aired six programs with arguments presented for both sides of local issues, entitled *It’s Up to You...* with the name of the specific decision-maker involved in each episode inserted into the title, usually a government official. For example, one show involved advocates and witnesses making a case before a key legislator who was deciding about the creation of a Housing Court for the City of Boston, while another involved a debate before a Massachusetts congressman who was considering a bill to provide elderly citizens with a minimum income. [<sup>2</sup>](#footnote-2)
 
-It is unclear how *It’s Up to You...* came to be, but it had the earmarks of Roger’s thinking. This was evident as WGBH built on that foundation to air a five-hour program involving various members of the Harvard University community which was moderated by Roger. Notably, this conversation appeared to have brought about a change in Harvard policies and an end to a Vietnam-era student strike at the University. [<sup>3</sup>](#footnote-3)
+It is unclear how *It’s Up to You...* came to be, but it had the earmarks of Roger’s thinking. This was evident as GBH built on that foundation to air a five-hour program involving various members of the Harvard University community which was moderated by Roger. Notably, this conversation appeared to have brought about a change in Harvard policies and an end to a Vietnam-era student strike at the University. [<sup>3</sup>](#footnote-3)
 
-*It’s Up to You...* apparently sparked the idea for a more ambitious program, ultimately named *The Advocates*. Who was the individual responsible for the idea of proposing a grant request to the Ford Foundation and the Corporation for Public Broadcasting for *The Advocates*? It is not clear from Roger’s papers, but Roger noted that the Ford Foundation was looking for a replacement for the *Public Broadcasting Laboratory*, and when the grant was made, he wrote that he had not been involved but was drafted for the show.[<sup>4</sup>](#footnote-4) At the time, the Ford Foundation made a grant of $3.35 million to WGBH and its Los Angeles counterpart, KCET, to provide funding for the new show, [<sup>5</sup>](#footnote-5) which first aired on October 5, 1969 on National Educational Television’s (the ancestor of the Public Broadcasting System, or PBS) 180 affiliated stations. [<sup>6</sup>](#footnote-6)
+*It’s Up to You...* apparently sparked the idea for a more ambitious program, ultimately named *The Advocates*. Who was the individual responsible for the idea of proposing a grant request to the Ford Foundation and the Corporation for Public Broadcasting for *The Advocates*? It is not clear from Roger’s papers, but Roger noted that the Ford Foundation was looking for a replacement for the *Public Broadcasting Laboratory*, and when the grant was made, he wrote that he had not been involved but was drafted for the show.[<sup>4</sup>](#footnote-4) At the time, the Ford Foundation made a grant of $3.35 million to GBH and its Los Angeles counterpart, KCET, to provide funding for the new show, [<sup>5</sup>](#footnote-5) which first aired on October 5, 1969 on National Educational Television’s (the ancestor of the Public Broadcasting System, or PBS) 180 affiliated stations. [<sup>6</sup>](#footnote-6)
 
 The project was daunting: to produce an hour-long live show at ten o’clock on Sunday night EST, every week for a full season of television, including choosing a topic, and putting it into the particular trial type format of *The Advocates*. A particular challenge was that television required content that would take precisely sixty minutes to air, and at this time, before videotaping made it possible to edit a show to fit the broadcast time slot, one had to shape the show on-air in order to fill the allotted time and no more.
 
-In a memorandum to those involved in leading WGBH and KCET, Roger described the objective of *The Advocates*:
+In a memorandum to those involved in leading GBH and KCET, Roger described the objective of *The Advocates*:
 
 >
 “The original purpose of the series was to deal with public affairs in a way which would not only inform but would also make it somewhat more likely that each viewer would be willing and able to apply his talents to the solution of public problems – that he would consider public affairs as his affair. The objective was to use public television in a way which would tend to increase involvement and participation, and in particular, to instill a way of looking at problems from the point of view of what can be done and what we can do about it." [<sup>7</sup>](#footnote-7)
@@ -199,7 +199,7 @@ Below is a clip of Roger describing that set of ideas while acting as a moderato
 
 For the show to be truly effective, though, the issue at hand would not just be one for the citizen but, ideally, be presented to a real person “who can make a difference.” Roger believed that a bigger impact would be made if the show could identify one particular individual from among those in power who was most able to do something about the “important trouble.” He believed the show shouldn’t “spend time explaining how big the problem is or how difficult it is to solve ... Instead, identify who is in a good position to do something about it and set out a specific, detached proposal of what he ought to do next."[<sup>18</sup>](#footnote-18)
 
-For example, one of the early shows available on the WGBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts.
+For example, one of the early shows available on the GBH website, in which I was involved, invited Boston Mayor Kevin White to hear the arguments on whether or not, as Mayor, he should support a methadone maintenance program for heroin addicts.
 
 In the clip below, you will see the advocates and moderator introduced.
 **See 00:00:16 - 00:00:42**
@@ -229,7 +229,7 @@ For example, I remember that during the show on expelling student disrupters, I 
 
 <iframe src="/embed/V_790A41E1B0F946B49AFD99D7368B775B"></iframe>
 
-(This show is also available on the WGBH Open Vault.) Here is a clip showing that neither witness was testifying to support the whole proposition which I was charged to advocate. (You may return to the article when the time-bar at the bottom of the video reaches 1.53.)
+(This show is also available on the GBH Open Vault.) Here is a clip showing that neither witness was testifying to support the whole proposition which I was charged to advocate. (You may return to the article when the time-bar at the bottom of the video reaches 1.53.)
 
 This format, at least in the first year of the show, involved each production team knowing something about their opponents’ cases in advance. As a result, we knew most of what the other advocate team was going to argue, at least in general, and could make the cases complement each other. One exception I recall was a show we did on our Cuba policy, where I was assigned to present the case for keeping Cuba isolated. After listening to the argument on the other side, Roger, who was the moderator, turned to me and said:
 
@@ -289,7 +289,7 @@ My own view, however, is that despite these aids, the interaction between advoca
 
 <iframe src="/embed/V_58D7FC37405E4268BB7E68C925628EF9"></iframe>
 
-As effective as it was, this closing argument does not include everything that Roger said. Executive Producer Greg Harney (Roger then having left the show as Executive Editor to return as an advocate) made a decision to excise a particular clip of Roger’s closing argument about the Vietnam War, on the grounds of concerns about appearing to advocate for contacting a specific organization, in an apparent contravention of federal tax laws barring political advocacy by nonprofit organizations, such as WGBH and its Ford Foundation sponsor.[<sup>26</sup>](#footnote-26) Roger was understandably upset, saying:
+As effective as it was, this closing argument does not include everything that Roger said. Executive Producer Greg Harney (Roger then having left the show as Executive Editor to return as an advocate) made a decision to excise a particular clip of Roger’s closing argument about the Vietnam War, on the grounds of concerns about appearing to advocate for contacting a specific organization, in an apparent contravention of federal tax laws barring political advocacy by nonprofit organizations, such as GBH and its Ford Foundation sponsor.[<sup>26</sup>](#footnote-26) Roger was understandably upset, saying:
 
 >
 “How can we show a program on the right and wrong things to do about a war protest without telling what the right things are? My whole position has been shot out from under me." [<sup>27</sup>](#footnote-27) Executive Producer Harney, however, responded that: “Mr. Fisher was retained to be an advocate on the program and to present the case for his side. He was not retained to take final responsibility for the program."[<sup>28</sup>](#footnote-28)
@@ -375,7 +375,7 @@ At the time of the award, Roger Fisher said in a press release:
 >
 “Let us hope this will encourage more programs to recognize that television’s highest challenge is not to divert people from reality, or even to tell them about it, but to help them cope with it....The true measure of success for an hour’s broadcast is not its internal elegance, its technical excellence, or the size of its audience, but the degree to which it leaves each citizen better equipped to achieve his full potential."[<sup>42</sup>](#footnote-42) 
 
-Russell Morash, WGBH producer for *The Advocates*, said:
+Russell Morash, GBH producer for *The Advocates*, said:
 
 >
 “I’ve never been connected with a show in which mail has been such a factor. This series has received more than 70,000 letters. We’ve been given the responsibility to air two sides of the question and we’ve learned that viewers value this objectivity above all else."[<sup>43</sup>](#footnote-43)
@@ -451,7 +451,7 @@ Ideally, the issues would have been presented as Roger desired, but that soon yi
 
 *The Advocates* therefore illustrates the challenges of explaining public affairs while allowing for alternative points of view to have legitimacy. I believe that was Roger’s objective early on in the show, by assigning us roles more like barristers, before the show evolved to a point where the advocates began bringing a personal perspective to their arguments.
 
-When the show went off the air after its revival in 1979, David Kuhn of WGBH wrote a letter looking back on the show. In it he said:
+When the show went off the air after its revival in 1979, David Kuhn of GBH wrote a letter looking back on the show. In it he said:
 
 >
 “No other form has emerged on television which allows expert witnesses to give their testimony and then subject them to the rigor of tough cross-examination. No other program has *The Advocates*’ commitment to equal time and equal attention to both sides of a debate. No other program has so high an investment in thorough preparation and research for each broadcast. We have now ended production, and have no firm commitments for future funding....*The Advocates* should be part of the great debates which confront the nation. What we do on television can make a difference. I think the tone of our work can influence public policy in this country, and can raise the level of public discussion." [<sup>59</sup>](#footnote-59)
@@ -464,7 +464,7 @@ Roger always said that armed with the correct information and perspective, one p
 
 <a name="footnote-1"></a><sup>1</sup>Peggy Hudson, *So You Want to Be a TV Decision-Maker?* SENIOR SCHOLASTIC MAGAZINE, Jan. 5, 1970 (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 14). 
 
-<a name="footnote-2"></a><sup>2</sup>Letter from Michael Rice, Director of Television Programming, WGBH TV, to Archibald L. Gillies (May 2, 1969) (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 4). My memory is that there was also another show on British television which was shown at WGBH as a source of ideas.
+<a name="footnote-2"></a><sup>2</sup>Letter from Michael Rice, Director of Television Programming, GBH TV, to Archibald L. Gillies (May 2, 1969) (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 4). My memory is that there was also another show on British television which was shown at GBH as a source of ideas.
 
 <a name="footnote-3"></a><sup>3</sup>Id.
 
@@ -524,9 +524,9 @@ Roger always said that armed with the correct information and perspective, one p
 
 <a name="footnote-30"></a><sup>30</sup> “Professor returns to class but his TV show lives on,” Boston Globe (10/2/1970). (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 2). Over later years, almost a million viewers responded to requests for viewer opinion. First Season (1969-70) Second Season (1970-1971) Third Season (1971-1972) Fourth Season (1972-1973) 177,881 228,455 200,125 311,977 918,438
 
-WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
+GBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
-<a name="footnote-31"></a><sup31</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 7.
+<a name="footnote-31"></a><sup31</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 7.
 
 <a name="footnote-32"></a><sup>32</sup>Id.at 10, 11.
 
@@ -542,7 +542,7 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-38"></a><sup>38</sup>Alex Toogood, University of Texas, *Program Reviews: The Advocates*, EDUCATIONAL BROADCASTING REVIEW, Feb. 1970 (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 4). *See also* LAURIE OUELLETTE, VIEWERS LIKE YOU? HOW PUBLIC TV FAILED THE PEOPLE (2002) (“The Advocates and the discursive formation around it divorced politics from the everyday lives and emotions of ordinary people, casting democracy as an affair managed by professionals.” *Id.* at 129).
 
-<a name="footnote-39"></a><sup>39</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 25.
+<a name="footnote-39"></a><sup>39</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 25.
 
 <a name="footnote-40"></a><sup>40</sup>Id.at 27. 
 
@@ -552,7 +552,7 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-43"></a><sup>43</sup>Id.
 
-<a name="footnote-44"></a><sup>44</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 44.
+<a name="footnote-44"></a><sup>44</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 44.
 
 <a name="footnote-45"></a><sup>45</sup>Id. at 58. 
 
@@ -568,13 +568,13 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-51"></a><sup>51</sup>Emmy Awards press release (undated) (The Roger Fisher Papers, Harvard Law School Library, Box 142, Folder 6). 
 
-<a name="footnote-52"></a><sup>52</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 26.
+<a name="footnote-52"></a><sup>52</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 26.
 
-<a name="footnote-53"></a><sup>53</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 36-43.
+<a name="footnote-53"></a><sup>53</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 36-43.
 
 <a name="footnote-54"></a><sup>54</sup>Hoagy Carmichael was multitalented, helping produce many shows thereafter, and at one time even made bamboo fly fishing rods by hand. An index of his good humor was that he was even willing to try to teach me how to cast with one.
 
-<a name="footnote-55"></a><sup>55</sup>WGBH, THE CASE FOR THE ADVOCATES (1973) at 21.
+<a name="footnote-55"></a><sup>55</sup>GBH, THE CASE FOR THE ADVOCATES (1973) at 21.
 
 <a name="footnote-56"></a><sup>56</sup>Letter from Glenn Litton to Roger Fisher (Aug. 7, 1978) (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 7).
 
@@ -582,7 +582,7 @@ WGBH, THE CASE FOR THE ADVOCATES (1973) at 30.
 
 <a name="footnote-58"></a><sup>58</sup>Memorandum from Roger Fisher, Exec. Editor, *The Advocates*, to James Loper and Hartford Gunn (Jan. 18, 1970) (The Roger Fisher Papers, Harvard Law School Library, Box 141, Folder 36).
 
-<a name="footnote-59"></a><sup>59</sup>Letter from J. David Kuhn, WGBH, to Irving Harris, The Aspen Institute (Jul. 9, 1979) (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 7).
+<a name="footnote-59"></a><sup>59</sup>Letter from J. David Kuhn, GBH, to Irving Harris, The Aspen Institute (Jul. 9, 1979) (The Roger Fisher Papers, Harvard Law School Library, Box 140, Folder 7).
 
 <a name="footnote-60"></a><sup>60</sup>ROGER FISHER, WILLIAM L. URY, & BRUCE PATTON, GETTING TO YES: NEGOTIATING AGREEMENT WITHOUT GIVING IN (1981). 
 
