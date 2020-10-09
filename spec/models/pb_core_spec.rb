@@ -163,12 +163,16 @@ describe 'Validated and plain PBCore' do
         playlist_prev_id: nil,
         extensions: %w(mp3),
         outside_url: 'https://americanarchive.org/',
-        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml' }
+        transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml',
+        broadcast_date: "07/14/1974",
+        miniseries_title: "Flickers",
+        miniseries_description: "Broadcast: May 23- June 27, 1982 Set in 1914 as the silent screen gained momentum, series follows the trails and tribulations of a brash movie pioneer who began as a traveling film showman and ends by creating his own studio and producing pictures." }
+        season_number: "11" }
       assertions[:to_solr] = assertions.slice(
         :id, :title, :short_title, :thumbnail_src, :year, :series_title, :program_title,
         :subjects, :locations, :access, :genres, :topics, :asset_type, :media_type,
         :scholar_exhibits, :special_collections, :special_collection_tags,
-        :playlist_group, :playlist_order)
+        :playlist_group, :playlist_order, :broadcast_date_raw, :is_clip?)
                              .merge(xml: pbc_xml,
                                     text: ['1999',
                                            '12/31/1999',
