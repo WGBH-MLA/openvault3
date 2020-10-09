@@ -164,7 +164,7 @@ describe 'Validated and plain PBCore' do
         extensions: %w(mp3),
         outside_url: 'https://americanarchive.org/',
         transcript_src: 'https://s3.amazonaws.com/openvault.wgbh.org/catalog/asset_transcripts/A_00000000_MOCK.xml',
-        broadcast_date: "07/14/1974",
+        broadcast_date: DateTime.strptime( "07/14/1974", '%m/%d/%Y' ),
         miniseries_title: "Flickers",
         miniseries_description: "Broadcast: May 23- June 27, 1982 Set in 1914 as the silent screen gained momentum, series follows the trails and tribulations of a brash movie pioneer who began as a traveling film showman and ends by creating his own studio and producing pictures.",
         season_number: "11" }
