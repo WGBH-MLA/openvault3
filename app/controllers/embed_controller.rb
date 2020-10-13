@@ -13,8 +13,8 @@ class EmbedController < CatalogController
       .get('select', params: {
             'q' => "id:#{params[:id]}",
             'fl' => 'id,xml',
-            'rows' => 1,
+            'rows' => 1
           })['response']['docs'].first['xml']
-      @pbcore = PBCore.new(xml)
+    @pbcore = PBCore.new(xml)
   end
 end

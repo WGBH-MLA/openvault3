@@ -5,7 +5,7 @@
     <h1>
       <%= @item.title %>
     </h1>
-    <% if @item.treasury_url && (@item.is_episodes? || @item.is_clips?) %>
+    <% if @item.treasury_url && (@item.episodes? || @item.clips?) %>
       <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
     <% end %>
   </div>
