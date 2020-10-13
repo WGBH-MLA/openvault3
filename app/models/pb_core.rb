@@ -346,6 +346,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
         :is_clip?, :broadcast_date
       ]
       (PBCore.instance_methods(false) - ignores)
+      .sort
       .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls
       .map { |method| send(method) } # method -> value
       .select { |x| x } # skip nils
