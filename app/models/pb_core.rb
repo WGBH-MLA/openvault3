@@ -14,24 +14,18 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def id
     @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
   end
-
-  # new SHIT
   def is_clip?
     asset_type == 'Open - Close'
   end
-
   def miniseries_title
     @miniseries_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Miniseries"]')
   end
-
   def miniseries_description
     @miniseries_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Miniseries Description"]')
   end
-
   def season_number
     @season_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Season"]')
   end
-
   def broadcast_date
     @broadcast_date_obj ||= begin
      dateval = broadcast_date_raw
@@ -39,16 +33,9 @@ class PBCore # rubocop:disable Metrics/ClassLength
      dateval && dateval.length > 0 ? DateTime.strptime( dateval, '%m/%d/%Y' ) : DateTime.now
     end 
   end
-
   def broadcast_date_raw
     @broadcast_date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Broadcast"]')
   end
-
-
-
-
-
-
   def series_title
     @series_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Series"]')
   end
