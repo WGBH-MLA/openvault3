@@ -343,7 +343,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
         :scholar_exhibits, :special_collections, :special_collection_tags,
         :playlist_group, :playlist_order, :playlist_map,
         :playlist_next_id, :playlist_prev_is,
-        :broadcast_date_raw, :is_clip?
+        :is_clip?, :broadcast_date
       ]
       (PBCore.instance_methods(false) - ignores)
       .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls
