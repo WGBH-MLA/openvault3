@@ -22,11 +22,9 @@ class Treasury
         list_season = { seasonNumber: season["seasonNumber"], miniseries: [] }
         
         season["cardData"].each do |miniseries|
-           list_miniseries = { miniseriesTitle: miniseries["title"], miniseriesUrl: miniseries["recordLink"], miniseriesEpisodes: [] }
+          list_miniseries = { miniseriesTitle: miniseries["title"], miniseriesUrl: miniseries["recordLink"], miniseriesEpisodes: [] }
 
           Treasury.new(Treasury.normalize_mini_title( miniseries["title"]), EPISODES).seasons.each do |episode|
-
-
             episode_records, clip_records = episode["cardData"].partition { |epicard| epicard["clipCard"] != true }
 
             # there should only be one full record per episode, but there couuuuld be more, add all clips for each one
@@ -74,11 +72,11 @@ class Treasury
 
       raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
   
-      @data = YAML.load( File.read(filepath) )
+      @data = YAML.load(File.read(filepath))
       @data["type"] = 'seasons'
 
       # UNIQ BASED ON raw XML, to Save MANY SECONDS
-      season_data = Treasury.xml_docs.uniq { |xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }.group_by { |pb| pb.season_number }
+      season_data = Treasury.xml_docs.uniq { |xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }.group_by(&:season_number)
 
       # combine yml data with docs
       @data["seasons"] = @data["seasons"].map do |season|
@@ -90,7 +88,7 @@ class Treasury
           card_data = season_data[snumber].map { |pb| card_from_mini(pb.miniseries_title, pb.miniseries_description, pb.broadcast_date) }
         end
 
-        season_from_cards( snumber, season["description"], card_data, 'seasons' )
+        season_from_cards(snumber, season["description"], card_data, 'seasons')
       end
 
     elsif type == CLIPS
@@ -102,8 +100,7 @@ class Treasury
       @data["description"] = "While the Archives digitized and preserved Masterpiece Theatre, due to copyright we are unable to publicly post on-line full videos of the programs. However, as the introductions and closings of the episodes were filmed at GBH, we hope you enjoy these clips of Alistair Cooke as he brought viewers into the episodes and closed them out."
       @data["posterImage"] = nil
 
-
-      season_data = Treasury.xml_docs.select {|x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by {|pb| pb.season_number }
+      season_data = Treasury.xml_docs.select { |x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by(&:season_number)
       @data["seasons"] = @data["seasons"].map do |season|
         snumber = season["seasonNumber"].to_s
 
@@ -113,14 +110,14 @@ class Treasury
           card_data = season_data[snumber].map {|pb| card_from_pbcore(pb) }
         end
 
-        season_from_cards( snumber, season["description"], card_data, 'clips' )
+        season_from_cards(snumber, season["description"], card_data, 'clips')
       end
     else
 
       # normalized, from url 
       miniseries_title = title
       # get every pbcore record that shares this miniseries_title
-      minipbs = Treasury.xml_docs.select {|xml| miniseries_title == Treasury.normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map {|xml| PBCore.new(xml) }
+      minipbs = Treasury.xml_docs.select { |xml| miniseries_title == Treasury.normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map { |xml| PBCore.new(xml) }
 
       # program number AKA episode number
       miniseries_data = minipbs.group_by {|pb| pb.program_number }

@@ -30,7 +30,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
     @broadcast_date_obj ||= begin
       dateval = broadcast_date_raw
       # temp this because the data is incomplete.
-      dateval && dateval.length > 0 ? DateTime.strptime( dateval, '%m/%d/%Y' ) : DateTime.now
+      dateval && dateval.length > 0 ? DateTime.strptime(dateval, '%m/%d/%Y') : DateTime.now
     end
   end
   def broadcast_date_raw
