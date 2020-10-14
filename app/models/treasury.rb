@@ -53,7 +53,6 @@ class Treasury
     matchdata ? matchdata[1] : nil
   end
 
-
   def self.is_clip_from_xml(xml)
     xml.match(/<pbcoreAssetType>Open - Close<\/pbcoreAssetType>/)
   end
@@ -61,7 +60,7 @@ class Treasury
   def self.normalize_mini_title(title)
     title.downcase.gsub(' ', '-').gsub(/\W/, '')
   end
-  
+
   def initialize(title, type)
 
     # get a bucket of image urls to draw from
@@ -70,7 +69,7 @@ class Treasury
     if type == SEASONS
       filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
 
-      raise "Bad Treasury Name! No File!" unless File.exist?(filepath)
+      fail "Bad Treasury Name! No File!" unless File.exist?(filepath)
   
       @data = YAML.load(File.read(filepath))
       @data["type"] = 'seasons'
@@ -100,27 +99,27 @@ class Treasury
       @data["description"] = "While the Archives digitized and preserved Masterpiece Theatre, due to copyright we are unable to publicly post on-line full videos of the programs. However, as the introductions and closings of the episodes were filmed at GBH, we hope you enjoy these clips of Alistair Cooke as he brought viewers into the episodes and closed them out."
       @data["posterImage"] = nil
 
-      season_data = Treasury.xml_docs.select { |x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new( xml ) }.group_by(&:season_number)
+      season_data = Treasury.xml_docs.select { |x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new(xml) }.group_by(&:season_number)
       @data["seasons"] = @data["seasons"].map do |season|
         snumber = season["seasonNumber"].to_s
 
         card_data = []
         # one season's card data
         if season_data[snumber]
-          card_data = season_data[snumber].map {|pb| card_from_pbcore(pb) }
+          card_data = season_data[snumber].map { |pb| card_from_pbcore(pb) }
         end
 
         season_from_cards(snumber, season["description"], card_data, 'clips')
       end
     else
 
-      # normalized, from url 
+      # normalized, from url
       miniseries_title = title
       # get every pbcore record that shares this miniseries_title
-      minipbs = Treasury.xml_docs.select { |xml| miniseries_title == Treasury.normalize_mini_title( Treasury.miniseries_title_from_xml(xml) ) }.map { |xml| PBCore.new(xml) }
+      minipbs = Treasury.xml_docs.select { |xml| miniseries_title == Treasury.normalize_mini_title(Treasury.miniseries_title_from_xml(xml)) }.map { |xml| PBCore.new(xml) }
 
       # program number AKA episode number
-      miniseries_data = minipbs.group_by {|pb| pb.program_number }
+      miniseries_data = minipbs.group_by(&:program_number)
 
       @data = {}
       @data["type"] = 'episodes'
@@ -129,7 +128,7 @@ class Treasury
       @data["title"] = nice_miniseries_title
 
       tseries = Treasury.treasury_series
-      home_treasury = tseries.keys.find {|treasury_title| tseries[ treasury_title ][:miniseries_titles].include?( @data["title"] ) }
+      home_treasury = tseries.keys.find { |treasury_title| tseries[treasury_title][:miniseries_titles].include?(@data["title"]) }
 
       if home_treasury
         @data["treasury_url"] = "/treasuries/#{home_treasury}"
@@ -142,7 +141,7 @@ class Treasury
       @data["seasons"] = []
 
       miniseries_data.each do |episode_number, episode_pbs|
-        card_data = episode_pbs.map {|pb| card_from_pbcore(pb) }
+        card_data = episode_pbs.map { |pb| card_from_pbcore(pb) }
         # for miniseries page, a 'season' is ONE EPISODE
         @data["seasons"] << season_from_cards(episode_number, nil, card_data, 'episodes')
       end
@@ -268,7 +267,7 @@ class Treasury
   end
 
   # this is for slices, whther seasons or minis
-  def season_from_cards(season_number, season_description, card_data, type, season_image=nil)
+  def season_from_cards(season_number, season_description, card_data, type, season_image = nil)
     {
       "seasonImage" => season_image || random_cooke_image,
       "description" => season_description,
@@ -284,7 +283,7 @@ class Treasury
       "type" => "miniseries",
       "title" => title,
       "description" => desc,
-      "recordLink" => "/miniseries/#{ Treasury.normalize_mini_title(title) }",
+      "recordLink" => "/miniseries/#{Treasury.normalize_mini_title(title)}",
       "sortDate" => date,
       "date" => date.strftime('%m/%d/%Y'),
       "guid" => SecureRandom.uuid,
