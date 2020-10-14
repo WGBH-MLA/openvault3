@@ -518,7 +518,7 @@ class Treasury
           "Memento Mori",
           "Two Monologues: In My Defense; A Chip in the Sugar",
           "Secret Agent, The"
-        ]
+        ],
         # for backlinks
         treasury_nice_title: 'Alistair Cooke Masterpiece Collection'
       }
