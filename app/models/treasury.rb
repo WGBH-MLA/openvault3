@@ -321,7 +321,7 @@ class Treasury
   def title
     @data["title"]
   end
-  
+
   def type
     @data["type"]
   end

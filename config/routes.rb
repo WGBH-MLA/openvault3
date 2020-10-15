@@ -11,7 +11,6 @@ Rails.application.routes.draw do
   get '/collections/alistair-cooke-list', to: 'treasuries#list'
   get '/collections/alistair-cooke-clips', to: 'treasuries#clip'
 
-
   get 'collections', to: 'collections#index'
   get 'collections/:id(/:tab)', to: 'collections#show'
 

@@ -25,7 +25,6 @@ class TreasuriesController < ApplicationController
   end
 end
 
-
 # [
 #   {
 #     seasonnumber:,
