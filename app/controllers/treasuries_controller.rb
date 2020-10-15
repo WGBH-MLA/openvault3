@@ -7,7 +7,6 @@ class TreasuriesController < ApplicationController
     # TODO: not this -> hardcoding this, because people want the url for cooke to be /collections/cooke
     # but its not a special collection
     # @item = Treasury.new(params[:title], SEASONS)
-
     @item = Treasury.new('alistair-cooke', SEASONS)
   end
 
@@ -24,14 +23,10 @@ class TreasuriesController < ApplicationController
   def list
     @list_seasons = Treasury.generate_list_seasons
   end
-
-  # def bio
-  # end
 end
 
 
 # [
-
 #   {
 #     seasonnumber:,
 #     miniserieses: [
@@ -43,10 +38,7 @@ end
 #             episodelink:
 #           }
 #         ]
-
 #       }
-
 #     ]
 #   }
-
 # ]

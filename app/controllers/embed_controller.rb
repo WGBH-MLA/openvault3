@@ -9,12 +9,7 @@ class EmbedController < CatalogController
   #  end
 
   def card
-    xml = RSolr.connect(url: 'http://localhost:8983/solr/')
-      .get('select', params: {
-            'q' => "id:#{params[:id]}",
-            'fl' => 'id,xml',
-            'rows' => 1
-          })['response']['docs'].first['xml']
+    xml = RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: { 'q' => "id:#{params[:id]}", 'fl' => 'id,xml', 'rows' => 1 })['response']['docs'].first['xml']
     @pbcore = PBCore.new(xml)
   end
 end

@@ -7,7 +7,7 @@ require_relative 'xml_backed'
 require_relative 'pb_core_name_role'
 require_relative '../../lib/formatter'
 
-class PBCore # rubocop:disable Metrics/ClassLength
+class PBCore
   # rubocop:disable Style/EmptyLineBetweenDefs
   include XmlBacked
 

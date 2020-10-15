@@ -18,13 +18,13 @@ class Treasury
 
       # a data structure only a mother could love
       seasons = Treasury.new('alistair-cooke', SEASONS).seasons
-      seasons.each_with_index do |season, i|
+      seasons.each do |season|
         list_season = { seasonNumber: season["seasonNumber"], miniseries: [] }
-        
+
         season["cardData"].each do |miniseries|
           list_miniseries = { miniseriesTitle: miniseries["title"], miniseriesUrl: miniseries["recordLink"], miniseriesEpisodes: [] }
 
-          Treasury.new(Treasury.normalize_mini_title( miniseries["title"]), EPISODES).seasons.each do |episode|
+          Treasury.new(Treasury.normalize_mini_title(miniseries["title"]), EPISODES).seasons.each do |episode|
             episode_records, clip_records = episode["cardData"].partition { |epicard| epicard["clipCard"] != true }
 
             # there should only be one full record per episode, but there couuuuld be more, add all clips for each one
@@ -53,7 +53,7 @@ class Treasury
     matchdata ? matchdata[1] : nil
   end
 
-  def self.is_clip_from_xml(xml)
+  def self.clip_assettype_from_xml(xml)
     xml.match(/<pbcoreAssetType>Open - Close<\/pbcoreAssetType>/)
   end
 
@@ -62,7 +62,6 @@ class Treasury
   end
 
   def initialize(title, type)
-
     # get a bucket of image urls to draw from
     @cooke_images = images
 
@@ -70,12 +69,12 @@ class Treasury
       filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
 
       fail "Bad Treasury Name! No File!" unless File.exist?(filepath)
-  
+
       @data = YAML.load(File.read(filepath))
       @data["type"] = 'seasons'
 
       # UNIQ BASED ON raw XML, to Save MANY SECONDS
-      season_data = Treasury.xml_docs.uniq { |xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new( xml ) }.group_by(&:season_number)
+      season_data = Treasury.xml_docs.uniq { |xml| Treasury.miniseries_title_from_xml(xml) }.map { |xml| PBCore.new(xml) }.group_by(&:season_number)
 
       # combine yml data with docs
       @data["seasons"] = @data["seasons"].map do |season|
@@ -92,14 +91,14 @@ class Treasury
 
     elsif type == CLIPS
       filepath = File.join(Rails.root, "app", "views", "treasuries", "data", "#{title}.yml")
-      @data = YAML.load( File.read(filepath) )
+      @data = YAML.load(File.read(filepath))
       @data["type"] = 'clips'
       @data["treasury_url"] = "/collections/alistair-cooke"
       @data["treasury_nice_title"] = "Alistair Cooke Masterpiece Collection"
       @data["description"] = "While the Archives digitized and preserved Masterpiece Theatre, due to copyright we are unable to publicly post on-line full videos of the programs. However, as the introductions and closings of the episodes were filmed at GBH, we hope you enjoy these clips of Alistair Cooke as he brought viewers into the episodes and closed them out."
       @data["posterImage"] = nil
 
-      season_data = Treasury.xml_docs.select { |x| Treasury.is_clip_from_xml(x) }.map { |xml| PBCore.new(xml) }.group_by(&:season_number)
+      season_data = Treasury.xml_docs.select { |x| Treasury.clip_assettype_from_xml(x) }.map { |xml| PBCore.new(xml) }.group_by(&:season_number)
       @data["seasons"] = @data["seasons"].map do |season|
         snumber = season["seasonNumber"].to_s
 
@@ -262,7 +261,7 @@ class Treasury
       'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/space-4161418.jpg',
       'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/texture-1362879.jpg',
       'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/vienna-434517.jpg',
-      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/western-style-2312246.jpg',
+      'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/cooke-production-flavor/western-style-2312246.jpg'
     ]
   end
 
@@ -286,7 +285,7 @@ class Treasury
       "recordLink" => "/miniseries/#{Treasury.normalize_mini_title(title)}",
       "sortDate" => date,
       "date" => date.strftime('%m/%d/%Y'),
-      "guid" => SecureRandom.uuid,
+      "guid" => SecureRandom.uuid
     }
   end
 
@@ -362,7 +361,7 @@ class Treasury
   def self.treasury_series
     {
       "alistair-cooke" => {
-        miniseries_titles:[
+        miniseries_titles: [
           "First Churchills, The",
           "Spoils of Poynton, The",
           "Possessed, The",

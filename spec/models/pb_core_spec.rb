@@ -215,9 +215,7 @@ describe 'Validated and plain PBCore' do
                                       "TOPIC-2",
                                       "1999",
                                       "Foo, 2015-2016 Bar, 2015-2016 Baz, 2015-2016 Doctor Evil foo ! bar ? baz . Translates to br in html: self closing tags can be parse problems."
-
-                                    ]
-                                  )
+                                    ])
 
       pbc = PBCore.new(pbc_xml)
 
