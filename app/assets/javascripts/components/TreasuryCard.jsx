@@ -1,4 +1,4 @@
-class CollectionCard extends React.Component {
+class TreasuryCard extends React.Component {
   clipClickAndExpand(){
     this.props.handleClipClick(this.props.guid)
     this.props.expand(this.props.guid)

@@ -1,4 +1,4 @@
-class CollectionCards extends React.Component {
+class TreasuryCards extends React.Component {
   constructor(props){
     super(props)
 
@@ -35,7 +35,7 @@ class CollectionCards extends React.Component {
       index = i+1
 
       cards.push(
-        <CollectionCard
+        <TreasuryCard
           key={ i }
           
           index={ index }

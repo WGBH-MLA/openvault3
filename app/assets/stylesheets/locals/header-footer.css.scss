@@ -1,11 +1,11 @@
 #header {
-    background: $dark-blue;
+    background: $dark-purple;
     svg#ov-logo,input {
         width: 250px;
     }
     svg#ov-logo {
         text,path { fill: #FFF;  }
-        &:hover { text,path { fill: $yellow; } }
+        &:hover { text,path { fill: $skyblue; } }
     }
     input {
         padding: 0px 28px 0px 8px;
@@ -28,9 +28,9 @@
         margin-left: 1em;
         font-size: 22px;
         font-weight: $medium;
-        &:hover { color: $yellow; }
-        &#donate { color: $yellow; }
-        &#support { color: $yellow; }
+        &:hover { color: $skyblue; }
+        &#donate { color: $skyblue; }
+        &#support { color: $skyblue; }
     }
 }
 

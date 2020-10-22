@@ -1,4 +1,4 @@
-class CollectionSeason extends React.Component {
+class TreasurySeason extends React.Component {
 
   render() {
     let cardData = this.props.cardData
@@ -32,7 +32,7 @@ class CollectionSeason extends React.Component {
         </div>
 
         <div className="season-body">
-          <CollectionCards
+          <TreasuryCards
             seasonId={ this.props.id }
             handleClipClick={ this.props.handleClipClick }
             clipClickGuid={ this.props.clipClickGuid }

@@ -1,4 +1,4 @@
-<%= stylesheet_link_tag "locals/collectioncard.css" %>
+<%= stylesheet_link_tag "locals/treasurycard.css" %>
 <main class="container-fluid" role="main">
 
   <div class="row treasury-title">
@@ -27,5 +27,5 @@
     </div>
   <% end %>
 
-  <%= react_component("CollectionSeasons", { seasons: @item.seasons, listLink: @item.list_link, clipLink: @item.clip_link, seasonsLink: @item.seasons_link, type: @item.type }) %>
+  <%= react_component("TreasurySeasons", { seasons: @item.seasons, listLink: @item.list_link, clipLink: @item.clip_link, seasonsLink: @item.seasons_link, type: @item.type }) %>
 </main>

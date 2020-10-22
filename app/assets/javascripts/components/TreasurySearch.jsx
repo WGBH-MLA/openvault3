@@ -1,4 +1,4 @@
-class CollectionSearch extends React.Component {
+class TreasurySearch extends React.Component {
   render() {
     let classes = 'card-container '
     classes += this.props.expanded == this.props.index ? ' expanded' : ''

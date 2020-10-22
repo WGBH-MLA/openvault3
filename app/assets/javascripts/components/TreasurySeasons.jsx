@@ -1,4 +1,4 @@
-class CollectionSeasons extends React.Component {
+class TreasurySeasons extends React.Component {
   constructor(props){
     super(props)
 
@@ -75,7 +75,7 @@ class CollectionSeasons extends React.Component {
       }
 
       seasons.push( 
-        <CollectionSeason
+        <TreasurySeason
           key={i}
 
           id={ "season-"+i }
@@ -144,7 +144,7 @@ class CollectionSeasons extends React.Component {
 
     return (
       <div className="">
-        <CollectionSearch
+        <TreasurySearch
 
           search={ this.state.search }
           clearSearch={ this.clearSearch }

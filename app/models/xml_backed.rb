@@ -1,9 +1,7 @@
 module XmlBacked
   def initialize(xml)
     @xml = xml
-    # puts "BEGIN-XMLPARSE #{Time.now}"
     @doc = REXML::Document.new xml
-    # puts "END-XMLPARSE #{Time.now}"
   end
 
   def xpath(xpath)
@@ -44,8 +42,8 @@ module XmlBacked
 
   def self.text_from(node)
     ((node.respond_to?('text') ? node.text : node.value) || '').strip.tap do |s|
-      # TODO: either actually enforce 'no empty elements' in xml creation, or admit that this is a weird way to handle this
-      fail("Empty element in XML: #{node}") if s == ''
+      # TODO: this has to stay commented out until we get a Season Number for this record: V_AA8F52610AC54178A73234950F5F808A (Henry V from masterpiece collection)
+      # fail("Empty element in XML: #{node}") if s == ''
     end
   end
 

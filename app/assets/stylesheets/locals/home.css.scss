@@ -53,10 +53,10 @@
             margin: 0;
         }
         a h2 {
-            color: $dark-blue;
+            color: #fff;
             font-size: 36px;
-            background: $yellow;
-            &:hover { background: $pale-yellow; }
+            background: $dark-purple;
+            &:hover { background: $medium-purple; }
             @media (min-width: $screen-lg-min) {
                 padding: 1em 0em; // No side padding, so none line wrap...
             }
@@ -79,16 +79,16 @@
             padding: 0.5em;
             margin: 1em;
         }
-        background: $light-grey;
-        color: #FFF;
+        background: $pale-grey;
+        color: #000;
         a { 
-            color: $yellow;
+            color: $skyblue;
             font-size: 20px;
-            &:hover { color: $pale-yellow; }
+            &:hover { color: $pale-skyblue; }
             font-weight: $semibold;
         }
         a.btn {
-            color: $dark-blue; 
+            color: $dark-purple; 
             background: $pale-blue;
             width: 95%;
             height: 50px;
