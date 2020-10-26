@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/openvault.gbh.org/scholar_exhibits/eric_jackson/eric_jackson_554x340-q-50.jpg)
+![](https://s3.amazonaws.com/openvault.wgbh.org/scholar_exhibits/eric_jackson/eric_jackson_554x340-q-50.jpg)
 
 
 ## intro
