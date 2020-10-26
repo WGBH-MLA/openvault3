@@ -107,15 +107,15 @@
     
     // Override styles for homepage #footer
     #footer {
-        background: $pale-grey;
-        color: $light-grey;
+        background: $medium-grey;
+        color: $pale-grey;
 
         a {
-          color: $light-grey;
+          color: $pale-grey;
         }
 
         .primary-links a {
-          color: $red;
+          color: $pale-grey;
         }
     }
 }
