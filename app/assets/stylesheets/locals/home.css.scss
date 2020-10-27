@@ -56,7 +56,10 @@
             color: #fff;
             font-size: 36px;
             background: $dark-purple;
-            &:hover { background: $medium-purple; }
+            &:hover {
+                background: $pale-grey;
+                color: $dark-purple;
+            }
             @media (min-width: $screen-lg-min) {
                 padding: 1em 0em; // No side padding, so none line wrap...
             }

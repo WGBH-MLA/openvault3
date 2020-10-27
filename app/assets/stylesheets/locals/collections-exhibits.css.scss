@@ -6,7 +6,10 @@
         }
         .info {
            background: $dark-purple;
-           &:hover { background: $medium-purple;}
+           &:hover {
+            background: $pale-grey;
+            color: $dark-purple;
+           }
            color: #fff;
            padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
            // Left-right padding chosen such that AAPB fits in two lines.
