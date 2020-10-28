@@ -74,7 +74,8 @@
                                 display: block;
                                 padding: $grid-gutter-width/8 $grid-gutter-width/2; // To match menu header
                                 &:hover {
-                                    background: $light-blue;
+                                    background: $skyblue;
+                                    color: #fff;
                                 }
                             }
 
