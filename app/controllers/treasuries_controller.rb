@@ -24,20 +24,3 @@ class TreasuriesController < ApplicationController
     @list_seasons = Treasury.generate_list_seasons
   end
 end
-
-# [
-#   {
-#     seasonnumber:,
-#     miniserieses: [
-#       {
-#         minititle:,
-#         episodes: [
-#           {
-#             episodetitle:
-#             episodelink:
-#           }
-#         ]
-#       }
-#     ]
-#   }
-# ]
