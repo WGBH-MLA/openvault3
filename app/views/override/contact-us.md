@@ -6,7 +6,7 @@ by sponsoring digitization, you can reach us at [openvault@wgbh.org](mailto:open
 
 ### Mailing Address:
 Open Vault<br>
-WGBH Media Library and Archives<br>
+GBH Archives<br>
 WGBH Educational Foundation<br>
 One Guest Street<br>
 Boston, MA 02135

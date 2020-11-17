@@ -9,7 +9,7 @@
 The Boston’s 1960s Civil Rights Movement: A Look Back collection was created in
 the spirit of the African symbol Sankofa that in the Akan language of Ghana is
 loosely translated as “Go Back to Fetch It,” meaning to learn from one’s past.
-It consists of more than 14-hours of WGBH radio and television programming
+It consists of more than 14-hours of GBH radio and television programming
 created during the 1963-1967 period of the civil rights movement in Boston. The
 collection provides an opportunity for students and scholars to get a closer
 look at some of the historic events in Boston’s civil rights history as they
@@ -58,7 +58,7 @@ This essay examines the leadership, organization and mobilization of Boston’s 
 
 The essay locates the 1963 Stay Out for Freedom campaign within the contours of the Negro Revolt of the period. Civil rights leaders, activists and social critics of the period (1963-1964) framed this activism as a “Negro Revolt” or “Negro Revolution.”   In his seminal book, *The Negro Mood*, Lerone Bennett, Jr. characterized the period as “a cataclysmic shift in the mood of Negroes, a shift mirrored in changing patterns of protest and social contention.”[<sup>4</sup>](#footnote-4)  The emerging elements of the Negro Revolt included a decisive move toward non-violent direct action and confrontation as the chosen form of protest; the escalation of these techniques by Blacks across the country; the disruption of the “racial self-righteous” of the North; and the growing recognition of a national movement, affirmed by some and revealed to others. Moreover, as Bennett argued, underscoring these dynamics was the rising clarity of the demand for *Negro Power*. Thus, he maintained, “Any realistic analysis of the Negro rebellion must begin with the Negro’s situation, a situation defined by power or the lack of it.”[<sup>5</sup>](#footnote-5)   Similarly, in his widely-acclaimed book, *The Fire Next Time*, James Baldwin also addressed the centrality of the notion of power, arguing “the only thing white people have that black people need, or should want, is power – and no one holds power forever.”[<sup>6</sup>](#footnote-6)  This narrative of civil rights activism guides the analysis of Boston’s 1963 Stay Out for Freedom campaign.
 
-The essay utilizes archival material from the WGBH Educational Foundation, the Boston Public Library, Northeastern University Libraries Archives and Special Collections Department and the Arthur and Elizabeth Schlesinger Library on the History of Women in America, as well as local newspapers, interviews and secondary sources to trace the development of the Stay Out campaign. Charlotte Ryan argues, “When mainstream news criteria are applied to a social movement, the tendency is to reduce radical messages to those that the main social institutions can handle.”[<sup>7</sup>](#footnote-7)   The WGBH radio and video archive material that were created during the 1963-1964 civil rights movement in Boston uniquely counterpoise this deficiency. It provides an opportunity for social movement scholars to examine more closely the historic events as they actually unfolded from the perspective of the activists, participants and other stakeholders. This allows for the explication of the agency of the actors by which they can be viewed as subjects, rather than objects of their own history.[<sup>8</sup>](#footnote-8)
+The essay utilizes archival material from the WGBH Educational Foundation, the Boston Public Library, Northeastern University Libraries Archives and Special Collections Department and the Arthur and Elizabeth Schlesinger Library on the History of Women in America, as well as local newspapers, interviews and secondary sources to trace the development of the Stay Out campaign. Charlotte Ryan argues, “When mainstream news criteria are applied to a social movement, the tendency is to reduce radical messages to those that the main social institutions can handle.”[<sup>7</sup>](#footnote-7)   The GBH radio and video archive material that were created during the 1963-1964 civil rights movement in Boston uniquely counterpoise this deficiency. It provides an opportunity for social movement scholars to examine more closely the historic events as they actually unfolded from the perspective of the activists, participants and other stakeholders. This allows for the explication of the agency of the actors by which they can be viewed as subjects, rather than objects of their own history.[<sup>8</sup>](#footnote-8)
 
 The essay is divided into three major sections. It begins with an overview of the socio-political landscape for Black Bostonians in the early 1960s, which provides a context for understanding the advent of non-violent direct action in Boston.  The next section examines the organizational development and challenges of 1963 Stay Out for Freedom campaign and its aftermath. The last section focuses on the local and national context and the legacy of the Stay Out as an initiator of non-violent, direct action in Boston. The essay contributes to the recent scholarship with renewed attention to local activism and expands Boston’s social movement historiography.
 
@@ -130,7 +130,7 @@ Reverend Virgil Wood recalled a similar criticism lodged against Dr. Martin Luth
 
 In another legal maneuver, the School Committee attempted to enlist the office of the Attorney General. School Committee members voted “unanimously to demand that Attorney General Edward Brooke step into the dispute and inform black leaders of the laws concerning school attendance.”[<sup>103</sup>](#footnote-103) Hicks argued that the Stay Out was a violation of the law and publicly emphasized that “as the chief enforcement officer of the Commonwealth,” it was necessary for Brooke “to take a stand.”[<sup>104</sup>](#footnote-104)  Although Brooke was the highest ranking African-American elected official in Massachusetts, there was a perception, not necessarily unfounded, that he did not “wish to become involved in any racial questions in the State.”[<sup>105</sup>](#footnote-105)  Nonetheless, Hicks expressed her strong conviction that Brooke agreed with the position of the School Committee and that he would “make every effort to stop this boycott.”[<sup>106</sup>](#footnote-106) This proved to be a tactical miscalculation. To the dismay of Hicks, Brooke chose to avoid a public confrontation with the Stay Out organizers and the NAACP. Instead, he held a private meeting at the St. Marks Social Center with Black civil rights leaders to discuss the impending Stay Out, which was to occur in two days.
 
-There have been varying accounts of the meeting. Batson recalled that Brooke argued that Stay Out was “unwise and urge[d] a continuation of the talks with the Boston School Committee” and remembered the meeting ending in “divisiveness and rancor.”[<sup>107</sup>](#footnote-107) The morning edition of the Boston Globe, without citing any sources, reported, “Atty. General Brooke conferred with Negro leaders Sunday morning and that he expressed the view that ‘the boycott will be averted.’[<sup>108</sup>](#footnote-108)  Offering quite a different reflection of Brooke’s stance, Thomas Akins, in a WGBH-FM radio interview later that same evening, informed the listening audience that Brooke decided the organizers had “reasonable proposals” and  “if these proposals were not met then the action planned for Tuesday was a reasonable action.”[<sup>109</sup>](#footnote-109)  Another Boston Globe article reported that the Attorney General “was convinced that the nothing could stop the boycott.[<sup>110</sup>](#footnote-110)  In the end, Brooke’s actions revealed an unwillingness to publicly stand with the School Committee against the Black community’s direct action campaign. Thus, he did not “stop the boycott” nor did he issue a formal ruling on regarding its legality.  Moreover, he was conveniently “out of town” on the day of the Stay Out.[<sup>111</sup>](#footnote-111)  In many ways, his actions, or lack thereof, did more to diminish than bolster, the School Committee’s persona of absolute authority.
+There have been varying accounts of the meeting. Batson recalled that Brooke argued that Stay Out was “unwise and urge[d] a continuation of the talks with the Boston School Committee” and remembered the meeting ending in “divisiveness and rancor.”[<sup>107</sup>](#footnote-107) The morning edition of the Boston Globe, without citing any sources, reported, “Atty. General Brooke conferred with Negro leaders Sunday morning and that he expressed the view that ‘the boycott will be averted.’[<sup>108</sup>](#footnote-108)  Offering quite a different reflection of Brooke’s stance, Thomas Akins, in a GBH radio interview later that same evening, informed the listening audience that Brooke decided the organizers had “reasonable proposals” and  “if these proposals were not met then the action planned for Tuesday was a reasonable action.”[<sup>109</sup>](#footnote-109)  Another Boston Globe article reported that the Attorney General “was convinced that the nothing could stop the boycott.[<sup>110</sup>](#footnote-110)  In the end, Brooke’s actions revealed an unwillingness to publicly stand with the School Committee against the Black community’s direct action campaign. Thus, he did not “stop the boycott” nor did he issue a formal ruling on regarding its legality.  Moreover, he was conveniently “out of town” on the day of the Stay Out.[<sup>111</sup>](#footnote-111)  In many ways, his actions, or lack thereof, did more to diminish than bolster, the School Committee’s persona of absolute authority.
 
 Failing to establish a legal challenge to the Stay Out boycott, the School Committee resorted to dire predictions of violence infused with thinly-veiled, racialized pronouncements. Hicks informed the press of alleged “threats to white children.”[<sup>112</sup>](#footnote-112) She said that recently, “Negro boys stood outside with knives at noon and threatened white students” in front of a Roxbury school. Adding an air of “protection of white womanhood,” she also alleged that “a number of white children, including girls, had been threatened with violence if they refused to join the boycott.”[<sup>113</sup>](#footnote-113)  Finally, as if to create a sense of urgency; Hick also informed the media that she sent telegrams to the Attorney General and Police Commissioner alerting them to the threats. Brooke’s response must have been disappointing since he immediately dismissed Hick’s allegations and predictions, stating, “This talk of violence comes from alarmists. This is not Birmingham or Jackson. This is Boston.”[<sup>114</sup>](#footnote-114)  Yet another of Hicks’s suppression tactics proved unsuccessful. Conversely, Brooke’s response was another important victory for the Stay Out organizers and parents. As such, his response also engendered a perception of a further erosion of the School Committee’s seemingly impenetrable position of dominance.
 
@@ -142,7 +142,7 @@ Despite this opposition, Freedom Schools were organized in ten locations through
 
 ### Freedom School: An Education for Citizenship and Freedom
 
-The Freedom Schools reflected the CFHR group’s aim of broadening the concept of education to encompass the notion of “being educated for citizenship and freedom.”[<sup>120</sup>](#footnote-120) They ensured a wider audience by allowing WGBH-FM to broadcast the proceedings at the St. Mark’s Freedom School. Billed as an all-star faculty, the bi-racial group of speakers included: Royal Bolling, State Representative (Roxbury) and Editor, Boston Sun; Noel Day, Director, St. Mark’s Social Center; Alan Gartner, Chairman, Boston CORE, Dr. Adelaide Hill, Professor, Boston University; Dr. Charles Merrill, Headmaster, Commonwealth School, Massachusetts; Dr. Thomas Pettigrew, Professor, Harvard University; Dr. Sumner Rosen, Simmons College; Bryant Rollins, Reporter, Boston Globe; and Bishop Anson Phelps Stokes, Episcopal Diocese of Massachusetts; and Boston Celtics star, Bill Russell. Over 3,000 children “stayed out for freedom” and attended one of the ten Freedom Schools located throughout Roxbury, Dorchester and the South End.[<sup>121</sup>](#footnote-121)
+The Freedom Schools reflected the CFHR group’s aim of broadening the concept of education to encompass the notion of “being educated for citizenship and freedom.”[<sup>120</sup>](#footnote-120) They ensured a wider audience by allowing GBH to broadcast the proceedings at the St. Mark’s Freedom School. Billed as an all-star faculty, the bi-racial group of speakers included: Royal Bolling, State Representative (Roxbury) and Editor, Boston Sun; Noel Day, Director, St. Mark’s Social Center; Alan Gartner, Chairman, Boston CORE, Dr. Adelaide Hill, Professor, Boston University; Dr. Charles Merrill, Headmaster, Commonwealth School, Massachusetts; Dr. Thomas Pettigrew, Professor, Harvard University; Dr. Sumner Rosen, Simmons College; Bryant Rollins, Reporter, Boston Globe; and Bishop Anson Phelps Stokes, Episcopal Diocese of Massachusetts; and Boston Celtics star, Bill Russell. Over 3,000 children “stayed out for freedom” and attended one of the ten Freedom Schools located throughout Roxbury, Dorchester and the South End.[<sup>121</sup>](#footnote-121)
 
 Peggy Trotter Dammond moderated and opened the St. Mark’s Freedom School by explaining the planned curriculum to the children.  Closely following the theme of an education for citizenship and freedom, she informed the more than 200 junior and high school students who had gathered:
 
@@ -199,7 +199,7 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 
 ### Endnotes
 
-<a name="footnote-footnote-1"></a><sup>1</sup>The author would like to thank Allison Pekel and WGBH Foundation for the opportunity to participate in this project as a Mellon Scholar. Sincere thanks is also extended to Aaron Schmidt, Boston Public Library Print Department; Michelle Romero, Snell Library Archives and Special Collections Department, Northeastern University; the Schlesinger Library; Arthur Pollock, Boston Herald; and Dr. Charles E. Jones, Professor of Africana Studies, University of Cincinnati. This essay on Boston’s Civil Rights movement is dedicated to David G. Carter (1954-2013), a devoted advocate for the preservation of the history of people of African descent.
+<a name="footnote-footnote-1"></a><sup>1</sup>The author would like to thank Allison Pekel and WGBH Educational Foundation for the opportunity to participate in this project as a Mellon Scholar. Sincere thanks is also extended to Aaron Schmidt, Boston Public Library Print Department; Michelle Romero, Snell Library Archives and Special Collections Department, Northeastern University; the Schlesinger Library; Arthur Pollock, Boston Herald; and Dr. Charles E. Jones, Professor of Africana Studies, University of Cincinnati. This essay on Boston’s Civil Rights movement is dedicated to David G. Carter (1954-2013), a devoted advocate for the preservation of the history of people of African descent.
 
 <a name="footnote-2"></a><sup>2</sup>See Donald M. Jacobs, ed., Courage and Courage and Conscience: Black and White Abolitionists in Boston (Bloomington, IN: Indiana University Press, 1993). Also, for an account of the activism leading to the legal challenge to school segregation in antebellum Boston (Roberts vs. Boston) and the first boycott of the Boston Public Schools see, Stephen Kendrick and Paul Kendrick, Sarah’s Long Walk: The Free Blacks of Boston and How Their Struggle for Equality Changed America (Boston: Beacon Press, 2004).
 
@@ -217,7 +217,7 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 
 <a name="footnote-9"></a><sup>9</sup>See King, Chain of Change, 155-168.
 
-<a name="footnote-10"></a><sup>10</sup>Ted Poston, Panelist, “Civil Rights Panel with Louis Lyons,” WGBH-FM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-10"></a><sup>10</sup>Ted Poston, Panelist, “Civil Rights Panel with Louis Lyons,” GBH, June 26, 1963, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-11"></a><sup>11</sup>Robert L. Levey, Panelist, The Struggle for Civil Rights in Boston. John F. Kennedy Presidential Library and Museum, Boston, MA March 29, 1998). [Hereafter, The Struggle for Civil Rights in Boston 1998]
 
@@ -284,7 +284,7 @@ Boston activists, in the Deep North, were making major strides in effectively ex
 <a name="footnote-42"></a><sup>42</sup>Bennett, The Negro Mood, 6.
 
 <a name="footnote-43"></a><sup>43</sup>“STOP,” John F. Collins Collection,” Boston Public Library, Box 195, Folder 8 [hereafter, Collins Collection]. Unlike the Stay Out organizer, STOP Day organizers did not create a specific organizational structure. See retrospective accounts of STOP in King, Chain of Change, 51-53; Hubie Jones, Panelist, Power and Protest: The Civil Rights Movement in Boston, 1960-1968, November 4, 2006,  Massachusetts Historical Society, Boston, Massachusetts  [hereafter, Power and Protest Conference 2006].
-<a name="footnote-44"></a><sup>44</sup>“Reaction to Boycott Report I,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.; James Breeden Recorded by Bill Holiday, Internet Archives Library, Community Audio
+<a name="footnote-44"></a><sup>44</sup>“Reaction to Boycott Report I,” June 18, 1963, Ted Mascott, Producer, GBH, WGBH Educational Foundation, Boston, MA.; James Breeden Recorded by Bill Holiday, Internet Archives Library, Community Audio
 http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-45"></a><sup>45</sup>“Rights Rally Sunday on Common Sunday,” Boston Globe, May 9, 1963,  44.
@@ -309,7 +309,7 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-55"></a><sup>55</sup>Ibid.
 
-<a name="footnote-56"></a><sup>56</sup>“March on Roxbury,” WGBH-FM, September 22, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-56"></a><sup>56</sup>“March on Roxbury,” GBH, September 22, 1963, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-57"></a><sup>57</sup>Hubie Jones, Power and Protest Conference 2006.
 
@@ -327,7 +327,7 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-64"></a><sup>64</sup>Minutes of NAACP June 11th Meeting, p. 4.
 
-<a name="footnote-65"></a><sup>65</sup>Minutes of NAACP June 11th Meeting, p. 3-17; “Boycott Report,” WGBH-FM, June 17, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-65"></a><sup>65</sup>Minutes of NAACP June 11th Meeting, p. 3-17; “Boycott Report,” GBH, June 17, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-66"></a><sup>66</sup>Minutes of NAACP June 11th Meeting, p. 60. The header quote, “We, therefore, must fear for our rising offspring” is taken from the petition. The original and historic petition is located at the Massachusetts Historical Society. A complete transcript of the petition, with the title “Negroes Ask for Equal Education,” is included in Herbert Aptheker, A Documentary History of the Negro People in the United States: From Colonial Times Through the Civil War, (New York: Citadel Press, 1990), 19-20.
 
@@ -385,9 +385,9 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-93"></a><sup>93</sup>"Boycott Report”
 
-<a name="footnote-94"></a><sup>94</sup>Pre-Boycott, Stay Out For Freedom,” WGBH-FM, June 14, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA. Hereafter, “Pre-Boycott Report.”
+<a name="footnote-94"></a><sup>94</sup>Pre-Boycott, Stay Out For Freedom,” GBH, June 14, 1963, Ted Mascott, Producer, WGBH Educational Foundation, Boston, MA. Hereafter, “Pre-Boycott Report.”
 
-<a name="footnote-95"></a><sup>95</sup>“To Secure These Rights: A Documented History of the Negro ‘Freedom Movement,’ ” produced by Ted Mascott, WGBH, Boston, Massachusetts. Transcript located in Freedom House Papers (M16), Northeastern University Snelling Library, Archives and Special Collections, Box 39, Folder 1357.
+<a name="footnote-95"></a><sup>95</sup>“To Secure These Rights: A Documented History of the Negro ‘Freedom Movement,’ ” produced by Ted Mascott, GBH, Boston, Massachusetts. Transcript located in Freedom House Papers (M16), Northeastern University Snelling Library, Archives and Special Collections, Box 39, Folder 1357.
 
 <a name="footnote-96"></a><sup>96</sup>“Boycott Report”
 
@@ -437,11 +437,11 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-119"></a><sup>119</sup>John A. Fenton, “Boston’s Negroes Firm on ‘Stay Out,’ New York Times, June 18, 1963, 20.
 
-<a name="footnote-120"></a><sup>120</sup>“Boycott Report,” June 17, 1963, Ted Mascott, Producer, WGBH-PM, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-120"></a><sup>120</sup>“Boycott Report,” June 17, 1963, Ted Mascott, Producer, GBH, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-121"></a><sup>121</sup>Day, “The Freedom Movement in Massachusetts,” 14.
 
-<a name="footnote-122"></a><sup>122</sup>“Reaction to Boycott Report II,” June 18, 1963, Ted Mascott, Producer, WGBH-FM, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-122"></a><sup>122</sup>“Reaction to Boycott Report II,” June 18, 1963, Ted Mascott, Producer, GBH, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-123"></a><sup>123</sup>“Boycott Report”
 
@@ -477,7 +477,7 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-139"></a><sup>139</sup>“It Was a Victory... ...It Was a Failure”
 
-<a name="footnote-140"></a><sup>140</sup>Noel Day, Panelist, Civil Rights Panel with Louis Lyons, WGBH-PM, June 26, 1963, WGBH Educational Foundation, Boston, MA.
+<a name="footnote-140"></a><sup>140</sup>Noel Day, Panelist, Civil Rights Panel with Louis Lyons, GBH, June 26, 1963, WGBH Educational Foundation, Boston, MA.
 
 <a name="footnote-141"></a><sup>141</sup>“It Was a Victory... ...It Was a Failure”
 
@@ -493,7 +493,7 @@ http://archive.org/details/JamesBreeden, Downloaded: 9/16/2013.
 
 <a name="footnote-147"></a><sup>147</sup>“1200 Leave From Boston,” Boston Globe, August 28, 1963; “Camera and Pen Capture the Scene, Boston Globe, August 29, 1963; Edward McGrath, “Hub NAACP Seeks End of School Row,” Boston Globe, August 30, 1963.
 
-<a name="footnote-148"></a><sup>148</sup>“Boston School Committee Report on Sit-Ins,” WGBH-FM, September 6, 1963, WGBH Educational Foundation, Boston.
+<a name="footnote-148"></a><sup>148</sup>“Boston School Committee Report on Sit-Ins,” GBH, September 6, 1963, WGBH Educational Foundation, Boston.
 
 <a name="footnote-149"></a><sup>149</sup>Day, “The Freedom Movement in Massachusetts,” 10; Ian Forman, “School Bd. Given Rest By NAACP,” Boston Globe, September 11, 1963, p. 1.
 

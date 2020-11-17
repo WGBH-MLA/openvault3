@@ -1,4 +1,4 @@
-# WGBH and the President’s Commission on the Status of Women
+# GBH and the President’s Commission on the Status of Women
 
 1
 
@@ -9,7 +9,7 @@
 
 October 11, 2013 marks the 50th anniversary of American Women, the final report
 requested by President John F. Kennedy at the inception of the 26 member
-President’s Commission on the Status of Women on December 14, 1961. WGBH and
+President’s Commission on the Status of Women on December 14, 1961. GBH and
 Massachusetts played an important role in the pubic history of the Commission
 when they partnered with Brandeis University in the production of the
 roundtable policy series *Mrs. Eleanor Roosevelt Prospects of Mankind*, moderated
@@ -20,7 +20,7 @@ Rossel, Representative to the United Nations for Sweden, Thomas Mendenhall,
 President of Smith College, and Dr. Mirra Komarovsky, Professor of Sociology at
 Barnard College, followed the Kennedy interview and served the public well in
 communicating the issues the American government would be evaluating with an
-eye toward improving opportunities for women. The WGBH production and President
+eye toward improving opportunities for women. The GBH production and President
 Kennedy’s executive order to establish the commission predates the February
 1963 publication of Betty Friedan’s *Feminine Mystique*, the work most often
 credited for the start of the Women’s Movement of the late 1960’s. Though
@@ -31,7 +31,7 @@ earlier President’s Commission on the Status of Women reveals how the work of 
 different woman, Esther Peterson, Executive Vice Chair of the Commission on the
 Status of Women, carefully set the stage to ensure NOW’s success. This
 collection gathers newly digitized primary source media archives and research
-from the WGBH Open Vault, the John F. Kennedy Library, and Brandeis University,
+from the GBH Open Vault, the John F. Kennedy Library, and Brandeis University,
 to share the contribution public television played in giving status to the work
 of the Commission and to utilize digital capabilities for the public education
 of a new generation.
@@ -43,9 +43,9 @@ Maureen Mann Tannetta
 ## Article
 
 ### Kennedy, Roosevelt, and Massachusetts Public Television
-In some ways, the WGBH series *Mrs. Eleanor Roosevelt Prospects of Mankind* for National Educational Television (NET) served as a first collaboration between John F. Kennedy and Former First Lady Eleanor Roosevelt that within two years’ time would become a political partnership.
+In some ways, the GBH series *Mrs. Eleanor Roosevelt Prospects of Mankind* for National Educational Television (NET) served as a first collaboration between John F. Kennedy and Former First Lady Eleanor Roosevelt that within two years’ time would become a political partnership.
 
-Eleanor Roosevelt’s monthly political roundtable began television broadcasts in October 1959.  *Prospects of Mankind* was produced in Massachusetts by the son of Roosevelt’s longtime friend from the Women's Division of the New York State Democratic Committee, Elinor Morgenthau.  Henry Morgenthau III filmed the show on the Brandeis University campus in Waltham where he worked as Associate Director of Brandeis University’s Morse Communications Center.  He also worked full time as a producer at WGBH, the Boston subsidiary of NET.
+Eleanor Roosevelt’s monthly political roundtable began television broadcasts in October 1959.  *Prospects of Mankind* was produced in Massachusetts by the son of Roosevelt’s longtime friend from the Women's Division of the New York State Democratic Committee, Elinor Morgenthau.  Henry Morgenthau III filmed the show on the Brandeis University campus in Waltham where he worked as Associate Director of Brandeis University’s Morse Communications Center.  He also worked full time as a producer at GBH, the Boston subsidiary of NET.
 
 *Prospects*’ fourth episode on European alliances would include Senator John F. Kennedy, then a member of the United States Senate’s Foreign Relations Committee.  At the time, Kennedy and Roosevelt held no political alliances between them.   Roosevelt had publicly criticized Kennedy and his father in past campaigns.  To add to the tension, Kennedy had announced his bid for the presidency hours before rushing to the Brandeis campus by family plane to film the episode.
 
@@ -57,7 +57,7 @@ However, it would be their final appearance together on *Prospects of Mankind* w
 
 Together they shared the news of the 26 member Presidential Commission on the Status of Women which would use over 100 additional consultants on seven committees to complete a 16-month investigation to recommend policy changes that would increase opportunities for women.  The work would be done under presidential executive order, and best of all, Eleanor Roosevelt was to be its Chair.
 
-It was a policy leap framed in public history.  Boston’s WGBH produced the show solo and broadcast it to the American public on June 4, 1962 via NET’s 50 affiliates.   With the president backing the initiative and the most notable woman in the country at the helm, the Commission symbolized a partnership of men and women at the highest level of executive power in America, working together, to create equality between the sexes.
+It was a policy leap framed in public history.  Boston’s GBH produced the show solo and broadcast it to the American public on June 4, 1962 via NET’s 50 affiliates.   With the president backing the initiative and the most notable woman in the country at the helm, the Commission symbolized a partnership of men and women at the highest level of executive power in America, working together, to create equality between the sexes.
 
 ### The President’s Commission on the Status of Women
 #### The Vision of an Invisible Woman
@@ -88,7 +88,7 @@ Though Peterson wanted the spotlight on the President and Eleanor Roosevelt, it 
 
 At their second meeting in April, 1962, the Commission requested the President investigate the legal basis for this practice.   President Kennedy instructed his brother, Attorney General Robert Kennedy, to look into the request.  A day before the Commission’s third meeting, the President sent a letter to Eleanor Roosevelt informing her that the Attorney General, had determined that “the question of whether a position may be filled by men only or by women only or instead by qualified members of either sex may be regulated by the President under his constitutional and statutory authority.”  He assured Mrs. Roosevelt that he had directed John W. Macy, Chairman of the Civil Service Commission, “to take immediate steps to amend the civil service regulations.”[<sup>10</sup>](#footnote-10)
 
-It was Eleanor Roosevelt who would have the pleasure of writing to the President in thanks and hosting a high profile weekend conference announcing the news to the Commission at the Roosevelt Hyde Park estate June 16-17, 1962, barely one week after the WGBH program aired nationally.  In their Saturday session at the FDR library with Commission member Civil Service Chairman John W. Macy in attendance and on board, Nicholas Katzenbach of the Attorney General’s office explained Robert Kennedy’s ruling that there was no legal basis for the discrimination, and in fact, any continuation of the practice would now be illegal.[<sup>11</sup>](#footnote-11)
+It was Eleanor Roosevelt who would have the pleasure of writing to the President in thanks and hosting a high profile weekend conference announcing the news to the Commission at the Roosevelt Hyde Park estate June 16-17, 1962, barely one week after the GBH program aired nationally.  In their Saturday session at the FDR library with Commission member Civil Service Chairman John W. Macy in attendance and on board, Nicholas Katzenbach of the Attorney General’s office explained Robert Kennedy’s ruling that there was no legal basis for the discrimination, and in fact, any continuation of the practice would now be illegal.[<sup>11</sup>](#footnote-11)
 
 Seven months before Kennedy’s letter, Peterson’s statistics showed the federal civil service commission had 205 requests for men and 216 with no sex specified; seven months after the letter, the agency received 11 requests for men and 683 with no sex specified.[<sup>12</sup>](#footnote-12)
 
@@ -130,9 +130,9 @@ With Kennedy and Roosevelt both gone, the public struggled on its own to raise t
 
 ### Endnotes
 
-<a name="footnote-1"></a><sup>1</sup>*Mrs. Eleanor Roosevelt Prospects of Mankind*: “Europe Faces East and West” Boston: WGBH-TV, Program 207, January 1960, 00:03:36; University Photograph Collection: Notes from production, *Prospects of Mankind*, 1960, Box 11, Robert D. Faber University Archives & Special Collections, Brandeis University; Morgenthau, Henry.  “Eleanor Roosevelt at Brandeis: A Personal Memoir,” *Brandeis Alumni Journal,* p 4, 1984.
+<a name="footnote-1"></a><sup>1</sup>*Mrs. Eleanor Roosevelt Prospects of Mankind*: “Europe Faces East and West” Boston: GBH, Program 207, January 1960, 00:03:36; University Photograph Collection: Notes from production, *Prospects of Mankind*, 1960, Box 11, Robert D. Faber University Archives & Special Collections, Brandeis University; Morgenthau, Henry.  “Eleanor Roosevelt at Brandeis: A Personal Memoir,” *Brandeis Alumni Journal,* p 4, 1984.
 
-<a name="footnote-2"></a><sup>2</sup>*Mrs. Eleanor Roosevelt Prospects of Mankind: The Peace Corps*: “What Shape Shall it Take?” Boston: WGBH-TV, Program 207, March 1961, 00:09:30.
+<a name="footnote-2"></a><sup>2</sup>*Mrs. Eleanor Roosevelt Prospects of Mankind: The Peace Corps*: “What Shape Shall it Take?” Boston: GBH, Program 207, March 1961, 00:09:30.
 
 <a name="footnote-3"></a><sup>3</sup>Harrison, Cynthia. “A ‘New Frontier’ for Women: the Public Policy of the Kennedy Administration.” The Journal of American History, Vol. 67, No.3 (Dec., 1980), 638-9, Published by: Organization of American Historians Stable URL: http://www.jstor.org/stable/1889871 ;
 
@@ -156,7 +156,7 @@ With Kennedy and Roosevelt both gone, the public struggled on its own to raise t
 
 <a name="footnote-13"></a><sup>13</sup>Ibid, 50. “Report of Chairman Macy of the Civil Service Commission to President’s Commission on the Status of Women” 16 June 1962, in folder “President’s Commission on the Status of Women,” box 1, Executive letters 8-10, John F. Kennedy Library.
 
-<a name="footnote-14"></a><sup>14</sup>Mrs. Eleanor Roosevelt Prospects of Mankind*: What Status of Women? 18 April 1962, Program 310, Boston: WGBH-TV, 00:09:00.
+<a name="footnote-14"></a><sup>14</sup>Mrs. Eleanor Roosevelt Prospects of Mankind*: What Status of Women? 18 April 1962, Program 310, Boston: GBH, 00:09:00.
 
 <a name="footnote-15"></a><sup>15</sup>Harrison, *On Account of Sex: The Politics of Women’s Issues 1945-1968*, 134.
 

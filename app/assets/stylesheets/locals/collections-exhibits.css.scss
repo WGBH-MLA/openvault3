@@ -5,9 +5,12 @@
             margin-bottom: 0;
         }
         .info {
-           background: $yellow;
-           &:hover { background: $pale-yellow;}
-           color: $dark-blue;
+           background: $dark-purple;
+           &:hover {
+            background: $medium-purple;
+            color: #fff;
+           }
+           color: #fff;
            padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
            // Left-right padding chosen such that AAPB fits in two lines.
            margin-top: 0;
@@ -72,7 +75,7 @@
         }
 
         .info {
-           background-color: $medium-blue;
+           background-color: $medium-purple;
            color: #FFF;
            padding: $grid-gutter-width*0.5 $grid-gutter-width*0.75;
            // Left-right padding chosen such that AAPB fits in two lines.

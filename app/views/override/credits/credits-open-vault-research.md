@@ -2,13 +2,13 @@
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/Mellon.jpg)](https://mellon.org/)
 
-Funded by The Andrew W. Mellon Foundation, the WGBH Media Library & Archives 
+Funded by The Andrew W. Mellon Foundation, the GBH Archives 
 Digital Library Initiative has completed three phases. 
-In the [first phase](https://s3.amazonaws.com/openvault.wgbh.org/resources/reports/phase-1.pdf), 
-WGBH conducted an assessment of the value of our archival collections for scholarly use. 
+In the [first phase](https://s3.amazonaws.com/openvault.gbh.org/resources/reports/phase-1.pdf), 
+GBH conducted an assessment of the value of our archival collections for scholarly use. 
 In the [second phase](https://s3.amazonaws.com/openvault.wgbh.org/resources/reports/phase-2.pdf), 
 “Developing a Public Television Content Delivery System for Academic Institutions,” 
-WGBH developed Open Vault Research. Designed in close collaboration with scholars, 
+GBH developed Open Vault Research. Designed in close collaboration with scholars, 
 this prototype web site facilitated research access to the collections. 
 Further, working with Ithaka S+R, we investigated the sustainability of online archives for academic use. 
 In the [third phase](https://s3.amazonaws.com/openvault.wgbh.org/resources/reports/phase-3.pdf), 
@@ -20,9 +20,9 @@ the design and development of the current Open Vault.
 
 ##    Principal Investigators
 Karen Cariani<br/>
-Director, WGBH Media Library and Archives<br/> 
+Director, GBH Archives<br/> 
 Peter Pinch<br/>
-Director of Technology, WGBH Interactive<br/>
+Director of Technology, GBH Interactive<br/>
 ##    Advisors
 John W. Dower<br/>
 Ford International Professor of History<br/>

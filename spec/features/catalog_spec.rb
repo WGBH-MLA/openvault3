@@ -150,7 +150,7 @@ describe 'Catalog' do
 
     it 'Has extra messaging, as appropriate' do
       visit '/catalog/A_00000000_MOCK'
-      expect(page.html).to match(/More material may be available from this program at the WGBH Archive/)
+      expect(page.html).to match(/More material may be available from this program at the GBH Archive/)
     end
 
     it 'Gives 404 for bad item' do

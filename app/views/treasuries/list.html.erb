@@ -1,0 +1,83 @@
+<%= stylesheet_link_tag "locals/treasurycard.css" %>
+<main class="container-fluid" role="main">
+
+  <div class="row treasury-title">
+    <h1>
+      The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection
+    </h1>
+    <a class="treasury-back-link" href="/collections/alistair-cooke">Return to Alistair Cooke Masterpiece Collection</a>
+
+  </div>
+
+  <div class="row treasury-description">
+    <div class="col-md-12">
+      The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at GBH as they are digitized.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <a class="treasury-list-link" href="/collections/alistair-cooke-clips">Alistair Cooke Clips</a>
+      <a class="treasury-list-link" href="/collections/alistair-cooke">Miniseries View</a>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-12">
+      <ul style="line-height: 1.8em;">
+
+        <% @list_seasons.each do |season| %>
+
+          <li>
+            <h2 style="display: inline;">Season <%= season[:seasonNumber] %></h2>
+
+            <ul>
+
+              <% season[:miniseries].each do |miniseries| %>
+                <li>
+                  
+                  <a href="<%= miniseries[:miniseriesUrl] %>">
+                    <h3 style="display: inline;"><%= miniseries[:miniseriesTitle] %></h3>
+                  </a>
+
+                  <ul>
+                    <% miniseries[:miniseriesEpisodes].each do |episode| %>
+
+                      <li>
+                        <a href="<%= episode[:episodeUrl] %>">
+                          <% eptitle = episode[:episodeTitle] || "" %>
+                          <% pnumber = episode[:programNumber] || "" %>
+
+                          <h4 style="display: inline;"><%= pnumber + " - " + eptitle %></h4>
+                          <ul>
+                            <% episode[:episodeClips].each do |clip| %>
+
+                              <li>
+                                <a href="<%= clip["recordLink"] %>">
+                                  <h5 style="display: inline;"><%= clip["title"] %> (Clip)</h5>
+                                </a>
+                              </li>
+
+                            <% end %>
+
+                          </ul>
+                        </a>
+                      </li>
+                    <% end %>
+                  </ul>
+                </li>
+              <% end %>
+            </ul>
+
+          </li>
+
+        <% end %>
+
+      </ul>
+
+    </div>
+
+  </div>
+</main>

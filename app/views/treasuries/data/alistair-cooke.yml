@@ -1,0 +1,46 @@
+title: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection'
+description: 'The Linda and Andrew Egendorf Masterpiece Theatre Alistair Cooke Collection features programs from the anthology series Masterpiece Theatre presented during Alistair Cooke’s tenure as host (1971-1992). Along with a complete list of those programs with descriptions, the collection will also include Alistair Cooke’s introductions and conclusions for each episode. Additional materials in the collection will be made available online or on-site at GBH as they are digitized. <a href="/collections/alistair-cooke-about">Read more</a> about the collection and our funders who made it possible.'
+posterImage: 'https://s3.amazonaws.com/openvault.wgbh.org/special_collections/alistair-cooke/alistair_cooke_collection.jpg'
+
+# back to main collection page
+seasonsLink:
+  url: /collections/alistair-cooke
+  text: Miniseries View
+
+listLink:
+  url: '/collections/alistair-cooke-list'
+  text: List View
+
+clipLink:
+  url: '/collections/alistair-cooke-clips'
+  text: Alistair Cooke Clips
+
+seasons:
+  - seasonNumber: 1
+    # these are supported in the react component, but were removed per karen/casey
+    # explictly-specified background image for Season slice
+    # seasonImage: 'https://s3.amazonaws.com/openvault.wgbh.org/treasuries/alistair-cooke/Mezzanine_482.jpg.focalcrop.1200x630.50.10.jpg'
+
+    # description to be displayed on season slice
+    # description: 'The first season inaugurates the sterling traditions of Alistair Cooke and his iconic run as the host of Masterpiece Theatre.'
+  - seasonNumber: 2
+  - seasonNumber: 3
+  - seasonNumber: 4
+  - seasonNumber: 5
+  - seasonNumber: 6
+  - seasonNumber: 7
+  - seasonNumber: 8
+  - seasonNumber: 9
+  - seasonNumber: 10
+  - seasonNumber: 11
+  - seasonNumber: 12
+  - seasonNumber: 13
+  - seasonNumber: 14
+  - seasonNumber: 15
+  - seasonNumber: 16
+  - seasonNumber: 17
+  - seasonNumber: 18
+  - seasonNumber: 19
+  - seasonNumber: 20
+  - seasonNumber: 21
+

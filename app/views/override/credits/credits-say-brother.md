@@ -14,7 +14,7 @@ Grant Consultant: Sarah-Ann Shaw<br/>
 Preservation Supervisor: Scott Turner<br/>
 FileMaker Implementation and HTML Export: Thom Shepard<br/>
 
-##    WGBH Interactive
+##    GBH Digital
 Web Site Producer: Caitlin O’Neil<br/>
 Interactive Designer: Tyler Howe<br/>
 Developer: Molly Frey<br/>
@@ -37,7 +37,7 @@ Anya Vinokour<br/>
 Leah Weisse<br/>
 Archives interns Christina Finneran, Dawn Marsh, Jenny Smilovitz<br/>
 The Winthrop Group, Inc.<br/>
-The staffs of WGBH’s Basic Black and Production Services<br/>
+The staffs of GBH’s Basic Black and Production Services<br/>
   
   
   
