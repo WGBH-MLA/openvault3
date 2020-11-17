@@ -1,6 +1,6 @@
 # Donate to Open Vault
 
-Contribute to Open Vault and help us preserve and provide access to WGBH's historic collection of programs for years to come! 
+Contribute to Open Vault and help us preserve and provide access to GBH's historic collection of programs for years to come! 
 
 A donation directly enables us to:
 
@@ -9,7 +9,7 @@ A donation directly enables us to:
 - Improve  our website with new features and improve functionality and discoverability of the collection
 -	Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
 
-WGBH is a 501(c)(3) nonprofit organization. All donations are tax deductible. 
+GBH is a 501(c)(3) nonprofit organization. All donations are tax deductible. 
 
 On your credit card statement, you'll see your donation withdrawn by Kimbia.
 

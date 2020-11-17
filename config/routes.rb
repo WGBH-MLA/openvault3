@@ -2,6 +2,15 @@ Rails.application.routes.draw do
   root to: 'home#index'
   blacklight_for :catalog # If I change this we get errors from the other pages.
 
+  get '/treasuries/:title', to: 'treasuries#show'
+  get '/miniseries/:title', to: 'treasuries#miniseries'
+
+  # TODO: hardcoded due to misunderstanding of what a 'colleciton' means on OV
+  get '/collections/alistair-cooke', to: 'treasuries#show'
+  get '/collections/alistair-cooke-about', to: 'treasuries#bio'
+  get '/collections/alistair-cooke-list', to: 'treasuries#list'
+  get '/collections/alistair-cooke-clips', to: 'treasuries#clip'
+
   get 'collections', to: 'collections#index'
   get 'collections/:id(/:tab)', to: 'collections#show'
 
@@ -19,6 +28,8 @@ Rails.application.routes.draw do
 
   resources :embed,
             only: [:show]
+
+  get '/embed/card/:id', to: 'embed#card'
 
   resources :sitemap,
             only: [:index]

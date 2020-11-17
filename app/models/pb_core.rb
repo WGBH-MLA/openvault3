@@ -7,14 +7,35 @@ require_relative 'xml_backed'
 require_relative 'pb_core_name_role'
 require_relative '../../lib/formatter'
 
-class PBCore # rubocop:disable Metrics/ClassLength
+class PBCore
   # rubocop:disable Style/EmptyLineBetweenDefs
   include XmlBacked
 
   def id
     @id ||= xpath('/*/pbcoreIdentifier[@source="Open Vault UID"]')
   end
-
+  def clip?
+    asset_type == 'Open - Close'
+  end
+  def miniseries_title
+    @miniseries_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Miniseries"]')
+  end
+  def miniseries_description
+    @miniseries_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Miniseries Description"]')
+  end
+  def season_number
+    @season_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Season"]')
+  end
+  def broadcast_date
+    @broadcast_date_obj ||= begin
+      dateval = broadcast_date_raw
+      # temp this because the data is incomplete.
+      dateval && dateval.length > 0 ? DateTime.strptime(dateval, '%m/%d/%Y') : DateTime.now
+    end
+  end
+  def broadcast_date_raw
+    @broadcast_date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Broadcast"]')
+  end
   def series_title
     @series_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Series"]')
   end
@@ -41,6 +62,7 @@ class PBCore # rubocop:disable Metrics/ClassLength
   def date
     @date ||= xpath_optional('/*/pbcoreAssetDate[@dateType="Item Date"]')
   end
+
   def year
     @year ||= date.match(/(\d{4})/)[1] if date
   end
@@ -320,9 +342,11 @@ class PBCore # rubocop:disable Metrics/ClassLength
         :extensions, :blocked_country_codes,
         :scholar_exhibits, :special_collections, :special_collection_tags,
         :playlist_group, :playlist_order, :playlist_map,
-        :playlist_next_id, :playlist_prev_is
+        :playlist_next_id, :playlist_prev_is,
+        :clip?, :broadcast_date
       ]
       (PBCore.instance_methods(false) - ignores)
+      .sort
       .reject { |method| method =~ /(\?|srcs?|url)$/ } # skip booleans, urls
       .map { |method| send(method) } # method -> value
       .select { |x| x } # skip nils

@@ -2,16 +2,20 @@
 <pbcoreDescriptionDocument xmlns='http://www.pbcore.org/PBCore/PBCoreNamespace.html'>
   <pbcoreAssetType>Broadcast program</pbcoreAssetType>
   <pbcoreAssetDate dateType="Item Date">12/31/1999</pbcoreAssetDate>
+  <pbcoreAssetDate dateType="Broadcast">07/14/1974</pbcoreAssetDate>
   <pbcoreIdentifier source="Open Vault UID">A_00000000_MOCK</pbcoreIdentifier>
   <pbcoreTitle titleType="Program Number">PROGRAM-NUMBER</pbcoreTitle>
   <pbcoreTitle titleType="Program">PROGRAM</pbcoreTitle>
   <pbcoreTitle titleType="Series">SERIES</pbcoreTitle>
   <pbcoreTitle titleType="Open Vault Title">ASSET</pbcoreTitle>
+  <pbcoreTitle titleType="Season">11</pbcoreTitle>
+  <pbcoreTitle titleType="Miniseries">Flickers</pbcoreTitle>
   <pbcoreSubject>SUBJECT-1</pbcoreSubject>
   <pbcoreSubject>SUBJECT-2</pbcoreSubject>
   <pbcoreDescription descriptionType="Asset Description">ASSET-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Series Description">SERIES-DESCRIPTION</pbcoreDescription>
   <pbcoreDescription descriptionType="Program Description">PROGRAM-DESCRIPTION</pbcoreDescription>
+  <pbcoreDescription descriptionType="Miniseries Description">Broadcast: May 23- June 27, 1982 Set in 1914 as the silent screen gained momentum, series follows the trails and tribulations of a brash movie pioneer who began as a traveling film showman and ends by creating his own studio and producing pictures.</pbcoreDescription>
   <pbcoreGenre source="Series Genre">GENRE-1</pbcoreGenre>
   <pbcoreGenre source="Series Genre">GENRE-2</pbcoreGenre>
   <pbcoreGenre source="Series Topic">TOPIC-1</pbcoreGenre>

@@ -1,0 +1,31 @@
+<%= stylesheet_link_tag "locals/treasurycard.css" %>
+<main class="container-fluid" role="main">
+
+  <div class="row treasury-title">
+    <h1>
+      <%= @item.title %>
+    </h1>
+    <% if @item.treasury_url && (@item.episodes? || @item.clips?) %>
+      <a class="treasury-back-link" href="<%= @item.treasury_url %>">Return to <%= @item.treasury_nice_title %></a>
+    <% end %>
+  </div>
+
+  <% if @item.poster_image %>
+    <div class="row treasury-description">
+      <div class="col-md-6">
+        <%= @item.description.html_safe %>
+      </div>
+      <div class="col-md-6">
+        <img src="<%= @item.poster_image %>">
+      </div>
+    </div>
+  <% else %>
+    <div class="row treasury-description">
+      <div class="col-md-12">
+        <%= @item.description.html_safe %>
+      </div>
+    </div>
+  <% end %>
+
+  <%= react_component("TreasurySeasons", { seasons: @item.seasons, listLink: @item.list_link, clipLink: @item.clip_link, seasonsLink: @item.seasons_link, type: @item.type }) %>
+</main>

@@ -26,7 +26,7 @@ provide an intimate and unique record of the accounts of master musicians in
 their own words.
 
 For this research project, I was provided access to audio
-recordings of a number of live interviews conducted by Eric Jackson on his WGBH
+recordings of a number of live interviews conducted by Eric Jackson on his GBH
 show, “Eric In the Evening”. All the interviews were recorded in the 1980’s and
 1990’s and feature some of the greatest musicians of the 20th century, many of
 whom have been honored by the National Endowment for the Arts as Jazz Masters.
@@ -47,12 +47,12 @@ community.
 Over a six month period I spent time listening
 to each interview, taking notes on the various topics and subjects of
 discussion. I then organized and refined the content, ultimately selecting five
-interviews for sharing with the public via the WGBH homepage. The selected
+interviews for sharing with the public via the GBH homepage. The selected
 interviews are Alan Dawson, Roy Haynes, Ahmad Jamal, Sheila Jordan and Arthur
 Taylor Acknowledged masters in their own right, each of the interviews provides
 intriguing reflections on their biographies, views, opinions, thoughts and
 endeavors. I selected the interviews based on the knowledge, history and
-insights each provides that will be of interest to the WGBH listening and
+insights each provides that will be of interest to the GBH listening and
 reading audience. Some themes and topics discussed in the interviews include:
 “Good and bad music," Teaching Tony Williams, The joy of singing, Memories of
 “Bird” and “Prez," the importance of dancers in jazz drum performance history, and the brilliance of Papa Joe Jones.
@@ -65,7 +65,7 @@ Leonard Brown
 
 ## Article
 
-In the history of New England jazz radio personalities, perhaps none loom larger or longer than Eric Jackson.  Beginning in 1969, Eric Jackson hosted multiple jazz radio shows airing from various Boston based radio stations. He moved to WGBH in 1977 as host for “Artists in the Night”.  In 1981, Eric created his own show, “Eric in the Evening”, which now airs on WGBH radio on Friday, Saturday and Sunday nights.
+In the history of New England jazz radio personalities, perhaps none loom larger or longer than Eric Jackson.  Beginning in 1969, Eric Jackson hosted multiple jazz radio shows airing from various Boston based radio stations. He moved to GBH in 1977 as host for “Artists in the Night”.  In 1981, Eric created his own show, “Eric in the Evening”, which now airs on GBH radio on Friday, Saturday and Sunday nights.
 
 For over three decades, Eric has created an outstanding legacy of being one of the most informed, knowledgeable and personable hosts in the history of jazz radio broadcasting.  He exemplifies the jazz radio host who is dedicated to exposing, informing and educating the listening audience to the musicians and their music.  Eric is a researcher, scholar and critical listener of the music. He has been invited to speak and lecture for many organizations and societies throughout the greater Boston, Cambridge and New England region.  For years, he has served as an adjunct professor in the African American Studies Department at Northeastern, where he teaches courses on African American music and Jazz history.  His thorough understanding of the aesthetics of the music along with his deep knowledge of the history of the music and his relationships with the musicians combine to make Eric Jackson a very special person in the legacy of jazz radio personalities and hosts.
 

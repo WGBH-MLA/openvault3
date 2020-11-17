@@ -6,9 +6,9 @@
 
 ## intro
 
-[WGBH Stock Sales](http://wgbhstocksales.org/) is the clip licensing division of the WGBH Media Library and Archives. Stock Sales licenses originally shot WGBH footage and web content to television producers, publishers and professional media organizations. The Stock Sales website features over 10,000 clips and 12 WGBH collections that users can search, browse, and license.
+[GBH Stock Sales](http://wgbhstocksales.org/) is the clip licensing division of the GBH Archives. Stock Sales licenses originally shot GBH footage and web content to television producers, publishers and professional media organizations. The Stock Sales website features over 10,000 clips and 12 GBH collections that users can search, browse, and license.
 
-Search and browse thousands of WGBH clips available to license! Click on the thumbnails below to screen examples:
+Search and browse thousands of GBH clips available to license! Click on the thumbnails below to screen examples:
 
 <div class="document col-md-4 col-sm-6">
     <a href="http://www.wgbhstocksales.org/catalog/GBH00000082001013">

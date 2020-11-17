@@ -1,6 +1,6 @@
 en:
   blacklight:
-    application_name: 'WGBH Openvault'
+    application_name: 'GBH Openvault'
     search:
       zero_results:
         use_fewer_keywords: 'Use fewer terms and check your spelling.'

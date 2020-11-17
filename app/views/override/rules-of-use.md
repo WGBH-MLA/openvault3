@@ -1,7 +1,7 @@
 # Online Reading Room Rules of Use
 
-Open Vault is a project managed by WGBH Educational Foundation ("WGBH"). Open 
-Vault makes accessible significant historical content created by WGBH, and the 
+Open Vault is a project managed by WGBH Educational Foundation ("GBH"). Open 
+Vault makes accessible significant historical content created by GBH, and the 
 Open Vault Online Reading Room (the “ORR”) plays a central role in our mission. 
 In the ORR, you can view and listen digitized archival materials free of 
 charge. We make the ORR and all content therein available in accordance with 
@@ -20,7 +20,7 @@ authorization to use the ORR in our sole discretion at any time.
 
 ## 2. Authorized Uses
 
-**2.a.** The ORR is providing access to materials from WGBH for research, 
+**2.a.** The ORR is providing access to materials from GBH for research, 
 educational, and informational purposes only. Use of the ORR content for any 
 other purpose is unauthorized. You are authorized to use audiovisual content in 
 the ORR for private viewing on a streaming, non-downloadable basis. We make no 
@@ -33,11 +33,11 @@ such as may relate to intellectual property laws and rights of publicity and
 privacy.
 
 **2.c.** You may link to materials from this website without seeking permission as 
-long as you properly credit WGBH as follows: *Title*, *Date*, WGBH, Boston, MA. 
+long as you properly credit GBH as follows: *Title*, *Date*, GBH, Boston, MA. 
 Only other authorized users will be able to follow your link.
 
 **2.d.** If you use the ORR in connection with any research that results in a 
-publication, we request that you credit WGBH in your bibliography (if any) and 
+publication, we request that you credit GBH in your bibliography (if any) and 
 that you include in the citation a unique Open Vault web address for each Open 
 Vault record cited. Open Vault includes many similarly titled materials, so to 
 ensure that future users can easily locate the records you have cited, we 
@@ -59,7 +59,7 @@ and regulations, including intellectual property laws. Privacy, publicity, and
 other personal rights may also apply.
 
 **3.b.** The nature of ORR content often makes it difficult to determine the 
-content’s copyright status. Though WGBH tries when possible to provide 
+content’s copyright status. Though GBH tries when possible to provide 
 information about copyright owners and related matters in
 
 catalog records, finding aids, and other texts that accompany collections or 

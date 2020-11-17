@@ -8,7 +8,7 @@ describe 'Tab Pages' do
     all.each do |tabbed|
       describe tabbed.title do
         "/#{top}/#{tabbed.path}".tap do |target|
-          if target =~ /boston-tv-news|american-archive-of-public-broadcasting|stock-sales/
+          if target =~ /boston-tv-news|american-archive-of-public-broadcasting|stock-sales|alistair-cooke/
             it "doesn't redirect special #{target}" do
               visit target
               expect(page.status_code).to eq(200)

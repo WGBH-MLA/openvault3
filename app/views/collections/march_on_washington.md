@@ -29,7 +29,7 @@ View [project staff and funding](/credits/credits-mow).
 
 ## Listening Guide
 
-In 1963, eight years before National Public Radio hit the airwaves, WGBH and a small network of radio stations dubbed the “Educational Radio Network” (ERN) teamed up to broadcast full, uninterrupted coverage of the March on Washington for Jobs and Freedom. As the march unfolded, quarter-inch tape rolled in Boston, recording speeches by Martin Luther King, Jr., John Lewis of the Student Non-Violent Coordinating Committee, music by Mahalia Jackson and a very young Bob Dylan and Joan Baez, an interview with Marlon Brando and much more…15 hours altogether. These tapes, now in the WGBH Media Library and Archives, are the only complete audio coverage of the broadcast in existence.
+In 1963, eight years before National Public Radio hit the airwaves, GBH and a small network of radio stations dubbed the “Educational Radio Network” (ERN) teamed up to broadcast full, uninterrupted coverage of the March on Washington for Jobs and Freedom. As the march unfolded, quarter-inch tape rolled in Boston, recording speeches by Martin Luther King, Jr., John Lewis of the Student Non-Violent Coordinating Committee, music by Mahalia Jackson and a very young Bob Dylan and Joan Baez, an interview with Marlon Brando and much more…15 hours altogether. These tapes, now in the GBH Archives, are the only complete audio coverage of the broadcast in existence.
 
 This coverage, with transcripts, has been made available to the public in its entirety via [OpenVault’s March on Washington Collection](/collections/march_on_washington/ern-coverage).
 
@@ -55,7 +55,7 @@ When the coverage of the March on Washington began, no one knew whether the day 
 
 **Growing Crowd, Lessening Fear**: For weeks, politicians and the media predicted that the March on Washington would lead to violence. Bill Mauldin, the celebrated political cartoonist for the Chicago Sun-Times, drew a picture of a long line snaking toward Washington, which was labeled as a power keg. Man-on-the-street interviews found Washingtonians apprehensive about the day.
 
-But by the time coverage started on WGBH, early signs pointed to a peaceful, joyous day. The reporters of the Educational Radio Network painted a quotidian portrait of the day’s start. The news was mostly good: Buses and trains rolled into the city in waves. Button sales were brisk. The portable toilets were already proving a good investment.
+But by the time coverage started on GBH, early signs pointed to a peaceful, joyous day. The reporters of the Educational Radio Network painted a quotidian portrait of the day’s start. The news was mostly good: Buses and trains rolled into the city in waves. Button sales were brisk. The portable toilets were already proving a good investment.
 
 **The Grounds**: The March took place on the National Mall between the Washington Monument and the Lincoln Memorial. Early in the planning process, March organizers considered marching down Pennsylvania Avenue, picketing the White House, and besieging Congress and even holding sit-ins in the offices of representatives and senators. But Pennsylvania Avenue would not hold the masses of demonstrators expected to converge on the nation’s capital. And Washington police and federal officials explained that Capitol Hill was off limits.
 
