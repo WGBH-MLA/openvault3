@@ -73,7 +73,7 @@ gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
 gem 'aws-sdk', '~> 2', :group => :development # Unless we want the AWS credentials on Travis for tests...
 
-gem 'rubocop', '0.48.1', :group => :development
+gem 'rubocop', '0.32.1', :group => :development
 gem 'pry', :group => :development
 gem 'pry-nav', :group => :development
 
