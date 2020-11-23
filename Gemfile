@@ -12,7 +12,7 @@ gem 'rails', '4.2.8'
 gem 'sqlite3', '~> 1.3.6'
 # gem 'mysql2', :group => :production
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -46,7 +46,7 @@ gem 'spring', '~> 1.6.3', :group => :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'bootstrap-sass', '3.3.4.1'
+gem 'bootstrap-sass', '3.4.1'
 # TODO: remove when upsteam is fixed.
 # https://github.com/projecthydra/hydra-editor/commit/18737ec2
 gem 'cmless', '1.0.0'
