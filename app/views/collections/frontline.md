@@ -12,3 +12,5 @@ Produced at GBH and distributed through PBS, *FRONTLINE* first debuted in 1983 a
  
 The *FRONTLINE* collection includes programs from the first 15 seasons of the series, including *Abortion Clinic* (1983), profiling a Pennsylvania abortion clinic, women dealing with unplanned pregnancies, and protesters outside; *Memory of the Camps* (1985), the first broadcast of footage created when Allied forces liberated German concentration camps during World War II; *The Choice* (1988), FRONTLINE’s first iteration of this election-year special featuring profiles of presidential candidates George Bush and Michael Dukakis; *Remember My Lai* (1989), an exploration of the Vietnam War massacre in the village of My Lai from the perspectives of American soldiers and Vietnamese survivors; *Decade of Destruction* (1990), a four-part documentary about the battle over the Amazon rainforest; and *Waco: The Inside Story* (1995), about the 1993 siege on the Branch Davidian compound in Waco, Texas. 
 
+## Frontline Programs
+[](http://localhost:3000/catalog?f[special_collections][]=frontline)
