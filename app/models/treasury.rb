@@ -5,7 +5,7 @@ class Treasury
   attr_reader :data
 
   def self.xml_docs
-    Rails.cache.fetch("cooke_xml_records_6") do
+    Rails.cache.fetch("cooke_xml_records_7") do
       # sort all cooke records by date, as xml, so it FAST
       RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: { 'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000' })['response']['docs'].map { |doc| doc['xml'] }.sort_by { |xml| Treasury.broadcast_date_from_xml(xml) }
     end
@@ -13,7 +13,7 @@ class Treasury
 
   def self.generate_list_seasons
     # this takes... a long time
-    Rails.cache.fetch("cooke_list_6") do
+    Rails.cache.fetch("cooke_list_7") do
       @list_seasons = []
 
       # a data structure only a mother could love
