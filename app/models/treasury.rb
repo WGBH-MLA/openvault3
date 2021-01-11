@@ -5,7 +5,7 @@ class Treasury
   attr_reader :data
 
   def self.xml_docs
-    Rails.cache.fetch("cooke_xml_records_8") do
+    Rails.cache.fetch("cooke_xml_records_9") do
       # sort all cooke records by date, as xml, so it FAST
       RSolr.connect(url: 'http://localhost:8983/solr/').get('select', params: { 'q' => "special_collections:alistair-cooke", 'fl' => 'xml', 'rows' => '1000' })['response']['docs'].map { |doc| doc['xml'] }.sort_by { |xml| Treasury.broadcast_date_from_xml(xml) }
     end
@@ -13,7 +13,7 @@ class Treasury
 
   def self.generate_list_seasons
     # this takes... a long time
-    Rails.cache.fetch("cooke_list_8") do
+    Rails.cache.fetch("cooke_list_9") do
       @list_seasons = []
 
       # a data structure only a mother could love
@@ -136,7 +136,7 @@ class Treasury
       end
 
       # storedty redundantly but thats how the cookie catalogs
-      miniseries_description  = minipbs.first ? minipbs.first.miniseries_description : ""
+      miniseries_description = minipbs.first ? minipbs.first.miniseries_description : ""
       @data["description"] = miniseries_description
       @data["seasons"] = []
 
@@ -320,43 +320,43 @@ class Treasury
   end
 
   def title
-    @data["title"]
+    @data["title"] || ""
   end
 
   def type
-    @data["type"]
+    @data["type"] || ""
   end
 
   def poster_image
-    @data["posterImage"]
+    @data["posterImage"] || ""
   end
 
   def description
-    @data["description"]
+    @data["description"] || ""
   end
 
   def list_link
-    @data["listLink"]
+    @data["listLink"] || ""
   end
 
   def clip_link
-    @data["clipLink"]
+    @data["clipLink"] || ""
   end
 
   def seasons_link
-    @data["seasonsLink"]
+    @data["seasonsLink"] || ""
   end
 
   def seasons
-    @data["seasons"]
+    @data["seasons"] || ""
   end
 
   def treasury_url
-    @data["treasury_url"]
+    @data["treasury_url"] || ""
   end
 
   def treasury_nice_title
-    @data["treasury_nice_title"]
+    @data["treasury_nice_title"] || ""
   end
 
   def self.treasury_series

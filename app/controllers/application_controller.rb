@@ -25,8 +25,4 @@ class ApplicationController < ActionController::Base
     new_url = self.class.redirect_map.lookup(request.fullpath)
     redirect_to new_url unless new_url.nil?
   end
-
-  def render_404
-    render file: 'public/404.html', status: :not_found
-  end
 end

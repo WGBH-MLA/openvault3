@@ -26,5 +26,8 @@ module Xyz
     config.exceptions_app = routes
 
     config.action_controller.page_cache_directory = "#{Rails.root}/public/deploy"
+
+    # defined custom error pages in routes.rb
+    config.exceptions_app = self.routes
   end
 end

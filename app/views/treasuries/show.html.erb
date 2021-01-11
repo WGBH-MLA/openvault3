@@ -10,7 +10,7 @@
     <% end %>
   </div>
 
-  <% if @item.poster_image %>
+  <% if @item.poster_image && @item.description %>
     <div class="row treasury-description">
       <div class="col-md-6">
         <%= @item.description.html_safe %>
