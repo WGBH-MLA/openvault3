@@ -124,8 +124,7 @@ describe 'Catalog' do
     end
 
     it 'Gives 404 for bad query' do
-      
-      expect{visit '/catalog?f[access]='}.to raise_error(ActionController::RoutingError)
+      expect { visit '/catalog?f[access]=' }.to raise_error(ActionController::RoutingError)
     end
   end
 
@@ -154,8 +153,7 @@ describe 'Catalog' do
     end
 
     it 'Gives 404 for bad item' do
-      
-      expect{ visit '/catalog/nope' }.to raise_error(ActionController::RoutingError)
+      expect { visit '/catalog/nope' }.to raise_error(ActionController::RoutingError)
     end
   end
 end

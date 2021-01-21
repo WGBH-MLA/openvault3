@@ -5,8 +5,8 @@ class OverrideController < ApplicationController
     params[:path] = nil # search widget grabs ALL parameters.
     render :show
   end
- 
+
   rescue_from Cmless::Cmless::Error do
-    raise ActionController::RoutingError.new("Not Found")
+    fail ActionController::RoutingError.new("Not Found")
   end
 end

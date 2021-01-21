@@ -5,6 +5,8 @@ AllCops:
     - 'vendor/**/*' # Travis puts stuff here.
 Style/StringLiterals:
   Enabled: false
+Style/SignalException:
+  Enabled: false  
 Metrics/MethodLength:
   Enabled: false
 Metrics/LineLength:

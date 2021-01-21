@@ -21,7 +21,7 @@ class PBCore
     @miniseries_title ||= xpath_optional('/*/pbcoreTitle[@titleType="Miniseries"]')
   end
   def miniseries_description
-    @miniseries_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Miniseries Description"]') 
+    @miniseries_description ||= xpath_optional('/*/pbcoreDescription[@descriptionType="Miniseries Description"]')
   end
   def season_number
     @season_number ||= xpath_optional('/*/pbcoreTitle[@titleType="Season"]')
