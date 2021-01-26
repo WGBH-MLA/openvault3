@@ -23,8 +23,9 @@ module Xyz
     config.autoload_paths << Rails.root.join('lib')
     config.middleware.use('RedirectMiddleware')
 
-    config.exceptions_app = routes
-
     config.action_controller.page_cache_directory = "#{Rails.root}/public/deploy"
+
+    # defined custom error pages in routes.rb
+    config.exceptions_app = routes
   end
 end

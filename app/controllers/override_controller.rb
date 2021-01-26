@@ -6,5 +6,7 @@ class OverrideController < ApplicationController
     render :show
   end
 
-  rescue_from Cmless::Cmless::Error, with: :render_404
+  rescue_from Cmless::Cmless::Error do
+    fail ActionController::RoutingError.new("Not Found")
+  end
 end

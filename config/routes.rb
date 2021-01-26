@@ -39,6 +39,10 @@ Rails.application.routes.draw do
 
   get 'robots', to: 'robots#show'
 
+  # map error routes directly to error partials
+  get '/404', to: 'errors#not_found'
+  get '/500', to: 'errors#internal_error'
+
   override_constraints = lambda do |req|
     !req.params['path'].to_s.match(/^rails/)
   end

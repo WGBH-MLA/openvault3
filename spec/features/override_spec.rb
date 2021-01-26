@@ -14,7 +14,6 @@ describe 'Overrides' do
     end
 
   it 'Gives 404 for no such page' do
-    visit '/nothing/here'
-    expect(page.status_code).to eq(404)
+    expect { visit '/nothing/here' }.to raise_error(ActionController::RoutingError)
   end
 end

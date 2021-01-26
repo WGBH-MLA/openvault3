@@ -22,8 +22,7 @@ describe 'Tab Pages' do
             end
           end
           it 'Gives 404 for bad tab' do
-            visit target + '/bad'
-            expect(page.status_code).to eq(404)
+            expect { visit target + '/bad' }.to raise_error(ActionController::RoutingError)
           end
         end
         (tabbed.tabs.keys - %w(intro extra)).each do |path|
@@ -41,8 +40,7 @@ describe 'Tab Pages' do
 
   %w(exhibit collection).each do |base|
     it "Gives 404 for bad #{base}" do
-      visit "/#{base}/bad"
-      expect(page.status_code).to eq(404)
+      expect { visit "/#{base}/bad" }.to raise_error(ActionController::RoutingError)
     end
   end
 end
