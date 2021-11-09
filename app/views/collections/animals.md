@@ -6,15 +6,16 @@
 
 ## intro
 
-The WGBH Animals collection is a collection of approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation. 
+The GBH Animals collection is a collection of approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation. 
 
 ### Background
-In 1962, with the publication of Rachel Carson’s seminal book “Silent Spring”, 
-the global grassroots environmental movement was born.  “Silent Spring” sparked a revolution in government environmental policy and became instrumental in creating a new ecological and environmental consciousness.  It also gave rise to the conservation movement, which includes animal conservation along with nature, marine and environmental conservation - all four are inextricably intertwined.
 
-In 1966 the first Endangered Species Act was passed, which is often touted as the most significant conservation legislation ever enacted in the US.  The legislation authorized the Secretary of the Interior to list endangered domestic fish and wildlife and allotted $15 million a year in the protection of such species.
+In 1962, with the publication of Rachel Carson’s seminal book “Silent Spring”, the global grassroots environmental movement was born.  “Silent Spring” sparked a revolution in government environmental policy and became instrumental in creating a new ecological and environmental consciousness.  It also gave rise to the conservation movement, which includes animal conservation along with nature, marine and environmental conservation - all four are inextricably intertwined.
 
-In 1973, the revised Endangered Species Act was passed, which restructured the 1966 Act and directed the U.S. Fish and Wildlife Service and the NOAA to carry out its stipulations.
+In 1966 the first **Endangered Species Act** was passed, which is often touted as the most significant conservation legislation ever enacted in the US.  The legislation authorized the Secretary of the Interior to list endangered domestic fish and wildlife and allotted $15 million a year in the protection of such species.
+
+In 1973, the revised **Endangered Species Act** was passed, which restructured the 1966 Act and directed the U.S. Fish and Wildlife Service and the NOAA to carry out its stipulations.
+
 The stated purpose of the Endangered Species Act is to protect species and "the ecosystems upon which they depend." It also prohibited the importing, exporting, taking, possessing, selling, and transporting of such species. It provided that the land necessary for the survival of the species should be protected as a “critical habitat”, making it now illegal to destroy wildlife habitats.  
 
 That same year, 1973, was also the year that WGBH started broadcasting its first series on animals and animal conservation. “Walsh’s Animals” was a series created with the Massachusetts) Society for Prevention of Cruelty to Animals.  The host, John Walsh was a committed animal conservationist with the World Society for the Protection of Animals.  Every week on “Walsh’s Animals” he focused on both domestic and wild animals, in an effort to provide people with information to help save endangered wildlife and to correct domestic abuses.  “Walsh’s Animals” was the first series of its kind to be shown on television and made Walsh into one of television’s first “reality” stars. 
@@ -31,10 +32,9 @@ In 1993 and again in 2017, WGBH produced a documentary on Rachel Carson as part 
 
 In 2001, WGBH produced the acclaimed “Evolution” series.  Three programs from this series, “Great Transformations”, “Extinction” and “The Evolutionary Arms Race” focus on animals.   These programs offer fascinating information about animal species and the “tree of life” (such as whale evolution), the five mass extinctions that have occurred over the life of the planet and how survival of the fittest works in animal evolution.  
 
-From 2000-2020 NOVA produced several more dog programs including “Dogs and More Dogs” (2004),  “How Smart are Dogs” (2011),  “What are Animals Saying” in 2018 and most recently in 2020, “Dog Tales”.
-The remarkable three-part WGBH series “RARE: Creatures of the Photo Ark” aired in 2017 and featured National Geographic photographer Joel Sartore who traveled the globe to save and beautifully photograph thousands of animal species at risk of extinction.    Joel Sartore’s mission is to get “people to care, to fall in love, to take action” to preserve these amazing creatures.  The series won the “Best Conservation Film” award in 2018.  Episodes and further information can be seen here https://www.pbs.org/wgbh/rare/
-![image](https://user-images.githubusercontent.com/5992135/140981652-bd0c77c7-1a48-4d04-ab4b-75e18ce83a8d.png)
+From 2000-2020 NOVA produced several more dog programs including “Dogs and More Dogs” (2004), “How Smart are Dogs” (2011), “What are Animals Saying” in 2018 and most recently in 2020, “Dog Tales”.
 
+The remarkable three-part WGBH series “RARE: Creatures of the Photo Ark” aired in 2017 and featured National Geographic photographer Joel Sartore who traveled the globe to save and beautifully photograph thousands of animal species at risk of extinction. Joel Sartore’s mission is to get “people to care, to fall in love, to take action” to preserve these amazing creatures.  The series won the “Best Conservation Film” award in 2018.  Episodes and further information can be seen at https://www.pbs.org/wgbh/rare/.
 
 ## Interviews
 
