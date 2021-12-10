@@ -41,9 +41,9 @@ From 2000-2020 NOVA produced several more dog programs including “Dogs and Mor
 
 The remarkable three-part WGBH series “RARE: Creatures of the Photo Ark” aired in 2017 and featured National Geographic photographer Joel Sartore who traveled the globe to save and beautifully photograph thousands of animal species at risk of extinction. Joel Sartore’s mission is to get “people to care, to fall in love, to take action” to preserve these amazing creatures.  The series won the “Best Conservation Film” award in 2018.  Episodes and further information can be seen at https://www.pbs.org/wgbh/rare/.
 
-## Interviews
+## Programs
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=animals)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=animals_program)
 
 ## Related Content
 
