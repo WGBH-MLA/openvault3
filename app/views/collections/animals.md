@@ -24,7 +24,7 @@ That same year, 1973, was also the year that WGBH started broadcasting its first
   <tr>
     <td>
       <img src="https://s3.amazonaws.com/openvault.wgbh.org/special_collections/animals/Walsh_and_wolf_2.jpeg" class="big-image" alt="John Walsh of Walsh's Animals with a wolf"/>
-      <caption align="bottom" class="exhibit-caption">John Walsh of _Walsh's Animals_ with a wolf. <a style="display: block;" href="/catalog?f%5Baccess%5D%5B%5D=All+Records&q=%22walsh%27s+animals%22" target="_blank">See episodes of _Walsh's Animals_</a></caption>
+      <caption align="bottom" class="exhibit-caption">John Walsh of <em>Walsh's Animals</em> with a wolf. <a style="display: block;" href="/catalog?f%5Baccess%5D%5B%5D=All+Records&q=%22walsh%27s+animals%22" target="_blank">See episodes of <em>Walsh's Animals</em></a></caption>
     </td>
   </tr>
 </table>
