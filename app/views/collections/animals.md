@@ -6,7 +6,7 @@
 
 ## intro
 
-The GBH Animals collection is a collection of approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation. 
+Made possible through a generous gift from a donor as part of the GBH Media Library and Archives NEH Challenge grant, the GBH Animals collection includes approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation. 
 
 ### Background
 
@@ -37,7 +37,7 @@ Frontline produced several programs on the ethical treatment of animals includin
 
 In 1990, WGBH produced the seminal environmental series “Race to Save the Planet”.  One episode in particular, “Remnants of Eden” explored the possibility that, unless immediate action were taken, this generation might preside over a biological mass extinction of half the species on Earth today.  The program featured several exceptional ecological park management projects which managed to both save species and provide economic self-sufficiency to the human population.  These conservation parks included Amboseli Park in Kenya, where the Arabian oryx were successfully returned, Khao Yai Park in Thailand (where we see a hornbill being tagged to track and determine its feeding range) and the Everglades in the US, where the wetlands are being been restored.  
 
-In 1993 and again in 2017, WGBH produced a documentary on Rachel Carson as part of its “American Experience” historical series.  Carson was a consulting biologist for the federal government’s Fish and Wildlife Department when she first took note of the unregulated use of pesticides and herbicides--especially DDT—and wrote about how the widespread use of these chemicals destroyed wildlife habitats and threatened human communities.   She predicted a future of spring seasons where no birds would be heard unless action was taken.   
+In 1993 and again in 2017, WGBH produced [a documentary on Rachel Carson](https://www.pbs.org/wgbh/americanexperience/films/rachel-carson/) as part of its “American Experience” historical series.  Carson was a consulting biologist for the federal government’s Fish and Wildlife Department when she first took note of the unregulated use of pesticides and herbicides--especially DDT—and wrote about how the widespread use of these chemicals destroyed wildlife habitats and threatened human communities.   She predicted a future of spring seasons where no birds would be heard unless action was taken.   
 
 In 2001, WGBH produced the acclaimed “Evolution” series.  Three programs from this series, “Great Transformations”, “Extinction” and “The Evolutionary Arms Race” focus on animals.   These programs offer fascinating information about animal species and the “tree of life” (such as whale evolution), the five mass extinctions that have occurred over the life of the planet and how survival of the fittest works in animal evolution.  
 
