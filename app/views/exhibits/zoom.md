@@ -7,6 +7,9 @@
 
 ## intro
 
+
+[In celebration of ZOOM's 50th anniversary in January 2022, the American Archive of Public Broadcasting has launched a new and updated version of this exhibit!](https://americanarchive.org/exhibits/zoom/)
+
 From 1972 through 1978, GBH produced one of the nation’s most celebrated and
 best-loved children’s television shows, *ZOOM*. Aimed at an audience of children
 from about seven to twelve years of age, *ZOOM* reached millions through the
