@@ -14,6 +14,11 @@ Rails.application.routes.draw do
   get 'collections', to: 'collections#index'
   get 'collections/:id(/:tab)', to: 'collections#show'
 
+
+
+  
+  match 'exhibits/zoom' => redirect('https://americanarchive.org/exhibits/zoom'), via: [:get]
+  match 'exhibits/zoom/*path' => redirect('https://americanarchive.org/exhibits/zoom'), via: [:get]
   get 'exhibits', to: 'exhibits#index'
   get 'exhibits/:id(/:tab)', to: 'exhibits#show'
 
