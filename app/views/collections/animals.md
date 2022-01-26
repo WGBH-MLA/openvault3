@@ -6,7 +6,7 @@
 
 ## intro
 
-Made possible through a generous gift from a donor as part of the GBH Media Library and Archives NEH Challenge grant, the GBH Animals collection includes approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation. 
+Made possible through generous support from the Candis J. Stern Foundation and the Fliesbach Family Foundation as part of the GBH Media Library and Archives NEH Challenge grant, the GBH Animals collection includes approximately 95 WGBH programs from 1973-2020 featuring interviews, program excerpts and original footage on the topic of Animals and Animal Conservation.
 
 ### Background
 
