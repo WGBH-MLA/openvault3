@@ -11,17 +11,17 @@
     <% end %>
   <% end %>
 
+  <% if !@pbcore.digitized? %>
+    <p>
+      This program cannot be made available on Open Vault.
+    </p>
+  <% end %>
+
   <% if @pbcore.this_isnt_all? %>
     <p>
       More material may be available from this program at the GBH Archives.
       If you are a researcher interested in accessing the collection at GBH,
       please email <a href="mailto:archive_requests@wgbh.org">archive_requests@wgbh.org</a>.
-    </p>
-  <% end %>
-
-  <% if !@pbcore.digitized? %>
-    <p>
-      This program has not been digitized yet or cannot be made available on Open Vault.
     </p>
   <% end %>
 
