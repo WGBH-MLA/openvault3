@@ -11,10 +11,8 @@ A donation directly enables us to:
 
 GBH is a 501(c)(3) nonprofit organization. All donations are tax deductible. 
 
-On your credit card statement, you'll see your donation withdrawn by Kimbia.
-
 ## Make a Donation Now
-To donate by credit card, enter the required information below. If you wish to pay by check, please make it payable to "WGBH Educational Foundation" and mail your donation to:
+If you wish to pay by check, please make it payable to "WGBH Educational Foundation" and mail your donation to:
 
 Open Vault Donations c/o Karen Cariani<br/>
 Media Library and Archives<br/>
@@ -23,5 +21,3 @@ One Guest Street<br/>
 Boston, MA 02135
 
 Thank you for your support!
-
-<script src='https://widgets.kimbia.com/widgets/formChooser.js?id=32AFJU3'></script>
