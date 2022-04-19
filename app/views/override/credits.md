@@ -10,26 +10,26 @@ The National Endowment for the Humanities (NEH) issued a challenge grant to GBH 
 
 Major funding for the Digital Infrastructure Project is provided by:
 
-Linda and Andrew Egendorf
-Barbara and Amos Hostetter
-Charles and Lucille King Family Foundation Inc.
-Lia and William Poorvu
-Ruettgers Family Charitable Foundation
+Linda and Andrew Egendorf<br>
+Barbara and Amos Hostetter<br>
+Charles and Lucille King Family Foundation Inc.<br>
+Lia and William Poorvu<br>
+Ruettgers Family Charitable Foundation<br>
 
 Additional funding for the Digital Infrastructure Project is provided by:
 
-Steve Duckworth
-Richard Ferrante
-Fliesbach Family Foundation
-Gandrud Foundation
-Ann and Graham Gund
-Rosemarie Torres Johnson
-Sara Lawrence-Lightfoot
-Brian A. McCarthy Foundation
-Slocumb and E. Lee Perry
-Myrna Putziger
-Henry M. Rines
-Candis J. Stern Foundation 
+Steve Duckworth<br>
+Richard Ferrante<br>
+Fliesbach Family Foundation<br>
+Gandrud Foundation<br>
+Ann and Graham Gund<br>
+Rosemarie Torres Johnson<br>
+Sara Lawrence-Lightfoot<br>
+Brian A. McCarthy Foundation<br>
+Slocumb and E. Lee Perry<br>
+Myrna Putziger<br>
+Henry M. Rines<br>
+Candis J. Stern Foundation<br>
 
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
