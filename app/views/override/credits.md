@@ -1,4 +1,36 @@
-# Open Vault Credits
+# Funders and Credits
+
+## Digital Infrastructure Project
+
+The Digital Infrastructure Project has been made possible in part by a major grant from the [National Endowment for the Humanities](https://www.neh.gov/): Democracy demands wisdom.
+
+[![](https://s3.amazonaws.com/openvault.wgbh.org/logos/NEH-Preferred-Seal820.jpg)](https://www.neh.gov)
+
+The National Endowment for the Humanities (NEH) issued a challenge grant to GBH Media Library and Archives in 2018 in support of the Digital Infrastructure Project to preserve and digitize the most at-risk items in the GBH archival collection, specifically 83,000 media resources. This effort will preserve the archive we have built and ensure that future media assets are properly preserved as they are created. 
+
+Major funding for the Digital Infrastructure Project is provided by:
+
+Linda and Andrew Egendorf
+Barbara and Amos Hostetter
+Charles and Lucille King Family Foundation Inc.
+Lia and William Poorvu
+Ruettgers Family Charitable Foundation
+
+Additional funding for the Digital Infrastructure Project is provided by:
+
+Steve Duckworth
+Richard Ferrante
+Fliesbach Family Foundation
+Gandrud Foundation
+Ann and Graham Gund
+Rosemarie Torres Johnson
+Sara Lawrence-Lightfoot
+Brian A. McCarthy Foundation
+Slocumb and E. Lee Perry
+Myrna Putziger
+Henry M. Rines
+Candis J. Stern Foundation 
+
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 
