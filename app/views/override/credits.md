@@ -1,6 +1,8 @@
 # Funders and Credits
 
-#### Digital Infrastructure Project
+<br>
+
+### Digital Infrastructure Project
 
 The Digital Infrastructure Project has been made possible in part by a major grant from the [National Endowment for the Humanities](https://www.neh.gov/): Democracy demands wisdom.
 
