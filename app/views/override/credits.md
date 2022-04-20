@@ -1,6 +1,6 @@
 # Funders and Credits
 
-## Digital Infrastructure Project
+#### Digital Infrastructure Project
 
 The Digital Infrastructure Project has been made possible in part by a major grant from the [National Endowment for the Humanities](https://www.neh.gov/): Democracy demands wisdom.
 
@@ -31,6 +31,7 @@ Myrna Putziger<br>
 Henry M. Rines<br>
 Candis J. Stern Foundation<br>
 
+---
 
 [![](https://s3.amazonaws.com/openvault.wgbh.org/logos/IMLS.jpg)](http://www.imls.gov)
 
