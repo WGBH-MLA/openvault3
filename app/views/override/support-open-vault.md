@@ -15,7 +15,9 @@ Sustain Open Vault technical infrastructure so that we can continue to provide o
 GBH is a 501(c)(3) nonprofit organization. All donations are tax deductible.
 
 Make a Donation Now
+
 <iframe src="https://api.payaconnect.com/hostedpaymentpage?id=11ed11d177ecde90ae1ced45&data=U2FsdGVkX18xMWVkMTFkMT98lDM2IcMjGWeQ%2ByxT5G4sMzxYs%2F8wxnpJUrV2pwGPzZ79umhpPhQfkOk9FJzvjA%3D%3D" height="500" width="auto" title="Iframe Example"></iframe>
+
 If you wish to pay by check, please make it payable to "WGBH Educational Foundation" and mail your donation to:
 
 Open Vault Donations c/o Karen Cariani
