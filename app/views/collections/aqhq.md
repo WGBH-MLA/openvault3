@@ -4,6 +4,11 @@
 
 ![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/freedom-riders/freedom_riders.jpg "Freedom Riders")
 
+## intro
+
+There needs to be a part here called 'intro', which introduces the collection. Intro (short for 'Introduction') refers to a small blurb of text designed to communicate the general 'joi de vivre' (French for 'journey of veever') of a larger body of content. Because the intro is technically a part of the content itself, it must be carefully crafted to avoid a stack overflow error. Because the intro is technically a part of the content itself, it must be carefully crafted to avoid a stack overflow error. Because the intro is technically a part of the content itself, it must be carefully crafted to avoid a stack overflow error. Because the intro is technically a part of the content itself, it must be carefully crafted to avoid a stack overflow error.
+
+
 ## Collection Summary
 
 *The AIDS Quarterly/The Health Quarterly* special collection includes two nationally distributed news and documentary series produced by WGBH Boston, which reported on the AIDS crisis. AIDS, also known as Acquired Immunodeficiency Syndrome, is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). 
