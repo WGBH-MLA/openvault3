@@ -19,9 +19,9 @@
 
 Items in *The AIDS Quarterly/The Health Quarterly* collection were recorded and produced by WGBH Boston. *The AIDS Quarterly* and *The Health Quarterly* series were funded by PBS and a grant from the Robert Wood Johnson Foundation. The materials were digitized with a grant from the National Endowment of the Humanities Challenge Grant and then submitted to GBH Open Vault and the American Archive of Public Broadcasting in 2023.
 
-## Records
+## Programs
 
-[](http://localhost:3000/catalog?f[special_collection_tags][]=aqhq)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=aqhq_programs)
 
 ## Other Resources
 
