@@ -11,13 +11,13 @@
 
 ## Collection Summary
 
-*The AIDS Quarterly*, produced 1988-1991, featured eight programs presented in an hour-long magazine format. Hosted by Peter Jennings (ABC News), the series reported on the deadly AIDS crisis in the United States and internationally. The programs interwove documentary segments, news, interviews, commentary and analysis with personal stories. Key participants included Dr. Anthony Fauci (Former Director of the National Institute of Allergy and Infectious Diseases (NIAID), Dr. Louis Sullivan (Former United States Secretary of Health and Human Services), Joseph Califano Jr. (Former United States Secretary of Health, Education, and Welfare), as well as patients with AIDS/HIV, family members, doctors, researchers, and scholars.
+*The AIDS Quarterly*, produced 1988–1991, featured eight programs presented in an hour-long magazine format. Hosted by Peter Jennings, the series reported on the deadly AIDS crisis in the United States and internationally. The programs interwove documentary segments, news, interviews, commentary and analysis with personal stories. Key participants included Dr. Anthony Fauci (Former Director of the National Institute of Allergy and Infectious Diseases), Dr. Louis Sullivan (Former United States Secretary of Health and Human Services), Joseph Califano Jr. (Former United States Secretary of Health, Education, and Welfare), as well as patients with AIDS/HIV, family members, doctors, researchers, and scholars.
 
-*The Health Quarterly* series, produced 1991-1993, was presented in similar magazine style format. Hosted by Peter Jennings and Roger Mudd, (CBS, PBS) *The Health Quarterly* consisted of 10 programs. The series examined the social, political and personal impact of America's healthcare system and explored issues such as the cost of health care, the uninsured, and healthcare legislation history. Key interviews included Senator Edward Kennedy, Congressman Henry Waxman, and Health economist Dr. Stuart Altman, among others.
+*The Health Quarterly*, produced 1991–1993, was presented in similar magazine style format. Hosted by Peter Jennings and Roger Mudd, *The Health Quarterly* consisted of ten programs. The series examined the social, political and personal impact of America’s healthcare system and explored issues such as the cost of health care, the uninsured, and healthcare legislation history. Key interviews included Senator Edward Kennedy, Congressman Henry Waxman, and Health economist Dr. Stuart Altman, among others.
 
 ## Collection Background
 
-Items in *The AIDS Quarterly/The Health Quarterly* collection were recorded and produced by WGBH Boston. *The AIDS Quarterly* and *The Health Quarterly* series were funded by PBS and a grant from the Robert Wood Johnson Foundation. The materials were digitized with a grant from the National Endowment of the Humanities Challenge Grant and then submitted to GBH Open Vault and the American Archive of Public Broadcasting in 2023.
+Items in *The AIDS Quarterly/The Health Quarterly* collection were recorded and produced by WGBH Boston. *The AIDS Quarterly* and *The Health Quarterly* series were produced for PBS with a grant from the Robert Wood Johnson Foundation. The materials were digitized with a grant from the National Endowment of the Humanities and added to GBH Open Vault in 2023. 
 
 ## Programs
 
