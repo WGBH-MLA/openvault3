@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
+    <%= render partial: 'shared/gtag_head' %>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <%= stylesheet_link_tag "application", media: "all" %>
@@ -8,6 +9,7 @@
     <%= csrf_meta_tags %>
   </head>
   <body class="plain">
+    <%= render partial: 'shared/gtag_body' %>
     <%= yield %>
   </body>
 </html>
