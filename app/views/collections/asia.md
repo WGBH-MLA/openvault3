@@ -2,8 +2,9 @@
 
 16
 
+![]( https://s3.amazonaws.com/openvault.wgbh.org/special_collections/1964/1964.jpg "1964")
 
-## Collection Summary
+## intro
 
 Since the 1970’s, GBH has produced multiple programs and series on Asian history, peoples, and culture. When broadcast, these shows allowed US viewers - in many cases, for the first time - to explore historical events and life in the countries of China, Vietnam, Japan, Korea, Taiwan, and Tibet. The Stories of East Asia collection focuses specifically on the countries of Eastern and Southeastern Asia, and includes documentary programs along with a wealth of associated interviews, outtakes, and archival raw footage.
 
