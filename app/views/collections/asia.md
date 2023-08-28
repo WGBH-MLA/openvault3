@@ -29,6 +29,8 @@ Additional materials related to East and South East Asia that are not available 
 ## Programs
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=asia-programs)
+[](http://localhost:3000/catalog?f[special_collection_tags][]=asia-interviews)
+
 
 ## Other Resources
 
