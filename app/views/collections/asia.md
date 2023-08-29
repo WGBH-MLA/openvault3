@@ -2,7 +2,7 @@
 
 16
 
-![]( https://s3.amazonaws.com/openvault.wgbh.org/special_collections/1964/1964.jpg "1964")
+![]( https://s3.amazonaws.com/openvault.wgbh.org/special_collections/asia/China+Revolution!.png "asia")
 
 ## Intro
 
