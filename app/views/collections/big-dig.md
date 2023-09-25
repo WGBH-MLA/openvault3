@@ -1,4 +1,4 @@
-# The Big Dig Collection
+# The Big Dig
 
 4
 
