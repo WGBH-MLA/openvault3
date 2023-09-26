@@ -27,7 +27,7 @@ The media in this collection was digitized with funding from the National Endowm
 [](http://localhost:3000/catalog?f[special_collection_tags][]=big-dig-additional)
 
 ## Other Resources
-
+- [_The Big Dig: A Study in American infrastructure_](https://www.wgbh.org/podcasts/the-big-dig)
 - [The Big Dig - Massachusetts Department of Transportation](https://www.mass.gov/the-big-dig)
 - [The Big Dig: Project Background - Massachusetts Department of Transportation](https://www.mass.gov/info-details/the-big-dig-project-background)
 - [Big Dig Documents - State Library of Massachusetts](https://archives.lib.state.ma.us/handle/2452/35325)
