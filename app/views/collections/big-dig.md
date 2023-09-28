@@ -10,7 +10,7 @@ _The Big Dig: A Study in American infrastructure_ podcast draws from hundreds of
 
 These materials trace the long emotional arc of the Big Dig – from a longshot idea and historic undertaking, to a subject of scrutiny and outrage. We can see governor Michael Dukakis proposing the project to the public for the first time, backed by a row of maps and renderings. And we can see Mayor Tom Menino cutting the ribbon decades later, even as controversy swirls.
 
-To learn more about the podcast and find out how to listen, go to [The Big Dig podcast page](https://www.wgbh.org/podcasts/the-big-dig) on WGBH.org.
+To learn more about the podcast and find out how to listen, go to [_The Big Dig_ podcast page](https://www.wgbh.org/podcasts/the-big-dig) on WGBH.org.
 
 ## Collection Background
 
