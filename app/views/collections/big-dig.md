@@ -2,7 +2,7 @@
 
 4
 
-![](s3://openvault.wgbh.org/special_collections/big-dig/big-dig.jpg "Car traffic headed into Boston with skyline in background")
+![](https://s3.amazonaws.com/openvault.wgbh.org/special_collections/big-dig/big-dig.jpg "Car traffic headed into Boston with skyline in background")
 
 ## intro
 
