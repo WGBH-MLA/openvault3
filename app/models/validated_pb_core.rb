@@ -52,7 +52,8 @@ class ValidatedPBCore < PBCore
         'Special Collection Tag',
         'Special Collection',
         'Thumbnail',
-        'Transcript'])
+        'Transcript',
+        'Edit Note'])
     return if errors.empty?
     fail 'Attribute validation errors: ' + errors.join("\n")
   end
