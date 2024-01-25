@@ -7,7 +7,8 @@ class RobotsController < ApplicationController
           if request.host == REAL_HOST
             <<EOF
 User-agent: *
-Disallow: /catalog?
+Disallow: /catalog
+Allow: /catalog/
 Disallow: /plain/
 EOF
           else
