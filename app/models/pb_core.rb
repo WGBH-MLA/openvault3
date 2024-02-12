@@ -207,7 +207,7 @@ class PBCore
   end
 
   AAPB_RE = /^https:\/\/americanarchive.org\//
-  NEWS_RE = /^https:\/\/bostonlocaltv.org\//
+  NEWS_RE = /^http:\/\/bostonlocaltv.org\//
   def outside_url
     @outside_url ||=
       xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]')
