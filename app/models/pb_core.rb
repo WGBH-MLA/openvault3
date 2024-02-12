@@ -207,7 +207,7 @@ class PBCore
   end
 
   AAPB_RE = /^https:\/\/americanarchive.org\//
-  NEWS_RE = /^http:\/\/bostonlocaltv.org\//
+  NEWS_RE = /^https:\/\/bostonlocaltv.org\//
   def outside_url
     @outside_url ||=
       xpath_optional('/*/pbcoreAnnotation[@annotationType="Outside URL"]')
@@ -219,7 +219,8 @@ class PBCore
   end
   def boston_tv_news_url
     @boston_tv_news_url ||= begin
-      outside_url if outside_url && outside_url.match(NEWS_RE)
+      # metadata has http protocol in link, but bltv has https
+      outside_url.gsub("http://", "https://") if outside_url && outside_url.match(NEWS_RE)
     end
   end
 
