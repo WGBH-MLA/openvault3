@@ -14,12 +14,12 @@ Over 100 episodes of _The French Chef_ can be seen on the official [Julia Child 
 
 ## Collection Background
 
-**_The French Chef_ – 1962-1973**
+**_The French Chef_ (1962–1973)**
 
 Between 1962-1972, approximately 300 episodes of _The French Chef_ were broadcast. 
 Series 1 of _The French Chef_ was broadcast from 1963-1966 and was originally shot in the WGBH studio in black and white with over 100 episodes. _The French Chef_ series continued with Series 2 in 1970; it was shot in color and featured Julia Child's summer trip to France. Series 3, shot in 1972, offered French culinary classics and programs which focused on the theme of the "French Chef faces real life" with episodes like _Sudden Company_. 
 
-**Joyce Chen, Theonie, The Romagnolis, Beatrice Trum Hunter – 1966-1975**
+**Joyce Chen, Theonie, The Romagnolis, Beatrice Trum Hunter (1966–1975)**
 
 The _Joyce Chen Cooks_ 26-part series featured Chinese chef, cookbook author, and local restauranteur Joyce Chen who introduced a more exotic cuisine to the American public, including Peking Ravioli. Shot on the same set as _The French Chef_ with the same producer, _Joyce Chen Cooks_ did not continue beyond the first season. However, a one-off special was produced in 1973, entitled _Joyce Chen's China_ which chronicled Joyce Chen and her children's visit to the People's Republic of China in 1973.
 
@@ -29,7 +29,7 @@ _The Romagnolis Table_ was the next cooking series produced by WGBH which ran fr
 
 In 1973, WGBH produced 16 short "fillers" with cookbook author Beatrice Trum Hunter who focused on the natural food craze that prevailed in the 1970s. These fillers were broadcast in between longer WGBH programs. Beatrice Trum Hunter was credited with writing the first natural food cookbook in 1961 and another natural food cookbook in 1972. Her short videos were 2-3 minutes in length and aired in between longer programs first on WGBH, then on national public television. In them, Ms. Hunter covered such topics as how to grow bean sprouts, healthy snacks, and nutrition. 
 
-**Julia Child, Martha Stewart, and Yara Roberts – 1975-1993**
+**Julia Child, Martha Stewart, and Yara Roberts (1978–1993)**
 
 In 1978, Julia Child officially returned to WGBH and public television after a five-year hiatus with _Julia Child and Company_, and _Julia Child and More Company_ (1978-1980). The new series presented an entire menu to viewers instead of just one recipe. The menus drew from a wide variety of cooking traditions, including New England fare, stir fries, and homemade pasta. Each of these series had 13 programs. 
 
