@@ -51,6 +51,10 @@ Finally, in 1993, WGBH launched a new series, _Cooks Tour_, with host Yara Rober
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=cooking-theonie)
 
+## Theonie's Greek Easter
+
+[](http://localhost:3000/catalog?f[special_collection_tags][]=cooking-theonie-easter)
+
 ## The Romagnolis' Table
 
 [](http://localhost:3000/catalog?f[special_collection_tags][]=cooking-romagnolis)
