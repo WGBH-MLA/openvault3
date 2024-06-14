@@ -89,3 +89,4 @@ Finally, in 1993, WGBH launched a new series, _Cooks Tour_, with host Yara Rober
 
 ## Credits
 
+The GBH Cooking Collection was made possible through the generous support from donors as part of the GBH Archives NEH Challenge grant. Most programs in this collection were digitized between 2020 and 2024. Collection introduction and background written by Alison Smith.
