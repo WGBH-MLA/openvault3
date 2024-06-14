@@ -19,7 +19,7 @@ Over 100 episodes of _The French Chef_ can be seen on the official [Julia Child 
 Between 1962-1972, approximately 300 episodes of _The French Chef_ were broadcast. 
 Series 1 of _The French Chef_ was broadcast from 1963-1966 and was originally shot in the WGBH studio in black and white with over 100 episodes. _The French Chef_ series continued with Series 2 in 1970; it was shot in color and featured Julia Child's summer trip to France. Series 3, shot in 1972, offered French culinary classics and programs which focused on the theme of the "French Chef faces real life" with episodes like _Sudden Company_. 
 
-**Joyce Chen, Theonie, The Romagnolis, Beatrice Trum Hunter (1966–1975)**
+**Joyce Chen, Theonie Mark, The Romagnolis, Beatrice Trum Hunter (1966–1975)**
 
 The _Joyce Chen Cooks_ 26-part series featured Chinese chef, cookbook author, and local restauranteur Joyce Chen who introduced a more exotic cuisine to the American public, including Peking Ravioli. Shot on the same set as _The French Chef_ with the same producer, _Joyce Chen Cooks_ did not continue beyond the first season. However, a one-off special was produced in 1973, entitled _Joyce Chen's China_ which chronicled Joyce Chen and her children's visit to the People's Republic of China in 1973.
 
