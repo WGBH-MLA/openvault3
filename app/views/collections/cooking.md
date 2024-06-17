@@ -29,7 +29,7 @@ _The Romagnolis Table_ was the next cooking series produced by WGBH which ran fr
 
 In 1973, WGBH produced 16 short "fillers" with cookbook author Beatrice Trum Hunter who focused on the natural food craze that prevailed in the 1970s. These fillers were broadcast in between longer WGBH programs. Beatrice Trum Hunter was credited with writing the first natural food cookbook in 1961 and another natural food cookbook in 1972. Her short videos were 2-3 minutes in length and aired in between longer programs first on WGBH, then on national public television. In them, Ms. Hunter covered such topics as how to grow bean sprouts, healthy snacks, and nutrition. 
 
-**Julia Child, Martha Stewart, and Yara Roberts (1978–1993)**
+**Julia Child, Martha Stewart, Sheryl Julian, and Yara Roberts (1978–1993)**
 
 In 1978, Julia Child officially returned to WGBH and public television after a five-year hiatus with _Julia Child and Company_, and _Julia Child and More Company_ (1978-1980). The new series presented an entire menu to viewers instead of just one recipe. The menus drew from a wide variety of cooking traditions, including New England fare, stir fries, and homemade pasta. Each of these series had 13 programs. 
 
@@ -37,7 +37,7 @@ The next Julia Child series, _Dinner at Julia's_ (1983-1984) was built around a 
 
 In 1986, a young Martha Stewart appeared for the first and only time on WGBH in a Thanksgiving special entitled _Holiday Entertaining with Martha Stewart_. 
 
-Finally, in 1993, WGBH launched a new series, _Cooks Tour_, with host Yara Roberts which explored international cuisine, such as Brazilian, Indian, Vietnamese, and other culinary traditions. Yara Roberts was a Brazilian chef and cookbook author. This 10-part series launched with the pilot _Brazilian Style_.
+In 1990, WGBH created a pilot program, _Cook's Tour_, hosted by Sheryl Julian, cookbook author and food writer for _The Boston Globe_. The pilot explored Brazilian cuisine with chef Yara Roberts and her mother. The subsequent 10-part series _Cook's Tour_ explored international cuisines, such as Indian, Vietnamese, Russian, and other culinary traditions, and premiered in 1993. Series host Yara Roberts was a Brazilian chef and cookbook author.
 
 ## The French Chef
 
