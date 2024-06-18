@@ -37,7 +37,7 @@ The next Julia Child series, _Dinner at Julia's_ (1983-1984) was built around a 
 
 In 1986, a young Martha Stewart appeared for the first and only time on WGBH in a Thanksgiving special entitled _Holiday Entertaining with Martha Stewart_. 
 
-In 1990, WGBH created a pilot program, _Cook's Tour_, hosted by Sheryl Julian, cookbook author and food writer for _The Boston Globe_. The pilot explored Brazilian cuisine with chef Yara Roberts and her mother, Carmelita de Castro. The subsequent 10-part series _Cook's Tour_ premiered in 1993, and explored international cuisines, such as Indian, Vietnamese, Russian, and other culinary traditions. The series was hosted by Yara Roberts, a Brazilian chef and cookbook author.
+In 1990, WGBH created a pilot program, _Cook's Tour_, hosted by Sheryl Julian, cookbook author and food writer for _The Boston Globe_. The pilot explored Brazilian cuisine with chef Yara Roberts and her mother, Carmelita de Castro. The subsequent 10-part series _Cook's Tour_ premiered in 1993, and explored international cuisines, such as Indian, Vietnamese, Russian, and American regional specialties. The series was hosted by Yara Roberts, a Brazilian chef and cookbook author.
 
 ## The French Chef
 
