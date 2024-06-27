@@ -89,4 +89,4 @@ In 1990, WGBH created a pilot program, _Cook's Tour_, hosted by Sheryl Julian, c
 
 ## Credits
 
-The GBH Cooking Collection was made possible through the generous support from donors as part of the GBH Archives NEH Challenge grant. Most programs in this collection were digitized between 2020 and 2024. Collection introduction and background written by Alison Smith.
+The GBH Cooking Collection was made possible through generous support from Myrna Putziger as part of the GBH Archives NEH Challenge grant. Most programs in this collection were digitized between 2020 and 2024. Collection introduction and background written by Alison Smith.
