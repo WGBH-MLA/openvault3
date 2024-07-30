@@ -40,6 +40,4 @@ A gift in support of Open Vault, leveraged by the NEH Challenge grant currently 
 
 Read the entire Case for Support <a href="https://s3.amazonaws.com/openvault.wgbh.org/resources/case_for_support.pdf" target="_blank">here</a>.
 
-If you are interested in supporting Open Vault and the NEH challenge currently underway, please contact Tatiana Espinal, Major Gifts Officer, at tatiana_espinal@wgbh.org or 617.300.3677.
-
 GBH is a 501(c)(3) nonprofit organization. All donations are tax deductible to the extent allowable by law.
