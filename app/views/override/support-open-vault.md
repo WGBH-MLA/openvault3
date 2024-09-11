@@ -14,9 +14,6 @@ Improve our website with new features and improve functionality and discoverabil
 Sustain Open Vault technical infrastructure so that we can continue to provide online access to the collection
 GBH is a 501(c)(3) nonprofit organization. All donations are tax deductible.
 
-Make a Donation Now
-
-<iframe src="https://api.payaconnect.com/hostedpaymentpage?id=11ed11d177ecde90ae1ced45&data=U2FsdGVkX18xMWVkMTFkMT98lDM2IcMjGWeQ%2ByxT5G4sMzxYs%2F8wxnpJUrV2pwGPzZ79umhpPhQfkOk9FJzvjA%3D%3D" height="500" width="auto" title="Iframe Example"></iframe>
 
 If you wish to pay by check, please make it payable to "WGBH Educational Foundation" and mail your donation to:
 
@@ -27,6 +24,8 @@ One Guest Street
 Boston, MA 02135
 
 Thank you for your support!
+
+_Online donation platform coming soon._
 
 ## NEH Challenge
 In 2018, GBH received a $750,000 challenge grant from the National Endowment for the Humanities (NEH) to preserve and digitize the most at-risk items in the GBH archival collection, specifically 83,000 media resources. This effort will preserve the archive we have built and ensure that future media assets are properly preserved as they are created. The grant calls for a 4:1 match, or $3 million in matching dollars over the next four years.
