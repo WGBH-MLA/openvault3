@@ -54,7 +54,7 @@ gem 'cmless', '1.0.0'
 gem 'htmlentities', '~> 4.3.2'
 gem 'curb' # curl
 
-gem 'blacklight', '~> 5.11.1'
+gem 'blacklight', git: 'https://github.com/WGBH-MLA/blacklight', branch: '5.11.3-dont-save-searches'
 gem 'solrizer'
 gem 'rsolr'
 gem 'jettywrapper'
